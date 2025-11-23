@@ -1,0 +1,1808 @@
+{
+  "1": [
+    {
+      "id": 1,
+      "s_no": 1,
+      "word": "Somnambulist",
+      "meaning_en": "A person who walks about in their sleep.",
+      "meaning_hi": "नींद में चलनेवाला",
+      "usage_sentences": [
+        "The clinic treats patients who are somnambulists.",
+        "Shakespeare's Lady Macbeth is a famous fictional somnambulist."
+      ],
+      "origin": "From Latin 'somnus' (sleep) and 'ambulare' (to walk)."
+    },
+    {
+      "id": 2,
+      "s_no": 2,
+      "word": "Omnipresent",
+      "meaning_en": "Present everywhere at the same time.",
+      "meaning_hi": "सर्वव्यापी",
+      "usage_sentences": [
+        "To a child, a loving mother is an omnipresent force.",
+        "The problem of pollution has become omnipresent in the modern world."
+      ],
+      "origin": "From Latin 'omni-' (all) and 'praesens' (present)."
+    },
+    {
+      "id": 3,
+      "s_no": 3,
+      "word": "Polyglot",
+      "meaning_en": "A person who knows and is able to use several languages.",
+      "meaning_hi": "बहुभाषी",
+      "usage_sentences": [
+        "The tour guide was a polyglot, fluently switching between languages.",
+        "As a polyglot, she found it easy to work for international organizations."
+      ],
+      "origin": "From Greek 'poluglōssos', from 'polus' (many) and 'glōssa' (tongue)."
+    },
+    {
+      "id": 4,
+      "s_no": 4,
+      "word": "Misanthrope",
+      "meaning_en": "A person who dislikes humankind and avoids human society.",
+      "meaning_hi": "मानवद्वेषी",
+      "usage_sentences": [
+        "After years of betrayal, he became a bitter misanthrope.",
+        "The main character is a wealthy misanthrope who prefers books."
+      ],
+      "origin": "From Greek 'misanthrōpos', from 'misein' (to hate) and 'anthrōpos' (man)."
+    },
+    {
+      "id": 5,
+      "s_no": 5,
+      "word": "Philanthropist",
+      "meaning_en": "A person who seeks to promote the welfare of others, especially by generous donations.",
+      "meaning_hi": "परोपकारी",
+      "usage_sentences": [
+        "The new hospital wing was funded by a wealthy philanthropist.",
+        "She was a noted philanthropist, dedicating her fortune to education."
+      ],
+      "origin": "From Greek 'philanthrōpos', from 'philos' (loving) and 'anthrōpos' (man)."
+    },
+    {
+      "id": 6,
+      "s_no": 6,
+      "word": "Bibliophile",
+      "meaning_en": "A person who collects or has a great love of books.",
+      "meaning_hi": "पुस्तक-प्रेमी",
+      "usage_sentences": [
+        "His massive library was a clear indication he was a true bibliophile.",
+        "The old bibliophile spent weekends searching for rare first editions."
+      ],
+      "origin": "From Greek 'biblion' (book) and 'philos' (loving)."
+    },
+    {
+      "id": 7,
+      "s_no": 7,
+      "word": "Infallible",
+      "meaning_en": "Incapable of making mistakes or being wrong.",
+      "meaning_hi": "अचूक",
+      "usage_sentences": [
+        "While he is a great expert, his advice is not infallible.",
+        "The new computer system was marketed as being completely infallible."
+      ],
+      "origin": "From late Latin 'infallibilis', from 'in-' (not) and 'fallibilis' (liable to err)."
+    },
+    {
+      "id": 8,
+      "s_no": 8,
+      "word": "Inevitable",
+      "meaning_en": "Certain to happen; unavoidable.",
+      "meaning_hi": "अपरिहार्य",
+      "usage_sentences": [
+        "With those dark clouds gathering, rain seems inevitable.",
+        "Change is an inevitable part of life."
+      ],
+      "origin": "From Latin 'inevitabilis', from 'in-' (not) and 'evitabilis' (avoidable)."
+    },
+    {
+      "id": 9,
+      "s_no": 9,
+      "word": "Gourmet",
+      "meaning_en": "A connoisseur of good food; a person with a discerning palate.",
+      "meaning_hi": "उत्तम आहार का पारखी",
+      "usage_sentences": [
+        "The restaurant is a favorite among local gourmets.",
+        "He considered himself a gourmet, delighting in exotic meals."
+      ],
+      "origin": "French, originally meaning 'wine taster'."
+    },
+    {
+      "id": 10,
+      "s_no": 10,
+      "word": "Teetotaler",
+      "meaning_en": "A person who never drinks alcohol.",
+      "meaning_hi": "मद्यत्यागी",
+      "usage_sentences": [
+        "He was a strict teetotaler and only drank water at parties.",
+        "The organization was founded by a group of dedicated teetotalers."
+      ],
+      "origin": "From the mid-19th century, from the emphatic use of the letter 'T' in 'total'."
+    },
+    {
+      "id": 11,
+      "s_no": 11,
+      "word": "Stoic",
+      "meaning_en": "A person who can endure pain or hardship without showing their feelings or complaining.",
+      "meaning_hi": "उदासीन",
+      "usage_sentences": [
+        "She remained a stoic throughout her long illness.",
+        "The old soldier had a stoic expression on his face as he received the news."
+      ],
+      "origin": "From Greek 'Stōïkos', referring to the 'Stoa Poikilē' in Athens where Zeno taught."
+    },
+    {
+      "id": 12,
+      "s_no": 12,
+      "word": "Altruist",
+      "meaning_en": "A person who has a selfless concern for the well-being of others.",
+      "meaning_hi": "परोपकारी",
+      "usage_sentences": [
+        "The nurse was a true altruist, often working extra shifts without pay.",
+        "An altruist by nature, she dedicated her life to helping the homeless."
+      ],
+      "origin": "From French 'altruisme', formed from Italian 'altrui' (of others)."
+    },
+    {
+      "id": 13,
+      "s_no": 13,
+      "word": "Fastidious",
+      "meaning_en": "Very attentive to and concerned about accuracy and detail.",
+      "meaning_hi": "दुराराध्य",
+      "usage_sentences": [
+        "He was a fastidious writer, often spending hours on a single sentence.",
+        "Her fastidious attention to detail made her an excellent editor."
+      ],
+      "origin": "From Latin 'fastidiosus', from 'fastidium' (loathing)."
+    },
+    {
+      "id": 14,
+      "s_no": 14,
+      "word": "Incorrigible",
+      "meaning_en": "A person or their tendencies not able to be corrected, improved, or reformed.",
+      "meaning_hi": "असुधार्य",
+      "usage_sentences": [
+        "He is an incorrigible flirt who will never settle down.",
+        "The student was an incorrigible prankster, constantly disrupting the class."
+      ],
+      "origin": "From Latin 'incorrigibilis', from 'in-' (not) and 'corrigere' (to correct)."
+    },
+    {
+      "id": 15,
+      "s_no": 15,
+      "word": "Panacea",
+      "meaning_en": "A solution or remedy for all difficulties or diseases.",
+      "meaning_hi": "रामबाण",
+      "usage_sentences": [
+        "Technology is not a panacea for all our problems.",
+        "He was searching for a panacea that would solve the company's financial woes."
+      ],
+      "origin": "From Greek 'panakeia', from 'pan-' (all) and 'akos' (remedy)."
+    },
+    {
+      "id": 16,
+      "s_no": 16,
+      "word": "Gregarious",
+      "meaning_en": "A person fond of company; sociable.",
+      "meaning_hi": "मिलनसार",
+      "usage_sentences": [
+        "He was a popular and gregarious man, always surrounded by friends.",
+        "Dolphins are gregarious animals that live in large pods."
+      ],
+      "origin": "From Latin 'gregarius', from 'grex' (a flock)."
+    },
+    {
+      "id": 17,
+      "s_no": 17,
+      "word": "Atheist",
+      "meaning_en": "A person who disbelieves or lacks belief in the existence of God or gods.",
+      "meaning_hi": "नास्तिक",
+      "usage_sentences": [
+        "As an atheist, he did not participate in any religious ceremonies.",
+        "The famous author was a vocal atheist and often wrote about her views."
+      ],
+      "origin": "From Greek 'atheos', from 'a-' (without) and 'theos' (god)."
+    },
+    {
+      "id": 18,
+      "s_no": 18,
+      "word": "Connoisseur",
+      "meaning_en": "An expert judge in matters of taste.",
+      "meaning_hi": "विशेषज्ञ",
+      "usage_sentences": [
+        "She is a connoisseur of fine wines.",
+        "The art gallery relied on the connoisseur to verify the painting's authenticity."
+      ],
+      "origin": "From French, from 'connaître' (to know)."
+    },
+    {
+      "id": 19,
+      "s_no": 19,
+      "word": "Ambivert",
+      "meaning_en": "A person whose personality has a balance of extrovert and introvert features.",
+      "meaning_hi": "उभयमुखी",
+      "usage_sentences": [
+        "As an ambivert, she enjoys social gatherings but also needs her quiet time alone.",
+        "Most people are not pure introverts or extroverts, but rather fall in the ambivert spectrum."
+      ],
+      "origin": "From Latin 'ambi-' (on both sides) and 'vertere' (to turn)."
+    },
+    {
+      "id": 20,
+      "s_no": 20,
+      "word": "Plutocracy",
+      "meaning_en": "A government by the wealthy.",
+      "meaning_hi": "धनिक-तंत्र",
+      "usage_sentences": [
+        "Critics argue that the country is becoming a plutocracy.",
+        "A plutocracy can lead to policies that benefit the wealthy."
+      ],
+      "origin": "From Greek 'ploutokratia', from 'ploutos' (wealth) and 'kratos' (rule)."
+    },
+    {
+      "id": 21,
+      "s_no": 21,
+      "word": "Anarchy",
+      "meaning_en": "A state of disorder due to absence of authority.",
+      "meaning_hi": "अराजकता",
+      "usage_sentences": [
+        "The country descended into anarchy after the government collapsed.",
+        "Without a leader, the project team fell into a state of anarchy."
+      ],
+      "origin": "From Greek 'anarkhia', from 'an-' (without) and 'arkhos' (chief)."
+    },
+    {
+      "id": 22,
+      "s_no": 22,
+      "word": "Omnipotent",
+      "meaning_en": "Having unlimited power; able to do anything.",
+      "meaning_hi": "सर्वशक्तिमान",
+      "usage_sentences": [
+        "In many mythologies, the supreme deity is described as omnipotent.",
+        "The dictator sought to become an omnipotent ruler."
+      ],
+      "origin": "From Latin 'omni-' (all) and 'potens' (powerful)."
+    },
+    {
+      "id": 23,
+      "s_no": 23,
+      "word": "Omniscient",
+      "meaning_en": "Knowing everything.",
+      "meaning_hi": "सर्वज्ञ",
+      "usage_sentences": [
+        "The novel is told from the perspective of an omniscient narrator.",
+        "If I were omniscient, I would know the winning lottery numbers."
+      ],
+      "origin": "From Latin 'omni-' (all) and 'scire' (to know)."
+    },
+    {
+      "id": 24,
+      "s_no": 24,
+      "word": "Edible",
+      "meaning_en": "Fit to be eaten.",
+      "meaning_hi": "खाने योग्य",
+      "usage_sentences": [
+        "Not all mushrooms are edible; some are highly poisonous.",
+        "The chef decorated the cake with edible flowers."
+      ],
+      "origin": "From late Latin 'edibilis', from 'edere' (to eat)."
+    },
+    {
+      "id": 25,
+      "s_no": 25,
+      "word": "Illegible",
+      "meaning_en": "Not clear enough to be read.",
+      "meaning_hi": "अपठनीय",
+      "usage_sentences": [
+        "The doctor's handwriting was completely illegible.",
+        "Years of weathering had made the inscription on the tombstone illegible."
+      ],
+      "origin": "From Latin 'illegibilis', from 'in-' (not) and 'legibilis' (readable)."
+    },
+    {
+      "id": 26,
+      "s_no": 26,
+      "word": "Indelible",
+      "meaning_en": "Not able to be forgotten or removed.",
+      "meaning_hi": "अमिट",
+      "usage_sentences": [
+        "The experience left an indelible mark on his memory.",
+        "She used an indelible marker to sign the photograph."
+      ],
+      "origin": "From Latin 'indelebilis', from 'in-' (not) and 'delebilis' (destructible)."
+    },
+    {
+      "id": 27,
+      "s_no": 27,
+      "word": "Invincible",
+      "meaning_en": "Too powerful to be defeated or overcome.",
+      "meaning_hi": "अजेय",
+      "usage_sentences": [
+        "The champion boxer seemed invincible until his final match.",
+        "With their advanced technology, the army appeared invincible."
+      ],
+      "origin": "From Latin 'invincibilis', from 'in-' (not) and 'vincere' (to conquer)."
+    },
+    {
+      "id": 28,
+      "s_no": 28,
+      "word": "Potable",
+      "meaning_en": "Safe to drink.",
+      "meaning_hi": "पेय",
+      "usage_sentences": [
+        "The mountain stream provided fresh, potable water.",
+        "After the flood, finding potable water became a major challenge."
+      ],
+      "origin": "From late Latin 'potabilis', from 'potare' (to drink)."
+    },
+    {
+      "id": 29,
+      "s_no": 29,
+      "word": "Audible",
+      "meaning_en": "Able to be heard.",
+      "meaning_hi": "श्रव्य",
+      "usage_sentences": [
+        "He spoke so softly that his voice was barely audible.",
+        "The sound of the distant thunder was clearly audible."
+      ],
+      "origin": "From late Latin 'audibilis', from 'audire' (to hear)."
+    },
+    {
+      "id": 30,
+      "s_no": 30,
+      "word": "Monogamy",
+      "meaning_en": "The practice of being married to one person at a time.",
+      "meaning_hi": "एकविवाह",
+      "usage_sentences": [
+        "Many cultures practice monogamy as the standard for relationships.",
+        "The swans are known for their lifelong monogamy."
+      ],
+      "origin": "From Greek 'monogamia', from 'monos' (single) and 'gamos' (marriage)."
+    },
+    {
+      "id": 31,
+      "s_no": 31,
+      "word": "Polygamy",
+      "meaning_en": "The practice of having more than one spouse at the same time.",
+      "meaning_hi": "बहुविवाह",
+      "usage_sentences": [
+        "Polygamy is legal in some parts of the world.",
+        "The documentary explored the lives of families in a polygamy."
+      ],
+      "origin": "From Greek 'polugamia', from 'polus' (many) and 'gamos' (marriage)."
+    },
+    {
+      "id": 32,
+      "s_no": 32,
+      "word": "Egoist",
+      "meaning_en": "A person who is self-centered or selfish.",
+      "meaning_hi": "अहंवादी",
+      "usage_sentences": [
+        "The egoist cared only about his own success, not the team's.",
+        "His constant boasting revealed him to be a true egoist."
+      ],
+      "origin": "From Latin 'ego' (I)."
+    },
+    {
+      "id": 33,
+      "s_no": 33,
+      "word": "Fatalist",
+      "meaning_en": "Someone who believes that all events are predetermined and therefore inevitable.",
+      "meaning_hi": "भाग्यवादी",
+      "usage_sentences": [
+        "As a fatalist, he accepted his misfortunes without complaint.",
+        "A fatalist believes there's no point in trying to change the future."
+      ],
+      "origin": "From Latin 'fatalis', from 'fatum' (fate)."
+    },
+    {
+      "id": 34,
+      "s_no": 34,
+      "word": "Optimist",
+      "meaning_en": "A person who tends to be hopeful and confident about the future.",
+      "meaning_hi": "आशावादी",
+      "usage_sentences": [
+        "Even in difficult times, she remained a steadfast optimist.",
+        "An optimist sees the glass as half full."
+      ],
+      "origin": "From Latin 'optimum' (best thing)."
+    },
+    {
+      "id": 35,
+      "s_no": 35,
+      "word": "Pessimist",
+      "meaning_en": "A person who tends to see the worst aspect of things or believe that the worst will happen.",
+      "meaning_hi": "निराशावादी",
+      "usage_sentences": [
+        "The pessimist was sure they would miss their flight.",
+        "He was too much of a pessimist to enjoy the surprise party."
+      ],
+      "origin": "From Latin 'pessimus' (worst)."
+    },
+    {
+      "id": 36,
+      "s_no": 36,
+      "word": "Claustrophobia",
+      "meaning_en": "Extreme or irrational fear of confined places.",
+      "meaning_hi": "संवृत-भीति",
+      "usage_sentences": [
+        "His claustrophobia made it impossible for him to ride in an elevator.",
+        "She felt a wave of claustrophobia in the crowded subway car."
+      ],
+      "origin": "From Latin 'claustrum' (a bolt, a place shut in) + '-phobia'."
+    },
+    {
+      "id": 37,
+      "s_no": 37,
+      "word": "Acquiesce",
+      "meaning_en": "Accept something reluctantly but without protest.",
+      "meaning_hi": "चुपचाप स्वीकार करना",
+      "usage_sentences": [
+        "She will acquiesce in any decision he makes.",
+        "The rebels were forced to acquiesce to the terms of the treaty."
+      ],
+      "origin": "From Latin 'acquiescere', meaning 'to find rest in'."
+    },
+    {
+      "id": 38,
+      "s_no": 38,
+      "word": "Alleviate",
+      "meaning_en": "Make (suffering, deficiency, or a problem) less severe.",
+      "meaning_hi": "कम करना",
+      "usage_sentences": [
+        "He couldn't prevent her pain, only alleviate it.",
+        "The medicine is designed to alleviate symptoms."
+      ],
+      "origin": "From late Latin 'alleviare', from 'ad-' (to) + 'levis' (light)."
+    },
+    {
+      "id": 39,
+      "s_no": 39,
+      "word": "Amalgamate",
+      "meaning_en": "Combine or unite to form one organization or structure.",
+      "meaning_hi": "मिलाना",
+      "usage_sentences": [
+        "The two companies plan to amalgamate next year.",
+        "He amalgamated his collection of stamps with hers."
+      ],
+      "origin": "From medieval Latin 'amalgamare'."
+    },
+    {
+      "id": 40,
+      "s_no": 40,
+      "word": "Ameliorate",
+      "meaning_en": "Make (something bad or unsatisfactory) better.",
+      "meaning_hi": "सुधारना",
+      "usage_sentences": [
+        "The new policies are intended to ameliorate the effects of the recession.",
+        "He wanted to ameliorate the present suffering."
+      ],
+      "origin": "From French 'améliorer', from 'meilleur' (better)."
+    },
+    {
+      "id": 41,
+      "s_no": 41,
+      "word": "Anachronism",
+      "meaning_en": "A thing belonging or appropriate to a period other than that in which it exists.",
+      "meaning_hi": "कालभ्रम",
+      "usage_sentences": [
+        "The sword is an anachronism in modern warfare.",
+        "Her old-fashioned ideas were an anachronism in the modern world."
+      ],
+      "origin": "From Greek 'anakhronismos', from 'ana-' (backwards) + 'khronos' (time)."
+    },
+    {
+      "id": 42,
+      "s_no": 42,
+      "word": "Arboreal",
+      "meaning_en": "Living in trees; relating to trees.",
+      "meaning_hi": "वृक्षवासी",
+      "usage_sentences": [
+        "Monkeys are arboreal animals.",
+        "The biologist studied the arboreal habitats of the rainforest."
+      ],
+      "origin": "From Latin 'arbor' (tree)."
+    },
+    {
+      "id": 43,
+      "s_no": 43,
+      "word": "Assuage",
+      "meaning_en": "Make (an unpleasant feeling) less intense.",
+      "meaning_hi": "शांत करना",
+      "usage_sentences": [
+        "The letter assuaged the fears of most members.",
+        "He tried to assuage the guilt of wrongdoing by doing right."
+      ],
+      "origin": "From Old French 'assouagier', based on Latin 'ad-' (to) + 'suavis' (sweet)."
+    },
+    {
+      "id": 44,
+      "s_no": 44,
+      "word": "Audacious",
+      "meaning_en": "Showing a willingness to take surprisingly bold risks.",
+      "meaning_hi": "साहसी",
+      "usage_sentences": [
+        "It was an audacious plan to cross the mountains in winter.",
+        "The audacious girl climbed the tallest tree in the park."
+      ],
+      "origin": "From Latin 'audax' (bold)."
+    },
+    {
+      "id": 45,
+      "s_no": 45,
+      "word": "Avarice",
+      "meaning_en": "Extreme greed for wealth or material gain.",
+      "meaning_hi": "लालच",
+      "usage_sentences": [
+        "He was driven by avarice.",
+        "The corporate world is often criticized for its avarice."
+      ],
+      "origin": "From Latin 'avaritia', from 'avarus' (greedy)."
+    },
+    {
+      "id": 46,
+      "s_no": 46,
+      "word": "Bellicose",
+      "meaning_en": "Demonstrating aggression and willingness to fight.",
+      "meaning_hi": "लड़ाकू",
+      "usage_sentences": [
+        "The bellicose hockey player was always getting into fights.",
+        "His bellicose attitude was not appreciated by his colleagues."
+      ],
+      "origin": "From Latin 'bellicosus', from 'bellum' (war)."
+    },
+    {
+      "id": 47,
+      "s_no": 47,
+      "word": "Blasphemy",
+      "meaning_en": "The act or offense of speaking sacrilegiously about God or sacred things.",
+      "meaning_hi": "ईश-निंदा",
+      "usage_sentences": [
+        "He was accused of blasphemy for his controversial new book.",
+        "In some countries, blasphemy is a serious crime."
+      ],
+      "origin": "From Greek 'blasphemia' (profane speech)."
+    },
+    {
+      "id": 48,
+      "s_no": 48,
+      "word": "Boisterous",
+      "meaning_en": "Noisy, energetic, and cheerful; rowdy.",
+      "meaning_hi": "ऊधमी",
+      "usage_sentences": [
+        "A large and boisterous crowd attended the concert.",
+        "The boisterous children were running and shouting in the playground."
+      ],
+      "origin": "Middle English, of unknown origin."
+    },
+    {
+      "id": 49,
+      "s_no": 49,
+      "word": "Calligraphy",
+      "meaning_en": "The art of producing decorative handwriting or lettering with a pen or brush.",
+      "meaning_hi": "सुलेख",
+      "usage_sentences": [
+        "The wedding invitations were written in beautiful calligraphy.",
+        "He studied calligraphy for many years to perfect his script."
+      ],
+      "origin": "From Greek 'kalligraphia', from 'kallos' (beauty) + 'graphein' (to write)."
+    },
+    {
+      "id": 50,
+      "s_no": 50,
+      "word": "Capricious",
+      "meaning_en": "Given to sudden and unaccountable changes of mood or behavior.",
+      "meaning_hi": "मनमौजी",
+      "usage_sentences": [
+        "The capricious weather made it difficult to plan the picnic.",
+        "He was a capricious and unreliable friend."
+      ],
+      "origin": "From Italian 'capriccioso', from 'capriccio' (whim)."
+    }
+  ],
+  "2": [
+    {
+      "id": 51,
+      "s_no": 1,
+      "word": "Catalyst",
+      "meaning_en": "A substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+      "meaning_hi": "उत्प्रेरक",
+      "usage_sentences": [
+        "The enzyme acted as a catalyst in the reaction.",
+        "His speech was the catalyst for the protest."
+      ],
+      "origin": "From Greek 'katalusis', from 'kataluein' (to dissolve)."
+    },
+    {
+      "id": 52,
+      "s_no": 2,
+      "word": "Circumlocution",
+      "meaning_en": "The use of many words where fewer would do, especially in a deliberate attempt to be vague or evasive.",
+      "meaning_hi": "शब्द-बाहुल्य",
+      "usage_sentences": [
+        "The politician's speech was full of circumlocution.",
+        "I hate the circumlocution of legal documents."
+      ],
+      "origin": "From Latin 'circum-' (around) + 'locutio' (speaking)."
+    },
+    {
+      "id": 53,
+      "s_no": 3,
+      "word": "Cognizant",
+      "meaning_en": "Having knowledge or being aware of.",
+      "meaning_hi": "संज्ञान में",
+      "usage_sentences": [
+        "He was cognizant of the risks involved.",
+        "She was not cognizant of her own biases."
+      ],
+      "origin": "From Latin 'cognoscere' (to know)."
+    },
+    {
+      "id": 54,
+      "s_no": 4,
+      "word": "Conundrum",
+      "meaning_en": "A confusing and difficult problem or question.",
+      "meaning_hi": "पहेली",
+      "usage_sentences": [
+        "The team was faced with a difficult conundrum.",
+        "How to solve this problem is a real conundrum."
+      ],
+      "origin": "Late 16th century, of unknown origin."
+    },
+    {
+      "id": 55,
+      "s_no": 5,
+      "word": "Credulous",
+      "meaning_en": "Having or showing too great a readiness to believe things.",
+      "meaning_hi": "आशुविश्वासी",
+      "usage_sentences": [
+        "The credulous man was easily tricked by the scam artist.",
+        "Credulous people are often the victims of hoaxes."
+      ],
+      "origin": "From Latin 'credulus', from 'credere' (to believe)."
+    },
+    {
+      "id": 56,
+      "s_no": 6,
+      "word": "Cynic",
+      "meaning_en": "A person who believes that people are motivated purely by self-interest rather than acting for honorable or unselfish reasons.",
+      "meaning_hi": "निंदक",
+      "usage_sentences": [
+        "A cynic might say that the charity is just a way to get tax breaks.",
+        "He's too much of a cynic to believe in true love."
+      ],
+      "origin": "From Greek 'kunikos' (dog-like), from 'kuōn' (dog)."
+    },
+    {
+      "id": 57,
+      "s_no": 7,
+      "word": "Deleterious",
+      "meaning_en": "Causing harm or damage.",
+      "meaning_hi": "हानिकारक",
+      "usage_sentences": [
+        "Smoking has a deleterious effect on your health.",
+        "The new policy had a deleterious impact on the environment."
+      ],
+      "origin": "From Greek 'dēlētērios' (noxious)."
+    },
+    {
+      "id": 58,
+      "s_no": 8,
+      "word": "Demagogue",
+      "meaning_en": "A political leader who seeks support by appealing to popular desires and prejudices rather than by using rational argument.",
+      "meaning_hi": "जनोत्तेजक नेता",
+      "usage_sentences": [
+        "The demagogue used fear to control the people.",
+        "His speeches were full of the rhetoric of a demagogue."
+      ],
+      "origin": "From Greek 'dēmagōgos', from 'dēmos' (the people) + 'agōgos' (leading)."
+    },
+    {
+      "id": 59,
+      "s_no": 9,
+      "word": "Didactic",
+      "meaning_en": "Intended to teach, particularly in having moral instruction as an ulterior motive.",
+      "meaning_hi": "शिक्षाप्रद",
+      "usage_sentences": [
+        "The novel was too didactic to be enjoyable.",
+        "He had a didactic way of speaking."
+      ],
+      "origin": "From Greek 'didaktikos', from 'didaskein' (to teach)."
+    },
+    {
+      "id": 60,
+      "s_no": 10,
+      "word": "Disparage",
+      "meaning_en": "Regard or represent as being of little worth.",
+      "meaning_hi": "नीचा दिखाना",
+      "usage_sentences": [
+        "He never missed an opportunity to disparage his competitors.",
+        "It is not fair to disparage the efforts of the volunteers."
+      ],
+      "origin": "From Old French 'desparagier' (marry someone of unequal rank)."
+    },
+    {
+      "id": 61,
+      "s_no": 11,
+      "word": "Ephemeral",
+      "meaning_en": "Lasting for a very short time.",
+      "meaning_hi": "अल्पकालिक",
+      "usage_sentences": [
+        "Fame in the world of pop music is largely ephemeral.",
+        "The beauty of the cherry blossoms is ephemeral."
+      ],
+      "origin": "From Greek 'ephēmeros' (lasting a day)."
+    },
+    {
+      "id": 62,
+      "s_no": 12,
+      "word": "Equanimity",
+      "meaning_en": "Mental calmness, composure, and evenness of temper, especially in a difficult situation.",
+      "meaning_hi": "समभाव",
+      "usage_sentences": [
+        "She accepted both the good and the bad with equanimity.",
+        "He faced the crisis with his usual equanimity."
+      ],
+      "origin": "From Latin 'aequanimitas', from 'aequus' (equal) + 'animus' (mind)."
+    },
+    {
+      "id": 63,
+      "s_no": 13,
+      "word": "Erudite",
+      "meaning_en": "Having or showing great knowledge or learning.",
+      "meaning_hi": "विद्वान",
+      "usage_sentences": [
+        "The erudite professor gave a fascinating lecture on ancient history.",
+        "She could turn any conversation into an erudite discussion."
+      ],
+      "origin": "From Latin 'eruditus', from 'erudire' (to instruct, train)."
+    },
+    {
+      "id": 64,
+      "s_no": 14,
+      "word": "Euphemism",
+      "meaning_en": "A mild or indirect word or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing.",
+      "meaning_hi": " euphuism",
+      "usage_sentences": [
+        "'Passed away' is a euphemism for 'died'.",
+        "The company used euphemisms to hide the fact that it was firing people."
+      ],
+      "origin": "From Greek 'euphemismos', from 'eu' (well) + 'phēmē' (speaking)."
+    },
+    {
+      "id": 65,
+      "s_no": 15,
+      "word": "Exacerbate",
+      "meaning_en": "Make (a problem, bad situation, or negative feeling) worse.",
+      "meaning_hi": "बदतर करना",
+      "usage_sentences": [
+        "The new law will only exacerbate the problem of unemployment.",
+        "His angry words exacerbated the already tense situation."
+      ],
+      "origin": "From Latin 'exacerbare', from 'ex-' (out, from) + 'acerbus' (harsh, bitter)."
+    },
+    {
+      "id": 66,
+      "s_no": 16,
+      "word": "Exculpate",
+      "meaning_en": "Show or declare that (someone) is not guilty of wrongdoing.",
+      "meaning_hi": "दोषमुक्त करना",
+      "usage_sentences": [
+        "The new evidence helped to exculpate the defendant.",
+        "He was exculpated of all charges."
+      ],
+      "origin": "From medieval Latin 'exculpare', from 'ex-' (out, from) + 'culpa' (blame)."
+    },
+    {
+      "id": 67,
+      "s_no": 17,
+      "word": "Exigent",
+      "meaning_en": "Pressing; demanding.",
+      "meaning_hi": "अत्यावश्यक",
+      "usage_sentences": [
+        "The exigent circumstances required immediate action.",
+        "He had to deal with the exigent needs of the refugees."
+      ],
+      "origin": "From Latin 'exigens', from 'exigere' (to demand)."
+    },
+    {
+      "id": 68,
+      "s_no": 18,
+      "word": "Extrapolate",
+      "meaning_en": "Extend the application of (a method or conclusion, especially one based on statistics) to an unknown situation by assuming that existing trends will continue.",
+      "meaning_hi": "बहिर्वेशन करना",
+      "usage_sentences": [
+        "We can extrapolate the future growth of the company from its past performance.",
+        "It is difficult to extrapolate from this small sample."
+      ],
+      "origin": "From 'extra-' (outside) + '(inter)polate'."
+    },
+    {
+      "id": 69,
+      "s_no": 19,
+      "word": "Fatuous",
+      "meaning_en": "Silly and pointless.",
+      "meaning_hi": "मूर्खतापूर्ण",
+      "usage_sentences": [
+        "He made a fatuous comment that annoyed everyone.",
+        "The fatuous grin on his face was irritating."
+      ],
+      "origin": "From Latin 'fatuus' (foolish)."
+    },
+    {
+      "id": 70,
+      "s_no": 20,
+      "word": "Flagrant",
+      "meaning_en": "(Of something considered wrong or immoral) conspicuously or obviously offensive.",
+      "meaning_hi": "खुला",
+      "usage_sentences": [
+        "It was a flagrant violation of the rules.",
+        "The politician's flagrant lie was caught on camera."
+      ],
+      "origin": "From Latin 'flagrans', from 'flagrare' (to blaze)."
+    },
+    {
+      "id": 71,
+      "s_no": 21,
+      "word": "Fortuitous",
+      "meaning_en": "Happening by accident or chance rather than design.",
+      "meaning_hi": "आकस्मिक",
+      "usage_sentences": [
+        "It was a fortuitous meeting that changed the course of her life.",
+        "The discovery of the new drug was purely fortuitous."
+      ],
+      "origin": "From Latin 'fortuitus', from 'forte' (by chance)."
+    },
+    {
+      "id": 72,
+      "s_no": 22,
+      "word": "Garrulous",
+      "meaning_en": "Excessively talkative, especially on trivial matters.",
+      "meaning_hi": "बातूनी",
+      "usage_sentences": [
+        "The garrulous old man told us his life story.",
+        "She was so garrulous that no one could get a word in edgewise."
+      ],
+      "origin": "From Latin 'garrulus' (talkative)."
+    },
+    {
+      "id": 73,
+      "s_no": 23,
+      "word": "Gesticulate",
+      "meaning_en": "Use gestures, especially dramatic ones, instead of speaking or to emphasize one's words.",
+      "meaning_hi": "इशारा करना",
+      "usage_sentences": [
+        "He gesticulated wildly to get our attention.",
+        "The speaker gesticulated with his hands to make his point."
+      ],
+      "origin": "From Latin 'gesticulari', from 'gesticulus' (a mimic gesture)."
+    },
+    {
+      "id": 74,
+      "s_no": 24,
+      "word": "Gourmand",
+      "meaning_en": "A person who enjoys eating and often eats too much.",
+      "meaning_hi": "पेटू",
+      "usage_sentences": [
+        "The gourmand ordered the largest steak on the menu.",
+        "He was a gourmand who loved rich, heavy food."
+      ],
+      "origin": "French, originally meaning 'glutton'."
+    },
+    {
+      "id": 75,
+      "s_no": 25,
+      "word": "Grandiloquent",
+      "meaning_en": "Pompous or extravagant in language, style, or manner, especially in a way that is intended to impress.",
+      "meaning_hi": "आडंबरपूर्ण",
+      "usage_sentences": [
+        "The politician's grandiloquent speech was full of empty promises.",
+        "He had a grandiloquent way of speaking that annoyed some people."
+      ],
+      "origin": "From Latin 'grandiloquus', from 'grandis' (grand) + 'loqui' (to speak)."
+    },
+    {
+      "id": 76,
+      "s_no": 26,
+      "word": "Gratuitous",
+      "meaning_en": "Done without good reason; uncalled for.",
+      "meaning_hi": "अनावश्यक",
+      "usage_sentences": [
+        "The film was criticized for its gratuitous violence.",
+        "She made a gratuitous comment that was completely unnecessary."
+      ],
+      "origin": "From Latin 'gratuitus' (given freely)."
+    },
+    {
+      "id": 77,
+      "s_no": 27,
+      "word": "Harangue",
+      "meaning_en": "A lengthy and aggressive speech.",
+      "meaning_hi": "उग्र भाषण",
+      "usage_sentences": [
+        "The politician delivered a long harangue against his opponents.",
+        "She was not in the mood for another harangue from her mother."
+      ],
+      "origin": "From Old French 'harangue'."
+    },
+    {
+      "id": 78,
+      "s_no": 28,
+      "word": "Hedonist",
+      "meaning_en": "A person who believes that the pursuit of pleasure is the most important thing in life; a pleasure-seeker.",
+      "meaning_hi": "सुखवादी",
+      "usage_sentences": [
+        "He was a hedonist who lived for the moment.",
+        "The hedonist spent his days in luxury and self-indulgence."
+      ],
+      "origin": "From Greek 'hēdonē' (pleasure)."
+    },
+    {
+      "id": 79,
+      "s_no": 29,
+      "word": "Heretic",
+      "meaning_en": "A person believing in or practicing religious heresy.",
+      "meaning_hi": "विधर्मी",
+      "usage_sentences": [
+        "The heretic was excommunicated from the church.",
+        "He was considered a heretic for questioning the established beliefs."
+      ],
+      "origin": "From Greek 'hairetikos' (able to choose)."
+    },
+    {
+      "id": 80,
+      "s_no": 30,
+      "word": "Hiatus",
+      "meaning_en": "A pause or gap in a sequence, series, or process.",
+      "meaning_hi": "अंतराल",
+      "usage_sentences": [
+        "The band is taking a hiatus from touring.",
+        "There was a brief hiatus in the conversation."
+      ],
+      "origin": "From Latin 'hiatus' (gaping)."
+    },
+    {
+      "id": 81,
+      "s_no": 31,
+      "word": "Histrionic",
+      "meaning_en": "Overly theatrical or melodramatic in character or style.",
+      "meaning_hi": "नाटकीय",
+      "usage_sentences": [
+        "She had a histrionic reaction to the news.",
+        "The actor's histrionic performance was not very convincing."
+      ],
+      "origin": "From Latin 'histrionicus', from 'histrio' (actor)."
+    },
+    {
+      "id": 82,
+      "s_no": 32,
+      "word": "Homily",
+      "meaning_en": "A religious discourse that is intended primarily for spiritual edification rather than doctrinal instruction; a sermon.",
+      "meaning_hi": "उपदेश",
+      "usage_sentences": [
+        "The priest delivered a homily on the importance of forgiveness.",
+        "She was tired of her father's homilies about the importance of hard work."
+      ],
+      "origin": "From Greek 'homilia' (discourse, conversation)."
+    },
+    {
+      "id": 83,
+      "s_no": 33,
+      "word": "Iconoclast",
+      "meaning_en": "A person who attacks cherished beliefs or institutions.",
+      "meaning_hi": "रूढ़िवादी",
+      "usage_sentences": [
+        "The artist was an iconoclast who challenged the traditional notions of beauty.",
+        "He was an iconoclast who was not afraid to speak his mind."
+      ],
+      "origin": "From Greek 'eikonoklastēs', from 'eikōn' (likeness) + 'klan' (to break)."
+    },
+    {
+      "id": 84,
+      "s_no": 34,
+      "word": "Idolatry",
+      "meaning_en": "The worship of idols.",
+      "meaning_hi": "मूर्तिपूजा",
+      "usage_sentences": [
+        "The ancient religion practiced idolatry.",
+        "The worship of celebrities is a modern form of idolatry."
+      ],
+      "origin": "From Greek 'eidōlolatria', from 'eidōlon' (idol) + 'latreia' (worship)."
+    },
+    {
+      "id": 85,
+      "s_no": 35,
+      "word": "Imminent",
+      "meaning_en": "About to happen.",
+      "meaning_hi": "आसन्न",
+      "usage_sentences": [
+        "The storm is imminent.",
+        "He was in imminent danger of being fired."
+      ],
+      "origin": "From Latin 'imminens', from 'imminere' (to overhang)."
+    },
+    {
+      "id": 86,
+      "s_no": 36,
+      "word": "Immutable",
+      "meaning_en": "Unchanging over time or unable to be changed.",
+      "meaning_hi": "अपरिवर्तनीय",
+      "usage_sentences": [
+        "The laws of physics are immutable.",
+        "Her decision to leave the company was immutable."
+      ],
+      "origin": "From Latin 'immutabilis', from 'in-' (not) + 'mutabilis' (changeable)."
+    },
+    {
+      "id": 87,
+      "s_no": 37,
+      "word": "Impassive",
+      "meaning_en": "Not feeling or showing emotion.",
+      "meaning_hi": "भावशून्य",
+      "usage_sentences": [
+        "He remained impassive as the verdict was read.",
+        "The poker player had an impassive expression on his face."
+      ],
+      "origin": "From Latin 'impassibilis', from 'in-' (not) + 'passibilis' (capable of feeling)."
+    },
+    {
+      "id": 88,
+      "s_no": 38,
+      "word": "Impecunious",
+      "meaning_en": "Having little or no money.",
+      "meaning_hi": "निर्धन",
+      "usage_sentences": [
+        "The impecunious student had to work two jobs to pay for his tuition.",
+        "He came from an impecunious family."
+      ],
+      "origin": "From Latin 'impecuniosus', from 'in-' (not) + 'pecuniosus' (wealthy)."
+    },
+    {
+      "id": 89,
+      "s_no": 39,
+      "word": "Imperious",
+      "meaning_en": "Assuming power or authority without justification; arrogant and domineering.",
+      "meaning_hi": "अभिमानी",
+      "usage_sentences": [
+        "The imperious manager was not well-liked by his employees.",
+        "She had an imperious way of speaking that made people feel small."
+      ],
+      "origin": "From Latin 'imperiosus', from 'imperium' (empire, authority)."
+    },
+    {
+      "id": 90,
+      "s_no": 40,
+      "word": "Impetuous",
+      "meaning_en": "Acting or done quickly and without thought or care.",
+      "meaning_hi": "अधीर",
+      "usage_sentences": [
+        "He made an impetuous decision that he later regretted.",
+        "She was an impetuous young woman who often got into trouble."
+      ],
+      "origin": "From Latin 'impetuosus', from 'impetus' (assault, impetus)."
+    },
+    {
+      "id": 91,
+      "s_no": 41,
+      "word": "Implacable",
+      "meaning_en": "Unable to be placated.",
+      "meaning_hi": "कठोर",
+      "usage_sentences": [
+        "He was an implacable enemy.",
+        "The implacable dictator refused to negotiate with the rebels."
+      ],
+      "origin": "From Latin 'implacabilis', from 'in-' (not) + 'placabilis' (easily pacified)."
+    },
+    {
+      "id": 92,
+      "s_no": 42,
+      "word": "Impugn",
+      "meaning_en": "Dispute the truth, validity, or honesty of (a statement or motive); call into question.",
+      "meaning_hi": "प्रतिवाद करना",
+      "usage_sentences": [
+        "He impugned the integrity of the witness.",
+        "The defense attorney tried to impugn the testimony of the prosecution's star witness."
+      ],
+      "origin": "From Latin 'impugnare', from 'in-' (towards) + 'pugnare' (to fight)."
+    },
+    {
+      "id": 93,
+      "s_no": 43,
+      "word": "Inchoate",
+      "meaning_en": "Just begun and so not fully formed or developed; rudimentary.",
+      "meaning_hi": "अपूर्ण",
+      "usage_sentences": [
+        "The inchoate idea for a new novel was slowly taking shape in her mind.",
+        "The project was still in its inchoate stages."
+      ],
+      "origin": "From Latin 'inchoatus', from 'inchoare' (to begin)."
+    },
+    {
+      "id": 94,
+      "s_no": 44,
+      "word": "Incise",
+      "meaning_en": "Mark or decorate (an object or surface) with a cut or a series of cuts.",
+      "meaning_hi": "काटना",
+      "usage_sentences": [
+        "The jeweler incised the ring with a beautiful design.",
+        "The ancient pottery was incised with geometric patterns."
+      ],
+      "origin": "From Latin 'incidere', from 'in-' (into) + 'caedere' (to cut)."
+    },
+    {
+      "id": 95,
+      "s_no": 45,
+      "word": "Indolent",
+      "meaning_en": "Wanting to avoid activity or exertion; lazy.",
+      "meaning_hi": "आलसी",
+      "usage_sentences": [
+        "The indolent cat slept all day.",
+        "He was an indolent student who never did his homework."
+      ],
+      "origin": "From Latin 'indolens', from 'in-' (not) + 'dolere' (to suffer pain)."
+    },
+    {
+      "id": 96,
+      "s_no": 46,
+      "word": "Inert",
+      "meaning_en": "Lacking the ability or strength to move.",
+      "meaning_hi": "निष्क्रिय",
+      "usage_sentences": [
+        "The inert body of the victim lay on the floor.",
+        "The economy was inert for several years."
+      ],
+      "origin": "From Latin 'iners', from 'in-' (not) + 'ars' (skill, art)."
+    },
+    {
+      "id": 97,
+      "s_no": 47,
+      "word": "Ingenuous",
+      "meaning_en": "(Of a person or action) innocent and unsuspecting.",
+      "meaning_hi": "सरल",
+      "usage_sentences": [
+        "She had an ingenuous smile that made everyone trust her.",
+        "The ingenuous young man was easily tricked by the con artist."
+      ],
+      "origin": "From Latin 'ingenuus' (native, free-born)."
+    },
+    {
+      "id": 98,
+      "s_no": 48,
+      "word": "Inimical",
+      "meaning_en": "Tending to obstruct or harm.",
+      "meaning_hi": "प्रतिकूल",
+      "usage_sentences": [
+        "The inimical policies of the government led to widespread protests.",
+        "He had an inimical attitude towards his colleagues."
+      ],
+      "origin": "From Latin 'inimicalis', from 'inimicus' (enemy)."
+    },
+    {
+      "id": 99,
+      "s_no": 49,
+      "word": "Innocuous",
+      "meaning_en": "Not harmful or offensive.",
+      "meaning_hi": "अहानिकर",
+      "usage_sentences": [
+        "The innocuous-looking snake was actually very poisonous.",
+        "He made an innocuous comment that was taken the wrong way."
+      ],
+      "origin": "From Latin 'innocuus', from 'in-' (not) + 'nocuus' (harmful)."
+    },
+    {
+      "id": 100,
+      "s_no": 50,
+      "word": "Insipid",
+      "meaning_en": "Lacking flavor.",
+      "meaning_hi": "फीका",
+      "usage_sentences": [
+        "The soup was insipid and tasteless.",
+        "The insipid conversation bored everyone."
+      ],
+      "origin": "From Latin 'insipidus', from 'in-' (not) + 'sapidus' (tasty)."
+    }
+  ],
+  "3": [
+    {
+      "id": 101,
+      "s_no": 1,
+      "word": "Insolvent",
+      "meaning_en": "Unable to pay debts owed.",
+      "meaning_hi": "दिवालिया",
+      "usage_sentences": [
+        "The company was declared insolvent.",
+        "He was in danger of becoming insolvent."
+      ],
+      "origin": "From Latin 'insolvens', from 'in-' (not) + 'solvens' (paying)."
+    },
+    {
+      "id": 102,
+      "s_no": 2,
+      "word": "Insular",
+      "meaning_en": "Ignorant of or uninterested in cultures, ideas, or peoples outside one's own experience.",
+      "meaning_hi": "संकीर्ण",
+      "usage_sentences": [
+        "The island community was very insular.",
+        "He had an insular view of the world."
+      ],
+      "origin": "From Latin 'insularis', from 'insula' (island)."
+    },
+    {
+      "id": 103,
+      "s_no": 3,
+      "word": "Intractable",
+      "meaning_en": "Hard to control or deal with.",
+      "meaning_hi": "अदम्य",
+      "usage_sentences": [
+        "The intractable problem of poverty has no easy solution.",
+        "The intractable child refused to listen to his parents."
+      ],
+      "origin": "From Latin 'intractabilis', from 'in-' (not) + 'tractabilis' (manageable)."
+    },
+    {
+      "id": 104,
+      "s_no": 4,
+      "word": "Intransigent",
+      "meaning_en": "Unwilling or refusing to change one's views or to agree about something.",
+      "meaning_hi": "हठी",
+      "usage_sentences": [
+        "The intransigent politician refused to compromise.",
+        "He was intransigent in his opposition to the new law."
+      ],
+      "origin": "From Spanish 'intransigente', from 'in-' (not) + 'transigente' (compromising)."
+    },
+    {
+      "id": 105,
+      "s_no": 5,
+      "word": "Inundate",
+      "meaning_en": "Overwhelm (someone) with things or people to be dealt with.",
+      "meaning_hi": "बाढ़ लाना",
+      "usage_sentences": [
+        "We were inundated with requests for help.",
+        "The office was inundated with phone calls."
+      ],
+      "origin": "From Latin 'inundare', from 'in-' (into, upon) + 'undare' (to flow)."
+    },
+    {
+      "id": 106,
+      "s_no": 6,
+      "word": "Inure",
+      "meaning_en": "Accustom (someone) to something, especially something unpleasant.",
+      "meaning_hi": "अभ्यस्त करना",
+      "usage_sentences": [
+        "The soldiers were inured to the hardships of war.",
+        "He was inured to the criticism of his opponents."
+      ],
+      "origin": "From an Old French phrase 'en ure' (in practice)."
+    },
+    {
+      "id": 107,
+      "s_no": 7,
+      "word": "Irascible",
+      "meaning_en": "Having or showing a tendency to be easily angered.",
+      "meaning_hi": "चिड़चिड़ा",
+      "usage_sentences": [
+        "The irascible old man was always shouting at the children.",
+        "She was known for her irascible temper."
+      ],
+      "origin": "From Latin 'irascibilis', from 'irasci' (to grow angry)."
+    },
+    {
+      "id": 108,
+      "s_no": 8,
+      "word": "Irresolute",
+      "meaning_en": "Showing or feeling hesitancy; uncertain.",
+      "meaning_hi": "अनिश्चित",
+      "usage_sentences": [
+        "He was irresolute about what to do next.",
+        "The irresolute leader was unable to make a decision."
+      ],
+      "origin": "From Latin 'irresolutus', from 'in-' (not) + 'resolutus' (resolved)."
+    },
+    {
+      "id": 109,
+      "s_no": 9,
+      "word": "Itinerant",
+      "meaning_en": "Traveling from place to place.",
+      "meaning_hi": "भ्रमणकारी",
+      "usage_sentences": [
+        "The itinerant preacher traveled from town to town.",
+        "He was an itinerant worker who never stayed in one place for long."
+      ],
+      "origin": "From late Latin 'itinerans', from 'itinerari' (to travel)."
+    },
+    {
+      "id": 110,
+      "s_no": 10,
+      "word": "Jettison",
+      "meaning_en": "Abandon or discard (someone or something that is no longer wanted).",
+      "meaning_hi": "फेंक देना",
+      "usage_sentences": [
+        "The company had to jettison its unprofitable divisions.",
+        "He jettisoned his old friends when he became famous."
+      ],
+      "origin": "From Old French 'getaison', from 'geter' (to throw)."
+    },
+    {
+      "id": 111,
+      "s_no": 11,
+      "word": "Jingoism",
+      "meaning_en": "Extreme patriotism, especially in the form of aggressive or warlike foreign policy.",
+      "meaning_hi": "अंधराष्ट्रीयता",
+      "usage_sentences": [
+        "The politician's speech was full of jingoism.",
+        "Jingoism can lead to war."
+      ],
+      "origin": "From a song in a British music hall."
+    },
+    {
+      "id": 112,
+      "s_no": 12,
+      "word": "Juxtapose",
+      "meaning_en": "Place or deal with close together for contrasting effect.",
+      "meaning_hi": "पास-पास रखना",
+      "usage_sentences": [
+        "The artist juxtaposed the bright colors with the dark shadows.",
+        "The essay juxtaposed the two different cultures."
+      ],
+      "origin": "From French 'juxtaposer', from Latin 'juxta' (next) + French 'poser' (to place)."
+    },
+    {
+      "id": 113,
+      "s_no": 13,
+      "word": "Laconic",
+      "meaning_en": "(Of a person, speech, or style of writing) using very few words.",
+      "meaning_hi": "संक्षिप्त",
+      "usage_sentences": [
+        "He was a laconic man who never said more than was necessary.",
+        "She gave a laconic reply to his long question."
+      ],
+      "origin": "From Greek 'Lakonikos', from 'Lakon' (a Laconian, a Spartan)."
+    },
+    {
+      "id": 114,
+      "s_no": 14,
+      "word": "Largesse",
+      "meaning_en": "Generosity in bestowing money or gifts upon others.",
+      "meaning_hi": "उदारता",
+      "usage_sentences": [
+        "The wealthy philanthropist was known for his largesse.",
+        "The company's largesse was appreciated by the community."
+      ],
+      "origin": "From Old French 'largesse', from 'large' (generous)."
+    },
+    {
+      "id": 115,
+      "s_no": 15,
+      "word": "Laud",
+      "meaning_en": "Praise (a person or their achievements) highly, especially in a public context.",
+      "meaning_hi": "प्रशंसा करना",
+      "usage_sentences": [
+        "The author was lauded for his new novel.",
+        "The firefighters were lauded for their bravery."
+      ],
+      "origin": "From Latin 'laudare', from 'laus' (praise)."
+    },
+    {
+      "id": 116,
+      "s_no": 16,
+      "word": "Legerdemain",
+      "meaning_en": "Skillful use of one's hands when performing conjuring tricks.",
+      "meaning_hi": "हाथ की सफाई",
+      "usage_sentences": [
+        "The magician's legerdemain amazed the audience.",
+        "He was a master of legerdemain."
+      ],
+      "origin": "From French 'léger de main' (light of hand)."
+    },
+    {
+      "id": 117,
+      "s_no": 17,
+      "word": "Lethargic",
+      "meaning_en": "Affected by lethargy; sluggish and apathetic.",
+      "meaning_hi": "सुस्त",
+      "usage_sentences": [
+        "The hot weather made everyone feel lethargic.",
+        "He was a lethargic student who never participated in class."
+      ],
+      "origin": "From Greek 'lēthargikos', from 'lēthargos' (forgetful)."
+    },
+    {
+      "id": 118,
+      "s_no": 18,
+      "word": "Levity",
+      "meaning_en": "The treatment of a serious matter with humor or in a manner lacking due respect.",
+      "meaning_hi": "चंचलता",
+      "usage_sentences": [
+        "The levity of his comments was not appropriate for the solemn occasion.",
+        "She tried to inject some levity into the tense situation."
+      ],
+      "origin": "From Latin 'levitas', from 'levis' (light)."
+    },
+    {
+      "id": 119,
+      "s_no": 19,
+      "word": "Libel",
+      "meaning_en": "A published false statement that is damaging to a person's reputation; a written defamation.",
+      "meaning_hi": "मानहानि",
+      "usage_sentences": [
+        "The newspaper was sued for libel.",
+        "The politician claimed that the article was a libel."
+      ],
+      "origin": "From Latin 'libellus' (a little book)."
+    },
+    {
+      "id": 120,
+      "s_no": 20,
+      "word": "Lithe",
+      "meaning_en": "(Especially of a person's body) thin, supple, and graceful.",
+      "meaning_hi": "लचीला",
+      "usage_sentences": [
+        "The lithe dancer moved across the stage with ease.",
+        "She had a lithe and graceful body."
+      ],
+      "origin": "Old English 'līthe' (soft, gentle)."
+    },
+    {
+      "id": 121,
+      "s_no": 21,
+      "word": "Loquacious",
+      "meaning_en": "Tending to talk a great deal; talkative.",
+      "meaning_hi": "बातूनी",
+      "usage_sentences": [
+        "The loquacious talk show host never ran out of things to say.",
+        "She was a loquacious child who loved to tell stories."
+      ],
+      "origin": "From Latin 'loquax', from 'loqui' (to speak)."
+    },
+    {
+      "id": 122,
+      "s_no": 22,
+      "word": "Lucid",
+      "meaning_en": "Expressed clearly; easy to understand.",
+      "meaning_hi": "स्पष्ट",
+      "usage_sentences": [
+        "He gave a lucid explanation of the complex theory.",
+        "The lucid dream felt completely real."
+      ],
+      "origin": "From Latin 'lucidus', from 'lucere' (to shine)."
+    },
+    {
+      "id": 123,
+      "s_no": 23,
+      "word": "Lugubrious",
+      "meaning_en": "Looking or sounding sad and dismal.",
+      "meaning_hi": "उदास",
+      "usage_sentences": [
+        "The lugubrious music made everyone feel depressed.",
+        "He had a lugubrious expression on his face."
+      ],
+      "origin": "From Latin 'lugubris', from 'lugere' (to mourn)."
+    },
+    {
+      "id": 124,
+      "s_no": 24,
+      "word": "Luminous",
+      "meaning_en": "Full of or shedding light; bright or shining, especially in the dark.",
+      "meaning_hi": "चमकदार",
+      "usage_sentences": [
+        "The luminous moon lit up the night sky.",
+        "The luminous paint glowed in the dark."
+      ],
+      "origin": "From Latin 'luminosus', from 'lumen' (light)."
+    },
+    {
+      "id": 125,
+      "s_no": 25,
+      "word": "Macabre",
+      "meaning_en": "Disturbing and horrifying because of involvement with or depiction of death and injury.",
+      "meaning_hi": "भयानक",
+      "usage_sentences": [
+        "The macabre story was about a haunted house.",
+        "He had a macabre sense of humor."
+      ],
+      "origin": "From French 'macabre', probably from the title of a medieval French play."
+    },
+    {
+      "id": 126,
+      "s_no": 26,
+      "word": "Machiavellian",
+      "meaning_en": "Cunning, scheming, and unscrupulous, especially in politics or in advancing one's career.",
+      "meaning_hi": "कुटिल",
+      "usage_sentences": [
+        "The Machiavellian politician would do anything to gain power.",
+        "He was known for his Machiavellian tactics."
+      ],
+      "origin": "From the name of Niccolò Machiavelli, an Italian statesman and writer."
+    },
+    {
+      "id": 127,
+      "s_no": 27,
+      "word": "Maelstrom",
+      "meaning_en": "A powerful whirlpool in the sea or a river.",
+      "meaning_hi": "भंवर",
+      "usage_sentences": [
+        "The ship was caught in a maelstrom.",
+        "The country was in a maelstrom of political unrest."
+      ],
+      "origin": "From Dutch, from 'malen' (to grind) + 'stroom' (stream)."
+    },
+    {
+      "id": 128,
+      "s_no": 28,
+      "word": "Magnanimous",
+      "meaning_en": "Generous or forgiving, especially toward a rival or less powerful person.",
+      "meaning_hi": "उदार",
+      "usage_sentences": [
+        "The magnanimous winner congratulated his opponent.",
+        "She was magnanimous in her victory."
+      ],
+      "origin": "From Latin 'magnanimus', from 'magnus' (great) + 'animus' (soul)."
+    },
+    {
+      "id": 129,
+      "s_no": 29,
+      "word": "Malevolent",
+      "meaning_en": "Having or showing a wish to do evil to others.",
+      "meaning_hi": "दुर्भावनापूर्ण",
+      "usage_sentences": [
+        "The malevolent witch cast a spell on the princess.",
+        "He had a malevolent look in his eyes."
+      ],
+      "origin": "From Latin 'malevolens', from 'male' (ill) + 'volens' (wishing)."
+    },
+    {
+      "id": 130,
+      "s_no": 30,
+      "word": "Malleable",
+      "meaning_en": "(Of a metal or other material) able to be hammered or pressed permanently out of shape without breaking or cracking.",
+      "meaning_hi": "नमनीय",
+      "usage_sentences": [
+        "Gold is a malleable metal.",
+        "The young mind is malleable and easily influenced."
+      ],
+      "origin": "From Latin 'malleus' (a hammer)."
+    },
+    {
+      "id": 131,
+      "s_no": 31,
+      "word": "Manifest",
+      "meaning_en": "Clear or obvious to the eye or mind.",
+      "meaning_hi": "प्रकट",
+      "usage_sentences": [
+        "His guilt was manifest to all who saw him.",
+        "The manifest destiny of the country was to expand westward."
+      ],
+      "origin": "From Latin 'manifestus' (caught in the act)."
+    },
+    {
+      "id": 132,
+      "s_no": 32,
+      "word": "Martinet",
+      "meaning_en": "A strict disciplinarian, especially in the armed forces.",
+      "meaning_hi": "कठोर अनुशासक",
+      "usage_sentences": [
+        "The drill sergeant was a martinet who demanded perfection.",
+        "She was a martinet who ran her household with military precision."
+      ],
+      "origin": "From the name of Jean Martinet, a 17th-century French drillmaster."
+    },
+    {
+      "id": 133,
+      "s_no": 33,
+      "word": "Maverick",
+      "meaning_en": "An unorthodox or independent-minded person.",
+      "meaning_hi": "आवారా",
+      "usage_sentences": [
+        "The maverick politician was not afraid to challenge the party line.",
+        "He was a maverick who did things his own way."
+      ],
+      "origin": "From the name of Samuel A. Maverick, a 19th-century Texas rancher who did not brand his cattle."
+    },
+    {
+      "id": 134,
+      "s_no": 34,
+      "word": "Mellifluous",
+      "meaning_en": "(Of a voice or words) sweet or musical; pleasant to hear.",
+      "meaning_hi": "सुरीला",
+      "usage_sentences": [
+        "The mellifluous voice of the singer captivated the audience.",
+        "She spoke in a mellifluous tone."
+      ],
+      "origin": "From Latin 'mellifluus', from 'mel' (honey) + 'fluere' (to flow)."
+    },
+    {
+      "id": 135,
+      "s_no": 35,
+      "word": "Mendacious",
+      "meaning_en": "Not telling the truth; lying.",
+      "meaning_hi": "झूठा",
+      "usage_sentences": [
+        "The mendacious politician was caught in a lie.",
+        "He gave a mendacious account of what had happened."
+      ],
+      "origin": "From Latin 'mendax' (lying)."
+    },
+    {
+      "id": 136,
+      "s_no": 36,
+      "word": "Mercurial",
+      "meaning_en": "(Of a person) subject to sudden or unpredictable changes of mood or mind.",
+      "meaning_hi": "अस्थिर",
+      "usage_sentences": [
+        "The mercurial actor was known for his temper tantrums.",
+        "She had a mercurial temperament."
+      ],
+      "origin": "From Latin 'mercurialis' (relating to the god Mercury)."
+    },
+    {
+      "id": 137,
+      "s_no": 37,
+      "word": "Meticulous",
+      "meaning_en": "Showing great attention to detail; very careful and precise.",
+      "meaning_hi": "सूक्ष्म",
+      "usage_sentences": [
+        "The meticulous surgeon left no room for error.",
+        "She was meticulous in her work."
+      ],
+      "origin": "From Latin 'meticulosus', from 'metus' (fear)."
+    },
+    {
+      "id": 138,
+      "s_no": 38,
+      "word": "Misanthrope",
+      "meaning_en": "A person who dislikes humankind and avoids human society.",
+      "meaning_hi": "मानवद्वेषी",
+      "usage_sentences": [
+        "The misanthrope lived alone in a cabin in the woods.",
+        "He was a misanthrope who hated everyone."
+      ],
+      "origin": "From Greek 'misanthrōpos', from 'misein' (to hate) + 'anthrōpos' (man)."
+    },
+    {
+      "id": 139,
+      "s_no": 39,
+      "word": "Mitigate",
+      "meaning_en": "Make less severe, serious, or painful.",
+      "meaning_hi": "कम करना",
+      "usage_sentences": [
+        "The new law is intended to mitigate the effects of climate change.",
+        "He tried to mitigate the damage caused by his mistake."
+      ],
+      "origin": "From Latin 'mitigare', from 'mitis' (soft)."
+    },
+    {
+      "id": 140,
+      "s_no": 40,
+      "word": "Mollify",
+      "meaning_en": "Appease the anger or anxiety of (someone).",
+      "meaning_hi": "शांत करना",
+      "usage_sentences": [
+        "He tried to mollify the angry crowd.",
+        "She was mollified by his apology."
+      ],
+      "origin": "From Latin 'mollificare', from 'mollis' (soft)."
+    },
+    {
+      "id": 141,
+      "s_no": 41,
+      "word": "Monotony",
+      "meaning_en": "Lack of variety and interest; tedious repetition and routine.",
+      "meaning_hi": "एकरसता",
+      "usage_sentences": [
+        "The monotony of his job was starting to get to him.",
+        "She broke the monotony of her life by taking up a new hobby."
+      ],
+      "origin": "From Greek 'monotonia', from 'monotonos' (of one tone)."
+    },
+    {
+      "id": 142,
+      "s_no": 42,
+      "word": "Moribund",
+      "meaning_en": "(Of a person) at the point of death.",
+      "meaning_hi": "मरणासन्न",
+      "usage_sentences": [
+        "The moribund patient was surrounded by his family.",
+        "The moribund company was on the verge of bankruptcy."
+      ],
+      "origin": "From Latin 'moribundus', from 'mori' (to die)."
+    },
+    {
+      "id": 143,
+      "s_no": 43,
+      "word": "Morose",
+      "meaning_en": "Sullen and ill-tempered.",
+      "meaning_hi": "उदास",
+      "usage_sentences": [
+        "The morose man sat alone in the corner.",
+        "She was in a morose mood."
+      ],
+      "origin": "From Latin 'morosus' (particular, peevish)."
+    },
+    {
+      "id": 144,
+      "s_no": 44,
+      "word": "Mundane",
+      "meaning_en": "Lacking interest or excitement; dull.",
+      "meaning_hi": "साधारण",
+      "usage_sentences": [
+        "She was tired of her mundane life.",
+        "The mundane task of washing the dishes had to be done."
+      ],
+      "origin": "From Latin 'mundanus', from 'mundus' (world)."
+    },
+    {
+      "id": 145,
+      "s_no": 45,
+      "word": "Munificent",
+      "meaning_en": "(Of a gift or sum of money) larger or more generous than is usual or necessary.",
+      "meaning_hi": "उदार",
+      "usage_sentences": [
+        "The munificent donation helped to build the new hospital.",
+        "He was a munificent benefactor to the arts."
+      ],
+      "origin": "From Latin 'munificus', from 'munus' (gift)."
+    },
+    {
+      "id": 146,
+      "s_no": 46,
+      "word": "Myriad",
+      "meaning_en": "A countless or extremely great number.",
+      "meaning_hi": "असंख्य",
+      "usage_sentences": [
+        "There are a myriad of stars in the night sky.",
+        "The city has a myriad of attractions to offer."
+      ],
+      "origin": "From Greek 'murias', from 'murioi' (ten thousand)."
+    },
+    {
+      "id": 147,
+      "s_no": 47,
+      "word": "Nadir",
+      "meaning_en": "The lowest point in the fortunes of a person or organization.",
+      "meaning_hi": "न्यूनतम बिंदु",
+      "usage_sentences": [
+        "The company reached its nadir when it had to file for bankruptcy.",
+        "He was at the nadir of his career."
+      ],
+      "origin": "From Arabic 'naẓīr' (opposite)."
+    },
+    {
+      "id": 148,
+      "s_no": 48,
+      "word": "Nascent",
+      "meaning_en": "(Especially of a process or organization) just coming into existence and beginning to display signs of future potential.",
+      "meaning_hi": "नवजात",
+      "usage_sentences": [
+        "The nascent company was still struggling to find its place in the market.",
+        "He was a nascent politician with a bright future."
+      ],
+      "origin": "From Latin 'nascens', from 'nasci' (to be born)."
+    },
+    {
+      "id": 149,
+      "s_no": 49,
+      "word": "Nebulous",
+      "meaning_en": "(Of a concept or idea) unclear, vague, or ill-defined.",
+      "meaning_hi": "अस्पष्ट",
+      "usage_sentences": [
+        "He had a nebulous idea of what he wanted to do with his life.",
+        "The plan was too nebulous to be put into action."
+      ],
+      "origin": "From Latin 'nebulosus', from 'nebula' (mist)."
+    },
+    {
+      "id": 150,
+      "s_no": 50,
+      "word": "Nefarious",
+      "meaning_en": "(Typically of an action or activity) wicked or criminal.",
+      "meaning_hi": "कुटिल",
+      "usage_sentences": [
+        "The nefarious plot to overthrow the government was foiled.",
+        "He was a nefarious character who could not be trusted."
+      ],
+      "origin": "From Latin 'nefarius', from 'nefas' (wrong)."
+    }
+  ]
+}
