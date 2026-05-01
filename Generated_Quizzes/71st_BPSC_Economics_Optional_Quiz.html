@@ -158,16 +158,15 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Custom mobile fixes */
-        @media (max-width: 768px) {
-            #question-map-panel {
-                padding-bottom: 80px; /* Space for fixed bottom nav */
-            }
-            .overflow-y-auto {
-                padding-bottom: 80px;
+
+
+        /* IMPORTANT MOBILE FIX: Space for fixed bottom nav in question map to prevent hiding */
+        @media (max-width: 640px) {
+            #question-map-panel .overflow-y-auto {
+                padding-bottom: 90px;
             }
         }
-</style>
+    </style>
 </head>
 <body class="flex flex-col h-screen text-gray-800">
 
@@ -212,13 +211,15 @@
 
     <header class="bg-white shadow-sm z-20 flex-shrink-0 transition-colors duration-300 relative">
         <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-            <div class="flex items-center gap-3 logo-container transition-opacity duration-300">
+            <!-- IMPORTANT MOBILE FIX: Added min-w-0 to allow title truncation without pushing buttons off-screen -->
+            <div class="flex items-center gap-2 md:gap-3 logo-container transition-opacity duration-300 min-w-0">
                 <div class="bg-blue-600 text-white p-2 rounded-lg">
                     <i class="ph ph-exam text-xl"></i>
                 </div>
                 <h1 id="header-title" class="font-bold text-lg md:text-xl text-slate-800 truncate transition-opacity duration-300">Quiz</h1>
             </div>
-            <div class="flex items-center gap-2 md:gap-4">
+            <!-- IMPORTANT MOBILE FIX: flex-shrink-0 prevents right buttons from being squished or hidden -->
+            <div class="flex items-center gap-1 md:gap-4 flex-shrink-0">
                 <button onclick="toggleExtraHeader()" class="p-2 rounded-md hover:bg-slate-100 text-slate-600 flex items-center gap-2 transition" title="Fold/Unfold Header Info">
                     <i id="icon-fold" class="ph ph-caret-up text-xl"></i>
                     <span class="hidden md:inline text-sm font-medium">Fold</span>
