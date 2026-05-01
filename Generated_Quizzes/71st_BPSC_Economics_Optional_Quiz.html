@@ -1,0 +1,2909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>71st BPSC Economics Optional Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        :root {
+            --zoom-level: 16px;
+        }
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            font-size: var(--zoom-level);
+            overflow-x: hidden;
+            color: #334155;
+            line-height: 1.7;
+        }
+        h2 {
+            letter-spacing: -0.01em;
+        }
+        .option-btn {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-origin: left center;
+        }
+        .option-btn:hover:not(:disabled) {
+            transform: translateX(6px);
+            border-color: #60a5fa;
+            background-color: #f0fdfa;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+        .correct-ans {
+            background-color: #f0fdf4 !important;
+            border-color: #22c55e !important;
+            color: #166534 !important;
+        }
+        .wrong-ans {
+            background-color: #fef2f2 !important;
+            border-color: #ef4444 !important;
+            color: #991b1b !important;
+        }
+        .disabled-option {
+            opacity: 0.4;
+            pointer-events: none;
+            text-decoration: line-through;
+        }
+
+        /* Custom Radio/Checkmark */
+        .custom-radio {
+            transition: all 0.2s ease;
+        }
+        .radio-dot {
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: scale(0);
+        }
+        .option-btn:hover:not(:disabled) .custom-radio {
+            border-color: #3b82f6;
+        }
+        .correct-ans .custom-radio {
+            border-color: #22c55e;
+            background-color: #dcfce7;
+        }
+        .correct-ans .radio-dot {
+            transform: scale(1);
+            background-color: #22c55e;
+        }
+        .wrong-ans .custom-radio {
+            border-color: #ef4444;
+            background-color: #fee2e2;
+        }
+        .wrong-ans .radio-dot {
+            transform: scale(1);
+            background-color: #ef4444;
+        }
+
+        /* Focus Mode Styles */
+        body.focus-mode header .logo-container,
+        body.focus-mode header h1,
+        body.focus-mode .meta-badges,
+        body.focus-mode #btn-bookmark,
+        body.focus-mode #question-map-btn,
+        body.focus-mode #details-panel,
+        body.focus-mode #btn-review {
+            display: none !important;
+        }
+
+        body.focus-mode header {
+            background-color: #ffffff;
+            border-bottom-color: transparent;
+        }
+        body.focus-mode {
+            background-color: #ffffff;
+        }
+        body.focus-mode footer {
+            background-color: transparent;
+            box-shadow: none;
+            border-top: none;
+        }
+
+        /* Question Fade Transition */
+        .q-animate {
+            animation: fadeInSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+        @keyframes fadeInSlide {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Custom Scrollbar for Map */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Progress Bar Animation */
+        .progress-bar-fill {
+            transition: width 0.3s ease;
+        }
+
+        #question-map-panel {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .map-btn {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: 0.375rem;
+            border: 1px solid #e5e7eb;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .map-btn:hover { border-color: #9ca3af; }
+        .status-unvisited { background: #ffffff; color: #374151; }
+        .status-skipped { background: #fef08a; border-color: #eab308; color: #854d0e; }
+        .status-correct { background: #22c55e; border-color: #16a34a; color: white; }
+        .status-incorrect { background: #ef4444; border-color: #dc2626; color: white; }
+        .status-review { background: #a855f7; border-color: #9333ea; color: white; }
+
+        #explanation-box {
+            animation: slideDown 0.3s ease-out forwards;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Custom mobile fixes */
+        @media (max-width: 768px) {
+            #question-map-panel {
+                padding-bottom: 80px; /* Space for fixed bottom nav */
+            }
+            .overflow-y-auto {
+                padding-bottom: 80px;
+            }
+        }
+</style>
+</head>
+<body class="flex flex-col h-screen text-gray-800">
+
+    <!-- DASHBOARD PAGE -->
+    <div id="dashboard-page" class="fixed inset-0 z-[60] bg-[#f8fafc] overflow-y-auto hidden flex-col items-center">
+        <div class="max-w-3xl mx-auto w-full p-4 md:p-8 mt-4 md:mt-12">
+            <div class="flex items-center gap-3 mb-8">
+                <div class="bg-blue-600 text-white p-3 rounded-xl shadow-lg shadow-blue-600/30">
+                    <i class="ph ph-exam text-3xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight">Quiz Dashboard</h1>
+                    <p class="text-slate-500 font-medium mt-1">Track your performance and start mock tests.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 mb-8">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 border-b border-slate-100 pb-4 gap-4">
+                    <h2 class="text-xl md:text-2xl font-bold text-slate-800 flex items-center gap-2">
+                        <i class="ph-fill ph-chart-line-up text-blue-500"></i> Historical Performance
+                    </h2>
+                    <button id="btn-clear-history" type="button" onclick="clearAllHistory()" class="px-3 py-1.5 bg-rose-50 text-rose-600 rounded-lg border border-rose-200 hover:bg-rose-100 transition text-sm font-medium flex items-center gap-1 hidden">
+                        <i class="ph ph-trash"></i> Clear All
+                    </button>
+                </div>
+
+                <div id="history-container" class="space-y-4">
+                    <!-- History items will be injected here -->
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-4 flex-col sm:flex-row">
+                <button id="btn-start-quiz" onclick="startNewQuiz()" class="bg-blue-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-blue-700 transition shadow-sm hover:shadow-md text-lg w-full sm:w-auto flex items-center justify-center gap-2">
+                    <i class="ph-fill ph-play-circle text-xl"></i> Start New Quiz
+                </button>
+                <button id="btn-resume-quiz" onclick="resumeQuiz()" class="hidden bg-emerald-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-emerald-700 transition shadow-sm hover:shadow-md text-lg w-full sm:w-auto items-center justify-center gap-2">
+                    <i class="ph-fill ph-play-pause text-xl"></i> Resume Quiz
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <header class="bg-white shadow-sm z-20 flex-shrink-0 transition-colors duration-300 relative">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3 logo-container transition-opacity duration-300">
+                <div class="bg-blue-600 text-white p-2 rounded-lg">
+                    <i class="ph ph-exam text-xl"></i>
+                </div>
+                <h1 id="header-title" class="font-bold text-lg md:text-xl text-slate-800 truncate transition-opacity duration-300">Quiz</h1>
+            </div>
+            <div class="flex items-center gap-2 md:gap-4">
+                <button onclick="toggleExtraHeader()" class="p-2 rounded-md hover:bg-slate-100 text-slate-600 flex items-center gap-2 transition" title="Fold/Unfold Header Info">
+                    <i id="icon-fold" class="ph ph-caret-up text-xl"></i>
+                    <span class="hidden md:inline text-sm font-medium">Fold</span>
+                </button>
+                <button onclick="toggleFocusMode()" class="p-2 rounded-md hover:bg-slate-100 text-slate-600 flex items-center gap-2 transition" title="Toggle Zen / Focus Mode">
+                    <i id="icon-focus" class="ph ph-corners-out text-xl"></i>
+                    <span id="focus-text" class="hidden md:inline text-sm font-medium">Focus</span>
+                </button>
+                <button onclick="toggleMap()" id="question-map-btn" class="p-2 rounded-md bg-blue-50 text-blue-600 hover:bg-blue-100 flex items-center gap-2 transition" title="Question Map">
+                    <i class="ph ph-list-dashes text-xl"></i>
+                    <span class="hidden md:inline font-medium">Map</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="details-panel" class="bg-white border-b border-gray-200 flex-shrink-0 overflow-hidden transition-all duration-300" style="height: auto;">
+        <div class="max-w-5xl mx-auto px-4 py-3">
+            <div class="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
+
+                <div class="flex-1 w-full">
+                    <div class="flex justify-between text-sm mb-1">
+                        <span class="font-medium text-gray-600">Quiz Progress</span>
+                        <span id="progress-text" class="font-bold text-blue-600">0</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full progress-bar-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4 w-full md:w-auto">
+                    <div class="flex flex-col flex-1 md:flex-none">
+                        <div class="flex items-center gap-2 text-rose-600 font-bold bg-rose-50 px-3 py-1 rounded-md border border-rose-100">
+                            <i class="ph ph-timer"></i>
+                            <span id="timer-text">00:00</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-2 border-l pl-4 border-gray-200">
+                        <button onclick="changeZoom(-2)" class="p-1 rounded hover:bg-gray-100 text-gray-600" title="Zoom Out">
+                            <i class="ph ph-magnifying-glass-minus text-lg"></i>
+                        </button>
+                        <button onclick="changeZoom(2)" class="p-1 rounded hover:bg-gray-100 text-gray-600" title="Zoom In">
+                            <i class="ph ph-magnifying-glass-plus text-lg"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full bg-gray-100 h-1 mt-3 rounded-full overflow-hidden">
+                <div id="timer-bar" class="bg-rose-400 h-full w-full origin-left transition-all duration-1000 linear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-1 flex overflow-hidden relative w-full max-w-5xl mx-auto">
+
+        <main class="flex-1 overflow-y-auto p-4 md:p-8 custom-scrollbar pb-36" id="quiz-body">
+
+            <div id="question-content-wrapper" class="max-w-4xl mx-auto">
+                <div id="meta-header-row" class="flex flex-wrap items-center justify-between gap-2 mb-6 border-b border-gray-200 pb-4">
+                    <div class="flex flex-wrap items-center gap-2 meta-badges transition-opacity duration-300">
+                        <span class="bg-indigo-50 text-indigo-800 text-xs font-bold px-3 py-1.5 rounded-md tracking-wide uppercase border border-indigo-100 shadow-sm">
+                            Q. <span id="display-seq-num">1</span> of <span id="display-total-num"></span>
+                        </span>
+                        <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1.5 rounded border border-slate-200 flex items-center gap-1">
+                            <i class="ph ph-hash"></i> Original: Q.<span id="display-actual-num">1</span>
+                        </span>
+                        <span class="bg-blue-50 text-blue-700 text-xs px-2.5 py-1.5 rounded border border-blue-100 flex items-center gap-1">
+                            <i class="ph ph-exam"></i> <span id="meta-exam"></span>
+                        </span>
+                        <span class="bg-purple-50 text-purple-700 text-xs px-2.5 py-1.5 rounded border border-purple-100 flex items-center gap-1">
+                            <i class="ph ph-books"></i> <span id="meta-paper"></span>
+                        </span>
+                        <span class="bg-emerald-50 text-emerald-700 text-xs px-2.5 py-1.5 rounded border border-emerald-100 flex items-center gap-1">
+                            <i class="ph ph-calendar-blank"></i> <span id="meta-date"></span>
+                        </span>
+                    </div>
+                    <button onclick="toggleBookmark()" id="btn-bookmark" class="text-gray-400 hover:text-yellow-500 transition p-2 rounded-full hover:bg-yellow-50" title="Bookmark Question">
+                        <i class="ph-fill ph-star text-2xl drop-shadow-sm" id="icon-bookmark"></i>
+                    </button>
+                </div>
+
+                <div class="mb-8">
+                    <h2 id="question-text" class="text-[1.25em] md:text-[1.5em] font-bold leading-relaxed text-slate-800 mb-6 tracking-tight">
+                        </h2>
+
+                    <div id="assertion-reason-container" class="hidden mb-8">
+                        </div>
+
+                    <div id="match-list-container" class="hidden mb-8">
+                        </div>
+
+                    <div id="statements-container" class="hidden mb-8 text-slate-700 bg-white p-5 border border-slate-200 rounded-xl shadow-sm">
+                        </div>
+
+                    <div id="options-container" class="space-y-3.5">
+                        </div>
+                </div>
+
+                <div id="explanation-container" class="hidden mt-10 mb-6">
+                <div class="bg-white rounded-xl p-5 border border-gray-200 shadow-sm relative mt-2">
+                    <div class="absolute -top-3 left-4 bg-gray-800 text-white px-3 py-0.5 rounded-full text-[0.75em] font-bold shadow-sm">
+                        Correct Solution & Explanation
+                    </div>
+                    <div class="mt-4 text-gray-700 leading-relaxed text-[0.95em]" id="explanation-text">
+                        </div>
+
+                    <div class="mt-5 pt-5 border-t border-slate-100 flex justify-end">
+                        <button onclick="nextQuestion()" class="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 font-medium transition flex items-center gap-2 shadow-sm hover:shadow">
+                            Next Question <i class="ph ph-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </main>
+
+        <aside id="question-map-panel" class="absolute inset-y-0 right-0 w-80 bg-white border-l border-gray-200 shadow-2xl z-30 translate-x-full flex flex-col">
+            <div class="p-4 border-b flex justify-between items-center bg-gray-50">
+                <h3 class="font-bold text-gray-700 flex items-center gap-2"><i class="ph ph-grid-four"></i> Question Map</h3>
+                <button onclick="toggleMap()" class="text-gray-500 hover:text-red-500 bg-white p-1 rounded-md border border-gray-200">
+                    <i class="ph ph-x text-lg"></i>
+                </button>
+            </div>
+
+            <div class="p-3 bg-white border-b grid grid-cols-2 gap-2 text-xs">
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-white border border-gray-300"></div> Unvisited</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-yellow-200 border border-yellow-400"></div> Skipped</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-green-500"></div> Correct</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-red-500"></div> Incorrect</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-purple-500"></div> Marked Review</div>
+            </div>
+
+            <div class="flex-1 overflow-y-auto p-4 custom-scrollbar">
+                <div id="map-grid" class="grid grid-cols-5 gap-2">
+                    </div>
+            </div>
+        </aside>
+
+        <div id="map-overlay" class="absolute inset-0 bg-black/20 z-20 hidden" onclick="toggleMap()"></div>
+    </div>
+
+    <footer id="quiz-footer" class="fixed bottom-0 sm:bottom-4 left-0 sm:left-4 right-0 sm:right-4 z-40 bg-white border-t sm:border border-gray-200 sm:rounded-xl shadow-[0_-4px_20px_rgba(0,0,0,0.08)] max-w-5xl mx-auto transition-all pb-2 sm:pb-0">
+        <div class="px-4 h-16 flex items-center justify-between">
+            <button onclick="prevQuestion()" id="btn-prev" class="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50 disabled:opacity-50 transition font-medium text-sm sm:text-base">
+                <i class="ph ph-caret-left"></i> <span class="hidden sm:inline">Previous</span>
+            </button>
+
+            <button onclick="toggleMarkReview()" id="btn-review" class="flex items-center gap-2 px-3 sm:px-4 py-2 border border-purple-200 bg-purple-50 rounded-md text-purple-700 hover:bg-purple-100 transition font-medium text-sm sm:text-base">
+                <i class="ph ph-flag"></i> <span class="hidden sm:inline" id="review-text">Mark for Review</span>
+            </button>
+
+            <div class="flex items-center gap-2">
+                <button onclick="use5050()" id="btn-5050" class="flex items-center gap-1 bg-amber-100 text-amber-800 hover:bg-amber-200 px-3 py-2 rounded-md font-bold text-sm transition disabled:opacity-50 disabled:cursor-not-allowed shadow-sm border border-amber-300" title="Remove 2 wrong options">
+                    <span>50:50</span>
+                </button>
+                <button onclick="nextQuestion()" id="btn-next" class="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 bg-blue-600 rounded-md text-white hover:bg-blue-700 disabled:opacity-50 transition font-medium text-sm sm:text-base shadow-sm">
+                    Next <i class="ph ph-caret-right"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <div id="result-page" class="hidden absolute inset-0 z-50 bg-[#f3f4f6] overflow-y-auto p-4 md:p-8 flex flex-col items-center justify-center">
+        <div class="bg-white border border-gray-200 shadow-xl rounded-2xl p-6 md:p-10 w-full max-w-3xl text-center relative mt-auto mb-auto">
+            <div class="inline-flex justify-center items-center w-20 h-20 rounded-full bg-green-100 mb-6 border-4 border-white shadow-sm">
+                <i class="ph-fill ph-trophy text-4xl text-green-600"></i>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-2">Quiz Completed!</h2>
+            <p class="text-gray-500 mb-8" id="result-subtitle">Here is your performance summary</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                <div class="bg-blue-50 border border-blue-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-blue-700 mb-1" id="res-total">0</div>
+                    <div class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Total</div>
+                </div>
+                <div class="bg-green-50 border border-green-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-green-700 mb-1" id="res-correct">0</div>
+                    <div class="text-xs font-semibold text-green-600 uppercase tracking-wider">Correct</div>
+                </div>
+                <div class="bg-red-50 border border-red-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-red-700 mb-1" id="res-wrong">0</div>
+                    <div class="text-xs font-semibold text-red-600 uppercase tracking-wider">Incorrect</div>
+                </div>
+                <div class="bg-purple-50 border border-purple-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-purple-700 mb-1" id="res-accuracy">0%</div>
+                    <div class="text-xs font-semibold text-purple-600 uppercase tracking-wider">Accuracy</div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button onclick="startReviewMode()" class="w-full sm:w-auto px-8 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 font-medium transition shadow-md flex items-center justify-center gap-2">
+                    <i class="ph ph-magnifying-glass"></i> Review Answers
+                </button>
+                <button onclick="goToDashboard()" class="w-full sm:w-auto px-8 py-3 bg-white border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 font-medium transition shadow-sm flex items-center justify-center gap-2">
+                    <i class="ph ph-house"></i> Go to Dashboard
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- QUIZ CONFIGURATION ---
+        const config = {
+            examName: "71st BPSC Economics Optional",
+            examDate: "Apr 2026",
+            subject: "Economics Optional",
+            paperName: "Economics Optional Paper",
+            timeInMinutes: 120,
+            totalQuestions: 99
+        };
+
+        const baseData = [
+    // Question 1
+    {
+        q: "Structural change in India shows that the share of agriculture in GDP is decreasing, whereas: / भारत में संरचनात्मक परिवर्तन दिखाता है कि GDP में कृषि का हिस्सा कम हो रहा है, जबकि:",
+        o: [
+            "Decreasing overall productivity / समग्र उत्पादकता को कम करना",
+            "Eliminating value addition / मूल्य वर्धन को समाप्त करना",
+            "Its share in the workforce remains high/is increasing / कार्यबल में बढ़ रहा है",
+            "Non-agricultural sectors absorb labor / गैर-कृषि क्षेत्र श्रम को अवशोषित करते हैं"
+        ],
+        a: 2,
+        e: {
+            concept: "Structural Transformation of the Indian Economy. / भारतीय अर्थव्यवस्था का संरचनात्मक परिवर्तन।",
+            correct: "In India's structural transformation, a major paradox is that while agriculture's share in the GDP has fallen significantly, its share in employment (workforce) remains disproportionately high. / भारत के संरचनात्मक परिवर्तन में एक बड़ा विरोधाभास यह है कि जबकि सकल घरेलू उत्पाद में कृषि का हिस्सा काफी गिर गया है, रोजगार (कार्यबल) में इसका हिस्सा अनुपातहीन रूप से उच्च बना हुआ है।",
+            wrong: "Non-agricultural sectors have failed to absorb surplus agricultural labor at the required pace. / गैर-कृषि क्षेत्र आवश्यक गति से अधिशेष कृषि श्रम को अवशोषित करने में विफल रहे हैं।"
+        }
+    },
+    // Question 2
+    {
+        q: "What is the objective of the agro-ecological paradigm suggested by NITI Aayog? / नीति आयोग द्वारा सुझाये गये कृषि परिस्थितिकी प्रतिमान का उद्देश्य क्या है?",
+        o: [
+            "Increasing industrial input / औद्योगिक इनपुट बढाना",
+            "Reducing environmental damage and increasing labor productivity / पर्यावरणीय क्षति कम करना और श्रम उत्पादकता बढ़ाना",
+            "Decreasing farmer's income / किसान की आय को कम करना",
+            "Promoting only mono-cropping / केवल एक फसली खेती को बढावा देना"
+        ],
+        a: 1,
+        e: {
+            concept: "Agro-ecological approaches to farming. / खेती के लिए कृषि-पारिस्थितिक दृष्टिकोण।",
+            correct: "The agro-ecological paradigm focuses on sustainable farming practices that minimize environmental degradation while simultaneously enhancing yields and labor productivity. / कृषि-पारिस्थितिक प्रतिमान टिकाऊ कृषि प्रथाओं पर केंद्रित है जो पर्यावरणीय क्षरण को कम करते हैं और साथ ही पैदावार और श्रम उत्पादकता को बढ़ाते हैं।",
+            wrong: "It discourages heavy industrial chemical inputs and mono-cropping. / यह भारी औद्योगिक रासायनिक इनपुट और एकल-फसल को हतोत्साहित करता है।"
+        }
+    },
+    // Question 3
+    {
+        q: "Which act regarding asset limits for large companies was abolished by the New Industrial Policy of 1991? / 1991 की नई औद्योगिक नीति ने बड़े कम्पनियों के लिये सम्पत्ति सीमा सम्बन्धी किस अधिनियम को समाप्त किया?",
+        o: [
+            "IDRA 1951",
+            "FERA 1973",
+            "MRTP Act 1969",
+            "IPR 1948"
+        ],
+        a: 2,
+        e: {
+            concept: "Economic Reforms of 1991 (LPG). / 1991 के आर्थिक सुधार (LPG)।",
+            correct: "The New Industrial Policy of 1991 scrapped the asset limit for MRTP companies (Monopolies and Restrictive Trade Practices Act, 1969), effectively freeing large companies from pre-investment approvals. / 1991 की नई औद्योगिक नीति ने एमआरटीपी (एकाधिकार और प्रतिबंधात्मक व्यापार व्यवहार अधिनियम, 1969) कंपनियों के लिए संपत्ति सीमा को समाप्त कर दिया।",
+            wrong: "FERA was later replaced by FEMA in 1999, but the specific asset limit relaxation for large firms was related to the MRTP Act. / FERA को बाद में 1999 में FEMA द्वारा प्रतिस्थापित किया गया था।"
+        }
+    },
+    // Question 4
+    {
+        q: "The MRTP Act was introduced primarily after which policy that emphasized preventing private monopolies? / MRTP अधिनियम मुख्य रुप से निजी एकाधिकार रोकने पर जोर देने वाली किस नीति के बाद लाया गया?",
+        o: [
+            "1956",
+            "1980",
+            "1977",
+            "1991"
+        ],
+        a: 0,
+        e: {
+            concept: "Industrial Policy Resolutions. / औद्योगिक नीति संकल्प।",
+            correct: "The Industrial Policy Resolution of 1956 emphasized the establishment of a socialist pattern of society and the prevention of private monopolies, which eventually laid the groundwork for the MRTP Act of 1969. / 1956 के औद्योगिक नीति संकल्प ने समाज के समाजवादी पैटर्न की स्थापना और निजी एकाधिकार की रोकथाम पर जोर दिया, जिसने अंततः 1969 के एमआरटीपी अधिनियम की नींव रखी।",
+            wrong: "The 1977, 1980, and 1991 policies came after the introduction of the MRTP Act. / 1977, 1980 और 1991 की नीतियां MRTP अधिनियम के लागू होने के बाद आईं।"
+        }
+    },
+    // Question 5
+    {
+        q: "Which policy reaffirmed faith in the MRTP Act and promoted economic decentralization? / किस नीति ने MRTP अधिनियम में विश्वास की पुष्टि के साथ ही आर्थिक संघ को बढ़ावा दिया?",
+        o: [
+            "1948",
+            "1980",
+            "1956",
+            "1991"
+        ],
+        a: 1,
+        e: {
+            concept: "Evolution of Industrial Policies in India. / भारत में औद्योगिक नीतियों का विकास।",
+            correct: "The Industrial Policy of 1980 reaffirmed faith in the MRTP Act and FERA while attempting to promote effective competition, modernization, and economic federalism/decentralization. / 1980 की औद्योगिक नीति ने प्रभावी प्रतिस्पर्धा, आधुनिकीकरण और आर्थिक संघवाद को बढ़ावा देने का प्रयास करते हुए एमआरटीपी अधिनियम और फेरा में विश्वास की पुष्टि की।",
+            wrong: "1991 effectively dismantled the MRTP asset limits. / 1991 ने एमआरटीपी संपत्ति सीमाओं को प्रभावी ढंग से समाप्त कर दिया।"
+        }
+    },
+    // Question 6
+    {
+        q: "Industries included in public sector reservation in Schedule A in 1956, like atomic energy, were to ensure: / 1956 में अनुसूची A में सार्वजनिक क्षेत्र आरक्षण में शामिल उद्योग जैसे परमाणु ऊर्जा सुनिश्चित करने के लिये:",
+        o: [
+            "Private profit maximization / निजी लाभ अधिकतमीकरण",
+            "Import substitution / आयात प्रतिस्थापन",
+            "Regional concentration / क्षेत्रीय संकेन्द्रण",
+            "Strategic control and no private monopoly / रणनीतिक नियंत्रण और कोई निजी एकाधिकार नहीं"
+        ],
+        a: 3,
+        e: {
+            concept: "Industrial Policy Resolution 1956. / औद्योगिक नीति संकल्प 1956।",
+            correct: "Schedule A of the IPR 1956 included 17 strategic and core industries (like arms, atomic energy, railways) reserved exclusively for the state to maintain strategic control and prevent private monopolies in crucial sectors. / IPR 1956 की अनुसूची A में 17 रणनीतिक और मुख्य उद्योग शामिल थे, जो रणनीतिक नियंत्रण बनाए रखने और महत्वपूर्ण क्षेत्रों में निजी एकाधिकार को रोकने के लिए विशेष रूप से राज्य के लिए आरक्षित थे।",
+            wrong: "It was directly opposed to private profit maximization. / यह सीधे तौर पर निजी लाभ को अधिकतम करने के विपरीत था।"
+        }
+    },
+    // Question 7
+    {
+        q: "After 1991, the role of the public sector changed in many areas from monopoly to: / 1991 के बाद सार्वजनिक क्षेत्र की भूमिका कई क्षेत्रों में एकाधिकार से बदलकर:",
+        o: [
+            "Regional restriction / क्षेत्रीय प्रतिबन्ध",
+            "Complete elimination / पूर्णतया उन्मूलन",
+            "Strengthening monopoly / एकाधिकार मजबूत करना",
+            "Competition with the private sector / निजी क्षेत्र के साथ प्रतिस्पर्धा"
+        ],
+        a: 3,
+        e: {
+            concept: "Public Sector Reforms post-1991. / 1991 के बाद सार्वजनिक क्षेत्र के सुधार।",
+            correct: "Post-1991 economic reforms opened up sectors previously reserved for the public sector to private investment, transforming the public sector's role from a monopolist to a competitor. / 1991 के बाद के आर्थिक सुधारों ने सार्वजनिक क्षेत्र के लिए आरक्षित क्षेत्रों को निजी निवेश के लिए खोल दिया, जिससे सार्वजनिक क्षेत्र की भूमिका एकाधिकार से प्रतिस्पर्धी में बदल गई।",
+            wrong: "The public sector was not completely eliminated, but its absolute monopoly in most sectors was removed. / सार्वजनिक क्षेत्र को पूरी तरह से समाप्त नहीं किया गया था, लेकिन अधिकांश क्षेत्रों में इसका पूर्ण एकाधिकार हटा दिया गया था।"
+        }
+    },
+    // Question 8
+    {
+        q: "To address regional distributional inequalities, policies encouraged industries in: / क्षेत्रीय वितरण असमानताओं को दूर करने के लिये नीतियों ने उद्योगों को प्रोत्साहित किया:",
+        o: [
+            "Backward and less developed areas / पिछड़े और कम विकसित क्षेत्र",
+            "Coastal areas / तटीय क्षेत्र",
+            "Metro cities only / मेट्रो शहर केवल",
+            "Urban areas only / केवल शहरी क्षेत्र"
+        ],
+        a: 0,
+        e: {
+            concept: "Balanced Regional Development. / संतुलित क्षेत्रीय विकास।",
+            correct: "To promote balanced regional development and address inequalities, government policies (like tax holidays, subsidies) actively encouraged the setting up of industries in backward and less developed regions. / संतुलित क्षेत्रीय विकास को बढ़ावा देने और असमानताओं को दूर करने के लिए, सरकारी नीतियों ने पिछड़े और कम विकसित क्षेत्रों में उद्योगों की स्थापना को सक्रिय रूप से प्रोत्साहित किया।",
+            wrong: "Concentrating industries in metro or coastal areas would only exacerbate regional disparities. / मेट्रो या तटीय क्षेत्रों में उद्योगों को केंद्रित करने से केवल क्षेत्रीय विषमताएं बढ़ेंगी।"
+        }
+    },
+    // Question 9
+    {
+        q: "Who recommends the Minimum Support Price (MSP)? / न्यूनतम समर्थन मूल्य (MSP) की सिपारिश कौन करता है?",
+        o: [
+            "NITI Aayog / नीति आयोग",
+            "Food Corporation of India (FCI) / भारतीय खाद्य निगम",
+            "Commission for Agricultural Costs and Prices (CACP) / कृषि लागत एवं मूल्य आयोग (CACP)",
+            "Ministry of Agriculture / कृषि मंत्रालय"
+        ],
+        a: 2,
+        e: {
+            concept: "Agricultural Pricing Policy in India. / भारत में कृषि मूल्य निर्धारण नीति।",
+            correct: "The Commission for Agricultural Costs and Prices (CACP) recommends the Minimum Support Prices (MSP) for mandated crops to the government. / कृषि लागत और मूल्य आयोग (CACP) सरकार को अनिवार्य फसलों के लिए न्यूनतम समर्थन मूल्य (MSP) की सिफारिश करता है।",
+            wrong: "FCI is responsible for procurement and distribution, not for recommending the prices. The final decision is taken by CCEA. / FCI खरीद और वितरण के लिए जिम्मेदार है, कीमतों की सिफारिश के लिए नहीं।"
+        }
+    },
+    // Question 10
+    {
+        q: "Who is the central nodal agency for food grain procurement? / खाद्यान्न खरीद के लिये केन्द्रीय नोडल एजेन्सी कौन है?",
+        o: [
+            "SEBI / सेबी",
+            "FCI / एफ सी आई",
+            "NABARD / नाबार्ड",
+            "Warehousing Corporation / वेयरहाउसिंग कॉर्पोरेशन"
+        ],
+        a: 1,
+        e: {
+            concept: "Public Distribution System and Procurement. / सार्वजनिक वितरण प्रणाली और खरीद।",
+            correct: "The Food Corporation of India (FCI), along with state agencies, is the central nodal agency responsible for the procurement of food grains at MSP to maintain buffer stocks and ensure food security. / भारतीय खाद्य निगम (FCI), राज्य एजेंसियों के साथ, बफर स्टॉक बनाए रखने और खाद्य सुरक्षा सुनिश्चित करने के लिए MSP पर खाद्यान्न की खरीद के लिए जिम्मेदार केंद्रीय नोडल एजेंसी है।",
+            wrong: "NABARD deals with agricultural credit, not direct grain procurement. / नाबार्ड कृषि ऋण से संबंधित है, सीधे अनाज खरीद से नहीं।"
+        }
+    },
+    // Question 11
+    {
+        q: "The drastic reduction in the number of industries reserved for the public sector happened after which reform? / सार्वजनिक क्षेत्र के लिये आरक्षित उद्योगों की संख्या में भारी कमी किस सुधार के बाद हुई?",
+        o: [
+            "Bank Nationalisation / बैंक राष्ट्रीयकरण",
+            "Green Revolution / हरित क्रान्ति",
+            "Industrial Policy Statement 1991 / औद्योगिक नीति वक्तव्य 1991",
+            "Implementation of GST / GST लागू होना"
+        ],
+        a: 2,
+        e: {
+            concept: "De-reservation of the Public Sector. / सार्वजनिक क्षेत्र का अनारक्षण।",
+            correct: "The Industrial Policy Statement of 1991 drastically reduced the number of industries reserved for the public sector from 17 to just 8 (and further down later). / 1991 के औद्योगिक नीति वक्तव्य ने सार्वजनिक क्षेत्र के लिए आरक्षित उद्योगों की संख्या को 17 से घटाकर मात्र 8 कर दिया।",
+            wrong: "Bank nationalisation (1969) actually increased the public sector's footprint. / बैंक राष्ट्रीयकरण (1969) ने वास्तव में सार्वजनिक क्षेत्र के पदचिह्न को बढ़ाया।"
+        }
+    },
+    // Question 12
+    {
+        q: "What was a major limitation of the MRTP Commission? / MRTP आयोग की एक प्रमुख सीमा क्या थी?",
+        o: [
+            "Regulation of mergers / विलय का विनियमन",
+            "Lack of power to impose penalties / दंड लगाने की शक्ति का अभाव",
+            "Right to criminal prosecution / आपराधिक अभियोजन का अधिकार",
+            "Power to impose heavy penalties / भारी दण्ड लगाने की शक्ति"
+        ],
+        a: 1,
+        e: {
+            concept: "Anti-monopoly legislation in India. / भारत में एकाधिकार विरोधी कानून।",
+            correct: "A major limitation of the MRTP Commission was its lack of 'teeth'; it largely acted as an advisory body and lacked the power to impose substantial penalties for anti-competitive practices. / एमआरटीपी आयोग की एक बड़ी सीमा यह थी कि यह काफी हद तक एक सलाहकार निकाय के रूप में कार्य करता था और इसमें पर्याप्त दंड लगाने की शक्ति का अभाव था।",
+            wrong: "Because of this weakness, it was eventually replaced by the stronger Competition Commission of India (CCI). / इस कमजोरी के कारण, इसे बाद में भारतीय प्रतिस्पर्धा आयोग (CCI) द्वारा प्रतिस्थापित किया गया।"
+        }
+    },
+    // Question 13
+    {
+        q: "Decisions on strategic disinvestment are taken by? / रणनीतिक विनिवेश के निर्णय किसके द्वारा लिये जाते हैं?",
+        o: [
+            "RBI",
+            "SEBI",
+            "CCI",
+            "Cabinet Committee on Economic Affairs (CCEA) / आर्थिक मामलों की मंत्रिमंडलीय समिति"
+        ],
+        a: 3,
+        e: {
+            concept: "Disinvestment Policy of the Government of India. / भारत सरकार की विनिवेश नीति।",
+            correct: "The Cabinet Committee on Economic Affairs (CCEA), headed by the Prime Minister, grants the final approval and takes core decisions regarding strategic disinvestment of Central Public Sector Enterprises (CPSEs). / आर्थिक मामलों की मंत्रिमंडलीय समिति (CCEA), जिसकी अध्यक्षता प्रधान मंत्री करते हैं, केंद्रीय सार्वजनिक क्षेत्र के उद्यमों (CPSEs) के रणनीतिक विनिवेश के संबंध में अंतिम स्वीकृति और निर्णय लेती है।",
+            wrong: "DIPAM executes the policy, but the CCEA takes the executive decision. / DIPAM नीति को निष्पादित करता है, लेकिन CCEA कार्यकारी निर्णय लेता है।"
+        }
+    },
+    // Question 14
+    {
+        q: "Which of the following is NOT an objective of the Competition Act, 2002? / निम्न में से कौन प्रतियोगिता अधिनियम, 2002 का उद्देश्य नहीं है?",
+        o: [
+            "Protection of small industries only / केवल लघु उद्योगों की सुरक्षा",
+            "Protection of consumer interests / उपभोक्ता हितों की रक्षा",
+            "Ensuring freedom of trade / व्यापार की स्वतंत्रता सुनिश्चित करना",
+            "Preventing practices having adverse effect on competition / प्रतिस्पर्धा पर प्रतिकूल प्रभाव डालने वाली प्रथाओं को रोकना"
+        ],
+        a: 0,
+        e: {
+            concept: "Competition Act, 2002. / प्रतिस्पर्धा अधिनियम, 2002।",
+            correct: "The Competition Act focuses on promoting market competition, protecting consumer interests, and ensuring freedom of trade. It does NOT explicitly aim to protect 'only small industries'. / प्रतिस्पर्धा अधिनियम का उद्देश्य बाजार प्रतिस्पर्धा को बढ़ावा देना, उपभोक्ता हितों की रक्षा करना है। इसका उद्देश्य स्पष्ट रूप से 'केवल लघु उद्योगों' की रक्षा करना नहीं है।",
+            wrong: "Protecting specific sizes of industries was a feature of older protectionist policies, not modern competition law. / उद्योगों के विशिष्ट आकारों की रक्षा करना पुरानी संरक्षणवादी नीतियों की विशेषता थी।"
+        }
+    },
+    // Question 15
+    {
+        q: "Expenditure charged on the Consolidated Fund of India: / भारत की संचित निधि पर भारित व्यय:",
+        o: [
+            "Is not subject to vote / मतदान के अधीन नहीं होता है",
+            "Is audited by RBI / RBI द्वारा लेखा परीक्षण होता है",
+            "Is voted by Parliament / संसद द्वारा मतदान होता है",
+            "Requires state approval / राज्य की स्वीकृति आवश्यक है"
+        ],
+        a: 0,
+        e: {
+            concept: "Public Finance and Parliamentary Control. / सार्वजनिक वित्त और संसदीय नियंत्रण।",
+            correct: "Expenditures 'charged' on the Consolidated Fund of India (like the salaries of the President, Judges of the Supreme Court) can be discussed in Parliament but are not subject to a vote. / भारत की संचित निधि पर 'भारित' व्यय (जैसे राष्ट्रपति, सर्वोच्च न्यायालय के न्यायाधीशों के वेतन) पर संसद में चर्चा की जा सकती है, लेकिन यह मतदान के अधीन नहीं है।",
+            wrong: "Other regular expenditures made from the Consolidated Fund require parliamentary voting (Demand for Grants). / संचित निधि से किए गए अन्य नियमित खर्चों के लिए संसदीय मतदान (अनुदान की मांग) की आवश्यकता होती है।"
+        }
+    },
+    // Question 16
+    {
+        q: "Revenue deficit occurs when: / राजस्व घाटा तब होता है, जब:",
+        o: [
+            "Capital expenditure exceeds capital receipts / पूँजीगत व्यय पूँजीगत प्राप्तियों से अधिक हो",
+            "Revenue expenditure exceeds revenue receipts / राजस्व व्यय राजस्व प्राप्तियों से अधिक हो",
+            "Total expenditure exceeds total receipts / कुल व्यय कुल प्राप्तियों से अधिक हो",
+            "Fiscal deficit is zero / राजकोषीय घाटा शून्य हो"
+        ],
+        a: 1,
+        e: {
+            concept: "Types of Budget Deficits. / बजट घाटे के प्रकार।",
+            correct: "Revenue deficit is the excess of the government's total revenue expenditure over its total revenue receipts. It implies the government is borrowing to finance its day-to-day consumption. / राजस्व घाटा सरकार के कुल राजस्व व्यय का उसकी कुल राजस्व प्राप्तियों से अधिक होना है। इसका तात्पर्य है कि सरकार अपनी दिन-प्रतिदिन की खपत को वित्तपोषित करने के लिए उधार ले रही है।",
+            wrong: "Total expenditure exceeding total receipts (excluding borrowings) is Fiscal Deficit. / कुल प्राप्तियों (उधार को छोड़कर) से अधिक कुल व्यय राजकोषीय घाटा है।"
+        }
+    },
+    // Question 17
+    {
+        q: "GST was implemented by which Constitutional Amendment? / GST किस संवैधानिक संशोधन द्वारा लागू किया गया?",
+        o: [
+            "73rd / 73वाँ",
+            "97th / 97वाँ",
+            "101st / 101वाँ",
+            "86th / 86वाँ"
+        ],
+        a: 2,
+        e: {
+            concept: "Indirect Tax Reforms in India. / भारत में अप्रत्यक्ष कर सुधार।",
+            correct: "The Goods and Services Tax (GST) was introduced in India through the 101st Constitutional Amendment Act, 2016. / वस्तु एवं सेवा कर (GST) भारत में 101वें संविधान संशोधन अधिनियम, 2016 के माध्यम से पेश किया गया था।",
+            wrong: "The 73rd Amendment relates to Panchayati Raj. The 86th Amendment relates to the Right to Education. / 73वां संशोधन पंचायती राज से संबंधित है। 86वां संशोधन शिक्षा के अधिकार से संबंधित है।"
+        }
+    },
+    // Question 18
+    {
+        q: "Effective revenue deficit excludes: / प्रभावी राजस्व घाटा बाहर करता है:",
+        o: [
+            "Subsidies / सब्सिडी",
+            "Defense expenditure / रक्षा व्यय",
+            "Interest payments / ब्याज भुगतान",
+            "Grants for creation of capital assets / पूँजीगत परिसम्पत्ति सृजन हेतु अनुदान"
+        ],
+        a: 3,
+        e: {
+            concept: "Refinements in Fiscal Deficit Measurement. / राजकोषीय घाटा मापन में सुधार।",
+            correct: "Effective Revenue Deficit is calculated by deducting 'Grants in Aid for Creation of Capital Assets' from the Revenue Deficit. / प्रभावी राजस्व घाटे की गणना राजस्व घाटे में से 'पूंजीगत संपत्तियों के निर्माण के लिए सहायता अनुदान' को घटाकर की जाती है।",
+            wrong: "Deducting interest payments from the Fiscal Deficit gives the Primary Deficit. / राजकोषीय घाटे में से ब्याज भुगतान घटाने पर प्राथमिक घाटा प्राप्त होता है।"
+        }
+    },
+    // Question 19
+    {
+        q: "How is the stance of the RBI's Monetary Policy Committee (MPC) meeting in the first week of February 2026 described? / RBI की मौद्रीक नीति समिति (MPC) बैठक फरवरी 2026 के प्रथम सप्ताह के दृष्टिकोण को किस रुप में वर्णित किया गया है?",
+        o: [
+            "Tightening / कडा करना",
+            "Neutral / तटस्थ",
+            "Expansionary / विस्तारवादी",
+            "Accommodative / समायोजी"
+        ],
+        a: 1,
+        e: {
+            concept: "Monetary Policy Stances. / मौद्रिक नीति का दृष्टिकोण।",
+            correct: "As a general expectation moving into a stable inflation-growth dynamic (or referencing current RBI stance trends), the MPC often adopts a 'Neutral' or 'Withdrawal of Accommodation' stance. (Option B represents Neutral). / स्थिर मुद्रास्फीति-विकास गतिशीलता में जाने की सामान्य अपेक्षा के रूप में, एमपीसी अक्सर 'तटस्थ' रुख अपनाती है।",
+            wrong: "Expansionary/Accommodative stances are typically used during economic slowdowns. / विस्तारवादी/समायोजन रुख आमतौर पर आर्थिक मंदी के दौरान उपयोग किए जाते हैं।"
+        }
+    },
+    // Question 20
+    {
+        q: "What is the primary mandate of the RBI's Monetary Policy Committee meeting? / RBI की मौद्रिक नीति समिति की बैठक का प्राथमिक जनादेश क्या है?",
+        o: [
+            "Regulating the stock market / स्टॉक मार्केट को विनियमित करना",
+            "Maximizing employment / रोजगार को अधिकत्तम करना",
+            "Controlling fiscal deficit / राजकोषीय घाटे को नियंत्रित करना",
+            "Maintaining inflation at 4% target while supporting growth / 4% लक्ष्य पर मुद्रास्फीति बनाये रखना जबकि वृद्धि का समर्थन करना"
+        ],
+        a: 3,
+        e: {
+            concept: "Flexible Inflation Targeting (FIT) Framework. / लचीला मुद्रास्फीति लक्ष्यीकरण ढांचा।",
+            correct: "The primary mandate of the RBI's MPC, established under the amended RBI Act, is to maintain price stability (keeping CPI inflation at 4% with a band of +/- 2%) while keeping in mind the objective of growth. / RBI की MPC का प्राथमिक जनादेश मूल्य स्थिरता बनाए रखना (CPI मुद्रास्फीति को +/- 2% के बैंड के साथ 4% पर रखना) है, जबकि विकास के उद्देश्य को ध्यान में रखना है।",
+            wrong: "Regulating the stock market is SEBI's job. Fiscal deficit is managed by the government. / शेयर बाजार को विनियमित करना सेबी का काम है।"
+        }
+    },
+    // Question 21
+    {
+        q: "In February 2026, what is the current Statutory Liquidity Ratio (SLR)? / फरवरी 2026 में, वर्तमान वैधानिक तरलता क्या है?",
+        o: [
+            "18%",
+            "16%",
+            "20%",
+            "15%"
+        ],
+        a: 0,
+        e: {
+            concept: "Reserve Ratios in Indian Banking. / भारतीय बैंकिंग में आरक्षित अनुपात।",
+            correct: "The Statutory Liquidity Ratio (SLR) has been maintained steadily at 18.00% for an extended period by the Reserve Bank of India. / भारतीय रिज़र्व बैंक द्वारा वैधानिक तरलता अनुपात (SLR) को लंबी अवधि के लिए 18.00% पर स्थिर रखा गया है।",
+            wrong: "Rates like 20% or 16% are not the current standing figures. / 20% या 16% जैसी दरें वर्तमान आंकड़े नहीं हैं।"
+        }
+    },
+    // Question 22
+    {
+        q: "The primary legislation controlling banking operations in India is: / भारत में बैंकिंग संचालन को नियंत्रित करने वाला प्राथमिक विधान है:",
+        o: [
+            "SARFAESI Act, 2002 / सरफायेसी एक्ट, 2002",
+            "Companies Act, 2013 / कम्पनीज एक्ट, 2013",
+            "Banking Regulation Act, 1949 / बैंकिंग रेगुलेशन एक्ट, 1949",
+            "RBI Act, 1934 / आर बी आई एक्ट, 1934"
+        ],
+        a: 2,
+        e: {
+            concept: "Banking Laws in India. / भारत में बैंकिंग कानून।",
+            correct: "The Banking Regulation Act, 1949 is the primary legislation that regulates all banking firms in India, detailing requirements for licensing, operations, and management. / बैंकिंग विनियमन अधिनियम, 1949 प्राथमिक कानून है जो भारत में सभी बैंकिंग फर्मों को नियंत्रित करता है, जिसमें लाइसेंस, संचालन और प्रबंधन की आवश्यकताओं का विवरण होता है।",
+            wrong: "The RBI Act establishes the central bank, but the BR Act strictly governs banking operations. / RBI अधिनियम केंद्रीय बैंक की स्थापना करता है, लेकिन BR अधिनियम बैंकिंग संचालन को नियंत्रित करता है।"
+        }
+    },
+    // Question 23
+    {
+        q: "Which of the following does the RBI regulate as Non-Banking Financial Companies (NBFCs)? / RBI निम्नलिखित में से किन्हें गैर-बैंकिंग वित्तीय कम्पनियाँ (NBFCs) के रुप में नियंत्रित करती है?",
+        o: [
+            "Only Chit Funds / केवल चिट फंड",
+            "Housing Finance, Investment Trusts, and Microfinance / हाउसिंग फाइनेन्स, निवेश ट्रस्ट और सूक्ष्म वित्त",
+            "Only Stock Broking / केवल स्टॉक ब्रोकिंग",
+            "Only Insurance Companies / केवल वीमा कम्पनियाँ"
+        ],
+        a: 1,
+        e: {
+            concept: "Regulation of NBFCs. / एनबीएफसी का विनियमन।",
+            correct: "The RBI regulates a wide variety of NBFCs, including Housing Finance Companies (powers transferred from NHB), Investment Companies, and Microfinance Institutions (NBFC-MFIs). / RBI हाउसिंग फाइनेंस कंपनियों, निवेश कंपनियों और माइक्रोफाइनेंस संस्थानों सहित कई प्रकार के NBFC को नियंत्रित करता है।",
+            wrong: "Insurance companies are regulated by IRDAI, and Stock Brokers are regulated by SEBI. / बीमा कंपनियों को IRDAI द्वारा और स्टॉक ब्रोकर्स को SEBI द्वारा नियंत्रित किया जाता है।"
+        }
+    },
+    // Question 24
+    {
+        q: "RBI's GDP growth estimate for 2025-26 is: / RBI का 2025-26 के लिये GDP वृद्धि अनुमान है:",
+        o: [
+            "8.0%",
+            "6.5%",
+            "7.4%",
+            "5.5%"
+        ],
+        a: 2,
+        e: {
+            concept: "Macroeconomic Projections. / व्यापक आर्थिक अनुमान।",
+            correct: "Based on forward-looking projections in a stable environment, the RBI often projects real GDP growth in the range of 7.0% to 7.4%. (Assuming 7.4% aligns with recent robust growth estimates). / एक स्थिर वातावरण में आगे की ओर देखने वाले अनुमानों के आधार पर, RBI अक्सर 7.0% से 7.4% के दायरे में वास्तविक GDP वृद्धि का अनुमान लगाता है।",
+            wrong: "8.0% is overly optimistic for baseline projections, while 5.5% represents a severe slowdown. / 8.0% बेसलाइन अनुमानों के लिए अत्यधिक आशावादी है, जबकि 5.5% एक गंभीर मंदी का प्रतिनिधित्व करता है।"
+        }
+    },
+    // Question 25
+    {
+        q: "Which of the following is recorded in the Capital Account of India's Balance of Payments? / भारत के भुगतान संतुलन के पूँजी खाते में निम्नलिखित में से कौन सा रिकॉर्ड किया जाता है?",
+        o: [
+            "Interest on external debt / बाहरी ऋण पर ब्याज",
+            "Inflow of Foreign Direct Investment (FDI) / विदेशी प्रत्यक्ष निवेश की अंतर्वाह",
+            "Remittances from abroad / विदेश से प्रेषण",
+            "Merchandise exports / वस्तु निर्यात"
+        ],
+        a: 1,
+        e: {
+            concept: "Components of Balance of Payments (BoP). / भुगतान संतुलन (BoP) के घटक।",
+            correct: "Foreign Direct Investment (FDI), Foreign Portfolio Investment (FPI), and External Commercial Borrowings (ECB) result in changes in assets/liabilities and are recorded in the Capital Account. / प्रत्यक्ष विदेशी निवेश (FDI) और विदेशी पोर्टफोलियो निवेश (FPI) संपत्ति/देनदारियों में परिवर्तन लाते हैं और इन्हें पूंजी खाते में दर्ज किया जाता है।",
+            wrong: "Exports, interest payments, and remittances are components of the Current Account. / निर्यात, ब्याज भुगतान और प्रेषण चालू खाते के घटक हैं।"
+        }
+    }
+,
+    // Question 26
+    {
+        q: "In India's Balance of Payments, the 'Balance of Trade' is a part of: / भारत के भुगतान संतुलन में 'व्यापार संतुलन' हिस्सा है:",
+        o: [
+            "Financial account only / केवल वित्तीय खाता",
+            "Errors and omissions / त्रुटियाँ और चूक",
+            "Capital account / पूँजी खाता",
+            "Current account / चालू खाता"
+        ],
+        a: 3,
+        e: {
+            concept: "Components of Balance of Payments. / भुगतान संतुलन के घटक।",
+            correct: "The Balance of Trade (which tracks the export and import of physical goods/merchandise) is a major component of the Current Account in the Balance of Payments. / व्यापार संतुलन (जो भौतिक वस्तुओं/माल के निर्यात और आयात को ट्रैक करता है) भुगतान संतुलन में चालू खाते का एक प्रमुख घटक है।",
+            wrong: "The Capital/Financial accounts track investments, loans, and banking capital, not the regular trade of goods. / पूंजी/वित्तीय खाते निवेश, ऋण और बैंकिंग पूंजी को ट्रैक करते हैं, न कि वस्तुओं के नियमित व्यापार को।"
+        }
+    },
+    // Question 27
+    {
+        q: "'Accommodating items' in India's BOP include: / भारत के बी ओ पी में 'समायोजक मर्दे' (आइटम) शामिल हैं:",
+        o: [
+            "Change in foreign exchange reserves / विदेशी मुद्रा भंडार में परिवर्तन",
+            "FDI / एफ डी आई",
+            "Exports and Imports / निर्यात और आयात",
+            "Remittances / प्रेषण"
+        ],
+        a: 0,
+        e: {
+            concept: "Autonomous vs Accommodating items in BOP. / बीओपी में स्वायत्त बनाम समायोजक आइटम।",
+            correct: "Accommodating items are those transactions that are undertaken by the central bank to cover the deficit or surplus in autonomous transactions. The most common form is the withdrawal or addition to foreign exchange reserves. / समायोजक आइटम वे लेन-देन हैं जो केंद्रीय बैंक द्वारा स्वायत्त लेन-देन में घाटे या अधिशेष को कवर करने के लिए किए जाते हैं। इसका सबसे सामान्य रूप विदेशी मुद्रा भंडार में आहरण या वृद्धि है।",
+            wrong: "FDI, Exports, and Remittances are 'Autonomous items' undertaken for profit or personal reasons, not to balance the BOP. / FDI, निर्यात और प्रेषण 'स्वायत्त आइटम' हैं जो लाभ या व्यक्तिगत कारणों से किए जाते हैं, न कि BOP को संतुलित करने के लिए।"
+        }
+    },
+    // Question 28
+    {
+        q: "Which of the following is NOT a component of India's Current Account? / निम्न में से कौन सा भारत के चालू खाते घटक नहीं है?",
+        o: [
+            "Private transfer payments (remittances) / निजी हस्तांतरण भुगतान (प्रेषण)",
+            "Investment income / निवेश आय",
+            "Foreign Portfolio Investment (FPI) / विदेशी पोर्टफोलियो निवेश",
+            "Net services trade / नेट सेवायें व्यापार"
+        ],
+        a: 2,
+        e: {
+            concept: "Current Account vs Capital Account. / चालू खाता बनाम पूंजी खाता।",
+            correct: "Foreign Portfolio Investment (FPI) involves purchasing financial assets (like stocks and bonds) and is a component of the Capital Account, not the Current Account. / विदेशी पोर्टफोलियो निवेश (FPI) में वित्तीय संपत्ति (जैसे स्टॉक और बॉन्ड) खरीदना शामिल है और यह पूंजी खाते का एक घटक है, चालू खाते का नहीं।",
+            wrong: "Trade in services, private transfers (remittances), and factor income (investment income) are all core components of the Current Account. / सेवाओं में व्यापार, निजी हस्तांतरण (प्रेषण), और कारक आय (निवेश आय) सभी चालू खाते के मुख्य घटक हैं।"
+        }
+    },
+    // Question 29
+    {
+        q: "Devaluation of the Indian Rupee can improve the balance of trade because: / भारतीय रुपये की अवमूल्यन से व्यापार संतुलन में सुधार हो सकता है, क्योंकि:",
+        o: [
+            "By increasing foreign debt burden / विदेशी ऋण बोझ बढाकर",
+            "By reducing FDI / एफ डी आई कम करके",
+            "By making imports expensive and exports cheaper / आयात महंगा और निर्यात सस्ता करके",
+            "By reducing remittances / प्रेषण कम करके"
+        ],
+        a: 2,
+        e: {
+            concept: "Currency Devaluation and Trade. / मुद्रा अवमूल्यन और व्यापार।",
+            correct: "Devaluation lowers the value of the domestic currency relative to foreign currencies. This makes domestic goods cheaper for foreign buyers (boosting exports) and foreign goods more expensive for domestic buyers (reducing imports), thus improving the trade balance. / अवमूल्यन विदेशी मुद्राओं के सापेक्ष घरेलू मुद्रा के मूल्य को कम करता है। यह विदेशी खरीदारों के लिए घरेलू वस्तुओं को सस्ता बनाता है (निर्यात को बढ़ावा देता है) और घरेलू खरीदारों के लिए विदेशी वस्तुओं को अधिक महंगा बनाता है (आयात को कम करता है)।",
+            wrong: "Increasing debt burden or reducing FDI/remittances would worsen the overall economic stability, not improve the balance of trade. / ऋण का बोझ बढ़ाना या FDI/प्रेषण को कम करना समग्र आर्थिक स्थिरता को खराब करेगा।"
+        }
+    },
+    // Question 30
+    {
+        q: "Among the major long-term objectives of Indian Five Year Plans, as described in the early plans, which of the following was NOT included? / भारतीय पंचवर्षीय योजनाओं के प्रमुख दीर्घकालिक उद्देश्यों में, प्रारम्भिक योजनाओं में वर्णित अनुसार, निम्नलिखित में से कौन सा शामिल नहीं था?",
+        o: [
+            "Self-reliance / आत्म निर्भरता",
+            "Complete privatization of industries / उद्योगों का पूर्ण निजीकरण",
+            "Rapid economic growth / तेज आर्थिक वृद्धि",
+            "Reduction in income inequalities / आय असमानताओं में कमी"
+        ],
+        a: 1,
+        e: {
+            concept: "Objectives of Five Year Plans in India. / भारत में पंचवर्षीय योजनाओं के उद्देश्य।",
+            correct: "The early Five Year Plans in India aimed at establishing a 'socialist pattern of society'. Therefore, complete privatization of industries was never an objective; rather, the focus was on expanding the public sector. / भारत में शुरुआती पंचवर्षीय योजनाओं का उद्देश्य 'समाज के समाजवादी पैटर्न' की स्थापना करना था। इसलिए, उद्योगों का पूर्ण निजीकरण कभी भी एक उद्देश्य नहीं था।",
+            wrong: "Economic growth, self-reliance, and equity (reducing inequalities) were the core guiding principles of Indian planning. / आर्थिक विकास, आत्मनिर्भरता और समानता (असमानताओं को कम करना) भारतीय योजना के मुख्य मार्गदर्शक सिद्धांत थे।"
+        }
+    },
+    // Question 31
+    {
+        q: "The Mahalanobis model, associated with the Second Five Year Plan, emphasized: / महालनोबिस मॉडल, जो द्वितीय पंचवर्षीय योजना से जुडा है, ने बल दिया:",
+        o: [
+            "Production of consumer goods / उपभोक्ता वस्तुओं का उत्पादन",
+            "Heavy industries and capital goods / भारी उद्योग और पूँजीगत वस्तुए",
+            "Agricultural development / कृषि विकास",
+            "Liberalization of the service sector / सेवा क्षेत्र का उदारीकरण"
+        ],
+        a: 1,
+        e: {
+            concept: "Mahalanobis Strategy of Development. / विकास की महालनोबिस रणनीति।",
+            correct: "The Second Five Year Plan (1956-61), based on the Mahalanobis model, aggressively prioritized rapid industrialization with a specific focus on heavy and capital goods industries to build a strong industrial base. / महालनोबिस मॉडल पर आधारित दूसरी पंचवर्षीय योजना (1956-61) ने एक मजबूत औद्योगिक आधार बनाने के लिए भारी और पूंजीगत वस्तुओं के उद्योगों पर विशिष्ट ध्यान देने के साथ तेजी से औद्योगीकरण को आक्रामक रूप से प्राथमिकता दी।",
+            wrong: "The First Plan focused on agriculture. Consumer goods were relegated to the small-scale sector in the Mahalanobis model. / पहली योजना कृषि पर केंद्रित थी। महालनोबिस मॉडल में उपभोक्ता वस्तुओं को छोटे पैमाने के क्षेत्र में छोड़ दिया गया था।"
+        }
+    },
+    // Question 32
+    {
+        q: "A major problem faced by Indian planning was: / भारतीय नियोजन द्वारा सामना की गयी प्रमुख समस्या थी:",
+        o: [
+            "Initiating any social welfare scheme / किसी भी सामाजिक कल्याण योजना को शुरु करना",
+            "Achieving targeted growth in every plan / हर योजना में लक्षित वृद्धि प्राप्त करना",
+            "Paying absolutely no attention to agriculture / कृषि पर बिल्कुल ध्यान देना",
+            "Inability to generate adequate productive employment opportunities despite growth / वृद्धि के बावजूद पर्याप्त उत्पादक रोजगार अवसर पैदा न कर पाना"
+        ],
+        a: 3,
+        e: {
+            concept: "Failures of Indian Economic Planning. / भारतीय आर्थिक नियोजन की विफलताएं।",
+            correct: "One of the most persistent and critical failures of Indian planning has been 'jobless growth'—the inability of the economy to generate sufficient productive employment opportunities to match the growing labor force, despite achieving GDP growth. / भारतीय नियोजन की सबसे लगातार और महत्वपूर्ण विफलताओं में से एक 'रोजगार विहीन विकास' रहा है - जीडीपी वृद्धि प्राप्त करने के बावजूद बढ़ती श्रम शक्ति से मेल खाने के लिए पर्याप्त उत्पादक रोजगार के अवसर पैदा करने में अर्थव्यवस्था की अक्षमता।",
+            wrong: "Social welfare schemes were initiated, and agriculture did receive attention (especially during the Green Revolution). / सामाजिक कल्याण योजनाएं शुरू की गईं, और कृषि पर ध्यान दिया गया (विशेष रूप से हरित क्रांति के दौरान)।"
+        }
+    },
+    // Question 33
+    {
+        q: "Which of the following correctly reflects a major achievement and a persistent problem of Indian planning? / निम्नलिखित में से कौन सा भारतीय योजना के प्रमुख उपलब्धि और निरंतर समस्या को सही ढंग से दर्शाता है?",
+        o: [
+            "Achievement: Increase in savings/investment rate | Problem: No adequate improvement in the standard of living / उपलब्धि: बचत / निवेश दर में वृद्धि | समस्या : जनता के जीवन स्तर में पर्याप्त सुधार नहीं",
+            "Achievement: Complete self-sufficiency in food | Problem: Zero inflation / उपलब्धि: खाद्य में पूर्ण आत्मनिर्भरता | समस्या : शून्य मुद्रा स्फीति",
+            "Achievement: Elimination of regional inequalities | Problem: Excessive industrialization / उपलब्धि: क्षेत्रीय असमानताओं का उन्मूलन | समस्या : अत्यधिक औद्योगीकरण",
+            "Achievement: Full employment | Problem: Low agricultural growth / उपलब्धि: पूर्ण रोजगार | समस्या : निम्न कृषि वृद्धि"
+        ],
+        a: 0,
+        e: {
+            concept: "Critical Evaluation of Five Year Plans. / पंचवर्षीय योजनाओं का आलोचनात्मक मूल्यांकन।",
+            correct: "Indian planning successfully raised the domestic savings and investment rates significantly from the 1950s levels. However, due to population growth and inequality, this did not translate into a proportionate or adequate improvement in the mass standard of living. / भारतीय योजना ने 1950 के दशक के स्तर से घरेलू बचत और निवेश दरों को सफलतापूर्वक बढ़ाया। हालाँकि, जनसंख्या वृद्धि और असमानता के कारण, इससे जीवन स्तर में पर्याप्त सुधार नहीं हुआ।",
+            wrong: "Regional inequalities were not eliminated, full employment was never achieved, and inflation was certainly never zero. / क्षेत्रीय असमानताओं को समाप्त नहीं किया गया था, पूर्ण रोजगार कभी हासिल नहीं किया गया था।"
+        }
+    },
+    // Question 34
+    {
+        q: "What was the main reason for the failure of the Third Five Year Plan, which led to the declaration of a Plan Holiday? / तीसरी पंचवर्षीय योजना की असफलता का प्रमुख कारण क्या था, जिसके फलस्वरूप योजना अवकाश घोषित किया गया?",
+        o: [
+            "Reduction in foreign aid / विदेशी सहायता में कमी",
+            "Excessive focus on heavy industries / भारी उद्योगों पर अत्यधिक ध्यान",
+            "Over-achievement in agricultural targets / कृषि लक्ष्यों में अधिक उपलब्धि",
+            "War and severe food crisis/drought / युद्ध तथा गंभीर खाद्य संकट / सुखा"
+        ],
+        a: 3,
+        e: {
+            concept: "Third Five Year Plan and Plan Holidays. / तीसरी पंचवर्षीय योजना और योजना अवकाश।",
+            correct: "The Third Plan (1961-1966) failed miserably to reach its targets primarily due to the Sino-Indian War (1962), the Indo-Pak War (1965), and severe back-to-back droughts, which depleted resources and caused a massive food crisis. / तीसरी योजना (1961-1966) मुख्य रूप से चीन-भारत युद्ध (1962), भारत-पाक युद्ध (1965) और गंभीर सूखे के कारण अपने लक्ष्यों तक पहुंचने में बुरी तरह विफल रही, जिसने संसाधनों को समाप्त कर दिया और एक बड़े पैमाने पर खाद्य संकट पैदा कर दिया।",
+            wrong: "There was no over-achievement in agriculture; in fact, there was a severe famine-like situation. / कृषि में कोई अधिक उपलब्धि नहीं थी; वास्तव में, अकाल जैसी स्थिति थी।"
+        }
+    },
+    // Question 35
+    {
+        q: "According to NITI Aayog reports, what is the major structural constraint of Bihar's agricultural sector? / नीति आयोग रिपोर्टों के अनुसार, बिहार के कृषि क्षेत्र का प्रमुख संरचनात्मक बाधा क्या है?",
+        o: [
+            "Over-mechanization / अति-यंत्रीकरण",
+            "Over-industrialization / अति औद्योगीकरण",
+            "Low productivity and high workforce share / निम्न उत्पादकता और उच्च कार्यबल हिस्सा",
+            "High productivity / उच्च उत्पादकता"
+        ],
+        a: 2,
+        e: {
+            concept: "Agricultural economy of Bihar. / बिहार की कृषि अर्थव्यवस्था।",
+            correct: "The primary structural bottleneck in Bihar's agriculture is that an overwhelmingly large proportion of the workforce is dependent on it, while agricultural productivity remains staggeringly low, leading to disguised unemployment. / बिहार की कृषि में प्राथमिक संरचनात्मक बाधा यह है कि कार्यबल का एक बड़ा हिस्सा इस पर निर्भर है, जबकि कृषि उत्पादकता कम बनी हुई है, जिससे प्रच्छन्न बेरोजगारी होती है।",
+            wrong: "Bihar suffers from under-mechanization and low industrialization, not over-mechanization. / बिहार कम मशीनीकरण और कम औद्योगीकरण से ग्रस्त है।"
+        }
+    },
+    // Question 36
+    {
+        q: "According to government analyses, what is the major bottleneck for industrial development in Bihar? / सरकारी विश्लेषणों के अनुसार बिहार के औद्योगिक विकास का प्रमुख अवरोधक क्या है?",
+        o: [
+            "High manufacturing share / उच्च विनिर्माण हिस्सा",
+            "Low industrialization, low private investment, infrastructure gap / निम्न औद्योगिकीकरण, कम निजी निवेश, अवसंरचना अन्तराल",
+            "Excess food processing clusters / अतिरिक्त खाद्य प्रसंस्करण क्लस्टर",
+            "Abundant minerals / प्रचुर खनिज"
+        ],
+        a: 1,
+        e: {
+            concept: "Industrial constraints in Bihar. / बिहार में औद्योगिक बाधाएँ।",
+            correct: "Bihar's industrial development is severely hampered by historical low industrialization, extremely low private capital investment, and significant gaps in physical and power infrastructure. / बिहार का औद्योगिक विकास ऐतिहासिक रूप से कम औद्योगीकरण, बेहद कम निजी पूंजी निवेश और भौतिक और बिजली के बुनियादी ढांचे में महत्वपूर्ण अंतराल से बुरी तरह बाधित है।",
+            wrong: "Bihar lost most of its mineral wealth after the creation of Jharkhand, and it lacks sufficient food processing clusters. / झारखंड के निर्माण के बाद बिहार ने अपनी अधिकांश खनिज संपदा खो दी।"
+        }
+    },
+    // Question 37
+    {
+        q: "Which scheme is running in Bihar for rural poverty and employment through SHGs? / बिहार में ग्रामीण गरीबी और रोजगार के लिये एस एच जी (SHG) के माध्यम से कौन सी योजना है?",
+        o: [
+            "Land Reform Act / भूमि सुधार अधिनियम",
+            "Only MGNREGA / केवल मनरेगा",
+            "JEEViKA (Bihar Rural Livelihoods Project) / जीविका (बिहार ग्रामीण आजीविका परियोजना)",
+            "PMEGP / पी एम ई जी पी"
+        ],
+        a: 2,
+        e: {
+            concept: "Poverty alleviation programs in Bihar. / बिहार में गरीबी उन्मूलन कार्यक्रम।",
+            correct: "JEEViKA (Bihar Rural Livelihoods Project), supported by the World Bank, is a flagship initiative in Bihar aimed at empowering rural women and reducing poverty by organizing them into Self-Help Groups (SHGs). / विश्व बैंक द्वारा समर्थित जीविका (बिहार ग्रामीण आजीविका परियोजना), बिहार में एक प्रमुख पहल है जिसका उद्देश्य ग्रामीण महिलाओं को स्वयं सहायता समूहों (SHG) में संगठित करके उन्हें सशक्त बनाना और गरीबी को कम करना है।",
+            wrong: "MGNREGA provides wage employment, not specifically SHG-based micro-enterprise empowerment like JEEViKA. / मनरेगा मजदूरी रोजगार प्रदान करता है, न कि विशेष रूप से जीविका की तरह स्वयं सहायता समूह-आधारित सूक्ष्म-उद्यम अधिकारिता।"
+        }
+    },
+    // Question 38
+    {
+        q: "According to PLFS 2022-23, Bihar's unemployment rate is close to the national average, but what is lagging behind? / पी एल एफ एस 2022-23 के अनुसार बिहार का बेरोजगारी दर राष्ट्रीय के निकट है, लेकिन क्या पिछड रहा है?",
+        o: [
+            "Female LFPR 22.4% vs National 37% / महिला एल एफ पी आर 22.4% बनाम राष्ट्रीय 37%",
+            "Rural jobs / ग्रामीण नौकरियाँ",
+            "Male LFPR / पुरुष एल एफ पी आर",
+            "Youth employment / युवा रोजगार"
+        ],
+        a: 0,
+        e: {
+            concept: "Labor Force Participation Rate (LFPR) trends. / श्रम बल भागीदारी दर (LFPR) के रुझान।",
+            correct: "While the overall unemployment rate in Bihar might mirror national trends, the most glaring lag is in the Female Labor Force Participation Rate (LFPR), which is dismally low (around 22.4%) compared to the national average. / जबकि बिहार में समग्र बेरोजगारी दर राष्ट्रीय रुझानों को दर्शा सकती है, सबसे स्पष्ट पिछड़ महिला श्रम बल भागीदारी दर (LFPR) में है, जो राष्ट्रीय औसत की तुलना में निराशाजनक रूप से कम है।",
+            wrong: "The low overall unemployment rate hides the fact that millions of women are entirely outside the labor force. / कम समग्र बेरोजगारी दर इस तथ्य को छुपाती है कि लाखों महिलाएं पूरी तरह से श्रम शक्ति से बाहर हैं।"
+        }
+    },
+    // Question 39
+    {
+        q: "Which department manages the progress of land reforms in Bihar? / बिहार में भूमि सुधार प्रगति का प्रबंधन कौन सा विभाग करता है?",
+        o: [
+            "NITI Aayog / नीति आयोग",
+            "Department of Industries / उद्योग विभाग",
+            "Department of Agriculture / कृषि विभाग",
+            "Department of Revenue and Land Reforms / राजस्व एवं भूमि सुधार विभाग"
+        ],
+        a: 3,
+        e: {
+            concept: "State Administrative Departments in Bihar. / बिहार में राज्य प्रशासनिक विभाग।",
+            correct: "The Department of Revenue and Land Reforms in the Government of Bihar is the nodal agency responsible for land records administration, land surveys, and the implementation of land ceiling and reform acts. / बिहार सरकार में राजस्व और भूमि सुधार विभाग भूमि रिकॉर्ड प्रशासन, भूमि सर्वेक्षण और भूमि सीमा और सुधार अधिनियमों के कार्यान्वयन के लिए जिम्मेदार नोडल एजेंसी है।",
+            wrong: "Agriculture department deals with farming techniques and inputs, not land ownership records. / कृषि विभाग खेती की तकनीक और इनपुट से संबंधित है, भूमि स्वामित्व रिकॉर्ड से नहीं।"
+        }
+    },
+    // Question 40
+    {
+        q: "What does the 'Discouraged Worker Effect' indicate in Bihar's employment data? / बिहार के रोजगार डेटा में 'डिस्करेज्ड वर्कर एफेक्ट' क्या दर्शाता है?",
+        o: [
+            "More formal/permanent employment / अधिक औपचारिक / पक्के रोजगार",
+            "Low Labor Force Participation Rate (LFPR) due to exit from the labor force / श्रम बल के बाहर निकलने के कारण कम श्रम भागीदारी दर (LFPR)",
+            "Youth Worker Population Ratio 100% / युवा कार्य करता जनसंख्या अनुपात 100%",
+            "High Unemployment Rate (UR) / उच्च बेरोजगारी दर (UR)"
+        ],
+        a: 1,
+        e: {
+            concept: "Employment concepts: Discouraged Worker Effect. / रोजगार अवधारणाएँ: हतोत्साहित कार्यकर्ता प्रभाव।",
+            correct: "The 'Discouraged Worker Effect' occurs when individuals stop looking for work because they believe no jobs are available. This causes them to drop out of the labor force entirely, leading to an artificially lower LFPR and UR. / 'हतोत्साहित कार्यकर्ता प्रभाव' तब होता है जब व्यक्ति काम की तलाश करना बंद कर देते हैं क्योंकि उनका मानना ​​है कि कोई नौकरी उपलब्ध नहीं है। इससे वे पूरी तरह से श्रम शक्ति से बाहर हो जाते हैं, जिससे LFPR कम हो जाता है।",
+            wrong: "It hides true unemployment because these workers are no longer counted as 'unemployed' since they aren't actively seeking work. / यह वास्तविक बेरोजगारी को छुपाता है क्योंकि इन श्रमिकों को अब 'बेरोजगार' के रूप में नहीं गिना जाता है।"
+        }
+    },
+    // Question 41
+    {
+        q: "Which is the method of measuring national income by adding wages, rent, interest, and profit? / राष्ट्रीय आय मापने के लिये मजदूरी, किराया, ब्याज और लाभ जोड़ने वाली विधि कौन सी है?",
+        o: [
+            "Banking method / बैंकिंग विधि",
+            "Income method / आय विधि",
+            "Expenditure method / व्यय विधि",
+            "Production method / उत्पादन विधि"
+        ],
+        a: 1,
+        e: {
+            concept: "Methods of calculating National Income. / राष्ट्रीय आय की गणना की विधियाँ।",
+            correct: "The Income Method measures national income from the side of factor incomes. It aggregates the income generated by the factors of production: Land (Rent), Labor (Wages), Capital (Interest), and Entrepreneurship (Profit). / आय विधि कारक आय के पक्ष से राष्ट्रीय आय को मापती है। यह उत्पादन के कारकों द्वारा उत्पन्न आय को जोड़ती है: भूमि (किराया), श्रम (मजदूरी), पूंजी (ब्याज), और उद्यमिता (लाभ)।",
+            wrong: "The Expenditure method sums up C+I+G+(X-M). The Production method sums up Value Added. / व्यय विधि C+I+G+(X-M) का योग करती है। उत्पादन विधि मूल्य वर्धित का योग करती है।"
+        }
+    },
+    // Question 42
+    {
+        q: "What is not included in the estimation of National Income? / राष्ट्रीय आय अनुमान में क्या शामिल नहीं है?",
+        o: [
+            "Value of intermediate goods / मध्यवर्ती वस्तुओं का मूल्य",
+            "Household expenditure on final goods / अंतिम वस्तुओं पर घरेलू व्यय",
+            "Compensation of employees / कर्मचारियों का वेतन",
+            "Exports / निर्यात"
+        ],
+        a: 0,
+        e: {
+            concept: "Precautions in National Income Accounting. / राष्ट्रीय आय लेखांकन में सावधानियां।",
+            correct: "The value of intermediate goods (goods used up in the production of other goods) is specifically excluded from national income accounting to prevent the problem of 'double counting'. / 'दोहरी गणना' की समस्या को रोकने के लिए मध्यवर्ती वस्तुओं (अन्य वस्तुओं के उत्पादन में उपयोग की जाने वाली वस्तुओं) के मूल्य को विशेष रूप से राष्ट्रीय आय लेखांकन से बाहर रखा गया है।",
+            wrong: "Only the value of 'final goods and services' is included in the GDP/National Income. / केवल 'अंतिम वस्तुओं और सेवाओं' का मूल्य ही जीडीपी/राष्ट्रीय आय में शामिल किया जाता है।"
+        }
+    },
+    // Question 43
+    {
+        q: "The formula for GDP by Expenditure Method is: / व्ययविधि से जी डी पी का सूत्र है:",
+        o: [
+            "Value addition by all firms / सभी फर्मों द्वारा मूल्य वर्धन",
+            "Wages + Rent + Interest + Profit / मजदूरी+किराया+ब्याज+लाभ",
+            "C + I + G + (X - M) / सी+आई+जी+(एक्स-एम)",
+            "GNP - NFIA / जी एन पी - एन एफ आई ए"
+        ],
+        a: 2,
+        e: {
+            concept: "Expenditure Method of GDP. / जीडीपी की व्यय विधि।",
+            correct: "In the expenditure approach, GDP is the sum of Private Consumption (C), Gross Investment (I), Government Spending (G), and Net Exports (Exports 'X' minus Imports 'M'). / व्यय दृष्टिकोण में, जीडीपी निजी खपत (C), सकल निवेश (I), सरकारी खर्च (G), और शुद्ध निर्यात (निर्यात 'X' घटा आयात 'M') का योग है।",
+            wrong: "Option B refers to the Income method. Option A refers to the Value Added method. / विकल्प B आय विधि को संदर्भित करता है। विकल्प A मूल्य वर्धित विधि को संदर्भित करता है।"
+        }
+    },
+    // Question 44
+    {
+        q: "A key feature of a mixed economy is: / मिश्रित अर्थव्यवस्था की विशेषता है:",
+        o: [
+            "No regulation / कोई विनियमन नहीं",
+            "Only government control / केवल सरकारी नियंत्रण",
+            "Only private ownership / केवल निजी स्वामित्व",
+            "Co-existence of public and private sectors / सार्वजनिक एवं निजी क्षेत्रों का सह-अस्तित्व"
+        ],
+        a: 3,
+        e: {
+            concept: "Types of Economic Systems. / आर्थिक प्रणालियों के प्रकार।",
+            correct: "A mixed economy blends elements of a free market system and a centrally planned system, characterized by the active coexistence of both private enterprises and state-owned (public) enterprises. / एक मिश्रित अर्थव्यवस्था में मुक्त बाजार प्रणाली और एक केंद्रीय नियोजित प्रणाली के तत्वों का मिश्रण होता है, जिसकी विशेषता निजी उद्यमों और राज्य के स्वामित्व वाले (सार्वजनिक) उद्यमों दोनों का सह-अस्तित्व है।",
+            wrong: "Capitalist economies have predominantly private ownership, while socialist/command economies have government control. / पूंजीवादी अर्थव्यवस्थाओं में मुख्य रूप से निजी स्वामित्व होता है, जबकि समाजवादी/कमांड अर्थव्यवस्थाओं में सरकारी नियंत्रण होता है।"
+        }
+    },
+    // Question 45
+    {
+        q: "In national income accounting, depreciation means: / राष्ट्रीय आय लेखांकन में मूल्यह्रास का अर्थ है:",
+        o: [
+            "Increase in asset value / सम्पत्ति मूल्य में वृद्धि",
+            "Exports / निर्यात",
+            "Subsidies / सब्सिडी",
+            "Wear and tear of capital goods / पूंजीगत वस्तुओं का घिसावट"
+        ],
+        a: 3,
+        e: {
+            concept: "Concept of Depreciation (Consumption of Fixed Capital). / मूल्यह्रास (स्थिर पूंजी की खपत) की अवधारणा।",
+            correct: "Depreciation, also called the consumption of fixed capital, refers to the normal wear and tear, and expected obsolescence of physical capital assets (machinery, buildings) during the production process. / मूल्यह्रास को स्थिर पूंजी की खपत भी कहा जाता है, यह उत्पादन प्रक्रिया के दौरान भौतिक पूंजीगत संपत्तियों (मशीनरी, भवन) के सामान्य टूट-फूट और अपेक्षित अप्रचलन को संदर्भित करता है।",
+            wrong: "Gross Domestic Product (GDP) minus Depreciation gives Net Domestic Product (NDP). / सकल घरेलू उत्पाद (GDP) में से मूल्यह्रास घटाने पर शुद्ध घरेलू उत्पाद (NDP) प्राप्त होता है।"
+        }
+    },
+    // Question 46
+    {
+        q: "Which indirect tax is included in factor cost adjustment? / कारक लागत समायोजन में शामिल अप्रत्यक्ष कर कौन सा है?",
+        o: [
+            "Corporate Tax / कॉर्पोरेट टैक्स",
+            "Excise duty / उत्पाद शुल्क",
+            "Customs duty / सीमा शुल्क",
+            "GST / जी एस टी"
+        ],
+        a: 3,
+        e: {
+            concept: "Market Price to Factor Cost Conversion. / बाजार मूल्य से कारक लागत रूपांतरण।",
+            correct: "To convert GDP at Market Price to GDP at Factor Cost, we subtract Net Indirect Taxes (Indirect Taxes minus Subsidies). Today, GST is the most comprehensive indirect tax used in this adjustment. / बाजार मूल्य पर जीडीपी को कारक लागत पर जीडीपी में बदलने के लिए, हम शुद्ध अप्रत्यक्ष कर (अप्रत्यक्ष कर घटा सब्सिडी) घटाते हैं। आज, GST इस समायोजन में उपयोग किया जाने वाला सबसे व्यापक अप्रत्यक्ष कर है।",
+            wrong: "Corporate Tax is a direct tax. While Excise and Customs are indirect taxes, GST subsumed most indirect taxes, making it the most prominent answer in the contemporary context. / कॉर्पोरेट टैक्स एक प्रत्यक्ष कर है। यद्यपि उत्पाद शुल्क और सीमा शुल्क अप्रत्यक्ष कर हैं, लेकिन GST ने अधिकांश अप्रत्यक्ष करों को समाहित कर लिया है।"
+        }
+    },
+    // Question 47
+    {
+        q: "Who made the first estimate of India's national income? / भारत की राष्ट्रीय आय का प्रथम अनुमान किसने किया?",
+        o: [
+            "Dadabhai Naoroji / दादाभाई नौरोजी",
+            "Amartya Sen / अमर्त्य सेन",
+            "P. C. Mahalanobis / पी. सी. महालनोबिस",
+            "Jawaharlal Nehru / जवाहर लाल नेहरु"
+        ],
+        a: 0,
+        e: {
+            concept: "History of National Income Estimation in India. / भारत में राष्ट्रीय आय अनुमान का इतिहास।",
+            correct: "Dadabhai Naoroji made the first attempt to estimate India's national income for the year 1867-68 in his book 'Poverty and Un-British Rule in India'. / दादाभाई नौरोजी ने अपनी पुस्तक 'पॉवर्टी एंड अन-ब्रिटिश रूल इन इंडिया' में वर्ष 1867-68 के लिए भारत की राष्ट्रीय आय का अनुमान लगाने का पहला प्रयास किया था।",
+            wrong: "P.C. Mahalanobis was the chairman of the first official National Income Committee post-independence (1949). / पी.सी. महालनोबिस स्वतंत्रता के बाद (1949) पहली आधिकारिक राष्ट्रीय आय समिति के अध्यक्ष थे।"
+        }
+    },
+    // Question 48
+    {
+        q: "Which organization was formed by the merger of CSO and NSSO? / सी एस ओ और एन एस एस ओ के विलय से कौन सा संगठन बना?",
+        o: [
+            "NITI Aayog / नीति आयोग",
+            "Finance Commission / वित्त आयोग",
+            "RBI / आर बी आई",
+            "National Statistical Office (NSO) / राष्ट्रीय सांख्यिकी कार्यालय"
+        ],
+        a: 3,
+        e: {
+            concept: "Statistical Institutions in India. / भारत में सांख्यिकीय संस्थान।",
+            correct: "In 2019, the Government of India merged the Central Statistics Office (CSO) and the National Sample Survey Office (NSSO) to form the overarching National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI). / 2019 में, भारत सरकार ने सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय (MoSPI) के तहत व्यापक राष्ट्रीय सांख्यिकी कार्यालय (NSO) बनाने के लिए केंद्रीय सांख्यिकी कार्यालय (CSO) और राष्ट्रीय नमूना सर्वेक्षण कार्यालय (NSSO) का विलय कर दिया।",
+            wrong: "NITI Aayog is a policy think tank, not primarily a statistical data collection agency. / नीति आयोग एक नीतिगत थिंक टैंक है।"
+        }
+    },
+    // Question 49
+    {
+        q: "What are the central problems of an economy due to economic choice? / आर्थिक चुनाव के कारण अर्थव्यवस्था की केन्द्रीय समस्यायें कौन सी हैं?",
+        o: [
+            "What to produce, how to produce, for whom to produce / क्या उत्पादन करना है, कैसे उत्पादन करना है, किसके लिये उत्पादन करना है",
+            "Why to produce, for whom to produce / क्यों उत्पादन करना है, किसके लिये उत्पादन करना है",
+            "When to produce, where to produce / कब उत्पादन करना है, कहाँ उत्पादन करना है",
+            "How much to save / कितना बचत करना है"
+        ],
+        a: 0,
+        e: {
+            concept: "Central Problems of an Economy. / एक अर्थव्यवस्था की केंद्रीय समस्याएँ।",
+            correct: "Because resources are scarce and have alternative uses, every economy faces three basic central problems: What to produce (allocation of resources), How to produce (choice of technique), and For whom to produce (distribution of income). / क्योंकि संसाधन दुर्लभ हैं और उनके वैकल्पिक उपयोग हैं, हर अर्थव्यवस्था तीन बुनियादी केंद्रीय समस्याओं का सामना करती है: क्या उत्पादन करना है, कैसे उत्पादन करना है, और किसके लिए उत्पादन करना है।",
+            wrong: "When and where to produce are secondary operational decisions, not the fundamental macroeconomic problems. / कब और कहाँ उत्पादन करना है, ये द्वितीयक परिचालन निर्णय हैं।"
+        }
+    },
+    // Question 50
+    {
+        q: "In Indifference Curve analysis, consumer equilibrium occurs when: / उदासीनता वक्र विश्लेषण में उपभोक्ता संतुलन तब होता है जब:",
+        o: [
+            "Budget line is parallel to the indifference curve / बजट रेखा उदासीनता वक्र के समानान्तर होती है",
+            "MRS is greater than the price ratio / MRS मूल्य अनुपात से अधिक होता है",
+            "MRS is equal to the price ratio / MRS मूल्य अनुपात के बराबर होता है",
+            "Total utility is maximized / कुल उपयोगिता अधिकतम होती है"
+        ],
+        a: 2,
+        e: {
+            concept: "Consumer Equilibrium (Ordinal Utility Approach). / उपभोक्ता संतुलन (क्रमवाचक उपयोगिता दृष्टिकोण)।",
+            correct: "A consumer achieves equilibrium when the budget line is tangent to the highest possible indifference curve. Mathematically, this happens when the Marginal Rate of Substitution (MRSxy) equals the ratio of prices of the two goods (Px/Py). / एक उपभोक्ता तब संतुलन प्राप्त करता है जब बजट रेखा उच्चतम संभव उदासीनता वक्र की स्पर्शरेखा होती है। गणितीय रूप से, ऐसा तब होता है जब प्रतिस्थापन की सीमांत दर (MRSxy) दोनों वस्तुओं की कीमतों के अनुपात (Px/Py) के बराबर होती है।",
+            wrong: "If the budget line is merely parallel, it isn't tangent. If MRS is greater or lesser, the consumer can reallocate spending to reach a higher curve. / यदि बजट रेखा केवल समानांतर है, तो यह स्पर्शरेखा नहीं है।"
+        }
+    }
+,
+    // Question 51
+    {
+        q: "The law of variable proportions applies in: / परिवर्तनशील अनुपात का नियम लागु होता है:",
+        o: [
+            "Market period / बाजार अवधि में",
+            "Short run / अल्पकाल में",
+            "Very long run / बहुत दीर्घकाल में",
+            "Long run / दीर्घकाल में"
+        ],
+        a: 1,
+        e: {
+            concept: "Production Function in Economics. / अर्थशास्त्र में उत्पादन फलन।",
+            correct: "The Law of Variable Proportions (also known as the Law of Diminishing Returns) operates only in the short run, where at least one factor of production (like land or capital) is fixed, and output is changed by varying the variable factor (like labor). / परिवर्तनशील अनुपात का नियम (जिसे घटते प्रतिफल का नियम भी कहा जाता है) केवल अल्पकाल में संचालित होता है, जहाँ उत्पादन का कम से कम एक कारक (जैसे भूमि या पूंजी) स्थिर होता है, और उत्पादन को परिवर्तनशील कारक (जैसे श्रम) को बदलकर बदला जाता है।",
+            wrong: "In the long run, all factors are variable, and the laws of returns to scale apply instead. / दीर्घकाल में, सभी कारक परिवर्तनशील होते हैं, और इसके बजाय पैमाने के प्रतिफल के नियम लागू होते हैं।"
+        }
+    },
+    // Question 52
+    {
+        q: "In perfect competition, a firm is a: / पूर्ण प्रतिस्पर्धा में फर्म होती है:",
+        o: [
+            "Monopoly / एकाधिकार",
+            "Oligopolist / अल्पाधिकारवादी",
+            "Price maker / मूल्य निर्धारक",
+            "Price taker / मूल्य ग्राही"
+        ],
+        a: 3,
+        e: {
+            concept: "Market Structures: Perfect Competition. / बाजार संरचनाएं: पूर्ण प्रतियोगिता।",
+            correct: "Under perfect competition, there are many buyers and sellers dealing in homogeneous products. An individual firm has no control over the market price and must accept the price determined by industry demand and supply forces, making it a 'Price Taker'. / पूर्ण प्रतियोगिता के तहत, समरूप उत्पादों का व्यापार करने वाले कई खरीदार और विक्रेता होते हैं। एक व्यक्तिगत फर्म का बाजार मूल्य पर कोई नियंत्रण नहीं होता है, जिससे वह 'मूल्य ग्राही' बन जाती है।",
+            wrong: "A monopoly is a 'Price Maker'. / एकाधिकार एक 'मूल्य निर्धारक' है।"
+        }
+    },
+    // Question 53
+    {
+        q: "Product differentiation is the main feature of: / उत्पाद भेदीकरण मुख्य विशेषता है:",
+        o: [
+            "Oligopoly / अल्पाधिकार",
+            "Monopoly / एकाधिकार",
+            "Perfect competition / पूर्णप्रतियोगिता",
+            "Monopolistic competition / एकाधिकारी प्रतिस्पर्धा"
+        ],
+        a: 3,
+        e: {
+            concept: "Features of Monopolistic Competition. / एकाधिकारी प्रतिस्पर्धा की विशेषताएं।",
+            correct: "Product differentiation (real or perceived differences in products like branding, quality, or design) is the defining characteristic of Monopolistic Competition, allowing firms to have some control over their prices. / उत्पाद भेदीकरण (ब्रांडिंग, गुणवत्ता, या डिजाइन जैसे उत्पादों में वास्तविक या कथित अंतर) एकाधिकारी प्रतिस्पर्धा की परिभाषित विशेषता है।",
+            wrong: "Perfect competition features homogeneous products. Monopoly features a single unique product with no close substitutes. / पूर्ण प्रतियोगिता में समरूप उत्पाद होते हैं। एकाधिकार में बिना किसी करीबी विकल्प के एक अद्वितीय उत्पाद होता है।"
+        }
+    },
+    // Question 54
+    {
+        q: "Economic choice mainly arises due to: / आर्थिक चुनाव मुख्य रुप से किस कारण उत्पन्न होता है?",
+        o: [
+            "Limited resources / सीमित संसाधन",
+            "Unlimited wants / असीमित इच्छायें",
+            "Both A and B / (A) और (B) दोनों",
+            "Government policies / सरकारी नीतियाँ"
+        ],
+        a: 2,
+        e: {
+            concept: "Fundamental Economic Problem. / मौलिक आर्थिक समस्या।",
+            correct: "The problem of economic choice, or the problem of scarcity, fundamentally arises because human wants are unlimited but the resources (like land, labor, capital) required to satisfy these wants are limited and have alternative uses. / आर्थिक चुनाव या कमी की समस्या मूल रूप से इसलिए उत्पन्न होती है क्योंकि मानवीय इच्छाएं असीमित हैं लेकिन इन इच्छाओं को पूरा करने के लिए आवश्यक संसाधन सीमित हैं और उनके वैकल्पिक उपयोग हैं।",
+            wrong: "Both limited resources and unlimited wants must coexist to create the economic problem of choice. / पसंद की आर्थिक समस्या पैदा करने के लिए सीमित संसाधन और असीमित इच्छाएं दोनों का सह-अस्तित्व होना चाहिए।"
+        }
+    },
+    // Question 55
+    {
+        q: "A producer's short-run goal is to maximize: / एक उत्पादक का अल्पकालीन लक्ष्य अधिकत्तम करना होता है:",
+        o: [
+            "Profit / लाभ",
+            "Employment / रोजगार",
+            "Total revenue / कुल राजस्व",
+            "Only production / केवल उत्पादन"
+        ],
+        a: 0,
+        e: {
+            concept: "Theory of the Firm. / फर्म का सिद्धांत।",
+            correct: "In traditional microeconomic theory, the primary goal of any rational producer or firm, especially in the short run, is the maximization of profit (where Marginal Revenue equals Marginal Cost). / पारंपरिक व्यष्टि अर्थशास्त्र सिद्धांत में, किसी भी तर्कसंगत उत्पादक या फर्म का प्राथमिक लक्ष्य, विशेष रूप से अल्पकाल में, लाभ को अधिकतम करना है (जहाँ सीमांत राजस्व सीमांत लागत के बराबर होता है)।",
+            wrong: "While sales/revenue maximization or employment generation might be secondary or long-term goals for certain organizations, profit maximization is the core assumption for firm behavior. / जबकि बिक्री अधिकतमकरण कुछ के लिए लक्ष्य हो सकता है, लाभ अधिकतमकरण फर्म व्यवहार के लिए मुख्य धारणा है।"
+        }
+    },
+    // Question 56
+    {
+        q: "An Isoquant shows: / आइसोक्वांट दर्शाता है:",
+        o: [
+            "Different levels of production / विभिन्न उत्पादन",
+            "Revenue combinations / राजस्व",
+            "Different combinations of inputs yielding the same output / समान उत्पादन देने वाले इनपुट के विभिन्न संयोजन",
+            "Only cost combinations / केवल लागत"
+        ],
+        a: 2,
+        e: {
+            concept: "Production Theory (Isoquants). / उत्पादन सिद्धांत (आइसोक्वांट)।",
+            correct: "An Isoquant (Equal Product Curve) is the locus of all those combinations of two inputs (usually labor and capital) which yield the same level of total output. / एक आइसोक्वांट (समान उत्पाद वक्र) दो इनपुट (आमतौर पर श्रम और पूंजी) के उन सभी संयोजनों का बिंदु पथ है जो कुल उत्पादन का समान स्तर प्रदान करते हैं।",
+            wrong: "Cost combinations yielding the same cost are shown by Isocost lines. Indifference curves show combinations giving equal satisfaction. / समान लागत देने वाले लागत संयोजनों को आइसोकोस्ट लाइनों द्वारा दिखाया जाता है।"
+        }
+    },
+    // Question 57
+    {
+        q: "In monopolistic competition, products are: / एकाधिकारी प्रतिस्पर्धा में उत्पाद हैं:",
+        o: [
+            "Differentiated / भेदित",
+            "Homogeneous / समरुप",
+            "Perfect substitutes / पूर्ण स्थानापन्न",
+            "Shape-less / बिना आकार"
+        ],
+        a: 0,
+        e: {
+            concept: "Market Structures. / बाजार संरचनाएं।",
+            correct: "Firms under monopolistic competition sell products that are closely related but differentiated (not identical) based on brand, quality, or features. / एकाधिकारी प्रतिस्पर्धा के तहत फर्में ऐसे उत्पाद बेचती हैं जो एक दूसरे से निकटता से संबंधित होते हैं लेकिन ब्रांड, गुणवत्ता या विशेषताओं के आधार पर विभेदित (समान नहीं) होते हैं।",
+            wrong: "Homogeneous products are found in Perfect Competition. / पूर्ण प्रतियोगिता में समरूप उत्पाद पाए जाते हैं।"
+        }
+    },
+    // Question 58
+    {
+        q: "Investment demand primarily depends on: / निवेश माँग मुख्यतः निर्भर करती है:",
+        o: [
+            "Tax rate / कर दर",
+            "Exports / निर्यात",
+            "Marginal Efficiency of Capital (MEC) / पूँजी की सीमान्त क्षमता",
+            "Income level / आय स्तर"
+        ],
+        a: 2,
+        e: {
+            concept: "Keynesian Theory of Investment. / केन्स का निवेश सिद्धांत।",
+            correct: "According to J.M. Keynes, the inducement to invest depends essentially on two factors: the rate of interest and the Marginal Efficiency of Capital (MEC) or the expected rate of profitability. / जे.एम. कीन्स के अनुसार, निवेश करने की प्रेरणा अनिवार्य रूप से दो कारकों पर निर्भर करती है: ब्याज दर और पूंजी की सीमांत क्षमता (MEC) या लाभप्रदता की अपेक्षित दर।",
+            wrong: "While taxes and income influence the economy, the primary direct determinants of autonomous investment demand in Keynesian economics are MEC and Interest Rate. / जबकि कर अर्थव्यवस्था को प्रभावित करते हैं, निवेश मांग के प्राथमिक प्रत्यक्ष निर्धारक MEC और ब्याज दर हैं।"
+        }
+    },
+    // Question 59
+    {
+        q: "The Investment Multiplier is equal to: / निवेश गुणक किसके बराबर होता है:",
+        o: [
+            "1 / MPS",
+            "1 / MPC",
+            "MPC",
+            "MPS"
+        ],
+        a: 0,
+        e: {
+            concept: "Keynesian Multiplier. / कीन्स का गुणक।",
+            correct: "The Investment Multiplier (K) establishes a quantitative relationship between the initial increase in investment and the resulting increase in total income. It is calculated as K = 1 / MPS or K = 1 / (1 - MPC). / निवेश गुणक (K) निवेश में प्रारंभिक वृद्धि और कुल आय में परिणामी वृद्धि के बीच एक मात्रात्मक संबंध स्थापित करता है। इसकी गणना K = 1 / MPS के रूप में की जाती है।",
+            wrong: "1 / MPC is incorrect because the multiplier depends directly on the propensity to save (the leakage). / 1 / MPC गलत है क्योंकि गुणक सीधे बचत करने की प्रवृत्ति पर निर्भर करता है।"
+        }
+    },
+    // Question 60
+    {
+        q: "The Accelerator theory links investment to: / त्वरक सिद्धान्त निवेश को किससे जोडता है:",
+        o: [
+            "Savings / बचत",
+            "Taxes / कर",
+            "Interest rate / ब्याज दर",
+            "Changes in Income/Output / आय में परिवर्तन"
+        ],
+        a: 3,
+        e: {
+            concept: "The Accelerator Principle. / त्वरक सिद्धांत।",
+            correct: "The Accelerator theory posits that the level of induced investment depends primarily on the rate of change in national income or output. When income/demand rises rapidly, firms accelerate investment to increase capacity. / त्वरक सिद्धांत मानता है कि प्रेरित निवेश का स्तर मुख्य रूप से राष्ट्रीय आय या उत्पादन में परिवर्तन की दर पर निर्भर करता है। जब आय/मांग तेजी से बढ़ती है, तो फर्में क्षमता बढ़ाने के लिए निवेश में तेजी लाती हैं।",
+            wrong: "The Multiplier links income to changes in autonomous investment, while the Accelerator links induced investment to changes in income. / गुणक आय को स्वायत्त निवेश में परिवर्तन से जोड़ता है।"
+        }
+    },
+    // Question 61
+    {
+        q: "The IS-LM model was developed by: / IS-LM मॉडल विकसित किया गया था, द्वारा:",
+        o: [
+            "Alfred Marshall / मार्शल",
+            "J.M. Keynes / कीन्स",
+            "A.C. Pigou / पीगू",
+            "J. R. Hicks / जे. आर. हिक्स"
+        ],
+        a: 3,
+        e: {
+            concept: "Macroeconomic Modeling (IS-LM Framework). / समष्टि आर्थिक मॉडलिंग (IS-LM फ्रेमवर्क)।",
+            correct: "The IS-LM (Investment-Saving/Liquidity preference-Money supply) model was initially developed by John Hicks in 1937 (and later extended by Alvin Hansen) as a mathematical representation of Keynesian macroeconomic theory. / IS-LM मॉडल को शुरू में 1937 में जॉन हिक्स द्वारा कीनेसियन समष्टि आर्थिक सिद्धांत के गणितीय प्रतिनिधित्व के रूप में विकसित किया गया था।",
+            wrong: "Keynes wrote 'The General Theory', but Hicks formalized it into the IS-LM framework. / कीन्स ने 'द जनरल थ्योरी' लिखी, लेकिन हिक्स ने इसे IS-LM ढांचे में औपचारिक रूप दिया।"
+        }
+    },
+    // Question 62
+    {
+        q: "The Harrod-Domar model focuses on: / हैरड - डोमर माडल केन्द्रित है:",
+        o: [
+            "Economic growth / आर्थिक विकास",
+            "Short-run equilibrium / अल्पकालीन संतुलन",
+            "Income inequality / आय असमानता",
+            "Consumption / उपभोग"
+        ],
+        a: 0,
+        e: {
+            concept: "Theories of Economic Growth. / आर्थिक विकास के सिद्धांत।",
+            correct: "The Harrod-Domar model is a classical Keynesian model of economic growth. It suggests that economic growth depends on the national saving rate and the capital-output ratio. / हैरोड-डोमर मॉडल आर्थिक विकास का एक शास्त्रीय कीनेसियन मॉडल है। यह बताता है कि आर्थिक विकास राष्ट्रीय बचत दर और पूंजी-उत्पादन अनुपात पर निर्भर करता है।",
+            wrong: "It is an extension of Keynesian short-run analysis into the long-run dynamics of growth. / यह विकास की दीर्घकालिक गतिशीलता में कीनेसियन अल्पकालिक विश्लेषण का विस्तार है।"
+        }
+    },
+    // Question 63
+    {
+        q: "The Gini coefficient measures: / गिनी गुणांक मापता है:",
+        o: [
+            "Poverty / गरीबी",
+            "Income inequality / आय असमानता",
+            "Gross Domestic Product (GDP) / जीडीपी",
+            "Inflation / स्फीति"
+        ],
+        a: 1,
+        e: {
+            concept: "Measures of Inequality. / असमानता के उपाय।",
+            correct: "The Gini coefficient (or Gini index) is a statistical measure of economic inequality in a population. A coefficient of 0 represents perfect equality, while 1 represents perfect inequality (one person has all the income). / गिनी गुणांक एक आबादी में आर्थिक असमानता का एक सांख्यिकीय उपाय है। 0 का गुणांक पूर्ण समानता का प्रतिनिधित्व करता है, जबकि 1 पूर्ण असमानता का प्रतिनिधित्व करता है।",
+            wrong: "Poverty is measured using head-count ratios or poverty lines, not the Gini coefficient. / गरीबी को हेड-काउंट अनुपात या गरीबी रेखा का उपयोग करके मापा जाता है।"
+        }
+    },
+    // Question 64
+    {
+        q: "The Cobb-Douglas production function links output to: / कॉब-डगलस उत्पादन फलन उत्पादन को किससे जोड़ता है:",
+        o: [
+            "Wages and Rent / मजदूरी एवं लगान",
+            "Tax and Subsidy / कर एवं अनूदान",
+            "Labor and Capital / श्रम एवं पूँजी",
+            "Land and Capital / भूमि और पूँजी"
+        ],
+        a: 2,
+        e: {
+            concept: "Production Functions in Economics. / अर्थशास्त्र में उत्पादन फलन।",
+            correct: "The Cobb-Douglas production function [Y = A * (L^alpha) * (K^beta)] links the total physical output (Y) of an economy or firm to the amount of two specific inputs: Labor (L) and Capital (K). / कॉब-डगलस उत्पादन फलन एक अर्थव्यवस्था के कुल भौतिक उत्पादन को दो विशिष्ट इनपुटों की मात्रा से जोड़ता है: श्रम (L) और पूंजी (K)।",
+            wrong: "It does not primarily link output to land, rent, or taxes in its standard mathematical formulation. / यह अपने मानक गणितीय निरूपण में मुख्य रूप से उत्पादन को भूमि या करों से नहीं जोड़ता है।"
+        }
+    },
+    // Question 65
+    {
+        q: "Which ministry presents the Economic Survey? / आर्थिक सर्वेक्षण कौन सा मंत्रालय प्रस्तुत करता है?",
+        o: [
+            "NITI Aayog / नीति आयोग",
+            "Ministry of Commerce / वाणिज्य मंत्रालय",
+            "Ministry of Finance / वित्त मंत्रालय",
+            "Reserve Bank of India (RBI) / आर बी आई"
+        ],
+        a: 2,
+        e: {
+            concept: "Government Financial Reporting. / सरकारी वित्तीय रिपोर्टिंग।",
+            correct: "The Economic Survey of India is an annual document prepared by the Department of Economic Affairs, Ministry of Finance, under the guidance of the Chief Economic Advisor. It is presented in Parliament a day before the Union Budget. / भारत का आर्थिक सर्वेक्षण वित्त मंत्रालय के आर्थिक मामलों के विभाग द्वारा मुख्य आर्थिक सलाहकार के मार्गदर्शन में तैयार किया जाने वाला एक वार्षिक दस्तावेज है।",
+            wrong: "NITI Aayog drafts policy frameworks but does not present the Economic Survey. / नीति आयोग नीतिगत ढांचे का मसौदा तैयार करता है लेकिन आर्थिक सर्वेक्षण प्रस्तुत नहीं करता है।"
+        }
+    },
+    // Question 66
+    {
+        q: "In perfect competition, wage determination depends on: / पूर्ण प्रतियोगिता में मजदूरी निधर्धारण निर्भर करता है:",
+        o: [
+            "Trade Union / ट्रेड यूनियन (मजदूर संगठन)",
+            "Marginal product of labor / श्रम की सीमान्त उत्पाद",
+            "Government policy / सरकारी नीति",
+            "Inflation / स्फीति"
+        ],
+        a: 1,
+        e: {
+            concept: "Marginal Productivity Theory of Distribution. / वितरण का सीमांत उत्पादकता सिद्धांत।",
+            correct: "Under perfect competition, the wage rate of labor is determined by and equal to the Value of the Marginal Product (VMP) or Marginal Revenue Product (MRP) of labor. Firms hire labor up to the point where the wage equals the marginal product value. / पूर्ण प्रतियोगिता के तहत, श्रम की मजदूरी दर श्रम के सीमांत उत्पाद के मूल्य के बराबर होती है।",
+            wrong: "In perfectly competitive labor markets, trade unions and government minimum wage policies are considered market imperfections. / पूर्ण रूप से प्रतिस्पर्धी श्रम बाजारों में, ट्रेड यूनियनों और सरकारी न्यूनतम मजदूरी नीतियों को बाजार की खामियां माना जाता है।"
+        }
+    },
+    // Question 67
+    {
+        q: "Which quantitative tool does RBI use to control liquidity through buying/selling of government securities? / आर.बी.आई. कौन से मात्रात्मक साधन का उपयोग सरकारी प्रतिभूतियों को खरीदने / बेचने के माध्यम से तरलता नियंत्रित करने के लिये करता है?",
+        o: [
+            "Open Market Operations (OMO) / खुले बाजार की क्रियायें",
+            "Margin requirements / मार्जिन आवश्यकतायें",
+            "Bank rate / बैंक दर",
+            "Moral suasion / नैतिक अभिप्रेरण"
+        ],
+        a: 0,
+        e: {
+            concept: "Monetary Policy Instruments of RBI. / RBI के मौद्रिक नीति उपकरण।",
+            correct: "Open Market Operations (OMO) refer to the buying and selling of government securities by the central bank in the open market to regulate the money supply and liquidity in the economy. / खुले बाजार की क्रियाएं (OMO) का तात्पर्य अर्थव्यवस्था में मुद्रा आपूर्ति और तरलता को विनियमित करने के लिए खुले बाजार में केंद्रीय बैंक द्वारा सरकारी प्रतिभूतियों की खरीद और बिक्री से है।",
+            wrong: "Margin requirements and Moral suasion are qualitative/selective credit control tools. / मार्जिन आवश्यकताएं और नैतिक दबाव गुणात्मक ऋण नियंत्रण उपकरण हैं।"
+        }
+    },
+    // Question 68
+    {
+        q: "Which instrument adjusts the cost of borrowing for commercial banks from the central bank? / कौन सा उपकरण वाणिज्यिक बैंकों के लिये उधार की लागत समायोजित करता है?",
+        o: [
+            "SLR (Statutory Liquidity Ratio) / एस एल आर",
+            "CRR (Cash Reserve Ratio) / सी आर आर",
+            "Repo rate / Bank rate / रेपो दर / बैंक दर",
+            "Credit Authorization Scheme / ऋण प्राधिकरण योजना"
+        ],
+        a: 2,
+        e: {
+            concept: "Policy Rates (Liquidity Adjustment Facility). / नीतिगत दरें (तरलता समायोजन सुविधा)।",
+            correct: "The Repo Rate (for short term) and the Bank Rate (for long term) are the direct policy interest rates at which the RBI lends money to commercial banks, directly affecting their cost of borrowing. / रेपो दर (अल्पावधि के लिए) और बैंक दर (दीर्घावधि के लिए) प्रत्यक्ष नीतिगत ब्याज दरें हैं जिन पर RBI वाणिज्यिक बैंकों को पैसा उधार देता है।",
+            wrong: "CRR and SLR dictate the fraction of deposits banks must keep aside; they restrict the volume of lendable funds but aren't interest rates themselves. / CRR और SLR यह तय करते हैं कि बैंकों को अपनी जमा राशि का कितना हिस्सा अलग रखना चाहिए; वे उधार देने योग्य धन की मात्रा को सीमित करते हैं।"
+        }
+    },
+    // Question 69
+    {
+        q: "What is a recent performance-based initiative of the Bihar government for banks? / बिहार सरकार का बैंको के लिये प्रदर्शन आधारित हालिया पहल क्या है?",
+        o: [
+            "Nationalization of underperformers / कम प्रदर्शन करने वालों का राष्ट्रीयकरण",
+            "Ignoring Credit-Deposit ratio / क्रेडिट - डिपाजिट अनुपात का अनदेखा करना",
+            "Broad business for all / सभी के लिये व्यापक व्यवसाय",
+            "Ranking and routing business only to top performers / रैंकिंग और व्यवसाय केवल शीर्ष पर"
+        ],
+        a: 3,
+        e: {
+            concept: "State Government Banking Policies (Bihar context). / राज्य सरकार की बैंकिंग नीतियां (बिहार संदर्भ)।",
+            correct: "To push banks to increase credit flow in the state, the Bihar government initiated a policy where government departmental deposits are routed preferentially to banks that perform well on key metrics like the Credit-Deposit (CD) ratio. / राज्य में ऋण प्रवाह बढ़ाने के लिए बैंकों पर दबाव डालने के लिए, बिहार सरकार ने एक नीति शुरू की जहाँ सरकारी जमा को उन बैंकों में प्राथमिकता के आधार पर भेजा जाता है जो क्रेडिट-डिपॉजिट (CD) अनुपात जैसे प्रमुख मैट्रिक्स पर अच्छा प्रदर्शन करते हैं।",
+            wrong: "The state government does not have the power to nationalize banks. / राज्य सरकार के पास बैंकों का राष्ट्रीयकरण करने की शक्ति नहीं है।"
+        }
+    },
+    // Question 70
+    {
+        q: "The instrument for mandating cash deposit reservation with RBI is: / आर बी आई के साथ जमा आरक्षण अनिवार्य करने का साधन है:",
+        o: [
+            "OMO / ओ एम ओ",
+            "CRR (Cash Reserve Ratio) / सी आर आर",
+            "MSF / एम एस एफ",
+            "SLR / एस एल आर"
+        ],
+        a: 1,
+        e: {
+            concept: "Reserve Ratios. / आरक्षित अनुपात।",
+            correct: "The Cash Reserve Ratio (CRR) is the specific percentage of a bank's total net demand and time liabilities (NDTL) that it must maintain as a liquid cash balance with the Reserve Bank of India. / नकद आरक्षित अनुपात (CRR) एक बैंक की कुल शुद्ध मांग और समय देनदारियों (NDTL) का वह विशिष्ट प्रतिशत है जिसे भारतीय रिज़र्व बैंक के पास तरल नकद शेष के रूप में बनाए रखना चाहिए।",
+            wrong: "SLR is maintained in the form of liquid assets (gold, government securities) with the bank itself, not mandatorily as cash with the RBI. / SLR को बैंक के पास ही तरल संपत्ति के रूप में बनाए रखा जाता है, न कि RBI के पास नकद के रूप में।"
+        }
+    },
+    // Question 71
+    {
+        q: "A primary objective of central banking in a developing economy is: / विकासशील अर्थव्यवस्था में केन्द्रीय बैंकिंग उद्देश्य है:",
+        o: [
+            "To reduce money supply strictly / मुदा आपूर्ति कम करना",
+            "Economic development through credit control / सारव नियंत्रण के माध्यम से आर्थिक विकास",
+            "Only currency issue / केवल करेन्सी मुद्दा",
+            "To ignore inflation completely / महंगाई को नजर अंदाज करन"
+        ],
+        a: 1,
+        e: {
+            concept: "Role of Central Banks in Developing Economies. / विकासशील अर्थव्यवस्थाओं में केंद्रीय बैंकों की भूमिका।",
+            correct: "In a developing economy like India, the central bank (RBI) performs a developmental and promotional role. It aims to foster economic development by ensuring adequate credit flow to productive sectors while keeping inflation in check. / भारत जैसी विकासशील अर्थव्यवस्था में, केंद्रीय बैंक (RBI) एक विकासात्मक और प्रचारात्मक भूमिका निभाता है। इसका उद्देश्य उत्पादक क्षेत्रों में पर्याप्त ऋण प्रवाह सुनिश्चित करके आर्थिक विकास को बढ़ावा देना है।",
+            wrong: "A central bank can never ignore inflation, nor is its role limited merely to issuing currency. / एक केंद्रीय बैंक मुद्रास्फीति को कभी नज़रअंदाज़ नहीं कर सकता है, न ही इसकी भूमिका केवल मुद्रा जारी करने तक सीमित है।"
+        }
+    },
+    // Question 72
+    {
+        q: "The gross NPA trend of Bihar commercial banks compared to the national level (as of recent data around 2024-25) is generally: / बिहार वाणिज्यिक बैंकों का सकल एन पी ए रूझान राष्ट्रीय स्तर की तुलना में (हाल के डेटा के अनुसार) सामान्यतः कैसा है:",
+        o: [
+            "Higher than the national average / राष्ट्रीय औसत से अधिक",
+            "Lower than the national average / राष्ट्रीय औसत से कम",
+            "Exactly equal to the national average / राष्ट्रीय औसत के बिल्कुल बराबर",
+            "The highest in the entire country / पूरे देश में सबसे अधिक"
+        ],
+        a: 1,
+        e: {
+            concept: "Banking Sector Performance in Bihar. / बिहार में बैंकिंग क्षेत्र का प्रदर्शन।",
+            correct: "In recent SLBC (State Level Bankers' Committee) reports, due to highly conservative lending practices and a low Credit-Deposit (CD) ratio, the Gross Non-Performing Assets (NPA) percentage for banks in Bihar has often trended lower than the national average. / हाल की SLBC रिपोर्टों में, अत्यधिक रूढ़िवादी उधार प्रथाओं और कम क्रेडिट-डिपॉजिट (CD) अनुपात के कारण, बिहार में बैंकों के लिए सकल गैर-निष्पादित संपत्ति (NPA) प्रतिशत अक्सर राष्ट्रीय औसत से कम रहा है।",
+            wrong: "While credit penetration is poor, the absolute ratio of bad loans compared to total advances doesn't peak as the highest in the country due to low industrial exposure. / औद्योगिक ऋण जोखिम कम होने के कारण खराब ऋणों का पूर्ण अनुपात देश में सबसे अधिक नहीं है।"
+        }
+    },
+    // Question 73
+    {
+        q: "The overall monetary policy objective of RBI in India is: / भारत में आर. बी. आई की समग्र मौद्रिक नीति उद्देश्य है:",
+        o: [
+            "Balance of Payments Deficit / भुगतान संतुलन घाटा",
+            "Always high interest rates / हमेशा उँची दरें",
+            "Price stability, growth, and employment balance / मूल्य स्थिरता संवृद्धि, रोजगार संतुलन",
+            "Focus only on unemployment / केवल बेरोजगारी पर ध्यान"
+        ],
+        a: 2,
+        e: {
+            concept: "Objectives of RBI's Monetary Policy. / RBI की मौद्रिक नीति के उद्देश्य।",
+            correct: "The core objective of the RBI's monetary policy is to maintain 'price stability while keeping in mind the objective of growth.' It aims to balance inflation management with economic growth and employment generation. / RBI की मौद्रिक नीति का मुख्य उद्देश्य 'विकास के उद्देश्य को ध्यान में रखते हुए मूल्य स्थिरता' बनाए रखना है। यह आर्थिक विकास के साथ मुद्रास्फीति प्रबंधन को संतुलित करने का प्रयास करता है।",
+            wrong: "RBI does not aim to maintain a BOP deficit, nor does it aim to keep rates permanently high. / RBI का उद्देश्य BOP घाटे को बनाए रखना नहीं है, न ही इसका उद्देश्य दरों को स्थायी रूप से उच्च रखना है।"
+        }
+    },
+    // Question 74
+    {
+        q: "The Credit-Deposit (CD) ratio of private sector banks in Bihar (mid 2025 trends) was approximately: / बिहार में निजी क्षेत्र बैंकों का सी डी अनुपात (2025 मध्य के रूझान) लगभग था:",
+        o: [
+            "101%",
+            "54%",
+            "333%",
+            "55%"
+        ],
+        a: 0,
+        e: {
+            concept: "Credit-Deposit Ratio Disparities. / क्रेडिट-डिपॉजिट अनुपात विषमताएं।",
+            correct: "While the overall CD ratio of Bihar hovers around 53-55% due to the conservative lending of Public Sector Banks, Private Sector Banks in Bihar aggressively lend (especially in retail and microfinance) and often boast a CD ratio exceeding 100% (e.g., around 101%). / जबकि सार्वजनिक क्षेत्र के बैंकों के रूढ़िवादी उधार के कारण बिहार का समग्र CD अनुपात लगभग 53-55% के आसपास रहता है, बिहार में निजी क्षेत्र के बैंक आक्रामक रूप से उधार देते हैं और अक्सर 100% से अधिक CD अनुपात का दावा करते हैं।",
+            wrong: "54% and 55% reflect the overall state average or PSB performance, not specifically the private banks. / 54% और 55% समग्र राज्य औसत या सार्वजनिक क्षेत्र के बैंकों के प्रदर्शन को दर्शाते हैं।"
+        }
+    },
+    // Question 75
+    {
+        q: "What is the primary impact of progressive direct taxes like income tax in a country like India? / भारत में, आयकर जैसे प्रगतिशील प्रत्यक्ष करों का प्रमुख प्रभाव क्या है?",
+        o: [
+            "Exceeds productive capacity absorption / उत्पादक क्षमता अवशोषण से अधिक होने पर",
+            "Encourages regressive consumption / प्रतिगामी उपभोग को प्रोत्साहित करता है",
+            "Increases income inequality / आय असमानता बढ़ाता है",
+            "Promotes equitable distribution of income / आय के समान वितरण को बढ़ावा देता है"
+        ],
+        a: 3,
+        e: {
+            concept: "Progressive Taxation and Equity. / प्रगतिशील कराधान और समानता।",
+            correct: "Progressive direct taxes levy higher tax rates on higher-income individuals. The primary purpose and impact of this system is to reduce economic disparities and promote a more equitable distribution of income and wealth in society. / प्रगतिशील प्रत्यक्ष कर उच्च आय वाले व्यक्तियों पर उच्च कर दरें लगाते हैं। इस प्रणाली का प्राथमिक उद्देश्य और प्रभाव आर्थिक विषमताओं को कम करना और समाज में आय और धन के अधिक समान वितरण को बढ़ावा देना है।",
+            wrong: "Indirect taxes (like GST) are often debated for being regressive and potentially widening inequality, whereas direct progressive taxes are designed specifically to reduce it. / अप्रत्यक्ष करों (जैसे GST) को अक्सर प्रतिगामी होने और असमानता को बढ़ाने के लिए बहस की जाती है।"
+        }
+    }
+,
+    // Question 76
+    {
+        q: "Which instrument of fiscal policy is most directly used to control inflation in India? / भारत में मुद्रास्फीति नियंत्रण के लिये राजकोषीय नीति का कौन सा साधन सबसे प्रत्यक्ष रुप से उपयोग किया जाता है?",
+        o: [
+            "Lowering interest rates / ब्याज दरें कम करना",
+            "Increasing tax rates and reducing subsidies / कर दरें बढ़ाना और सब्सिडी कम करना",
+            "Increasing public expenditure / सार्वजनिक व्यय बढ़ाना",
+            "Deficit financing / घाटा वित्तपोषण"
+        ],
+        a: 1,
+        e: {
+            concept: "Fiscal Policy Tools for Inflation Control. / मुद्रास्फीति नियंत्रण के लिए राजकोषीय नीति उपकरण।",
+            correct: "During high inflation, the government uses a contractionary fiscal policy, which involves increasing direct/indirect taxes (to reduce disposable income) and cutting down on government expenditure/subsidies to decrease aggregate demand. / उच्च मुद्रास्फीति के दौरान, सरकार एक संकुचनकारी राजकोषीय नीति का उपयोग करती है, जिसमें प्रत्यक्ष/अप्रत्यक्ष करों को बढ़ाना और कुल मांग को कम करने के लिए सरकारी व्यय/सब्सिडी में कटौती करना शामिल है।",
+            wrong: "Lowering interest rates is a monetary policy tool (and it increases inflation). Deficit financing and increasing public expenditure would further fuel inflation. / ब्याज दरें कम करना मौद्रिक नीति का उपकरण है। घाटे का वित्तपोषण और सार्वजनिक व्यय बढ़ाने से मुद्रास्फीति और बढ़ेगी।"
+        }
+    },
+    // Question 77
+    {
+        q: "What is the primary impact of a large budget size with high capital expenditure on the economy in India? / भारत में उच्च पूँजीगत व्यय के साथ बडा बजट आकार मुख्य रुप से अर्थव्यवस्था पर क्या प्रभाव डालता है?",
+        o: [
+            "Generates immediate inflation without development benefits / विकास लाभ के बिना तत्काल मुद्रास्फीति उत्पन्न करना",
+            "Reduces total public debt / कुल सार्वजनिक ऋण को कम करना",
+            "Stimulates growth by creating a positive multiplier effect / सकारात्मक गुणक प्रभाव पैदा करके विकास को उत्तेजित करना",
+            "Completely crowds out private investment / निजी निवेश को पूरी तरह से बाहर करना"
+        ],
+        a: 2,
+        e: {
+            concept: "Impact of Capital Expenditure. / पूंजीगत व्यय का प्रभाव।",
+            correct: "High capital expenditure (spending on infrastructure, roads, etc.) creates productive assets, generates employment, and has a high multiplier effect, thereby stimulating long-term economic growth. / उच्च पूंजीगत व्यय (बुनियादी ढांचे, सड़कों आदि पर खर्च) उत्पादक संपत्ति बनाता है, रोजगार पैदा करता है और इसका उच्च गुणक प्रभाव होता है, जिससे दीर्घकालिक आर्थिक विकास को बढ़ावा मिलता है।",
+            wrong: "Unlike revenue expenditure, capital expenditure is less inflationary in the long run as it expands the productive capacity of the economy. / राजस्व व्यय के विपरीत, पूंजीगत व्यय लंबे समय में कम मुद्रास्फीति वाला होता है।"
+        }
+    },
+    // Question 78
+    {
+        q: "In a planned developing economy like India (especially before 1991), what was the main instrument of fiscal policy for resource allocation? / भारत जैसे नियोजित विकासशील अर्थव्यवस्था में (विशेषकर 1991 से पहले), संसाधन आबंटन के लिये राजकोषीय नीति का प्रमुख साधन क्या था?",
+        o: [
+            "Tax cuts in all sectors / सभी क्षेत्रों में कर कटौती",
+            "Public expenditure on priority sectors like heavy industries / भारी उद्योगों जैसे प्राथमिक क्षेत्रों पर सार्वजनिक व्यय",
+            "Complete dependence on foreign aid / विदेशी सहायता पर पूर्ण निर्भरता",
+            "Only private sector incentives / केवल निजी क्षेत्र प्रोत्साहन"
+        ],
+        a: 1,
+        e: {
+            concept: "Fiscal Policy in Pre-1991 India. / 1991 से पहले के भारत में राजकोषीय नीति।",
+            correct: "Before 1991, India followed a state-led development model (Mahalanobis model). The government directed resource allocation primarily through massive public expenditure on state-owned heavy industries and infrastructure. / 1991 से पहले, भारत ने राज्य के नेतृत्व वाले विकास मॉडल (महालनोबिस मॉडल) का पालन किया। सरकार ने मुख्य रूप से राज्य के स्वामित्व वाले भारी उद्योगों और बुनियादी ढांचे पर बड़े पैमाने पर सार्वजनिक व्यय के माध्यम से संसाधन आवंटन को निर्देशित किया।",
+            wrong: "It did not rely primarily on tax cuts or private sector incentives, as the public sector commanded the 'commanding heights' of the economy. / यह मुख्य रूप से कर कटौती या निजी क्षेत्र के प्रोत्साहन पर निर्भर नहीं था।"
+        }
+    },
+    // Question 79
+    {
+        q: "The regressive impact of indirect taxes like GST in India primarily falls on: / भारत में जी एस टी जैसे अप्रत्यक्ष करों का प्रतिगामी प्रभाव मुख्य रुप से किस पर पड़ता है:",
+        o: [
+            "Only the corporate sector / केवल कॉर्पोरेट क्षेत्र",
+            "Disproportionately on the higher income group / उच्च आय वर्ग पर असमान रुप से",
+            "More on the lower income group in proportion to their income / आय के अनुपात में निम्न आय वर्ग पर अधिक",
+            "Positively on export sectors / निर्यात क्षेत्रों पर सकारात्मक"
+        ],
+        a: 2,
+        e: {
+            concept: "Regressive Nature of Indirect Taxes. / अप्रत्यक्ष करों की प्रतिगामी प्रकृति।",
+            correct: "Indirect taxes are generally regressive. Since everyone pays the same amount of tax on a good (like GST on soap), it takes a much larger percentage of income from a poor person than from a rich person. / अप्रत्यक्ष कर आम तौर पर प्रतिगामी होते हैं। चूँकि हर कोई किसी वस्तु पर समान राशि का कर (जैसे साबुन पर GST) का भुगतान करता है, इसलिए यह एक अमीर व्यक्ति की तुलना में गरीब व्यक्ति की आय का बहुत बड़ा प्रतिशत लेता है।",
+            wrong: "Direct taxes like Income Tax are progressive and impact higher income groups more. / आयकर जैसे प्रत्यक्ष कर प्रगतिशील होते हैं और उच्च आय समूहों को अधिक प्रभावित करते हैं।"
+        }
+    },
+    // Question 80
+    {
+        q: "In a developing economy, excessive budget deficit financed through borrowing can primarily lead to: / विकासशील अर्थव्यवस्था में अत्यधिक बजट घाटा उधार के माध्यम से वित्त पोषण मुख्य रूप से कारण बन सकता है:",
+        o: [
+            "Inflation / मुद्रास्फीति",
+            "Immediate reduction in interest rates / ब्याज दरों में तत्काल कमी",
+            "Automatic increase in exports / निर्यात में स्वचालित वृद्धि",
+            "Decrease in public investment / सार्वजनिक निवेश में कमी"
+        ],
+        a: 0,
+        e: {
+            concept: "Consequences of High Fiscal Deficit. / उच्च राजकोषीय घाटे के परिणाम।",
+            correct: "When a government runs excessive budget deficits and borrows heavily (or prints money), it injects more money into the economy without a corresponding increase in goods, leading to demand-pull inflation. / जब सरकार अत्यधिक बजट घाटा चलाती है और भारी उधार लेती है, तो यह वस्तुओं में इसी वृद्धि के बिना अर्थव्यवस्था में अधिक धन इंजेक्ट करती है, जिससे मांग-पुल मुद्रास्फीति होती है।",
+            wrong: "Heavy borrowing increases demand for loanable funds, which usually pushes interest rates UP, not down (Crowding Out effect). / भारी उधारी से ऋण योग्य निधियों की मांग बढ़ जाती है, जो आमतौर पर ब्याज दरों को ऊपर धकेलती है।"
+        }
+    },
+    // Question 81
+    {
+        q: "What does fiscal policy in India primarily aim to achieve? / भारत में राजकोषीय नीति मुख्य रुप से क्या प्राप्त करने का लक्ष्य रखती है?",
+        o: [
+            "Complete privatization / पूर्ण निजीकरण",
+            "Reduction in all taxes / सभी करों में कमी",
+            "Only increase in imports / केवल आयात में वृद्धि",
+            "Optimal allocation of resources for development priorities / विकास प्राथमिकताओं के लिये संसाधनों का इष्टतम आबंटन"
+        ],
+        a: 3,
+        e: {
+            concept: "Objectives of Fiscal Policy. / राजकोषीय नीति के उद्देश्य।",
+            correct: "The primary goal of fiscal policy (government revenue and expenditure policy) in India is the optimal allocation of resources to stimulate economic development, maintain stability, and reduce inequality. / भारत में राजकोषीय नीति (सरकारी राजस्व और व्यय नीति) का प्राथमिक लक्ष्य आर्थिक विकास को प्रोत्साहित करने, स्थिरता बनाए रखने और असमानता को कम करने के लिए संसाधनों का इष्टतम आवंटन है।",
+            wrong: "Reducing all taxes or complete privatization are not universal primary objectives of fiscal policy. / सभी करों को कम करना या पूर्ण निजीकरण राजकोषीय नीति के सार्वभौमिक प्राथमिक उद्देश्य नहीं हैं।"
+        }
+    },
+    // Question 82
+    {
+        q: "What is the impact of a persistently high fiscal deficit on the Indian economy? / भारत में लगातार उच्च राजकोषीय घाटा अर्थव्यवस्था पर क्या प्रभाव डालता है?",
+        o: [
+            "Always reduces inflation / हमेशा मुद्रास्फीति कम करना",
+            "Increase in public debt burden and interest payments / सार्वजनिक ऋण बोझ और ब्याज भुगतान में वृद्धि",
+            "Attraction of exports / निर्यात का आकर्षण",
+            "Automatically reduces public debt burden / सार्वजनिक ऋण बोझ को स्वचालित रूप से कम करना"
+        ],
+        a: 1,
+        e: {
+            concept: "Fiscal Deficit and Public Debt. / राजकोषीय घाटा और सार्वजनिक ऋण।",
+            correct: "A persistently high fiscal deficit means the government has to borrow continuously. This accumulates into a massive public debt, leading to huge interest payment obligations that eat into future budgets. / लगातार उच्च राजकोषीय घाटे का मतलब है कि सरकार को लगातार उधार लेना पड़ता है। यह एक बड़े सार्वजनिक ऋण में जमा हो जाता है, जिससे ब्याज भुगतान के भारी दायित्व पैदा होते हैं।",
+            wrong: "High fiscal deficit tends to increase inflation, not reduce it. It definitely does not automatically reduce debt. / उच्च राजकोषीय घाटा मुद्रास्फीति को बढ़ाता है, इसे कम नहीं करता है।"
+        }
+    },
+    // Question 83
+    {
+        q: "What is the meaning of 'Terms of Trade'? / 'व्यापार की शर्तें' का अर्थ है:",
+        o: [
+            "Ratio of export prices to import prices / निर्यात मूल्य और आयात मूल्य का अनुपात",
+            "Exchange rate / विनिमय दर",
+            "Trade agreements / व्यापार समझौते",
+            "Volume of trade / व्यापार की मात्रा"
+        ],
+        a: 0,
+        e: {
+            concept: "International Trade Terms. / अंतर्राष्ट्रीय व्यापार शर्तें।",
+            correct: "Terms of Trade (TOT) refers to the ratio between the index of export prices and the index of import prices. If export prices rise relative to import prices, the terms of trade improve for the country. / व्यापार की शर्तें (TOT) निर्यात कीमतों के सूचकांक और आयात कीमतों के सूचकांक के बीच के अनुपात को संदर्भित करती हैं। यदि आयात कीमतों के सापेक्ष निर्यात की कीमतें बढ़ती हैं, तो देश के लिए व्यापार की शर्तों में सुधार होता है।",
+            wrong: "It is not the volume of trade or simply the exchange rate. / यह व्यापार की मात्रा या केवल विनिमय दर नहीं है।"
+        }
+    },
+    // Question 84
+    {
+        q: "A specific tariff is levied: / विशिष्ट प्रशुल्क लगाया जाता है:",
+        o: [
+            "Only on exports / केवल निर्यात पर",
+            "Per unit of the imported good / आयातित वस्तु की प्रति इकाई पर",
+            "As a percentage of value / मूल्य के प्रतिशत के रुप में",
+            "On capital flows / पूँजी प्रवाह पर"
+        ],
+        a: 1,
+        e: {
+            concept: "Types of Tariffs. / टैरिफ के प्रकार।",
+            correct: "A 'specific tariff' is a fixed fee levied based on the physical unit of the imported good (e.g., $10 per ton of steel), regardless of its monetary value. / 'विशिष्ट टैरिफ' एक निश्चित शुल्क है जो आयातित वस्तु की भौतिक इकाई (जैसे, $10 प्रति टन स्टील) के आधार पर लगाया जाता है, चाहे उसका मौद्रिक मूल्य कुछ भी हो।",
+            wrong: "An 'ad valorem' tariff is levied as a percentage of the value of the good. / 'मूल्य-वर्धित' (Ad Valorem) टैरिफ वस्तु के मूल्य के प्रतिशत के रूप में लगाया जाता है।"
+        }
+    },
+    // Question 85
+    {
+        q: "Anti-dumping duty is levied: / एंटी-डंपिंग शुल्क लगाया जाता है:",
+        o: [
+            "To reduce taxes / कर कम करने के लिये",
+            "To increase imports / आयात बढ़ाने के लिये",
+            "To prevent unfairly low-priced imports / अनुचित कम कीमत वाले आयात को रोकने के लिये",
+            "To boost exports / निर्यात बढ़ाने के लिये"
+        ],
+        a: 2,
+        e: {
+            concept: "Trade Protection Measures. / व्यापार संरक्षण उपाय।",
+            correct: "Anti-dumping duties are protectionist tariffs imposed by a domestic government on foreign imports that it believes are priced below fair market value (dumped), to protect local industries. / एंटी-डंपिंग शुल्क स्थानीय उद्योगों की रक्षा के लिए एक घरेलू सरकार द्वारा विदेशी आयातों पर लगाए गए संरक्षणवादी टैरिफ हैं, जिनका मूल्य उचित बाजार मूल्य से कम (डंप) माना जाता है।",
+            wrong: "It is not meant to boost imports or reduce regular taxes. / इसका उद्देश्य आयात को बढ़ावा देना या नियमित करों को कम करना नहीं है।"
+        }
+    },
+    // Question 86
+    {
+        q: "In a managed floating system, the exchange rate is determined by: / प्रबंधित परिवर्तनीय प्रणाली में विनिमय दर निर्धारित होती है:",
+        o: [
+            "Gold standard / स्वर्ण मानक द्वारा",
+            "Only market forces / केवल बाजार शक्तियों द्वारा",
+            "Fixed parity / स्थिर समानता द्वारा",
+            "Market forces and central bank intervention / बाजार शक्तियों तथा केन्द्रीय बैंक हस्तक्षेप द्वारा"
+        ],
+        a: 3,
+        e: {
+            concept: "Exchange Rate Regimes. / विनिमय दर व्यवस्थाएँ।",
+            correct: "In a managed floating (dirty float) exchange rate system, the currency value is primarily determined by market forces of demand and supply, but the central bank periodically intervenes (buys/sells currency) to prevent extreme volatility. / प्रबंधित फ़्लोटिंग (डर्टी फ़्लोट) विनिमय दर प्रणाली में, मुद्रा का मूल्य मुख्य रूप से मांग और आपूर्ति की बाजार शक्तियों द्वारा निर्धारित किया जाता है, लेकिन केंद्रीय बैंक अत्यधिक अस्थिरता को रोकने के लिए समय-समय पर हस्तक्षेप (मुद्रा खरीदता/बेचता) करता है।",
+            wrong: "A completely free float relies solely on market forces without central bank intervention. / पूरी तरह से मुक्त फ्लोट केंद्रीय बैंक के हस्तक्षेप के बिना केवल बाजार की शक्तियों पर निर्भर करता है।"
+        }
+    },
+    // Question 87
+    {
+        q: "A surplus in the capital account means: / पूँजी खाते में अधिशेष का अर्थ है:",
+        o: [
+            "Budget deficit / बजट घाटा",
+            "Trade deficit / व्यापार घाटा",
+            "Net capital outflow / शुद्ध पूँजी प्रवाह बाहर",
+            "Net capital inflow / शुद्ध पूँजी प्रवाह अन्दर"
+        ],
+        a: 3,
+        e: {
+            concept: "Balance of Payments Analysis. / भुगतान संतुलन विश्लेषण।",
+            correct: "A surplus in the capital account indicates that the inflow of foreign capital (like FDI, FPI, and external borrowings) into the country is greater than the outflow of capital to other countries (Net Capital Inflow). / पूंजी खाते में अधिशेष इंगित करता है कि देश में विदेशी पूंजी (जैसे एफडीआई, एफपीआई और बाहरी उधार) का प्रवाह अन्य देशों में पूंजी के बहिर्वाह (शुद्ध पूंजी प्रवाह) से अधिक है।",
+            wrong: "It is unrelated to the government's budget deficit. A trade deficit relates to the current account. / यह सरकार के बजट घाटे से असंबंधित है। व्यापार घाटा चालू खाते से संबंधित है।"
+        }
+    },
+    // Question 88
+    {
+        q: "The Bretton Woods system was based on: / ब्रेटन वुड्स प्रणाली आधारित थी:",
+        o: [
+            "Gold exchange standard / स्वर्ण विनिमय मानक",
+            "Flexible exchange rate / परिवर्तनीय विनिमय दर",
+            "Free banking / मुफ्त बैंकिंग",
+            "Pure gold standard / शुद्ध स्वर्ण मानक"
+        ],
+        a: 0,
+        e: {
+            concept: "International Monetary System. / अंतर्राष्ट्रीय मौद्रिक प्रणाली।",
+            correct: "The Bretton Woods system (1944-1971) established a Gold Exchange Standard. Currencies were pegged to the US Dollar, and the US Dollar was in turn convertible to gold at a fixed rate of $35 per ounce. / ब्रेटन वुड्स प्रणाली (1944-1971) ने एक स्वर्ण विनिमय मानक स्थापित किया। मुद्राओं को अमेरिकी डॉलर से जोड़ा गया था, और अमेरिकी डॉलर को बदले में 35 डॉलर प्रति औंस की निश्चित दर पर सोने में परिवर्तनीय किया गया था।",
+            wrong: "It was a fixed (pegged) system, not a flexible exchange rate system. It was also not a pure gold standard where every currency was directly backed by gold. / यह एक निश्चित प्रणाली थी, लचीली विनिमय दर प्रणाली नहीं।"
+        }
+    },
+    // Question 90 (Note: Q89 is missing from original source text)
+    {
+        q: "The Asian Development Bank (ADB) primarily finances: / एशियन विकास बैंक मुख्यतः वित्तपोषण करता है:",
+        o: [
+            "Gold trade / स्वर्ण व्यापार",
+            "Social and infrastructure projects / सामाजिक एवं अवसंरचना परियोजनायें",
+            "Military projects / सैन्य परियोजनायें",
+            "Currency printing / मुद्रा छपाई"
+        ],
+        a: 1,
+        e: {
+            concept: "International Financial Institutions. / अंतर्राष्ट्रीय वित्तीय संस्थान।",
+            correct: "The Asian Development Bank (ADB) focuses on reducing poverty in Asia and the Pacific by primarily financing infrastructure, environment, and social development projects. / एशियाई विकास बैंक (ADB) मुख्य रूप से बुनियादी ढांचे, पर्यावरण और सामाजिक विकास परियोजनाओं के वित्तपोषण के द्वारा एशिया और प्रशांत क्षेत्र में गरीबी कम करने पर केंद्रित है।",
+            wrong: "ADB explicitly does not fund military projects, currency printing, or gold trade. / ADB सैन्य परियोजनाओं को निधि नहीं देता है।"
+        }
+    },
+    // Question 91
+    {
+        q: "Which Five Year Plan made poverty eradication ('Garibi Hatao') a primary objective? / कौन सी पंचवर्षीय योजना ने गरीबी उन्मूलन: 'गरीबी हटाओं' को प्राथमिक उद्देश्य बनाया?",
+        o: [
+            "Fifth / पंचम",
+            "Seventh / सप्तम",
+            "Sixth / षष्ठम",
+            "Ninth / नवम"
+        ],
+        a: 0,
+        e: {
+            concept: "Objectives of Five Year Plans. / पंचवर्षीय योजनाओं के उद्देश्य।",
+            correct: "The Fifth Five-Year Plan (1974-1979), drafted by D.D. Dhar, focused squarely on 'Garibi Hatao' (poverty eradication) and attaining self-reliance. / डी.डी. धर द्वारा तैयार की गई पांचवीं पंचवर्षीय योजना (1974-1979) ने सीधे तौर पर 'गरीबी हटाओ' और आत्मनिर्भरता प्राप्त करने पर ध्यान केंद्रित किया।",
+            wrong: "While later plans continued to address poverty, the explicit slogan and primary framework of 'Garibi Hatao' was the hallmark of the Fifth Plan under Indira Gandhi. / यद्यपि बाद की योजनाओं ने भी गरीबी को संबोधित किया, लेकिन 'गरीबी हटाओ' का स्पष्ट नारा पांचवीं योजना की पहचान थी।"
+        }
+    },
+    // Question 92
+    {
+        q: "Distributive justice in Indian planning emphasizes: / भारतीय नियोजन में वितरण न्याय बल देता है:",
+        o: [
+            "Equal results from equal work and wealth redistribution / समान कार्य से समान परिणाम और धन पुनर्वितरण न्याय का मार्ग दर्शक सिद्धान्त",
+            "Export-led growth / निर्यात-प्रेरित विकास",
+            "Dominance of the private sector / निजी क्षेत्र का प्रभुत्व",
+            "Only maximum GDP growth / केवल अधिकतम जीडीपी वृद्धि"
+        ],
+        a: 0,
+        e: {
+            concept: "Directive Principles of State Policy & Economic Planning. / राज्य के नीति निर्देशक तत्व और आर्थिक नियोजन।",
+            correct: "Distributive justice in the context of Indian planning refers to ensuring equity—reducing inequalities in income and wealth, providing equal opportunities, and ensuring the benefits of growth reach the poorest sections. / भारतीय नियोजन के संदर्भ में वितरण न्याय का अर्थ समानता सुनिश्चित करना है - आय और धन में असमानताओं को कम करना, समान अवसर प्रदान करना और यह सुनिश्चित करना कि विकास का लाभ सबसे गरीब वर्गों तक पहुंचे।",
+            wrong: "Relying purely on maximum GDP growth or private sector dominance without redistribution often worsens inequality. / पुनर्वितरण के बिना केवल अधिकतम जीडीपी वृद्धि पर निर्भर रहने से अक्सर असमानता बढ़ जाती है।"
+        }
+    },
+    // Question 93
+    {
+        q: "In India's federal structure, which constitutional body recommends the distribution of net tax proceeds between the Union and the States? / भारत की संघीय संरचना में कौन सा संवैधानिक निकाय संघ और राज्यों के बीच शुद्ध कर वितरण की सिफारिश करता है?",
+        o: [
+            "RBI / आर बी आई",
+            "Planning Commission / नियोजन आयोग",
+            "NITI Aayog / नीति आयोग",
+            "Finance Commission / वित्त आयोग"
+        ],
+        a: 3,
+        e: {
+            concept: "Fiscal Federalism in India. / भारत में राजकोषीय संघवाद।",
+            correct: "Under Article 280 of the Constitution, the Finance Commission is constituted every five years to recommend the distribution of the net proceeds of taxes between the Center and the States. / संविधान के अनुच्छेद 280 के तहत, केंद्र और राज्यों के बीच करों की शुद्ध आय के वितरण की सिफारिश करने के लिए हर पांच साल में वित्त आयोग का गठन किया जाता है।",
+            wrong: "NITI Aayog acts as a policy think tank but does not have the constitutional mandate to allocate tax revenues. / नीति आयोग एक नीतिगत थिंक टैंक के रूप में कार्य करता है लेकिन कर राजस्व आवंटित करने का संवैधानिक अधिकार नहीं रखता है।"
+        }
+    },
+    // Question 94
+    {
+        q: "According to MOSPI estimates, which sector has the largest share (~53%) of Gross Value Added (GVA) in national income? / MOSPI अनुमानों के अनुसार, राष्ट्रीय आय में सकल मूल्य वर्धित (GVA) का सबसे बड़ा हिस्सा (~53%) किस क्षेत्र का है?",
+        o: [
+            "Construction / निर्माण",
+            "Services / सेवा",
+            "Industry / उद्योग",
+            "Agriculture / कृषि"
+        ],
+        a: 1,
+        e: {
+            concept: "Sectoral Composition of Indian Economy. / भारतीय अर्थव्यवस्था की क्षेत्रीय संरचना।",
+            correct: "The Services sector (Tertiary sector) is the largest contributor to India's Gross Value Added (GVA), accounting for over 50% (around 53-54% currently) of the total national income. / सेवा क्षेत्र (तृतीयक क्षेत्र) भारत के सकल मूल्य वर्धित (GVA) में सबसे बड़ा योगदानकर्ता है, जो कुल राष्ट्रीय आय का 50% से अधिक (वर्तमान में लगभग 53-54%) है।",
+            wrong: "Agriculture contributes around 18-20%, while Industry/Manufacturing contributes around 25-28%. / कृषि का योगदान लगभग 18-20% है, जबकि उद्योग/विनिर्माण का योगदान लगभग 25-28% है।"
+        }
+    },
+    // Question 95
+    {
+        q: "According to NITI Aayog's first MPI report, which state had the highest incidence of multidimensional poverty? / नीति आयोग की पहली MPI रिपोर्ट के अनुसार, बहुआयामी गरीबी की उच्चतम घटना वाला राज्य कौन सा था?",
+        o: [
+            "Madhya Pradesh / मध्य प्रदेश",
+            "Uttar Pradesh / उत्तर प्रदेश",
+            "Bihar / बिहार",
+            "Jharkhand / झारखण्ड"
+        ],
+        a: 2,
+        e: {
+            concept: "Multidimensional Poverty Index (MPI) India. / बहुआयामी गरीबी सूचकांक (MPI) भारत।",
+            correct: "According to NITI Aayog's National Multidimensional Poverty Index baseline report, Bihar had the highest proportion of multidimensionally poor people in the country. / नीति आयोग की राष्ट्रीय बहुआयामी गरीबी सूचकांक बेसलाइन रिपोर्ट के अनुसार, देश में बहुआयामी रूप से गरीब लोगों का सबसे अधिक अनुपात बिहार में था।",
+            wrong: "While Jharkhand and UP also have high poverty rates, Bihar recorded the absolute highest incidence in the baseline report. / यद्यपि झारखंड और यूपी में भी उच्च गरीबी दर है, लेकिन बेसलाइन रिपोर्ट में बिहार में सबसे अधिक गरीबी दर्ज की गई।"
+        }
+    },
+    // Question 96
+    {
+        q: "According to MOSPI state-wise data on per capita income (NSDP), which state consistently remains at the bottom, highlighting regional disparities? / MOSPI राज्यवार डेटा के अनु‌सार प्रतिव्यक्ति आय (NSDP) में कौन सा राज्य लगातार निचले पायदान पर रहता है, जो क्षेत्रीय असमानताओं को उजागर करता है?",
+        o: [
+            "Bihar / बिहार",
+            "Assam / असम",
+            "Odisha / ओडिशा",
+            "Uttar Pradesh / उत्तर प्रदेश"
+        ],
+        a: 0,
+        e: {
+            concept: "State-wise Per Capita Income. / राज्यवार प्रति व्यक्ति आय।",
+            correct: "Bihar consistently ranks at the very bottom among Indian states in terms of Per Capita Net State Domestic Product (NSDP), a stark indicator of extreme regional economic disparity. / प्रति व्यक्ति शुद्ध राज्य घरेलू उत्पाद (NSDP) के मामले में बिहार लगातार भारतीय राज्यों में सबसे निचले पायदान पर है, जो अत्यधिक क्षेत्रीय आर्थिक विषमता का एक स्पष्ट संकेतक है।",
+            wrong: "States like Goa, Sikkim, and Delhi are typically at the top of this list. / गोवा, सिक्किम और दिल्ली जैसे राज्य आम तौर पर इस सूची में शीर्ष पर होते हैं।"
+        }
+    },
+    // Question 97
+    {
+        q: "Which of the following is a major objective of India's Agriculture Export Policy? / निम्नलिखित में से कौन भारत की कृषि निर्यात नीति का प्रमुख उद्देश्य है?",
+        o: [
+            "To revitalize agricultural exports and integrate with global value chains / कृषि निर्यात को पुनर्जीवित करना और वैश्विक मूल्य श्रंखलाओं के साथ एकीकरण करना",
+            "To reduce farm productivity / खेत उत्पादकता को कम करना",
+            "To limit corporate involvement in agriculture / कृषि में कॉर्पोरेट भागीदारी को सीमित करना",
+            "Only maximum GDP growth / केवल अधिकतम जीडीपी वृद्धि"
+        ],
+        a: 0,
+        e: {
+            concept: "Agriculture Export Policy. / कृषि निर्यात नीति।",
+            correct: "The core vision of India's Agriculture Export Policy is to harness the export potential of Indian agriculture, making India a global power in agriculture, and seamlessly integrating farmers with global value chains to double farmers' income. / भारत की कृषि निर्यात नीति का मुख्य दृष्टिकोण भारतीय कृषि की निर्यात क्षमता का दोहन करना और किसानों की आय को दोगुना करने के लिए वैश्विक मूल्य श्रृंखलाओं के साथ किसानों को एकीकृत करना है।",
+            wrong: "The policy does not aim to reduce productivity; in fact, increasing yield and quality for exports is a major goal. / नीति का उद्देश्य उत्पादकता को कम करना नहीं है; वास्तव में, निर्यात के लिए उपज और गुणवत्ता बढ़ाना एक बड़ा लक्ष्य है।"
+        }
+    },
+    // Question 98
+    {
+        q: "The focus of the National Mission for Sustainable Agriculture (NMSA) is: / राष्ट्रीय सतत कृषि मिशन (NMSA) का फोकस है:",
+        o: [
+            "Promoting mono-cropping / केवल एक फसली खेती को बढावा देना",
+            "Reducing irrigation facilities / सिंचाई सुविधाओं को कम करना",
+            "Increasing national fertilizer use / राष्ट्रीय उर्वरक उपयोग बढाना",
+            "Enhancing resilience, productivity, and mitigation co-benefits / लचीलापन, उत्पादकता, और शमन सह-लाभों को बढ़ाना"
+        ],
+        a: 3,
+        e: {
+            concept: "National Action Plan on Climate Change (NAPCC). / जलवायु परिवर्तन पर राष्ट्रीय कार्य योजना (NAPCC)।",
+            correct: "The NMSA is one of the missions under NAPCC. It focuses on making agriculture more productive, sustainable, remunerative, and climate-resilient by promoting location-specific integrated/composite farming systems. / NMSA, NAPCC के तहत मिशनों में से एक है। यह स्थान-विशिष्ट एकीकृत कृषि प्रणालियों को बढ़ावा देकर कृषि को अधिक उत्पादक, टिकाऊ और जलवायु-लचीला बनाने पर केंद्रित है।",
+            wrong: "Promoting mono-cropping or arbitrarily increasing chemical fertilizer use goes against the principles of sustainable agriculture. / एकल फसल को बढ़ावा देना टिकाऊ कृषि के सिद्धांतों के खिलाफ है।"
+        }
+    },
+    // Question 99
+    {
+        q: "Land reforms in India were primarily undertaken with what objective? / भारत में भूमि सुधार मुख्य रुप से किस उद्देश्य से किये गये?",
+        o: [
+            "To increase land area / भूमि को बढाना",
+            "To promote large scale farming only / केवल बडे पैमाने पर खेती को बढावा देना",
+            "To strengthen intermediaries / मध्यस्थों को मजबूत करना",
+            "To abolish intermediaries and redistribute land / मध्यस्थों को समाप्त करना और भूमि का पुनर्वितरण"
+        ],
+        a: 3,
+        e: {
+            concept: "Land Reforms in India. / भारत में भूमि सुधार।",
+            correct: "The primary objectives of land reforms in post-independence India were the abolition of intermediaries (like Zamindars), tenancy regulation, and the imposition of land ceilings for the redistribution of surplus land to the landless. / स्वतंत्रता के बाद भारत में भूमि सुधारों के प्राथमिक उद्देश्य बिचौलियों (जैसे जमींदारों) का उन्मूलन, किरायेदारी विनियमन और भूमिहीनों को अधिशेष भूमि के पुनर्वितरण के लिए भूमि सीमा लागू करना था।",
+            wrong: "Strengthening intermediaries would be the exact opposite of the policy's goal. / बिचौलियों को मजबूत करना नीति के लक्ष्य के बिल्कुल विपरीत होगा।"
+        }
+    },
+    // Question 100
+    {
+        q: "According to NITI Aayog's roadmap, what is the key pillar of Digital Agriculture Mission 2.0? / नीति आयोग के रोडमैप के अनुसार, डिजिटल कृषि मिशन 2.0 का प्रमुख स्तम्भ क्या है?",
+        o: [
+            "Reducing data ecosystems / डेटा पारिस्थितिक तंत्र को कम करना",
+            "Enhancing foundational systems with 360-degree data / 360-डिग्री डेटा के साथ आधारभूत प्रणालियों को बढ़ाना",
+            "Limiting startup accelerators / स्टार्टअप त्वरकों को सीमित करना",
+            "Stopping last mile interventions / अंतिम मील हस्तक्षेपों को रोकना"
+        ],
+        a: 1,
+        e: {
+            concept: "Digital Agriculture and Agri-Tech. / डिजिटल कृषि और एग्री-टेक।",
+            correct: "Digital Agriculture Mission aims to create a robust DPI (Digital Public Infrastructure) for agriculture. A key pillar involves enhancing foundational data systems (like AgriStack) using comprehensive 360-degree data mapping to support farmers. / डिजिटल कृषि मिशन का उद्देश्य कृषि के लिए एक मजबूत DPI (डिजिटल पब्लिक इंफ्रास्ट्रक्चर) बनाना है। एक प्रमुख स्तंभ में किसानों का समर्थन करने के लिए 360-डिग्री डेटा मैपिंग का उपयोग करके आधारभूत डेटा सिस्टम (जैसे एग्रीस्टैक) को बढ़ाना शामिल है।",
+            wrong: "The mission encourages, rather than limits, startup integration and data ecosystems. / यह मिशन स्टार्टअप एकीकरण और डेटा पारिस्थितिक तंत्र को सीमित करने के बजाय प्रोत्साहित करता है।"
+        }
+    }
+];
+
+
+
+        // Generate Quiz Data based on config
+        const quizData = [
+            ...baseData,
+            ...Array.from({ length: Math.max(0, config.totalQuestions - baseData.length) }, (_, i) => ({
+                q: `Additional Question ${baseData.length + i + 1} (Placeholder) / अतिरिक्त प्रश्न ${baseData.length + i + 1} (प्लेसहोल्डर)`,
+                o: ["Option A / विकल्प A", "Option B / विकल्प B", "Option C / विकल्प C", "Option D / विकल्प D"],
+                a: 0,
+                e: {
+                    concept: "This is a placeholder question.",
+                    correct: "Option A is right by default for placeholders.",
+                    wrong: "Fallback for other options."
+                }
+            }))
+        ].slice(0, config.totalQuestions);
+
+        // Quiz State
+        let currentQuestion = 0;
+        let totalTimeSeconds = config.timeInMinutes * 60;
+        let timerInterval;
+        let zoomLevel = 16;
+
+        // Data Structures for state tracking
+        // status: 0=unvisited, 1=skipped/visited, 2=answered, 3=review
+        const questionStatus = Array(config.totalQuestions).fill(0);
+        const userAnswers = Array(config.totalQuestions).fill(null);
+        const lifelinesUsed = Array(config.totalQuestions).fill(false);
+        const bookmarks = Array(config.totalQuestions).fill(false);
+
+        const optionPrefixes = ['(A)', '(B)', '(C)', '(D)'];
+
+        // DOM Elements setup
+        document.getElementById('header-title').innerText = `${config.examName} - ${config.subject}`;
+        document.getElementById('display-total-num').innerText = config.totalQuestions;
+        document.getElementById('meta-exam').innerText = config.examName;
+        document.getElementById('meta-paper').innerText = config.paperName;
+        document.getElementById('meta-date').innerText = config.examDate;
+
+        const elDetailsPanel = document.getElementById('details-panel');
+        const elMapPanel = document.getElementById('question-map-panel');
+        const elMapOverlay = document.getElementById('map-overlay');
+        const elQuestionText = document.getElementById('question-text');
+        const elStatementsContainer = document.getElementById('statements-container');
+        const elAssertionReasonContainer = document.getElementById('assertion-reason-container');
+        const elMatchListContainer = document.getElementById('match-list-container');
+        const elOptionsContainer = document.getElementById('options-container');
+        const elExplanationContainer = document.getElementById('explanation-container');
+        const elExplanationText = document.getElementById('explanation-text');
+        const elDisplaySeqNum = document.getElementById('display-seq-num');
+        const elDisplayActualNum = document.getElementById('display-actual-num');
+        const elProgressText = document.getElementById('progress-text');
+        const elProgressBar = document.getElementById('progress-bar');
+        const elTimerText = document.getElementById('timer-text');
+        const elTimerBar = document.getElementById('timer-bar');
+        const elMapGrid = document.getElementById('map-grid');
+        const elBtnPrev = document.getElementById('btn-prev');
+        const elBtnNext = document.getElementById('btn-next');
+        const elBtnReview = document.getElementById('btn-review');
+        const elBtn5050 = document.getElementById('btn-5050');
+        const elIconBookmark = document.getElementById('icon-bookmark');
+
+        let isQuizFinished = false;
+        let attemptId = null;
+        let quizHistory = [];
+
+        // --- HAPTIC & AUDIO FEEDBACK SYSTEM ---
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function triggerFeedback(type) {
+            try {
+                // Haptics if available
+                if (navigator.vibrate) {
+                    if (type === 'click') navigator.vibrate(10);
+                    else if (type === 'swipe') navigator.vibrate(15);
+                    else if (type === 'action') navigator.vibrate([10, 20, 10]);
+                }
+
+                // Audio
+                if (audioCtx && audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+                if (audioCtx) {
+                    const oscillator = audioCtx.createOscillator();
+                    const gainNode = audioCtx.createGain();
+
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioCtx.destination);
+
+                    if (type === 'click') {
+                        oscillator.type = 'sine';
+                        oscillator.frequency.setValueAtTime(600, audioCtx.currentTime);
+                        oscillator.frequency.exponentialRampToValueAtTime(300, audioCtx.currentTime + 0.1);
+                        gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                        oscillator.start();
+                        oscillator.stop(audioCtx.currentTime + 0.1);
+                    } else if (type === 'swipe') {
+                        oscillator.type = 'sine';
+                        oscillator.frequency.setValueAtTime(300, audioCtx.currentTime);
+                        oscillator.frequency.exponentialRampToValueAtTime(400, audioCtx.currentTime + 0.1);
+                        gainNode.gain.setValueAtTime(0.03, audioCtx.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                        oscillator.start();
+                        oscillator.stop(audioCtx.currentTime + 0.1);
+                    } else if (type === 'action') {
+                        oscillator.type = 'triangle';
+                        oscillator.frequency.setValueAtTime(400, audioCtx.currentTime);
+                        oscillator.frequency.setValueAtTime(600, audioCtx.currentTime + 0.05);
+                        gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                        oscillator.start();
+                        oscillator.stop(audioCtx.currentTime + 0.1);
+                    }
+                }
+            } catch(e) {}
+        }
+
+        // --- GESTURE NAVIGATION (SWIPE-TO-CHANGE) ---
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let touchEndX = 0;
+        let touchEndY = 0;
+
+        const quizBody = document.getElementById('quiz-body');
+        if (quizBody) {
+            quizBody.addEventListener('touchstart', e => {
+                touchStartX = e.changedTouches[0].screenX;
+                touchStartY = e.changedTouches[0].screenY;
+            }, {passive: true});
+
+            quizBody.addEventListener('touchend', e => {
+                touchEndX = e.changedTouches[0].screenX;
+                touchEndY = e.changedTouches[0].screenY;
+                handleGesture();
+            }, {passive: true});
+        }
+
+        function handleGesture() {
+            // Check if horizontal swipe and large enough
+            const diffX = touchEndX - touchStartX;
+            const diffY = touchEndY - touchStartY;
+
+            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 60) {
+                if (diffX < 0) {
+                    // Swipe Left -> Next
+                    if (!elBtnNext.disabled) {
+                        nextQuestion(true);
+                    }
+                } else {
+                    // Swipe Right -> Prev
+                    if (!elBtnPrev.disabled) {
+                        prevQuestion(true);
+                    }
+                }
+            }
+        }
+
+        function saveState() {
+            const state = {
+                attemptId,
+                currentQuestion,
+                totalTimeSeconds,
+                questionStatus,
+                userAnswers,
+                lifelinesUsed,
+                bookmarks,
+                isQuizFinished
+            };
+            localStorage.setItem('upscQuizState', JSON.stringify(state));
+        }
+
+        function restoreState() {
+            const saved = localStorage.getItem('upscQuizState');
+            if(saved) {
+                try {
+                    const state = JSON.parse(saved);
+                    attemptId = state.attemptId || null;
+                    currentQuestion = state.currentQuestion || 0;
+                    if(state.totalTimeSeconds !== undefined) totalTimeSeconds = state.totalTimeSeconds;
+                    isQuizFinished = state.isQuizFinished || false;
+
+                    if(state.questionStatus) state.questionStatus.forEach((v, i) => { if(i < questionStatus.length) questionStatus[i] = v; });
+                    if(state.userAnswers) state.userAnswers.forEach((v, i) => { if(i < userAnswers.length) userAnswers[i] = v; });
+                    if(state.lifelinesUsed) state.lifelinesUsed.forEach((v, i) => { if(i < lifelinesUsed.length) lifelinesUsed[i] = v; });
+                    if(state.bookmarks) state.bookmarks.forEach((v, i) => { if(i < bookmarks.length) bookmarks[i] = v; });
+                    return true;
+                } catch(e) {
+                    console.error("Error restoring state", e);
+                }
+            }
+            return false;
+        }
+
+        function loadHistory() {
+            const saved = localStorage.getItem('upscQuizHistory');
+            if (saved) {
+                try {
+                    quizHistory = JSON.parse(saved);
+                    // Ensure every item has a unique ID for reliable deletion/review
+                    let updated = false;
+                    quizHistory.forEach((h, i) => {
+                        if (!h.id) {
+                            h.id = 'attempt_' + Date.now() + '_' + i + '_' + Math.random().toString(36).substring(2, 9);
+                            updated = true;
+                        } else {
+                            // Ensure it's a string
+                            h.id = String(h.id);
+                        }
+                    });
+                    if (updated) {
+                        localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+                    }
+                } catch(e) {
+                    quizHistory = [];
+                }
+            }
+        }
+
+        function formatDate(isoStr) {
+            const d = new Date(isoStr);
+            const day = d.getDate();
+            const suffix = ['th', 'st', 'nd', 'rd'][(day % 10 > 3 || Math.floor(day % 100 / 10) === 1) ? 0 : day % 10];
+            const month = d.toLocaleString('en-US', { month: 'short' });
+            return `${day}${suffix} ${month}, ${d.getFullYear()}`;
+        }
+
+        function renderDashboard(hasActiveQuiz) {
+            document.getElementById('dashboard-page').classList.remove('hidden');
+            document.getElementById('dashboard-page').classList.add('flex');
+
+            const historyContainer = document.getElementById('history-container');
+            const btnClearHistory = document.getElementById('btn-clear-history');
+
+            if (quizHistory.length === 0) {
+                if (btnClearHistory) btnClearHistory.classList.add('hidden');
+                historyContainer.innerHTML = '<div class="text-slate-500 text-center py-8 bg-slate-50 rounded-xl border border-dashed border-slate-300 font-medium tracking-wide">No past attempts found. Take your first mock test!</div>';
+            } else {
+                if (btnClearHistory) btnClearHistory.classList.remove('hidden');
+                let html = '';
+                [...quizHistory].reverse().forEach((attempt, index) => {
+                    const date = formatDate(attempt.date);
+                    const attemptNum = quizHistory.length - index;
+                    html += `
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-slate-100 transition shadow-sm hover:shadow">
+                            <div class="flex items-center gap-4 mb-3 sm:mb-0">
+                                <div class="w-12 h-12 flex-shrink-0 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-lg shadow-inner">
+                                    #${attemptNum}
+                                </div>
+                                <div>
+                                    <div class="font-bold text-slate-800 text-lg">Attempt ${attemptNum}</div>
+                                    <div class="text-sm text-slate-500 flex items-center gap-1"><i class="ph ph-calendar-blank"></i> ${date}</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4 sm:gap-6 pl-16 sm:pl-0">
+                                <div class="text-left sm:text-right">
+                                    <div class="text-2xl font-bold ${attempt.score >= 70 ? 'text-emerald-600' : attempt.score >= 40 ? 'text-amber-500' : 'text-rose-500'}">${attempt.score}%</div>
+                                    <div class="text-xs text-slate-500 uppercase font-bold tracking-wider">Accuracy</div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    ${attempt.userAnswers ? `<button type="button" onclick="event.stopPropagation(); reviewPastAttempt('${attempt.id}')" class="px-4 py-2 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition shadow-sm font-medium text-sm flex flex-shrink-0 items-center justify-center gap-1.5"><i class="ph ph-magnifying-glass text-lg"></i> Review</button>` : `<div class="text-xs text-slate-400 italic w-24 text-center">No details</div>`}
+                                    <button type="button" onclick="event.stopPropagation(); deleteHistoryItem('${attempt.id}')" class="px-3 py-2 bg-white border border-slate-300 rounded-lg text-rose-500 hover:bg-rose-50 hover:border-rose-200 transition shadow-sm flex flex-shrink-0 items-center justify-center" title="Delete attempt"><i class="ph ph-trash text-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                historyContainer.innerHTML = html;
+            }
+
+            if (hasActiveQuiz) {
+                document.getElementById('btn-start-quiz').classList.add('hidden');
+                document.getElementById('btn-start-quiz').classList.remove('flex');
+                document.getElementById('btn-resume-quiz').classList.remove('hidden');
+                document.getElementById('btn-resume-quiz').classList.add('flex');
+            } else {
+                document.getElementById('btn-start-quiz').classList.remove('hidden');
+                document.getElementById('btn-start-quiz').classList.add('flex');
+                document.getElementById('btn-resume-quiz').classList.add('hidden');
+                document.getElementById('btn-resume-quiz').classList.remove('flex');
+            }
+        }
+
+        // Initialization
+        function init() {
+            loadHistory();
+            const hasState = restoreState();
+
+            if (isQuizFinished) {
+                renderDashboard(false);
+            } else if (hasState) {
+                renderDashboard(true);
+            } else {
+                renderDashboard(false);
+            }
+        }
+
+        function startNewQuiz() {
+            localStorage.removeItem('upscQuizState');
+            attemptId = 'attempt_' + Date.now();
+            currentQuestion = 0;
+            totalTimeSeconds = config.timeInMinutes * 60;
+            questionStatus.fill(0);
+            userAnswers.fill(null);
+            lifelinesUsed.fill(false);
+            bookmarks.fill(false);
+            isQuizFinished = false;
+
+            saveState();
+
+            document.getElementById('dashboard-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.remove('flex');
+            initQuizUI();
+        }
+
+        function resumeQuiz() {
+            document.getElementById('dashboard-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.remove('flex');
+            initQuizUI();
+        }
+
+        function deleteHistoryItem(id) {
+            if(!confirm("Are you sure you want to delete this attempt permanently?")) return;
+            const initialLength = quizHistory.length;
+            quizHistory = quizHistory.filter(h => String(h.id) !== String(id));
+            localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+            location.reload();
+        }
+
+        function clearAllHistory() {
+            if(!confirm("Are you sure you want to delete ALL your historical attempts permanently? This action cannot be undone.")) return;
+            quizHistory = [];
+            localStorage.removeItem('upscQuizHistory');
+            location.reload();
+        }
+
+        function reviewPastAttempt(id) {
+            if (!isQuizFinished && userAnswers.some(ans => ans !== null)) {
+                if(!confirm("You have a quiz currently in progress! Entering review mode for a past attempt will OVERWRITE your current progress. Continue?")) {
+                    return;
+                }
+            }
+
+            const historyItem = quizHistory.find(h => String(h.id) === String(id));
+            if (!historyItem || !historyItem.userAnswers) {
+                alert("Detailed data is not available for this older attempt.");
+                return;
+            }
+            // Load state from historyItem
+            attemptId = historyItem.id || null; // Set global attemptId
+            currentQuestion = 0;
+            isQuizFinished = true; // Review mode is finished quiz
+
+            // Note: need to clear total time just in case
+            totalTimeSeconds = 0;
+
+            // Deep copy to not mutate history
+            historyItem.questionStatus.forEach((v, i) => questionStatus[i] = v);
+            historyItem.userAnswers.forEach((v, i) => userAnswers[i] = v);
+            historyItem.bookmarks.forEach((v, i) => bookmarks[i] = v);
+            historyItem.lifelinesUsed.forEach((v, i) => lifelinesUsed[i] = v);
+
+            saveState(); // Save state so reloading holds this attempt
+
+            document.getElementById('dashboard-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.remove('flex');
+
+            generateMapGrid();
+
+            // Force hide results page if it was inadvertently shown
+            document.getElementById('result-page').classList.add('hidden');
+
+            loadQuestion(0);
+        }
+
+        function initQuizUI() {
+            generateMapGrid();
+            loadQuestion(currentQuestion);
+            startTimer();
+            updateProgress();
+        }
+
+        // Load specific question
+        function loadQuestion(index) {
+            if(index < 0 || index >= quizData.length) return;
+
+            // Trigger Fade Animation
+            const contentWrapper = document.getElementById('question-content-wrapper');
+            if (contentWrapper) {
+                contentWrapper.classList.remove('q-animate');
+                void contentWrapper.offsetWidth; // trigger reflow
+                contentWrapper.classList.add('q-animate');
+            }
+
+            // Mark previously active as skipped if not answered/review
+            if(questionStatus[currentQuestion] === 0) {
+                questionStatus[currentQuestion] = 1;
+            }
+
+            currentQuestion = index;
+            const qData = quizData[currentQuestion];
+
+            // Update UI markers
+            elDisplaySeqNum.innerText = currentQuestion + 1;
+            elDisplayActualNum.innerText = currentQuestion + 1;
+            elQuestionText.innerHTML = qData.q;
+
+            // Reset complex question containers
+            elStatementsContainer.innerHTML = '';
+            elStatementsContainer.classList.add('hidden');
+            elAssertionReasonContainer.innerHTML = '';
+            elAssertionReasonContainer.classList.add('hidden');
+            elMatchListContainer.innerHTML = '';
+            elMatchListContainer.classList.add('hidden');
+
+            // Render Statements if they exist
+            if (qData.statements && qData.statements.length > 0) {
+                let html = '<ol class="list-decimal pl-5 space-y-2">';
+                qData.statements.forEach(stmt => {
+                    html += `<li>${stmt}</li>`;
+                });
+                html += '</ol>';
+                elStatementsContainer.innerHTML = html;
+                elStatementsContainer.classList.remove('hidden');
+            }
+
+            // Render Assertion-Reason
+            if (qData.type === 'assertion') {
+                elAssertionReasonContainer.innerHTML = `
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mb-3">
+                        <div class="font-bold text-blue-900 mb-1">Assertion (A):</div>
+                        <div class="text-blue-800">${qData.assertion}</div>
+                    </div>
+                    <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-r-lg">
+                        <div class="font-bold text-indigo-900 mb-1">Reason (R):</div>
+                        <div class="text-indigo-800">${qData.reason}</div>
+                    </div>
+                `;
+                elAssertionReasonContainer.classList.remove('hidden');
+            }
+
+            // Render Match List
+            if (qData.type === 'match') {
+                let list1Html = qData.lists.list1.map(item => `<div class="flex gap-2"><span class="font-bold flex-shrink-0 w-[1.5em]">${item.id}.</span><span>${item.text}</span></div>`).join('');
+                let list2Html = qData.lists.list2.map(item => `<div class="flex gap-2"><span class="font-bold flex-shrink-0 w-[1.5em]">${item.id}.</span><span>${item.text}</span></div>`).join('');
+
+                elMatchListContainer.innerHTML = `
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-50 border border-gray-200 p-4 rounded-lg text-[0.875em] md:text-[1em] text-gray-700">
+                        <div>
+                            <div class="font-bold text-center border-b border-gray-300 pb-2 mb-3">List I</div>
+                            <div class="space-y-3">${list1Html}</div>
+                        </div>
+                        <div class="md:border-l md:border-gray-200 md:pl-4 mt-4 md:mt-0 pt-4 md:pt-0 border-t md:border-t-0">
+                            <div class="font-bold text-center border-b border-gray-300 pb-2 mb-3">List II</div>
+                            <div class="space-y-3">${list2Html}</div>
+                        </div>
+                    </div>
+                `;
+                elMatchListContainer.classList.remove('hidden');
+            }
+
+            // Update Bookmark
+            updateBookmarkIcon();
+
+            // Update Review Button
+            updateReviewButtonState();
+
+            // Clear Explanation
+            elExplanationContainer.classList.add('hidden');
+            elExplanationText.innerHTML = '';
+
+            // Render Options
+            elOptionsContainer.innerHTML = '';
+            const hasAnswered = userAnswers[currentQuestion] !== null;
+
+            qData.o.forEach((optText, optIdx) => {
+                const btn = document.createElement('button');
+                btn.className = `option-btn w-full text-left p-4 rounded-xl border-2 border-slate-200 bg-white hover:bg-slate-50 flex items-start`;
+
+                // Add prefix to button text if not already present
+                let cleanOptText = optText;
+                let prefix = optionPrefixes[optIdx];
+                if(cleanOptText.startsWith('(')) {
+                     prefix = cleanOptText.substring(0, 3);
+                     cleanOptText = cleanOptText.substring(3).trim();
+                }
+
+                btn.innerHTML = `
+                    <div class="custom-radio w-[1.5em] h-[1.5em] flex-shrink-0 rounded-full border-2 border-slate-300 flex items-center justify-center mr-3 mt-0.5 bg-white">
+                        <div class="radio-dot w-[0.625em] h-[0.625em] rounded-full"></div>
+                    </div>
+                    <div class="flex-1">
+                        <span class="font-bold mr-2 text-slate-500">${prefix.replace(/[()]/g, '')}.</span>
+                        <span class="text-slate-700 leading-relaxed">${cleanOptText}</span>
+                    </div>
+                `;
+
+                btn.onclick = () => selectOption(optIdx);
+
+                // State recreation if already answered
+                if (hasAnswered) {
+                    btn.disabled = true;
+                    if (optIdx === qData.a) {
+                        btn.classList.add('correct-ans');
+                        btn.innerHTML += `<i class="ph-fill ph-check-circle text-[1.25em] text-green-600 ml-auto mt-0.5"></i>`;
+                    } else if (optIdx === userAnswers[currentQuestion]) {
+                        btn.classList.add('wrong-ans');
+                        btn.innerHTML += `<i class="ph-fill ph-x-circle text-[1.25em] text-red-600 ml-auto mt-0.5"></i>`;
+                    }
+                }
+
+                btn.id = `opt-${optIdx}`;
+                elOptionsContainer.appendChild(btn);
+            });
+
+            // Re-apply 5050 if it was used before answering
+            if(lifelinesUsed[currentQuestion] && !hasAnswered) {
+                apply5050Visuals();
+            }
+
+            // Enable/Disable 50:50 button
+            elBtn5050.disabled = lifelinesUsed[currentQuestion] || hasAnswered;
+
+            // Show explanation if already answered
+            if(hasAnswered) {
+                showExplanation();
+            }
+
+            // Nav buttons
+            elBtnPrev.disabled = currentQuestion === 0;
+            if(currentQuestion === quizData.length - 1) {
+                elBtnNext.innerHTML = 'Finish <i class="ph ph-flag-checkered"></i>';
+            } else {
+                elBtnNext.innerHTML = 'Next <i class="ph ph-caret-right"></i>';
+            }
+
+            // Update Map Status
+            updateMapGridVisuals();
+            saveState();
+        }
+
+        // Handle option selection
+        function selectOption(selectedIdx) {
+            triggerFeedback('click');
+            if(userAnswers[currentQuestion] !== null) return; // Prevent double click
+
+            userAnswers[currentQuestion] = selectedIdx;
+            questionStatus[currentQuestion] = 2; // Answered
+
+            const qData = quizData[currentQuestion];
+            const isCorrect = selectedIdx === qData.a;
+
+            const buttons = elOptionsContainer.querySelectorAll('button');
+            buttons.forEach((btn, idx) => {
+                btn.disabled = true;
+                if(idx === qData.a) {
+                    btn.classList.add('correct-ans');
+                    btn.innerHTML += `<i class="ph-fill ph-check-circle text-[1.25em] text-green-600 ml-auto mt-0.5"></i>`;
+                } else if(idx === selectedIdx) {
+                    btn.classList.add('wrong-ans');
+                    btn.innerHTML += `<i class="ph-fill ph-x-circle text-[1.25em] text-red-600 ml-auto mt-0.5"></i>`;
+                }
+            });
+
+            elBtn5050.disabled = true;
+            showExplanation();
+            updateProgress();
+            updateMapGridVisuals();
+            saveState();
+        }
+
+        // Display explanation
+        function showExplanation() {
+            const qData = quizData[currentQuestion];
+
+            // Check if explanation is the new object format or old string format
+            if (typeof qData.e === 'object' && qData.e !== null) {
+                elExplanationText.innerHTML = `
+                    <div class="mb-3 bg-blue-50/60 border border-blue-200 p-3 rounded-lg">
+                        <strong class="text-blue-800 font-semibold block mb-1">Concept / Fact:</strong>
+                        ${qData.e.concept}
+                    </div>
+                    <div class="mb-3 bg-emerald-50/60 border border-emerald-200 p-3 rounded-lg">
+                        <strong class="text-emerald-800 font-semibold block mb-1">Why correct option is right:</strong>
+                        ${qData.e.correct}
+                    </div>
+                    <div class="bg-rose-50/60 border border-rose-200 p-3 rounded-lg">
+                        <strong class="text-rose-800 font-semibold block mb-1">Why other options are wrong:</strong>
+                        ${qData.e.wrong}
+                    </div>
+                `;
+            } else {
+                // Fallback for older string-only explanations
+                elExplanationText.innerHTML = `<div class="bg-gray-50 border border-gray-200 p-3 rounded-lg">${qData.e}</div>`;
+            }
+
+            elExplanationContainer.classList.remove('hidden');
+
+            // Scroll to explanation smoothly
+            setTimeout(() => {
+                elExplanationContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+        }
+
+        // Navigation
+        function nextQuestion(isSwipe = false) {
+            triggerFeedback(isSwipe ? 'swipe' : 'click');
+            if (currentQuestion < quizData.length - 1) {
+                loadQuestion(currentQuestion + 1);
+            } else {
+                finishQuiz();
+            }
+        }
+
+        function prevQuestion(isSwipe = false) {
+            triggerFeedback(isSwipe ? 'swipe' : 'click');
+            if (currentQuestion > 0) {
+                loadQuestion(currentQuestion - 1);
+            }
+        }
+
+        // Mark for Review
+        function toggleMarkReview() {
+            triggerFeedback('action');
+            if(questionStatus[currentQuestion] === 3) {
+                questionStatus[currentQuestion] = userAnswers[currentQuestion] !== null ? 2 : 1;
+            } else {
+                questionStatus[currentQuestion] = 3;
+            }
+            updateReviewButtonState();
+            updateMapGridVisuals();
+            saveState();
+        }
+
+        function updateReviewButtonState() {
+            const isReview = questionStatus[currentQuestion] === 3;
+            elBtnReview.classList.toggle('bg-purple-600', isReview);
+            elBtnReview.classList.toggle('text-white', isReview);
+            elBtnReview.classList.toggle('bg-purple-50', !isReview);
+            elBtnReview.classList.toggle('text-purple-700', !isReview);
+            document.getElementById('review-text').innerText = isReview ? 'Marked Review' : 'Mark for Review';
+        }
+
+        // Bookmark toggle
+        function toggleBookmark() {
+            triggerFeedback('action');
+            bookmarks[currentQuestion] = !bookmarks[currentQuestion];
+            updateBookmarkIcon();
+        }
+
+        function updateBookmarkIcon() {
+            if(bookmarks[currentQuestion]) {
+                elIconBookmark.classList.replace('text-gray-400', 'text-yellow-500');
+            } else {
+                elIconBookmark.classList.replace('text-yellow-500', 'text-gray-400');
+            }
+            saveState();
+        }
+
+        // Zoom
+        function changeZoom(delta) {
+            zoomLevel += delta;
+            if(zoomLevel < 12) zoomLevel = 12;
+            if(zoomLevel > 24) zoomLevel = 24;
+            document.body.style.setProperty('--zoom-level', `${zoomLevel}px`);
+        }
+
+        // 50:50 Lifeline
+        function use5050() {
+            if(lifelinesUsed[currentQuestion] || userAnswers[currentQuestion] !== null) return;
+
+            lifelinesUsed[currentQuestion] = true;
+            elBtn5050.disabled = true;
+            apply5050Visuals();
+            saveState();
+        }
+
+        function apply5050Visuals() {
+            const qData = quizData[currentQuestion];
+            let hiddenCount = 0;
+            const options = [0, 1, 2, 3].sort(() => Math.random() - 0.5); // Shuffle
+
+            options.forEach(idx => {
+                if(idx !== qData.a && hiddenCount < 2) {
+                    const btn = document.getElementById(`opt-${idx}`);
+                    if(btn) {
+                        btn.classList.add('disabled-option');
+                    }
+                    hiddenCount++;
+                }
+            });
+        }
+
+        // Focus Mode Toggle
+        let isFocusMode = false;
+        function toggleFocusMode() {
+            triggerFeedback('action');
+            isFocusMode = !isFocusMode;
+            if(isFocusMode) {
+                document.body.classList.add('focus-mode');
+                document.getElementById('icon-focus').classList.replace('ph-corners-out', 'ph-corners-in');
+                document.getElementById('focus-text').innerText = 'Exit Zen';
+                if(elDetailsPanel) elDetailsPanel.style.height = '0px';
+            } else {
+                document.body.classList.remove('focus-mode');
+                document.getElementById('icon-focus').classList.replace('ph-corners-in', 'ph-corners-out');
+                document.getElementById('focus-text').innerText = 'Focus';
+                if(elDetailsPanel) elDetailsPanel.style.height = elDetailsPanel.scrollHeight + 'px';
+            }
+        }
+
+        let isHeaderFolded = false;
+        function toggleExtraHeader() {
+            triggerFeedback('action');
+            isHeaderFolded = !isHeaderFolded;
+            const elMetaBadgeRow = document.getElementById('meta-header-row');
+            if(isHeaderFolded) {
+                document.getElementById('icon-fold').classList.replace('ph-caret-up', 'ph-caret-down');
+                if(elDetailsPanel) elDetailsPanel.style.height = '0px';
+                if(elMetaBadgeRow) elMetaBadgeRow.classList.add('hidden');
+            } else {
+                document.getElementById('icon-fold').classList.replace('ph-caret-down', 'ph-caret-up');
+                if(elDetailsPanel) elDetailsPanel.style.height = elDetailsPanel.scrollHeight + 'px';
+                if(elMetaBadgeRow) elMetaBadgeRow.classList.remove('hidden');
+            }
+        }
+
+        // Map Panel Setup & Logic
+        function generateMapGrid() {
+            elMapGrid.innerHTML = '';
+            for(let i=0; i<quizData.length; i++) {
+                const btn = document.createElement('button');
+                btn.innerText = i + 1;
+                btn.className = `map-btn status-unvisited`;
+                btn.id = `map-btn-${i}`;
+                btn.onclick = () => {
+                    loadQuestion(i);
+                    toggleMap();
+                };
+                elMapGrid.appendChild(btn);
+            }
+        }
+
+        function updateMapGridVisuals() {
+            for(let i=0; i<quizData.length; i++) {
+                const btn = document.getElementById(`map-btn-${i}`);
+                if(!btn) continue;
+
+                btn.className = 'map-btn'; // reset
+                if (i === currentQuestion) {
+                    btn.classList.add('ring-2', 'ring-blue-500', 'ring-offset-1');
+                }
+
+                switch(questionStatus[i]) {
+                    case 0: btn.classList.add('status-unvisited'); break;
+                    case 1: btn.classList.add('status-skipped'); break;
+                    case 2:
+                        if (userAnswers[i] === quizData[i].a) {
+                            btn.classList.add('status-correct');
+                        } else {
+                            btn.classList.add('status-incorrect');
+                        }
+                        break;
+                    case 3: btn.classList.add('status-review'); break;
+                }
+            }
+        }
+
+        function toggleMap() {
+            const isHidden = elMapPanel.classList.contains('translate-x-full');
+            if(isHidden) {
+                elMapPanel.classList.remove('translate-x-full');
+                elMapOverlay.classList.remove('hidden');
+                // Scroll current question into view on map
+                const currentBtn = document.getElementById(`map-btn-${currentQuestion}`);
+                if(currentBtn) currentBtn.scrollIntoView({block: 'center'});
+            } else {
+                elMapPanel.classList.add('translate-x-full');
+                elMapOverlay.classList.add('hidden');
+            }
+        }
+
+        // Progress and Timer
+        function updateProgress() {
+            const answeredCount = userAnswers.filter(a => a !== null).length;
+            elProgressText.innerText = `${answeredCount}/${config.totalQuestions}`;
+            elProgressBar.style.width = `${(answeredCount / config.totalQuestions) * 100}%`;
+        }
+
+        function startTimer() {
+            if (isQuizFinished) return;
+            const initialTotalTime = config.timeInMinutes * 60;
+
+            timerInterval = setInterval(() => {
+                if(totalTimeSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    elTimerText.innerText = "00:00";
+                    finishQuiz();
+                    return;
+                }
+                totalTimeSeconds--;
+                if(totalTimeSeconds % 5 === 0) saveState();
+
+                const minutes = Math.floor(totalTimeSeconds / 60);
+                const seconds = totalTimeSeconds % 60;
+                elTimerText.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+                elTimerBar.style.width = `${(totalTimeSeconds / initialTotalTime) * 100}%`;
+
+                if (totalTimeSeconds < 300) { // Less than 5 min
+                    elTimerBar.classList.replace('bg-rose-400', 'bg-red-600');
+                    elTimerText.classList.add('animate-pulse');
+                }
+            }, 1000);
+        }
+
+        // Finish logic
+        function finishQuiz() {
+            isQuizFinished = true;
+            saveState();
+
+            if (timerInterval) clearInterval(timerInterval);
+
+            let correct = 0;
+            let wrong = 0;
+            let answered = 0;
+
+            userAnswers.forEach((ans, idx) => {
+                if (ans !== null) {
+                    answered++;
+                    if (ans === quizData[idx].a) {
+                        correct++;
+                    } else {
+                        wrong++;
+                    }
+                }
+            });
+
+            const accuracy = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+
+            // Save to History Dashboard
+            if (attemptId) {
+                const existing = quizHistory.find(h => h.id === attemptId);
+                if (!existing) {
+                    quizHistory.push({
+                        id: attemptId,
+                        date: new Date().toISOString(),
+                        score: accuracy,
+                        correct,
+                        wrong,
+                        total: config.totalQuestions,
+                        userAnswers: [...userAnswers],
+                        questionStatus: [...questionStatus],
+                        bookmarks: [...bookmarks],
+                        lifelinesUsed: [...lifelinesUsed]
+                    });
+                    localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+                }
+            }
+
+            document.getElementById('res-total').innerText = config.totalQuestions;
+            document.getElementById('res-correct').innerText = correct;
+            document.getElementById('res-wrong').innerText = wrong;
+            document.getElementById('res-accuracy').innerText = accuracy + '%';
+
+            document.getElementById('result-page').classList.remove('hidden');
+        }
+
+        function startReviewMode() {
+            document.getElementById('result-page').classList.add('hidden');
+            currentQuestion = 0;
+            loadQuestion(0);
+        }
+
+        function goToDashboard() {
+            localStorage.removeItem('upscQuizState');
+            location.reload();
+        }
+
+        // Initialize App
+        window.onload = init;
+
+    </script>
+</body>
+</html>
