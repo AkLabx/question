@@ -1,0 +1,1625 @@
+const phase1Data = [
+    // Question 1
+    {
+        q: "Who were the 'Ashtadiggajas' in the court of Krishnadeva Raya? / कृष्णदेव राय के दरबार में 'अष्टदिग्गज' कौन थे?",
+        o: [
+            "Eight Ministers / आठ मंत्री",
+            "Eight Great Warriors / आठ महान योद्धा",
+            "Eight Telugu Poets / आठ तेलूगू कवि",
+            "Eight Advisors / आठ सलाहकार"
+        ],
+        a: 2,
+        e: {
+            concept: "Vijayanagara Empire literature and administration. / विजयनगर साम्राज्य का साहित्य और प्रशासन।",
+            correct: "The Ashtadiggajas were the eight great Telugu scholars and poets in the court of Emperor Krishnadeva Raya. / अष्टदिग्गज सम्राट कृष्णदेव राय के दरबार में आठ महान तेलुगु विद्वान और कवि थे।",
+            wrong: "They were not military leaders or political ministers, but literary giants. / वे सैन्य नेता या राजनीतिक मंत्री नहीं, बल्कि साहित्यकार थे।"
+        }
+    },
+    // Question 2
+    {
+        q: "Sayana, the commentator on Vedic texts, belonged to which period? / सायण, जो वैदिक ग्रंथों का मर्मज्ञ था किस काल में था?",
+        o: [
+            "Chola Kings / चोल राजा",
+            "Satavahana Kings / सातवाहन राजा",
+            "Gupta Kings / गुप्त राजा",
+            "Vijayanagara Kings / विजयनगर राजा"
+        ],
+        a: 3,
+        e: {
+            concept: "Vedic literature patronage during the Vijayanagara Empire. / विजयनगर साम्राज्य के दौरान वैदिक साहित्य का संरक्षण।",
+            correct: "Sayana was a Sanskrit scholar and commentator on the Vedas who flourished under the Vijayanagara Empire (Harihara I and Bukka Raya I). / सायण एक संस्कृत विद्वान थे जो विजयनगर साम्राज्य के अधीन फले-फूले।",
+            wrong: "He is not associated with the Chola, Satavahana, or Gupta periods which predate him. / उनका संबंध चोल, सातवाहन या गुप्त काल से नहीं है।"
+        }
+    },
+    // Question 3
+    {
+        q: "In whose court did the Telugu poet Srinatha reside? / किसके दरबार में तेलूगू कवि श्रीनाथ रहे?",
+        o: [
+            "Harihara - II / हरिहर - II",
+            "Devaraya - II / देवराय - II",
+            "Devaraya - I / देवराय - I",
+            "Krishnadeva Raya / कृष्णदेव राय"
+        ],
+        a: 1,
+        e: {
+            concept: "Telugu literature in the Vijayanagara Court. / विजयनगर दरबार में तेलुगु साहित्य।",
+            correct: "Srinatha was a well-known Telugu poet who was patronized by Devaraya II of the Vijayanagara Empire. / श्रीनाथ एक प्रसिद्ध तेलुगु कवि थे जिन्हें विजयनगर के देवराय द्वितीय का संरक्षण प्राप्त था।",
+            wrong: "He was not contemporary to Krishnadeva Raya's Ashtadiggajas. / वे कृष्णदेव राय के अष्टदिग्गजों के समकालीन नहीं थे।"
+        }
+    },
+    // Question 4
+    {
+        q: "Ramanujacharya belonged to which tradition? / रामानुजाचार्य किस परंपरा के थे?",
+        o: [
+            "Bhakti / भक्ति",
+            "Vishishtadvaita / विशिष्टाद्वैतवाद",
+            "Dvaita / द्वैतावाद",
+            "Advaita / अद्वैतावाद"
+        ],
+        a: 1,
+        e: {
+            concept: "Philosophical schools of Vedanta. / वेदांत के दार्शनिक संप्रदाय।",
+            correct: "Ramanujacharya was the chief proponent of Vishishtadvaita (Qualified Non-dualism). / रामानुजाचार्य विशिष्टाद्वैतवाद (विशिष्ट अद्वैतवाद) के मुख्य प्रतिपादक थे।",
+            wrong: "Advaita was proposed by Adi Shankara, and Dvaita by Madhvacharya. / अद्वैतवाद आदि शंकराचार्य द्वारा और द्वैतवाद माधवाचार्य द्वारा प्रस्तावित किया गया था।"
+        }
+    },
+    // Question 5
+    {
+        q: "Who is the author of 'Vinaya Patrika'? / 'विनय पत्रिका' के लेखक कौन है?",
+        o: [
+            "Tulsidas / तुलसीदास",
+            "Kabir / कबीर",
+            "Surdas / सूरदास",
+            "Keshavdas / केशवदास"
+        ],
+        a: 0,
+        e: {
+            concept: "Bhakti Movement literature. / भक्ति आंदोलन का साहित्य।",
+            correct: "Vinaya Patrika is a devotional poem authored by Goswami Tulsidas. / विनय पत्रिका गोस्वामी तुलसीदास द्वारा रचित एक भक्तिपूर्ण कविता है।",
+            wrong: "It is not the work of Kabir, Surdas, or Keshavdas. / यह कबीर, सूरदास या केशवदास की रचना नहीं है।"
+        }
+    },
+    // Question 6
+    {
+        q: "Where is the Dargah of Sheikh Nizamuddin Auliya located? / शेख निजामुद्दीन औलिया का दरगाह कहां स्थित है?",
+        o: [
+            "Agra / आगरा",
+            "Delhi / दिल्ली",
+            "Ajmer / अजमेर",
+            "Fatehpur / फतेहपुर"
+        ],
+        a: 1,
+        e: {
+            concept: "Sufi Saints and their Dargahs in India. / भारत में सूफी संत और उनकी दरगाहें।",
+            correct: "The Dargah of the famous Sufi saint Sheikh Nizamuddin Auliya is located in New Delhi. / प्रसिद्ध सूफी संत शेख निज़ामुद्दीन औलिया की दरगाह नई दिल्ली में स्थित है।",
+            wrong: "Ajmer is famous for Khwaja Moinuddin Chishti's Dargah. / अजमेर ख्वाजा मोइनुद्दीन चिश्ती की दरगाह के लिए प्रसिद्ध है।"
+        }
+    },
+    // Question 7
+    {
+        q: "Which Hindu kingdom did Babur mention in Baburnama? / बाबर ने बाबरनामा में किस हिन्दू राज्य का नाम लिखा है?",
+        o: [
+            "Odisha / उड़ीसा",
+            "Mewar / मेवाड़",
+            "Gujarat / गुजरात",
+            "Kashmir / कश्मीर"
+        ],
+        a: 1,
+        e: {
+            concept: "Autobiography of Babur (Baburnama). / बाबर की आत्मकथा (बाबरनामा)।",
+            correct: "Babur mentions only two Hindu kingdoms in his autobiography: Mewar (ruled by Rana Sanga) and Vijayanagara. / बाबर अपनी आत्मकथा में केवल दो हिंदू राज्यों का उल्लेख करता है: मेवाड़ (राणा सांगा द्वारा शासित) और विजयनगर।",
+            wrong: "Odisha, Gujarat, and Kashmir are not the Hindu kingdoms he emphasized. / उसने उड़ीसा, गुजरात और कश्मीर जैसे हिंदू राज्यों पर जोर नहीं दिया।"
+        }
+    },
+    // Question 8
+    {
+        q: "In which language was 'Tuzuk-e-Baburi' written? / 'तुजुक-ए-बाबरी' किस भाषा में लिखी गयी थी?",
+        o: [
+            "Persian / पर्शीयन",
+            "Turkish / तुर्की",
+            "Arabic / अरबी",
+            "Urdu / उर्दू"
+        ],
+        a: 1,
+        e: {
+            concept: "Mughal Literature. / मुगल साहित्य।",
+            correct: "Babur wrote his autobiography, Tuzuk-e-Baburi (Baburnama), in Chagatai Turkic (Turkish), his mother tongue. / बाबर ने अपनी आत्मकथा तुजुक-ए-बाबरी चगताई तुर्की में लिखी थी।",
+            wrong: "It was later translated into Persian by Abdur Rahim Khan-i-Khanan during Akbar's reign. / बाद में अकबर के शासनकाल में अब्दुर रहीम खान-ए-खाना द्वारा इसका फारसी में अनुवाद किया गया।"
+        }
+    },
+    // Question 9
+    {
+        q: "Which ruler built the 'Qila-i-Kuhna' mosque in the Old Fort of Delhi? / किस शासक ने दिल्ली के पुराने किले में 'किला-ए-कुहना' बनवाया था?",
+        o: [
+            "Humayun / हुमायूँ",
+            "Akbar / अकबर",
+            "Sher Shah / शेरशाह",
+            "Shah Jahan / शाहजहाँ"
+        ],
+        a: 2,
+        e: {
+            concept: "Medieval Indian Architecture. / मध्यकालीन भारतीय वास्तुकला।",
+            correct: "Sher Shah Suri built the Qila-i-Kuhna mosque inside the Purana Qila (Old Fort) in Delhi in 1541. / शेरशाह सूरी ने 1541 में दिल्ली में पुराने किले के अंदर किला-ए-कुहना मस्जिद का निर्माण करवाया था।",
+            wrong: "Though Humayun started the Purana Qila, this specific structure was built by Sher Shah. / हालांकि हुमायूं ने पुराना किला शुरू किया था, यह विशेष संरचना शेरशाह द्वारा बनाई गई थी।"
+        }
+    },
+    // Question 10
+    {
+        q: "Who was the successor of Sher Shah? / शेरशाह के उत्तराधिकारी कौन था?",
+        o: [
+            "Shujaat Khan / शुजात खान",
+            "Firoz Shah / फिरोज शाह",
+            "Islam Shah / इस्लाम शाह",
+            "Muhammad Shah Adil / मुहम्मद शाह आदिल"
+        ],
+        a: 2,
+        e: {
+            concept: "Suri Dynasty chronology. / सूरी वंश का कालक्रम।",
+            correct: "Sher Shah Suri was succeeded by his second son, Jalal Khan, who took the title of Islam Shah Suri. / शेरशाह सूरी के बाद उनका दूसरा पुत्र जलाल खान गद्दी पर बैठा, जिसने इस्लाम शाह सूरी की उपाधि धारण की।",
+            wrong: "Muhammad Shah Adil and others came later or were not the direct successor. / मुहम्मद शाह आदिल और अन्य बाद में आए।"
+        }
+    },
+    // Question 11
+    {
+        q: "Which Muslim ruler abolished religious taxes (like Pilgrimage tax and Jizya)? / किस मुस्लिम शासक ने धार्मिक कर माफ किए?",
+        o: [
+            "Bahlol Lodi / बहलोल लोडी",
+            "Humayun / हुमायूँ",
+            "Sher Shah / शेरशाह",
+            "Akbar / अकबर"
+        ],
+        a: 3,
+        e: {
+            concept: "Religious policies of Mughal Emperors. / मुगल सम्राटों की धार्मिक नीतियां।",
+            correct: "Akbar abolished the pilgrimage tax in 1563 and the Jizya (a tax on non-Muslims) in 1564. / अकबर ने 1563 में तीर्थयात्रा कर और 1564 में जजिया (गैर-मुस्लिमों पर कर) को समाप्त कर दिया।",
+            wrong: "Aurangzeb later reimposed Jizya. Bahlol Lodi, Humayun, and Sher Shah did not abolish them outrightly like Akbar. / औरंगजेब ने बाद में जजिया फिर से लगा दिया था।"
+        }
+    },
+    // Question 12
+    {
+        q: "Akbar's military system was based on: / अकबर की सैन्य व्यवस्था आधारित थी:",
+        o: [
+            "Mansabdari / मनसबदारी",
+            "Feudal System / सामंती प्रणाली",
+            "Zamindari / जमींदारी",
+            "Ain-i-Dahsala / आइन-ए-दहसाला"
+        ],
+        a: 0,
+        e: {
+            concept: "Mughal Military and Administrative system. / मुगल सैन्य और प्रशासनिक व्यवस्था।",
+            correct: "Akbar introduced the Mansabdari system, which determined the rank (mansab), salary, and military responsibilities of officials. / अकबर ने मनसबदारी प्रणाली की शुरुआत की, जो अधिकारियों के पद, वेतन और सैन्य जिम्मेदारियों को निर्धारित करती थी।",
+            wrong: "Ain-i-Dahsala was a land revenue system, not a military system. / आइन-ए-दहसाला एक भू-राजस्व प्रणाली थी, सैन्य नहीं।"
+        }
+    },
+    // Question 13
+    {
+        q: "During Akbar's reign, the 'Ain-i-Dahsala' system for revenue was developed by? / अकबर के काल में राजस्व व्यवस्था हेतु 'आइन-ए-दहसाला' विकसित की गयी थी?",
+        o: [
+            "Shahnawaz Khan / शाहनवाज खान",
+            "Todar Mal / टोडरमल",
+            "Abdur Rahim Khan / अब्दुर रहीम खान",
+            "Mulla Do Piyaza / मुल्ला दो प्याजा"
+        ],
+        a: 1,
+        e: {
+            concept: "Mughal Revenue Administration. / मुगल राजस्व प्रशासन।",
+            correct: "Raja Todar Mal, Akbar's finance minister, introduced the Dahsala system (a land revenue system based on a 10-year average). / अकबर के वित्त मंत्री राजा टोडरमल ने दहसाला प्रणाली की शुरुआत की थी।",
+            wrong: "Mulla Do Piyaza and Abdur Rahim were Navratnas, but not responsible for this revenue system. / मुल्ला दो प्याजा और अब्दुर रहीम नवरत्न थे, लेकिन इस राजस्व प्रणाली के लिए जिम्मेदार नहीं थे।"
+        }
+    },
+    // Question 14
+    {
+        q: "When did Aurangzeb conquer Bijapur? / औरंगजेब ने बीजापुर पर कब विजय प्राप्त किए?",
+        o: [
+            "1685",
+            "1687",
+            "1686",
+            "1684"
+        ],
+        a: 2,
+        e: {
+            concept: "Deccan campaigns of Aurangzeb. / औरंगजेब का दक्कन अभियान।",
+            correct: "Aurangzeb successfully besieged and annexed the Sultanate of Bijapur in 1686. / औरंगजेब ने 1686 में बीजापुर सल्तनत पर विजय प्राप्त की।",
+            wrong: "Golconda was conquered the following year, in 1687. / गोलकुंडा को अगले वर्ष 1687 में जीता गया था।"
+        }
+    },
+    // Question 15
+    {
+        q: "Who built the Bibi Ka Maqbara? / बीबी का मकबरा का निर्माण किसने किया था?",
+        o: [
+            "Humayun / हुमायूँ",
+            "Akbar - II / अकबर - II",
+            "Shah Jahan / शाहजहाँ",
+            "Aurangzeb / औरंगजेब"
+        ],
+        a: 3,
+        e: {
+            concept: "Mughal Architecture in the Deccan. / दक्कन में मुगल वास्तुकला।",
+            correct: "Bibi Ka Maqbara was built in Aurangabad by Aurangzeb (commissioned by his son Azam Shah) in memory of his wife Dilras Banu Begum. / बीबी का मकबरा औरंगाबाद में औरंगजेब के शासनकाल (उनके बेटे आजम शाह द्वारा) में उनकी पत्नी दिलरस बानो बेगम की याद में बनाया गया था।",
+            wrong: "It is often called the 'Taj of the Deccan' but was not built by Shah Jahan. / इसे 'दक्कन का ताज' कहा जाता है लेकिन इसे शाहजहाँ ने नहीं बनाया था।"
+        }
+    },
+    // Question 16
+    {
+        q: "Who among the following visited Jahangir's court on behalf of the East India Company? / निम्न में कौन ईस्ट इंडिया कंपनी की तरफ से जहाँगीर के दरबार में गया था?",
+        o: [
+            "Sir Thomas Roe / सर थामस रो",
+            "Hawkins / हाकिन्स",
+            "Vasco da Gama / वास्को-डी-गामा",
+            "Job Charnock / जाब चारनाक"
+        ],
+        a: 1,
+        e: {
+            concept: "Arrival of the British in India. / भारत में अंग्रेजों का आगमन।",
+            correct: "Captain William Hawkins visited Jahangir's court first in 1608. Sir Thomas Roe also visited later (1615), but Hawkins is historically prominent as the first emissary. (Note: A/B both visited, but Hawkins usually denotes the first EIC representative). / कैप्टन विलियम हॉकिन्स 1608 में जहाँगीर के दरबार में गए थे।",
+            wrong: "Vasco da Gama was Portuguese and Job Charnock is associated with founding Calcutta much later. / वास्को-डी-गामा पुर्तगाली थे।"
+        }
+    },
+    // Question 17
+    {
+        q: "Which historical monument in Delhi represents a synthesis of Persian and Indian styles of architecture? / दिल्ली के किस ऐतिहासिक महल में पर्शियन एवं भारतीय शैली के वास्तुकला का समन्वय मिलता है?",
+        o: [
+            "Qutub Minar / कुतुब मीनार",
+            "Humayun's Tomb / हुमायूँ का मकबरा",
+            "Lodi's Tomb / लोडी का मकबरा",
+            "Red Fort / लाल किला"
+        ],
+        a: 1,
+        e: {
+            concept: "Evolution of Mughal Architecture. / मुगल वास्तुकला का विकास।",
+            correct: "Humayun's Tomb is often regarded as the first distinct example of the synthesis of Persian and Indian architecture in India, pioneering the Mughal style. / हुमायूँ के मकबरे को भारत में फारसी और भारतीय वास्तुकला के संश्लेषण का पहला विशिष्ट उदाहरण माना जाता है।",
+            wrong: "Qutub Minar is early Sultanate architecture. / कुतुब मीनार प्रारंभिक सल्तनत वास्तुकला है।"
+        }
+    },
+    // Question 18
+    {
+        q: "Which building/creation from Akbar's period resembles a Buddhist Vihara? / अकबरकालीन किस महल/कृति बुद्धकालीन विहार की तरह कह सकते है?",
+        o: [
+            "Panch Mahal / पंच महल",
+            "Jodhabai Palace / जोधाबाई महल",
+            "Diwan-i-Khas / दीवान-ए-खास",
+            "Buland Darwaza / बुलंद दरवाजा"
+        ],
+        a: 0,
+        e: {
+            concept: "Architecture of Fatehpur Sikri. / फतेहपुर सीकरी की वास्तुकला।",
+            correct: "The Panch Mahal in Fatehpur Sikri is a five-story pillared pavilion that closely resembles a Buddhist Vihara in its structural design. / फतेहपुर सीकरी में पंच महल एक पांच मंजिला मंडप है जो अपने संरचनात्मक डिजाइन में बौद्ध विहार जैसा दिखता है।",
+            wrong: "Buland Darwaza is a massive gateway, not a Vihara-styled structure. / बुलंद दरवाजा एक विशाल प्रवेश द्वार है।"
+        }
+    },
+    // Question 19
+    {
+        q: "Who translated the Ramayana into Persian with Akbar's permission? / अकबर की अनुमति से किसने रामायण को पर्शियन भाषा में अनुवाद किया गया था?",
+        o: [
+            "Abul Fazl / अबुल फजल",
+            "Faizi / फैजी",
+            "Abdul Qadir Badauni / अब्दुल कादिर बदायूँनी",
+            "Rahim Khan / रहीम खान"
+        ],
+        a: 2,
+        e: {
+            concept: "Mughal Translation Bureau (Maktab Khana). / मुगल अनुवाद ब्यूरो।",
+            correct: "Abdul Qadir Badauni translated the Ramayana into Persian at the command of Akbar, completing it around 1589. / अब्दुल कादिर बदायूँनी ने अकबर के आदेश पर रामायण का फारसी में अनुवाद किया।",
+            wrong: "Abul Fazl and Faizi translated other works like the Panchatantra and Lilavati respectively. / अबुल फजल और फैजी ने अन्य ग्रंथों का अनुवाद किया था।"
+        }
+    },
+    // Question 20
+    {
+        q: "Who was the prominent painter during the time of Mughal Emperor Akbar? / मुगल बादशाह अकबर के समय प्रमुख चित्रकार कौन था?",
+        o: [
+            "Abul Hasan / अबुल हसन",
+            "Bishandas / किसनदास",
+            "Daswanth / दसवंत",
+            "Ustad Mansur / उस्ताद मंसूर"
+        ],
+        a: 2,
+        e: {
+            concept: "Mughal Miniature Painting under Akbar. / अकबर के अधीन मुगल चित्रकला।",
+            correct: "Daswanth and Basawan were the two most famous painters in Akbar's court. / दसवंत और बसावन अकबर के दरबार के दो सबसे प्रसिद्ध चित्रकार थे।",
+            wrong: "Abul Hasan and Ustad Mansur were famous during Jahangir's reign. / अबुल हसन और उस्ताद मंसूर जहाँगीर के शासनकाल में प्रसिद्ध थे।"
+        }
+    },
+    // Question 21
+    {
+        q: "Where was Jahangir buried after his death? / जहाँगीर को मृत्यु के बाद कहाँ दफनाया गया था?",
+        o: [
+            "Agra / आगरा",
+            "Lahore / लाहोर",
+            "Delhi / दिल्ली",
+            "Srinagar / श्रीनगर"
+        ],
+        a: 1,
+        e: {
+            concept: "Mughal Emperor's resting places. / मुगल सम्राटों के मकबरे।",
+            correct: "Jahangir died in 1627 and was buried in Shahdara Bagh, a suburb of Lahore (now in Pakistan). / जहाँगीर की मृत्यु 1627 में हुई और उसे लाहौर के शहादरा बाग में दफनाया गया।",
+            wrong: "Shah Jahan was buried in Agra (Taj Mahal), and Humayun in Delhi. / शाहजहाँ को आगरा में और हुमायूँ को दिल्ली में दफनाया गया था।"
+        }
+    },
+    // Question 22
+    {
+        q: "Which painter was given the title 'Nadir-ul-Zaman' by Jahangir? / निम्न में से किस चित्रकार को जहाँगीर ने 'नादिर-उल-जमां' की उपाधि से विभूषित किया था?",
+        o: [
+            "Abul Hasan / अबुल हसन",
+            "Bishandas / बिशनदास",
+            "Farrukh Beg / फारूख बेग",
+            "Aqa Riza / आगा रजा"
+        ],
+        a: 0,
+        e: {
+            concept: "Patronage of Painters by Jahangir. / जहाँगीर द्वारा चित्रकारों का संरक्षण।",
+            correct: "Jahangir conferred the title of 'Nadir-ul-Zaman' (Wonder of the Age) on Abul Hasan. / जहाँगीर ने अबुल हसन को 'नादिर-उल-जमां' (युग का आश्चर्य) की उपाधि दी थी।",
+            wrong: "Ustad Mansur was given the title 'Nadir-ul-Asr'. / उस्ताद मंसूर को 'नादिर-उल-अस्र' की उपाधि दी गई थी।"
+        }
+    },
+    // Question 23
+    {
+        q: "Where is the Govind Palace, a fine example of Hindu architecture, located? / हिन्दु वास्तुकला के बेहतरीन नमूना गोंविंद पैलेश कहाँ स्थित है?",
+        o: [
+            "Datia / दांतिया",
+            "Orchha / ओरछा",
+            "Khajuraho / खजुराहो",
+            "Gwalior / ग्वालियर"
+        ],
+        a: 0,
+        e: {
+            concept: "Rajput/Bundela Architecture. / राजपूत/बुंदेला वास्तुकला।",
+            correct: "The Govind Palace (Govind Mahal) is a seven-story palace situated in Datia, Madhya Pradesh, built by Bir Singh Deo. / गोविंद महल मध्य प्रदेश के दतिया में स्थित है, जिसे बीर सिंह देव ने बनवाया था।",
+            wrong: "Though Orchha and Gwalior also have great palaces, Govind Palace specifically is in Datia. / हालांकि ओरछा और ग्वालियर में भी महल हैं, गोविंद महल दतिया में है।"
+        }
+    },
+    // Question 24
+    {
+        q: "Who was the 'Mahakavi' (Poet Laureate) during Shah Jahan's reign? / शाह जहाँ के शासन काल में 'महाकवि' कौन था?",
+        o: [
+            "Kalim / कलीम",
+            "Qudsi / कुदेशी",
+            "Kashi / काशी",
+            "Munir / मुनीर"
+        ],
+        a: 0,
+        e: {
+            concept: "Persian Literature under Shah Jahan. / शाहजहाँ के अधीन फारसी साहित्य।",
+            correct: "Abu Talib Kalim was the poet laureate (Malik-ush-Shu'ara or Mahakavi) at the court of Shah Jahan. / अबू तालिब कलीम शाहजहाँ के दरबार में राजकवि (महाकवि) थे।",
+            wrong: "While others were also poets, Kalim held the chief title. / अन्य भी कवि थे, लेकिन कलीम के पास मुख्य उपाधि थी।"
+        }
+    },
+    // Question 25
+    {
+        q: "Who was the author of 'Sirr-i-Akbar'? / 'सिर-ए-अकबर' का लेखक कौन था?",
+        o: [
+            "Abul Fazl / अबुल फजल",
+            "Mullah Shah Badakhshi / मुल्लाशाह बदख्शी",
+            "Dara Shikoh / दारा शिकोह",
+            "Shah Waliullah / शाह वलीउल्लाह"
+        ],
+        a: 2,
+        e: {
+            concept: "Literary contributions of Mughal princes. / मुगल राजकुमारों का साहित्यिक योगदान।",
+            correct: "Dara Shikoh, the eldest son of Shah Jahan, translated 50 Upanishads into Persian and named the work 'Sirr-i-Akbar' (The Great Secret). / शाहजहाँ के सबसे बड़े बेटे दारा शिकोह ने 50 उपनिषदों का फारसी में अनुवाद किया और इसे 'सिर्र-ए-अकबर' नाम दिया।",
+            wrong: "Abul Fazl wrote the Akbarnama. / अबुल फजल ने अकबरनामा लिखा था।"
+        }
+    }
+,
+    // Question 26
+    {
+        type: "assertion",
+        q: "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R): / नीचे दिए गए कथन पर विचार करें एवं बताये कि कौन सा कथन सही है -",
+        assertion: "The Salt movement was started by Mahatma Gandhi in the year 1930. / नमक आंदोलन महात्मा गाँधी ने वर्ष 1930 में शुरू किया था।",
+        reason: "Mahatma Gandhi's objective was that salt should be made available free to all the poor. / महात्मा गाँधी का लक्ष्य था कि सभी गरीबों तक नमक मुफ्त में उपलब्ध कराया जाए।",
+        o: [
+            "Both (A) and (R) are true and (R) is the correct explanation of (A) / दोनो (A) और (R) सही है लेकिन (R) (A) की सही व्याख्या है।",
+            "(A) is true but (R) is false / (A) सही है लेकिन (R) गलत है",
+            "Both (A) and (R) are true but (R) is not the correct explanation of (A) / दोनों (A) और (R) सही है लेकिन (R) (A) की सही व्याख्या नही है।",
+            "(A) is false but (R) is true / (A) गलत है लेकिन (R) सही हैं"
+        ],
+        a: 1,
+        e: {
+            concept: "Civil Disobedience Movement and Dandi March. / सविनय अवज्ञा आंदोलन और दांडी मार्च।",
+            correct: "Assertion (A) is correct as the Salt Satyagraha began in 1930. Reason (R) is false because Gandhi's aim was to abolish the oppressive salt tax and the British monopoly, not necessarily to distribute it for free permanently. / अभिकथन (A) सही है क्योंकि नमक सत्याग्रह 1930 में शुरू हुआ था। कारण (R) गलत है क्योंकि गांधीजी का उद्देश्य दमनकारी नमक कर और ब्रिटिश एकाधिकार को समाप्त करना था, न कि इसे स्थायी रूप से मुफ्त में बांटना।",
+            wrong: "Reason (R) is factually incorrect regarding the core political objective of the movement. / कारण (R) आंदोलन के मूल राजनीतिक उद्देश्य के संबंध में तथ्यात्मक रूप से गलत है।"
+        }
+    },
+    // Question 27
+    {
+        q: "In which state was the Workers and Peasants Party established? / मजदूर-किसान पार्टी की स्थापना किस राज्य में हुई थी?",
+        o: [
+            "Bengal / बंगाल",
+            "Madras / मद्रास",
+            "United Provinces / संयुक्त प्रांत",
+            "Odisha / उड़ीसा"
+        ],
+        a: 0,
+        e: {
+            concept: "Communist and Peasant Movements in India. / भारत में कम्युनिस्ट और किसान आंदोलन।",
+            correct: "The first Workers and Peasants Party (initially named Labour Swaraj Party) was formed in Bengal in 1925 by Kazi Nazrul Islam, Hemanta Kumar Sarkar, and others. / पहली मजदूर और किसान पार्टी (शुरू में लेबर स्वराज्य पार्टी) 1925 में बंगाल में काजी नजरुल इस्लाम, हेमंत कुमार सरकार और अन्य द्वारा बनाई गई थी।",
+            wrong: "Though branches were later formed in Bombay and UP, the earliest establishment was in Bengal. / हालांकि बाद में बॉम्बे और यूपी में शाखाएं बनाई गईं, लेकिन सबसे पहली स्थापना बंगाल में हुई थी।"
+        }
+    },
+    // Question 28
+    {
+        q: "What was the name of the mouthpiece of the 'Labour Swaraj Party'? / 'लेबर स्वराज्य पार्टी' के मुखपत्र का नाम क्या था?",
+        o: [
+            "Amrita Bazar Patrika / अमृत बाजार पत्रिका",
+            "Langal / लांगल",
+            "Statesman / स्टेटसमैन",
+            "Hindustan / हिंदुस्तान"
+        ],
+        a: 1,
+        e: {
+            concept: "Journals and publications of the Indian Freedom Struggle. / भारतीय स्वतंत्रता संग्राम की पत्रिकाएं और प्रकाशन।",
+            correct: "'Langal' (The Plough) was the chief organ/mouthpiece of the Labour Swaraj Party, prominently edited by poet Kazi Nazrul Islam. / 'लांगल' (हल) लेबर स्वराज्य पार्टी का मुख्य मुखपत्र था, जिसके प्रमुख संपादक कवि काजी नजरुल इस्लाम थे।",
+            wrong: "Amrita Bazar Patrika was a prominent nationalist newspaper by Sisir Kumar Ghosh. Statesman is a mainstream English daily. / अमृत बाजार पत्रिका शिशिर कुमार घोष का एक प्रमुख राष्ट्रवादी समाचार पत्र था। स्टेट्समैन एक मुख्यधारा का अंग्रेजी दैनिक है।"
+        }
+    },
+    // Question 29
+    {
+        q: "Who among the following was the President of the All Parties Conference in February 1928? / निम्न में से कौन फरवरी 1928 में सर्वदलीय सम्मेलन के अध्यक्ष थे?",
+        o: [
+            "Motilal Nehru / मोतीलाल नेहरू",
+            "J. L. Nehru / जे. एल. नेहरू",
+            "Dr. M. A. Ansari / डॉ. एम. ए. अंसारी",
+            "Mahatma Gandhi / महात्मा गाँधी"
+        ],
+        a: 2,
+        e: {
+            concept: "All Parties Conference and Nehru Report (1928). / सर्वदलीय सम्मेलन और नेहरू रिपोर्ट (1928)।",
+            correct: "Dr. M. A. Ansari presided over the All Parties Conference held in February 1928 in Delhi, which eventually led to the appointment of a committee to draft the Nehru Report. / डॉ. एम. ए. अंसारी ने फरवरी 1928 में दिल्ली में आयोजित सर्वदलीय सम्मेलन की अध्यक्षता की, जिसके कारण अंततः नेहरू रिपोर्ट का मसौदा तैयार करने के लिए एक समिति नियुक्त की गई।",
+            wrong: "Motilal Nehru chaired the committee that drafted the constitution (Nehru Report), but Dr. Ansari was the president of the conference. / मोतीलाल नेहरू ने उस समिति की अध्यक्षता की जिसने संविधान (नेहरू रिपोर्ट) का मसौदा तैयार किया, लेकिन डॉ. अंसारी सम्मेलन के अध्यक्ष थे।"
+        }
+    },
+    // Question 30
+    {
+        q: "Which Chandela ruler fought against Mahmud of Ghazni? / किस चंदेल शासक ने महमूद गजनवी के साथ युद्ध किया था?",
+        o: [
+            "Kumarpala / कुमारपाल",
+            "Vidyadhar / विद्याधर",
+            "Bhima - II / भीम - II",
+            "Arnoraj / अर्णोराज"
+        ],
+        a: 1,
+        e: {
+            concept: "Rajput resistance to Turkic invasions. / तुर्क आक्रमणों का राजपूत प्रतिरोध।",
+            correct: "Vidyadhara was the powerful Chandela king who successfully resisted the invasion of Mahmud of Ghazni in 1019 and 1022 CE. / विद्याधर शक्तिशाली चंदेल राजा थे जिन्होंने 1019 और 1022 ई. में महमूद गजनवी के आक्रमण का सफलतापूर्वक विरोध किया था।",
+            wrong: "Bhima-II was a Chaulukya king who fought Muhammad Ghori, not Mahmud of Ghazni. / भीम-द्वितीय एक चालुक्य राजा थे जिन्होंने मुहम्मद गोरी से लड़ाई लड़ी थी, महमूद गजनवी से नहीं।"
+        }
+    },
+    // Question 31
+    {
+        q: "Who was the editor of 'Swadeshabhimani' (Swadesh Vahini)? / किसने 'स्वदेश वाहिनी' का संपादन किया था?",
+        o: [
+            "C. V. Raman Pillai / सी. वी. रमन पिल्लै",
+            "K. Ramakrishna Pillai / के. राम कृष्णन पिल्लै",
+            "C. N. Mudaliar / सी. एन. मुदालियर",
+            "C. R. Reddy / सी. आर. रेड्डी"
+        ],
+        a: 1,
+        e: {
+            concept: "Vernacular Press in the Nationalist Movement. / राष्ट्रवादी आंदोलन में वर्नाक्युलर प्रेस।",
+            correct: "K. Ramakrishna Pillai was a nationalist writer and journalist who powerfully edited the Malayalam newspaper 'Swadeshabhimani'. / के. रामकृष्ण पिल्लई एक राष्ट्रवादी लेखक और पत्रकार थे जिन्होंने मलयालम समाचार पत्र 'स्वदेशाभिमानी' का शक्तिशाली ढंग से संपादन किया था।",
+            wrong: "C. V. Raman Pillai was a novelist, and C. N. Mudaliar was associated with the Justice Party. / सी. वी. रमन पिल्लै एक उपन्यासकार थे, और सी. एन. मुदालियर जस्टिस पार्टी से जुड़े थे।"
+        }
+    },
+    // Question 32
+    {
+        q: "The newspaper 'Independent' was associated with: / 'इंडिपेण्डेट' समाचार पत्र संबंधित था:",
+        o: [
+            "Mahatma Gandhi / महात्मा गाँधी",
+            "Subhash Chandra Bose / सुभाष चन्द्र बोस",
+            "C. R. Das / सी. आर. दास",
+            "Motilal Nehru / मोती लाल नेहरू"
+        ],
+        a: 3,
+        e: {
+            concept: "Important Newspapers during the Indian Independence struggle. / भारतीय स्वतंत्रता संग्राम के दौरान महत्वपूर्ण समाचार पत्र।",
+            correct: "'The Independent' was an English daily newspaper started by Motilal Nehru in 1919 in Allahabad. / 'द इंडिपेंडेंट' 1919 में इलाहाबाद में मोतीलाल नेहरू द्वारा शुरू किया गया एक अंग्रेजी दैनिक समाचार पत्र था।",
+            wrong: "Gandhi was associated with Young India and Harijan. C.R. Das was associated with Forward. / गांधीजी यंग इंडिया और हरिजन से जुड़े थे। सी.आर. दास फॉरवर्ड से जुड़े थे।"
+        }
+    },
+    // Question 33
+    {
+        q: "Who founded the 'Satya Shodhak Samaj'? / 'सत्य शोधक समाज' की स्थापना किसने की थी?",
+        o: [
+            "B. R. Ambedkar / बी. आर. अम्बेडकर",
+            "Jyotiba Phule / ज्योतिबा फूले",
+            "Santram / संतराम",
+            "Bhaskar Rao Jadhav / भास्कर राव जाधव"
+        ],
+        a: 1,
+        e: {
+            concept: "Social Reform Movements in Western India. / पश्चिमी भारत में सामाजिक सुधार आंदोलन।",
+            correct: "Jyotiba Phule founded the Satyashodhak Samaj (Truth Seekers' Society) in 1873 in Pune to secure human rights and social justice for low-caste people. / ज्योतिबा फुले ने 1873 में पुणे में निचली जाति के लोगों के लिए मानवाधिकारों और सामाजिक न्याय को सुरक्षित करने के लिए सत्यशोधक समाज (सत्य साधक समाज) की स्थापना की।",
+            wrong: "B.R. Ambedkar founded the Bahishkrit Hitakarini Sabha much later in 1924. / बी.आर. अंबेडकर ने बहुत बाद में 1924 में बहिष्कृत हितकारिणी सभा की स्थापना की।"
+        }
+    },
+    // Question 34
+    {
+        q: "Who among the following is known as 'Lokhitwadi'? / निम्न से किसे 'लोकहितवादी' के नाम से जानते है?",
+        o: [
+            "Gopal Hari Deshmukh / गोपाल हरि देशमुख",
+            "Jyotiba Phule / ज्योतिबा फूले",
+            "Mahadev Govind Ranade / महादेव गोविंद रानाडे",
+            "Bal Gangadhar Tilak / बाल गंगाधर तिलक"
+        ],
+        a: 0,
+        e: {
+            concept: "Prominent Social Reformers of Maharashtra. / महाराष्ट्र के प्रमुख समाज सुधारक।",
+            correct: "Gopal Hari Deshmukh, a social reformer from Maharashtra, wrote articles under the pen name 'Lokhitwadi' (One who works for the public good). / महाराष्ट्र के एक समाज सुधारक गोपाल हरि देशमुख ने 'लोकहितवादी' (वह जो जनहित के लिए काम करता है) उपनाम से लेख लिखे।",
+            wrong: "Bal Gangadhar Tilak is known as 'Lokmanya'. / बाल गंगाधर तिलक को 'लोकमान्य' के रूप में जाना जाता है।"
+        }
+    },
+    // Question 35
+    {
+        q: "In which year was the 'Native Marriage Act' passed? / 'देशी विवाह अधिनियम' किस वर्ष पारित हुआ?",
+        o: [
+            "1870",
+            "1874",
+            "1872",
+            "1876"
+        ],
+        a: 2,
+        e: {
+            concept: "Social Legislation during British Rule. / ब्रिटिश शासन के दौरान सामाजिक विधान।",
+            correct: "The Native Marriage Act, also known as the Civil Marriage Act, was passed in 1872. It prohibited child marriage, legalized widow remarriage, and outlawed polygamy for those marrying under it. / देशी विवाह अधिनियम, जिसे नागरिक विवाह अधिनियम के रूप में भी जाना जाता है, 1872 में पारित किया गया था।",
+            wrong: "It was a result of the rigorous efforts of Keshab Chandra Sen. The other years are incorrect. / यह केशव चंद्र सेन के कठोर प्रयासों का परिणाम था। अन्य वर्ष गलत हैं।"
+        }
+    },
+    // Question 36
+    {
+        q: "Who founded the 'Theosophical Society'? / 'थियोसोफिकल सोसायटी' की स्थापना किसने की थी?",
+        o: [
+            "Madam H. P. Blavatsky / मैडम एच. पी. ब्लावात्स्की",
+            "Mahatma Gandhi / महात्मा गाँधी",
+            "Raja Ram Mohan Roy / राजा राम मोहन राय",
+            "Swami Vivekananda / स्वामी विवेकानंद"
+        ],
+        a: 0,
+        e: {
+            concept: "Socio-Religious Reform Movements. / सामाजिक-धार्मिक सुधार आंदोलन।",
+            correct: "The Theosophical Society was founded in New York in 1875 by Madam H. P. Blavatsky and Colonel H. S. Olcott. / थियोसोफिकल सोसायटी की स्थापना 1875 में न्यूयॉर्क में मैडम एच. पी. ब्लावात्स्की और कर्नल एच. एस. ओल्कॉट ने की थी।",
+            wrong: "Swami Vivekananda founded the Ramakrishna Mission, and Raja Ram Mohan Roy founded the Brahmo Samaj. / स्वामी विवेकानंद ने रामकृष्ण मिशन की स्थापना की, और राजा राम मोहन राय ने ब्रह्मो समाज की स्थापना की।"
+        }
+    },
+    // Question 37
+    {
+        q: "Who founded the 'Servants of India Society'? / 'सर्वेन्टस आंफ इंडिया सोसायटी' की स्थापना किसने की थी?",
+        o: [
+            "Ishwar Chandra Vidyasagar / ईश्वर चन्द्र विद्यासागर",
+            "Dadabhai Naoroji / दादाभाई नौरोजी",
+            "Gopal Krishna Gokhale / गोपाल कृष्ण गोखले",
+            "Lala Lajpat Rai / लाला लाजपत राय"
+        ],
+        a: 2,
+        e: {
+            concept: "Organisations for national and social service. / राष्ट्रीय और सामाजिक सेवा के लिए संगठन।",
+            correct: "Gopal Krishna Gokhale founded the Servants of India Society in 1905 to train national missionaries for the service of India and to promote its true interests. / गोपाल कृष्ण गोखले ने भारत की सेवा के लिए राष्ट्रीय मिशनरियों को प्रशिक्षित करने के लिए 1905 में सर्वेंट्स ऑफ इंडिया सोसाइटी की स्थापना की।",
+            wrong: "Lala Lajpat Rai founded the Servants of the People Society in 1921. / लाला लाजपत राय ने 1921 में सर्वेंट्स ऑफ द पीपल सोसाइटी की स्थापना की थी।"
+        }
+    },
+    // Question 38
+    {
+        q: "Which of the following Englishmen translated the Bhagavad Gita into English? / निम्नलिखित में से किस अंग्रेज ने भगवद्‌गीता का अंग्रेजी में अनुवाद किया था?",
+        o: [
+            "William Jones / विलियम जोन्स",
+            "Alexander Cunningham / अलेक्जेण्डर कनिंघम",
+            "Charles Wilkins / चार्ल्स विल्किन्स",
+            "John Marshall / जान मार्शल"
+        ],
+        a: 2,
+        e: {
+            concept: "Translation of ancient Indian texts by Orientalists. / प्राच्यवादियों द्वारा प्राचीन भारतीय ग्रंथों का अनुवाद।",
+            correct: "Charles Wilkins translated the Bhagavad Gita into English in 1785, marking a significant milestone in European reception of Indian philosophy. / चार्ल्स विल्किन्स ने 1785 में भगवद्गीता का अंग्रेजी में अनुवाद किया।",
+            wrong: "William Jones translated the Abhijñānaśākuntalam. Alexander Cunningham and John Marshall were prominent archaeologists. / विलियम जोन्स ने अभिज्ञानशाकुंतलम का अनुवाद किया। अलेक्जेंडर कनिंघम और जॉन मार्शल प्रमुख पुरातत्वविद् थे।"
+        }
+    },
+    // Question 39
+    {
+        q: "Who founded 'The Asiatic Society of Bengal'? / 'दी एशियाटिक सोसायटी आफ बंगाल' की स्थापना किसने की थी?",
+        o: [
+            "Sir William Jones / सर विलियम जोन्स",
+            "Max Muller / मैक्स मूलर",
+            "Wilkins / विल्किन्स",
+            "James Prinsep / जेम्स प्रिसेप"
+        ],
+        a: 0,
+        e: {
+            concept: "Orientalist Institutions in Colonial India. / औपनिवेशिक भारत में प्राच्यवादी संस्थाएं।",
+            correct: "Sir William Jones founded the Asiatic Society of Bengal in 1784 to promote Oriental research. / सर विलियम जोन्स ने 1784 में ओरिएंटल अनुसंधान को बढ़ावा देने के लिए एशियाटिक सोसाइटी ऑफ बंगाल की स्थापना की।",
+            wrong: "James Prinsep deciphered Ashoka's edicts later. Max Muller was an Indologist who worked largely from Europe. / जेम्स प्रिंसेप ने बाद में अशोक के शिलालेखों को पढ़ा।"
+        }
+    },
+    // Question 40
+    {
+        q: "The 'Sadler Commission' is related to: / 'सैडलर कमीशन' संबंधित है :",
+        o: [
+            "Justice / न्याय",
+            "Education / शिक्षा",
+            "Revenue System / राजस्व व्यवस्था",
+            "Police System / पुलिस व्यवस्था"
+        ],
+        a: 1,
+        e: {
+            concept: "Development of Education under British Rule. / ब्रिटिश शासन के तहत शिक्षा का विकास।",
+            correct: "The Sadler Commission, officially the Calcutta University Commission, was appointed in 1917 to study and report on the problems of university education. / सैडलर कमीशन, जिसे आधिकारिक तौर पर कलकत्ता विश्वविद्यालय आयोग कहा जाता है, 1917 में विश्वविद्यालयी शिक्षा की समस्याओं का अध्ययन करने के लिए नियुक्त किया गया था।",
+            wrong: "The Police Commission (1902) was under Andrew Fraser. / पुलिस आयोग (1902) एंड्रयू फ्रेजर के अधीन था।"
+        }
+    },
+    // Question 41
+    {
+        q: "Who laid the foundation stone of Banaras Hindu University? / बनारस हिन्दु विश्वविद्यालय की आधारशिला किसने रखी?",
+        o: [
+            "Madan Mohan Malaviya / मदन मोहन मालवीय",
+            "Lord Hardinge / लार्ड हार्डिंग",
+            "Maharaja Vibhuti Narayan Singh / महाराजा विभूति नरायण सिंह",
+            "Annie Besant / ऐनी बेसेण्ट"
+        ],
+        a: 1,
+        e: {
+            concept: "Foundation of key educational institutions in India. / भारत में प्रमुख शिक्षण संस्थानों की स्थापना।",
+            correct: "The foundation stone of Banaras Hindu University (BHU) was laid by the then Viceroy of India, Lord Hardinge, on February 4, 1916. / बनारस हिंदू विश्वविद्यालय (BHU) की आधारशिला 4 फरवरी, 1916 को भारत के तत्कालीन वायसराय लॉर्ड हार्डिंग द्वारा रखी गई थी।",
+            wrong: "While Madan Mohan Malaviya and Annie Besant were its core founders, the ceremonial foundation stone was laid by the Viceroy. / जबकि मदन मोहन मालवीय और एनी बेसेंट इसके मुख्य संस्थापक थे, औपचारिक आधारशिला वायसराय द्वारा रखी गई थी।"
+        }
+    },
+    // Question 42
+    {
+        q: "Which was the first newspaper of India? / भारत का प्रथम अखबार कौन था?",
+        o: [
+            "Bengal Gazette / बंगाल गजट",
+            "Pioneer / पायोनियर",
+            "Hindustan Times / हिंदुस्तान टाइम्स",
+            "Samvad Kaumudi / संवाद कौमुदी"
+        ],
+        a: 0,
+        e: {
+            concept: "History of the Press in India. / भारत में प्रेस का इतिहास।",
+            correct: "Hicky's Bengal Gazette, published by James Augustus Hicky in 1780, was the first printed newspaper published in India. / जेम्स ऑगस्टस हिक्की द्वारा 1780 में प्रकाशित हिक्की का बंगाल गजट, भारत में प्रकाशित होने वाला पहला मुद्रित समाचार पत्र था।",
+            wrong: "Samvad Kaumudi was brought out by Raja Ram Mohan Roy much later in 1821. / संवाद कौमुदी को राजा राम मोहन राय ने बहुत बाद में 1821 में निकाला था।"
+        }
+    },
+    // Question 43
+    {
+        q: "Who was the first editor of 'Indian Opinion'? / 'इंडियन ओपनियन' के प्रथम संपादक कौन थे?",
+        o: [
+            "Mahatma Gandhi / महात्मा गाँधी",
+            "Mahadev Desai / महादेव देसाई",
+            "Albert West / अल्बर्ट वेस्ट",
+            "Mansukhlal Nazar / मनसुखलाल नजर"
+        ],
+        a: 3,
+        e: {
+            concept: "Gandhi's early journalism in South Africa. / दक्षिण अफ्रीका में गांधीजी की प्रारंभिक पत्रकारिता।",
+            correct: "Mansukhlal Nazar was the first editor of the newspaper 'Indian Opinion', which was founded by Mahatma Gandhi in South Africa in 1903. / मनसुखलाल नज़र 'इंडियन ओपिनियन' समाचार पत्र के पहले संपादक थे, जिसकी स्थापना महात्मा गांधी ने 1903 में दक्षिण अफ्रीका में की थी।",
+            wrong: "Gandhi was the founder and prime mover, but he appointed Mansukhlal Nazar as the first formal editor. / गांधीजी संस्थापक थे, लेकिन उन्होंने मनसुखलाल नज़र को पहले औपचारिक संपादक के रूप में नियुक्त किया।"
+        }
+    },
+    // Question 44
+    {
+        q: "From where was 'Udant Martand', the first Hindi newspaper, published? / 'उदंत मार्तण्ड' प्रथम हिन्दी अखबार कहां से प्रकाशित हुआ था?",
+        o: [
+            "Calcutta / कोलकत्ता",
+            "Allahabad / इलाहाबाद",
+            "Patna / पटना",
+            "Lucknow / लखनऊ"
+        ],
+        a: 0,
+        e: {
+            concept: "Evolution of Vernacular Journalism. / वर्नाक्युलर पत्रकारिता का विकास।",
+            correct: "'Udant Martand', the first Hindi-language newspaper in India, was published from Calcutta (Kolkata) in 1826 by Pt. Jugal Kishore Shukla. / भारत में पहला हिंदी भाषा का समाचार पत्र 'उदंत मार्तंड' 1826 में पं. जुगल किशोर शुक्ल द्वारा कलकत्ता (कोलकाता) से प्रकाशित हुआ था।",
+            wrong: "Despite Hindi being native to the UP/Bihar belt, early publishing thrived in Calcutta due to British administrative presence. / ब्रिटिश प्रशासनिक उपस्थिति के कारण प्रारंभिक प्रकाशन कलकत्ता में फला-फूला।"
+        }
+    },
+    // Question 45
+    {
+        q: "Who was the leader of the Bhumij Revolt? / भूमिजी विद्रोह के नेता कौन थे?",
+        o: [
+            "Bhagirath / भागीरथ",
+            "Jatra Bhagat / जतरा भगत",
+            "Dubia Gosai / दूबिया गोसाई",
+            "Ganga Narayan / गंगा नरायण"
+        ],
+        a: 3,
+        e: {
+            concept: "Tribal Uprisings during Company Rule. / कंपनी शासन के दौरान आदिवासी विद्रोह।",
+            correct: "The Bhumij Revolt (1832-33) in the Midnapore and Dhalbhum region was led by Ganga Narayan Singh. / मिदनापुर और धालभूम क्षेत्र में भूमिज विद्रोह (1832-33) का नेतृत्व गंगा नारायण सिंह ने किया था।",
+            wrong: "Jatra Bhagat led the Tana Bhagat Movement in 1914. / जतरा भगत ने 1914 में ताना भगत आंदोलन का नेतृत्व किया था।"
+        }
+    },
+    // Question 46
+    {
+        q: "In which region did the Bhil Revolt against the British take place? / अंग्रेजों के विरूद्ध भील विद्रोह किस क्षेत्र में हुआ था?",
+        o: [
+            "Madhya Pradesh and Maharashtra / मध्य प्रदेश एवं महाराष्ट्र",
+            "Bihar and Bengal / बिहार एवं बंगाल",
+            "Madhya Pradesh and Bihar / मध्य प्रदेश एवं बिहार",
+            "Bengal and Maharashtra / बंगाल एवं महाराष्ट्र"
+        ],
+        a: 0,
+        e: {
+            concept: "Tribal Uprisings in Central and Western India. / मध्य और पश्चिमी भारत में आदिवासी विद्रोह।",
+            correct: "The Bhils concentrated in the Khandesh region, which spans modern-day Maharashtra and Madhya Pradesh, revolted against the British in 1817-1819 and again later. / भील जनजाति खानदेश क्षेत्र में केंद्रित थी, जो आधुनिक महाराष्ट्र और मध्य प्रदेश में फैला है; उन्होंने 1817-1819 में और बाद में भी विद्रोह किया।",
+            wrong: "Bihar and Bengal were the primary regions for the Santhal and Munda rebellions. / बिहार और बंगाल संथाल और मुंडा विद्रोह के प्राथमिक क्षेत्र थे।"
+        }
+    },
+    // Question 47
+    {
+        q: "Which of the following is NOT correctly matched? / इनमें से कोई सुमेलित नहीं है?",
+        o: [
+            "Moplah Rebellion - Kerala / मोपला विद्रोह - केरल",
+            "Koli Rebellion - Gujarat / कोली विद्रोह - गुजरात",
+            "Kuka Rebellion - Punjab / कूका विद्रोह - पंजाब",
+            "Chuar Rebellion - Madhya Pradesh / चुनार विद्रोह - मध्य प्रदेश"
+        ],
+        a: 3,
+        e: {
+            concept: "Mapping Tribal and Peasant Uprisings to Regions. / आदिवासी और किसान विद्रोहों का क्षेत्रों से मिलान।",
+            correct: "The Chuar Rebellion took place in the Jungle Mahals of Bengal (Midnapore, Bankura), not Madhya Pradesh. / चुआर विद्रोह बंगाल के जंगल महाल (मिदनापुर, बांकुरा) में हुआ था, मध्य प्रदेश में नहीं।",
+            wrong: "The Moplah, Koli, and Kuka rebellions are correctly matched with Kerala, Gujarat/Maharashtra, and Punjab respectively. / मोपला, कोली और कूका विद्रोह क्रमशः केरल, गुजरात/महाराष्ट्र और पंजाब के साथ सही ढंग से सुमेलित हैं।"
+        }
+    },
+    // Question 48
+    {
+        q: "In which place did the Moplah Rebellion occur in the year 1921? / मोपाला विद्रोह वर्ष 1921 में किस स्थान पर हुआ था?",
+        o: [
+            "Telangana / तेलंगाना",
+            "Malabar / मालाबार",
+            "Vidarbha / विदर्भ",
+            "Marathwada / मराठवाड़ा"
+        ],
+        a: 1,
+        e: {
+            concept: "Peasant uprisings in the context of the Khilafat/Non-Cooperation Movement. / खिलाफत/असहयोग आंदोलन के संदर्भ में किसान विद्रोह।",
+            correct: "The Moplah Rebellion (Malabar Rebellion) was an armed revolt by Mappila Muslims of the Malabar region of Kerala in 1921. / मोपला विद्रोह (मालाबार विद्रोह) 1921 में केरल के मालाबार क्षेत्र के मप्पिला मुसलमानों द्वारा किया गया एक सशस्त्र विद्रोह था।",
+            wrong: "Telangana witnessed a massive peasant struggle much later (1946). / तेलंगाना में बहुत बाद में (1946) एक बड़े किसान संघर्ष को देखा गया।"
+        }
+    },
+    // Question 49
+    {
+        q: "In which year was the Gandhi-Irwin Pact signed? / गाँधी-इर्विन समझौता किस वर्ष हुआ था?",
+        o: [
+            "1931",
+            "1942",
+            "1935",
+            "1919"
+        ],
+        a: 0,
+        e: {
+            concept: "Key milestones of the Civil Disobedience Movement. / सविनय अवज्ञा आंदोलन के प्रमुख मील के पत्थर।",
+            correct: "The Gandhi-Irwin Pact, also known as the Delhi Pact, was a political agreement signed by Mahatma Gandhi and Lord Irwin on March 5, 1931. / गांधी-इरविन समझौता, जिसे दिल्ली समझौते के रूप में भी जाना जाता है, 5 मार्च, 1931 को हस्ताक्षरित एक राजनीतिक समझौता था।",
+            wrong: "This pact led to the suspension of the Civil Disobedience Movement and Gandhi's participation in the Second Round Table Conference. / इस समझौते के कारण सविनय अवज्ञा आंदोलन को निलंबित कर दिया गया था।"
+        }
+    },
+    // Question 50
+    {
+        q: "Who among the following called Irwin and Gandhi the 'Two Mahatmas'? / निम्न में से किसने इर्विन-गाँधी को दो महात्मा की संज्ञा दी थी?",
+        o: [
+            "Mira Behn / मीरा बहन",
+            "Madan Mohan Malaviya / मदन मोहन मालवीय",
+            "Sarojini Naidu / सरोजनी नायडू",
+            "Jawaharlal Nehru / जवाहर लाल नेहरू"
+        ],
+        a: 2,
+        e: {
+            concept: "Contemporary reactions to the Gandhi-Irwin Pact. / गांधी-इरविन समझौते पर समकालीन प्रतिक्रियाएं।",
+            correct: "Sarojini Naidu referred to Lord Irwin and Mahatma Gandhi as the 'Two Mahatmas' due to their respectful negotiations leading to the Gandhi-Irwin Pact. / सरोजिनी नायडू ने गांधी-इरविन समझौते के दौरान उनके सम्मानजनक वार्ता के कारण लॉर्ड इरविन और महात्मा गांधी को 'दो महात्मा' कहा था।",
+            wrong: "It was a poetic assessment by Sarojini Naidu, not by Mira Behn or Nehru. / यह सरोजिनी नायडू द्वारा किया गया एक काव्यात्मक आकलन था।"
+        }
+    }
+,
+    // Question 51
+    {
+        q: "Who represented Indian Christians in the First Round Table Conference in London? / प्रथम गोल मेज सम्मेलन लंदन में भारतीय ईसाईयों का प्रतिनिधित्व किसने किया था?",
+        o: [
+            "Rao Bahadur Srinivasa / राव बहादुर श्रीनिवास",
+            "Sir A. P. Patro / सर ए. पी. पैत्रो",
+            "Sir Akbar Hydari / सर अकबर हैदरी",
+            "K. T. Paul / के. टी. पॉल"
+        ],
+        a: 3,
+        e: {
+            concept: "Representation in the Round Table Conferences. / गोलमेज सम्मेलनों में प्रतिनिधित्व।",
+            correct: "K. T. Paul represented the Indian Christians at the First Round Table Conference held in London in 1930. He was an eminent leader of the Indian Christian community. / के. टी. पॉल ने 1930 में लंदन में आयोजित प्रथम गोलमेज सम्मेलन में भारतीय ईसाइयों का प्रतिनिधित्व किया था। वह भारतीय ईसाई समुदाय के एक प्रख्यात नेता थे।",
+            wrong: "Rao Bahadur Srinivasa represented the Depressed Classes along with B.R. Ambedkar. Sir Akbar Hydari represented the State of Hyderabad. / राव बहादुर श्रीनिवास ने बी.आर. अंबेडकर के साथ दलित वर्गों का प्रतिनिधित्व किया। सर अकबर हैदरी ने हैदराबाद राज्य का प्रतिनिधित्व किया।"
+        }
+    },
+    // Question 52
+    {
+        q: "Who was the first tribal leader inspired by Mahatma Gandhi and his ideology? / प्रथम अदिवासी नेता जो महात्मा गाँधी और उनकी विचारधारा से प्रेरित थे -",
+        o: [
+            "Alluri Sitarama Raju / अलूरी सीताराम राजू",
+            "Jhabkar Bappa (Thakkar Bappa) / झाबकर बप्पा",
+            "Jadonang / जादोनंग",
+            "Rani Gaidinliu / रानी गोदिंलू"
+        ],
+        a: 2,
+        e: {
+            concept: "Tribal Movements and National Integration. / जनजातीय आंदोलन और राष्ट्रीय एकीकरण।",
+            correct: "Haipou Jadonang, a Naga spiritual leader from Manipur, was deeply inspired by Mahatma Gandhi's Civil Disobedience movement and integrated Gandhi's ideas into his Zeliangrong movement. / मणिपुर के एक नागा आध्यात्मिक नेता हाइपोउ जादोनंग महात्मा गांधी के सविनय अवज्ञा आंदोलन से गहराई से प्रेरित थे और उन्होंने गांधी के विचारों को अपने जेलियांग्रोंग आंदोलन में एकीकृत किया।",
+            wrong: "Rani Gaidinliu succeeded Jadonang and was also inspired by Gandhi, but Jadonang was earlier. Alluri Sitarama Raju led a more militant uprising (Rampa Rebellion). / रानी गोइदिनलियू जादोनंग की उत्तराधिकारी बनीं, लेकिन जादोनंग पहले थे।"
+        }
+    },
+    // Question 53
+    {
+        q: "In which state of India is the Harappan site 'Kunal' located? / हडप्पाकालीन स्थल 'कुणाल' भारत के किस राज्य में स्थित है?",
+        o: [
+            "Rajasthan / राजस्थान",
+            "Uttar Pradesh / उत्तर प्रदेश",
+            "Punjab / पंजाब",
+            "Haryana / हरियाणा"
+        ],
+        a: 3,
+        e: {
+            concept: "Geographical spread of Indus Valley Civilization sites. / सिंधु घाटी सभ्यता स्थलों का भौगोलिक विस्तार।",
+            correct: "Kunal is a pre-Harappan and Harappan archaeological site located in the Fatehabad district of Haryana, India. It is known for early silver artifacts. / कुणाल एक पूर्व-हड़प्पा और हड़प्पा पुरातात्विक स्थल है जो भारत के हरियाणा के फतेहाबाद जिले में स्थित है। यह प्रारंभिक चांदी की कलाकृतियों के लिए जाना जाता है।",
+            wrong: "Prominent sites in Rajasthan include Kalibangan, and in UP include Alamgirpur. / राजस्थान के प्रमुख स्थलों में कालीबंगा और यूपी में आलमगीरपुर शामिल हैं।"
+        }
+    },
+    // Question 54
+    {
+        q: "Besides the Great Bath in the citadel of Mohenjo-Daro, the situated assembly hall building is called: / मोहनजोदडों के सिटाडेल (गढ़) में महास्नानगार के अतिरिक्त स्थित सभागार भवन को कहते है :",
+        o: [
+            "Granary / अन्नागार",
+            "Kala Bhavan / कला भवन",
+            "Natya Bhavan / नाट्य भवन",
+            "College of Priests / पुरोहितों का महाविद्यालय"
+        ],
+        a: 3,
+        e: {
+            concept: "Architecture of Mohenjo-Daro Citadel. / मोहनजोदड़ो गढ़ की वास्तुकला।",
+            correct: "In the citadel area of Mohenjo-Daro, a large pillared hall was discovered which archaeologists refer to as the Assembly Hall or the 'College of Priests'. / मोहनजोदड़ो के गढ़ क्षेत्र में, एक विशाल स्तंभों वाला हॉल खोजा गया था जिसे पुरातत्वविद् 'सभा भवन' या 'पुरोहितों का महाविद्यालय' कहते हैं।",
+            wrong: "The Granary is a separate massive structure on the citadel, not the pillared assembly hall. / अन्नागार गढ़ पर एक अलग विशाल संरचना है।"
+        }
+    },
+    // Question 55
+    {
+        q: "In which of the Harappan sites are attractive divisions of water management and 'water harvesting' seen? / हडप्पाकालीन स्थलों में किस नगर में जल प्रबंधन तथा 'वाटर हार्वेस्टिंग' की आकर्षक व्यवस्था के प्रभाग देखे गये है?",
+        o: [
+            "Kalibangan / कालीबंगा",
+            "Allahdino / अल्लाहदीनों",
+            "Chanhudaro / चन्हूदडों",
+            "Dholavira / धोलावीरा"
+        ],
+        a: 3,
+        e: {
+            concept: "Town Planning and Engineering of Harappan Civilization. / हड़प्पा सभ्यता की नगर योजना और इंजीनियरिंग।",
+            correct: "Dholavira, located in the Rann of Kutch (Gujarat), is exceptionally famous for its sophisticated water management system, featuring a series of large reservoirs and intricate channels. / कच्छ के रण (गुजरात) में स्थित धोलावीरा, अपनी परिष्कृत जल प्रबंधन प्रणाली के लिए असाधारण रूप से प्रसिद्ध है, जिसमें बड़े जलाशयों और जटिल चैनलों की एक श्रृंखला है।",
+            wrong: "Kalibangan is famous for ploughed fields, and Chanhudaro for bead-making factories. / कालीबंगा जुते हुए खेतों के लिए और चन्हूदड़ो मनका बनाने वाले कारखानों के लिए प्रसिद्ध है।"
+        }
+    },
+    // Question 56
+    {
+        q: "What was 'Apupa' in the Later Vedic period? / उत्तर वैदिक काल में 'अपूप' क्या था?",
+        o: [
+            "Place of worship / पूजा स्थल",
+            "Food / भोजन",
+            "Carpenter / वढ़ई",
+            "Dance / नृत्य"
+        ],
+        a: 1,
+        e: {
+            concept: "Society and Culture of the Later Vedic Period. / उत्तर वैदिक काल का समाज और संस्कृति।",
+            correct: "'Apupa' in Vedic literature refers to a sweet cake or a preparation of food made of rice or barley mixed with ghee. / वैदिक साहित्य में 'अपूप' का अर्थ है मीठा केक या चावल या जौ से बना भोजन जिसमें घी मिलाया जाता है।",
+            wrong: "It is not a place, profession, or art form. / यह कोई स्थान, पेशा या कला रूप नहीं है।"
+        }
+    },
+    // Question 57
+    {
+        q: "Heliodorus, mentioned in the Besnagar inscription, was a resident of where? / बेसनगर शिलालेख में वर्णित हेलियोडोरस कहाँ का निवासी था?",
+        o: [
+            "Pushkalavati / पुष्कलावती",
+            "Sakala / साकला",
+            "Taxila / तक्षशिला",
+            "Mathura / मथुरा"
+        ],
+        a: 2,
+        e: {
+            concept: "Indo-Greek contacts and early Bhagavatism. / इंडो-ग्रीक संपर्क और प्रारंभिक भागवतवाद।",
+            correct: "Heliodorus was an Indo-Greek ambassador from Taxila (Takshashila), sent by the Indo-Greek king Antialcidas to the court of the Shunga king Bhagabhadra in Vidisha (Besnagar). / हेलियोडोरस तक्षशिला का एक इंडो-ग्रीक राजदूत था, जिसे इंडो-ग्रीक राजा एंटियाल्सीडास ने विदिशा (बेसनगर) में शुंग राजा भागभद्र के दरबार में भेजा था।",
+            wrong: "He erected the Garuda Pillar, dedicating it to Lord Vasudeva, showing his conversion to Bhagavatism. / उसने भगवान वासुदेव को समर्पित गरुड़ स्तंभ का निर्माण कराया।"
+        }
+    },
+    // Question 58
+    {
+        q: "Which avatar of Vishnu is depicted rescuing the earth from the ocean? / विष्णु के किस अवतार को समुद्र से बचाते हुए दर्शाया गया है?",
+        o: [
+            "Kachhapa / कच्छपा",
+            "Varaha / वाराह",
+            "Matsya / मत्स्य",
+            "Narasimha / नरसिंह"
+        ],
+        a: 1,
+        e: {
+            concept: "Hindu Iconography and Mythology. / हिंदू प्रतिमा विज्ञान और पौराणिक कथाएं।",
+            correct: "In Hindu mythology, the Varaha (boar) avatar of Lord Vishnu is depicted physically rescuing the goddess Earth (Bhudevi) from the cosmic ocean, lifting her on his tusks. A famous relief is found at Udayagiri caves. / हिंदू पौराणिक कथाओं में, भगवान विष्णु के वाराह (सूअर) अवतार को लौकिक महासागर से देवी पृथ्वी (भूदेवी) को शारीरिक रूप से बचाते हुए, उन्हें अपने दाँत पर उठाते हुए दर्शाया गया है।",
+            wrong: "Matsya is the fish avatar that saved Manu from the great deluge, not the earth itself. / मत्स्य मछली का अवतार है जिसने मनु को महाप्रलय से बचाया था।"
+        }
+    },
+    // Question 59
+    {
+        q: "The Kalika Purana is related to which religion/sect? / कालिका पुराण किस धर्म से संबंधित है?",
+        o: [
+            "Vaishnavism / वैष्णववाद",
+            "Buddhism / बौद्ध धर्म",
+            "Shaktism / शक्तिवाद्",
+            "Jainism / जैन धर्म"
+        ],
+        a: 2,
+        e: {
+            concept: "Ancient Puranic Literature. / प्राचीन पौराणिक साहित्य।",
+            correct: "The Kalika Purana is one of the eighteen minor Puranas (Upapuranas) in the Shaktism tradition of Hinduism. It primarily focuses on the worship of Goddess Kamakhya/Kali. / कालिका पुराण हिंदू धर्म की शक्तिवाद परंपरा में अठारह छोटे पुराणों (उपपुराणों) में से एक है। यह मुख्य रूप से देवी कामाख्या/काली की पूजा पर केंद्रित है।",
+            wrong: "It is not associated with Vaishnavism, Jainism, or Buddhism. / यह वैष्णववाद, जैन धर्म या बौद्ध धर्म से जुड़ा नहीं है।"
+        }
+    },
+    // Question 60
+    {
+        type: "match",
+        q: "Match List-I with List-II and select the correct answer using the code given below the lists: / सूची I का सूची-II से मिलान करें एवं सही विकल्प चुनें:",
+        lists: {
+            list1: [
+                { id: 'a', text: 'Shiva / शिव' },
+                { id: 'b', text: 'Vishnu / विष्णु' },
+                { id: 'c', text: 'Ganesh / गणेश' },
+                { id: 'd', text: 'Saraswati / सरस्वती' }
+            ],
+            list2: [
+                { id: '1', text: 'Chakra / चक्र' },
+                { id: '2', text: 'Trishul / त्रिशूल' },
+                { id: '3', text: 'Veena / वीणा' },
+                { id: '4', text: 'Noose or Rope / रस्सी या फंदा' }
+            ]
+        },
+        o: [
+            "a-3, b-1, c-2, d-4",
+            "a-2, b-1, c-4, d-3",
+            "a-1, b-4, c-3, d-2",
+            "a-2, b-1, c-3, d-4"
+        ],
+        a: 1,
+        e: {
+            concept: "Iconography of Hindu Deities. / हिंदू देवताओं की प्रतिमा विज्ञान।",
+            correct: "Lord Shiva holds the Trishul (2). Lord Vishnu holds the Chakra (1). Lord Ganesha is often depicted holding a noose or Pasha (4). Goddess Saraswati plays the Veena (3). Therefore, a-2, b-1, c-4, d-3 is correct. / भगवान शिव त्रिशूल (2) धारण करते हैं। भगवान विष्णु चक्र (1) धारण करते हैं। भगवान गणेश को अक्सर पाश या फंदा (4) पकड़े हुए दर्शाया जाता है। देवी सरस्वती वीणा (3) बजाती हैं।",
+            wrong: "Any other combination mismatches the core symbolic attributes of the deities. / कोई भी अन्य संयोजन देवताओं के मूल प्रतीकात्मक गुणों से मेल नहीं खाता है।"
+        }
+    },
+    // Question 61
+    {
+        q: "During whose reign was the Fourth Buddhist Council organized? / चतुर्थ बौद्ध संगति का आयोजन किसके काल में हुआ?",
+        o: [
+            "Kanishka / कनिष्क",
+            "Harshavardhana / हर्षवर्धन",
+            "Ashoka / अशोक",
+            "Menander / मिनेन्डर"
+        ],
+        a: 0,
+        e: {
+            concept: "Buddhist Councils and Patronage. / बौद्ध संगतियां और संरक्षण।",
+            correct: "The Fourth Buddhist Council was convened by the Kushan Emperor Kanishka at Kundalvana in Kashmir in the 1st century AD. It was presided over by Vasumitra. / चौथी बौद्ध संगति का आयोजन कुषाण सम्राट कनिष्क ने प्रथम शताब्दी ईस्वी में कश्मीर के कुंडलवन में किया था।",
+            wrong: "Ashoka patronized the Third Council at Pataliputra. / अशोक ने पाटलिपुत्र में तीसरी संगति का संरक्षण किया था।"
+        }
+    },
+    // Question 62
+    {
+        q: "In Indian art, the wheel with a deer represents which event in Buddha's life? / भारतीय कला में हिरण युक्त चक्र बुद्ध के जीवन के किस घटना को प्रदर्शित करता है?",
+        o: [
+            "Great Departure / महान प्रस्थान",
+            "First Sermon / प्रथम उपदेश",
+            "Enlightenment / प्रबोधन",
+            "Nirvana / निर्वाण"
+        ],
+        a: 1,
+        e: {
+            concept: "Symbols of the Buddha's life events. / बुद्ध के जीवन की घटनाओं के प्रतीक।",
+            correct: "The wheel (Dharmachakra) flanked by two deer symbolizes the Buddha's First Sermon (Dharmachakrapravartana) delivered at the Deer Park (Sarnath). / दो हिरणों के बीच पहिया (धर्मचक्र) बुद्ध के प्रथम उपदेश (धर्मचक्रप्रवर्तन) का प्रतीक है जो हिरण पार्क (सारनाथ) में दिया गया था।",
+            wrong: "The Great Departure is represented by a horse, Enlightenment by the Bodhi tree, and Nirvana by a Stupa. / महान प्रस्थान को घोड़े द्वारा, प्रबोधन को बोधि वृक्ष द्वारा, और निर्वाण को स्तूप द्वारा दर्शाया गया है।"
+        }
+    },
+    // Question 63
+    {
+        q: "On the banks of which river did Mahavira Swami attain enlightenment? / महावीर स्वामी को किस नदी के किनारे ज्ञान प्राप्त हुआ था?",
+        o: [
+            "Swarnashikta / स्वर्णशिक्ता",
+            "Ganga / गंगा",
+            "Palashini / पलाशिनी",
+            "Rijupalika / रिजू पालिका"
+        ],
+        a: 3,
+        e: {
+            concept: "Life of Mahavira (Jainism). / महावीर का जीवन (जैन धर्म)।",
+            correct: "Vardhamana Mahavira attained Kaivalya (enlightenment) under a Sal tree on the banks of the Rijupalika river near Jrimbhikagrama. / वर्धमान महावीर ने जृम्भिकाग्राम के पास ऋजुपालिका नदी के तट पर साल के पेड़ के नीचे कैवल्य (ज्ञान) प्राप्त किया।",
+            wrong: "Gautama Buddha attained enlightenment on the banks of the Niranjana river. / गौतम बुद्ध ने निरंजना नदी के तट पर ज्ञान प्राप्त किया था।"
+        }
+    },
+    // Question 64
+    {
+        q: "The doctrine of Syadvada is related to which religion? / स्यादवाद सिद्धांत किस धर्म से संबंधित है :-",
+        o: [
+            "Lokayata / लोकयवाद",
+            "Jainism / जैन धर्म",
+            "Shaivism / शैववाद",
+            "Vaishnavism / वैष्णव धर्म"
+        ],
+        a: 1,
+        e: {
+            concept: "Core Philosophies of Ancient Indian Religions. / प्राचीन भारतीय धर्मों के मूल दर्शन।",
+            correct: "Syadvada (the theory of conditioned predication) is a fundamental epistemological concept in Jainism, highlighting that all judgments are conditional, holding good only in certain conditions. / स्यादवाद (सापेक्षता का सिद्धांत) जैन धर्म में एक मौलिक ज्ञानमीमांसीय अवधारणा है, जो इस बात पर प्रकाश डालती है कि सभी निर्णय सशर्त होते हैं।",
+            wrong: "It is often linked with Anekantavada and is entirely distinct from the philosophies of Shaivism or Lokayata. / यह अक्सर अनेकांतवाद से जुड़ा होता है।"
+        }
+    },
+    // Question 65
+    {
+        q: "In the 6th century BC, Suktimati was the capital of: / छठीं शताब्दी ई.पू. में सुक्तिमति राजधानी थी -",
+        o: [
+            "Panchala / पंचाल",
+            "Chedi / छेदी",
+            "Kuru / कुरू",
+            "Avanti / अवन्ति"
+        ],
+        a: 1,
+        e: {
+            concept: "Mahajanapadas and their capitals. / महाजनपद और उनकी राजधानियाँ।",
+            correct: "Suktimati (or Sotthivati) was the capital city of the Chedi Mahajanapada, situated mostly in the modern Bundelkhand region of Madhya Pradesh. / सुक्तिमती (या सोत्थिवती) चेदि महाजनपद की राजधानी थी, जो मुख्य रूप से मध्य प्रदेश के आधुनिक बुंदेलखंड क्षेत्र में स्थित थी।",
+            wrong: "Ahichchhatra/Kampilya was the capital of Panchala. Indraprastha was for Kuru, and Ujjayini for Avanti. / अहिच्छत्र/काम्पिल्य पांचाल की, इंद्रप्रस्थ कुरु की और उज्जयिनी अवंति की राजधानी थी।"
+        }
+    },
+    // Question 66
+    {
+        q: "Jivaka, the famous physician during the time of Mahatma Buddha, was in whose court? / जीवक जो महात्मा बुद्ध के समय के प्रसिद्ध चिकित्सक थे, किसके दरबार में थे",
+        o: [
+            "Bimbisara / बिम्बिसार",
+            "Prasenajit / प्रसेनजित",
+            "Chanda Pradyota / चंदप्रद्योत",
+            "Udayan / उदयन"
+        ],
+        a: 0,
+        e: {
+            concept: "Important Personalities of Ancient India. / प्राचीन भारत के महत्वपूर्ण व्यक्तित्व।",
+            correct: "Jivaka Komarabhacca was the personal physician of King Bimbisara of Magadha and also treated the Buddha. / जीवक कोमारभच्च मगध के राजा बिम्बिसार के निजी चिकित्सक थे और उन्होंने बुद्ध का भी इलाज किया था।",
+            wrong: "Bimbisara sent Jivaka to treat King Chanda Pradyota of Avanti when he was ill, but Jivaka primarily served Bimbisara's court. / बिम्बिसार ने जीवक को अवंती के राजा चंड प्रद्योत के बीमार होने पर इलाज के लिए भेजा था।"
+        }
+    },
+    // Question 67
+    {
+        q: "Who was the first emperor to conquer Malwa, Gujarat, and Maharashtra? / वह कौन प्रथम सम्राट थे जिसने मालवा, गुजरात एवं महाराष्ट्र को विजित किया था?",
+        o: [
+            "Harsha / हर्ष",
+            "Vikramaditya / विक्रमादित्य",
+            "Skandagupta / स्कंदगुप्त",
+            "Chandragupta Maurya / चन्द्रगुप्त मौर्य"
+        ],
+        a: 3,
+        e: {
+            concept: "Expansion of the Mauryan Empire. / मौर्य साम्राज्य का विस्तार।",
+            correct: "Chandragupta Maurya, the founder of the Mauryan Empire, is credited with expanding his empire westwards and conquering the vast regions of Malwa, Gujarat, and Maharashtra. / मौर्य साम्राज्य के संस्थापक चंद्रगुप्त मौर्य को अपने साम्राज्य का पश्चिम की ओर विस्तार करने और मालवा, गुजरात और महाराष्ट्र के विशाल क्षेत्रों पर विजय प्राप्त करने का श्रेय दिया जाता है।",
+            wrong: "While later Guptas also ruled these areas, Chandragupta Maurya was chronologically the first. / हालांकि बाद में गुप्तों ने भी इन क्षेत्रों पर शासन किया, लेकिन चंद्रगुप्त मौर्य कालानुक्रमिक रूप से पहले थे।"
+        }
+    },
+    // Question 68
+    {
+        q: "Simuka was the founder of which of the following dynasties? / सिमूका, निम्न में से किस वंश का संस्थापक था?",
+        o: [
+            "Chera / चेरा",
+            "Pandya / पाण्ड्य",
+            "Chola / चोल",
+            "Satavahana / सातवाहन"
+        ],
+        a: 3,
+        e: {
+            concept: "Founders of Ancient Indian Dynasties. / प्राचीन भारतीय राजवंशों के संस्थापक।",
+            correct: "Simuka was the founder of the Satavahana dynasty (also known as the Andhras) which ruled over the Deccan region. / सिमुक सातवाहन वंश (जिसे आंध्र के नाम से भी जाना जाता है) का संस्थापक था, जिसने दक्कन क्षेत्र पर शासन किया था।",
+            wrong: "He is reputed to have overthrown the last Kanva king. Chera, Chola, and Pandya were Sangam age kingdoms of the deep south. / माना जाता है कि उसने अंतिम कण्व राजा को उखाड़ फेंका था।"
+        }
+    },
+    // Question 69
+    {
+        q: "Which of the following pairs is correctly matched? / निम्न में से कौन सा युग्म सुमेलित है?",
+        o: [
+            "Harappan Civilization - Painted Grey Ware / हडप्पा सभ्यता - धूसर मिट्टी के बर्तन",
+            "Mughal - Ajanta Paintings / मुगल - अजन्ता की पेटिंग",
+            "Kushan - Gandhara Art / कुषाण - गांधारी कला",
+            "Maratha - Pahari Painting / मराठा - पहाडी चित्र कला"
+        ],
+        a: 2,
+        e: {
+            concept: "Chronology of Indian Art and Artifacts. / भारतीय कला और कलाकृतियों का कालक्रम।",
+            correct: "The Kushan period is famous for patronizing the Gandhara School of Art, known for its Greco-Roman influence on Buddhist sculpture. / कुषाण काल गांधार कला विद्यालय के संरक्षण के लिए प्रसिद्ध है, जो बौद्ध मूर्तिकला पर अपने ग्रीको-रोमन प्रभाव के लिए जाना जाता है।",
+            wrong: "PGW is associated with the Later Vedic period, not Harappa. Ajanta paintings are mainly Gupta/Vakataka, not Mughal. Pahari painting is Rajput/Himalayan, not Maratha. / पीजीडब्ल्यू उत्तर वैदिक काल से जुड़ा है। अजंता की पेंटिंग गुप्त काल की हैं।"
+        }
+    },
+    // Question 70
+    {
+        q: "In which of the following is a platform with 'Aryaka Pillars' found? / निम्न में से किसमें 'आर्यक स्तंभो' वाला चबूतरा पाया जाता है?",
+        o: [
+            "Ghantasala / घनस्थाल",
+            "Nagarjunakonda / नागार्जुनकोंडा",
+            "Bodhgaya / बोधगया",
+            "Amaravati / अमरावती"
+        ],
+        a: 3,
+        e: {
+            concept: "Buddhist Stupa Architecture in South India. / दक्षिण भारत में बौद्ध स्तूप वास्तुकला।",
+            correct: "The Amaravati Stupa (and other Andhra stupas like Nagarjunakonda) is uniquely characterized by rectangular platforms called 'Ayaka' platforms, projecting from the base and supporting five free-standing 'Aryaka pillars'. (Note: Amaravati is the most classic answer, though B is also technically true). / अमरावती स्तूप (और अन्य आंध्र स्तूप) की विशिष्टता आयताकार 'आयक' चबूतरे हैं जो आधार से बाहर निकलते हैं और पाँच 'आर्यक स्तंभों' का समर्थन करते हैं।",
+            wrong: "Bodhgaya does not feature this architectural element. / बोधगया में यह स्थापत्य तत्व नहीं है।"
+        }
+    },
+    // Question 71
+    {
+        q: "Information about which ruler is obtained from the 'Hathigumpha Inscription'? / 'हाथीगुम्फा अभिलेख' के द्वारा किस शासक के विषय में सूचना प्राप्त होती है?",
+        o: [
+            "Kharavela / खारवेल",
+            "Harshavardhana / हर्षवर्धन",
+            "Ashoka / अशोक",
+            "Kanishka / कनिष्क"
+        ],
+        a: 0,
+        e: {
+            concept: "Ancient Indian Inscriptions. / प्राचीन भारतीय शिलालेख।",
+            correct: "The Hathigumpha Inscription, located in Udayagiri hills (Odisha), is the primary source of information about King Kharavela of the Mahameghavahana dynasty (Chedi dynasty) of Kalinga. / उदयगिरि पहाड़ियों (ओडिशा) में स्थित हाथीगुम्फा शिलालेख, कलिंग के महामेघवाहन वंश (चेदि वंश) के राजा खारवेल के बारे में जानकारी का प्राथमिक स्रोत है।",
+            wrong: "It is written in Prakrit and does not concern Ashoka or Kanishka. / यह प्राकृत में लिखा गया है और अशोक या कनिष्क से संबंधित नहीं है।"
+        }
+    },
+    // Question 72
+    {
+        q: "Which of the following dynasties repulsed the Huna invasion? / निम्न में से किस वंश ने हूण के आक्रमण को विचलित किया था?",
+        o: [
+            "Maurya / मौर्य",
+            "Gupta / गुप्त",
+            "Kushan / कुषाण",
+            "Shunga / शुंग"
+        ],
+        a: 1,
+        e: {
+            concept: "Foreign Invasions during Ancient India. / प्राचीन भारत के दौरान विदेशी आक्रमण।",
+            correct: "The Gupta Dynasty, specifically under the leadership of Emperor Skandagupta, successfully faced and repulsed the fierce invasions of the Hunas in the 5th century AD. / गुप्त वंश, विशेष रूप से सम्राट स्कंदगुप्त के नेतृत्व में, 5वीं शताब्दी ईस्वी में हूणों के भयंकर आक्रमणों का सफलतापूर्वक सामना किया और उन्हें खदेड़ दिया।",
+            wrong: "The Mauryas faced the Greeks, and the Shungas faced the Bactrian Greeks. / मौर्यों का सामना यूनानियों से हुआ और शुंगों का सामना बैक्ट्रियन यूनानियों से हुआ।"
+        }
+    },
+    // Question 73
+    {
+        q: "Prabhavatigupta was the ruler of which dynasty? / प्रभावती गुप्ता किस वंश की शासिका थी?",
+        o: [
+            "Gupta Dynasty / गुप्त वंश",
+            "Vakataka Dynasty / वाकाटक वंश",
+            "Shunga Dynasty / शुंग वंश",
+            "Maukhari Dynasty / मौखिरी वंश"
+        ],
+        a: 1,
+        e: {
+            concept: "Women Rulers in Ancient India. / प्राचीन भारत में महिला शासक।",
+            correct: "Prabhavatigupta was the daughter of Gupta emperor Chandragupta II. She married the Vakataka king Rudrasena II. After his death, she effectively ruled the Vakataka kingdom as a regent for her young sons. / प्रभावती गुप्ता गुप्त सम्राट चंद्रगुप्त द्वितीय की पुत्री थीं। उन्होंने वाकाटक राजा रुद्रसेन द्वितीय से विवाह किया। उनकी मृत्यु के बाद, उसने अपने छोटे बेटों के लिए एक शासक के रूप में वाकाटक राज्य पर प्रभावी ढंग से शासन किया।",
+            wrong: "Though born a Gupta, her role as an active sovereign ruler was over the Vakataka territory. / यद्यपि वह एक गुप्त राजकुमारी थी, लेकिन शासक के रूप में उनकी भूमिका वाकाटक क्षेत्र पर थी।"
+        }
+    },
+    // Question 74
+    {
+        q: "Which of the following inscriptions gives information about the guild of silk weavers? / निम्न में से कौन सा अभिलेख रेशम बुनकर संघ के बारे में सूचनाएं देता है -",
+        o: [
+            "Dashapura Inscription / दशपुर अभिलेख",
+            "Eran Inscription / एरण अभिलेख",
+            "Prayag Prashasti / प्रयाग प्रशस्ति",
+            "Hathigumpha Inscription / हाथीगुम्फा अभिलेख"
+        ],
+        a: 0,
+        e: {
+            concept: "Economic History and Guilds of Ancient India. / प्राचीन भारत का आर्थिक इतिहास और गिल्ड।",
+            correct: "The Mandasor (Dashapura) Inscription of Kumaragupta I mentions a guild of silk weavers who migrated from Lata (Gujarat) to Dashapura and built a spectacular sun temple. / कुमारगुप्त प्रथम के मंदसौर (दशपुर) शिलालेख में रेशम बुनकरों के एक संघ (गिल्ड) का उल्लेख है जो लाटा (गुजरात) से दशपुर चले गए और एक शानदार सूर्य मंदिर का निर्माण किया।",
+            wrong: "The Eran inscription is famous for the first epigraphic evidence of Sati. Prayag Prashasti is about Samudragupta's conquests. / एरण शिलालेख सती के पहले प्रमाण के लिए प्रसिद्ध है।"
+        }
+    },
+    // Question 75
+    {
+        q: "Jejakabhukti is the ancient name of: / जेजाकाभुक्ति प्राचीन नाम है",
+        o: [
+            "Baghelkhand / बघेलखंड",
+            "Malwa / मालवा",
+            "Bundelkhand / बुंदेलखंड",
+            "Vidarbha / विदर्भा"
+        ],
+        a: 2,
+        e: {
+            concept: "Historical Geography of India. / भारत का ऐतिहासिक भूगोल।",
+            correct: "Jejakabhukti was the ancient historical name for the Bundelkhand region (spanning parts of UP and MP). The Chandela dynasty came to power and ruled this region. / जेजाकाभुक्ति बुंदेलखंड क्षेत्र (यूपी और एमपी के कुछ हिस्सों में फैला) का प्राचीन ऐतिहासिक नाम था। चंदेल वंश सत्ता में आया और इस क्षेत्र पर शासन किया।",
+            wrong: "Malwa was known as Avanti earlier, and Vidarbha is a region in eastern Maharashtra. / मालवा को पहले अवंती के नाम से जाना जाता था, और विदर्भ पूर्वी महाराष्ट्र का एक क्षेत्र है।"
+        }
+    }
+,
+    // Question 76
+    {
+        [span_0](start_span)q: "Where is Pundravardhana Bhukti located? / पुण्ड्रवर्धन मुक्ति अवस्थित है?[span_0](end_span)",
+        o: [
+            "North Bengal / उत्तरी बंगाल",
+            "Odisha / उड़ीसा",
+            "Bihar / बिहार",
+            "Assam / असम"
+        ],
+        a: 0,
+        e: {
+            concept: "Ancient administrative divisions of India. / भारत के प्राचीन प्रशासनिक प्रभाग।",
+            [span_1](start_span)correct: "Pundravardhana Bhukti was an ancient territory located in North Bengal, serving as a major administrative division during the Gupta and Pala empires[span_1](end_span). [span_2](start_span)/ पुंड्रवर्धन भुक्ति उत्तरी बंगाल में स्थित एक प्राचीन क्षेत्र था, जो गुप्त और पाल साम्राज्यों के दौरान एक प्रमुख प्रशासनिक प्रभाग के रूप में कार्य करता था[span_2](end_span)।",
+            wrong: "It was not situated in Odisha, Bihar, or Assam, although its cultural influence expanded over time. / यह उड़ीसा, बिहार या असम में स्थित नहीं था, हालांकि समय के साथ इसका सांस्कृतिक प्रभाव बढ़ा।"
+        }
+    },
+    // Question 77
+    {
+        q: "Who was the founder of the Pala dynasty? [span_3](start_span)/ पाल वंश के संस्थापक कौन थे?[span_3](end_span)",
+        o: [
+            "Dharmapala / धर्मपाल",
+            "Gopala / गोपाल",
+            "Devapala / देवपाल",
+            "Ramapala / रामपाल"
+        ],
+        a: 1,
+        e: {
+            concept: "Origin of the Pala Empire in Bengal. / बंगाल में पाल साम्राज्य की उत्पत्ति।",
+            correct: "Gopala was the founder of the Pala dynasty in the 8th century CE. [span_4](start_span)He was elected by the local chieftains to end the period of anarchy (Matsyanyaya) in Bengal[span_4](end_span). / गोपाल 8वीं शताब्दी ईस्वी में पाल वंश के संस्थापक थे। [span_5](start_span)बंगाल में अराजकता (मत्स्यन्याय) की अवधि को समाप्त करने के लिए उन्हें स्थानीय सरदारों द्वारा चुना गया था[span_5](end_span)।",
+            wrong: "Dharmapala was his successor who greatly expanded the empire. Devapala and Ramapala were later prominent rulers. / धर्मपाल उनके उत्तराधिकारी थे जिन्होंने साम्राज्य का काफी विस्तार किया। देवपाल और रामपाल बाद के प्रमुख शासक थे।"
+        }
+    },
+    // Question 78
+    {
+        q: "Which ruler of Bengal established the Vikramashila University? [span_6](start_span)/ बंगाल के किस शासक ने विक्रमशीला विश्वविद्यालय को स्थापित किया था?[span_6](end_span)",
+        o: [
+            "Dharmapala / धर्मपाल",
+            "Devapala / देवपाल",
+            "Gopala / गोपाल",
+            "Mahipala / महिपाल"
+        ],
+        a: 0,
+        e: {
+            concept: "Educational institutions in Ancient India. / प्राचीन भारत में शिक्षण संस्थान।",
+            [span_7](start_span)correct: "Emperor Dharmapala of the Pala dynasty established the Vikramashila University as a premier center of Buddhist learning in response to a supposed decline in the quality of scholarship at Nalanda[span_7](end_span). [span_8](start_span)/ पाल वंश के सम्राट धर्मपाल ने नालंदा में छात्रवृत्ति की गुणवत्ता में कथित गिरावट के जवाब में बौद्ध शिक्षा के एक प्रमुख केंद्र के रूप में विक्रमशिला विश्वविद्यालय की स्थापना की[span_8](end_span)।",
+            wrong: "Gopala founded the Odantapuri Vihara, not Vikramashila. Devapala and Mahipala were great patrons but did not found Vikramashila. / गोपाल ने ओदंतपुरी विहार की स्थापना की, विक्रमशिला की नहीं।"
+        }
+    },
+    // Question 79
+    {
+        q: "Who among the following founded the Rashtrakuta dynasty? [span_9](start_span)/ निम्न में से किसने राष्ट्रकूट राजवंश की स्थापना की थी?[span_9](end_span)",
+        o: [
+            "Amoghavarsha - I / अमोघवर्ष - 1",
+            "Dhruva / घुव",
+            "Dantidurga / दांती दुर्य",
+            "Krishna - I / कृष्णा - 1"
+        ],
+        a: 2,
+        e: {
+            concept: "Dynasties of the Deccan. / दक्कन के राजवंश।",
+            [span_10](start_span)correct: "Dantidurga (also known as Dantivarman) founded the Rashtrakuta Empire at Gulbarga after defeating the Chalukyas of Badami in 753 CE[span_10](end_span). / दंतिदुर्ग (जिसे दंतिवर्मन के नाम से भी जाना जाता है) ने 753 ई. [span_11](start_span)में बादामी के चालुक्यों को हराने के बाद गुलबर्गा में राष्ट्रकूट साम्राज्य की स्थापना की[span_11](end_span)।",
+            wrong: "Krishna I built the Kailasanatha temple. Amoghavarsha I was a later famous ruler who authored Kavirajamarga. / कृष्ण प्रथम ने कैलाशनाथ मंदिर का निर्माण करवाया था।"
+        }
+    },
+    // Question 80
+    {
+        q: "Who founded the Chola empire in the 9th century? [span_12](start_span)/ निम्न में से कौन चोल (घोल) साम्राज्य की स्थापना 9 वीं शताब्दी में किया था?[span_12](end_span)",
+        o: [
+            "Krishna - I / कृष्णा - 1",
+            "Vijayalaya / विजयालय",
+            "Rajaraja Chola / राजराजा घोला",
+            "Parantaka / परांतक"
+        ],
+        a: 1,
+        e: {
+            concept: "Imperial Cholas of South India. / दक्षिण भारत के शाही चोल।",
+            correct: "The Imperial Chola dynasty was founded by Vijayalaya in the 9th century (around 850 CE). [span_13](start_span)He captured Tanjore from the Muttarayars and established his capital there[span_13](end_span). / इंपीरियल चोल वंश की स्थापना 9वीं शताब्दी (लगभग 850 ई.) में विजयालय ने की थी। [span_14](start_span)उसने मुत्तरैयारों से तंजौर पर कब्जा कर लिया और वहां अपनी राजधानी स्थापित की[span_14](end_span)।",
+            wrong: "Rajaraja Chola and Parantaka were later, very powerful emperors of this dynasty. / राजराजा चोल और परांतक बाद में इस वंश के बहुत शक्तिशाली सम्राट थे।"
+        }
+    },
+    // Question 81
+    {
+        q: "Which of the following was the capital of the Imperial Chola Dynasty? / निम्न में से कौन चोल राजवंश की राजधानी थी?",
+        o: [
+            "Uraiyur / उरैयूर",
+            "Kanchipuram / कांचीपुरम",
+            "Mahabalipuram / महाबलीपुरम",
+            "Tanjore (Thanjavur) / तंजौर"
+        ],
+        a: 3,
+        e: {
+            concept: "Capitals of Ancient South Indian Kingdoms. / प्राचीन दक्षिण भारतीय राज्यों की राजधानियाँ।",
+            correct: "After capturing the region from the Muttarayar chieftains, Vijayalaya Chola established Thanjavur (Tanjore) as the capital of the Imperial Chola dynasty. / मुत्तरैयार सरदारों से इस क्षेत्र पर कब्जा करने के बाद, विजयालय चोल ने तंजावुर (तंजौर) को शाही चोल राजवंश की राजधानी के रूप में स्थापित किया।",
+            wrong: "Uraiyur was the early Sangam Chola capital. Kanchipuram was the Pallava capital. / उरैयूर प्रारंभिक संगम चोल की राजधानी थी। कांचीपुरम पल्लवों की राजधानी थी।"
+        }
+    },
+    // Question 82
+    {
+        q: "The famous bronze image of Nataraja is an outstanding example of which art? / प्रसिद्ध नटराज की कांस्य प्रतिमा किस कला का उत्कृष्ट उदाहरण है?",
+        o: [
+            "Chola Art / चोल कला",
+            "Gupta Art / गुप्त कला",
+            "Pala Art / पाल कला",
+            "Mauryan Art / मौर्य कला"
+        ],
+        a: 0,
+        e: {
+            concept: "Metal casting and sculpture in Ancient India. / प्राचीन भारत में धातु की ढलाई और मूर्तिकला।",
+            correct: "The Nataraja (Lord of the Dance) bronze sculptures represent the pinnacle of Chola art and metallurgy. They were primarily created using the lost-wax casting technique during the Chola period. / नटराज (नृत्य के भगवान) की कांस्य मूर्तियां चोल कला और धातु विज्ञान के शिखर का प्रतिनिधित्व करती हैं।",
+            wrong: "Gupta art is famous for stone sculptures and Ajanta paintings. Mauryan art is famous for pillars. / गुप्त कला पत्थर की मूर्तियों और अजंता की पेंटिंग के लिए प्रसिद्ध है।"
+        }
+    },
+    // Question 83
+    {
+        q: "Tolkappiyam is a famous ancient text related to: / तोल्काप्पियम किस विषय से संबंधित एक प्रसिद्ध प्राचीन ग्रंथ है?",
+        o: [
+            "Medicine / चिकित्सा",
+            "Astrology / ज्योतिष",
+            "Grammar / व्याकरण",
+            "Mathematics / गणित"
+        ],
+        a: 2,
+        e: {
+            concept: "Sangam Literature. / संगम साहित्य।",
+            correct: "Tolkappiyam is the most ancient extant Tamil grammar text and the oldest surviving work of Tamil literature, forming a vital part of the Sangam corpus. / तोल्काप्पियम सबसे प्राचीन मौजूदा तमिल व्याकरण पाठ है और तमिल साहित्य का सबसे पुराना जीवित काम है।",
+            wrong: "It is not a treatise on Medicine, Astrology, or Mathematics. / यह चिकित्सा, ज्योतिष या गणित पर कोई ग्रंथ नहीं है।"
+        }
+    },
+    // Question 84
+    {
+        q: "Mihira Bhoja was a great ruler of which dynasty? / मिहिरभोज किस वंश का महान शासक था?",
+        o: [
+            "Rashtrakuta / राष्ट्रकूट",
+            "Chalukya / चालुक्य",
+            "Gurjara-Pratihara / गुर्जर-प्रतिहार",
+            "Pala / पाल"
+        ],
+        a: 2,
+        e: {
+            concept: "The Tripartite Struggle in North India. / उत्तर भारत में त्रिपक्षीय संघर्ष।",
+            correct: "Mihira Bhoja was an outstanding ruler of the Gurjara-Pratihara dynasty who successfully expanded and consolidated the empire in northern India. / मिहिरभोज गुर्जर-प्रतिहार वंश के एक उत्कृष्ट शासक थे जिन्होंने उत्तरी भारत में साम्राज्य का सफलतापूर्वक विस्तार और एकीकरण किया।",
+            wrong: "He fought against the Palas and Rashtrakutas in the tripartite struggle for control of Kannauj. / उन्होंने कन्नौज पर नियंत्रण के लिए त्रिपक्षीय संघर्ष में पालों और राष्ट्रकूटों के खिलाफ लड़ाई लड़ी।"
+        }
+    },
+    // Question 85
+    {
+        [span_15](start_span)q: "Mahodaya is the ancient name of: / महोदया, प्राचीन नाम है -[span_15](end_span)",
+        o: [
+            "Allahabad / इलाहाबाद",
+            "Kannauj / कन्नौज",
+            "Khajuraho / खजुराहो",
+            "Patna / पटना"
+        ],
+        a: 1,
+        e: {
+            concept: "Historical names of Indian cities. / भारतीय शहरों के ऐतिहासिक नाम।",
+            correct: "Kannauj (Kanyakubja) was also known as Mahodaya in ancient times. [span_16](start_span)It was a highly prized city, leading to the Tripartite Struggle between Palas, Pratiharas, and Rashtrakutas[span_16](end_span). / प्राचीन काल में कन्नौज (कान्यकुब्ज) को महोदया के नाम से भी जाना जाता था। [span_17](start_span)यह एक अत्यधिक बेशकीमती शहर था, जिसके कारण पालों, प्रतिहारों और राष्ट्रकूटों के बीच त्रिपक्षीय संघर्ष हुआ[span_17](end_span)।",
+            wrong: "Patna was Pataliputra, and Allahabad was Prayag. Khajuraho was Jejakabhukti. / पटना पाटलिपुत्र था, और इलाहाबाद प्रयाग था।"
+        }
+    },
+    // Question 86
+    {
+        q: "Raja Bhoja ruled over which region? [span_18](start_span)/ राजा भोज ने किस क्षेत्र में शासन किया था ?[span_18](end_span)",
+        o: [
+            "Bastar / बस्तर",
+            "Mahakoshal / महाकौशल",
+            "Dhara / धारा",
+            "Ujjain / उज्जैन"
+        ],
+        a: 2,
+        e: {
+            concept: "Paramara Dynasty of Central India. / मध्य भारत का परमार वंश।",
+            [span_19](start_span)correct: "Raja Bhoja, the most celebrated ruler of the Paramara dynasty, ruled over the Malwa region from his capital city of Dhara (modern Dhar in Madhya Pradesh)[span_19](end_span). [span_20](start_span)/ परमार वंश के सबसे प्रसिद्ध शासक राजा भोज ने अपनी राजधानी धार (मध्य प्रदेश में आधुनिक धार) से मालवा क्षेत्र पर शासन किया[span_20](end_span)।",
+            wrong: "While Ujjain was an important city in Malwa, his primary capital and cultural center was Dhara. / यद्यपि उज्जैन मालवा का एक महत्वपूर्ण शहर था, लेकिन उनकी प्राथमिक राजधानी और सांस्कृतिक केंद्र धार था।"
+        }
+    },
+    // Question 87
+    {
+        q: "Who was the presiding deity of the Bhojshala temple? [span_21](start_span)/ भोजशाला मंदिर के अधिष्ठाती देवी कौन थी ?[span_21](end_span)",
+        o: [
+            "Goddess Durga / दुर्गा देवी",
+            "Goddess Lakshmi / देवी लक्ष्मी",
+            "Goddess Parvati / पार्वती देवी",
+            "Goddess Saraswati / देवी सरस्वती"
+        ],
+        a: 3,
+        e: {
+            concept: "Cultural and religious patronage by Rajput Kings. / राजपूत राजाओं द्वारा सांस्कृतिक और धार्मिक संरक्षण।",
+            [span_22](start_span)correct: "The Bhojshala, built by Paramara King Bhoja in Dhara, was a center for Sanskrit studies and was originally a temple dedicated to Goddess Saraswati (Vagdevi)[span_22](end_span). [span_23](start_span)/ परमार राजा भोज द्वारा धार में निर्मित भोजशाला, संस्कृत अध्ययन का केंद्र था और मूल रूप से देवी सरस्वती (वाग्देवी) को समर्पित एक मंदिर था[span_23](end_span)।",
+            wrong: "It was not primarily dedicated to Durga, Lakshmi, or Parvati. / यह मुख्य रूप से दुर्गा, लक्ष्मी या पार्वती को समर्पित नहीं था।"
+        }
+    },
+    // Question 88
+    {
+        q: "Who was the author of 'Gaudavaho'? [span_24](start_span)/ गौडवाहो के लेखक कौन थे ?[span_24](end_span)",
+        o: [
+            "Harishena / हरिषेन",
+            "Vakpatiraja / वाकपतिराज़",
+            "Aryabhata / आर्यभट्ट",
+            "Banabhatta / बाणभट्ट"
+        ],
+        a: 1,
+        e: {
+            concept: "Ancient Indian literature and court poetry. / प्राचीन भारतीय साहित्य और दरबारी कविता।",
+            correct: "Gaudavaho is a Prakrit epic poem composed by Vakpatiraja. [span_25](start_span)It glorifies the exploits of King Yashovarman of Kannauj, particularly his victory over the Gauda king[span_25](end_span). / गौडवाहो वाकपतिराज द्वारा रचित एक प्राकृत महाकाव्य कविता है। [span_26](start_span)यह कन्नौज के राजा यशोवर्मन के कारनामों, विशेष रूप से गौड़ राजा पर उनकी जीत का महिमामंडन करता है[span_26](end_span)।",
+            wrong: "Banabhatta wrote Harshacharita, and Harishena composed the Prayag Prashasti. / बाणभट्ट ने हर्षचरित लिखा था, और हरिषेण ने प्रयाग प्रशस्ति की रचना की थी।"
+        }
+    },
+    // Question 89
+    {
+        q: "Which scholar came to India with Mahmud of Ghazni? [span_27](start_span)/ महमूद गजनवी के साथ कौन विद्वान भारत आया था ?[span_27](end_span)",
+        o: [
+            "Ibn Battuta / इब्नबतूता",
+            "Amir Khusrau / अमीर खुसरो",
+            "Al-Biruni / अलबरूनी",
+            "Firishta / फरिश्ता"
+        ],
+        a: 2,
+        e: {
+            concept: "Foreign Travellers and Scholars in Medieval India. / मध्यकालीन भारत में विदेशी यात्री और विद्वान।",
+            correct: "Abu Rayhan al-Biruni, an Iranian scholar and polymath, accompanied Mahmud of Ghazni to India. [span_28](start_span)He wrote the famous book 'Kitab-ul-Hind', providing an extensive account of Indian culture and science[span_28](end_span). / एक ईरानी विद्वान और बहुश्रुत अबू रेहान अल-बरूनी, महमूद गजनवी के साथ भारत आए थे। [span_29](start_span)उन्होंने प्रसिद्ध पुस्तक 'किताब-उल-हिंद' लिखी[span_29](end_span)।",
+            wrong: "Ibn Battuta came during the reign of Muhammad bin Tughlaq. Amir Khusrau lived during the Delhi Sultanate period. / इब्नबतूता मुहम्मद बिन तुगलक के शासनकाल में आया था।"
+        }
+    },
+    // Question 90
+    {
+        q: "Which slave was sent by Muhammad Ghori to attack Bihar and Bengal? [span_30](start_span)/ मुहम्मद गोरी ने किंस गुलाम को बिहार एवं बंगाल पर आक्रमण के लिए भेजा था ?[span_30](end_span)",
+        o: [
+            "Qutbuddin Aibak / कुतुबुद्दीन ऐबक",
+            "Bakhtiyar Khalji / बख्तियार खिलजी",
+            "Iltutmish / इल्तुतमिश",
+            "Yaldauz / यल्दौज"
+        ],
+        a: 1,
+        e: {
+            concept: "Turkish Conquest of Eastern India. / पूर्वी भारत की तुर्की विजय।",
+            [span_31](start_span)correct: "Ikhtiyar al-Din Muhammad Bakhtiyar Khalji was a military general of Muhammad Ghori who led the Islamic conquests of Bihar and Bengal, famously destroying Nalanda and Vikramashila Universities[span_31](end_span). [span_32](start_span)/ इख्तियार अल-दीन मुहम्मद बख्तियार खिलजी मुहम्मद गोरी का एक सैन्य जनरल था जिसने बिहार और बंगाल की इस्लामी विजय का नेतृत्व किया था[span_32](end_span)।",
+            wrong: "Qutbuddin Aibak was given charge of Delhi/Lahore, while Yaldauz was based in Ghazni. / कुतुबुद्दीन ऐबक को दिल्ली/लाहौर का प्रभार दिया गया था।"
+        }
+    },
+    // Question 91
+    {
+        q: "Which of the following rulers made Delhi his capital? [span_33](start_span)/ निम्न में से किस शासक ने अपनी राजधानी दिल्ली बनाया था?[span_33](end_span)",
+        o: [
+            "Aram Shah / आरामशाह",
+            "Iltutmish / इल्तुतमिश",
+            "Balban / बलबन",
+            "Qutbuddin Aibak / कुतुबुद्दीन ऐबक"
+        ],
+        a: 1,
+        e: {
+            concept: "Consolidation of the Delhi Sultanate. / दिल्ली सल्तनत का एकीकरण।",
+            correct: "Shams ud-Din Iltutmish formally transferred the capital of the Sultanate from Lahore to Delhi. [span_34](start_span)He is often regarded as the real founder of the Delhi Sultanate[span_34](end_span). / शम्स उद-दीन इल्तुतमिश ने औपचारिक रूप से सल्तनत की राजधानी को लाहौर से दिल्ली स्थानांतरित कर दिया। [span_35](start_span)उन्हें अक्सर दिल्ली सल्तनत का वास्तविक संस्थापक माना जाता है[span_35](end_span)।",
+            wrong: "Qutbuddin Aibak ruled primarily from Lahore. / कुतुबुद्दीन ऐबक ने मुख्य रूप से लाहौर से शासन किया।"
+        }
+    },
+    // Question 92
+    {
+        q: "Which ruler implemented the market control policy? [span_36](start_span)/ बाजार नियंत्रण नीति किस शासक ने लागू किया था ?[span_36](end_span)",
+        o: [
+            "Ghiyasuddin Tughlaq / ग्यासुद्दीन तुगलक",
+            "Alauddin Khalji / अलाउद्दीन खिलजी",
+            "Jalaluddin Khalji / जलालुद्दीन खिलजी",
+            "Balban / बलबन"
+        ],
+        a: 1,
+        e: {
+            concept: "Economic Reforms of the Delhi Sultanate. / दिल्ली सल्तनत के आर्थिक सुधार।",
+            correct: "Alauddin Khalji implemented strict market control policies (price control measures) to maintain a large standing army at lower costs. [span_37](start_span)He appointed officers like Shahna-i-Mandi to regulate prices[span_37](end_span). [span_38](start_span)/ अलाउद्दीन खिलजी ने कम लागत पर एक बड़ी स्थायी सेना बनाए रखने के लिए सख्त बाजार नियंत्रण नीतियां (मूल्य नियंत्रण उपाय) लागू कीं[span_38](end_span)।",
+            wrong: "None of the other Sultans implemented such comprehensive market price regulations. / किसी भी अन्य सुल्तान ने इतने व्यापक बाजार मूल्य नियम लागू नहीं किए।"
+        }
+    },
+    // Question 93
+    {
+        q: "Which Sultan of Delhi imposed 'Ghari' or 'House tax'? [span_39](start_span)/ दिल्ली के किस सुल्तान ने 'घरी' या 'गृह कर' लगाया था ?[span_39](end_span)",
+        o: [
+            "Balban / बलबन",
+            "Muhammad bin Tughlaq / मुहम्मद बिन तुगलक",
+            "Alauddin Khalji / अलाउद्दीन खिलजी",
+            "Firoz Shah Tughlaq / फिरोज शाह तुगलक"
+        ],
+        a: 2,
+        e: {
+            concept: "Taxation system under the Khalji dynasty. / खिलजी वंश के अधीन कराधान प्रणाली।",
+            correct: "Alauddin Khalji introduced several new taxes, prominent among them being 'Ghari' (house tax) and 'Charai' (pasture tax on milch cattle), to increase state revenue[span_40](end_span). [span_41](start_span)/ अलाउद्दीन खिलजी ने राज्य के राजस्व को बढ़ाने के लिए कई नए कर पेश किए, जिनमें से प्रमुख 'घरी' (गृह कर) और 'चरई' (दुधारू मवेशियों पर चारागाह कर) थे[span_41](end_span)।",
+            wrong: "Muhammad bin Tughlaq raised taxes in the Doab, but Ghari and Charai were explicitly introduced by Alauddin. / मुहम्मद बिन तुगलक ने दोआब में कर बढ़ाए थे।"
+        }
+    },
+    // Question 94
+    {
+        q: "Which Sultan of Delhi declared himself the Caliph? [span_42](start_span)/ दिल्ली के किस सुल्तान ने अपने को खलीफा घोषित किया था?[span_42](end_span)",
+        o: [
+            "Balban / बलबन",
+            "Mubarak Khalji / मुबारक खिलजी",
+            "Alauddin Khalji / अलाउद्दीन खिलजी",
+            "Muhammad bin Tughlaq / मुहम्मद बिन तुगलक"
+        ],
+        a: 1,
+        e: {
+            concept: "Concept of Sovereignty in the Delhi Sultanate. / दिल्ली सल्तनत में संप्रभुता की अवधारणा।",
+            correct: "Qutbuddin Mubarak Shah Khalji, the son of Alauddin Khalji, was the only Sultan of Delhi who formally abandoned the legal fiction of the Abbasid Caliphate and declared himself the Caliph (Khalifa)[span_43](end_span). [span_44](start_span)/ अलाउद्दीन खिलजी के पुत्र कुतुबुद्दीन मुबारक शाह खिलजी दिल्ली के एकमात्र सुल्तान थे जिन्होंने औपचारिक रूप से खुद को खलीफा घोषित किया था[span_44](end_span)।",
+            wrong: "Balban claimed to be 'Zill-i-Ilahi' (Shadow of God) but not the Caliph. / बलबन ने खुद को 'जिल्ल-ए-इलाही' (ईश्वर की छाया) होने का दावा किया, लेकिन खलीफा नहीं।"
+        }
+    },
+    // Question 95
+    {
+        q: "Which Sultan established the new department 'Diwan-i-Amir-i-Kohi'? [span_45](start_span)/ किस सुल्तान ने नये विभाग अमीर-ए-कोही की स्थापना की थी ?[span_45](end_span)",
+        o: [
+            "Alauddin Khalji / अलाउद्दीन खिलजी",
+            "Muhammad bin Tughlaq / मुहम्मद बिन तुगलक",
+            "Firoz Shah Tughlaq / फिरोज शाह तुगलक",
+            "Sikandar Lodi / सिकंदर लोडी"
+        ],
+        a: 1,
+        e: {
+            concept: "Agrarian Reforms during the Tughlaq Dynasty. / तुगलक वंश के दौरान कृषि सुधार।",
+            correct: "Muhammad bin Tughlaq established a separate department of agriculture named 'Diwan-i-Amir-i-Kohi' to promote farming, distribute loans (sondhar), and bring uncultivated land under the plow[span_46](end_span). [span_47](start_span)/ मुहम्मद बिन तुगलक ने खेती को बढ़ावा देने और ऋण (सोंधर) वितरित करने के लिए 'दीवान-ए-अमीर-ए-कोही' नामक कृषि का एक अलग विभाग स्थापित किया[span_47](end_span)।",
+            wrong: "Alauddin Khalji established Diwan-i-Mustakhraj for revenue arrears. / अलाउद्दीन खिलजी ने राजस्व बकाया के लिए दीवान-ए-मुस्तखराज की स्थापना की।"
+        }
+    },
+    // Question 96
+    {
+        q: "The medieval traveler and writer Ibn Battuta belonged to which country? [span_48](start_span)/ मध्यकालीन यात्री एवं लेखक इब्नबतुता किस देश का था ?[span_48](end_span)",
+        o: [
+            "Persia / पर्शिया",
+            "Egypt / मिस्त्र",
+            "Morocco / मोरक्को",
+            "Afghanistan / अफगानिस्तान"
+        ],
+        a: 2,
+        e: {
+            concept: "Foreign accounts of the Delhi Sultanate. / दिल्ली सल्तनत के विदेशी वृत्तांत।",
+            correct: "Ibn Battuta was a Moroccan explorer of Berber descent. [span_49](start_span)He traveled extensively across the Islamic world and visited India during the reign of Muhammad bin Tughlaq, documenting his journey in 'Rihla'[span_49](end_span). / इब्नबतूता मोरक्को का एक खोजकर्ता था। [span_50](start_span)उसने मुहम्मद बिन तुगलक के शासनकाल के दौरान भारत का दौरा किया और 'रेहला' में अपनी यात्रा का दस्तावेजीकरण किया[span_50](end_span)।",
+            wrong: "He was not from Persia or Egypt. / वह फारस या मिस्र का नहीं था।"
+        }
+    },
+    // Question 97
+    {
+        q: "Which Delhi Sultan built the maximum number of canals? [span_51](start_span)/ किस दिल्ली सुल्तान ने सबसे अधिक नहरें बनवायी थी ?[span_51](end_span)",
+        o: [
+            "Firoz Shah Tughlaq / फिरोज शाह तुगलक",
+            "Balban / बलबन",
+            "Iltutmish / इल्तुतमिश",
+            "Sikandar Lodi / सिकंदर लोडी"
+        ],
+        a: 0,
+        e: {
+            concept: "Public works and irrigation networks in Medieval India. / मध्यकालीन भारत में सार्वजनिक कार्य और सिंचाई नेटवर्क।",
+            correct: "Firoz Shah Tughlaq is famous for executing massive public works, particularly building the largest network of irrigation canals in the Delhi Sultanate to boost agricultural production[span_52](end_span). [span_53](start_span)/ फिरोज शाह तुगलक बड़े पैमाने पर सार्वजनिक कार्यों को निष्पादित करने के लिए प्रसिद्ध है, विशेष रूप से कृषि उत्पादन को बढ़ावा देने के लिए दिल्ली सल्तनत में सिंचाई नहरों का सबसे बड़ा नेटवर्क बनाने के लिए[span_53](end_span)।",
+            wrong: "While Ghiyasuddin Tughlaq started canal construction, Firoz built them on an unprecedented scale. / जबकि ग्यासुद्दीन तुगलक ने नहर का निर्माण शुरू किया, फिरोज ने उन्हें अभूतपूर्व पैमाने पर बनाया।"
+        }
+    },
+    // Question 98
+    {
+        q: "Which Sultan of Delhi levied 'Haqq-i-Sharb' or irrigation tax? [span_54](start_span)/ दिल्ली के किस सुल्तान ने 'हक-ए-शर्व' या सिंचाई कर लगाया था?[span_54](end_span)",
+        o: [
+            "Alauddin Khalji / अलाउद्दीन खिलजी",
+            "Muhammad bin Tughlaq / मुहम्मद बिन तुगलक",
+            "Ghiyasuddin Tughlaq / ग्यासुद्दीन तुगलक",
+            "Firoz Tughlaq / फिरोज तुगलक"
+        ],
+        a: 3,
+        e: {
+            concept: "Irrigation taxation in the Delhi Sultanate. / दिल्ली सल्तनत में सिंचाई कराधान।",
+            correct: "After building an extensive network of canals with the approval of Ulemas, Firoz Shah Tughlaq imposed an irrigation tax called 'Haqq-i-Sharb' (usually one-tenth of the produce) on farmers who used canal water[span_55](end_span). [span_56](start_span)/ उलेमाओं के अनुमोदन से नहरों के एक व्यापक नेटवर्क के निर्माण के बाद, फिरोज शाह तुगलक ने नहर के पानी का उपयोग करने वाले किसानों पर 'हक-ए-शर्ब' (आमतौर पर उपज का दसवां हिस्सा) नामक सिंचाई कर लगाया[span_56](end_span)।",
+            wrong: "Alauddin Khalji levied house and pasture taxes, but not a specific irrigation tax on state-built canals. / अलाउद्दीन खिलजी ने घर और चारागाह कर लगाया, लेकिन राज्य द्वारा निर्मित नहरों पर कोई विशिष्ट सिंचाई कर नहीं लगाया।"
+        }
+    },
+    // Question 99
+    {
+        q: "Which Sultan of Delhi opened a translation department to facilitate the understanding of ideas between both communities? [span_57](start_span)/ दिल्ली के किस सुल्तान ने अनुवाद विभाग खोला जिससे दोनों समुदायों के लोगों के विचारों को जाना जा सके ?[span_57](end_span)",
+        o: [
+            "Alauddin Khalji / अलाउद्दीन खिलजी",
+            "Iltutmish / इल्तुतमिश",
+            "Firoz Tughlaq / फिरोज तुगलक",
+            "Sikandar Lodi / सिकंदर लोडी"
+        ],
+        a: 2,
+        e: {
+            concept: "Cultural and literary synthesis during the Sultanate period. / सल्तनत काल के दौरान सांस्कृतिक और साहित्यिक संश्लेषण।",
+            correct: "Firoz Shah Tughlaq established a translation bureau primarily to translate Hindu religious and medical works (often found in conquered temples like Jawalamukhi in Kangra) from Sanskrit into Persian[span_58](end_span). [span_59](start_span)/ फिरोज शाह तुगलक ने मुख्य रूप से हिंदू धार्मिक और चिकित्सा कार्यों का संस्कृत से फारसी में अनुवाद करने के लिए एक अनुवाद ब्यूरो की स्थापना की[span_59](end_span)।",
+            wrong: "Sikandar Lodi also encouraged translations (like Farhang-i-Sikandari), but Firoz Shah is historically noted for initiating a formal translation department to bridge understanding. / सिकंदर लोदी ने भी अनुवादों को प्रोत्साहित किया, लेकिन फिरोज शाह को ऐतिहासिक रूप से जाना जाता है।"
+        }
+    },
+    // Question 100
+    {
+        q: "What was 'Dar-ul-Shifa' established by Firoz Tughlaq? [span_60](start_span)/ फिरोज तुगलक के द्वारा स्थापित 'दारूल-शफा' क्या था ?[span_60](end_span)",
+        o: [
+            "Almshouse / भिक्षागृह",
+            "Library / पुस्तकालय",
+            "Free Hospital / मुफ्त अस्पताल",
+            "Rest house for pilgrims / तीर्थयात्री के लिए आवास"
+        ],
+        a: 2,
+        e: {
+            concept: "Welfare measures of Firoz Shah Tughlaq. / फिरोज शाह तुगलक के कल्याणकारी उपाय।",
+            correct: "Dar-ul-Shifa (also known as Bimaristan) was a free charitable hospital established by Firoz Shah Tughlaq in Delhi to provide medical care to the poor and sick[span_61](end_span). [span_62](start_span)/ दार-उल-शफ़ा (जिसे बिमारिस्तान के नाम से भी जाना जाता है) गरीबों और बीमारों को चिकित्सा देखभाल प्रदान करने के लिए दिल्ली में फिरोज शाह तुगलक द्वारा स्थापित एक मुफ्त धर्मार्थ अस्पताल था[span_62](end_span)।",
+            wrong: "He also established 'Diwan-i-Khairat' (charity department) for the marriage of poor Muslim girls and 'Sarais' (rest houses). / उन्होंने गरीब मुस्लिम लड़कियों की शादी के लिए 'दीवान-ए-खैरात' (दान विभाग) भी स्थापित किया।"
+        }
+    }
+];
+
+
