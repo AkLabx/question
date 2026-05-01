@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>71st BPSC History Optional Quiz</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -267,7 +267,11 @@
         <main class="flex-1 overflow-y-auto p-4 md:p-8 custom-scrollbar pb-36" id="quiz-body">
 
             <div id="question-content-wrapper" class="max-w-4xl mx-auto">
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-6 border-b border-gray-200 pb-4">
+                <div class="relative border-b border-gray-200 pb-4 mb-6">
+                    <button onclick="toggleExtraInfo()" id="btn-fold-info" class="absolute right-0 top-0 text-gray-500 hover:text-gray-800 bg-gray-100 hover:bg-gray-200 rounded-full p-1 transition z-10" title="Toggle Header Info">
+                        <i id="icon-fold" class="ph ph-caret-up text-lg"></i>
+                    </button>
+                    <div id="extra-info-container" class="flex flex-wrap items-center justify-between gap-2 pr-10 overflow-hidden transition-all duration-300">
                     <div class="flex flex-wrap items-center gap-2 meta-badges transition-opacity duration-300">
                         <span class="bg-indigo-50 text-indigo-800 text-xs font-bold px-3 py-1.5 rounded-md tracking-wide uppercase border border-indigo-100 shadow-sm">
                             Q. <span id="display-seq-num">1</span> of <span id="display-total-num"></span>
@@ -286,8 +290,8 @@
                         </span>
                     </div>
                     <button onclick="toggleBookmark()" id="btn-bookmark" class="text-gray-400 hover:text-yellow-500 transition p-2 rounded-full hover:bg-yellow-50" title="Bookmark Question">
-                        <i class="ph-fill ph-star text-2xl drop-shadow-sm" id="icon-bookmark"></i>
-                    </button>
+                        <i class="ph-fill ph-star text-2xl drop-shadow-sm" id="icon-bookmark"></i></button>
+                    </div>
                 </div>
 
                 <div class="mb-8">
@@ -2900,6 +2904,46 @@
         function goToDashboard() {
             localStorage.removeItem('upscQuizState');
             location.reload();
+        }
+
+
+        // Toggle Extra Info
+        let isExtraInfoFolded = false;
+        function toggleExtraInfo() {
+            const container = document.getElementById('extra-info-container');
+            const icon = document.getElementById('icon-fold');
+            const detailsPanel = document.getElementById('details-panel');
+
+            isExtraInfoFolded = !isExtraInfoFolded;
+            if (isExtraInfoFolded) {
+                container.style.height = '0px';
+                container.style.opacity = '0';
+                icon.classList.replace('ph-caret-up', 'ph-caret-down');
+
+                // Also fold the details panel as requested ("all Extra header info")
+                if(detailsPanel) {
+                    detailsPanel.style.height = '0px';
+                    detailsPanel.style.paddingTop = '0px';
+                    detailsPanel.style.paddingBottom = '0px';
+                    detailsPanel.style.borderBottom = 'none';
+                }
+            } else {
+                container.style.height = container.scrollHeight + 'px';
+                container.style.opacity = '1';
+                icon.classList.replace('ph-caret-down', 'ph-caret-up');
+
+                if(detailsPanel) {
+                    detailsPanel.style.height = detailsPanel.scrollHeight + 'px';
+                    detailsPanel.style.paddingTop = '';
+                    detailsPanel.style.paddingBottom = '';
+                    detailsPanel.style.borderBottom = '';
+                }
+
+                // Once transition finishes, remove explicit height so it responds to resize
+                setTimeout(() => {
+                    if (!isExtraInfoFolded) container.style.height = 'auto';
+                }, 300);
+            }
         }
 
         // Initialize App
