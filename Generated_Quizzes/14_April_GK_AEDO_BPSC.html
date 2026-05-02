@@ -2505,11 +2505,11 @@
                 bookmarks,
                 isQuizFinished
             };
-            localStorage.setItem('upscQuizState', JSON.stringify(state));
+            localStorage.setItem(`upscQuizState_${config.examName}`, JSON.stringify(state));
         }
 
         function restoreState() {
-            const saved = localStorage.getItem('upscQuizState');
+            const saved = localStorage.getItem(`upscQuizState_${config.examName}`);
             if(saved) {
                 try {
                     const state = JSON.parse(saved);
@@ -2531,7 +2531,7 @@
         }
 
         function loadHistory() {
-            const saved = localStorage.getItem('upscQuizHistory');
+            const saved = localStorage.getItem(`upscQuizHistory_${config.examName}`);
             if (saved) {
                 try {
                     quizHistory = JSON.parse(saved);
@@ -2547,7 +2547,7 @@
                         }
                     });
                     if (updated) {
-                        localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+                        localStorage.setItem(`upscQuizHistory_${config.examName}`, JSON.stringify(quizHistory));
                     }
                 } catch(e) {
                     quizHistory = [];
@@ -2634,7 +2634,7 @@
         }
 
         function startNewQuiz() {
-            localStorage.removeItem('upscQuizState');
+            localStorage.removeItem(`upscQuizState_${config.examName}`);
             attemptId = 'attempt_' + Date.now();
             currentQuestion = 0;
             totalTimeSeconds = config.timeInMinutes * 60;
@@ -2661,14 +2661,14 @@
             if(!confirm("Are you sure you want to delete this attempt permanently?")) return;
             const initialLength = quizHistory.length;
             quizHistory = quizHistory.filter(h => String(h.id) !== String(id));
-            localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+            localStorage.setItem(`upscQuizHistory_${config.examName}`, JSON.stringify(quizHistory));
             location.reload();
         }
 
         function clearAllHistory() {
             if(!confirm("Are you sure you want to delete ALL your historical attempts permanently? This action cannot be undone.")) return;
             quizHistory = [];
-            localStorage.removeItem('upscQuizHistory');
+            localStorage.removeItem(`upscQuizHistory_${config.examName}`);
             location.reload();
         }
 
@@ -3192,7 +3192,7 @@
                         bookmarks: [...bookmarks],
                         lifelinesUsed: [...lifelinesUsed]
                     });
-                    localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+                    localStorage.setItem(`upscQuizHistory_${config.examName}`, JSON.stringify(quizHistory));
                 }
             }
 
@@ -3211,7 +3211,7 @@
         }
 
         function goToDashboard() {
-            localStorage.removeItem('upscQuizState');
+            localStorage.removeItem(`upscQuizState_${config.examName}`);
             location.reload();
         }
 
