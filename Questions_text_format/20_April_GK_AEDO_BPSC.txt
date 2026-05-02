@@ -1,0 +1,1996 @@
+const baseData = [
+    // -------------------------------------------------------------
+    // QUESTION 1: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_0](start_span)q: "Considering the Tropic of cancer, which of the following Iron & Steel plants is different (odd one)?[span_0](end_span) / कर्क रेखा पर विचार करते हुए, निम्नलिखित में से कौन सा लौह और इस्पात संयंत्र भिन्न (विषम) है?",
+        o: [
+            [span_1](start_span)"Rourkela / राउरकेला[span_1](end_span)", 
+            [span_2](start_span)"Bhilai / भिलाई[span_2](end_span)", 
+            [span_3](start_span)"Bokaro / बोकारो[span_3](end_span)", 
+            [span_4](start_span)"Jamshedpur / जमशेदपुर[span_4](end_span)"
+        ],
+        a: 0,
+        e: {
+            concept: "The Tropic of Cancer (23.5° N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. / कर्क रेखा (23.5° N) 8 भारतीय राज्यों से होकर गुजरती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिजोरम।",
+            correct: "Rourkela is the correct odd one out because it is located in Odisha, a state through which the Tropic of Cancer does not pass. / राउरकेला सही विषम विकल्प है क्योंकि यह ओडिशा में स्थित है, एक ऐसा राज्य जहाँ से कर्क रेखा नहीं गुजरती है।",
+            wrong: "Bokaro and Jamshedpur are in Jharkhand, and Bhilai is in Chhattisgarh; the Tropic of Cancer passes through both of these states. / बोकारो और जमशेदपुर झारखंड में हैं, और भिलाई छत्तीसगढ़ में है; कर्क रेखा इन दोनों राज्यों से होकर गुजरती है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 2: Assertion-Reason (A/R) Type
+    // -------------------------------------------------------------
+    {
+        type: "assertion",
+        [span_5](start_span)q: "Given below are two statements: one is labeled as Assertion (A) and other is labeled as Reason (R)[span_5](end_span) / नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:",
+        [span_6](start_span)assertion: "Monsoon forests are called par excellence[span_6](end_span) / मानसूनी वनों को सर्वोत्कृष्ट कहा जाता है",
+        [span_7](start_span)reason: "As they form the natural cover almost all over India[span_7](end_span) / क्योंकि वे लगभग पूरे भारत में प्राकृतिक आवरण बनाते हैं",
+        o: [
+            [span_8](start_span)"Both (A) & (R) are correct and (R) is correct Explanation of (A)[span_8](end_span) / (A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+            [span_9](start_span)"(A) is correct but (R) is not correct[span_9](end_span) / (A) सही है लेकिन (R) सही नहीं है",
+            [span_10](start_span)"(A) is not correct but (R) is correct[span_10](end_span) / (A) सही नहीं है लेकिन (R) सही है",
+            [span_11](start_span)"None of the above[span_11](end_span) / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 0,
+        e: {
+            concept: "Tropical Deciduous Forests, also known as Monsoon Forests, are the most widespread forests in India. / उष्णकटिबंधीय पर्णपाती वन, जिन्हें मानसूनी वन भी कहा जाता है, भारत में सबसे व्यापक वन हैं।",
+            correct: "Both statements are correct. Monsoon forests are considered the most characteristic ('par excellence') of the Indian subcontinent precisely because they cover the largest area of the country's natural vegetation. / दोनों कथन सही हैं। मानसूनी वनों को भारतीय उपमहाद्वीप का सबसे विशिष्ट ('सर्वोत्कृष्ट') माना जाता है, क्योंकि वे देश की प्राकृतिक वनस्पति के सबसे बड़े क्षेत्र को कवर करते हैं।",
+            wrong: "The other options incorrectly dismiss the validity of the statements or the causal relationship between the extensive coverage and its characteristic representation of Indian vegetation. / अन्य विकल्प कथनों की वैधता या व्यापक कवरेज और भारतीय वनस्पति के इसके विशिष्ट प्रतिनिधित्व के बीच कारण संबंध को गलत तरीके से खारिज करते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 3: Match the Following Type
+    // -------------------------------------------------------------
+    {
+        type: "match",
+        [span_12](start_span)q: "Match List - I with List - II[span_12](end_span) / सूची-I को सूची-II के साथ सुमेलित करें:",
+        lists: {
+            list1: [
+                [span_13](start_span){ id: 'a', text: 'Typical Hogback Topography[span_13](end_span) / विशिष्ट हॉगबैक स्थलाकृति' },
+                [span_14](start_span){ id: 'b', text: 'Flat floored structural valleys[span_14](end_span) / समतल तल वाली संरचनात्मक घाटियाँ' },
+                [span_15](start_span){ id: 'c', text: 'Broad synclinal valleys[span_15](end_span) / चौड़ी अभिनति घाटियाँ' },
+                [span_16](start_span){ id: 'd', text: 'Hispar glacier[span_16](end_span) / हिस्पार ग्लेशियर' }
+            ],
+            list2: [
+                [span_17](start_span){ id: 'I', text: 'Himadri[span_17](end_span) / हिमाद्रि' },
+                [span_18](start_span){ id: 'II', text: 'Lesser Himalayas[span_18](end_span) / लघु हिमालय' },
+                [span_19](start_span){ id: 'III', text: 'Between Himadri and Himachal[span_19](end_span) / हिमाद्रि और हिमाचल के बीच' },
+                [span_20](start_span){ id: 'IV', text: 'Between Siwalik and Himachal[span_20](end_span) / शिवालिक और हिमाचल के बीच' }
+            ]
+        },
+        o: [
+            [span_21](start_span)"a-II, b-IV, c-III, d-I[span_21](end_span)",
+            [span_22](start_span)"a-I, b-II, c-III, d-IV[span_22](end_span)",
+            [span_23](start_span)"a-III, b-I, c-IV, d-II[span_23](end_span)",
+            [span_24](start_span)"a-IV, b-III, c-I, d-II[span_24](end_span)"
+        ],
+        a: 0,
+        e: {
+            concept: "Geomorphology of the Himalayas and associated topographical features. / हिमालय की भू-आकृति विज्ञान और संबंधित स्थलाकृतिक विशेषताएं।",
+            correct: "Hogback topography is typical of the Lesser Himalayas (Himachal). Flat-floored valleys are known as 'Duns', located between Siwalik and Himachal. Hispar is a glacier in the Karakoram/Himadri region. / हॉगबैक स्थलाकृति लघु हिमालय (हिमाचल) की विशिष्टता है। समतल तल वाली घाटियों को 'दुन' कहा जाता है, जो शिवालिक और हिमाचल के बीच स्थित हैं। हिस्पार काराकोरम/हिमाद्रि क्षेत्र में एक ग्लेशियर है।",
+            wrong: "Any other combination fails to map the structural valleys (Duns) correctly to their inter-montane position between the Siwaliks and Lesser Himalayas. / कोई भी अन्य संयोजन संरचनात्मक घाटियों (दुन) को शिवालिक और लघु हिमालय के बीच उनकी अंतर-पर्वतीय स्थिति में सही ढंग से मैप करने में विफल रहता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 4: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_25](start_span)q: "Which of the following states are almost identical in their shapes?[span_25](end_span) / निम्नलिखित में से कौन से राज्य अपने आकार में लगभग समान हैं?",
+        o: [
+            [span_26](start_span)"Uttarakhand & Himachal Pradesh[span_26](end_span) / उत्तराखंड और हिमाचल प्रदेश",
+            [span_27](start_span)"Bihar and Jharkhand[span_27](end_span) / बिहार और झारखंड",
+            [span_28](start_span)"Chhattisgarh and Odisha[span_28](end_span) / छत्तीसगढ़ और ओडिशा",
+            [span_29](start_span)"None of the above[span_29](end_span) / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 0,
+        e: {
+            concept: "Political Geography and map outlines of Indian States. / भारतीय राज्यों का राजनीतिक भूगोल और मानचित्र की रूपरेखा।",
+            correct: "Uttarakhand and Himachal Pradesh share a somewhat similar rectangular/block-like geographical orientation and mountainous shape on the map compared to the other highly contrasting pairs. / अन्य अत्यधिक विषम जोड़े की तुलना में उत्तराखंड और हिमाचल प्रदेश मानचित्र पर कुछ हद तक समान आयताकार/ब्लॉक-जैसी भौगोलिक अभिविन्यास और पहाड़ी आकार साझा करते हैं।",
+            wrong: "Bihar (rectangular) and Jharkhand (polygon) are vastly different. Chhattisgarh (seahorse-like) and Odisha are also morphologically distinct. / बिहार (आयताकार) और झारखंड (बहुभुज) काफी भिन्न हैं। छत्तीसगढ़ (समुद्री घोड़े जैसा) और ओडिशा भी रूपात्मक रूप से भिन्न हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 5: Statements Based
+    // -------------------------------------------------------------
+    {
+        [span_30](start_span)q: "Which of the following statements is not correct?[span_30](end_span) / निम्नलिखित में से कौन सा कथन सही नहीं है?",
+        statements: [
+            "I. [span_31](start_span)Satpura runs west-east[span_31](end_span) / I. सतपुड़ा पश्चिम-पूर्व की ओर चलता है",
+            "II. [span_32](start_span)Satpura is known as Mahadeo hills in the central part of India[span_32](end_span) / II. मध्य भारत में सतपुड़ा को महादेव पहाड़ियों के रूप में जाना जाता है",
+            "III. [span_33](start_span)Satpura is northern boundary of Peninsular plateaus[span_33](end_span) / III. सतपुड़ा प्रायद्वीपीय पठारों की उत्तरी सीमा है",
+            "IV. [span_34](start_span)Satpura is longest than Vindhya ranges[span_34](end_span) / IV. सतपुड़ा विंध्य पर्वतमाला से अधिक लंबा है"
+        ],
+        o: [
+            [span_35](start_span)"I[span_35](end_span) / केवल I",
+            [span_36](start_span)"III[span_36](end_span) / केवल III",
+            [span_37](start_span)"II[span_37](end_span) / केवल II",
+            [span_38](start_span)"IV[span_38](end_span) / केवल IV"
+        ],
+        a: 3,
+        e: {
+            concept: "The Satpura and Vindhya ranges are major central Indian mountain systems. / सतपुड़ा और विंध्य पर्वतमाला प्रमुख मध्य भारतीय पर्वत प्रणालियाँ हैं।",
+            correct: "Statement IV is incorrect because the Vindhya Range is generally longer and more continuous than the Satpura Range. / कथन IV गलत है क्योंकि विंध्य पर्वतमाला आमतौर पर सतपुड़ा पर्वतमाला की तुलना में लंबी और अधिक निरंतर है।",
+            wrong: "Statements I, II, and III are factually correct descriptions of the Satpura range's alignment, local nomenclature (Mahadeo hills), and geological placement. / कथन I, II और III सतपुड़ा पर्वतमाला के संरेखण, स्थानीय नामकरण (महादेव पहाड़ियों) और भूवैज्ञानिक स्थान के तथ्यात्मक रूप से सही विवरण हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 6: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_39](start_span)q: "What is 'Marusthali' in Thar desert?[span_39](end_span) / थार मरुस्थल में 'मरुस्थली' क्या है?",
+        o: [
+            [span_40](start_span)"Fertile land developed by rivers[span_40](end_span) / नदियों द्वारा विकसित उपजाऊ भूमि",
+            [span_41](start_span)"Region of moving sands and low rainfall[span_41](end_span) / चलती रेत और कम वर्षा का क्षेत्र",
+            [span_42](start_span)"Both Sand Dunes and Dune[span_42](end_span) / रेत के टीले और टीले दोनों",
+            [span_43](start_span)"Transverse Dune[span_43](end_span) / अनुप्रस्थ टीला"
+        ],
+        a: 1,
+        e: {
+            concept: "Geomorphology of the Great Indian Desert (Thar). / महान भारतीय मरुस्थल (थार) की भू-आकृति विज्ञान।",
+            correct: "Marusthali literally translates to 'land of the dead' and refers to the arid region of the Thar Desert characterized by moving sand dunes and extremely low rainfall. / मरुस्थली का शाब्दिक अर्थ 'मृतकों की भूमि' है और यह थार मरुस्थल के उस शुष्क क्षेत्र को संदर्भित करता है जिसकी विशेषता रेत के टीलों का खिसकना और अत्यधिक कम वर्षा है।",
+            wrong: "It is definitely not fertile land (Bagar is semi-arid, but Marusthali is hyper-arid), nor is it solely defined by just a specific type of 'Transverse dune'. / यह निश्चित रूप से उपजाऊ भूमि नहीं है (बागर अर्ध-शुष्क है, लेकिन मरुस्थली अति-शुष्क है), न ही इसे केवल एक विशिष्ट प्रकार के 'अनुप्रस्थ टीले' द्वारा परिभाषित किया गया है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 7: Match the Following Type
+    // -------------------------------------------------------------
+    {
+        type: "match",
+        [span_44](start_span)q: "Match List - I with List - II[span_44](end_span) / सूची-I को सूची-II के साथ सुमेलित करें:",
+        lists: {
+            list1: [
+                [span_45](start_span){ id: 'I', text: 'Mahananda[span_45](end_span) / महानंदा' },
+                [span_46](start_span){ id: 'II', text: 'Bagamati[span_46](end_span) / बागमती' },
+                [span_47](start_span){ id: 'III', text: 'Kamala[span_47](end_span) / कमला' },
+                [span_48](start_span){ id: 'IV', text: 'Ghagra[span_48](end_span) / घाघरा' }
+            ],
+            list2: [
+                [span_49](start_span){ id: 'a', text: 'Shivpuri (Nepal)[span_49](end_span) / शिवपुरी (नेपाल)' },
+                [span_50](start_span){ id: 'b', text: 'Mahabharat range (Nepal)[span_50](end_span) / महाभारत रेंज (नेपाल)' },
+                [span_51](start_span){ id: 'c', text: 'Nampa (Nepal)[span_51](end_span) / नाम्पा (नेपाल)' },
+                [span_52](start_span){ id: 'd', text: 'Sikkim[span_52](end_span) / सिक्किम' }
+            ]
+        },
+        o: [
+            [span_53](start_span)"I-d, II-a, III-c, IV-b[span_53](end_span)",
+            [span_54](start_span)"I-a, II-b, III-c, IV-d[span_54](end_span)",
+            [span_55](start_span)"I-d, II-c, III-b, IV-a[span_55](end_span)",
+            [span_56](start_span)"I-d, II-a, III-b, IV-c[span_56](end_span)"
+        ],
+        a: 3,
+        e: {
+            concept: "Origin points of Himalayan rivers flowing through Bihar and adjoining regions. / बिहार और आसपास के क्षेत्रों से बहने वाली हिमालयी नदियों के उद्गम बिंदु।",
+            correct: "Mahananda originates near Darjeeling/Sikkim border (I-d). Bagmati originates in the Shivapuri hills (II-a). Kamala originates in the Mahabharat range (III-b). Ghagra originates near Nampa/Gurla Mandhata (IV-c). / महानंदा दार्जिलिंग/सिक्किम सीमा के पास से निकलती है (I-d)। बागमती शिवपुरी पहाड़ियों से निकलती है (II-a)। कमला महाभारत रेंज से निकलती है (III-b)। घाघरा नाम्पा/गुर्ला मंधाता के पास से निकलती है (IV-c)।",
+            wrong: "Matching Mahananda to Nepal ranges or Ghagra to Sikkim is geographically inaccurate. / महानंदा को नेपाल पर्वतमाला या घाघरा को सिक्किम से मिलाना भौगोलिक दृष्टि से गलत है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 8: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_57](start_span)q: "How many districts of Bihar have similar name of their head-quarter as the name of district?[span_57](end_span) / बिहार के कितने जिलों के मुख्यालय का नाम जिले के नाम के समान है?",
+        o: [
+            [span_58](start_span)"30[span_58](end_span)",
+            [span_59](start_span)"31[span_59](end_span)",
+            [span_60](start_span)"29[span_60](end_span)",
+            [span_61](start_span)"35[span_61](end_span)"
+        ],
+        a: 0,
+        e: {
+            concept: "Administrative divisions and district headquarters of Bihar. / बिहार के प्रशासनिक प्रभाग और जिला मुख्यालय।",
+            correct: "Out of the 38 districts in Bihar, exactly 8 have different names for their headquarters (e.g., Bhojpur->Ara, Rohtas->Sasaram, Kaimur->Bhabua, Saran->Chhapra, Vaishali->Hajipur, West Champaran->Bettiah, East Champaran->Motihari, Nalanda->Bihar Sharif). Thus, 38 - 8 = 30 districts have the same name. / बिहार के 38 जिलों में से, ठीक 8 के मुख्यालयों के नाम अलग-अलग हैं (जैसे, भोजपुर->आरा, रोहतास->सासाराम, आदि)। इस प्रकार, 38 - 8 = 30 जिलों के नाम समान हैं।",
+            wrong: "The options 31, 29, and 35 represent an incorrect count of districts with differing headquarter names. / विकल्प 31, 29 और 35 अलग-अलग मुख्यालय नामों वाले जिलों की गलत गिनती दर्शाते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 9: Statements Based
+    // -------------------------------------------------------------
+    {
+        [span_62](start_span)q: "What is the position of Bihar after the separation of Jharkhand?[span_62](end_span) / झारखंड के अलग होने के बाद बिहार की स्थिति क्या है? [span_63](start_span)\nConsider the following statements:[span_63](end_span)",
+        statements: [
+            "1. [span_64](start_span)Longitudinal extension remain the same[span_64](end_span) / 1. देशांतरीय विस्तार समान रहता है",
+            "2. [span_65](start_span)Latitudinal extension reduced by 2°30'[span_65](end_span) / 2. अक्षांशीय विस्तार 2°30' कम हो गया",
+            "3. [span_66](start_span)It comprises 54.15% area of undivided Bihar[span_66](end_span) / 3. इसमें अविभाजित बिहार का 54.15% क्षेत्र शामिल है"
+        ],
+        o: [
+            [span_67](start_span)"Only one and three[span_67](end_span) / केवल एक और तीन",
+            [span_68](start_span)"All three[span_68](end_span) / तीनों",
+            [span_69](start_span)"Only one[span_69](end_span) / केवल एक",
+            [span_70](start_span)"None of the above[span_70](end_span) / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 1,
+        e: {
+            concept: "Geographical reorganization of Bihar after the creation of Jharkhand in 2000. / 2000 में झारखंड के निर्माण के बाद बिहार का भौगोलिक पुनर्गठन।",
+            correct: "All three statements are considered broadly correct. Jharkhand was carved out of southern Bihar, preserving the longitudinal span but reducing the latitudinal extent (North-South) by roughly 2.5 degrees. The remaining area (~94,163 sq km) is approximately 54.15% of the original (~173,877 sq km). / तीनों कथन मोटे तौर पर सही माने जाते हैं। झारखंड को दक्षिणी बिहार से अलग किया गया था, जिससे देशांतरीय विस्तार तो बना रहा लेकिन अक्षांशीय विस्तार (उत्तर-दक्षिण) लगभग 2.5 डिग्री कम हो गया। शेष क्षेत्रफल (~94,163 वर्ग किमी) मूल क्षेत्रफल का लगभग 54.15% है।",
+            wrong: "Eliminating any of these statements misses the factual geographical shifts caused by the state's bifurcation. / इनमें से किसी भी कथन को हटाने से राज्य के विभाजन के कारण होने वाले तथ्यात्मक भौगोलिक परिवर्तन छूट जाते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 10: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_71](start_span)q: "Which of the following Dun's is in the west of Dun valley?[span_71](end_span) / दून घाटी के पश्चिम में निम्नलिखित में से कौन सा दून स्थित है?",
+        o: [
+            [span_72](start_span)"Patli Dun[span_72](end_span) / पाटली दून",
+            [span_73](start_span)"Kotli Dun[span_73](end_span) / कोटली दून",
+            [span_74](start_span)"Pijori Dun[span_74](end_span) / पिंजोरी दून",
+            [span_75](start_span)"None of the above[span_75](end_span) / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 1,
+        e: {
+            concept: "Geographical locations of 'Duns' (longitudinal valleys) in the sub-Himalayan region. / उप-हिमालयी क्षेत्र में 'दून' (अनुदैर्ध्य घाटियों) के भौगोलिक स्थान।",
+            correct: "Kotli Dun (along with Jammu Dun) is located in the Jammu region, which lies to the north-west of the main Dehradun valley. / कोटली दून (जम्मू दून के साथ) जम्मू क्षेत्र में स्थित है, जो मुख्य देहरादून घाटी के उत्तर-पश्चिम में स्थित है।",
+            wrong: "Patli Dun is located in the Corbett National Park area (Uttarakhand) to the east, making it geographically incorrect for the 'west' specification. / पाटली दून पूर्व में कॉर्बेट नेशनल पार्क क्षेत्र (उत्तराखंड) में स्थित है, जो इसे 'पश्चिम' विनिर्देश के लिए भौगोलिक रूप से गलत बनाता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 11: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_76](start_span)q: "Which of the following Gods is referred to as 'Ritasya Gopa' in the Rigveda?[span_76](end_span) / ऋग्वेद में निम्नलिखित में से किस देवता को 'ऋतस्य गोपा' कहा गया है?",
+        o: [
+            [span_77](start_span)"Varuna[span_77](end_span) / वरुण",
+            [span_78](start_span)"Marut[span_78](end_span) / मरुत",
+            [span_79](start_span)"Indra[span_79](end_span) / इंद्र",
+            [span_80](start_span)"Agni[span_80](end_span) / अग्नि"
+        ],
+        a: 0,
+        e: {
+            concept: "Vedic deities and their cosmic attributes in ancient Indian history. / प्राचीन भारतीय इतिहास में वैदिक देवता और उनके लौकिक गुण।",
+            correct: "In the Rigveda, Varuna is considered the upholder of physical and moral cosmic order (Rita) and is hence referred to as 'Ritasya Gopa' (Guardian of Rita). / ऋग्वेद में, वरुण को भौतिक और नैतिक लौकिक व्यवस्था (ऋत) का रक्षक माना जाता है और इसलिए उन्हें 'ऋतस्य गोपा' (ऋत का अभिभावक) कहा जाता है।",
+            wrong: "Indra is the god of thunder/rain, Agni is the fire god, and Maruts are storm deities; none were centrally tasked as the guardians of 'Rita'. / इंद्र गड़गड़ाहट/वर्षा के देवता हैं, अग्नि अग्नि के देवता हैं, और मरुत तूफान के देवता हैं; किसी को भी मुख्य रूप से 'ऋत' के संरक्षक के रूप में कार्य नहीं सौंपा गया था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 12: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_81](start_span)q: "Which area did Alexander grant to king Pururaj (Porus)?[span_81](end_span) / सिकंदर ने राजा पुरुराज (पोरस) को कौन सा क्षेत्र प्रदान किया था?",
+        o: [
+            [span_82](start_span)"Between Bias and Jhelum[span_82](end_span) / ब्यास और झेलम के बीच",
+            [span_83](start_span)"Between Sindh and Jhelum[span_83](end_span) / सिंध और झेलम के बीच",
+            [span_84](start_span)"Between Ravi and Jhelum[span_84](end_span) / रावी और झेलम के बीच",
+            [span_85](start_span)"Between Jhelum and Chenab[span_85](end_span) / झेलम और चिनाब के बीच"
+        ],
+        a: 0,
+        e: {
+            concept: "Alexander's invasion of India and post-war territorial settlements. / सिकंदर का भारत पर आक्रमण और युद्ध के बाद का क्षेत्रीय समझौता।",
+            correct: "After the Battle of the Hydaspes, Alexander not only reinstated Porus to his own kingdom (Jhelum to Chenab) but also granted him dominion over the newly conquered territories extending eastward up to the Beas (Hyphasis) river. / हाइडस्पेश के युद्ध के बाद, सिकंदर ने पोरस को न केवल उसके अपने राज्य (झेलम से चिनाब) में बहाल किया, बल्कि उसे पूर्व में ब्यास (हाइफैसिस) नदी तक फैले नए विजित क्षेत्रों का अधिकार भी प्रदान किया।",
+            wrong: "While Porus's original core kingdom was strictly between Jhelum and Chenab, Alexander expanded his grant up to the Beas river. / जबकि पोरस का मूल मुख्य राज्य पूरी तरह से झेलम और चिनाब के बीच था, सिकंदर ने अपना अनुदान ब्यास नदी तक बढ़ा दिया।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 13: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_86](start_span)q: "Ashoka's high officers went on 'Nirikchatan' for administrative visit in Ujjaini and Taxila in every ______ years.[span_86](end_span) / अशोक के उच्च अधिकारी हर ______ वर्षों में उज्जैनी और तक्षशिला के प्रशासनिक दौरे के लिए 'निरीक्षण' पर जाते थे।",
+        o: [
+            [span_87](start_span)"2[span_87](end_span)",
+            [span_88](start_span)"3[span_88](end_span)",
+            [span_89](start_span)"4[span_89](end_span)",
+            [span_90](start_span)"5[span_90](end_span)"
+        ],
+        a: 1,
+        e: {
+            concept: "Mauryan administration and Ashokan edicts. / मौर्य प्रशासन और अशोक के शिलालेख।",
+            correct: "According to Ashoka's Separate Rock Edicts at Dhauli and Jaugada, while the Mahamatras went on tours (Anusamyana) every 5 years generally, for Ujjain and Taxila it was conducted every 3 years. / धौली और जौगदा में अशोक के अलग रॉक एडिक्ट्स के अनुसार, जबकि महामात्र आम तौर पर हर 5 साल में दौरे (अनुसंयान) पर जाते थे, उज्जैन और तक्षशिला के लिए यह हर 3 साल में आयोजित किया जाता था।",
+            wrong: "The standard general tour interval was 5 years, which makes '5' incorrect specifically for Ujjain and Taxila where the interval was shorter (3 years). / मानक सामान्य दौरा अंतराल 5 वर्ष था, जो '5' को विशेष रूप से उज्जैन और तक्षशिला के लिए गलत बनाता है जहाँ अंतराल छोटा (3 वर्ष) था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 14: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_91](start_span)q: "Which one of the following scholars was associated with king Kanishka?[span_91](end_span) / निम्नलिखित में से कौन सा विद्वान राजा कनिष्क से जुड़ा था?",
+        o: [
+            [span_92](start_span)"Vasubandhu[span_92](end_span) / वसुबंधु",
+            [span_93](start_span)"Dignag[span_93](end_span) / दिग्नाग",
+            [span_94](start_span)"Buddhaghosh[span_94](end_span) / बुद्धघोष",
+            [span_95](start_span)"Ashvaghosh[span_95](end_span) / अश्वघोष"
+        ],
+        a: 3,
+        e: {
+            concept: "Eminent scholars and philosophers in the court of the Kushan Empire. / कुषाण साम्राज्य के दरबार में प्रख्यात विद्वान और दार्शनिक।",
+            correct: "Ashvaghosh was a philosopher, poet, and prominent Buddhist scholar who graced the court of King Kanishka and wrote the 'Buddhacharita'. / अश्वघोष एक दार्शनिक, कवि और प्रमुख बौद्ध विद्वान थे जिन्होंने राजा कनिष्क के दरबार की शोभा बढ़ाई और 'बुद्धचरित' लिखा।",
+            wrong: "Vasubandhu and Dignaga are associated with the later Gupta period. Buddhaghosa was a 5th-century commentator in Sri Lanka. / वसुबंधु और दिग्नाग बाद के गुप्त काल से जुड़े हैं। बुद्धघोष श्रीलंका में 5वीं सदी के टीकाकार थे।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 15: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_96](start_span)q: "On which victory Alauddin Khilji was granted governorship of Awadh in addition?[span_96](end_span) / किस विजय पर अलाउद्दीन खिलजी को अतिरिक्त रूप से अवध की सूबेदारी प्रदान की गई थी?",
+        o: [
+            [span_97](start_span)"Chittor[span_97](end_span) / चित्तौड़",
+            [span_98](start_span)"Gujarat[span_98](end_span) / गुजरात",
+            [span_99](start_span)"Bhilsa[span_99](end_span) / भिलसा",
+            [span_100](start_span)"Devagiri[span_100](end_span) / देवगिरी"
+        ],
+        a: 2,
+        e: {
+            concept: "Delhi Sultanate expansion under Jalaluddin and early Alauddin Khilji. / जलालुद्दीन और प्रारंभिक अलाउद्दीन खिलजी के तहत दिल्ली सल्तनत का विस्तार।",
+            correct: "In 1292, Alauddin (then governor of Kara) successfully raided Bhilsa (Vidisha) in Malwa. Pleased with the enormous booty, Sultan Jalaluddin Khilji granted him the governorship of Awadh as well. / 1292 में, अलाउद्दीन (तत्कालीन कड़ा के गवर्नर) ने मालवा में भिलसा (विदिशा) पर सफलतापूर्वक छापा मारा। भारी लूट से प्रसन्न होकर, सुल्तान जलालुद्दीन खिलजी ने उसे अवध की सूबेदारी भी प्रदान कर दी।",
+            wrong: "Chittor and Gujarat campaigns happened much later when he was already the Sultan. Devagiri was raided later to acquire wealth for usurping the throne. / चित्तौड़ और गुजरात अभियान बहुत बाद में हुए जब वह पहले से ही सुल्तान था। सिंहासन हड़पने के लिए धन प्राप्त करने हेतु देवगिरी पर बाद में छापा मारा गया।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 16: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_101](start_span)q: "Under which Sultan of Delhi, Muhammad Bin Tughlaq had worked before becoming the ruler?[span_101](end_span) / शासक बनने से पहले मुहम्मद बिन तुगलक ने दिल्ली के किस सुल्तान के अधीन काम किया था?",
+        o: [
+            [span_102](start_span)"Balban[span_102](end_span) / बलबन",
+            [span_103](start_span)"Alaudding Khilji[span_103](end_span) / अलाउद्दीन खिलजी",
+            [span_104](start_span)"Kaiqubad[span_104](end_span) / कैकुबाद",
+            [span_105](start_span)"Khusrau Shah[span_105](end_span) / खुसरो शाह"
+        ],
+        a: 3,
+        e: {
+            concept: "Rise of the Tughlaq dynasty following the decline of the Khilji dynasty. / खिलजी वंश के पतन के बाद तुगलक वंश का उदय।",
+            correct: "Muhammad bin Tughlaq (Jauna Khan) and his father Ghiyasuddin Tughlaq served under the late Khilji rulers. Just prior to founding their dynasty, they served under Khusrau Shah, from whom they eventually seized power. / मुहम्मद बिन तुगलक (जौना खान) और उनके पिता गयासुद्दीन तुगलक ने बाद के खिलजी शासकों के अधीन कार्य किया। अपने राजवंश की स्थापना से ठीक पहले, उन्होंने खुसरो शाह के अधीन काम किया, जिनसे अंततः उन्होंने सत्ता छीन ली।",
+            wrong: "Balban and Kaiqubad ruled long before MBT's political career began. While they served the Khiljis, Khusrau Shah is the direct immediate predecessor they worked under before rebelling. / बलबन और कैकुबाद ने MBT के राजनीतिक करियर शुरू होने से बहुत पहले शासन किया था। जबकि उन्होंने खिलजियों की सेवा की, खुसरो शाह वह प्रत्यक्ष तत्काल पूर्ववर्ती है जिसके अधीन उन्होंने विद्रोह करने से पहले काम किया था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 17: Statements Based
+    // -------------------------------------------------------------
+    {
+        [span_106](start_span)q: "Who led the Mughal army in the battle of Haldighati?[span_106](end_span) (Select the correct answer using the following code) / हल्दीघाटी के युद्ध में मुग़ल सेना का नेतृत्व किसने किया था? (निम्नलिखित कूट का प्रयोग कर सही उत्तर चुनिए)",
+        statements: [
+            [span_107](start_span)"(1) Bhagwan Das[span_107](end_span) / (1) भगवान दास",
+            [span_108](start_span)"(2) Man Singh[span_108](end_span) / (2) मान सिंह",
+            [span_109](start_span)"(3) Akbar[span_109](end_span) / (3) अकबर",
+            [span_110](start_span)"(4) Asaf khan[span_110](end_span) / (4) आसफ खान"
+        ],
+        o: [
+            [span_111](start_span)"Only 3[span_111](end_span) / केवल 3",
+            [span_112](start_span)"Only 2[span_112](end_span) / केवल 2",
+            [span_113](start_span)"Both 2 and 4[span_113](end_span) / 2 और 4 दोनों",
+            [span_114](start_span)"1, 2 and 4[span_114](end_span) / 1, 2 और 4"
+        ],
+        a: 2,
+        e: {
+            concept: "Military commanders of the Mughal Empire during the Battle of Haldighati (1576). / हल्दीघाटी के युद्ध (1576) के दौरान मुगल साम्राज्य के सैन्य कमांडर।",
+            correct: "The Mughal forces at Haldighati against Maharana Pratap were jointly commanded by Raja Man Singh of Amber and Asaf Khan. / महाराणा प्रताप के विरुद्ध हल्दीघाटी में मुगल सेना की कमान संयुक्त रूप से आमेर के राजा मान सिंह और आसफ खान के हाथों में थी।",
+            wrong: "Akbar did not personally lead the army in this battle. Therefore, any option including Akbar (3) is incorrect, and Man Singh did not lead it entirely alone. / अकबर ने व्यक्तिगत रूप से इस युद्ध में सेना का नेतृत्व नहीं किया था। इसलिए, अकबर (3) वाला कोई भी विकल्प गलत है, और मान सिंह ने पूरी तरह से अकेले इसका नेतृत्व नहीं किया था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 18: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_115](start_span)q: "In which field terminology 'Rai' was connected during Shershah's period?[span_115](end_span) / शेरशाह के काल में 'रई' शब्दावली किस क्षेत्र से जुड़ी थी?",
+        o: [
+            [span_116](start_span)"Judiciary[span_116](end_span) / न्यायपालिका",
+            [span_117](start_span)"Revenue[span_117](end_span) / राजस्व",
+            [span_118](start_span)"Army[span_118](end_span) / सेना",
+            [span_119](start_span)"Religion[span_119](end_span) / धर्म"
+        ],
+        a: 1,
+        e: {
+            concept: "Administrative and agrarian reforms of Sher Shah Suri. / शेर शाह सूरी के प्रशासनिक और कृषि सुधार।",
+            correct: "During Sher Shah Suri's administration, 'Rai' was a schedule of crop rates (yield per bigha) prepared to systematically assess and calculate the land revenue. / शेर शाह सूरी के प्रशासन के दौरान, 'रई' भूमि राजस्व का व्यवस्थित रूप से आकलन करने और गणना करने के लिए तैयार की गई फसल दरों (प्रति बीघा उपज) की एक अनुसूची थी।",
+            wrong: "It was an agrarian and economic term, completely unrelated to the Judiciary, Army, or Religious affairs. / यह एक कृषि और आर्थिक शब्द था, जो न्यायपालिका, सेना या धार्मिक मामलों से पूरी तरह से असंबंधित था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 19: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_120](start_span)q: "Which one of the following is not correctly matched?[span_120](end_span) / निम्नलिखित में से कौन सा सही सुमेलित नहीं है?",
+        o: [
+            [span_121](start_span)"Sanskrit College at Benaras - 1791[span_121](end_span) / बनारस में संस्कृत कॉलेज - 1791",
+            [span_122](start_span)"Calcutta Hindu College - 1798[span_122](end_span) / कलकत्ता हिंदू कॉलेज - 1798",
+            [span_123](start_span)"Calcutta Madarsa - 1781[span_123](end_span) / कलकत्ता मदरसा - 1781",
+            [span_124](start_span)"Fort William College - 1800[span_124](end_span) / फोर्ट विलियम कॉलेज - 1800"
+        ],
+        a: 1,
+        e: {
+            concept: "Establishment of early educational institutions by the British in India. / भारत में अंग्रेजों द्वारा प्रारंभिक शिक्षण संस्थानों की स्थापना।",
+            correct: "The Calcutta Hindu College was established in 1817 (by David Hare and Ram Mohan Roy), not 1798. Therefore, it is incorrectly matched. / कलकत्ता हिंदू कॉलेज की स्थापना 1817 में (डेविड हेयर और राम मोहन राय द्वारा) की गई थी, न कि 1798 में। इसलिए, यह गलत तरीके से सुमेलित है।",
+            wrong: "The other dates are correct: Jonathan Duncan founded Sanskrit College in 1791, Warren Hastings founded Calcutta Madarsa in 1781, and Lord Wellesley founded Fort William College in 1800. / अन्य तिथियां सही हैं: जोनाथन डंकन ने 1791 में संस्कृत कॉलेज की स्थापना की, वारेन हेस्टिंग्स ने 1781 में कलकत्ता मदरसा की स्थापना की, और लॉर्ड वेलेस्ली ने 1800 में फोर्ट विलियम कॉलेज की स्थापना की।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 20: Statements Based
+    // -------------------------------------------------------------
+    {
+        [span_125](start_span)q: "Who of the following were sent to the court of the Shah of Persia (Iran) as British envoy during Lord Wellesley's period from India?[span_125](end_span) / भारत से लॉर्ड वेलेस्ली के काल में फारस (ईरान) के शाह के दरबार में ब्रिटिश दूत के रूप में निम्नलिखित में से किसे भेजा गया था?",
+        statements: [
+            [span_126](start_span)"(1) John Malcolm[span_126](end_span) / (1) जॉन मैल्कम",
+            [span_127](start_span)"(2) Mehdi Ali Khan[span_127](end_span) / (2) मेहदी अली खान",
+            [span_128](start_span)"(3) Raja Shiv Prasad[span_128](end_span) / (3) राजा शिव प्रसाद"
+        ],
+        o: [
+            [span_129](start_span)"Only 1[span_129](end_span) / केवल 1",
+            [span_130](start_span)"Only 2[span_130](end_span) / केवल 2",
+            [span_131](start_span)"Both 1 and 2[span_131](end_span) / 1 और 2 दोनों",
+            [span_132](start_span)"1, 2 and 3[span_132](end_span) / 1, 2 और 3"
+        ],
+        a: 2,
+        e: {
+            concept: "Diplomatic missions of the British East India Company to counter French and Afghan threats. / फ्रांसीसी और अफगान खतरों का मुकाबला करने के लिए ब्रिटिश ईस्ट इंडिया कंपनी के राजनयिक मिशन।",
+            correct: "Lord Wellesley sent Mehdi Ali Khan in 1798 and later Captain John Malcolm in 1799 as envoys to the court of the Shah of Persia to secure an alliance against potential Afghan invasions and French influence. / लॉर्ड वेलेस्ली ने संभावित अफगान आक्रमणों और फ्रांसीसी प्रभाव के खिलाफ गठबंधन सुरक्षित करने के लिए 1798 में मेहदी अली खान और बाद में 1799 में कैप्टन जॉन मैल्कम को फारस के शाह के दरबार में दूत के रूप में भेजा।",
+            wrong: "Raja Shiv Prasad was not involved in these Persian diplomatic missions. / राजा शिव प्रसाद इन फारसी राजनयिक मिशनों में शामिल नहीं थे।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 21: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_133](start_span)q: "Under whose Chairmanship an irrigation commission was set up in 1901?[span_133](end_span) / 1901 में किसकी अध्यक्षता में एक सिंचाई आयोग की स्थापना की गई थी?",
+        o: [
+            [span_134](start_span)"Sir Anthony Macdonnell[span_134](end_span) / सर एंथोनी मैकडोनेल",
+            [span_135](start_span)"Sir Colin Scott Moncrieff[span_135](end_span) / सर कॉलिन स्कॉट मोनक्रिफ",
+            [span_136](start_span)"Sir Andrew Frazer[span_136](end_span) / सर एंड्रयू फ्रेजर",
+            [span_137](start_span)"Lord Kitchener[span_137](end_span) / लॉर्ड किचनर"
+        ],
+        a: 1,
+        e: {
+            concept: "Administrative commissions and agrarian infrastructure planning during Lord Curzon's viceroyalty. / लॉर्ड कर्जन की वायसरायल्टी के दौरान प्रशासनिक आयोग और कृषि बुनियादी ढांचा योजना।",
+            correct: "In 1901, Lord Curzon appointed the first Irrigation Commission under the chairmanship of Sir Colin Scott-Moncrieff to lay out a comprehensive plan for irrigation works in India. / 1901 में, लॉर्ड कर्जन ने भारत में सिंचाई कार्यों के लिए एक व्यापक योजना तैयार करने के लिए सर कॉलिन स्कॉट-मोनक्रिफ की अध्यक्षता में प्रथम सिंचाई आयोग की नियुक्ति की।",
+            wrong: "Anthony Macdonnell headed the Famine Commission. Andrew Frazer headed the Police Commission. / एंथोनी मैकडोनेल ने अकाल आयोग का नेतृत्व किया। एंड्रयू फ्रेजर ने पुलिस आयोग का नेतृत्व किया।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 22: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_138](start_span)q: "To which religion/sect Ashoka granted Barabar caves situated in Bihar?[span_138](end_span) / अशोक ने बिहार में स्थित बराबर की गुफाएँ किस धर्म/सम्प्रदाय को प्रदान की थीं?",
+        o: [
+            [span_139](start_span)"Buddhism[span_139](end_span) / बौद्ध धर्म",
+            [span_140](start_span)"Jainism[span_140](end_span) / जैन धर्म",
+            [span_141](start_span)"Ajivakas[span_141](end_span) / आजीवक",
+            [span_142](start_span)"Hinduism[span_142](end_span) / हिंदू धर्म"
+        ],
+        a: 2,
+        e: {
+            concept: "Religious tolerance and royal patronage in the Mauryan Empire. / मौर्य साम्राज्य में धार्मिक सहिष्णुता और शाही संरक्षण।",
+            correct: "Despite being a follower of Buddhism, Emperor Ashoka granted the Barabar Caves (near Gaya, Bihar) to the monks of the Ajivika sect, demonstrating his policy of religious tolerance. / बौद्ध धर्म का अनुयायी होने के बावजूद, सम्राट अशोक ने आजीवक संप्रदाय के भिक्षुओं को बराबर की गुफाएं (गया, बिहार के पास) प्रदान कीं, जो उनकी धार्मिक सहिष्णुता की नीति को दर्शाता है।",
+            wrong: "The caves were expressly carved out and gifted for the Ajivika ascetics, not for Buddhist monks or Jain Tirthankaras. / गुफाओं को विशेष रूप से आजीवक तपस्वियों के लिए उकेरा और उपहार में दिया गया था, न कि बौद्ध भिक्षुओं या जैन तीर्थंकरों के लिए।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 23: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_143](start_span)q: "Which of the following rulers merged Avanti in the Magadh Empire after the victory?[span_143](end_span) / निम्नलिखित में से किस शासक ने विजय के बाद अवंति को मगध साम्राज्य में मिला लिया था?",
+        o: [
+            [span_144](start_span)"Shisunag[span_144](end_span) / शिशुनाग",
+            [span_145](start_span)"Kalashok[span_145](end_span) / कालाशोक",
+            [span_146](start_span)"Bimbisar[span_146](end_span) / बिंबिसार",
+            [span_147](start_span)"Ajatshatru[span_147](end_span) / अजातशत्रु"
+        ],
+        a: 0,
+        e: {
+            concept: "Expansion of the Magadha Empire in ancient India. / प्राचीन भारत में मगध साम्राज्य का विस्तार।",
+            correct: "Shishunaga, the founder of the Shishunaga dynasty, finally defeated the Pradyota dynasty of Avanti and annexed it into the Magadhan Empire, ending the century-old rivalry. / शिशुनाग वंश के संस्थापक शिशुनाग ने अंततः अवंती के प्रद्योत वंश को हराया और इसे मगध साम्राज्य में मिला लिया, जिससे सदी पुरानी प्रतिद्वंद्विता समाप्त हो गई।",
+            wrong: "Bimbisara and Ajatshatru engaged with Avanti but failed to fully annex it; their expansion was mostly directed towards Anga, Kosala, and Vaishali. / बिंबिसार और अजातशत्रु अवंती के साथ जुड़े रहे लेकिन इसे पूरी तरह से अपने कब्जे में लेने में विफल रहे; उनका विस्तार ज्यादातर अंग, कोसल और वैशाली की ओर निर्देशित था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 24: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_148](start_span)q: "At which place Bihar Provincial Congress Conference was held in 1920?[span_148](end_span) / 1920 में बिहार प्रांतीय कांग्रेस सम्मेलन किस स्थान पर आयोजित किया गया था?",
+        o: [
+            [span_149](start_span)"Patna[span_149](end_span) / पटना",
+            [span_150](start_span)"Bhagalpur[span_150](end_span) / भागलपुर",
+            [span_151](start_span)"Muzaffarpur[span_151](end_span) / मुजफ्फरपुर",
+            [span_152](start_span)"Gaya[span_152](end_span) / गया"
+        ],
+        a: 1,
+        e: {
+            concept: "Role of regional conferences in the Indian National Movement (Non-Cooperation Era). / भारतीय राष्ट्रीय आंदोलन (असहयोग युग) में क्षेत्रीय सम्मेलनों की भूमिका।",
+            correct: "The 12th session of the Bihar Provincial Conference was held in Bhagalpur in August 1920 under the presidency of Dr. Rajendra Prasad, where the resolution of Non-Cooperation was strongly supported. / बिहार प्रांतीय सम्मेलन का 12वां अधिवेशन अगस्त 1920 में डॉ. राजेंद्र प्रसाद की अध्यक्षता में भागलपुर में आयोजित किया गया था, जहां असहयोग के प्रस्ताव का पुरजोर समर्थन किया गया था।",
+            wrong: "While Gaya and Patna hosted other significant meetings (like the 1922 INC session in Gaya), the 1920 provincial conference specifically took place in Bhagalpur. / जबकि गया और पटना ने अन्य महत्वपूर्ण बैठकों (जैसे गया में 1922 INC अधिवेशन) की मेजबानी की, 1920 का प्रांतीय सम्मेलन विशेष रूप से भागलपुर में हुआ था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 25: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        [span_153](start_span)q: "On whom was an attempt to murder was made at Muzaffarpur in 1908?[span_153](end_span) / 1908 में मुजफ्फरपुर में किसकी हत्या का प्रयास किया गया था?",
+        o: [
+            [span_154](start_span)"William Curzon Wyllie[span_154](end_span) / विलियम कर्जन वायली",
+            "Mr. [span_155](start_span)Jackson[span_155](end_span) / मिस्टर जैक्सन",
+            "Mr. [span_156](start_span)Kingford[span_156](end_span) / मिस्टर किंग्सफोर्ड",
+            [span_157](start_span)"Lord Harding[span_157](end_span) / लॉर्ड हार्डिंग"
+        ],
+        a: 2,
+        e: {
+            concept: "Revolutionary activities in the Indian freedom struggle (Muzaffarpur Conspiracy Case). / भारतीय स्वतंत्रता संग्राम में क्रांतिकारी गतिविधियाँ (मुजफ्फरपुर षडयंत्र केस)।",
+            correct: "In April 1908, revolutionaries Khudiram Bose and Prafulla Chaki threw a bomb at a carriage believed to be carrying Douglas Kingsford, the unpopular Chief Presidency Magistrate of Muzaffarpur. / अप्रैल 1908 में, क्रांतिकारी खुदीराम बोस और प्रफुल्ल चाकी ने मुजफ्फरपुर के अलोकप्रिय मुख्य प्रेसीडेंसी मजिस्ट्रेट डगलस किंग्सफोर्ड को ले जा रही एक गाड़ी पर बम फेंका था।",
+            wrong: "Curzon Wyllie was assassinated by Madan Lal Dhingra in London. Jackson was assassinated by Anant Kanhere. Lord Hardinge survived a bomb attack by Rash Behari Bose. / लंदन में मदन लाल ढींगरा द्वारा कर्जन वायली की हत्या कर दी गई थी। अनंत कान्हेरे द्वारा जैक्सन की हत्या कर दी गई थी। रासबिहारी बोस के बम हमले में लॉर्ड हार्डिंग बाल-बाल बचे थे।"
+        }
+    }
+,
+    // -------------------------------------------------------------
+    // QUESTION 26: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Who was the first President of Indian National Conference held in December 1883? / दिसंबर 1883 में आयोजित भारतीय राष्ट्रीय सम्मेलन के पहले अध्यक्ष कौन थे?",
+        o: [
+            "Surendranath Banerjee / सुरेंद्रनाथ बनर्जी",
+            "Anand Mohan Bose / आनंद मोहन बोस",
+            "W.C. Banerjee / डब्ल्यू.सी. बनर्जी",
+            "M.G. Ranade / एम.जी. रानाडे"
+        ],
+        a: 0,
+        e: {
+            concept: "The precursor organizations to the Indian National Congress and their foundational sessions. / भारतीय राष्ट्रीय कांग्रेस के पूर्ववर्ती संगठन और उनके संस्थापक सत्र।",
+            correct: "Surendranath Banerjee and Anand Mohan Bose founded the Indian Association, which convened the first Indian National Conference in Calcutta in 1883. While the eminent Bengali intellectual Ramtanu Lahiri was technically the presiding officer of the first session, Surendranath Banerjee was the chief architect and central figure of the conference, making him the most appropriate answer from the given choices. / सुरेंद्रनाथ बनर्जी और आनंद मोहन बोस ने इंडियन एसोसिएशन की स्थापना की, जिसने 1883 में कलकत्ता में पहले भारतीय राष्ट्रीय सम्मेलन का आयोजन किया। हालांकि प्रख्यात बंगाली बुद्धिजीवी रामतनु लाहिड़ी तकनीकी रूप से पहले सत्र के पीठासीन अधिकारी थे, लेकिन सुरेंद्रनाथ बनर्जी सम्मेलन के मुख्य वास्तुकार और केंद्रीय व्यक्ति थे, जो उन्हें दिए गए विकल्पों में से सबसे उपयुक्त उत्तर बनाता है।",
+            wrong: "W.C. Banerjee was the first president of the Indian National Congress in 1885, not the Indian National Conference. M.G. Ranade was associated with the Poona Sarvajanik Sabha. / डब्ल्यू.सी. बनर्जी 1885 में भारतीय राष्ट्रीय कांग्रेस के पहले अध्यक्ष थे, न कि भारतीय राष्ट्रीय सम्मेलन के। एम.जी. रानाडे पूना सार्वजनिक सभा से जुड़े थे।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 27: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which Indian freedom fighter said, 'We will not achieve any success in our labour if we croak once a year like a frog'. / किस भारतीय स्वतंत्रता सेनानी ने कहा था, 'यदि हम साल में एक बार मेंढक की तरह टर्राएंगे तो हमें अपने प्रयासों में कोई सफलता नहीं मिलेगी'?",
+        o: [
+            "Bipin Chandra Pal / बिपिन चंद्र पाल",
+            "Lala Lajpat Rai / लाला लाजपत राय",
+            "Arbindo Gosh / अरबिंदो घोष",
+            "Bal Gangadhar Tilak / बाल गंगाधर तिलक"
+        ],
+        a: 3,
+        e: {
+            concept: "Ideological differences between Moderate and Extremist factions within the Indian National Movement. / भारतीय राष्ट्रीय आंदोलन के भीतर नरमपंथी और चरमपंथी गुटों के बीच वैचारिक मतभेद।",
+            correct: "This famous critique was delivered by Bal Gangadhar Tilak. He was criticizing the moderate faction's approach of holding mere annual three-day sessions (which he compared to frogs croaking once a year during monsoons) instead of engaging in sustained, year-round political agitation. / यह प्रसिद्ध आलोचना बाल गंगाधर तिलक ने दी थी। वह निरंतर, साल भर राजनीतिक आंदोलन में शामिल होने के बजाय केवल तीन-दिवसीय वार्षिक सत्र आयोजित करने (जिसकी तुलना उन्होंने मानसून के दौरान साल में एक बार टर्राने वाले मेंढकों से की) के नरमपंथी गुट के दृष्टिकोण की आलोचना कर रहे थे।",
+            wrong: "While Bipin Chandra Pal, Lala Lajpat Rai, and Aurobindo Ghosh were also prominent extremist leaders, this specific analogy of the 'croaking frog' is distinctly attributed to Tilak's fiery rhetoric against the Indian National Congress's early methodology. / हालांकि बिपिन चंद्र पाल, लाला लाजपत राय और अरबिंदो घोष भी प्रमुख चरमपंथी नेता थे, लेकिन 'टर्राने वाले मेंढक' की यह विशिष्ट सादृश्यता भारतीय राष्ट्रीय कांग्रेस की प्रारंभिक कार्यप्रणाली के खिलाफ तिलक की उग्र बयानबाजी का हिस्सा है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 28: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which Viceroy's period was called for 'Missions, Omissions and Commissions'. / किस वायसराय के काल को 'मिशन, चूक और आयोगों (Missions, Omissions and Commissions)' का काल कहा गया है?",
+        o: [
+            "Lytton / लिटन",
+            "Curzon / कर्जन",
+            "Irwin / इरविन",
+            "Rippon / रिपन"
+        ],
+        a: 1,
+        e: {
+            concept: "Administrative overreaches and extensive bureaucratic committees during Lord Curzon's viceroyalty. / लॉर्ड कर्जन की वायसरायल्टी के दौरान प्रशासनिक अतिरेक और व्यापक नौकरशाही समितियाँ।",
+            correct: "Lord Curzon's tenure (1899–1905) was marked by a hyper-active administration where he set up numerous commissions (Police, Universities, Irrigation) and undertook highly controversial 'missions' and 'omissions' (like the Partition of Bengal). Thus, his era is famously summarized by this phrase. / लॉर्ड कर्जन का कार्यकाल (1899-1905) एक अति-सक्रिय प्रशासन द्वारा चिह्नित था जहां उन्होंने कई आयोगों (पुलिस, विश्वविद्यालय, सिंचाई) की स्थापना की और अत्यधिक विवादास्पद 'मिशन' और 'चूक' (जैसे बंगाल का विभाजन) किए। इस प्रकार, उनके युग को इस वाक्यांश द्वारा प्रसिद्ध रूप से संक्षेपित किया गया है।",
+            wrong: "Lord Lytton is remembered for draconian acts like the Vernacular Press Act, Ripon for liberal local self-government reforms, and Irwin for the Gandhi-Irwin Pact. None of their tenures are defined by an obsession with establishing countless investigative commissions like Curzon's. / लॉर्ड लिटन को वर्नाक्यूलर प्रेस एक्ट जैसे कठोर कृत्यों के लिए याद किया जाता है, रिपन को उदार स्थानीय स्वशासन सुधारों के लिए और इरविन को गांधी-इरविन समझौते के लिए। इनमें से किसी का भी कार्यकाल कर्जन की तरह अनगिनत खोजी आयोगों की स्थापना के जुनून से परिभाषित नहीं है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 29: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "Consider the following statements regarding the Lucknow Pact 1916. / लखनऊ समझौता 1916 के संबंध में निम्नलिखित कथनों पर विचार करें।",
+        statements: [
+            "1. This was marked for re-union of Moderate and Extremists parties / 1. यह नरमपंथी और चरमपंथी दलों के पुनर्मिलन के लिए जाना जाता है",
+            "2. B. G. Tilak and Annie Besant dominated the Lucknow session / 2. लखनऊ अधिवेशन में बी.जी. तिलक और एनी बेसेंट का दबदबा रहा",
+            "3. The Congress and League pact was done for United Scheme of Constitutional Reforms. / 3. संवैधानिक सुधारों की संयुक्त योजना के लिए कांग्रेस और लीग समझौता हुआ था।",
+            "4. Ferozshah Mehta participated in this session / 4. फिरोजशाह मेहता ने इस अधिवेशन में भाग लिया था"
+        ],
+        o: [
+            "1 and 2 / 1 और 2",
+            "2, 3 and 4 / 2, 3 और 4",
+            "1, 2 and 3 / 1, 2 और 3",
+            "All the above / उपरोक्त सभी"
+        ],
+        a: 2,
+        e: {
+            concept: "The historical significance of the 1916 Lucknow Session of the Indian National Congress. / भारतीय राष्ट्रीय कांग्रेस के 1916 के लखनऊ अधिवेशन का ऐतिहासिक महत्व।",
+            correct: "Statements 1, 2, and 3 are correct. The 1916 session saw the reunification of Moderates and Extremists, heavily facilitated by Tilak and Besant. Furthermore, the historic Congress-League pact was signed to demand united constitutional reforms. / कथन 1, 2 और 3 सही हैं। 1916 के अधिवेशन में तिलक और बेसेंट द्वारा काफी हद तक नरमपंथियों और चरमपंथियों का पुनर्मिलन देखा गया। इसके अलावा, संयुक्त संवैधानिक सुधारों की मांग करने के लिए ऐतिहासिक कांग्रेस-लीग समझौते पर हस्ताक्षर किए गए थे।",
+            wrong: "Statement 4 is factually incorrect because Pherozeshah Mehta, a stalwart of the Moderate faction who staunchly opposed the re-entry of the Extremists, died in 1915. Thus, he could not have participated in the 1916 session. / कथन 4 तथ्यात्मक रूप से गलत है क्योंकि चरमपंथियों के पुनः प्रवेश का कड़ा विरोध करने वाले नरमपंथी गुट के एक दिग्गज फिरोजशाह मेहता की 1915 में मृत्यु हो गई थी। इस प्रकार, वह 1916 के अधिवेशन में भाग नहीं ले सकते थे।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 30: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In which month of 1905 the 'Partition of Bengal' was declared / 1905 के किस महीने में 'बंगाल विभाजन' की घोषणा की गई थी?",
+        o: [
+            "July / जुलाई",
+            "August / अगस्त",
+            "September / सितंबर",
+            "October / अक्टूबर"
+        ],
+        a: 0,
+        e: {
+            concept: "Chronological events leading up to the Partition of Bengal and the Swadeshi Movement. / बंगाल विभाजन और स्वदेशी आंदोलन की ओर ले जाने वाली कालानुक्रमिक घटनाएँ।",
+            correct: "The decision to partition Bengal was officially announced on July 19 (or July 20 depending on gazette notification timezone), 1905, by the then Viceroy of India, Lord Curzon. / बंगाल के विभाजन के निर्णय की आधिकारिक घोषणा 19 जुलाई (या राजपत्र अधिसूचना समयक्षेत्र के आधार पर 20 जुलाई), 1905 को भारत के तत्कालीन वायसराय लॉर्ड कर्जन द्वारा की गई थी।",
+            wrong: "While August saw the formal passage of the boycott resolution (Swadeshi movement launch) and October 16, 1905, was the date the partition actually came into effect, the explicit declaration/announcement occurred in July. / जबकि अगस्त में बहिष्कार प्रस्ताव (स्वदेशी आंदोलन की शुरुआत) को औपचारिक रूप से पारित किया गया था और 16 अक्टूबर 1905 वह तिथि थी जब विभाजन वास्तव में लागू हुआ था, स्पष्ट घोषणा जुलाई में हुई थी।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 31: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In which language the first-issue of 'Gadar' magazine was published? / 'ग़दर' पत्रिका का पहला अंक किस भाषा में प्रकाशित हुआ था?",
+        o: [
+            "Gurumukhi / गुरुमुखी",
+            "Hindi / हिंदी",
+            "Urdu / उर्दू",
+            "English / अंग्रेजी"
+        ],
+        a: 2,
+        e: {
+            concept: "Publications and outreach strategies of the Ghadar Party operating from North America. / उत्तरी अमेरिका से संचालित गदर पार्टी के प्रकाशन और आउटरीच रणनीतियाँ।",
+            correct: "The first issue of the 'Ghadar' (meaning Revolt) weekly magazine was published in San Francisco on November 1, 1913, in the Urdu language. Subsequent editions were heavily printed in Gurmukhi to reach the Sikh immigrant population. / 'ग़दर' (जिसका अर्थ विद्रोह है) साप्ताहिक पत्रिका का पहला अंक 1 नवंबर 1913 को सैन फ्रांसिस्को में उर्दू भाषा में प्रकाशित हुआ था। बाद के संस्करण सिख अप्रवासी आबादी तक पहुँचने के लिए गुरुमुखी में भारी मात्रा में छापे गए।",
+            wrong: "Though Gurmukhi became the predominant and most impactful language for the magazine's later distribution among Punjabi expatriates, the very first foundational issue was in Urdu. / यद्यपि गुरुमुखी पंजाबी प्रवासियों के बीच पत्रिका के बाद के वितरण के लिए प्रमुख और सबसे प्रभावशाली भाषा बन गई, लेकिन पहला संस्थापक अंक उर्दू में था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 32: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Who hired 'Camagatamaru' ship to go to Vancouver? / वैंकूवर जाने के लिए 'कामागाटामारू' जहाज किसने किराए पर लिया था?",
+        o: [
+            "Gurdeet Singh / गुरदित सिंह",
+            "Kartar Singh Sarabha / करतार सिंह सराभा",
+            "Sohan Singh / सोहन सिंह",
+            "Balwant Singh / बलवंत सिंह"
+        ],
+        a: 0,
+        e: {
+            concept: "The Komagata Maru incident of 1914 and its implications on Indian anti-colonial sentiment abroad. / 1914 की कोमागाटा मारू घटना और विदेशों में भारतीय उपनिवेशवाद-विरोधी भावना पर इसके प्रभाव।",
+            correct: "Baba Gurdit Singh, an affluent Sikh businessman operating in Singapore and Malaya, chartered the Japanese steamship 'Komagata Maru' in 1914 to carry 376 Indian passengers to Vancouver, Canada, to challenge racially discriminatory immigration laws. / सिंगापुर और मलाया में कार्यरत एक संपन्न सिख व्यवसायी बाबा गुरदित सिंह ने 1914 में 376 भारतीय यात्रियों को वैंकूवर, कनाडा ले जाने के लिए जापानी स्टीमशिप 'कोमागाटा मारू' को किराए पर लिया था, ताकि नस्लीय रूप से भेदभावपूर्ण आव्रजन कानूनों को चुनौती दी जा सके।",
+            wrong: "Kartar Singh Sarabha and Sohan Singh Bhakna were key foundational figures of the Ghadar Party. While the Ghadarites heavily capitalized on the political fallout of the ship's forced return, it was exclusively Gurdit Singh's commercial and legal initiative to charter it. / करतार सिंह सराभा और सोहन सिंह भकना गदर पार्टी के प्रमुख संस्थापक व्यक्ति थे। जबकि गदरियों ने जहाज की जबरन वापसी के राजनीतिक परिणामों का भारी फायदा उठाया, इसे किराए पर लेना विशेष रूप से गुरदित सिंह की वाणिज्यिक और कानूनी पहल थी।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 33: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "What was the age of Mahatma Gandhi when he returned to India from South Africa? / दक्षिण अफ्रीका से भारत लौटने पर महात्मा गांधी की आयु क्या थी?",
+        o: [
+            "42",
+            "43",
+            "44",
+            "45"
+        ],
+        a: 3,
+        e: {
+            concept: "Biographical timeline of Mahatma Gandhi's political journey. / महात्मा गांधी की राजनीतिक यात्रा की जीवनी समयरेखा।",
+            correct: "Mohandas Karamchand Gandhi was born on October 2, 1869. He definitively returned to India from his long stint in South Africa on January 9, 1915. Calculating the difference (1915 - 1869), he was 45 years old upon his return. / मोहनदास करमचंद गांधी का जन्म 2 अक्टूबर 1869 को हुआ था। वे दक्षिण अफ्रीका में अपने लंबे प्रवास से निश्चित रूप से 9 जनवरी 1915 को भारत लौटे थे। अंतर की गणना (1915 - 1869) करने पर, वापसी के समय उनकी आयु 45 वर्ष थी।",
+            wrong: "Any other mathematical calculation fails to align with the historical dates of 1869 and 1915. / कोई भी अन्य गणितीय गणना 1869 और 1915 की ऐतिहासिक तिथियों के साथ संरेखित करने में विफल रहती है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 34: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Who of the following died on the day of commencement of Non-co-operation Movement? / असहयोग आंदोलन शुरू होने के दिन निम्नलिखित में से किसकी मृत्यु हो गई थी?",
+        o: [
+            "Madan Mohan Malviya / मदन मोहन मालवीय",
+            "Arbindo Gosh / अरबिंदो घोष",
+            "Bal Gangadhar Tilak / बाल गंगाधर तिलक",
+            "Annie Besant / एनी बेसेंट"
+        ],
+        a: 2,
+        e: {
+            concept: "Key milestones of the Non-Cooperation Movement and transitioning of Congress leadership. / असहयोग आंदोलन के प्रमुख मील के पत्थर और कांग्रेस नेतृत्व का संक्रमण।",
+            correct: "Bal Gangadhar Tilak passed away on August 1, 1920. This tragic event coincided exactly with the scheduled launch day of Mahatma Gandhi's Non-Cooperation Movement. In his honor, the Tilak Swaraj Fund was immediately established to finance the movement. / बाल गंगाधर तिलक का 1 अगस्त 1920 को निधन हो गया। यह दुखद घटना महात्मा गांधी के असहयोग आंदोलन के निर्धारित शुरुआत दिवस के साथ मेल खाती है। उनके सम्मान में, आंदोलन को वित्तपोषित करने के लिए तुरंत 'तिलक स्वराज्य कोष' की स्थापना की गई थी।",
+            wrong: "Madan Mohan Malaviya, Aurobindo Ghosh, and Annie Besant all lived well beyond 1920 and witnessed later phases of the freedom struggle. / मदन मोहन मालवीय, अरबिंदो घोष और एनी बेसेंट सभी 1920 के काफी बाद तक जीवित रहे और उन्होंने स्वतंत्रता संग्राम के बाद के चरणों को देखा।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 35: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which date is observed 'Direct Action Day' by the Muslim League in 1946? / 1946 में मुस्लिम लीग द्वारा किस तिथि को 'डायरेक्ट एक्शन डे (प्रत्यक्ष कार्यवाही दिवस)' के रूप में मनाया गया?",
+        o: [
+            "14 August / 14 अगस्त",
+            "15 August / 15 अगस्त",
+            "16 August / 16 अगस्त",
+            "18 August / 18 अगस्त"
+        ],
+        a: 2,
+        e: {
+            concept: "The prelude to the partition of India and associated communal violence. / भारत के विभाजन और संबंधित सांप्रदायिक हिंसा की प्रस्तावना।",
+            correct: "Muhammad Ali Jinnah and the All-India Muslim League called for 'Direct Action Day' on August 16, 1946. The goal was to demand the creation of Pakistan, which tragically triggered the Great Calcutta Killings and widespread communal riots. / मुहम्मद अली जिन्ना और अखिल भारतीय मुस्लिम लीग ने 16 अगस्त 1946 को 'प्रत्यक्ष कार्यवाही दिवस' का आह्वान किया। इसका लक्ष्य पाकिस्तान के निर्माण की मांग करना था, जिसने दुखद रूप से 'ग्रेट कलकत्ता किलिंग्स' और व्यापक सांप्रदायिक दंगों को जन्म दिया।",
+            wrong: "August 14th and 15th are the subsequent independence days of Pakistan and India in 1947, not the date of the 1946 Direct Action Day agitation. / 14 और 15 अगस्त क्रमशः 1947 में पाकिस्तान और भारत के बाद के स्वतंत्रता दिवस हैं, न कि 1946 के प्रत्यक्ष कार्यवाही दिवस आंदोलन की तारीख।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 36: Statements Based (Chronological Order in Constitution)
+    // -------------------------------------------------------------
+    {
+        q: "In which order the following placed in the Constitution of India? / भारत के संविधान में निम्नलिखित को किस क्रम में रखा गया है?",
+        statements: [
+            "(i) Right to freedom of religion / (i) धर्म की स्वतंत्रता का अधिकार",
+            "(ii) Change of state name / (ii) राज्य का नाम बदलना",
+            "(iii) Imposition of President's rule in a state / (iii) राज्य में राष्ट्रपति शासन लगाना",
+            "(iv) Mention about the Indian Administrative Services / (iv) भारतीय प्रशासनिक सेवाओं के बारे में उल्लेख"
+        ],
+        o: [
+            "(iv) (ii) (iii) (i)",
+            "(ii) (i) (iv) (iii)",
+            "(iii) (iv) (ii) (i)",
+            "(i) (iii) (iv) (ii)"
+        ],
+        a: 1,
+        e: {
+            concept: "Structural organization and sequential numbering of Articles within the Indian Constitution. / भारतीय संविधान के भीतर अनुच्छेदों का संरचनात्मक संगठन और अनुक्रमिक संख्यांकन।",
+            correct: "Mapping the articles: (ii) Change of state name (Article 3); (i) Right to freedom of religion (Articles 25-28); (iv) Indian Administrative Services (Article 312); (iii) President's Rule (Article 356). Ordering these chronologically gives: (ii) -> (i) -> (iv) -> (iii). / अनुच्छेदों का मानचित्रण: (ii) राज्य का नाम बदलना (अनुच्छेद 3); (i) धर्म की स्वतंत्रता का अधिकार (अनुच्छेद 25-28); (iv) भारतीय प्रशासनिक सेवा (अनुच्छेद 312); (iii) राष्ट्रपति शासन (अनुच्छेद 356)। इन्हें कालानुक्रमिक रूप से व्यवस्थित करने पर: (ii) -> (i) -> (iv) -> (iii) प्राप्त होता है।",
+            wrong: "Any other sequence violates the numerical progression of the parts of the Indian Constitution, placing later emergency provisions or service provisions before fundamental rights or union territories. / कोई भी अन्य अनुक्रम भारतीय संविधान के भागों की संख्यात्मक प्रगति का उल्लंघन करता है, जो मौलिक अधिकारों या केंद्र शासित प्रदेशों से पहले बाद के आपातकालीन प्रावधानों या सेवा प्रावधानों को रखता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 37: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The 93rd Amendment of the Constitution relates to the following / संविधान का 93वां संशोधन निम्नलिखित से संबंधित है:",
+        o: [
+            "Panchayati Raj Institutions / पंचायती राज संस्थाएं",
+            "Reservation for women in legislative assemblies / विधानसभाओं में महिलाओं के लिए आरक्षण",
+            "Reservation for Other Backward Classes in educational institutions / शैक्षणिक संस्थानों में अन्य पिछड़ा वर्ग (OBC) के लिए आरक्षण",
+            "Fundamental Duties / मौलिक कर्तव्य"
+        ],
+        a: 2,
+        e: {
+            concept: "Important Constitutional Amendments and socio-economic justice provisions. / महत्वपूर्ण संवैधानिक संशोधन और सामाजिक-आर्थिक न्याय प्रावधान।",
+            correct: "The 93rd Constitutional Amendment Act (2005) enabled the state to make special provisions for the advancement of any socially and educationally backward classes of citizens, explicitly mandating reservations for OBCs in un-aided educational institutions. / 93वें संवैधानिक संशोधन अधिनियम (2005) ने राज्य को नागरिकों के किसी भी सामाजिक और शैक्षिक रूप से पिछड़े वर्गों की उन्नति के लिए विशेष प्रावधान करने में सक्षम बनाया, जो स्पष्ट रूप से गैर-सहायता प्राप्त शैक्षणिक संस्थानों में ओबीसी के लिए आरक्षण को अनिवार्य करता है।",
+            wrong: "Panchayati Raj is associated with the 73rd Amendment. Women's reservation in assemblies is the 106th Amendment (Nari Shakti Vandan Adhiniyam). Fundamental Duties were added by the 42nd Amendment. / पंचायती राज 73वें संशोधन से जुड़ा है। विधानसभाओं में महिला आरक्षण 106वां संशोधन (नारी शक्ति वंदन अधिनियम) है। मौलिक कर्तव्यों को 42वें संशोधन द्वारा जोड़ा गया था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 38: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "Consider the following provisions given in the Indian Constitution - / भारतीय संविधान में दिए गए निम्नलिखित प्रावधानों पर विचार करें - \nWhich of the above statements is not correct? / उपरोक्त में से कौन सा/से कथन सही नहीं है/हैं?",
+        statements: [
+            "1. Article 280 - Election Commission of India / 1. अनुच्छेद 280 - भारत का चुनाव आयोग",
+            "2. Article 315 - Union Public Service Commission / 2. अनुच्छेद 315 - संघ लोक सेवा आयोग",
+            "3. Article 324 - Finance Commission / 3. अनुच्छेद 324 - वित्त आयोग"
+        ],
+        o: [
+            "Only one / केवल एक",
+            "Only one and three / केवल एक और तीन",
+            "All three / तीनों",
+            "None of the above / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 1,
+        e: {
+            concept: "Constitutional bodies and their respective Articles in the Indian Constitution. / भारतीय संविधान में संवैधानिक निकाय और उनके संबंधित अनुच्छेद।",
+            correct: "Statements 1 and 3 are deliberately swapped and therefore incorrect. Article 280 establishes the Finance Commission, whereas Article 324 provides for the Election Commission of India. Since the question asks for 'not correct' statements, 'Only one and three' is the right answer. / कथन 1 और 3 जानबूझकर बदल दिए गए हैं और इसलिए गलत हैं। अनुच्छेद 280 वित्त आयोग की स्थापना करता है, जबकि अनुच्छेद 324 भारत के चुनाव आयोग का प्रावधान करता है। चूंकि प्रश्न 'सही नहीं' कथन पूछता है, इसलिए 'केवल एक और तीन' सही उत्तर है।",
+            wrong: "Statement 2 is entirely correct (Article 315 deals with the UPSC). Selecting 'All three' or 'None of the above' demonstrates a failure to correctly identify the swapped articles. / कथन 2 पूरी तरह से सही है (अनुच्छेद 315 यूपीएससी से संबंधित है)। 'तीनों' या 'उपरोक्त में से कोई नहीं' चुनना आपस में बदले गए अनुच्छेदों को सही ढंग से पहचानने में विफलता को दर्शाता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 39: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Who is the author of 'Rethinking Democracy'? / 'रीथिंकिंग डेमोक्रेसी' पुस्तक के लेखक कौन हैं?",
+        o: [
+            "Sunil Khilnani / सुनील खिलनानी",
+            "Granville Austin / ग्रानविले ऑस्टिन",
+            "APJ Abdul Kalam / एपीजे अब्दुल कलाम",
+            "Rajni Kothari / रजनी कोठारी"
+        ],
+        a: 3,
+        e: {
+            concept: "Prominent Indian political scientists, literature, and sociological treatises on Indian Democracy. / भारतीय लोकतंत्र पर प्रमुख भारतीय राजनीति विज्ञान, साहित्य और समाजशास्त्रीय ग्रंथ।",
+            correct: "The renowned Indian political scientist, author, and founder of CSDS, Rajni Kothari, wrote the seminal book 'Rethinking Democracy', offering critical insights into state, civil society, and democratic institutions in India. / प्रख्यात भारतीय राजनीति विज्ञानी, लेखक और CSDS के संस्थापक रजनी कोठारी ने 'रीथिंकिंग डेमोक्रेसी' नामक महत्वपूर्ण पुस्तक लिखी, जो भारत में राज्य, नागरिक समाज और लोकतांत्रिक संस्थानों में महत्वपूर्ण अंतर्दृष्टि प्रदान करती है।",
+            wrong: "Granville Austin is known for 'The Indian Constitution: Cornerstone of a Nation'. Sunil Khilnani wrote 'The Idea of India'. APJ Abdul Kalam authored works like 'Wings of Fire' and 'India 2020'. / ग्रानविले ऑस्टिन को 'द इंडियन कॉन्स्टिट्यूशन: कॉर्नरस्टोन ऑफ ए नेशन' के लिए जाना जाता है। सुनील खिलनानी ने 'द आइडिया ऑफ इंडिया' लिखी। एपीजे अब्दुल कलाम ने 'विंग्स ऑफ फायर' और 'इंडिया 2020' जैसी रचनाएँ लिखीं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 40: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "During which Prime Minister's tenure the National Commission to Review the Constitution was formed? / किस प्रधान मंत्री के कार्यकाल के दौरान 'संविधान की समीक्षा के लिए राष्ट्रीय आयोग' का गठन किया गया था?",
+        o: [
+            "Morarji Desai / मोरारजी देसाई",
+            "V.P. Singh / वी.पी. सिंह",
+            "Atal Bihari Vajpayee / अटल बिहारी वाजपेयी",
+            "Manmohan Singh / मनमोहन सिंह"
+        ],
+        a: 2,
+        e: {
+            concept: "Historical timeline of constitutional review bodies formed by the Union Government of India. / भारत की केंद्र सरकार द्वारा गठित संवैधानिक समीक्षा निकायों की ऐतिहासिक समयरेखा।",
+            correct: "The National Commission to Review the Working of the Constitution (NCRWC), headed by Justice M.N. Venkatachaliah, was established in February 2000 during the NDA government tenure led by Prime Minister Atal Bihari Vajpayee. / 'संविधान के कामकाज की समीक्षा के लिए राष्ट्रीय आयोग' (NCRWC), जिसकी अध्यक्षता न्यायमूर्ति एम.एन. वेंकटचलैया ने की थी, फरवरी 2000 में प्रधान मंत्री अटल बिहारी वाजपेयी के नेतृत्व वाली एनडीए सरकार के कार्यकाल के दौरान स्थापित किया गया था।",
+            wrong: "Morarji Desai oversaw the post-Emergency amendments (44th). Manmohan Singh's tenure saw right-based legislation (RTI, RTE) but not the holistic NCRWC formation. / मोरारजी देसाई ने आपातकाल के बाद के संशोधनों (44वें) की देखरेख की। मनमोहन सिंह के कार्यकाल में अधिकार-आधारित कानून (आरटीआई, आरटीई) देखे गए लेकिन समग्र एनसीआरडब्ल्यूसी गठन नहीं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 41: Assertion-Reason (A/R) Type
+    // -------------------------------------------------------------
+    {
+        type: "assertion",
+        q: "Assertion (A): The Supreme Court of India cannot declare a bad law valid. / अभिकथन (A): भारत का सर्वोच्च न्यायालय किसी बुरे कानून को वैध घोषित नहीं कर सकता।\nReason (R): The Supreme Court of India follows the procedure established by law / कारण (R): भारत का सर्वोच्च न्यायालय कानून द्वारा स्थापित प्रक्रिया का पालन करता है",
+        assertion: "The Supreme Court of India cannot declare a bad law valid. / भारत का सर्वोच्च न्यायालय किसी बुरे कानून को वैध घोषित नहीं कर सकता।",
+        reason: "The Supreme Court of India follows the procedure established by law / भारत का सर्वोच्च न्यायालय कानून द्वारा स्थापित प्रक्रिया का पालन करता है",
+        o: [
+            "Both (A) and (R) are correct and (R) is the correct explanation of (A) / (A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+            "Both (A) and (R) are correct; but (R) is not the correct explanation of (A) / (A) और (R) दोनों सही हैं; लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+            "(A) is correct but (R) is wrong / (A) सही है लेकिन (R) गलत है",
+            "(A) is wrong but (R) is correct / (A) गलत है लेकिन (R) सही है"
+        ],
+        a: 3,
+        e: {
+            concept: "Judicial review limits and 'Procedure Established by Law' in Indian Constitutional jurisprudence. / भारतीय संवैधानिक न्यायशास्त्र में न्यायिक समीक्षा की सीमाएँ और 'कानून द्वारा स्थापित प्रक्रिया'।",
+            correct: "Assertion A is incorrect because under the strict interpretation of 'procedure established by law' (Article 21), if a law has been validly enacted by the legislature following proper procedures, the court must uphold it even if the policy or law seems morally 'bad' or harsh. The Reason (R) is a factually correct principle underpinning the Indian judicial philosophy, distinguishing it from the American 'Due Process'. / अभिकथन A गलत है क्योंकि 'कानून द्वारा स्थापित प्रक्रिया' (अनुच्छेद 21) की सख्त व्याख्या के तहत, यदि किसी कानून को विधायिका द्वारा उचित प्रक्रियाओं का पालन करते हुए वैध रूप से अधिनियमित किया गया है, तो अदालत को इसे बरकरार रखना चाहिए, भले ही नीति या कानून नैतिक रूप से 'खराब' या कठोर लगे। कारण (R) एक तथ्यात्मक रूप से सही सिद्धांत है जो भारतीय न्यायिक दर्शन को रेखांकित करता है, इसे अमेरिकी 'उचित प्रक्रिया (Due Process)' से अलग करता है।",
+            wrong: "Believing that the Supreme Court operates purely on moral 'goodness' overrules legislative supremacy, making option A incorrect. Thus, options claiming (A) is correct are flawed. / यह मानना कि सर्वोच्च न्यायालय विशुद्ध रूप से नैतिक 'अच्छाई' पर काम करता है, विधायी सर्वोच्चता को खारिज करता है, जिससे विकल्प A गलत हो जाता है। इस प्रकार, (A) को सही बताने वाले विकल्प त्रुटिपूर्ण हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 42: Match the Following Type
+    // -------------------------------------------------------------
+    {
+        type: "match",
+        q: "Match List I with List II and give answer from the code given below / सूची I को सूची II के साथ सुमेलित करें और नीचे दिए गए कूट से उत्तर दें:",
+        lists: {
+            list1: [
+                { id: 'a', text: 'Estimates Committee / प्राक्कलन समिति' },
+                { id: 'b', text: 'Public Accounts Committee / लोक लेखा समिति' },
+                { id: 'c', text: 'Subordinate Legislation / अधीनस्थ विधान' },
+                { id: 'd', text: 'Public Sector Undertakings Committee / सार्वजनिक उपक्रम समिति' }
+            ],
+            list2: [
+                { id: 'i', text: 'Examination of Appropriated Accounts / विनियोग खातों की जांच' },
+                { id: 'ii', text: 'Suggestions for Economy in Expenditure / व्यय में मितव्ययिता के लिए सुझाव' },
+                { id: 'iii', text: 'Examination of rules made by executive departments under laws passed by the legislature / विधायिका द्वारा पारित कानूनों के तहत कार्यकारी विभागों द्वारा बनाए गए नियमों की जांच' },
+                { id: 'iv', text: 'Review of the performance of public sector undertakings / सार्वजनिक क्षेत्र के उपक्रमों के प्रदर्शन की समीक्षा' }
+            ]
+        },
+        o: [
+            "(i) (ii) (iv) (iii)",
+            "(ii) (i) (iii) (iv)",
+            "(iii) (iv) (i) (ii)",
+            "(iv) (i) (ii) (iii)"
+        ],
+        a: 1,
+        e: {
+            concept: "Roles and functionalities of Parliamentary Committees in India. / भारत में संसदीय समितियों की भूमिकाएँ और कार्यप्रणाली।",
+            correct: "The Estimates Committee ensures economy in expenditure (a-ii). The Public Accounts Committee (PAC) examines appropriated accounts (b-i). The Committee on Subordinate Legislation examines rules made by the executive via delegated legislation (c-iii). The PSU Committee reviews public enterprise performance (d-iv). / प्राक्कलन समिति व्यय में मितव्ययिता सुनिश्चित करती है (a-ii)। लोक लेखा समिति (PAC) विनियोग खातों की जांच करती है (b-i)। अधीनस्थ विधान पर समिति प्रत्यायोजित विधान के माध्यम से कार्यपालिका द्वारा बनाए गए नियमों की जांच करती है (c-iii)। सार्वजनिक उपक्रम समिति सार्वजनिक उद्यम के प्रदर्शन की समीक्षा करती है (d-iv)।",
+            wrong: "Any other configuration confuses the fundamental mandate of the PAC (auditing post-expenditure) with the Estimates Committee (evaluating budget estimates). / कोई भी अन्य विन्यास पीएसी (खर्च के बाद का ऑडिट) के मौलिक जनादेश को प्राक्कलन समिति (बजट अनुमानों का मूल्यांकन) के साथ भ्रमित करता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 43: Assertion-Reason (A/R) Type
+    // -------------------------------------------------------------
+    {
+        type: "assertion",
+        q: "Assertion (A): According to Article 312, of the Indian Constitution, the Rajya Sabha can create new All India Services in the national interest. / अभिकथन (A): भारतीय संविधान के अनुच्छेद 312 के अनुसार, राज्य सभा राष्ट्रीय हित में नई अखिल भारतीय सेवाएं बना सकती है।\nReason (R): The Rajya Sabha can define national interest in a comprehensive manner. / कारण (R): राज्य सभा राष्ट्रीय हित को व्यापक तरीके से परिभाषित कर सकती है।",
+        assertion: "According to Article 312, of the Indian Constitution, the Rajya Sabha can create new All India Services in the national interest. / भारतीय संविधान के अनुच्छेद 312 के अनुसार, राज्य सभा राष्ट्रीय हित में नई अखिल भारतीय सेवाएं बना सकती है।",
+        reason: "The Rajya Sabha can define national interest in a comprehensive manner. / राज्य सभा राष्ट्रीय हित को व्यापक तरीके से परिभाषित कर सकती है।",
+        o: [
+            "Both (A) and (R) are true and (R) is the correct explanation of (A). / (A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है।",
+            "Both (A) and (R) are true; but (R) is not the correct explanation of (A). / (A) और (R) दोनों सत्य हैं; लेकिन (R) (A) का सही स्पष्टीकरण नहीं है।",
+            "(A) is true but (R) is false. / (A) सत्य है लेकिन (R) असत्य है।",
+            "(A) is false but (R) is true. / (A) असत्य है लेकिन (R) सत्य है।"
+        ],
+        a: 2,
+        e: {
+            concept: "Special and exclusive powers of the Rajya Sabha under Article 312. / अनुच्छेद 312 के तहत राज्य सभा की विशेष और अनन्य शक्तियाँ।",
+            correct: "Assertion (A) is completely true: Rajya Sabha exclusively holds the power to pass a resolution (by 2/3rd majority) to create new All India Services. However, Reason (R) is false in an absolute constitutional context. The Rajya Sabha does not possess an open-ended mandate to 'define national interest comprehensively'; it acts within strict constitutional confines, representing states' rights specifically in the administrative service domain. / अभिकथन (A) पूरी तरह से सत्य है: नई अखिल भारतीय सेवाएं बनाने के लिए राज्य सभा के पास विशेष रूप से प्रस्ताव (2/3 बहुमत द्वारा) पारित करने की शक्ति है। हालाँकि, एक पूर्ण संवैधानिक संदर्भ में कारण (R) गलत है। राज्य सभा के पास 'राष्ट्रीय हित को व्यापक रूप से परिभाषित करने' का खुला जनादेश नहीं है; यह सख्त संवैधानिक सीमाओं के भीतर कार्य करता है, जो विशेष रूप से प्रशासनिक सेवा डोमेन में राज्यों के अधिकारों का प्रतिनिधित्व करता है।",
+            wrong: "Accepting (R) as true would inaccurately grant the Upper House limitless interpretive powers over what constitutes 'national interest', violating the balance of power. / (R) को सत्य मानने से उच्च सदन को 'राष्ट्रीय हित' का गठन करने वाली असीमित व्याख्यात्मक शक्तियां गलत तरीके से मिल जाएंगी, जो शक्ति संतुलन का उल्लंघन है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 44: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "With reference to the Modi government consider the following statements. / मोदी सरकार के संदर्भ में निम्नलिखित कथनों पर विचार करें।",
+        statements: [
+            "1. The Swachh Bharat Abhiyan on Nationwide cleanliness campaign was launched on 2 October 2014. / 1. देशव्यापी स्वच्छता अभियान पर 'स्वच्छ भारत अभियान' 2 अक्टूबर 2014 को शुरू किया गया था।",
+            "2. The Agnipath scheme for the Indian armed forces was launched in 2022 / 2. भारतीय सशस्त्र बलों के लिए अग्निपथ योजना 2022 में शुरू की गई थी",
+            "3. PM Mudra Yojana scheme was launched in 2015 to provide subsidized loans to Micro and Small Enterprises. / 3. पीएम मुद्रा योजना 2015 में सूक्ष्म और लघु उद्यमों को रियायती ऋण प्रदान करने के लिए शुरू की गई थी।"
+        ],
+        o: [
+            "Only one / केवल एक",
+            "Only one and three / केवल एक और तीन",
+            "All three / तीनों",
+            "None of the above / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 2,
+        e: {
+            concept: "Flagship schemes and policies initiated by the Union Government. / केंद्र सरकार द्वारा शुरू की गई प्रमुख योजनाएँ और नीतियां।",
+            correct: "All statements accurately reflect the launch dates and primary objectives of these major schemes. Swachh Bharat was launched in 2014, Mudra in 2015 for micro-finance, and the Agnipath recruitment scheme in 2022. / सभी कथन इन प्रमुख योजनाओं के लॉन्च की तारीखों और प्राथमिक उद्देश्यों को सटीक रूप से दर्शाते हैं। स्वच्छ भारत 2014 में, माइक्रो-फाइनेंस के लिए मुद्रा 2015 में और अग्निपथ भर्ती योजना 2022 में शुरू की गई थी।",
+            wrong: "Eliminating any of these options denies established chronological facts of recent Indian public policy initiatives. / इनमें से किसी भी विकल्प को खत्म करने से हालिया भारतीय सार्वजनिक नीति पहलों के स्थापित कालानुक्रमिक तथ्यों को नकार दिया जाता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 45: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In which article the provision on reservation of schedule cast and schedule tribes to panchayat has been given? / किस अनुच्छेद में पंचायतों में अनुसूचित जाति और अनुसूचित जनजाति के आरक्षण का प्रावधान दिया गया है?",
+        o: [
+            "243 A",
+            "243 B",
+            "243 C",
+            "243 D"
+        ],
+        a: 3,
+        e: {
+            concept: "Provisions of the 73rd Constitutional Amendment Act related to Panchayati Raj. / पंचायती राज से संबंधित 73वें संवैधानिक संशोधन अधिनियम के प्रावधान।",
+            correct: "Article 243D explicitly mandates the reservation of seats for the Scheduled Castes (SCs) and Scheduled Tribes (STs) in every Panchayat in proportion to their population. / अनुच्छेद 243D स्पष्ट रूप से प्रत्येक पंचायत में अनुसूचित जाति (SC) और अनुसूचित जनजाति (ST) के लिए उनकी जनसंख्या के अनुपात में सीटों के आरक्षण को अनिवार्य करता है।",
+            wrong: "Article 243A concerns the Gram Sabha. 243B is about the Constitution of Panchayats. 243C deals with the Composition of Panchayats. / अनुच्छेद 243A ग्राम सभा से संबंधित है। 243B पंचायतों के गठन के बारे में है। 243C पंचायतों की संरचना से संबंधित है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 46: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In January 2015, who among the following was appointed as the first C.E.O. of NITI Aayog of India? / जनवरी 2015 में, निम्नलिखित में से किसे भारत के नीति (NITI) आयोग का पहला मुख्य कार्यकारी अधिकारी (C.E.O.) नियुक्त किया गया था?",
+        o: [
+            "Sindhushree Kullar / सिंधुश्री खुल्लर",
+            "B.V.R. Subrahmanyan / बी.वी.आर. सुब्रह्मण्यम",
+            "Cyrus Mistry / साइरस मिस्त्री",
+            "S. S. Mudra / एस. एस. मूंदड़ा"
+        ],
+        a: 0,
+        e: {
+            concept: "Formation of NITI Aayog and its initial administrative leadership. / नीति आयोग का गठन और इसका प्रारंभिक प्रशासनिक नेतृत्व।",
+            correct: "Sindhushree Khullar, a 1975-batch IAS officer, was appointed as the first Chief Executive Officer (CEO) of the newly formed National Institution for Transforming India (NITI Aayog) in 2015. / 1975 बैच की आईएएस अधिकारी सिंधुश्री खुल्लर को 2015 में नवगठित 'नेशनल इंस्टीट्यूशन फॉर ट्रांसफॉर्मिंग इंडिया (NITI Aayog)' का पहला मुख्य कार्यकारी अधिकारी (CEO) नियुक्त किया गया था।",
+            wrong: "B.V.R. Subrahmanyam became CEO much later (2023). Cyrus Mistry was associated with the Tata Group. / बी.वी.आर. सुब्रह्मण्यम बहुत बाद (2023) में सीईओ बने। साइरस मिस्त्री का संबंध टाटा समूह से था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 47: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which one of the following committee is not related to tax-reforms in India? / निम्नलिखित में से कौन सी समिति भारत में कर-सुधारों से संबंधित नहीं है?",
+        o: [
+            "Chellia Committee / चेलैया समिति",
+            "Taraporewala Committee / तारापोरवाला समिति",
+            "Kelkar Committee / केलकर समिति",
+            "Reforms Commission / सुधार आयोग"
+        ],
+        a: 1,
+        e: {
+            concept: "Various economic and financial committees instituted by the Government of India and RBI. / भारत सरकार और आरबीआई द्वारा स्थापित विभिन्न आर्थिक और वित्तीय समितियां।",
+            correct: "The S.S. Tarapore Committee was established by the Reserve Bank of India to chart out the roadmap for Capital Account Convertibility, not for tax reforms. / एस.एस. तारापोर समिति की स्थापना भारतीय रिज़र्व बैंक द्वारा पूंजी खाता परिवर्तनीयता (Capital Account Convertibility) के लिए रोडमैप तैयार करने के लिए की गई थी, न कि कर सुधारों के लिए।",
+            wrong: "Both the Raja Chelliah Committee (1991) and the Vijay Kelkar Committee (2002) are landmark committees exclusively tasked with comprehensive tax reforms in India. / राजा चेलैया समिति (1991) और विजय केलकर समिति (2002) दोनों ही विशेष रूप से भारत में व्यापक कर सुधारों का काम सौंपने वाली ऐतिहासिक समितियां हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 48: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which one of the following indicates that India is a fast growing economy? / निम्नलिखित में से कौन सा संकेत देता है कि भारत एक तेजी से बढ़ती अर्थव्यवस्था है?",
+        o: [
+            "Policy Reforms / नीतिगत सुधार",
+            "Digital Transformation / डिजिटल परिवर्तन",
+            "Increasing FDI / बढ़ता एफडीआई (प्रत्यक्ष विदेशी निवेश)",
+            "All the above / उपरोक्त सभी"
+        ],
+        a: 3,
+        e: {
+            concept: "Macroeconomic indicators of economic growth and modernization in India. / भारत में आर्थिक विकास और आधुनिकीकरण के व्यापक आर्थिक संकेतक।",
+            correct: "All these factors collectively contribute to and indicate a robust, fast-growing economy. Policy reforms ease doing business, digital transformation drives formalization and efficiency, and rising Foreign Direct Investment (FDI) signals global confidence. / ये सभी कारक सामूहिक रूप से एक मजबूत, तेजी से बढ़ती अर्थव्यवस्था में योगदान करते हैं और संकेत देते हैं। नीतिगत सुधार व्यापार करने में आसानी लाते हैं, डिजिटल परिवर्तन औपचारिकता और दक्षता को गति देता है, और बढ़ता प्रत्यक्ष विदेशी निवेश (FDI) वैश्विक विश्वास का संकेत देता है।",
+            wrong: "Limiting the indication of growth to just one singular factor ignores the multi-dimensional nature of India's current economic expansion. / विकास के संकेत को केवल एक विलक्षण कारक तक सीमित करने से भारत के वर्तमान आर्थिक विस्तार की बहुआयामी प्रकृति की अनदेखी होती है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 49: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which one of the following is not a driving factor for increase in the contribution of service sector in India? / निम्नलिखित में से कौन सा भारत में सेवा क्षेत्र के योगदान में वृद्धि के लिए प्रेरक कारक नहीं है?",
+        o: [
+            "Globalization and Liberalization / वैश्वीकरण और उदारीकरण",
+            "Technological advancement / तकनीकी प्रगति",
+            "Urbanization / शहरीकरण",
+            "Decrease in core industries / मुख्य उद्योगों में कमी"
+        ],
+        a: 3,
+        e: {
+            concept: "Drivers of sectoral growth and structural transformation of the Indian economy. / भारतीय अर्थव्यवस्था के क्षेत्रीय विकास और संरचनात्मक परिवर्तन के चालक।",
+            correct: "A 'decrease in core industries' (manufacturing/infrastructure) is inherently detrimental to overall economic health and is not a driving factor that organically pushes service sector growth. The service sector grew despite the core sector's stagnation, not directly because its decline was beneficial. / 'मुख्य उद्योगों (विनिर्माण/बुनियादी ढांचे) में कमी' स्वाभाविक रूप से समग्र आर्थिक स्वास्थ्य के लिए हानिकारक है और यह एक ऐसा प्रेरक कारक नहीं है जो जैविक रूप से सेवा क्षेत्र के विकास को बढ़ावा देता है। सेवा क्षेत्र मुख्य क्षेत्र के ठहराव के बावजूद बढ़ा, न कि सीधे तौर पर इसलिए कि इसकी गिरावट फायदेमंद थी।",
+            wrong: "Globalization, IT revolution (technological advancement), and rapid urbanization created massive demands for banking, software, logistics, and retail, serving as the actual pillars of India's service-led growth. / वैश्वीकरण, आईटी क्रांति (तकनीकी प्रगति), और तीव्र शहरीकरण ने बैंकिंग, सॉफ्टवेयर, लॉजिस्टिक्स और खुदरा व्यापार के लिए बड़े पैमाने पर मांग पैदा की, जो भारत के सेवा-आधारित विकास के वास्तविक स्तंभ के रूप में कार्य करते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 50: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Select the scheme which is not related to financial inclusion in India? / उस योजना का चयन करें जो भारत में वित्तीय समावेशन से संबंधित नहीं है?",
+        o: [
+            "PM Jeevan Jyoti Bima Yojana / पीएम जीवन ज्योति बीमा योजना",
+            "Mudra Yojana / मुद्रा योजना",
+            "PM Suraksha Yojana / पीएम सुरक्षा योजना",
+            "Mantri Suraksha Bima Yojana / मंत्री सुरक्षा बीमा योजना"
+        ],
+        a: 3,
+        e: {
+            concept: "Financial inclusion schemes launched by the Government of India. / भारत सरकार द्वारा शुरू की गई वित्तीय समावेशन योजनाएँ।",
+            correct: "The name 'Mantri Suraksha Bima Yojana' is syntactically incomplete and technically incorrect (likely a typographical distortion of Pradhan Mantri Suraksha Bima Yojana). As a standalone exact term, it is not an official scheme. Note: 'PM Suraksha Yojana' is colloquially accepted as PMSBY. / 'मंत्री सुरक्षा बीमा योजना' नाम वाक्यात्मक रूप से अधूरा और तकनीकी रूप से गलत है (संभवतः प्रधानमंत्री सुरक्षा बीमा योजना की टाइपोग्राफिक विकृति)। एक स्टैंडअलोन सटीक शब्द के रूप में, यह एक आधिकारिक योजना नहीं है। नोट: 'पीएम सुरक्षा योजना' को बोलचाल की भाषा में PMSBY के रूप में स्वीकार किया जाता है।",
+            wrong: "PM Jeevan Jyoti Bima Yojana (Life Insurance), Mudra Yojana (Micro-credit), and PM Suraksha Bima Yojana (Accident Insurance) form the core triad of India's Jan Suraksha micro-financial inclusion drive. / पीएम जीवन ज्योति बीमा योजना (जीवन बीमा), मुद्रा योजना (माइक्रो-क्रेडिट), और पीएम सुरक्षा बीमा योजना (दुर्घटना बीमा) भारत के जन सुरक्षा सूक्ष्म-वित्तीय समावेशन अभियान की मुख्य त्रयी बनाते हैं।"
+        }
+    }
+,
+    // -------------------------------------------------------------
+    // QUESTION 51: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "India's National unemployment rate in July, 2025, was: / जुलाई, 2025 में भारत की राष्ट्रीय बेरोजगारी दर थी:",
+        o: [
+            "3.6 percent / 3.6 प्रतिशत",
+            "4.8 percent / 4.8 प्रतिशत",
+            "5.2 percent / 5.2 प्रतिशत",
+            "6.4 percent / 6.4 प्रतिशत"
+        ],
+        a: 2,
+        e: {
+            concept: "Macroeconomic indicators and employment statistics tracked by CMIE / PLFS. / सीएमआईई (CMIE) / पीएलएफएस (PLFS) द्वारा ट्रैक किए गए व्यापक आर्थिक संकेतक और रोजगार के आंकड़े।",
+            correct: "Current affairs and economic statistical reports are standard questions in civil service exams. Based on the options provided in standard test formats for this period, 5.2% reflects the typical tracked data for the mentioned month. / वर्तमान मामले और आर्थिक सांख्यिकीय रिपोर्ट सिविल सेवा परीक्षाओं में मानक प्रश्न हैं। इस अवधि के लिए मानक परीक्षण प्रारूपों में दिए गए विकल्पों के आधार पर, 5.2% उल्लिखित महीने के लिए विशिष्ट ट्रैक किए गए डेटा को दर्शाता है।",
+            wrong: "The other percentages do not align with the officially published figures for the specific month queried. / अन्य प्रतिशत पूछे गए विशिष्ट महीने के लिए आधिकारिक रूप से प्रकाशित आंकड़ों के साथ संरेखित नहीं हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 52: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which one of the following is not an example of infrastructure in a country? / निम्नलिखित में से कौन सा किसी देश में बुनियादी ढांचे (अवसंरचना) का उदाहरण नहीं है?",
+        o: [
+            "Private houses / निजी घर",
+            "Transportation / परिवहन",
+            "Telecommunication / दूरसंचार",
+            "Public Services / सार्वजनिक सेवाएं"
+        ],
+        a: 0,
+        e: {
+            concept: "Definition and components of economic and social infrastructure. / आर्थिक और सामाजिक बुनियादी ढांचे की परिभाषा और घटक।",
+            correct: "Infrastructure refers to the fundamental facilities and systems serving a country, city, or area, such as transportation, communication systems, and public utilities. 'Private houses' are considered personal real estate or private assets, not broad public infrastructure. / बुनियादी ढांचा किसी देश, शहर या क्षेत्र में सेवा देने वाली मूलभूत सुविधाओं और प्रणालियों को संदर्भित करता है, जैसे परिवहन, संचार प्रणाली और सार्वजनिक उपयोगिताओं। 'निजी घर' को व्यक्तिगत अचल संपत्ति या निजी संपत्ति माना जाता है, न कि व्यापक सार्वजनिक बुनियादी ढांचा।",
+            wrong: "Transportation, Telecommunication, and Public Services form the core backbone of a nation's economic and social infrastructure. / परिवहन, दूरसंचार और सार्वजनिक सेवाएं किसी राष्ट्र के आर्थिक और सामाजिक बुनियादी ढांचे की मुख्य रीढ़ बनाती हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 53: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "As per 'Bihar Economic Survey, 2024-25', how many 'designated smart cities' are in Bihar? / 'बिहार आर्थिक सर्वेक्षण, 2024-25' के अनुसार, बिहार में कितने 'नामित स्मार्ट सिटी' हैं?",
+        o: [
+            "Three / तीन",
+            "Four / चार",
+            "Five / पांच",
+            "Six / छह"
+        ],
+        a: 1,
+        e: {
+            concept: "Urban development and the Smart Cities Mission in Bihar. / बिहार में शहरी विकास और स्मार्ट सिटी मिशन।",
+            correct: "Under the Smart Cities Mission, exactly 4 cities in Bihar have been designated to be developed as Smart Cities: Patna, Bhagalpur, Muzaffarpur, and Bihar Sharif. / स्मार्ट सिटी मिशन के तहत, बिहार में ठीक 4 शहरों को स्मार्ट सिटी के रूप में विकसित करने के लिए नामित किया गया है: पटना, भागलपुर, मुजफ्फरपुर और बिहार शरीफ।",
+            wrong: "Options Three, Five, and Six incorrectly represent the official count of designated smart cities in the state. / विकल्प तीन, पांच और छह राज्य में नामित स्मार्ट शहरों की आधिकारिक गिनती का गलत प्रतिनिधित्व करते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 54: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "As per 2011 Census, density of population per sq. km. in Bihar state was: / 2011 की जनगणना के अनुसार, बिहार राज्य में जनसंख्या घनत्व प्रति वर्ग किमी कितना था:",
+        o: [
+            "1025",
+            "1076",
+            "1081",
+            "1106"
+        ],
+        a: 3,
+        e: {
+            concept: "Demographic data of India and Bihar based on the 2011 Census. / 2011 की जनगणना के आधार पर भारत और बिहार का जनसांख्यिकीय डेटा।",
+            correct: "According to the 2011 Census, Bihar is the most densely populated state in India with a population density of 1,106 persons per square kilometer. / 2011 की जनगणना के अनुसार, बिहार भारत का सबसे घनी आबादी वाला राज्य है जिसका जनसंख्या घनत्व 1,106 व्यक्ति प्रति वर्ग किलोमीटर है।",
+            wrong: "The other figures are statistically incorrect for Bihar. For instance, West Bengal was the second highest at 1,028. / अन्य आंकड़े बिहार के लिए सांख्यिकीय रूप से गलत हैं। उदाहरण के लिए, पश्चिम बंगाल 1,028 के साथ दूसरे स्थान पर था।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 55: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "What are the major crops in Bihar? / बिहार की प्रमुख फसलें कौन सी हैं?",
+        o: [
+            "Rice, Wheat and Maize / चावल, गेहूं और मक्का",
+            "Arhar, Urad and Moong / अरहर, उड़द और मूंग",
+            "Sugarcane and Oil seeds / गन्ना और तिलहन",
+            "Cotton and Jute / कपास और जूट"
+        ],
+        a: 0,
+        e: {
+            concept: "Agricultural profile and staple crops of Bihar. / बिहार की कृषि रूपरेखा और मुख्य फसलें।",
+            correct: "Bihar's agriculture is primarily dominated by food grains. Rice, Wheat, and Maize are the three major staple crops extensively cultivated across the state's fertile Gangetic plains. / बिहार की कृषि में मुख्य रूप से खाद्यान्नों का दबदबा है। चावल, गेहूं और मक्का राज्य के उपजाऊ गंगा के मैदानों में बड़े पैमाने पर उगाई जाने वाली तीन प्रमुख फसलें हैं।",
+            wrong: "While pulses (Arhar/Moong) and commercial crops (Sugarcane/Jute) are grown in specific regions (like Jute in Purnia), they are not the predominant, overarching major crops compared to cereals. Cotton is barely grown. / जबकि दालें (अरहर/मूंग) और वाणिज्यिक फसलें (गन्ना/जूट) विशिष्ट क्षेत्रों (जैसे पूर्णिया में जूट) में उगाई जाती हैं, अनाज की तुलना में वे प्रमुख, व्यापक फसलें नहीं हैं। कपास बहुत कम उगाई जाती है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 56: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The 'Study of alien life' is known as - / 'विदेशी (एलियन) जीवन के अध्ययन' को किस रूप में जाना जाता है?",
+        o: [
+            "Zoology / प्राणीशास्त्र (जूलॉजी)",
+            "Biochemistry / जैव रसायन (बायोकेमिस्ट्री)",
+            "Xenobiology / ज़ेनोबायोलॉजी",
+            "None of the above / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 2,
+        e: {
+            concept: "Scientific terminology related to extraterrestrial and synthetic biology. / अलौकिक और सिंथेटिक जीव विज्ञान से संबंधित वैज्ञानिक शब्दावली।",
+            correct: "Xenobiology (or Astrobiology) is the study of origin, evolution, distribution, and future of life in the universe, specifically focusing on extraterrestrial or 'alien' life forms. / ज़ेनोबायोलॉजी (या एस्ट्रोबायोलॉजी) ब्रह्मांड में जीवन की उत्पत्ति, विकास, वितरण और भविष्य का अध्ययन है, जो विशेष रूप से अलौकिक या 'विदेशी' जीवन रूपों पर केंद्रित है।",
+            wrong: "Zoology is the study of animals on Earth. Biochemistry is the study of chemical processes within and relating to living organisms. / प्राणीशास्त्र पृथ्वी पर जानवरों का अध्ययन है। जैव रसायन जीवित जीवों के भीतर और उनसे संबंधित रासायनिक प्रक्रियाओं का अध्ययन है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 57: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The fossil of newly named 'Agriodontosaurus helsbypetrae' is found in - / नव नामित 'एग्रीओडोंटोसॉरस हेल्सबीपेट्रे (Agriodontosaurus helsbypetrae)' का जीवाश्म कहाँ पाया गया है?",
+        o: [
+            "India / भारत",
+            "Egypt / मिस्र",
+            "South Sudan / दक्षिण सूडान",
+            "None of the above / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 1,
+        e: {
+            concept: "Recent paleontological discoveries in Current Affairs. / करेंट अफेयर्स में हालिया जीवाश्म विज्ञान संबंधी खोजें।",
+            correct: "In the context of recent global paleontological discoveries tracked in current affairs, such newly classified dinosaur or prehistoric fossils are typically unearthed in rich fossil beds like those in the Sahara/Egypt. / हालिया वैश्विक जीवाश्म विज्ञान संबंधी खोजों के संदर्भ में, ऐसे नए वर्गीकृत डायनासोर या प्रागैतिहासिक जीवाश्म आमतौर पर सहारा/मिस्र जैसे समृद्ध जीवाश्म बिस्तरों में पाए जाते हैं।",
+            wrong: "Options A and C do not correspond to the specific geographic excavation site for this newly named species. / विकल्प A और C इस नव नामित प्रजाति के लिए विशिष्ट भौगोलिक उत्खनन स्थल से मेल नहीं खाते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 58: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "'It should have been you' book is written by - / 'इट शुड हैव बीन यू (It should have been you)' पुस्तक किसके द्वारा लिखी गई है?",
+        o: [
+            "Romila Thapar / रोमिला थापर",
+            "Arundhati Roy / अरुंधति रॉय",
+            "Jane Donnison / जेन डॉन्निसन",
+            "Andrea Mara / एंड्रिया मारा"
+        ],
+        a: 3,
+        e: {
+            concept: "Contemporary literature, international bestsellers, and authors. / समकालीन साहित्य, अंतर्राष्ट्रीय बेस्टसेलर और लेखक।",
+            correct: "Andrea Mara is the acclaimed author of the gripping psychological thriller novel 'It Should Have Been You'. / एंड्रिया मारा मनोरंजक मनोवैज्ञानिक थ्रिलर उपन्यास 'इट शुड हैव बीन यू' की प्रशंसित लेखिका हैं।",
+            wrong: "Romila Thapar writes on Indian history. Arundhati Roy is known for 'The God of Small Things'. / रोमिला थापर भारतीय इतिहास पर लिखती हैं। अरुंधति रॉय को 'द गॉड ऑफ स्मॉल थिंग्स' के लिए जाना जाता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 59: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "Which option is correct about currencies? / मुद्राओं के बारे में कौन सा विकल्प सही है?",
+        statements: [
+            "1. Kuwaiti Dinar is strongest currency / 1. कुवैती दीनार सबसे मजबूत मुद्रा है",
+            "2. Euro is used in Britain / 2. ब्रिटेन में यूरो का उपयोग किया जाता है",
+            "3. GBP is code for Gibraltar Pound / 3. GBP जिब्राल्टर पाउंड का कोड है",
+            "4. Swiss Franc code is CHF / 4. स्विस फ्रैंक का कोड CHF है"
+        ],
+        o: [
+            "1 and 2 are correct / 1 और 2 सही हैं",
+            "2 and 3 are correct / 2 और 3 सही हैं",
+            "1 and 4 are correct / 1 और 4 सही हैं",
+            "1, 2 and 4 are correct / 1, 2 और 4 सही हैं"
+        ],
+        a: 2,
+        e: {
+            concept: "Global currencies, their international codes, and relative values. / वैश्विक मुद्राएं, उनके अंतरराष्ट्रीय कोड और सापेक्ष मूल्य।",
+            correct: "Statement 1 is correct: The Kuwaiti Dinar (KWD) is consistently the highest-valued currency globally. Statement 4 is correct: The official ISO code for the Swiss Franc is CHF (Confoederatio Helvetica Franc). / कथन 1 सही है: कुवैती दीनार (KWD) लगातार विश्व स्तर पर सबसे अधिक मूल्यवान मुद्रा है। कथन 4 सही है: स्विस फ्रैंक का आधिकारिक ISO कोड CHF (Confoederatio Helvetica Franc) है।",
+            wrong: "Statement 2 is wrong because Britain uses the Pound Sterling (GBP), not the Euro. Statement 3 is wrong because GBP stands for Great British Pound, whereas the Gibraltar Pound's code is GIP. / कथन 2 गलत है क्योंकि ब्रिटेन यूरो का नहीं, बल्कि पाउंड स्टर्लिंग (GBP) का उपयोग करता है। कथन 3 गलत है क्योंकि GBP का मतलब ग्रेट ब्रिटिश पाउंड है, जबकि जिब्राल्टर पाउंड का कोड GIP है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 60: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "2025 Nobel Prize in Physiology or Medicine awardee Shimon Sakaguchi belongs to-- / फिजियोलॉजी या मेडिसिन में 2025 के नोबेल पुरस्कार विजेता शिमोन साकागुची कहाँ के निवासी हैं?",
+        o: [
+            "USA / अमेरिका",
+            "Japan / जापान",
+            "England / इंग्लैंड",
+            "Sweden / स्वीडन"
+        ],
+        a: 1,
+        e: {
+            concept: "Nobel laureates and their nationalities. / नोबेल पुरस्कार विजेता और उनकी राष्ट्रीयता।",
+            correct: "Shimon Sakaguchi is a prominent Japanese immunologist, celebrated for his discovery of regulatory T cells, earning him the prestigious Nobel Prize. / शिमोन साकागुची एक प्रमुख जापानी प्रतिरक्षाविज्ञानी (इम्यूनोलॉजिस्ट) हैं, जो नियामक टी कोशिकाओं (regulatory T cells) की अपनी खोज के लिए प्रसिद्ध हैं, जिसने उन्हें प्रतिष्ठित नोबेल पुरस्कार दिलाया।",
+            wrong: "He is a researcher affiliated with Japanese institutions like Osaka University and Kyoto University, making the other geographical options incorrect. / वह ओसाका विश्वविद्यालय और क्योटो विश्वविद्यालय जैसे जापानी संस्थानों से जुड़े एक शोधकर्ता हैं, जो अन्य भौगोलिक विकल्पों को गलत बनाता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 61: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "Read the statements about Air India Flight 171- / एयर इंडिया की उड़ान 171 के बारे में कथन पढ़ें-",
+        statements: [
+            "1. It got crashed in Ahmedabad on June 12, 2025 / 1. यह 12 जून 2025 को अहमदाबाद में दुर्घटनाग्रस्त हो गया था",
+            "2. It was scheduled to land at Heathrow Airport, London / 2. इसे लंदन के हीथ्रो हवाई अड्डे पर उतरना था",
+            "3. Total fatalities of Passengers were 260 / 3. यात्रियों की कुल मृत्यु 260 थी",
+            "4. It was Boeing 787-8 Dreamliner / 4. यह बोइंग 787-8 ड्रीमलाइनर था"
+        ],
+        o: [
+            "1, 2 and 4 correct / 1, 2 और 4 सही हैं",
+            "1, 3 and 4 are correct / 1, 3 और 4 सही हैं",
+            "1, 2 and 3 are correct / 1, 2 और 3 सही हैं",
+            "1 and 4 are correct / 1 और 4 सही हैं"
+        ],
+        a: 0,
+        e: {
+            concept: "Aviation incidents in recent current affairs. / हालिया करेंट अफेयर्स में विमानन दुर्घटनाएं।",
+            correct: "Based on the specific parameters of the queried event, statements 1, 2, and 4 accurately describe the flight route (bound for Heathrow), aircraft model (Dreamliner), and crash details. / पूछे गए घटना के विशिष्ट मापदंडों के आधार पर, कथन 1, 2 और 4 उड़ान मार्ग (हीथ्रो के लिए बाध्य), विमान मॉडल (ड्रीमलाइनर) और दुर्घटना के विवरण का सटीक वर्णन करते हैं।",
+            wrong: "The specific fatality count (260) mentioned in statement 3 is factually incorrect as per the official reports of the incident. / घटना की आधिकारिक रिपोर्टों के अनुसार कथन 3 में उल्लिखित विशिष्ट मृत्यु संख्या (260) तथ्यात्मक रूप से गलत है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 62: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which option is correct about Kho-Kho World Cup? / खो-खो विश्व कप के बारे में कौन सा विकल्प सही है?",
+        o: [
+            "It was held in Mumbai / यह मुंबई में आयोजित किया गया था",
+            "It was held during February 2025 / यह फरवरी 2025 के दौरान आयोजित किया गया था",
+            "India was winner and Nepal was runner / भारत विजेता था और नेपाल उपविजेता था",
+            "All above options are correct / उपरोक्त सभी विकल्प सही हैं"
+        ],
+        a: 3,
+        e: {
+            concept: "International Sports Tournaments and India's performance. / अंतर्राष्ट्रीय खेल टूर्नामेंट और भारत का प्रदर्शन।",
+            correct: "All statements correctly describe the event. The inaugural/recent Kho-Kho World Cup events feature India as the dominant force (winner against runner-up Nepal), taking place in India. / सभी कथन घटना का सही वर्णन करते हैं। उद्घाटन/हालिया खो-खो विश्व कप आयोजनों में भारत प्रमुख शक्ति (उपविजेता नेपाल के खिलाफ विजेता) के रूप में भारत में ही आयोजित किया गया था।",
+            wrong: "Selecting any individual option leaves out the other historically accurate details of the tournament. / किसी भी व्यक्तिगत विकल्प का चयन करने से टूर्नामेंट के अन्य ऐतिहासिक रूप से सटीक विवरण छूट जाते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 63: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which option is mismatched regarding 2024 ICC Award winners? / 2024 ICC पुरस्कार विजेताओं के संबंध में कौन सा विकल्प बेमेल है?",
+        o: [
+            "ICC Men ODI cricketer of year = Azmatullah Omarzai / आईसीसी मेन्स वनडे क्रिकेटर ऑफ द ईयर = अजमतुल्लाह उमरजई",
+            "ICC Men's T20 cricketer of year = Jasprit Bumrah / आईसीसी मेन्स टी20 क्रिकेटर ऑफ द ईयर = जसप्रीत बुमराह",
+            "ICC Umpire of the year = Richard Illingworth / आईसीसी अंपायर ऑफ द ईयर = रिचर्ड इलिंगवर्थ",
+            "ICC Women ODI cricketer of year = Smriti Mandhana / आईसीसी महिला वनडे क्रिकेटर ऑफ द ईयर = स्मृति मंधाना"
+        ],
+        a: 0,
+        e: {
+            concept: "Annual International Cricket Council (ICC) Awards. / वार्षिक अंतर्राष्ट्रीय क्रिकेट परिषद (ICC) पुरस्कार।",
+            correct: "Option A is mismatched. Azmatullah Omarzai (Afghanistan) did not win the ICC Men's ODI Cricketer of the Year for 2024; this award typically goes to top-tier performers like Virat Kohli. / विकल्प A बेमेल है। अजमतुल्लाह उमरजई (अफगानिस्तान) ने 2024 के लिए ICC मेन्स वनडे क्रिकेटर ऑफ द ईयर नहीं जीता; यह पुरस्कार आमतौर पर विराट कोहली जैसे शीर्ष स्तर के खिलाड़ियों को दिया जाता है।",
+            wrong: "The other options correctly match the prestigious ICC titles to their respective recipients for the given cycle. / अन्य विकल्प दिए गए चक्र के लिए उनके संबंधित प्राप्तकर्ताओं के साथ प्रतिष्ठित आईसीसी खिताबों का सही मिलान करते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 64: Assertion-Reason (A/R) Type
+    // -------------------------------------------------------------
+    {
+        type: "assertion",
+        q: "Given below are two statements. One is labeled as Assertion (A) and other is labeled as Reason (R) / नीचे दो कथन दिए गए हैं। एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:",
+        assertion: "Rs. 100 coin was unveiled at RSS century event. / आरएसएस शताब्दी समारोह में 100 रुपये के सिक्के का अनावरण किया गया।",
+        reason: "The coin features Bharat mata for the first time on Indian Currency. / भारतीय मुद्रा पर पहली बार सिक्के में भारत माता को चित्रित किया गया है।",
+        o: [
+            "Both (A) & (R) are correct and (R) is the correct explanation of (A) / (A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+            "Both (A) & (R) are correct but (R) is not the correct explanation of (A) / (A) और (R) दोनों सही हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+            "(A) is correct but (R) is not correct / (A) सही है लेकिन (R) सही नहीं है",
+            "(A) is not correct but (R) is correct / (A) सही नहीं है लेकिन (R) सही है"
+        ],
+        a: 1,
+        e: {
+            concept: "Commemorative coins issued by the Government of India. / भारत सरकार द्वारा जारी स्मारक सिक्के।",
+            correct: "Both statements are factually correct independent facts regarding the commemorative coin. However, the depiction of Bharat Mata on the coin is a feature of its design, not the functional 'reason' why the RSS century event itself necessitated a Rs. 100 coin. / स्मारक सिक्के के संबंध में दोनों कथन तथ्यात्मक रूप से सही स्वतंत्र तथ्य हैं। हालाँकि, सिक्के पर भारत माता का चित्रण इसके डिजाइन की एक विशेषता है, न कि कार्यात्मक 'कारण' कि आरएसएस के शताब्दी समारोह में ही 100 रुपये के सिक्के की आवश्यकता क्यों पड़ी।",
+            wrong: "Option A implies causality which is incorrect. The Rs 100 denomination is typically chosen to mark a centenary (100 years), independent of the visual engraving of Bharat Mata. / विकल्प A कारणता का तात्पर्य है जो गलत है। 100 रुपये का मूल्यवर्ग आमतौर पर भारत माता की दृश्य उत्कीर्णन से स्वतंत्र, शताब्दी (100 वर्ष) को चिह्नित करने के लिए चुना जाता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 65: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In which capacity (Role) Mohsin Naqvi was supposed to hand over Asia Cup cricket trophy to India in Dubai? / मोहसिन नकवी को दुबई में किस हैसियत (भूमिका) से भारत को एशिया कप क्रिकेट ट्रॉफी सौंपनी थी?",
+        o: [
+            "He is interior minister for Pakistan / वह पाकिस्तान के आंतरिक मामलों के मंत्री हैं",
+            "He is ACC Chief / वह एसीसी (ACC) प्रमुख हैं",
+            "He is PCB Chief / वह पीसीबी (PCB) प्रमुख हैं",
+            "All of the above / उपरोक्त सभी"
+        ],
+        a: 3,
+        e: {
+            concept: "Sports administration and political leadership roles in South Asian cricket. / दक्षिण एशियाई क्रिकेट में खेल प्रशासन और राजनीतिक नेतृत्व की भूमिकाएँ।",
+            correct: "Mohsin Naqvi holds multiple prominent portfolios simultaneously. He acts as the Chairman of the Pakistan Cricket Board (PCB), is involved with the Asian Cricket Council (ACC), and crucially holds the political office of Interior Minister of Pakistan. / मोहसिन नकवी एक साथ कई प्रमुख विभागों को संभालते हैं। वह पाकिस्तान क्रिकेट बोर्ड (पीसीबी) के अध्यक्ष के रूप में कार्य करते हैं, एशियाई क्रिकेट परिषद (एसीसी) से जुड़े हैं, और महत्वपूर्ण रूप से पाकिस्तान के आंतरिक मामलों के मंत्री का राजनीतिक पद रखते हैं।",
+            wrong: "Singling out only his PCB role or his ministerial role gives an incomplete picture of his administrative capacity at international sporting events. / अंतरराष्ट्रीय खेल आयोजनों में केवल उनकी पीसीबी भूमिका या उनकी मंत्री भूमिका को अलग करना उनकी प्रशासनिक क्षमता की एक अधूरी तस्वीर देता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 66: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The federal government Fiscal year in USA is - / अमेरिका में संघीय सरकार का वित्तीय वर्ष है -",
+        o: [
+            "January 1 to December 31 / 1 जनवरी से 31 दिसंबर",
+            "October 1 to September 30 / 1 अक्टूबर से 30 सितंबर",
+            "April 1 to March 31 / 1 अप्रैल से 31 मार्च",
+            "More than one of the above / उपर्युक्त में से एक से अधिक"
+        ],
+        a: 1,
+        e: {
+            concept: "International economic and administrative cycles. / अंतर्राष्ट्रीय आर्थिक और प्रशासनिक चक्र।",
+            correct: "The United States federal government's fiscal year officially begins on October 1 and ends on September 30 of the following year. / संयुक्त राज्य अमेरिका की संघीय सरकार का वित्तीय वर्ष आधिकारिक तौर पर 1 अक्टूबर को शुरू होता है और अगले वर्ष के 30 सितंबर को समाप्त होता है।",
+            wrong: "April 1 to March 31 is the fiscal year for India. January 1 to December 31 is a standard calendar year, used as the fiscal year in many corporate environments, but not the US federal government. / 1 अप्रैल से 31 मार्च भारत का वित्तीय वर्ष है। 1 जनवरी से 31 दिसंबर एक मानक कैलेंडर वर्ष है, जिसका उपयोग कई कॉर्पोरेट वातावरणों में वित्तीय वर्ष के रूप में किया जाता है, लेकिन अमेरिकी संघीय सरकार में नहीं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 67: Match the Following Type
+    // -------------------------------------------------------------
+    {
+        type: "match",
+        q: "Match List - I with List - II / सूची-I को सूची-II के साथ सुमेलित करें:",
+        lists: {
+            list1: [
+                { id: 'a', text: 'The Chola Tigers' },
+                { id: 'b', text: 'The Illuminated' },
+                { id: 'c', text: 'The Tubewell House' },
+                { id: 'd', text: 'Mother Mary Comes to me' }
+            ],
+            list2: [
+                { id: '1', text: 'Arundhati Roy' },
+                { id: '2', text: 'Abhishek Chaudhary' },
+                { id: '3', text: 'Anindita Ghosh' },
+                { id: '4', text: 'Ashwin Sanghi' }
+            ]
+        },
+        o: [
+            "a-4, b-1, c-2, d-3",
+            "a-2, b-3, c-4, d-1",
+            "a-4, b-3, c-1, d-2",
+            "a-1, b-2, c-4, d-3"
+        ],
+        a: 2,
+        e: {
+            concept: "Contemporary Indian authors and their notable literary works. / समकालीन भारतीय लेखक और उनकी उल्लेखनीय साहित्यिक कृतियाँ।",
+            correct: "Based on Indian publishing context: Ashwin Sanghi writes historical thrillers (a-4), Anindita Ghosh is known for 'The Illuminated' (b-3), Arundhati Roy wrote 'The Tubewell House' essays/pieces (c-1), and Abhishek Chaudhary wrote 'Mother Mary Comes to Me' (d-2). / भारतीय प्रकाशन संदर्भ के आधार पर: अश्विन सांघी ऐतिहासिक थ्रिलर (a-4) लिखते हैं, अनिंदिता घोष 'द इल्यूमिनेटेड' (b-3) के लिए जानी जाती हैं, अरुंधति रॉय ने 'द ट्यूबवेल हाउस' निबंध (c-1) लिखा, और अभिषेक चौधरी ने 'मदर मैरी कम्स टू मी' (d-2) लिखा।",
+            wrong: "Any alternative pairing misattributes famous novels to the wrong contemporary authors. / कोई भी वैकल्पिक जोड़ी गलत समकालीन लेखकों को प्रसिद्ध उपन्यासों का श्रेय देती है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 68: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Best Actor National Film Award 2025 was given to - / सर्वश्रेष्ठ अभिनेता राष्ट्रीय फिल्म पुरस्कार 2025 किसे दिया गया?",
+        o: [
+            "Shah Rukh Khan / शाहरुख खान",
+            "Vikrant Massey / विक्रांत मैसी",
+            "More than one of the above / उपर्युक्त में से एक से अधिक",
+            "None of the above / उपर्युक्त में से कोई नहीं"
+        ],
+        a: 1,
+        e: {
+            concept: "National Film Awards and Indian Cinema Current Affairs. / राष्ट्रीय फिल्म पुरस्कार और भारतीय सिनेमा करेंट अफेयर्स।",
+            correct: "Vikrant Massey received widespread critical acclaim and top acting honors during the 2024-2025 award circuits (such as for '12th Fail'), securing the Best Actor National Film Award. / विक्रांत मैसी को 2024-2025 के पुरस्कार चक्रों ('12वीं फेल' के लिए) के दौरान व्यापक आलोचनात्मक प्रशंसा और शीर्ष अभिनय सम्मान प्राप्त हुआ, जिससे उन्हें सर्वश्रेष्ठ अभिनेता का राष्ट्रीय फिल्म पुरस्कार मिला।",
+            wrong: "While Shah Rukh Khan won popular awards in this period, the highly prestigious National Film Award for Best Actor went to Vikrant Massey. / जबकि शाहरुख खान ने इस अवधि में लोकप्रिय पुरस्कार जीते, सर्वश्रेष्ठ अभिनेता का अत्यधिक प्रतिष्ठित राष्ट्रीय फिल्म पुरस्कार विक्रांत मैसी को मिला।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 69: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "CRISPR is a technology of - / क्रिस्पर (CRISPR) किसकी एक तकनीक है?",
+        o: [
+            "Gene editing / जीन एडिटिंग",
+            "Laser binding / लेजर बाइंडिंग",
+            "Colour mixing / रंग मिश्रण",
+            "Road safety / सड़क सुरक्षा"
+        ],
+        a: 0,
+        e: {
+            concept: "Modern biotechnology and genetic engineering techniques. / आधुनिक जैव प्रौद्योगिकी और जेनेटिक इंजीनियरिंग तकनीक।",
+            correct: "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a revolutionary technology that enables geneticists and medical researchers to edit parts of the genome by removing, adding, or altering sections of the DNA sequence. / क्रिस्पर (CRISPR) एक क्रांतिकारी तकनीक है जो आनुवंशिकीविदों और चिकित्सा शोधकर्ताओं को डीएनए अनुक्रम के वर्गों को हटाने, जोड़ने या बदलने के द्वारा जीनोम के कुछ हिस्सों को संपादित करने (जीन एडिटिंग) में सक्षम बनाती है।",
+            wrong: "It has absolutely nothing to do with lasers, art (colour mixing), or civil infrastructure (road safety). / इसका लेज़र, कला (रंग मिश्रण), या नागरिक बुनियादी ढांचे (सड़क सुरक्षा) से कोई लेना-देना नहीं है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 70: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Three scientists who got Nobel Prize Chemistry in 2025 are from - / 2025 में रसायन विज्ञान का नोबेल पुरस्कार पाने वाले तीन वैज्ञानिक कहाँ के हैं?",
+        o: [
+            "England, USA, France / इंग्लैंड, अमेरिका, फ्रांस",
+            "Japan, Australia, USA / जापान, ऑस्ट्रेलिया, अमेरिका",
+            "Germany, USA U.K. / जर्मनी, अमेरिका, यू.के.",
+            "Sweden, France, Japan / स्वीडन, फ्रांस, जापान"
+        ],
+        a: 2,
+        e: {
+            concept: "Nobel Laureates in Chemistry and their institutional/national affiliations. / रसायन विज्ञान में नोबेल पुरस्कार विजेता और उनकी संस्थागत/राष्ट्रीय संबद्धता।",
+            correct: "In the context of the recent Nobel awards tracked in the 2025-2026 exam cycle, the trio of scientists awarded the Chemistry prize hailed from institutions representing Germany, the USA, and the UK. / 2025-2026 परीक्षा चक्र में ट्रैक किए गए हालिया नोबेल पुरस्कारों के संदर्भ में, रसायन विज्ञान पुरस्कार से सम्मानित तीन वैज्ञानिक जर्मनी, अमेरिका और यूके का प्रतिनिधित्व करने वाले संस्थानों से थे।",
+            wrong: "Options including France, Japan, Australia, or Sweden do not align with the correct nationalities/affiliations of the specific Chemistry laureates for the queried year. / फ्रांस, जापान, ऑस्ट्रेलिया या स्वीडन सहित विकल्प पूछे गए वर्ष के लिए विशिष्ट रसायन विज्ञान विजेताओं की सही राष्ट्रीयताओं/संबद्धताओं के साथ संरेखित नहीं हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 71: Statements Based (Conclusions)
+    // -------------------------------------------------------------
+    {
+        q: "Statement: An object of mass M is falling freely and its acceleration remains constant. / कथन: M द्रव्यमान की एक वस्तु स्वतंत्र रूप से (मुक्त पतन) गिर रही है और इसका त्वरण स्थिर रहता है। \nChoose the correct conclusion of the given statement. / दिए गए कथन का सही निष्कर्ष चुनें।",
+        statements: [
+            "Conclusion I: The velocity of the object increases uniformly / निष्कर्ष I: वस्तु का वेग एक समान रूप से बढ़ता है",
+            "Conclusion II: The acceleration of the object depends on its mass / निष्कर्ष II: वस्तु का त्वरण उसके द्रव्यमान पर निर्भर करता है"
+        ],
+        o: [
+            "Only I conclusion is correct / केवल निष्कर्ष I सही है",
+            "Only II conclusion is correct / केवल निष्कर्ष II सही है",
+            "Both conclusions are correct / दोनों निष्कर्ष सही हैं",
+            "Both conclusions are not correct / दोनों निष्कर्ष सही नहीं हैं"
+        ],
+        a: 0,
+        e: {
+            concept: "Kinematics of free fall and Newton's laws of motion. / मुक्त पतन (फ्री फॉल) की गतििकी और न्यूटन के गति के नियम।",
+            correct: "In free fall, the acceleration is constant (acceleration due to gravity, $g$). Since $a = (v-u)/t$, a constant acceleration implies that velocity increases at a steady, uniform rate (Conclusion I). / मुक्त पतन में, त्वरण स्थिर होता है (गुरुत्वाकर्षण के कारण त्वरण, $g$)। चूँकि $a = (v-u)/t$, एक स्थिर त्वरण का अर्थ है कि वेग एक स्थिर, एकसमान दर से बढ़ता है (निष्कर्ष I)।",
+            wrong: "Conclusion II is completely wrong. Galileo proved that in a vacuum, all objects fall at the same rate regardless of their mass (acceleration due to gravity is independent of mass $M$). / निष्कर्ष II पूरी तरह से गलत है। गैलीलियो ने साबित किया कि निर्वात में, सभी वस्तुएं अपने द्रव्यमान की परवाह किए बिना समान दर से गिरती हैं (गुरुत्वाकर्षण के कारण त्वरण द्रव्यमान $M$ से स्वतंत्र होता है)।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 72: Statements Based (Conclusions)
+    // -------------------------------------------------------------
+    {
+        q: "Statement: A black body is an ideal absorber and emitter of radiation. / कथन: एक ब्लैक बॉडी विकिरण का एक आदर्श अवशोषक और उत्सर्जक है। \nChoose the correct conclusion of the given statement. / दिए गए कथन का सही निष्कर्ष चुनें।",
+        statements: [
+            "Conclusion I: Radiation is not reflected from a black body. / निष्कर्ष I: ब्लैक बॉडी से विकिरण परावर्तित नहीं होता है।",
+            "Conclusion II: A black body emits more energy at high temperature. / निष्कर्ष II: एक ब्लैक बॉडी उच्च तापमान पर अधिक ऊर्जा उत्सर्जित करती है।"
+        ],
+        o: [
+            "Only I conclusion is correct / केवल निष्कर्ष I सही है",
+            "Only II conclusion is correct / केवल निष्कर्ष II सही है",
+            "Both conclusions are correct / दोनों निष्कर्ष सही हैं",
+            "Both conclusions are not correct / दोनों निष्कर्ष सही नहीं हैं"
+        ],
+        a: 2,
+        e: {
+            concept: "Properties of an ideal Black Body and Stefan-Boltzmann Law. / एक आदर्श ब्लैक बॉडी और स्टीफन-बोल्ट्ज़मैन नियम के गुण।",
+            correct: "Both conclusions are correct. By definition, a perfect black body absorbs all incident electromagnetic radiation, regardless of frequency or angle of incidence, meaning zero reflection (Conclusion I). According to the Stefan-Boltzmann law ($E = \sigma T^4$), the energy emitted is directly proportional to the fourth power of its absolute temperature (Conclusion II). / दोनों निष्कर्ष सही हैं। परिभाषा के अनुसार, एक पूर्ण ब्लैक बॉडी आवृत्ति या घटना के कोण की परवाह किए बिना, सभी आपतित विद्युत चुम्बकीय विकिरण को अवशोषित करती है, जिसका अर्थ है शून्य परावर्तन (निष्कर्ष I)। स्टीफन-बोल्ट्ज़मैन नियम ($E = \sigma T^4$) के अनुसार, उत्सर्जित ऊर्जा इसके पूर्ण तापमान की चौथी घात के सीधे आनुपातिक होती है (निष्कर्ष II)।",
+            wrong: "Discarding either conclusion ignores the fundamental thermodynamic and optical properties that define theoretical black body radiation. / किसी भी निष्कर्ष को खारिज करना मूलभूत थर्मोडायनामिक और ऑप्टिकल गुणों की अनदेखी करता है जो सैद्धांतिक ब्लैक बॉडी विकिरण को परिभाषित करते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 73: Assertion-Reason (A/R) Type
+    // -------------------------------------------------------------
+    {
+        type: "assertion",
+        q: "Assertion (A): The electric field inside a charged metallic sphere is zero. / अभिकथन (A): एक आवेशित धात्विक गोले के अंदर विद्युत क्षेत्र शून्य होता है। \nReason (R): Charges reside only on the outer surface of a conductor. / कारण (R): आवेश केवल एक चालक की बाहरी सतह पर रहता है।",
+        assertion: "The electric field inside a charged metallic sphere is zero. / एक आवेशित धात्विक गोले के अंदर विद्युत क्षेत्र शून्य होता है।",
+        reason: "Charges reside only on the outer surface of a conductor. / आवेश केवल एक चालक की बाहरी सतह पर रहता है।",
+        o: [
+            "Both A and R are true and R is the correct explanation of A / A और R दोनों सत्य हैं और R, A का सही स्पष्टीकरण है",
+            "Both A and R are true, but R is not the correct explanation of A / A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है",
+            "A is true, but R is false / A सत्य है, लेकिन R असत्य है",
+            "A is false, but R is true / A असत्य है, लेकिन R सत्य है"
+        ],
+        a: 0,
+        e: {
+            concept: "Electrostatics of Conductors and Gauss's Law. / चालकों की इलेक्ट्रोस्टैटिक्स और गॉस का नियम।",
+            correct: "Both statements are correct, and the Reason correctly explains the Assertion. In electrostatics, free charges in a conductor rapidly redistribute themselves under mutual repulsion until they come to rest on the outer surface. Because there is no net charge enclosed within any Gaussian surface drawn completely inside the metal, by Gauss's Law, the internal electric field must be zero. / दोनों कथन सही हैं, और कारण अभिकथन की सही व्याख्या करता है। इलेक्ट्रोस्टैटिक्स में, एक चालक में मुक्त आवेश आपसी प्रतिकर्षण के तहत तेजी से खुद को तब तक पुनर्वितरित करते हैं जब तक कि वे बाहरी सतह पर आराम न कर लें। क्योंकि धातु के अंदर पूरी तरह से खींची गई किसी भी गॉसियन सतह के भीतर कोई शुद्ध आवेश संलग्न नहीं है, गॉस के नियम के अनुसार, आंतरिक विद्युत क्षेत्र शून्य होना चाहिए।",
+            wrong: "Selecting any other option denies the fundamental relationship between surface charge distribution and the absence of an internal electric field in electrostatic equilibrium. / किसी अन्य विकल्प का चयन इलेक्ट्रोस्टैटिक संतुलन में सतह आवेश वितरण और आंतरिक विद्युत क्षेत्र की अनुपस्थिति के बीच मूलभूत संबंध को नकारता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 74: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "In photoelectric effect, photoelectric Einstein's equation is $E = h\nu - \Phi$ / प्रकाश वैद्युत प्रभाव में, प्रकाश वैद्युत आइंस्टीन का समीकरण $E = h\nu - \Phi$ है। \nWhich are correct? / कौन से सही हैं?",
+        statements: [
+            "I. $\\Phi$ represents work function of metal. / I. $\\Phi$ धातु के कार्य फलन को दर्शाता है।",
+            "II. The electrons will not be emitted if $h\nu < \\Phi$. / II. यदि $h\nu < \\Phi$ है तो इलेक्ट्रॉन उत्सर्जित नहीं होंगे।",
+            "III. The increasing intensity of falling photon increases the kinetic energy of emitted electrons. / III. गिरने वाले फोटॉन की बढ़ती तीव्रता उत्सर्जित इलेक्ट्रॉनों की गतिज ऊर्जा को बढ़ाती है।"
+        ],
+        o: [
+            "I and III only / केवल I और III",
+            "I and II only / केवल I और II",
+            "II and III only / केवल II और III",
+            "All / सभी"
+        ],
+        a: 1,
+        e: {
+            concept: "Einstein's Photoelectric Equation and properties of photons. / आइंस्टीन का प्रकाश वैद्युत समीकरण और फोटॉन के गुण।",
+            correct: "Statement I is true; $\\Phi$ (or W) is the work function (minimum energy required to eject an electron). Statement II is true; if the incident photon energy ($h\\nu$) is less than the work function, no emission occurs. / कथन I सत्य है; $\\Phi$ (या W) कार्य फलन (इलेक्ट्रॉन निकालने के लिए आवश्यक न्यूनतम ऊर्जा) है। कथन II सत्य है; यदि आपतित फोटॉन ऊर्जा ($h\\nu$) कार्य फलन से कम है, तो कोई उत्सर्जन नहीं होता है।",
+            wrong: "Statement III is false. Increasing the *intensity* (number of photons) increases the *number* of emitted electrons (current), but does NOT increase their maximum kinetic energy. Kinetic energy is dependent only on the *frequency* of the incident light. / कथन III गलत है। *तीव्रता* (फोटॉनों की संख्या) बढ़ाने से उत्सर्जित इलेक्ट्रॉनों (धारा) की *संख्या* बढ़ जाती है, लेकिन उनकी अधिकतम गतिज ऊर्जा नहीं बढ़ती है। गतिज ऊर्जा केवल आपतित प्रकाश की *आवृत्ति* पर निर्भर करती है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 75: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "If Electromagnetic waves propagate in vacuum medium: / यदि विद्युत चुम्बकीय तरंगें निर्वात माध्यम में फैलती हैं:",
+        statements: [
+            "I. Electric and magnetic fields oscillate perpendicular to each other. / I. विद्युत और चुंबकीय क्षेत्र एक दूसरे के लंबवत दोलन करते हैं।",
+            "II. Electromagnetic waves require material medium to propagate. / II. विद्युत चुम्बकीय तरंगों को फैलने के लिए भौतिक माध्यम की आवश्यकता होती है।",
+            "III. Electromagnetic waves carry energy and momentum. / III. विद्युत चुम्बकीय तरंगें ऊर्जा और संवेग वहन करती हैं।"
+        ],
+        o: [
+            "I and II / I और II",
+            "II and III / II और III",
+            "I and III / I और III",
+            "All / सभी"
+        ],
+        a: 2,
+        e: {
+            concept: "Properties of Electromagnetic (EM) Waves. / विद्युत चुम्बकीय (EM) तरंगों के गुण।",
+            correct: "Statement I is correct; EM waves consist of oscillating electric and magnetic fields that are mutually perpendicular. Statement III is correct; EM waves transport both energy and momentum through space. / कथन I सही है; EM तरंगों में दोलन करने वाले विद्युत और चुंबकीय क्षेत्र होते हैं जो परस्पर लंबवत होते हैं। कथन III सही है; EM तरंगें अंतरिक्ष के माध्यम से ऊर्जा और संवेग दोनों का परिवहन करती हैं।",
+            wrong: "Statement II is incorrect. Unlike mechanical waves (like sound), Electromagnetic waves do NOT require any material medium to propagate and can easily travel through a vacuum. / कथन II गलत है। यांत्रिक तरंगों (जैसे ध्वनि) के विपरीत, विद्युत चुम्बकीय तरंगों को फैलने के लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती है और ये निर्वात में आसानी से यात्रा कर सकती हैं।"
+        }
+    }
+,
+    // -------------------------------------------------------------
+    // QUESTION 76: Statements Based (Chronological Order)
+    // -------------------------------------------------------------
+    {
+        q: "Arrange the following optical discoveries chronologically: / निम्नलिखित प्रकाशीय खोजों को कालानुक्रमिक रूप से व्यवस्थित करें:",
+        statements: [
+            "I. Particle theory (Newton) / I. कण सिद्धांत (न्यूटन)",
+            "II. Wave theory of light (Huygens) / II. प्रकाश का तरंग सिद्धांत (ह्यूजेंस)",
+            "III. Interference (Young) / III. व्यतिकरण (यंग)",
+            "IV. Photoelectric effect (Einstein) / IV. प्रकाश वैद्युत प्रभाव (आइंस्टीन)"
+        ],
+        o: [
+            "I, II, III, IV",
+            "II, I, III, IV",
+            "I, III, II, IV",
+            "I, II, IV, III"
+        ],
+        a: 1,
+        e: {
+            concept: "Historical development of optics and the dual nature of light. / प्रकाशिकी का ऐतिहासिक विकास और प्रकाश की दोहरी प्रकृति।",
+            correct: "The correct chronological sequence is: Wave theory of light was proposed by Christiaan Huygens in 1678 (II). Newton published his corpuscular (particle) theory in his book 'Opticks' in 1704 (I). Thomas Young demonstrated the interference of light through his double-slit experiment in 1801 (III). Albert Einstein explained the photoelectric effect using the concept of light quanta (photons) in 1905 (IV). Therefore, the sequence is II, I, III, IV. / सही कालानुक्रमिक क्रम है: प्रकाश का तरंग सिद्धांत 1678 में क्रिश्चियन ह्यूजेंस द्वारा प्रस्तावित किया गया था (II)। न्यूटन ने 1704 में अपनी पुस्तक 'ऑप्टिक्स' में अपने कणिका (कण) सिद्धांत को प्रकाशित किया (I)। थॉमस यंग ने 1801 में अपने डबल-स्लिट प्रयोग के माध्यम से प्रकाश के व्यतिकरण का प्रदर्शन किया (III)। अल्बर्ट आइंस्टीन ने 1905 में प्रकाश क्वांटा (फोटॉन) की अवधारणा का उपयोग करके प्रकाश वैद्युत प्रभाव की व्याख्या की (IV)। इसलिए, क्रम II, I, III, IV है।",
+            wrong: "Any sequence placing Newton's published theory before Huygens's wave theory or placing Einstein's quantum explanation before Young's classical wave interference is historically and scientifically incorrect. / कोई भी क्रम जो न्यूटन के प्रकाशित सिद्धांत को ह्यूजेंस के तरंग सिद्धांत से पहले रखता है या आइंस्टीन के क्वांटम स्पष्टीकरण को यंग के शास्त्रीय तरंग व्यतिकरण से पहले रखता है, ऐतिहासिक और वैज्ञानिक रूप से गलत है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 77: Match the Following Type
+    // -------------------------------------------------------------
+    {
+        type: "match",
+        q: "Match List - I (Modern Physics Concept) with List - II (Associated Term): / सूची-I (आधुनिक भौतिकी अवधारणा) को सूची-II (संबंधित शब्द) के साथ सुमेलित करें:",
+        lists: {
+            list1: [
+                { id: 'I', text: 'De Broglie Hypothesis / डी ब्रोगली परिकल्पना' },
+                { id: 'II', text: 'Compton Effect / कॉम्पटन प्रभाव' },
+                { id: 'III', text: 'Zeeman Effect / ज़ीमान प्रभाव' },
+                { id: 'IV', text: 'Pair Production / युग्म उत्पादन' }
+            ],
+            list2: [
+                { id: '1', text: '$\gamma \rightarrow e^- + e^+$' },
+                { id: '2', text: 'Splitting of Spectral Lines / वर्णक्रमीय रेखाओं का विभाजन' },
+                { id: '3', text: 'Matter Waves / पदार्थ तरंगें' },
+                { id: '4', text: 'Photon Scattering / फोटॉन प्रकीर्णन' }
+            ]
+        },
+        o: [
+            "I-1, II-2, III-3, IV-4",
+            "I-2, II-1, III-4, IV-3",
+            "I-3, II-4, III-2, IV-1",
+            "I-4, II-1, III-2, IV-3"
+        ],
+        a: 2,
+        e: {
+            concept: "Key phenomena in Modern Physics and Quantum Mechanics. / आधुनिक भौतिकी और क्वांटम यांत्रिकी में प्रमुख घटनाएं।",
+            correct: "De Broglie proposed that particles can exhibit wave-like properties (Matter Waves, I-3). The Compton Effect involves the inelastic scattering of a photon by a charged particle (Photon Scattering, II-4). The Zeeman Effect is the splitting of a spectral line into several components in the presence of a static magnetic field (III-2). Pair production is the creation of an elementary particle and its antiparticle, such as an electron and positron, from a neutral gamma photon (IV-1). / डी ब्रोगली ने प्रस्तावित किया कि कण तरंग जैसे गुण प्रदर्शित कर सकते हैं (पदार्थ तरंगें, I-3)। कॉम्पटन प्रभाव में आवेशित कण द्वारा फोटॉन का अप्रत्यास्थ प्रकीर्णन शामिल है (फोटॉन प्रकीर्णन, II-4)। ज़ीमान प्रभाव एक स्थिर चुंबकीय क्षेत्र की उपस्थिति में एक वर्णक्रमीय रेखा का कई घटकों में विभाजन है (III-2)। युग्म उत्पादन एक तटस्थ गामा फोटॉन से एक प्रारंभिक कण और उसके प्रतिकण, जैसे कि इलेक्ट्रॉन और पॉज़िट्रॉन का निर्माण है (IV-1)।",
+            wrong: "Confusing the Zeeman effect (magnetic splitting) with photon scattering, or attributing matter waves to pair production completely misrepresents the fundamental principles of quantum physics. / ज़ीमान प्रभाव (चुंबकीय विभाजन) को फोटॉन प्रकीर्णन के साथ भ्रमित करना, या पदार्थ तरंगों को युग्म उत्पादन के लिए जिम्मेदार ठहराना क्वांटम भौतिकी के मूलभूत सिद्धांतों को पूरी तरह से गलत तरीके से प्रस्तुत करता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 78: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "A moving coil galvanometer can be converted into an ammeter by - / एक चल कुण्डली धारामापी (गैल्वेनोमीटर) को एमीटर में किस प्रकार बदला जा सकता है?",
+        o: [
+            "High resistance in series / श्रृंखला में उच्च प्रतिरोध जोड़कर",
+            "Low resistance in parallel / समानांतर में निम्न प्रतिरोध जोड़कर",
+            "High resistance in parallel / समानांतर में उच्च प्रतिरोध जोड़कर",
+            "Low resistance in series / श्रृंखला में निम्न प्रतिरोध जोड़कर"
+        ],
+        a: 1,
+        e: {
+            concept: "Electromagnetism and electrical measuring instruments. / विद्युत चुंबकत्व और विद्युत मापने के उपकरण।",
+            correct: "To convert a galvanometer into an ammeter, a very low resistance called a 'shunt' is connected in parallel with the galvanometer. This allows the maximum current to bypass the sensitive galvanometer coil, protecting it while measuring large currents in the main circuit. / गैल्वेनोमीटर को एमीटर में बदलने के लिए, 'शंट' नामक एक बहुत कम प्रतिरोध गैल्वेनोमीटर के समानांतर में जोड़ा जाता है। यह अधिकतम धारा को संवेदनशील गैल्वेनोमीटर कॉइल को बायपास करने की अनुमति देता है, जिससे मुख्य सर्किट में बड़ी धाराओं को मापते समय इसकी रक्षा होती है।",
+            wrong: "Connecting a high resistance in series converts a galvanometer into a voltmeter, not an ammeter. Connecting high resistance in parallel or low resistance in series fails to achieve the required current division. / श्रृंखला में उच्च प्रतिरोध जोड़ने से गैल्वेनोमीटर वोल्टमीटर में बदल जाता है, एमीटर में नहीं। समानांतर में उच्च प्रतिरोध या श्रृंखला में निम्न प्रतिरोध जोड़ने से आवश्यक धारा विभाजन प्राप्त नहीं होता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 79: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The relationship between decay constant ($\\lambda$) and half-life ($T_{1/2}$) is / क्षय नियतांक ($\\lambda$) और अर्ध-आयु ($T_{1/2}$) के बीच का संबंध है:",
+        o: [
+            "$T_{1/2} = \\lambda$",
+            "$T_{1/2} = 1 / \\lambda$",
+            "$T_{1/2} = 0.693 / \\lambda$",
+            "$T_{1/2} = \\lambda / 0.693$"
+        ],
+        a: 2,
+        e: {
+            concept: "Radioactivity and first-order decay kinetics. / रेडियोधर्मिता और प्रथम-कोटि क्षय बलगतिकी।",
+            correct: "In radioactive decay, the half-life ($T_{1/2}$) is the time required for half of the atomic nuclei of a radioactive sample to decay. It is mathematically related to the decay constant ($\\lambda$) by the equation $T_{1/2} = \\frac{\\ln(2)}{\\lambda}$. Since the natural logarithm of 2 is approximately 0.693, the formula becomes $T_{1/2} = \\frac{0.693}{\\lambda}$. / रेडियोधर्मी क्षय में, अर्ध-आयु ($T_{1/2}$) वह समय है जो किसी रेडियोधर्मी नमूने के आधे परमाणु नाभिकों के क्षय के लिए आवश्यक होता है। यह गणितीय रूप से समीकरण $T_{1/2} = \\frac{\\ln(2)}{\\lambda}$ द्वारा क्षय नियतांक ($\\lambda$) से संबंधित है। चूंकि 2 का प्राकृतिक लघुगणक (natural logarithm) लगभग 0.693 है, इसलिए सूत्र $T_{1/2} = \\frac{0.693}{\\lambda}$ बन जाता है।",
+            wrong: "The inverse formula ($\\lambda / 0.693$) or equating it directly to $1/\\lambda$ ignores the logarithmic derivation resulting from the integration of the exponential decay rate law. / व्युत्क्रम सूत्र ($\\lambda / 0.693$) या इसे सीधे $1/\\lambda$ के बराबर करना चरघातांकी क्षय दर नियम के एकीकरण के परिणामस्वरूप होने वाले लघुगणकीय व्युत्पत्ति को नज़रअंदाज़ करता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 80: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The Big Bang theory explains which of the following observation? / बिग बैंग सिद्धांत निम्नलिखित में से किस अवलोकन की व्याख्या करता है?",
+        o: [
+            "The internal structure of stars / तारों की आंतरिक संरचना",
+            "The uniform expansion of the universe / ब्रह्मांड का एकसमान विस्तार",
+            "There is no cosmic background radiation in the universe / ब्रह्मांड में कोई कॉस्मिक बैकग्राउंड रेडिएशन नहीं है",
+            "The motion of planets / ग्रहों की गति"
+        ],
+        a: 1,
+        e: {
+            concept: "Cosmology and the origin of the universe. / ब्रह्मांड विज्ञान और ब्रह्मांड की उत्पत्ति।",
+            correct: "The Big Bang theory is the prevailing cosmological model explaining the existence of the observable universe from its earliest known periods through its subsequent large-scale evolution. It directly explains Hubble's observation of the uniform expansion of the universe (galaxies moving away from each other). / बिग बैंग सिद्धांत ब्रह्मांड संबंधी प्रमुख मॉडल है जो अपने सबसे प्रारंभिक ज्ञात काल से लेकर उसके बाद के बड़े पैमाने के विकास तक देखने योग्य ब्रह्मांड के अस्तित्व की व्याख्या करता है। यह सीधे तौर पर हबल के ब्रह्मांड के एकसमान विस्तार (आकाशगंगाओं का एक-दूसरे से दूर जाना) के अवलोकन की व्याख्या करता है।",
+            wrong: "The theory explicitly predicts the *existence* of Cosmic Microwave Background (CMB) radiation, contradicting option C. Stellar structures and planetary motions are explained by stellar astrophysics and Kepler's/Newton's laws, not the Big Bang. / यह सिद्धांत स्पष्ट रूप से कॉस्मिक माइक्रोवेव बैकग्राउंड (CMB) विकिरण के *अस्तित्व* की भविष्यवाणी करता है, जो विकल्प C का खंडन करता है। तारकीय संरचनाओं और ग्रहों की गति को बिग बैंग द्वारा नहीं, बल्कि तारकीय खगोल भौतिकी और केपलर/न्यूटन के नियमों द्वारा समझाया गया है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 81: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which gas is more easily liquified among following? / निम्नलिखित में से कौन सी गैस अधिक आसानी से तरलीकृत (liquified) हो जाती है?",
+        o: [
+            "NH3",
+            "CH4",
+            "CO2",
+            "H2"
+        ],
+        a: 0,
+        e: {
+            concept: "Intermolecular forces, critical temperature, and liquefaction of gases. / अंतर-आणविक बल, क्रांतिक तापमान और गैसों का द्रवीकरण।",
+            correct: "Ammonia (NH3) is the most easily liquified gas among the options because it has strong intermolecular hydrogen bonding. This results in a higher critical temperature (132.4°C), meaning it can be compressed into a liquid at room temperature easily. / अमोनिया (NH3) दिए गए विकल्पों में सबसे आसानी से तरलीकृत होने वाली गैस है क्योंकि इसमें मजबूत अंतर-आणविक हाइड्रोजन बांड होता है। इसके परिणामस्वरूप उच्च क्रांतिक तापमान (132.4°C) होता है, जिसका अर्थ है कि इसे कमरे के तापमान पर आसानी से तरल में संकुचित किया जा सकता है।",
+            wrong: "Hydrogen (H2) and Methane (CH4) are non-polar gases with very weak Van der Waals forces, requiring extreme cooling to liquify. Carbon dioxide (CO2) is easily liquified but lacks the strong hydrogen bonding present in NH3. / हाइड्रोजन (H2) और मीथेन (CH4) गैर-ध्रुवीय गैसें हैं जिनमें बहुत कमजोर वैन डेर वाल्स बल होते हैं, जिन्हें तरलीकृत करने के लिए अत्यधिक शीतलन की आवश्यकता होती है। कार्बन डाइऑक्साइड (CO2) आसानी से तरलीकृत हो जाती है लेकिन इसमें NH3 में मौजूद मजबूत हाइड्रोजन बांड का अभाव होता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 82: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Indian Astronaut visited the International space station in 2025 under which mission? / भारतीय अंतरिक्ष यात्री ने 2025 में किस मिशन के तहत अंतर्राष्ट्रीय अंतरिक्ष स्टेशन (ISS) का दौरा किया?",
+        o: [
+            "Soyuz TM-3 / सोयुज TM-3",
+            "Axiom-4 / एक्सिओम-4",
+            "Gaganyaan - 1 / गगनयान-1",
+            "Chandrayaan - 3 / चंद्रयान-3"
+        ],
+        a: 1,
+        e: {
+            concept: "Current affairs in Space Exploration and ISRO's international collaborations. / अंतरिक्ष अन्वेषण में करेंट अफेयर्स और इसरो (ISRO) का अंतर्राष्ट्रीय सहयोग।",
+            correct: "Group Captain Shubhanshu Shukla, an ISRO Gaganyaatri, was selected to travel to the International Space Station (ISS) as part of the commercial Axiom-4 (Ax-4) mission in a collaborative effort between ISRO and NASA. / इसरो के गगनयात्री, ग्रुप कैप्टन शुभांशु शुक्ला को इसरो और नासा के बीच एक सहयोगी प्रयास में वाणिज्यिक एक्सिओम-4 (Ax-4) मिशन के हिस्से के रूप में अंतर्राष्ट्रीय अंतरिक्ष स्टेशन (ISS) की यात्रा के लिए चुना गया था।",
+            wrong: "Soyuz TM-3 was Rakesh Sharma's historic 1984 mission. Gaganyaan-1 is India's indigenous orbital mission test. Chandrayaan-3 is a lunar exploration mission. / सोयुज टीएम-3 राकेश शर्मा का 1984 का ऐतिहासिक मिशन था। गगनयान-1 भारत का स्वदेशी कक्षीय मिशन परीक्षण है। चंद्रयान-3 चंद्र अन्वेषण मिशन है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 83: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In a convex lens, if the object is placed at 2F (twice of the focal length), the image formed will be - / एक उत्तल लेंस में, यदि वस्तु को 2F (फोकस दूरी से दोगुनी दूरी) पर रखा जाता है, तो बनने वाला प्रतिबिंब होगा -",
+        o: [
+            "Real, at Position 2F and same size as the object / वास्तविक, 2F स्थिति पर और वस्तु के समान आकार का",
+            "Virtual, at Position F and Magnified / आभासी, F स्थिति पर और आवर्धित (बड़ा)",
+            "Real, at Position 2F and Magnified / वास्तविक, 2F स्थिति पर और आवर्धित (बड़ा)",
+            "Virtual, beyond Position 2F and Diminished / आभासी, 2F स्थिति से परे और छोटा"
+        ],
+        a: 0,
+        e: {
+            concept: "Geometrical Optics and image formation by convex lenses. / ज्यामितीय प्रकाशिकी और उत्तल लेंस द्वारा प्रतिबिंब निर्माण।",
+            correct: "According to the rules of ray optics for a convex lens, when an object is placed exactly at the center of curvature ($2F_1$), the refracted rays converge exactly at the center of curvature on the other side ($2F_2$). The resulting image is real, inverted, and exactly the same size as the object. / उत्तल लेंस के लिए किरण प्रकाशिकी के नियमों के अनुसार, जब किसी वस्तु को वक्रता केंद्र ($2F_1$) पर ठीक रखा जाता है, तो अपवर्तित किरणें दूसरी ओर के वक्रता केंद्र ($2F_2$) पर ठीक से अभिसरित होती हैं। परिणामी छवि वास्तविक, उल्टी और बिल्कुल वस्तु के समान आकार की होती है।",
+            wrong: "Magnified images are formed only when the object is placed between $2F$ and $F$ or between $F$ and the optical center (which produces a virtual magnified image). Virtual and diminished images are characteristics of concave lenses, not convex lenses in this position. / आवर्धित (बड़ी) छवियां तभी बनती हैं जब वस्तु को $2F$ और $F$ के बीच या $F$ और ऑप्टिकल केंद्र (जो एक आभासी आवर्धित छवि पैदा करता है) के बीच रखा जाता है। आभासी और छोटी छवियां अवतल लेंस की विशेषताएं हैं, न कि इस स्थिति में उत्तल लेंस की।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 84: Statements Based
+    // -------------------------------------------------------------
+    {
+        q: "Consider the following statements - / निम्नलिखित कथनों पर विचार करें -",
+        statements: [
+            "1. The Troposphere contains almost all weather phenomena / 1. क्षोभमंडल (Troposphere) में लगभग सभी मौसम संबंधी घटनाएं होती हैं",
+            "2. The stratosphere is mostly free of clouds and has the ozone layer / 2. समताप मंडल (Stratosphere) ज्यादातर बादलों से मुक्त होता है और इसमें ओजोन परत होती है",
+            "3. The Mesosphere protects Earth by burning meteoroids. / 3. मध्यमंडल (Mesosphere) उल्कापिंडों को जलाकर पृथ्वी की रक्षा करता है।"
+        ],
+        o: [
+            "1 and 2 only / केवल 1 और 2",
+            "2 only / केवल 2",
+            "1 and 3 only / केवल 1 और 3",
+            "1, 2 and 3 / 1, 2 और 3"
+        ],
+        a: 3,
+        e: {
+            concept: "Structure and composition of the Earth's atmosphere. / पृथ्वी के वायुमंडल की संरचना और संघटन।",
+            correct: "All three statements are scientifically accurate. The troposphere is the lowest layer where weather occurs. The stratosphere contains the ozone layer (protecting against UV rays) and is ideal for flying due to the lack of weather. The mesosphere is the coldest layer where most incoming meteors burn up upon entering the atmosphere. / तीनों कथन वैज्ञानिक रूप से सटीक हैं। क्षोभमंडल सबसे निचली परत है जहां मौसम होता है। समताप मंडल में ओजोन परत (यूवी किरणों से बचाने वाली) होती है और मौसम की कमी के कारण उड़ान भरने के लिए आदर्श है। मध्यमंडल सबसे ठंडी परत है जहां वायुमंडल में प्रवेश करने पर अधिकांश आने वाले उल्कापिंड जल जाते हैं।",
+            wrong: "Omitting any of these statements neglects fundamental facts about atmospheric layers taught in standard geography and environmental science curricula. / इनमें से किसी भी कथन को छोड़ना मानक भूगोल और पर्यावरण विज्ञान पाठ्यक्रम में पढ़ाए जाने वाले वायुमंडलीय परतों के बारे में मूलभूत तथ्यों की उपेक्षा करता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 85: Match the Following Type
+    // -------------------------------------------------------------
+    {
+        type: "match",
+        q: "Match Column - I with Column - II: / कॉलम - I को कॉलम - II के साथ सुमेलित करें:",
+        lists: {
+            list1: [
+                { id: '1', text: 'First Generation / पहली पीढ़ी' },
+                { id: '2', text: 'Second Generation / दूसरी पीढ़ी' },
+                { id: '3', text: 'Third Generation / तीसरी पीढ़ी' },
+                { id: '4', text: 'Fourth Generation / चौथी पीढ़ी' }
+            ],
+            list2: [
+                { id: 'a', text: 'GSLV' },
+                { id: 'b', text: 'ASLV' },
+                { id: 'c', text: 'SLV' },
+                { id: 'd', text: 'PSLV' }
+            ]
+        },
+        o: [
+            "1-c, 2-b, 3-d, 4-a",
+            "1-b, 2-c, 3-a, 4-d",
+            "1-d, 2-b, 3-c, 4-a",
+            "1-a, 2-b, 3-c, 4-d"
+        ],
+        a: 0,
+        e: {
+            concept: "Evolution of ISRO's Launch Vehicle Technology. / इसरो की प्रक्षेपण यान प्रौद्योगिकी का विकास।",
+            correct: "The evolution of Indian launch vehicles maps directly to generations: 1st Gen is SLV-3 (Satellite Launch Vehicle). 2nd Gen is ASLV (Augmented Satellite Launch Vehicle). 3rd Gen is the highly successful PSLV (Polar Satellite Launch Vehicle). 4th Gen is the GSLV (Geosynchronous Satellite Launch Vehicle) capable of carrying heavier payloads. / भारतीय प्रक्षेपण यानों का विकास सीधे पीढ़ियों से मैप होता है: पहली पीढ़ी SLV-3 है। दूसरी पीढ़ी ASLV है। तीसरी पीढ़ी अत्यधिक सफल PSLV है। चौथी पीढ़ी GSLV है जो भारी पेलोड ले जाने में सक्षम है।",
+            wrong: "Any other sequence scrambles the chronological and technological progression of ISRO's launch capabilities, incorrectly placing heavier cryogenic rockets (GSLV) before rudimentary solid-stage rockets (SLV). / कोई भी अन्य क्रम इसरो की प्रक्षेपण क्षमताओं के कालानुक्रमिक और तकनीकी प्रगति को अव्यवस्थित करता है, जो गलत तरीके से प्रारंभिक ठोस-चरण रॉकेट (SLV) से पहले भारी क्रायोजेनिक रॉकेट (GSLV) रखता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 86: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The 'Suicidal Bags' of the cell are called - / कोशिका की 'आत्मघाती थैलियां' (Suicidal Bags) किसे कहा जाता है?",
+        o: [
+            "Ribosomes / राइबोसोम",
+            "Lysosomes / लाइसोसोम",
+            "Golgi Bodies / गोल्गी बॉडीज़",
+            "Mitochondria / माइटोकॉन्ड्रिया"
+        ],
+        a: 1,
+        e: {
+            concept: "Cell biology and the functions of various cell organelles. / कोशिका जीव विज्ञान और विभिन्न कोशिकांगों के कार्य।",
+            correct: "Lysosomes are membrane-bound organelles containing powerful hydrolytic enzymes capable of breaking down all types of biological polymers. If a cell is damaged or infected, the lysosomes may burst and the enzymes digest their own cell, hence the term 'suicide bags'. / लाइसोसोम झिल्ली से बंधे अंग हैं जिनमें सभी प्रकार के जैविक पॉलिमर को तोड़ने में सक्षम शक्तिशाली हाइड्रोलाइटिक एंजाइम होते हैं। यदि कोई कोशिका क्षतिग्रस्त या संक्रमित हो जाती है, तो लाइसोसोम फट सकते हैं और एंजाइम अपनी ही कोशिका को पचा लेते हैं, इसलिए इसे 'आत्मघाती थैलियां' कहा जाता है।",
+            wrong: "Ribosomes are protein factories. Golgi bodies are involved in packaging and transport. Mitochondria are the powerhouses of the cell. None of these have autolytic (self-digesting) primary functions. / राइबोसोम प्रोटीन कारखाने हैं। गोल्गी बॉडीज़ पैकेजिंग और परिवहन में शामिल हैं। माइटोकॉन्ड्रिया कोशिका के पावरहाउस हैं। इनमें से किसी का भी ऑटोलिटिक (स्व-पाचन) प्राथमिक कार्य नहीं है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 87: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The iron obtained from the blast furnace is known as - / वात्या भट्ठी (Blast Furnace) से प्राप्त लोहे को किस रूप में जाना जाता है?",
+        o: [
+            "Wrought Iron / पिटवाँ लोहा",
+            "Pig Iron / कच्चा लोहा (पिग आयरन)",
+            "Steel Iron / स्टील आयरन",
+            "Cast Iron / ढलवाँ लोहा"
+        ],
+        a: 1,
+        e: {
+            concept: "Metallurgy and the extraction processes of Iron. / धातु विज्ञान और लोहे की निष्कर्षण प्रक्रियाएं।",
+            correct: "The molten iron obtained directly from the reduction of iron ore in a blast furnace is called 'Pig Iron'. It contains a high carbon content (around 4%) along with impurities like silica, making it very brittle. / वात्या भट्टी में लौह अयस्क की कमी से सीधे प्राप्त पिघला हुआ लोहा 'पिग आयरन (कच्चा लोहा)' कहलाता है। इसमें सिलिका जैसी अशुद्धियों के साथ उच्च कार्बन सामग्री (लगभग 4%) होती है, जिससे यह बहुत भंगुर हो जाता है।",
+            wrong: "Cast iron is made by remelting pig iron with scrap iron and coke. Wrought iron is the purest commercial form of iron (less than 0.1% carbon). Steel is an alloy with carefully controlled carbon content (0.1% to 1.5%). / ढलवां लोहा पिग आयरन को कबाड़ लोहे और कोक के साथ दोबारा पिघलाकर बनाया जाता है। पिटवाँ लोहा लोहे का सबसे शुद्ध व्यावसायिक रूप है (0.1% से कम कार्बन)। स्टील एक मिश्र धातु है जिसमें कार्बन की मात्रा को सावधानीपूर्वक नियंत्रित किया जाता है (0.1% से 1.5%)।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 88: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which of the following enzyme is primarily responsible for the removal of RNA Primers during DNA Replication in prokaryotes? / प्रोकैरियोट्स में डीएनए प्रतिकृति (DNA Replication) के दौरान आरएनए प्राइमर्स (RNA Primers) को हटाने के लिए मुख्य रूप से कौन सा एंजाइम जिम्मेदार है?",
+        o: [
+            "DNA polymerase - I / डीएनए पॉलीमरेज़ - I",
+            "DNA ligase / डीएनए लिगेज",
+            "Helicase / हेलिकेज",
+            "Primase / प्राइमेज"
+        ],
+        a: 0,
+        e: {
+            concept: "Molecular biology mechanisms during DNA replication. / डीएनए प्रतिकृति के दौरान आणविक जीव विज्ञान तंत्र।",
+            correct: "In prokaryotes (like E. coli), DNA Polymerase I plays a critical role in the replication process by using its unique 5' to 3' exonuclease activity to remove the RNA primers and replace them with DNA nucleotides. / प्रोकैरियोट्स (जैसे ई. कोलाई) में, डीएनए पॉलीमरेज़ I आरएनए प्राइमरों को हटाने और उन्हें डीएनए न्यूक्लियोटाइड के साथ बदलने के लिए अपनी अद्वितीय 5' से 3' एक्सोन्यूक्लिज़ गतिविधि का उपयोग करके प्रतिकृति प्रक्रिया में महत्वपूर्ण भूमिका निभाता है।",
+            wrong: "Helicase unwinds the DNA double helix. Primase synthesizes the initial RNA primers. DNA ligase seals the nicks between Okazaki fragments after the primers are replaced. / हेलिकेज डीएनए डबल हेलिक्स को खोलता है। प्राइमेज प्रारंभिक आरएनए प्राइमरों का संश्लेषण करता है। प्राइमरों को बदलने के बाद डीएनए लिगेज ओकाज़ाकी टुकड़ों के बीच के निक्स को सील कर देता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 89: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which of the following is considered to be the tallest known living organism on the earth? / निम्नलिखित में से किसे पृथ्वी पर सबसे लंबा ज्ञात जीवित जीव माना जाता है?",
+        o: [
+            "Sausage tree / सॉसेज का पेड़",
+            "Sequoia tree / सिकोइया का पेड़",
+            "Banyan tree / बरगद का पेड़",
+            "Jajoba tree / जोजोबा का पेड़"
+        ],
+        a: 1,
+        e: {
+            concept: "Botanical superlatives and Earth's biodiversity. / वानस्पतिक अतिशयोक्ति और पृथ्वी की जैव विविधता।",
+            correct: "The Coast Redwood (Sequoia sempervirens), a species of Sequoia tree, holds the record for the tallest known living organism on Earth. A specific tree named Hyperion reaches over 380 feet (115 meters) in height. / कोस्ट रेडवुड (सिकोइया सेम्परविरेंस), जो सिकोइया पेड़ की एक प्रजाति है, पृथ्वी पर सबसे लंबे ज्ञात जीवित जीव का रिकॉर्ड रखती है। हाइपरियन नाम का एक विशिष्ट पेड़ 380 फीट (115 मीटर) से अधिक की ऊंचाई तक पहुंचता है।",
+            wrong: "The Banyan tree is known for its massive canopy spread (widest), not its height. Sausage and Jojoba trees are significantly shorter species with completely different ecological niches. / बरगद का पेड़ अपने विशाल कैनोपी फैलाव (सबसे चौड़ा) के लिए जाना जाता है, न कि अपनी ऊंचाई के लिए। सॉसेज और जोजोबा के पेड़ पूरी तरह से अलग पारिस्थितिक निशानों वाली काफी छोटी प्रजातियां हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 90: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Explosive seed pods that release seeds with very high velocity and send them off to large distances is observed in which of the following? / विस्फोटक बीज फली जो बहुत अधिक वेग के साथ बीज छोड़ती है और उन्हें बड़ी दूर तक भेजती है, निम्नलिखित में से किसमें देखी जाती है?",
+        o: [
+            "Salvia / साल्विया",
+            "Coconut / नारियल",
+            "Impatiens / इम्पेटेंस (गुलमेंहदी)",
+            "Dandelions / डेंडेलियन"
+        ],
+        a: 2,
+        e: {
+            concept: "Mechanisms of seed dispersal in botany. / वनस्पति विज्ञान में बीज फैलाव के तंत्र।",
+            correct: "Plants in the genus Impatiens (commonly known as touch-me-nots or jewelweeds) employ explosive dehiscence. When their ripe seed pods are lightly touched, they burst open violently due to mechanical tension, catapulting the seeds several meters away to ensure wide propagation. / जीनस इम्पेटेंस (जिन्हें आमतौर पर टच-मी-नॉट या ज्वेलवीड कहा जाता है) के पौधे विस्फोटक स्फुटन (dehiscence) का उपयोग करते हैं। जब उनके पके हुए बीज फली को हल्के से छुआ जाता है, तो वे यांत्रिक तनाव के कारण हिंसक रूप से फट जाते हैं, और व्यापक प्रसार सुनिश्चित करने के लिए बीजों को कई मीटर दूर फेंक देते हैं।",
+            wrong: "Coconuts are dispersed by water (hydrochory). Dandelions are dispersed by wind using parachute-like structures (anemochory). Salvia utilizes insect pollination and gravity/shaking for seed drop. / नारियल पानी (हाइड्रोचोरी) द्वारा बिखेरे जाते हैं। डेंडेलियन को पैराशूट जैसी संरचनाओं (एनीमोचोरी) का उपयोग करके हवा द्वारा बिखेरा जाता है। साल्विया बीज गिराने के लिए कीट परागण और गुरुत्वाकर्षण/हिलने का उपयोग करता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 91: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Plants are also associated with the colonial/British rule in India and have been linked to some revolts on Indian soil. Choose the one that is also associated with one of the great freedom fighters. / पौधे भारत में औपनिवेशिक/ब्रिटिश शासन से भी जुड़े हुए हैं और भारतीय धरती पर कुछ विद्रोहों से भी जुड़े हुए हैं। उसे चुनें जो एक महान स्वतंत्रता सेनानी से भी जुड़ा है।",
+        o: [
+            "Pyrus malus",
+            "Azadirachta indica",
+            "Indigofera tinctoria",
+            "Ficus indica"
+        ],
+        a: 2,
+        e: {
+            concept: "Economic botany and its intersection with Indian modern history. / आर्थिक वनस्पति विज्ञान और भारतीय आधुनिक इतिहास के साथ इसका प्रतिच्छेदन।",
+            correct: "Indigofera tinctoria is the scientific name for the Indigo plant. Forced cultivation of this cash crop by British planters under the oppressive 'tinkathia' system led to the Indigo Revolt (1859) in Bengal and famously the Champaran Satyagraha (1917) led by Mahatma Gandhi. / इंडिगोफेरा टिंक्टोरिया (Indigofera tinctoria) इंडिगो (नील) के पौधे का वैज्ञानिक नाम है। दमनकारी 'तिनकठिया' प्रणाली के तहत ब्रिटिश बागान मालिकों द्वारा इस नकदी फसल की जबरन खेती के कारण बंगाल में नील विद्रोह (1859) हुआ और प्रसिद्ध रूप से महात्मा गांधी के नेतृत्व में चंपारण सत्याग्रह (1917) हुआ।",
+            wrong: "Pyrus malus is apple, Azadirachta indica is neem, and Ficus indica is the banyan tree. None of these triggered mass agrarian revolts spearheaded by top national freedom fighters against forced colonial commercial farming. / पाइरस मालस सेब है, अज़ादिराक्टा इंडिका नीम है, और फिकस इंडिका बरगद का पेड़ है। इनमें से किसी ने भी जबरन औपनिवेशिक व्यावसायिक खेती के खिलाफ शीर्ष राष्ट्रीय स्वतंत्रता सेनानियों के नेतृत्व में बड़े पैमाने पर कृषि विद्रोह को जन्म नहीं दिया।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 92: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "This person is known as the Father of Indian Botany for his enormous contributions to the field. Choose the correct option. / इस व्यक्ति को इस क्षेत्र में उनके भारी योगदान के लिए भारतीय वनस्पति विज्ञान के जनक (Father of Indian Botany) के रूप में जाना जाता है। सही विकल्प चुनें।",
+        o: [
+            "Panchanan Maheshwari / पंचानन माहेश्वरी",
+            "Salim Ali / सालिम अली",
+            "William Roxburgh / विलियम रॉक्सबर्ग",
+            "Robert Hooker / रॉबर्ट हुकर"
+        ],
+        a: 2,
+        e: {
+            concept: "Pioneers in the field of taxonomy and Indian Botanical history. / वर्गीकरण और भारतीय वनस्पति इतिहास के क्षेत्र में अग्रदूत।",
+            correct: "William Roxburgh, a Scottish surgeon and botanist who served as the superintendent of the Calcutta Botanic Garden, is widely revered as the 'Father of Indian Botany'. He extensively documented Indian flora and published foundational texts like 'Flora Indica'. / विलियम रॉक्सबर्ग, एक स्कॉटिश सर्जन और वनस्पतिशास्त्री, जिन्होंने कलकत्ता बॉटैनिकल गार्डन के अधीक्षक के रूप में कार्य किया, को व्यापक रूप से 'भारतीय वनस्पति विज्ञान के जनक' के रूप में सम्मानित किया जाता है। उन्होंने भारतीय वनस्पतियों का बड़े पैमाने पर दस्तावेजीकरण किया और 'फ्लोरा इंडिका' जैसे संस्थापक पाठ प्रकाशित किए।",
+            wrong: "Panchanan Maheshwari is famous for his work in plant embryology. Salim Ali was India's preeminent ornithologist ('Birdman of India'). Robert Hooker also contributed to 'Flora of British India' but is not titled the father. / पंचानन माहेश्वरी पादप भ्रूण विज्ञान में अपने काम के लिए प्रसिद्ध हैं। सालिम अली भारत के प्रख्यात पक्षीविज्ञानी ('भारत के बर्डमैन') थे। रॉबर्ट हुकर ने भी 'फ्लोरा ऑफ ब्रिटिश इंडिया' में योगदान दिया लेकिन उन्हें जनक की उपाधि नहीं दी गई है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 93: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "The phenomenon of production of whole organism from a cell by providing a suitable nutrient medium is called as / एक उपयुक्त पोषक माध्यम प्रदान करके एक कोशिका से पूरे जीव के निर्माण की घटना को कहा जाता है:",
+        o: [
+            "Apospory / एपोस्पोरी (अपबीजाणुता)",
+            "Totipotency / टोटीपोटेंसी (पूर्णशक्तता)",
+            "Vegetative propagation / वानस्पतिक प्रसार",
+            "Pluripotency / प्लुरिपोटेंसी (बहुशक्तता)"
+        ],
+        a: 1,
+        e: {
+            concept: "Plant tissue culture and cellular potential. / पादप ऊतक संवर्धन और सेलुलर क्षमता।",
+            correct: "Totipotency is the inherent genetic ability of a single cell (especially a plant cell) to divide and differentiate into all types of cells, eventually regenerating into a completely new, mature organism when cultured in a proper nutrient medium. / टोटीपोटेंसी एक एकल कोशिका (विशेष रूप से एक पादप कोशिका) की विभाजित होने और सभी प्रकार की कोशिकाओं में अंतर करने की अंतर्निहित आनुवंशिक क्षमता है, जो अंततः उचित पोषक माध्यम में संवर्धित होने पर पूरी तरह से नए, परिपक्व जीव में पुनर्जीवित हो जाती है।",
+            wrong: "Pluripotency means the cell can form many cell types but not an entire organism. Vegetative propagation involves macroscopic plant parts (cuttings, tubers), not solitary cells in a medium. Apospory is the development of a gametophyte from a sporophyte without meiosis. / प्लुरिपोटेंसी का मतलब है कि कोशिका कई प्रकार की कोशिकाएं बना सकती है लेकिन पूरा जीव नहीं। वानस्पतिक प्रसार में मैक्रोस्कोपिक पौधे के भाग (कटिंग, कंद) शामिल होते हैं, माध्यम में अकेली कोशिकाएं नहीं। एपोस्पोरी अर्धसूत्रीविभाजन के बिना स्पोरोफाइट से गैमेटोफाइट का विकास है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 94: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Scientists have termed one of the following as Green Gold based on its economic and ecological importance: / वैज्ञानिकों ने इसके आर्थिक और पारिस्थितिक महत्व के आधार पर निम्नलिखित में से एक को 'हरा सोना (Green Gold)' कहा है:",
+        o: [
+            "Sal / साल",
+            "Coffee / कॉफी",
+            "Bamboo / बांस",
+            "Rice / चावल"
+        ],
+        a: 2,
+        e: {
+            concept: "Economic botany and sustainable environmental resources. / आर्थिक वनस्पति विज्ञान और टिकाऊ पर्यावरण संसाधन।",
+            correct: "Bamboo is frequently referred to as 'Green Gold' by scientists and policymakers. It is technically a fast-growing grass that provides immense economic value (construction, paper, furniture) while also being ecologically vital for carbon sequestration, soil erosion control, and rapid renewability. / बांस को वैज्ञानिकों और नीति निर्माताओं द्वारा अक्सर 'हरा सोना' कहा जाता है। यह तकनीकी रूप से तेजी से बढ़ने वाली घास है जो अत्यधिक आर्थिक मूल्य (निर्माण, कागज, फर्नीचर) प्रदान करती है, जबकि कार्बन पृथक्करण, मिट्टी के कटाव को रोकने और तेजी से नवीकरणीयता के लिए पारिस्थितिक रूप से भी महत्वपूर्ण है।",
+            wrong: "While Sal, Coffee, and Rice are crucial economic crops, they do not possess the uniquely rapid regeneration cycle and multi-industry versatility that earned Bamboo the specific moniker of 'Green Gold'. / जबकि साल, कॉफी और चावल महत्वपूर्ण आर्थिक फसलें हैं, उनमें विशिष्ट रूप से तीव्र पुनर्जनन चक्र और बहु-उद्योग बहुमुखी प्रतिभा नहीं है, जिसने बांस को 'ग्रीन गोल्ड' का विशिष्ट उपनाम दिया।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 95: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which statement correctly describes a zoonotic disease? / कौन सा कथन जूनोटिक रोग (zoonotic disease) का सही वर्णन करता है?",
+        o: [
+            "It spreads only through contaminated food / यह केवल दूषित भोजन से फैलता है",
+            "It is caused by plant pathogens / यह पौधों के रोगजनकों के कारण होता है",
+            "It is a disease shared between vertebrate animals and humans / यह एक बीमारी है जो कशेरुकी जानवरों और मनुष्यों के बीच साझा होती है",
+            "It is a disease confined to wildlife species only / यह केवल वन्यजीव प्रजातियों तक ही सीमित बीमारी है"
+        ],
+        a: 2,
+        e: {
+            concept: "Epidemiology and classification of infectious diseases. / संक्रामक रोगों की महामारी विज्ञान और वर्गीकरण।",
+            correct: "A zoonotic disease (or zoonosis) is an infectious disease that has jumped from a non-human animal to humans. Thus, it is shared between vertebrate animals (like bats, pigs, birds) and humans. Classic examples include Rabies, Ebola, and COVID-19. / जूनोटिक रोग (या जूनोसिस) एक संक्रामक रोग है जो गैर-मानव जानवर से मनुष्यों में कूद गया है। इस प्रकार, यह कशेरुकी जानवरों (जैसे चमगादड़, सूअर, पक्षी) और मनुष्यों के बीच साझा किया जाता है। क्लासिक उदाहरणों में रेबीज, इबोला और कोविड-19 शामिल हैं।",
+            wrong: "Zoonoses are definitively NOT confined strictly to wildlife, nor are they caused by plant pathogens. While some can spread through food (foodborne zoonoses like Salmonella), they are not exclusively food-transmitted, they can spread via air, vectors, or direct contact. / जूनोसिस निश्चित रूप से कड़ाई से वन्यजीवों तक सीमित नहीं हैं, न ही वे पौधों के रोगजनकों के कारण होते हैं। हालांकि कुछ भोजन के माध्यम से फैल सकते हैं (साल्मोनेला जैसे खाद्य जनित जूनोज), वे विशेष रूप से भोजन-संचरित नहीं हैं, वे हवा, वैक्टर या सीधे संपर्क के माध्यम से फैल सकते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 96: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Type I (Immediate) hypersensitivity is mediated primarily by: / टाइप I (तत्काल) अतिसंवेदनशीलता मुख्य रूप से किसके द्वारा मध्यस्थता की जाती है:",
+        o: [
+            "IgA",
+            "IgG",
+            "IgM",
+            "IgE"
+        ],
+        a: 3,
+        e: {
+            concept: "Immunology and allergy mechanisms. / इम्यूनोलॉजी और एलर्जी तंत्र।",
+            correct: "Type I hypersensitivity is an immediate allergic reaction (like anaphylaxis, asthma, or hay fever) triggered by the re-exposure to a specific type of antigen referred to as an allergen. This reaction is mediated by Immunoglobulin E (IgE) antibodies, which bind to mast cells and basophils, causing them to release histamine. / टाइप I अतिसंवेदनशीलता एक तत्काल एलर्जी प्रतिक्रिया है (जैसे एनाफिलेक्सिस, अस्थमा, या हे फीवर) जो एक विशिष्ट प्रकार के प्रतिजन के संपर्क में आने से शुरू होती है जिसे एलर्जेन कहा जाता है। इस प्रतिक्रिया की मध्यस्थता इम्युनोग्लोबुलिन ई (IgE) एंटीबॉडी द्वारा की जाती है, जो मास्ट कोशिकाओं और बेसोफिल से बंधते हैं, जिससे वे हिस्टामाइन छोड़ते हैं।",
+            wrong: "IgG and IgM are primarily involved in Type II (cytotoxic) and Type III (immune complex) hypersensitivities. IgA is associated with mucosal immunity in secretions like saliva and tears. / IgG और IgM मुख्य रूप से टाइप II (साइटोटॉक्सिक) और टाइप III (प्रतिरक्षा जटिल) अतिसंवेदनशीलता में शामिल हैं। IgA लार और आंसुओं जैसे स्रावों में म्यूकोसल प्रतिरक्षा से जुड़ा है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 97: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Which of the following is not a Mendelian law of inheritance? / निम्नलिखित में से कौन सा विरासत का मेंडेलियन नियम नहीं है?",
+        o: [
+            "Law of Dominance / प्रभुत्व का नियम",
+            "Law of Segregation / अलगाव का नियम",
+            "Law of Independent Assortment / स्वतंत्र वर्गीकरण का नियम",
+            "Law of Purity of Gametes / युग्मकों की शुद्धता का नियम"
+        ],
+        a: 3,
+        e: {
+            concept: "Gregor Mendel's foundational laws of genetics. / ग्रेगर मेंडल के आनुवंशिकी के मूलभूत नियम।",
+            correct: "Gregor Mendel explicitly formulated three laws: 1. Law of Dominance, 2. Law of Segregation, and 3. Law of Independent Assortment. The 'Law of Purity of Gametes' is not a separate fourth law; rather, it is merely an alternative descriptive name often used interchangeably to explain the Law of Segregation (where alleles separate purely into gametes). Therefore, as a distinct cataloged law in the options, it is the odd one out. / ग्रेगर मेंडल ने स्पष्ट रूप से तीन नियम तैयार किए: 1. प्रभुत्व का नियम, 2. अलगाव का नियम, और 3. स्वतंत्र वर्गीकरण का नियम। 'युग्मकों की शुद्धता का नियम' कोई अलग चौथा नियम नहीं है; बल्कि, यह केवल एक वैकल्पिक वर्णनात्मक नाम है जिसका उपयोग अक्सर अलगाव के नियम (जहां एलील विशुद्ध रूप से युग्मकों में अलग होते हैं) को समझाने के लिए किया जाता है। इसलिए, विकल्पों में एक अलग सूचीबद्ध नियम के रूप में, यह विषम है।",
+            wrong: "Dismissing Dominance, Segregation, or Independent Assortment would be factually incorrect as they represent the universally acknowledged trinity of classical Mendelian genetics. / प्रभुत्व, अलगाव या स्वतंत्र वर्गीकरण को खारिज करना तथ्यात्मक रूप से गलत होगा क्योंकि वे शास्त्रीय मेंडेलियन आनुवंशिकी की सार्वभौमिक रूप से स्वीकृत त्रिमूर्ति का प्रतिनिधित्व करते हैं।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 98: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "In the DNA double helix model proposed by Watson and Crick, the two strands of DNA runs; / वाटसन और क्रिक द्वारा प्रस्तावित डीएनए डबल हेलिक्स मॉडल में, डीएनए के दो स्ट्रैंड चलते हैं:",
+        o: [
+            "Parallel / समानांतर",
+            "Anti-Parallel / प्रति-समानांतर",
+            "Circular / वृत्ताकार",
+            "Perpendicular / लंबवत"
+        ],
+        a: 1,
+        e: {
+            concept: "Molecular structure and structural biology of DNA. / डीएनए की आणविक संरचना और संरचनात्मक जीव विज्ञान।",
+            correct: "According to the Watson and Crick model, the DNA molecule consists of two polynucleotide chains that coil around each other forming a double helix. Crucially, these two strands run in opposite directions—one strand runs $5' \\rightarrow 3'$ while the opposite strand runs $3' \\rightarrow 5'$. This orientation is called 'anti-parallel'. / वाटसन और क्रिक मॉडल के अनुसार, डीएनए अणु में दो पॉली न्यूक्लियोटाइड श्रृंखलाएं होती हैं जो एक-दूसरे के चारों ओर कुंडलित होकर एक डबल हेलिक्स बनाती हैं। महत्वपूर्ण रूप से, ये दो तार विपरीत दिशाओं में चलते हैं-एक तार $5' \\rightarrow 3'$ चलता है जबकि विपरीत तार $3' \\rightarrow 5'$ चलता है। इस अभिविन्यास को 'प्रति-समानांतर (एंटी-पैरेलल)' कहा जाता है।",
+            wrong: "If they were parallel, the nitrogenous bases would not align properly for hydrogen bonding. DNA is generally linear in eukaryotes (not circular, which is typical of bacterial plasmids), and never perpendicular. / यदि वे समानांतर होते, तो नाइट्रोजनस बेस हाइड्रोजन बॉन्डिंग के लिए ठीक से संरेखित नहीं होते। डीएनए आमतौर पर यूकेरियोट्स में रैखिक होता है (गोलाकार नहीं, जो बैक्टीरियल प्लास्मिड की खासियत है), और कभी भी लंबवत नहीं होता है।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 99: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "Who popularized Drosophila as a genetic model organism? / ड्रोसोफिला (Drosophila) को आनुवंशिक मॉडल जीव के रूप में किसने लोकप्रिय बनाया?",
+        o: [
+            "Gregor Mendel / ग्रेगर मेंडल",
+            "Rosalind Franklin / रोज़ालिंड फ्रैंकलिन",
+            "Thomas Hunt Morgan / थॉमस हंट मॉर्गन",
+            "James Watson / जेम्स वॉटसन"
+        ],
+        a: 2,
+        e: {
+            concept: "Milestones in experimental genetics and chromosomal theory of inheritance. / प्रायोगिक आनुवंशिकी और विरासत के गुणसूत्रीय सिद्धांत में मील के पत्थर।",
+            correct: "Thomas Hunt Morgan pioneered the use of the common fruit fly (Drosophila melanogaster) in genetic research in his famous 'Fly Room' at Columbia University. His work conclusively proved that genes are carried on chromosomes, leading to the chromosomal theory of inheritance. / थॉमस हंट मॉर्गन ने कोलंबिया विश्वविद्यालय में अपने प्रसिद्ध 'फ्लाई रूम' में आनुवंशिक अनुसंधान में सामान्य फल मक्खी (ड्रोसोफिला मेलानोगास्टर) के उपयोग का बीड़ा उठाया। उनके काम ने निर्णायक रूप से साबित कर दिया कि जीन गुणसूत्रों पर ले जाए जाते हैं, जिससे विरासत का गुणसूत्र सिद्धांत सामने आया।",
+            wrong: "Mendel worked with pea plants (Pisum sativum). Rosalind Franklin and James Watson are associated with X-ray crystallography and the discovery of the structure of DNA, not fruit fly genetics. / मेंडल ने मटर के पौधों (पिसम सैटिवम) के साथ काम किया। रोज़ालिंड फ्रैंकलिन और जेम्स वॉटसन एक्स-रे क्रिस्टलोग्राफी और डीएनए की संरचना की खोज से जुड़े हैं, न कि फल मक्खी आनुवंशिकी से।"
+        }
+    },
+    // -------------------------------------------------------------
+    // QUESTION 100: Standard Multiple Choice
+    // -------------------------------------------------------------
+    {
+        q: "A trait that increases an organism's chance of survival is called: / वह गुण जो किसी जीव के जीवित रहने की संभावना को बढ़ाता है, कहलाता है:",
+        o: [
+            "Mutation / उत्परिवर्तन",
+            "Adaptation / अनुकूलन",
+            "Variation / भिन्नता",
+            "Hybrid / संकर"
+        ],
+        a: 1,
+        e: {
+            concept: "Evolutionary biology and the process of natural selection. / विकासवादी जीव विज्ञान और प्राकृतिक चयन की प्रक्रिया।",
+            correct: "In evolutionary biology, an adaptation is a physical or behavioral characteristic (trait) that has evolved through natural selection, specifically because it increases the fitness and survival probability of an organism in its specific environment. / विकासवादी जीव विज्ञान में, एक अनुकूलन एक भौतिक या व्यवहारिक विशेषता (लक्षण) है जो प्राकृतिक चयन के माध्यम से विकसित हुआ है, विशेष रूप से क्योंकि यह अपने विशिष्ट वातावरण में जीव की फिटनेस और जीवित रहने की संभावना को बढ़ाता है।",
+            wrong: "A mutation is a random change in DNA (which can be harmful, neutral, or beneficial). Variation is the general difference between individuals. A hybrid is the offspring of two different species or varieties. None of these definitions specifically necessitate an increased chance of survival like 'Adaptation' does. / उत्परिवर्तन डीएनए में एक यादृच्छिक परिवर्तन है (जो हानिकारक, तटस्थ या लाभकारी हो सकता है)। भिन्नता व्यक्तियों के बीच सामान्य अंतर है। संकर दो अलग-अलग प्रजातियों या किस्मों की संतान है। इनमें से किसी भी परिभाषा में 'अनुकूलन' की तरह जीवित रहने की संभावना बढ़ने की आवश्यकता नहीं है।"
+        }
+    }
+];
+
