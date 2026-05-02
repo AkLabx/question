@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "GEO1229",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Indian States & UTs (Capitals, Borders)"
+    },
+    "tags": [
+      "TropicOfCancer",
+      "IndianGeography",
+      "Odisha"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Considering the Tropic of cancer, which of the following Iron & Steel plants is different (odd one)?",
+    "question_hi": "कर्क रेखा पर विचार करते हुए, निम्नलिखित में से कौन सा लौह और इस्पात संयंत्र भिन्न (विषम) है?",
+    "options":[
+      "Rourkela",
+      "Bhilai",
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "options_hi":[
+      "राउरकेला",
+      "भिलाई",
+      "बोकारो",
+      "जमशेदपुर"
+    ],
+    "correct": "Rourkela",
+    "explanation": {
+      "summary": "Correct Answer: Rourkela\n\nसही उत्तर: राउरकेला",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Rourkela is the correct odd one out because it is located in Odisha, a state through which the Tropic of Cancer does not pass.\n\n✅ **यह सही क्यों है**\n\n- राउरकेला सही विषम विकल्प है क्योंकि यह ओडिशा में स्थित है, जहाँ से कर्क रेखा नहीं गुजरती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Bokaro and Jamshedpur are in Jharkhand, and Bhilai is in Chhattisgarh; the Tropic of Cancer passes through both of these states.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- बोकारो और जमशेदपुर झारखंड में हैं, और भिलाई छत्तीसगढ़ में है; कर्क रेखा इन दोनों राज्यों से होकर गुजरती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Knowing the states intersected by the Tropic of Cancer helps in solving location-based elimination questions.\n\n📝 **निष्कर्ष**\n\n- कर्क रेखा द्वारा प्रतिच्छेदित राज्यों को जानने से स्थान-आधारित उन्मूलन प्रश्नों को हल करने में मदद मिलती है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Tropic of Cancer (23.5° N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.\n\n💡 **रोचक तथ्य**\n\n- कर्क रेखा (23.5° N) 8 भारतीय राज्यों से होकर गुजरती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिजोरम।"
+    }
+  },
+  {
+    "id": "GEO1230",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Natural Vegetation & Wildlife"
+    },
+    "tags":[
+      "MonsoonForests",
+      "NaturalVegetation",
+      "DeciduousForests"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: one is labeled as Assertion (A) and other is labeled as Reason (R)\nAssertion (A): Monsoon forests are called par excellence\nReason (R): As they form the natural cover almost all over India",
+    "question_hi": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): मानसूनी वनों को सर्वोत्कृष्ट कहा जाता है\nकारण (R): क्योंकि वे लगभग पूरे भारत में प्राकृतिक आवरण बनाते हैं",
+    "options":[
+      "Both (A) & (R) are correct and (R) is correct Explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "None of the above"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) सही है लेकिन (R) सही नहीं है",
+      "(A) सही नहीं है लेकिन (R) सही है",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Both (A) & (R) are correct and (R) is correct Explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: Both (A) & (R) are correct and (R) is correct Explanation of (A)\n\nसही उत्तर: (A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Monsoon forests (Tropical Deciduous Forests) are the most widespread in India, hence they are the most characteristic ('par excellence') vegetation of the subcontinent.\n\n✅ **यह सही क्यों है**\n\n- मानसूनी वन (उष्णकटिबंधीय पर्णपाती वन) भारत में सबसे व्यापक हैं, इसलिए वे उपमहाद्वीप की सबसे विशिष्ट ('सर्वोत्कृष्ट') वनस्पति हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The statements are factually correct and there is a direct causal link between their widespread coverage and them being termed 'par excellence'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन तथ्यात्मक रूप से सही हैं और उनके व्यापक कवरेज और उन्हें 'सर्वोत्कृष्ट' कहे जाने के बीच एक सीधा कारण संबंध है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Deciduous forests are the defining natural vegetation of the Indian subcontinent due to the seasonal monsoon climate.\n\n📝 **निष्कर्ष**\n\n- मौसमी मानसूनी जलवायु के कारण पर्णपाती वन भारतीय उपमहाद्वीप की परिभाषित प्राकृतिक वनस्पति हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Tropical Deciduous Forests shed their leaves for about 6-8 weeks in dry summer to conserve water.\n\n💡 **रोचक तथ्य**\n\n- उष्णकटिबंधीय पर्णपाती वन पानी के संरक्षण के लिए शुष्क गर्मियों में लगभग 6-8 सप्ताह तक अपने पत्ते गिरा देते हैं।"
+    }
+  },
+  {
+    "id": "GEO1231",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Physical Features of India"
+    },
+    "tags": [
+      "Himalayas",
+      "Geomorphology",
+      "Glaciers"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match List - I with List - II\nList I:\na. Typical Hogback Topography\nb. Flat floored structural valleys\nc. Broad synclinal valleys\nd. Hispar glacier\nList II:\nI. Himadri\nII. Lesser Himalayas\nIII. Between Himadri and Himachal\nIV. Between Siwalik and Himachal",
+    "question_hi": "सूची-I को सूची-II के साथ सुमेलित करें:\nसूची I:\na. विशिष्ट हॉगबैक स्थलाकृति\nb. समतल तल वाली संरचनात्मक घाटियाँ\nc. चौड़ी अभिनति घाटियाँ\nd. हिस्पार ग्लेशियर\nसूची II:\nI. हिमाद्रि\nII. लघु हिमालय\nIII. हिमाद्रि और हिमाचल के बीच\nIV. शिवालिक और हिमाचल के बीच",
+    "options":[
+      "a-II, b-IV, c-III, d-I",
+      "a-I, b-II, c-III, d-IV",
+      "a-III, b-I, c-IV, d-II",
+      "a-IV, b-III, c-I, d-II"
+    ],
+    "options_hi":[
+      "a-II, b-IV, c-III, d-I",
+      "a-I, b-II, c-III, d-IV",
+      "a-III, b-I, c-IV, d-II",
+      "a-IV, b-III, c-I, d-II"
+    ],
+    "correct": "a-II, b-IV, c-III, d-I",
+    "explanation": {
+      "summary": "Correct Answer: a-II, b-IV, c-III, d-I\n\nसही उत्तर: a-II, b-IV, c-III, d-I",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Hogback topography is typical of Lesser Himalayas. Flat-floored valleys are 'Duns' between Siwalik and Himachal. Hispar is a glacier in the Himadri/Karakoram region.\n\n✅ **यह सही क्यों है**\n\n- हॉगबैक स्थलाकृति लघु हिमालय की विशिष्टता है। समतल घाटियाँ शिवालिक और हिमाचल के बीच 'दुन' हैं। हिस्पार हिमाद्रि/काराकोरम क्षेत्र में एक ग्लेशियर है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other combination incorrectly maps the structural valleys (Duns) to locations outside the Siwalik-Himachal transition zone.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन संरचनात्मक घाटियों (दुन) को शिवालिक-हिमाचल संक्रमण क्षेत्र के बाहर के स्थानों पर गलत तरीके से मैप करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the distinct geomorphic divisions of the Himalayas is key to matching structural landforms.\n\n📝 **निष्कर्ष**\n\n- संरचनात्मक भू-आकृतियों के मिलान के लिए हिमालय के विशिष्ट भू-आकृतिक विभाजनों को समझना महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Hispar Glacier, at 49 km long, combines with the Biafo Glacier to form the longest glacial system outside the polar regions.\n\n💡 **रोचक तथ्य**\n\n- 49 किमी लंबा हिस्पार ग्लेशियर, बियाफो ग्लेशियर के साथ मिलकर ध्रुवीय क्षेत्रों के बाहर सबसे लंबी हिमनद प्रणाली बनाता है।"
+    }
+  },
+  {
+    "id": "GEO1232",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Indian States & UTs (Capitals, Borders)"
+    },
+    "tags":[
+      "PoliticalGeography",
+      "IndianMap",
+      "States"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following states are almost identical in their shapes?",
+    "question_hi": "निम्नलिखित में से कौन से राज्य अपने आकार में लगभग समान हैं?",
+    "options":[
+      "Uttarakhand & Himachal Pradesh",
+      "Bihar and Jharkhand",
+      "Chhattisgarh and Odisha",
+      "None of the above"
+    ],
+    "options_hi":[
+      "उत्तराखंड और हिमाचल प्रदेश",
+      "बिहार और झारखंड",
+      "छत्तीसगढ़ और ओडिशा",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Uttarakhand & Himachal Pradesh",
+    "explanation": {
+      "summary": "Correct Answer: Uttarakhand & Himachal Pradesh\n\nसही उत्तर: उत्तराखंड और हिमाचल प्रदेश",
+      "analysis_correct": "✅ **Why this is correct**\n\n- On the political map of India, Uttarakhand and Himachal Pradesh share a somewhat similar rectangular, block-like orientation situated in the Western/Central Himalayas.\n\n✅ **यह सही क्यों है**\n\n- भारत के राजनीतिक मानचित्र पर, उत्तराखंड और हिमाचल प्रदेश पश्चिमी/मध्य हिमालय में स्थित कुछ हद तक समान आयताकार, ब्लॉक-जैसी अभिविन्यास साझा करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Bihar (rectangular) and Jharkhand (polygon) are vastly different. Chhattisgarh looks like a seahorse, while Odisha is morphologically very different.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- बिहार (आयताकार) और झारखंड (बहुभुज) काफी भिन्न हैं। छत्तीसगढ़ एक समुद्री घोड़े जैसा दिखता है, जबकि ओडिशा रूपात्मक रूप से बहुत अलग है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Familiarity with the visual outline and cartographic shape of Indian states is often tested in map-based reasoning questions.\n\n📝 **निष्कर्ष**\n\n- भारतीय राज्यों की दृश्य रूपरेखा और कार्टोग्राफिक आकार से परिचित होना अक्सर मानचित्र-आधारित तर्क प्रश्नों में परीक्षण किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Both Himachal Pradesh and Uttarakhand were primarily formed to give administrative recognition to the distinct hilly terrain and cultural identity of the region.\n\n💡 **रोचक तथ्य**\n\n- हिमाचल प्रदेश और उत्तराखंड दोनों मुख्य रूप से क्षेत्र के विशिष्ट पहाड़ी इलाके और सांस्कृतिक पहचान को प्रशासनिक मान्यता देने के लिए बनाए गए थे।"
+    }
+  },
+  {
+    "id": "GEO1233",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Physical Features of India"
+    },
+    "tags":[
+      "Satpura",
+      "Vindhya",
+      "MountainRanges"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements is not correct?\nI. Satpura runs west-east\nII. Satpura is known as Mahadeo hills in the central part of India\nIII. Satpura is northern boundary of Peninsular plateaus\nIV. Satpura is longest than Vindhya ranges",
+    "question_hi": "निम्नलिखित में से कौन सा कथन सही नहीं है?\nI. सतपुड़ा पश्चिम-पूर्व की ओर चलता है\nII. मध्य भारत में सतपुड़ा को महादेव पहाड़ियों के रूप में जाना जाता है\nIII. सतपुड़ा प्रायद्वीपीय पठारों की उत्तरी सीमा है\nIV. सतपुड़ा विंध्य पर्वतमाला से अधिक लंबा है",
+    "options":[
+      "I",
+      "III",
+      "II",
+      "IV"
+    ],
+    "options_hi":[
+      "केवल I",
+      "केवल III",
+      "केवल II",
+      "केवल IV"
+    ],
+    "correct": "IV",
+    "explanation": {
+      "summary": "Correct Answer: IV\n\nसही उत्तर: केवल IV",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement IV is incorrect because the Vindhya Range is generally longer and more extensive (approx. 1050 km) than the Satpura Range (approx. 900 km).\n\n✅ **यह सही क्यों है**\n\n- कथन IV गलत है क्योंकि विंध्य पर्वतमाला आमतौर पर सतपुड़ा पर्वतमाला (लगभग 900 किमी) की तुलना में लंबी और अधिक व्यापक (लगभग 1050 किमी) है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statements I, II, and III are factually correct descriptions of the Satpura range's alignment, local nomenclature (Mahadeo hills), and geological placement.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन I, II और III सतपुड़ा पर्वतमाला के संरेखण, स्थानीय नामकरण (महादेव पहाड़ियों) और भूवैज्ञानिक स्थान के तथ्यात्मक रूप से सही विवरण हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Vindhya and Satpura ranges run parallel, divided by the Narmada Rift Valley, with Vindhya being slightly longer.\n\n📝 **निष्कर्ष**\n\n- विंध्य और सतपुड़ा पर्वतमाला समानांतर चलती हैं, जो नर्मदा रिफ्ट घाटी द्वारा विभाजित हैं, जिसमें विंध्य थोड़ी अधिक लंबी है।",
+      "fact": "💡 **Interesting Fact**\n\n- The name 'Satpura' literally translates to 'Seven Folds', referring to the multiple parallel ridges that make up the range.\n\n💡 **रोचक तथ्य**\n\n- 'सतपुड़ा' नाम का शाब्दिक अर्थ 'सात तह' है, जो सीमा को बनाने वाली कई समानांतर लकीरों का जिक्र करता है।"
+    }
+  },
+  {
+    "id": "GEO1234",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Physical Features of India"
+    },
+    "tags":[
+      "TharDesert",
+      "Marusthali",
+      "Geomorphology"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "What is 'Marusthali' in Thar desert?",
+    "question_hi": "थार मरुस्थल में 'मरुस्थली' क्या है?",
+    "options":[
+      "Fertile land developed by rivers",
+      "Region of moving sands and low rainfall",
+      "Both Sand Dunes and Dune",
+      "Transverse Dune"
+    ],
+    "options_hi":[
+      "नदियों द्वारा विकसित उपजाऊ भूमि",
+      "चलती रेत और कम वर्षा का क्षेत्र",
+      "रेत के टीले और टीले दोनों",
+      "अनुप्रस्थ टीला"
+    ],
+    "correct": "Region of moving sands and low rainfall",
+    "explanation": {
+      "summary": "Correct Answer: Region of moving sands and low rainfall\n\nसही उत्तर: चलती रेत और कम वर्षा का क्षेत्र",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Marusthali literally translates to 'land of the dead' and refers to the hyper-arid region of the Thar Desert characterized by shifting sand dunes and extremely low rainfall.\n\n✅ **यह सही क्यों है**\n\n- मरुस्थली का शाब्दिक अर्थ 'मृतकों की भूमि' है और यह थार मरुस्थल के उस अति-शुष्क क्षेत्र को संदर्भित करता है जिसकी विशेषता रेत के टीलों का खिसकना और अत्यधिक कम वर्षा है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- It is not fertile land (the semi-arid fertile fringe is called 'Bagar'), nor is it solely defined as a specific 'Transverse dune'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह उपजाऊ भूमि नहीं है (अर्ध-शुष्क उपजाऊ किनारे को 'बागर' कहा जाता है), न ही इसे केवल एक विशिष्ट 'अनुप्रस्थ टीले' के रूप में परिभाषित किया गया है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Great Indian Desert is primarily divided into two main parts: the extremely arid Marusthali and the semi-arid Bagar.\n\n📝 **निष्कर्ष**\n\n- महान भारतीय मरुस्थल मुख्य रूप से दो मुख्य भागों में विभाजित है: अत्यधिक शुष्क मरुस्थली और अर्ध-शुष्क बागर।",
+      "fact": "💡 **Interesting Fact**\n\n- The sand dunes in the Marusthali region are highly mobile and constantly change their shape and location due to strong surface winds.\n\n💡 **रोचक तथ्य**\n\n- मरुस्थली क्षेत्र में रेत के टीले अत्यधिक गतिशील होते हैं और तेज सतही हवाओं के कारण लगातार अपना आकार और स्थान बदलते रहते हैं।"
+    }
+  },
+  {
+    "id": "GEO1235",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "River Systems of India"
+    },
+    "tags":[
+      "RiversOfBihar",
+      "HimalayanRivers",
+      "OriginOfRivers"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match List - I with List - II\nList I:\nI. Mahananda\nII. Bagamati\nIII. Kamala\nIV. Ghagra\nList II:\na. Shivpuri (Nepal)\nb. Mahabharat range (Nepal)\nc. Nampa (Nepal)\nd. Sikkim",
+    "question_hi": "सूची-I को सूची-II के साथ सुमेलित करें:\nसूची I:\nI. महानंदा\nII. बागमती\nIII. कमला\nIV. घाघरा\nसूची II:\na. शिवपुरी (नेपाल)\nb. महाभारत रेंज (नेपाल)\nc. नाम्पा (नेपाल)\nd. सिक्किम",
+    "options":[
+      "I-d, II-a, III-c, IV-b",
+      "I-a, II-b, III-c, IV-d",
+      "I-d, II-c, III-b, IV-a",
+      "I-d, II-a, III-b, IV-c"
+    ],
+    "options_hi":[
+      "I-d, II-a, III-c, IV-b",
+      "I-a, II-b, III-c, IV-d",
+      "I-d, II-c, III-b, IV-a",
+      "I-d, II-a, III-b, IV-c"
+    ],
+    "correct": "I-d, II-a, III-b, IV-c",
+    "explanation": {
+      "summary": "Correct Answer: I-d, II-a, III-b, IV-c\n\nसही उत्तर: I-d, II-a, III-b, IV-c",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Mahananda originates near Darjeeling/Sikkim (d). Bagmati originates in Shivapuri hills (a). Kamala originates in the Mahabharat range (b). Ghagra originates near Nampa/Gurla Mandhata (c).\n\n✅ **यह सही क्यों है**\n\n- महानंदा दार्जिलिंग/सिक्किम के पास से निकलती है (d)। बागमती शिवपुरी पहाड़ियों से निकलती है (a)। कमला महाभारत रेंज से निकलती है (b)। घाघरा नाम्पा/गुर्ला मंधाता के पास से निकलती है (c)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other combination mismatches the origin points, such as incorrectly pairing Ghagra with Sikkim or Mahananda with Nepal ranges.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन उद्गम बिंदुओं का गलत मिलान करता है, जैसे घाघरा को सिक्किम के साथ या महानंदा को नेपाल पर्वतमाला के साथ गलत तरीके से जोड़ना।",
+      "conclusion": "📝 **Concluding Note**\n\n- Most of North Bihar's rivers are trans-boundary Himalayan rivers that originate in Nepal and Tibet before entering the Indian plains.\n\n📝 **निष्कर्ष**\n\n- उत्तर बिहार की अधिकांश नदियाँ सीमा पार हिमालयी नदियाँ हैं जो भारतीय मैदानों में प्रवेश करने से पहले नेपाल और तिब्बत से निकलती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Bagmati river flows right through the Kathmandu valley and is considered a holy river, with the famous Pashupatinath Temple located on its banks.\n\n💡 **रोचक तथ्य**\n\n- बागमती नदी काठमांडू घाटी से होकर बहती है और इसे एक पवित्र नदी माना जाता है, प्रसिद्ध पशुपतिनाथ मंदिर इसके तट पर स्थित है।"
+    }
+  },
+  {
+    "id": "SGK654",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "India at a Glance",
+      "subTopic": "Miscellaneous GK"
+    },
+    "tags": [
+      "BiharGeography",
+      "Districts",
+      "AdministrativeDivisions"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "How many districts of Bihar have similar name of their head-quarter as the name of district?",
+    "question_hi": "बिहार के कितने जिलों के मुख्यालय का नाम जिले के नाम के समान है?",
+    "options":[
+      "30",
+      "31",
+      "29",
+      "35"
+    ],
+    "options_hi":[
+      "30",
+      "31",
+      "29",
+      "35"
+    ],
+    "correct": "30",
+    "explanation": {
+      "summary": "Correct Answer: 30\n\nसही उत्तर: 30",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Out of 38 districts in Bihar, 8 have distinct headquarters names (e.g., Bhojpur->Ara, Rohtas->Sasaram, Nalanda->Bihar Sharif, Saran->Chhapra, Vaishali->Hajipur, etc.). Thus, 30 districts share the exact name with their headquarters.\n\n✅ **यह सही क्यों है**\n\n- बिहार के 38 जिलों में से 8 के मुख्यालय के नाम अलग-अलग हैं (जैसे भोजपुर->आरा, रोहतास->सासाराम, आदि)। इस प्रकार, 30 जिले अपने मुख्यालय के साथ सटीक नाम साझा करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The total count of districts with different names is precisely 8, making the options 29, 31, and 35 mathematically incorrect out of the total 38 districts.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अलग-अलग नामों वाले जिलों की कुल संख्या ठीक 8 है, जिससे कुल 38 जिलों में से 29, 31 और 35 विकल्प गणितीय रूप से गलत हो जाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Knowing the administrative setup and anomalies in district headquarter naming is important for state-specific public service exams.\n\n📝 **निष्कर्ष**\n\n- राज्य-विशिष्ट लोक सेवा परीक्षाओं के लिए प्रशासनिक व्यवस्था और जिला मुख्यालय नामकरण में विसंगतियों को जानना महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- The headquarters of East Champaran is Motihari, and for West Champaran, it is Bettiah; neither uses the word 'Champaran' in the town name.\n\n💡 **रोचक तथ्य**\n\n- पूर्वी चंपारण का मुख्यालय मोतिहारी है, और पश्चिमी चंपारण का मुख्यालय बेतिया है; दोनों में से किसी भी शहर के नाम में 'चंपारण' शब्द का प्रयोग नहीं किया गया है।"
+    }
+  },
+  {
+    "id": "GEO1236",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Indian States & UTs (Capitals, Borders)"
+    },
+    "tags":[
+      "BiharBifurcation",
+      "Jharkhand",
+      "StateReorganization"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "What is the position of Bihar after the separation of Jharkhand?\nConsider the following statements:\n1. Longitudinal extension remain the same\n2. Latitudinal extension reduced by 2°30'\n3. It comprises 54.15% area of undivided Bihar",
+    "question_hi": "झारखंड के अलग होने के बाद बिहार की स्थिति क्या है?\nनिम्नलिखित कथनों पर विचार करें:\n1. देशांतरीय विस्तार समान रहता है\n2. अक्षांशीय विस्तार 2°30' कम हो गया\n3. इसमें अविभाजित बिहार का 54.15% क्षेत्र शामिल है",
+    "options":[
+      "Only one and three",
+      "All three",
+      "Only one",
+      "None of the above"
+    ],
+    "options_hi":[
+      "केवल एक और तीन",
+      "तीनों",
+      "केवल एक",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "All three",
+    "explanation": {
+      "summary": "Correct Answer: All three\n\nसही उत्तर: तीनों",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Jharkhand was carved out of southern Bihar, reducing the latitudinal span by roughly 2.5 degrees. The longitudinal span remained largely similar, and remaining Bihar holds about 54.15% of the original land area.\n\n✅ **यह सही क्यों है**\n\n- झारखंड को दक्षिणी बिहार से अलग किया गया था, जिससे अक्षांशीय विस्तार लगभग 2.5 डिग्री कम हो गया। देशांतरीय विस्तार काफी हद तक समान रहा, और शेष बिहार मूल भूमि क्षेत्र का लगभग 54.15% हिस्सा रखता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Eliminating any of these statements neglects the factual geographical shifts caused by the bifurcation of the state in 2000.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इनमें से किसी भी कथन को हटाने से 2000 में राज्य के विभाजन के कारण होने वाले तथ्यात्मक भौगोलिक बदलाव की उपेक्षा होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Bihar Reorganisation Act 2000 drastically changed the state's geography, stripping it of its mineral-rich southern plateau.\n\n📝 **निष्कर्ष**\n\n- बिहार पुनर्गठन अधिनियम 2000 ने राज्य के भूगोल को काफी हद तक बदल दिया, जिससे यह खनिज समृद्ध दक्षिणी पठार से वंचित हो गया।",
+      "fact": "💡 **Interesting Fact**\n\n- Post-division, Bihar's area became approximately 94,163 sq km, making it the 12th largest state by area in India today.\n\n💡 **रोचक तथ्य**\n\n- विभाजन के बाद, बिहार का क्षेत्रफल लगभग 94,163 वर्ग किमी हो गया, जिससे यह आज भारत में क्षेत्रफल के हिसाब से 12वां सबसे बड़ा राज्य बन गया है।"
+    }
+  },
+  {
+    "id": "GEO1237",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Physical Features of India"
+    },
+    "tags":[
+      "HimalayanValleys",
+      "Duns",
+      "Geomorphology"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following Dun's is in the west of Dun valley?",
+    "question_hi": "दून घाटी के पश्चिम में निम्नलिखित में से कौन सा दून स्थित है?",
+    "options":[
+      "Patli Dun",
+      "Kotli Dun",
+      "Pijori Dun",
+      "None of the above"
+    ],
+    "options_hi":[
+      "पाटली दून",
+      "कोटली दून",
+      "पिंजोरी दून",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Kotli Dun",
+    "explanation": {
+      "summary": "Correct Answer: Kotli Dun\n\nसही उत्तर: कोटली दून",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Kotli Dun is located in the Jammu region, which lies geographically to the west/north-west of the main Dehradun valley in the Shiwalik-Lesser Himalayas zone.\n\n✅ **यह सही क्यों है**\n\n- कोटली दून जम्मू क्षेत्र में स्थित है, जो शिवालिक-लघु हिमालय क्षेत्र में मुख्य देहरादून घाटी के पश्चिम/उत्तर-पश्चिम में भौगोलिक रूप से स्थित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Patli Dun is located to the east in the Corbett National Park area (Uttarakhand). Pinjore Dun is near Chandigarh, structurally different in the query's relative context.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पाटली दून पूर्व में कॉर्बेट नेशनल पार्क क्षेत्र (उत्तराखंड) में स्थित है। पिंजौर दून चंडीगढ़ के पास है, जो प्रश्न के सापेक्ष संदर्भ में संरचनात्मक रूप से भिन्न है।",
+      "conclusion": "📝 **Concluding Note**\n\n- 'Duns' are longitudinal valleys formed by the accumulation of conglomerates between the Lesser Himalayas and Shiwaliks.\n\n📝 **निष्कर्ष**\n\n- 'दुन' अनुदैर्ध्य घाटियाँ हैं जो लघु हिमालय और शिवालिक के बीच समूहों के संचय से बनती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Dehradun is the largest and most famous among these longitudinal valleys in the Indian Himalayan foothills.\n\n💡 **रोचक तथ्य**\n\n- देहरादून भारतीय हिमालय की तलहटी में इन अनुदैर्ध्य घाटियों में सबसे बड़ी और सबसे प्रसिद्ध है।"
+    }
+  },
+  {
+    "id": "HIS1823",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Vedic Period"
+    },
+    "tags":[
+      "Rigveda",
+      "VedicDeities",
+      "Varuna"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following Gods is referred to as 'Ritasya Gopa' in the Rigveda?",
+    "question_hi": "ऋग्वेद में निम्नलिखित में से किस देवता को 'ऋतस्य गोपा' कहा गया है?",
+    "options":[
+      "Varuna",
+      "Marut",
+      "Indra",
+      "Agni"
+    ],
+    "options_hi":[
+      "वरुण",
+      "मरुत",
+      "इंद्र",
+      "अग्नि"
+    ],
+    "correct": "Varuna",
+    "explanation": {
+      "summary": "Correct Answer: Varuna\n\nसही उत्तर: वरुण",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In the Rigveda, Varuna is the deity associated with upholding 'Rita' (the physical and moral cosmic order). As the guardian of this order, he is called 'Ritasya Gopa'.\n\n✅ **यह सही क्यों है**\n\n- ऋग्वेद में, वरुण 'ऋत' (भौतिक और नैतिक लौकिक व्यवस्था) को बनाए रखने से जुड़े देवता हैं। इस व्यवस्था के संरक्षक के रूप में, उन्हें 'ऋतस्य गोपा' कहा जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Indra is the god of thunder and rain; Agni is the god of fire; Maruts are storm deities. None of these were primarily designated as the custodian of 'Rita'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इंद्र गड़गड़ाहट और वर्षा के देवता हैं; अग्नि आग के देवता हैं; मरुत तूफान के देवता हैं। इनमें से किसी को भी मुख्य रूप से 'ऋत' के संरक्षक के रूप में नामित नहीं किया गया था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The concept of 'Rita' forms the foundational basis of the later Hindu philosophical concept of 'Dharma' and 'Karma'.\n\n📝 **निष्कर्ष**\n\n- 'ऋत' की अवधारणा बाद की हिंदू दार्शनिक अवधारणा 'धर्म' और 'कर्म' का मूलभूत आधार बनाती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Varuna was believed to possess a thousand eyes, allowing him to oversee the entire world and punish transgressors of the cosmic law.\n\n💡 **रोचक तथ्य**\n\n- ऐसा माना जाता था कि वरुण की एक हजार आंखें थीं, जिससे वे पूरी दुनिया की निगरानी कर सकते थे और लौकिक नियम का उल्लंघन करने वालों को दंडित कर सकते थे।"
+    }
+  },
+  {
+    "id": "HIS1824",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Foreign Invasions (Persian & Greek)"
+    },
+    "tags":[
+      "Alexander",
+      "Porus",
+      "AncientIndia"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which area did Alexander grant to king Pururaj (Porus)?",
+    "question_hi": "सिकंदर ने राजा पुरुराज (पोरस) को कौन सा क्षेत्र प्रदान किया था?",
+    "options":[
+      "Between Bias and Jhelum",
+      "Between Sindh and Jhelum",
+      "Between Ravi and Jhelum",
+      "Between Jhelum and Chenab"
+    ],
+    "options_hi":[
+      "ब्यास और झेलम के बीच",
+      "सिंध और झेलम के बीच",
+      "रावी और झेलम के बीच",
+      "झेलम और चिनाब के बीच"
+    ],
+    "correct": "Between Bias and Jhelum",
+    "explanation": {
+      "summary": "Correct Answer: Between Bias and Jhelum\n\nसही उत्तर: ब्यास और झेलम के बीच",
+      "analysis_correct": "✅ **Why this is correct**\n\n- After the Battle of Hydaspes, Alexander was highly impressed by Porus. He reinstated him and granted him dominion over the newly conquered territories extending eastward up to the Beas (Hyphasis) river.\n\n✅ **यह सही क्यों है**\n\n- हाइडस्पेश के युद्ध के बाद, सिकंदर पोरस से बहुत प्रभावित हुआ था। उसने उसे बहाल किया और पूर्व में ब्यास (हाइफैसिस) नदी तक फैले नए विजित क्षेत्रों का अधिकार प्रदान किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Porus's original core kingdom was strictly between the Jhelum and Chenab rivers, but Alexander expanded his administrative grant all the way up to the Beas river.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पोरस का मूल मुख्य राज्य पूरी तरह से झेलम और चिनाब नदियों के बीच था, लेकिन सिकंदर ने अपना प्रशासनिक अनुदान ब्यास नदी तक बढ़ा दिया।",
+      "conclusion": "📝 **Concluding Note**\n\n- Alexander's policy was to create strong allied satrapies on the borders of his empire before retreating from the Indian subcontinent.\n\n📝 **निष्कर्ष**\n\n- सिकंदर की नीति भारतीय उपमहाद्वीप से पीछे हटने से पहले अपने साम्राज्य की सीमाओं पर मजबूत संबद्ध क्षत्रप बनाने की थी।",
+      "fact": "💡 **Interesting Fact**\n\n- The Beas River marked the easternmost extent of Alexander the Great's conquests, as his troops mutinied here and refused to march further into the Nanda Empire.\n\n💡 **रोचक तथ्य**\n\n- ब्यास नदी ने सिकंदर महान की विजय की सबसे पूर्वी सीमा को चिह्नित किया, क्योंकि उसके सैनिकों ने यहाँ विद्रोह कर दिया था और नंद साम्राज्य में आगे बढ़ने से इनकार कर दिया था।"
+    }
+  },
+  {
+    "id": "HIS1825",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Mauryan Empire"
+    },
+    "tags":[
+      "Ashoka",
+      "MauryanAdministration",
+      "Inscriptions"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Ashoka's high officers went on 'Nirikchatan' for administrative visit in Ujjaini and Taxila in every ______ years.",
+    "question_hi": "अशोक के उच्च अधिकारी हर ______ वर्षों में उज्जैनी और तक्षशिला के प्रशासनिक दौरे के लिए 'निरीक्षण' पर जाते थे।",
+    "options":[
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "options_hi":[
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": "3",
+    "explanation": {
+      "summary": "Correct Answer: 3\n\nसही उत्तर: 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to Ashoka's Separate Rock Edicts, Mahamatras generally went on tours every 5 years. However, for specific politically sensitive provinces like Ujjain and Taxila, it was conducted every 3 years.\n\n✅ **यह सही क्यों है**\n\n- अशोक के पृथक रॉक एडिक्ट्स के अनुसार, महामात्र आमतौर पर हर 5 साल में दौरे पर जाते थे। हालाँकि, उज्जैन और तक्षशिला जैसे विशिष्ट राजनीतिक रूप से संवेदनशील प्रांतों के लिए, यह हर 3 साल में आयोजित किया जाता था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The standard general interval mentioned in Rock Edict III is 5 years, which makes '5' incorrect for the specific exceptions of Ujjain and Taxila.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- रॉक एडिक्ट III में वर्णित मानक सामान्य अंतराल 5 वर्ष है, जो उज्जैन और तक्षशिला के विशिष्ट अपवादों के लिए '5' को गलत बनाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- This administrative touring system (Anusamyana) was established to ensure justice, propagate Dhamma, and prevent oppression by local officials.\n\n📝 **निष्कर्ष**\n\n- यह प्रशासनिक दौरा प्रणाली (अनुसंयान) न्याय सुनिश्चित करने, धम्म का प्रचार करने और स्थानीय अधिकारियों द्वारा उत्पीड़न को रोकने के लिए स्थापित की गई थी।",
+      "fact": "💡 **Interesting Fact**\n\n- Taxila and Ujjain were highly rebellious provinces during Bindusara's reign, leading Ashoka to enforce stricter and more frequent administrative oversight.\n\n💡 **रोचक तथ्य**\n\n- बिंदुसार के शासनकाल के दौरान तक्षशिला और उज्जैन अत्यधिक विद्रोही प्रांत थे, जिसके कारण अशोक ने सख्त और अधिक लगातार प्रशासनिक निगरानी लागू की।"
+    }
+  },
+  {
+    "id": "HIS1826",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Post-Mauryan Period"
+    },
+    "tags":[
+      "Kanishka",
+      "AncientScholars",
+      "KushanEmpire"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which one of the following scholars was associated with king Kanishka?",
+    "question_hi": "निम्नलिखित में से कौन सा विद्वान राजा कनिष्क से जुड़ा था?",
+    "options":[
+      "Vasubandhu",
+      "Dignag",
+      "Buddhaghosh",
+      "Ashvaghosh"
+    ],
+    "options_hi":[
+      "वसुबंधु",
+      "दिग्नाग",
+      "बुद्धघोष",
+      "अश्वघोष"
+    ],
+    "correct": "Ashvaghosh",
+    "explanation": {
+      "summary": "Correct Answer: Ashvaghosh\n\nसही उत्तर: अश्वघोष",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Ashvaghosh was a renowned philosopher, poet, and prominent Buddhist scholar who lived in the court of the Kushan Emperor Kanishka.\n\n✅ **यह सही क्यों है**\n\n- अश्वघोष एक प्रसिद्ध दार्शनिक, कवि और प्रमुख बौद्ध विद्वान थे जो कुषाण सम्राट कनिष्क के दरबार में रहते थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Vasubandhu and Dignaga are associated with the later Gupta period. Buddhaghosa was a 5th-century Theravada commentator in Sri Lanka.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- वसुबंधु और दिग्नाग बाद के गुप्त काल से जुड़े हैं। बुद्धघोष श्रीलंका में 5वीं सदी के थेरवाद टीकाकार थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Kanishka's court was a great center of learning, patronizing scholars like Ashvaghosh, Vasumitra, Nagarjuna, and the physician Charaka.\n\n📝 **निष्कर्ष**\n\n- कनिष्क का दरबार शिक्षा का एक महान केंद्र था, जो अश्वघोष, वसुमित्र, नागार्जुन और चिकित्सक चरक जैसे विद्वानों को संरक्षण देता था।",
+      "fact": "💡 **Interesting Fact**\n\n- Ashvaghosh is famous for writing the 'Buddhacharita', an epic Sanskrit poem detailing the life and teachings of Gautama Buddha.\n\n💡 **रोचक तथ्य**\n\n- अश्वघोष 'बुद्धचरित' लिखने के लिए प्रसिद्ध हैं, जो गौतम बुद्ध के जीवन और शिक्षाओं का वर्णन करने वाली एक महाकाव्य संस्कृत कविता है।"
+    }
+  },
+  {
+    "id": "HIS1827",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Delhi Sultanate"
+    },
+    "tags":[
+      "AlauddinKhilji",
+      "DelhiSultanate",
+      "MedievalHistory"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "On which victory Alauddin Khilji was granted governorship of Awadh in addition?",
+    "question_hi": "किस विजय पर अलाउद्दीन खिलजी को अतिरिक्त रूप से अवध की सूबेदारी प्रदान की गई थी?",
+    "options":[
+      "Chittor",
+      "Gujarat",
+      "Bhilsa",
+      "Devagiri"
+    ],
+    "options_hi":[
+      "चित्तौड़",
+      "गुजरात",
+      "भिलसा",
+      "देवगिरी"
+    ],
+    "correct": "Bhilsa",
+    "explanation": {
+      "summary": "Correct Answer: Bhilsa\n\nसही उत्तर: भिलसा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In 1293, Alauddin (then governor of Kara) successfully raided Bhilsa in Malwa. Pleased with the enormous booty, Sultan Jalaluddin granted him the governorship of Awadh.\n\n✅ **यह सही क्यों है**\n\n- 1293 में, अलाउद्दीन (तत्कालीन कड़ा के गवर्नर) ने मालवा में भिलसा पर सफलतापूर्वक छापा मारा। भारी लूट से प्रसन्न होकर, सुल्तान जलालुद्दीन ने उसे अवध की सूबेदारी भी प्रदान कर दी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Chittor and Gujarat campaigns were conducted much later when he was already Sultan. Devagiri was raided subsequently to fund his coup against Jalaluddin.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- चित्तौड़ और गुजरात अभियान बहुत बाद में चलाए गए थे जब वह पहले से ही सुल्तान था। जलालुद्दीन के खिलाफ अपने तख्तापलट को वित्तपोषित करने के लिए बाद में देवगिरी पर छापा मारा गया था।",
+      "conclusion": "📝 **Concluding Note**\n\n- Alauddin's early raids into Central and Southern India were motivated by the sheer desire for wealth to buy political influence in Delhi.\n\n📝 **निष्कर्ष**\n\n- मध्य और दक्षिणी भारत में अलाउद्दीन के प्रारंभिक छापों को दिल्ली में राजनीतिक प्रभाव खरीदने के लिए धन की इच्छा से प्रेरित किया गया था।",
+      "fact": "💡 **Interesting Fact**\n\n- It was during the Bhilsa raid that Alauddin first learned about the legendary wealth of the Yadava Kingdom in Devagiri, leading to his historic 1296 raid.\n\n💡 **रोचक तथ्य**\n\n- भिलसा छापे के दौरान ही अलाउद्दीन को पहली बार देवगिरी में यादव साम्राज्य की पौराणिक संपत्ति के बारे में पता चला, जिसके कारण उसका ऐतिहासिक 1296 का छापा पड़ा।"
+    }
+  },
+  {
+    "id": "HIS1828",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Delhi Sultanate"
+    },
+    "tags":[
+      "MuhammadBinTughlaq",
+      "DelhiSultanate",
+      "KhiljiDynasty"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Under which Sultan of Delhi, Muhammad Bin Tughlaq had worked before becoming the ruler?",
+    "question_hi": "शासक बनने से पहले मुहम्मद बिन तुगलक ने दिल्ली के किस सुल्तान के अधीन काम किया था?",
+    "options":[
+      "Balban",
+      "Alaudding Khilji",
+      "Kaiqubad",
+      "Khusrau Shah"
+    ],
+    "options_hi":[
+      "बलबन",
+      "अलाउद्दीन खिलजी",
+      "कैकुबाद",
+      "खुसरो शाह"
+    ],
+    "correct": "Khusrau Shah",
+    "explanation": {
+      "summary": "Correct Answer: Khusrau Shah\n\nसही उत्तर: खुसरो शाह",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Muhammad bin Tughlaq (Jauna Khan) served as the Master of the Horse under Khusrau Shah, the last ruler of the Khilji dynasty, before helping his father overthrow him.\n\n✅ **यह सही क्यों है**\n\n- मुहम्मद बिन तुगलक (जौना खान) ने अपने पिता को उखाड़ फेंकने में मदद करने से पहले खिलजी वंश के अंतिम शासक खुसरो शाह के अधीन मास्टर ऑफ द हॉर्स के रूप में कार्य किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Balban and Kaiqubad ruled decades earlier. While his family served under Alauddin Khilji, his immediate superior right before the Tughlaq dynasty's foundation was Khusrau Shah.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- बलबन और कैकुबाद ने दशकों पहले शासन किया था। जबकि उनके परिवार ने अलाउद्दीन खिलजी के अधीन कार्य किया, तुगलक वंश की स्थापना से ठीक पहले उनके तत्काल श्रेष्ठ खुसरो शाह थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- The transition from the Khilji to the Tughlaq dynasty happened when Ghazi Malik (Ghiyasuddin) defeated Khusrau Shah to establish his own rule.\n\n📝 **निष्कर्ष**\n\n- खिलजी से तुगलक वंश में संक्रमण तब हुआ जब गाजी मलिक (गयासुद्दीन) ने अपना शासन स्थापित करने के लिए खुसरो शाह को हराया।",
+      "fact": "💡 **Interesting Fact**\n\n- Khusrau Shah was originally a Hindu captive from Gujarat who converted to Islam and rose rapidly through the ranks to briefly become the Sultan.\n\n💡 **रोचक तथ्य**\n\n- खुसरो शाह मूल रूप से गुजरात का एक हिंदू बंदी था जिसने इस्लाम धर्म अपना लिया और सुल्तान बनने के लिए तेजी से रैंकों में आगे बढ़ा।"
+    }
+  },
+  {
+    "id": "HIS1829",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Mughal Empire"
+    },
+    "tags":[
+      "BattleOfHaldighati",
+      "MughalEmpire",
+      "MaharanaPratap"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Who led the Mughal army in the battle of Haldighati? (Select the correct answer using the following code)\n(1) Bhagwan Das\n(2) Man Singh\n(3) Akbar\n(4) Asaf khan",
+    "question_hi": "हल्दीघाटी के युद्ध में मुग़ल सेना का नेतृत्व किसने किया था? (निम्नलिखित कूट का प्रयोग कर सही उत्तर चुनिए)\n(1) भगवान दास\n(2) मान सिंह\n(3) अकबर\n(4) आसफ खान",
+    "options":[
+      "Only 3",
+      "Only 2",
+      "Both 2 and 4",
+      "1, 2 and 4"
+    ],
+    "options_hi":[
+      "केवल 3",
+      "केवल 2",
+      "2 और 4 दोनों",
+      "1, 2 और 4"
+    ],
+    "correct": "Both 2 and 4",
+    "explanation": {
+      "summary": "Correct Answer: Both 2 and 4\n\nसही उत्तर: 2 और 4 दोनों",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Mughal army at the Battle of Haldighati (1576) against Maharana Pratap was jointly commanded by Raja Man Singh of Amber and the Mughal noble Asaf Khan.\n\n✅ **यह सही क्यों है**\n\n- हल्दीघाटी के युद्ध (1576) में महाराणा प्रताप के खिलाफ मुगल सेना की कमान आमेर के राजा मान सिंह और मुगल कुलीन आसफ खान ने संयुक्त रूप से संभाली थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Akbar did not personally lead the troops in this specific battle. Therefore, any option including Akbar (3) is incorrect, and Man Singh did not lead the campaign entirely alone.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अकबर ने व्यक्तिगत रूप से इस विशिष्ट युद्ध में सेना का नेतृत्व नहीं किया था। इसलिए, अकबर (3) सहित कोई भी विकल्प गलत है, और मान सिंह ने अकेले अभियान का नेतृत्व नहीं किया था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The battle was strategically significant in Mughal-Rajput relations, showcasing Rajput generals commanding Imperial Mughal armies against other Rajputs.\n\n📝 **निष्कर्ष**\n\n- यह युद्ध मुगल-राजपूत संबंधों में रणनीतिक रूप से महत्वपूर्ण था, जो अन्य राजपूतों के खिलाफ शाही मुगल सेनाओं की कमान संभालने वाले राजपूत जनरलों को प्रदर्शित करता था।",
+      "fact": "💡 **Interesting Fact**\n\n- Maharana Pratap's legendary horse, Chetak, died in this battle after heroically carrying the wounded Maharana to safety across a river.\n\n💡 **रोचक तथ्य**\n\n- महाराणा प्रताप के महान घोड़े, चेतक की इस युद्ध में मृत्यु हो गई थी, जब उसने बहादुरी से घायल महाराणा को नदी के पार सुरक्षित पहुँचाया था।"
+    }
+  },
+  {
+    "id": "HIS1830",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Mughal Empire"
+    },
+    "tags":[
+      "SherShahSuri",
+      "LandRevenue",
+      "MedievalAdministration"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In which field terminology 'Rai' was connected during Shershah's period?",
+    "question_hi": "शेरशाह के काल में 'रई' शब्दावली किस क्षेत्र से जुड़ी थी?",
+    "options":[
+      "Judiciary",
+      "Revenue",
+      "Army",
+      "Religion"
+    ],
+    "options_hi":[
+      "न्यायपालिका",
+      "राजस्व",
+      "सेना",
+      "धर्म"
+    ],
+    "correct": "Revenue",
+    "explanation": {
+      "summary": "Correct Answer: Revenue\n\nसही उत्तर: राजस्व",
+      "analysis_correct": "✅ **Why this is correct**\n\n- During Sher Shah Suri's administration, 'Rai' referred to a schedule of crop rates (average yield per bigha) prepared to systematically assess and calculate land revenue.\n\n✅ **यह सही क्यों है**\n\n- शेर शाह सूरी के प्रशासन के दौरान, 'रई' का तात्पर्य भूमि राजस्व का व्यवस्थित रूप से आकलन करने और गणना करने के लिए तैयार की गई फसल दरों (प्रति बीघा औसत उपज) की एक अनुसूची से था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 'Rai' was strictly an agrarian and economic term, completely unrelated to Judiciary, Army, or Religious affairs.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 'रई' सख्ती से एक कृषि और आर्थिक शब्द था, जो न्यायपालिका, सेना या धार्मिक मामलों से पूरी तरह से असंबंधित था।",
+      "conclusion": "📝 **Concluding Note**\n\n- Sher Shah Suri's systematic revenue reforms, such as the Rai, Patta, and Qabuliyat, formed the blueprint for Todar Mal's later 'Zabt' system under Akbar.\n\n📝 **निष्कर्ष**\n\n- शेर शाह सूरी के व्यवस्थित राजस्व सुधारों, जैसे कि रई, पट्टा और कबूलियत, ने अकबर के अधीन टोडरमल की बाद की 'ज़ब्त' प्रणाली का खाका तैयार किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Sher Shah's standard unit of measuring land was the 'Sikandari Gaj' (equivalent to 39 inches), originally introduced by Sikandar Lodi.\n\n💡 **रोचक तथ्य**\n\n- शेर शाह की भूमि मापने की मानक इकाई 'सिकंदरी गज' (39 इंच के बराबर) थी, जिसे मूल रूप से सिकंदर लोदी द्वारा पेश किया गया था।"
+    }
+  },
+  {
+    "id": "HIS1831",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "British Conquest of India"
+    },
+    "tags": [
+      "ModernEducation",
+      "BritishIndia",
+      "HistoricalInstitutions"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which one of the following is not correctly matched?",
+    "question_hi": "निम्नलिखित में से कौन सा सही सुमेलित नहीं है?",
+    "options":[
+      "Sanskrit College at Benaras - 1791",
+      "Calcutta Hindu College - 1798",
+      "Calcutta Madarsa - 1781",
+      "Fort William College - 1800"
+    ],
+    "options_hi":[
+      "बनारस में संस्कृत कॉलेज - 1791",
+      "कलकत्ता हिंदू कॉलेज - 1798",
+      "कलकत्ता मदरसा - 1781",
+      "फोर्ट विलियम कॉलेज - 1800"
+    ],
+    "correct": "Calcutta Hindu College - 1798",
+    "explanation": {
+      "summary": "Correct Answer: Calcutta Hindu College - 1798\n\nसही उत्तर: कलकत्ता हिंदू कॉलेज - 1798",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Calcutta Hindu College was famously established in 1817 (by David Hare and Raja Ram Mohan Roy), not in 1798. Therefore, it is incorrectly matched.\n\n✅ **यह सही क्यों है**\n\n- कलकत्ता हिंदू कॉलेज की प्रसिद्ध रूप से स्थापना 1817 में (डेविड हेयर और राजा राम मोहन राय द्वारा) की गई थी, न कि 1798 में। इसलिए, यह गलत तरीके से सुमेलित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Jonathan Duncan founded Sanskrit College in 1791, Warren Hastings founded Calcutta Madarsa in 1781, and Lord Wellesley founded Fort William College in 1800. These are correctly matched.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जोनाथन डंकन ने 1791 में संस्कृत कॉलेज की स्थापना की, वारेन हेस्टिंग्स ने 1781 में कलकत्ता मदरसा की स्थापना की, और लॉर्ड वेलेस्ली ने 1800 में फोर्ट विलियम कॉलेज की स्थापना की। ये सही सुमेलित हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The early educational institutions established by the British were primarily to study Oriental cultures and laws to aid their administration in India.\n\n📝 **निष्कर्ष**\n\n- अंग्रेजों द्वारा स्थापित प्रारंभिक शैक्षणिक संस्थान मुख्य रूप से भारत में उनके प्रशासन की सहायता के लिए प्राच्य संस्कृतियों और कानूनों का अध्ययन करने के लिए थे।",
+      "fact": "💡 **Interesting Fact**\n\n- The Hindu College of Calcutta was later renamed Presidency College in 1855, and is today known as Presidency University, one of India's most prestigious institutions.\n\n💡 **रोचक तथ्य**\n\n- 1855 में कलकत्ता के हिंदू कॉलेज का नाम बदलकर प्रेसीडेंसी कॉलेज कर दिया गया, और आज इसे भारत के सबसे प्रतिष्ठित संस्थानों में से एक, प्रेसीडेंसी विश्वविद्यालय के रूप में जाना जाता है।"
+    }
+  },
+  {
+    "id": "HIS1832",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Governor-Generals & Viceroys"
+    },
+    "tags":[
+      "LordWellesley",
+      "BritishDiplomacy",
+      "Persia"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Who of the following were sent to the court of the Shah of Persia (Iran) as British envoy during Lord Wellesley's period from India?\n(1) John Malcolm\n(2) Mehdi Ali Khan\n(3) Raja Shiv Prasad",
+    "question_hi": "भारत से लॉर्ड वेलेस्ली के काल में फारस (ईरान) के शाह के दरबार में ब्रिटिश दूत के रूप में निम्नलिखित में से किसे भेजा गया था?\n(1) जॉन मैल्कम\n(2) मेहदी अली खान\n(3) राजा शिव प्रसाद",
+    "options":[
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2",
+      "1, 2 and 3"
+    ],
+    "options_hi":[
+      "केवल 1",
+      "केवल 2",
+      "1 और 2 दोनों",
+      "1, 2 और 3"
+    ],
+    "correct": "Both 1 and 2",
+    "explanation": {
+      "summary": "Correct Answer: Both 1 and 2\n\nसही उत्तर: 1 और 2 दोनों",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Lord Wellesley dispatched Mehdi Ali Khan (1798) and later Captain John Malcolm (1799) to the Shah of Persia to counter the threats of French influence and Afghan invasions.\n\n✅ **यह सही क्यों है**\n\n- लॉर्ड वेलेस्ली ने फ्रांसीसी प्रभाव और अफगान आक्रमणों के खतरों का मुकाबला करने के लिए 1798 में मेहदी अली खान और बाद में 1799 में कैप्टन जॉन मैल्कम को फारस के शाह के दरबार में भेजा।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Raja Shiv Prasad (Sitara-e-Hind) was a prominent 19th-century educator and official, wholly unrelated to these early Anglo-Persian diplomatic missions.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- राजा शिव प्रसाद (सितारा-ए-हिंद) 19वीं सदी के एक प्रमुख शिक्षक और अधिकारी थे, जो इन शुरुआती एंग्लो-फ़ारसी राजनयिक मिशनों से पूरी तरह से असंबंधित थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Wellesley's aggressive forward policy involved actively extending British diplomatic circles far beyond India's borders into the Middle East to secure the empire.\n\n📝 **निष्कर्ष**\n\n- वेलेस्ली की आक्रामक फॉरवर्ड नीति में साम्राज्य को सुरक्षित करने के लिए भारत की सीमाओं से बहुत दूर मध्य पूर्व तक ब्रिटिश राजनयिक हलकों को सक्रिय रूप से बढ़ाना शामिल था।",
+      "fact": "💡 **Interesting Fact**\n\n- John Malcolm's diplomatic efforts in Persia were highly successful, leading to the Anglo-Persian Treaty of 1801, which checked French ambitions in the region.\n\n💡 **रोचक तथ्य**\n\n- फारस में जॉन मैल्कम के राजनयिक प्रयास अत्यधिक सफल रहे, जिससे 1801 की एंग्लो-फ़ारसी संधि हुई, जिसने इस क्षेत्र में फ्रांसीसी महत्वाकांक्षाओं को रोक दिया।"
+    }
+  },
+  {
+    "id": "HIS1833",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Governor-Generals & Viceroys"
+    },
+    "tags":[
+      "LordCurzon",
+      "BritishCommissions",
+      "Irrigation"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Under whose Chairmanship an irrigation commission was set up in 1901?",
+    "question_hi": "1901 में किसकी अध्यक्षता में एक सिंचाई आयोग की स्थापना की गई थी?",
+    "options":[
+      "Sir Anthony Macdonnell",
+      "Sir Colin Scott Moncrieff",
+      "Sir Andrew Frazer",
+      "Lord Kitchener"
+    ],
+    "options_hi":[
+      "सर एंथोनी मैकडोनेल",
+      "सर कॉलिन स्कॉट मोनक्रिफ",
+      "सर एंड्रयू फ्रेजर",
+      "लॉर्ड किचनर"
+    ],
+    "correct": "Sir Colin Scott Moncrieff",
+    "explanation": {
+      "summary": "Correct Answer: Sir Colin Scott Moncrieff\n\nसही उत्तर: सर कॉलिन स्कॉट मोनक्रिफ",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In 1901, Lord Curzon appointed the first Irrigation Commission under the chairmanship of Sir Colin Scott Moncrieff to chalk out a comprehensive plan for irrigation works across India.\n\n✅ **यह सही क्यों है**\n\n- 1901 में, लॉर्ड कर्जन ने पूरे भारत में सिंचाई कार्यों के लिए एक व्यापक योजना तैयार करने के लिए सर कॉलिन स्कॉट मोनक्रिफ की अध्यक्षता में प्रथम सिंचाई आयोग की नियुक्ति की।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Anthony Macdonnell headed the Famine Commission (1900). Andrew Frazer headed the Police Commission (1902). Lord Kitchener was the Commander-in-Chief of the British Indian Army.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- एंथोनी मैकडोनेल ने अकाल आयोग (1900) का नेतृत्व किया। एंड्रयू फ्रेजर ने पुलिस आयोग (1902) का नेतृत्व किया। लॉर्ड किचनर ब्रिटिश भारतीय सेना के कमांडर-इन-चीफ थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Lord Curzon's era was marked by the establishment of multiple administrative commissions to thoroughly investigate and reform various sectors of the Indian economy.\n\n📝 **निष्कर्ष**\n\n- लॉर्ड कर्जन के युग को भारतीय अर्थव्यवस्था के विभिन्न क्षेत्रों की गहन जांच और सुधार के लिए कई प्रशासनिक आयोगों की स्थापना द्वारा चिह्नित किया गया था।",
+      "fact": "💡 **Interesting Fact**\n\n- The Moncrieff Commission recommended an expenditure of Rs 44 crore on new irrigation works, shifting the government's focus from railways towards agricultural infrastructure.\n\n💡 **रोचक तथ्य**\n\n- मोनक्रिफ आयोग ने नए सिंचाई कार्यों पर 44 करोड़ रुपये खर्च करने की सिफारिश की, जिससे सरकार का ध्यान रेलवे से कृषि बुनियादी ढांचे की ओर स्थानांतरित हो गया।"
+    }
+  },
+  {
+    "id": "HIS1834",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Mauryan Empire"
+    },
+    "tags":[
+      "Ashoka",
+      "BarabarCaves",
+      "Ajivikas"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "To which religion/sect Ashoka granted Barabar caves situated in Bihar?",
+    "question_hi": "अशोक ने बिहार में स्थित बराबर की गुफाएँ किस धर्म/सम्प्रदाय को प्रदान की थीं?",
+    "options":[
+      "Buddhism",
+      "Jainism",
+      "Ajivakas",
+      "Hinduism"
+    ],
+    "options_hi":[
+      "बौद्ध धर्म",
+      "जैन धर्म",
+      "आजीवक",
+      "हिंदू धर्म"
+    ],
+    "correct": "Ajivakas",
+    "explanation": {
+      "summary": "Correct Answer: Ajivakas\n\nसही उत्तर: आजीवक",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Emperor Ashoka, despite being a patron of Buddhism, granted the Barabar Caves (near Gaya, Bihar) to the monks of the ascetic Ajivika sect, illustrating his policy of religious tolerance.\n\n✅ **यह सही क्यों है**\n\n- सम्राट अशोक ने बौद्ध धर्म के संरक्षक होने के बावजूद, अपनी धार्मिक सहिष्णुता की नीति को दर्शाते हुए, तपस्वी आजीवक संप्रदाय के भिक्षुओं को बराबर की गुफाएँ (गया, बिहार के पास) प्रदान कीं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The inscriptions clearly dedicate the caves to the Ajivikas, making Buddhism, Jainism, or Hinduism historically incorrect for this specific grant.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- शिलालेख स्पष्ट रूप से गुफाओं को आजीवकों को समर्पित करते हैं, जिससे इस विशिष्ट अनुदान के लिए बौद्ध धर्म, जैन धर्म या हिंदू धर्म ऐतिहासिक रूप से गलत हो जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Ashoka’s Dhamma emphasized respect for all religious sects, and his royal endowments were not restricted only to the Buddhist Sangha.\n\n📝 **निष्कर्ष**\n\n- अशोक के धम्म ने सभी धार्मिक संप्रदायों के सम्मान पर जोर दिया, और उनका शाही बंदोबस्त केवल बौद्ध संघ तक ही सीमित नहीं था।",
+      "fact": "💡 **Interesting Fact**\n\n- The Barabar Caves are the oldest surviving rock-cut caves in India and are renowned for their highly polished interior surfaces, known as the 'Mauryan polish'.\n\n💡 **रोचक तथ्य**\n\n- बराबर की गुफाएं भारत में सबसे पुरानी जीवित रॉक-कट गुफाएं हैं और अपनी अत्यधिक पॉलिश की गई आंतरिक सतहों के लिए प्रसिद्ध हैं, जिन्हें 'मौर्य पॉलिश' के रूप में जाना जाता है।"
+    }
+  },
+  {
+    "id": "HIS1835",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Mahajanapadas & Magadha Empire"
+    },
+    "tags":[
+      "Magadha",
+      "Avanti",
+      "Shishunaga"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following rulers merged Avanti in the Magadh Empire after the victory?",
+    "question_hi": "निम्नलिखित में से किस शासक ने विजय के बाद अवंति को मगध साम्राज्य में मिला लिया था?",
+    "options":[
+      "Shisunag",
+      "Kalashok",
+      "Bimbisar",
+      "Ajatshatru"
+    ],
+    "options_hi":[
+      "शिशुनाग",
+      "कालाशोक",
+      "बिंबिसार",
+      "अजातशत्रु"
+    ],
+    "correct": "Shisunag",
+    "explanation": {
+      "summary": "Correct Answer: Shisunag\n\nसही उत्तर: शिशुनाग",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Shishunaga defeated the Pradyota dynasty of Avanti and permanently annexed it into the Magadhan Empire, effectively ending the century-old rivalry between the two states.\n\n✅ **यह सही क्यों है**\n\n- शिशुनाग ने अवंती के प्रद्योत वंश को हराया और इसे स्थायी रूप से मगध साम्राज्य में मिला लिया, जिससे दोनों राज्यों के बीच सदी पुरानी प्रतिद्वंद्विता प्रभावी रूप से समाप्त हो गई।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Bimbisara and Ajatshatru were engaged in conflicts and diplomacy with Avanti but failed to conquer it. Their expansions targeted Anga, Kosala, and Vaishali.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- बिंबिसार और अजातशत्रु अवंती के साथ संघर्ष और कूटनीति में लगे हुए थे लेकिन इसे जीतने में विफल रहे। उनके विस्तार ने अंग, कोसल और वैशाली को लक्षित किया।",
+      "conclusion": "📝 **Concluding Note**\n\n- The annexation of Avanti was a crucial milestone that made Magadha the unchallenged paramount power in northern India.\n\n📝 **निष्कर्ष**\n\n- अवंती का विलय एक महत्वपूर्ण मील का पत्थर था जिसने मगध को उत्तरी भारत में निर्विवाद सर्वोच्च शक्ति बना दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- Before becoming king, Shishunaga served as an amatya (minister/viceroy) of Kashi under the Haryanka dynasty.\n\n💡 **रोचक तथ्य**\n\n- राजा बनने से पहले, शिशुनाग ने हर्यक वंश के तहत काशी के एक अमात्य (मंत्री/वायसराय) के रूप में कार्य किया था।"
+    }
+  },
+  {
+    "id": "HIS1836",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "BiharHistory",
+      "IndianNationalCongress",
+      "NonCooperationMovement"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "At which place Bihar Provincial Congress Conference was held in 1920?",
+    "question_hi": "1920 में बिहार प्रांतीय कांग्रेस सम्मेलन किस स्थान पर आयोजित किया गया था?",
+    "options":[
+      "Patna",
+      "Bhagalpur",
+      "Muzaffarpur",
+      "Gaya"
+    ],
+    "options_hi":[
+      "पटना",
+      "भागलपुर",
+      "मुजफ्फरपुर",
+      "गया"
+    ],
+    "correct": "Bhagalpur",
+    "explanation": {
+      "summary": "Correct Answer: Bhagalpur\n\nसही उत्तर: भागलपुर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The 12th session of the Bihar Provincial Conference was held in Bhagalpur in August 1920 under the presidency of Dr. Rajendra Prasad, strongly supporting the Non-Cooperation resolution.\n\n✅ **यह सही क्यों है**\n\n- बिहार प्रांतीय सम्मेलन का 12वां अधिवेशन अगस्त 1920 में डॉ. राजेंद्र प्रसाद की अध्यक्षता में भागलपुर में आयोजित किया गया था, जिसमें असहयोग प्रस्ताव का पुरजोर समर्थन किया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Gaya (1922 INC session) and Patna hosted other significant political events, the specific 1920 provincial conference took place in Bhagalpur.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि गया (1922 INC अधिवेशन) और पटना ने अन्य महत्वपूर्ण राजनीतिक कार्यक्रमों की मेजबानी की, विशिष्ट 1920 का प्रांतीय सम्मेलन भागलपुर में हुआ था।",
+      "conclusion": "📝 **Concluding Note**\n\n- Provincial conferences played a pivotal role in rallying regional leaders and masses behind the national Non-Cooperation Movement launched by Gandhi.\n\n📝 **निष्कर्ष**\n\n- प्रांतीय सम्मेलनों ने गांधी द्वारा शुरू किए गए राष्ट्रीय असहयोग आंदोलन के पीछे क्षेत्रीय नेताओं और जनता को एकजुट करने में महत्वपूर्ण भूमिका निभाई।",
+      "fact": "💡 **Interesting Fact**\n\n- Dr. Rajendra Prasad, who presided over this conference, later became the first President of independent India.\n\n💡 **रोचक तथ्य**\n\n- इस सम्मेलन की अध्यक्षता करने वाले डॉ. राजेंद्र प्रसाद बाद में स्वतंत्र भारत के प्रथम राष्ट्रपति बने।"
+    }
+  },
+  {
+    "id": "HIS1837",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "KhudiramBose",
+      "RevolutionaryMovement",
+      "MuzaffarpurConspiracy"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "On whom was an attempt to murder was made at Muzaffarpur in 1908?",
+    "question_hi": "1908 में मुजफ्फरपुर में किसकी हत्या का प्रयास किया गया था?",
+    "options":[
+      "William Curzon Wyllie",
+      "Mr. Jackson",
+      "Mr. Kingford",
+      "Lord Harding"
+    ],
+    "options_hi":[
+      "विलियम कर्जन वायली",
+      "मिस्टर जैक्सन",
+      "मिस्टर किंग्सफोर्ड",
+      "लॉर्ड हार्डिंग"
+    ],
+    "correct": "Mr. Kingford",
+    "explanation": {
+      "summary": "Correct Answer: Mr. Kingford\n\nसही उत्तर: मिस्टर किंग्सफोर्ड",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In 1908, revolutionaries Khudiram Bose and Prafulla Chaki threw a bomb at a carriage in Muzaffarpur, intending to assassinate Douglas Kingsford, an unpopular British Chief Presidency Magistrate.\n\n✅ **यह सही क्यों है**\n\n- 1908 में, क्रांतिकारी खुदीराम बोस और प्रफुल्ल चाकी ने मुजफ्फरपुर में एक गाड़ी पर बम फेंका था, जिसका इरादा एक अलोकप्रिय ब्रिटिश मुख्य प्रेसीडेंसी मजिस्ट्रेट डगलस किंग्सफोर्ड की हत्या करना था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Curzon Wyllie was assassinated by Madan Lal Dhingra in London. Jackson was killed by Anant Kanhere in Nashik. Lord Hardinge survived an attack by Rash Behari Bose.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- लंदन में मदन लाल ढींगरा द्वारा कर्जन वायली की हत्या कर दी गई थी। नासिक में अनंत कान्हेरे द्वारा जैक्सन की हत्या कर दी गई थी। रासबिहारी बोस के हमले में लॉर्ड हार्डिंग बच गए थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Muzaffarpur Conspiracy case was a defining moment that significantly intensified the revolutionary phase of the Indian freedom struggle.\n\n📝 **निष्कर्ष**\n\n- मुजफ्फरपुर षडयंत्र केस एक निर्णायक क्षण था जिसने भारतीय स्वतंत्रता संग्राम के क्रांतिकारी चरण को काफी तेज कर दिया था।",
+      "fact": "💡 **Interesting Fact**\n\n- Tragically, Kingsford was not in the targeted carriage; the bomb instead killed two innocent British women, Mrs. Kennedy and her daughter.\n\n💡 **रोचक तथ्य**\n\n- दुखद रूप से, किंग्सफोर्ड लक्षित गाड़ी में नहीं थे; इसके बजाय बम ने दो निर्दोष ब्रिटिश महिलाओं, श्रीमती कैनेडी और उनकी बेटी की जान ले ली।"
+    }
+  },
+  {
+    "id": "HIS1838",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 1: 1885-1905)"
+    },
+    "tags":[
+      "IndianNationalConference",
+      "SurendranathBanerjee",
+      "PreCongressOrgs"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Who was the first President of Indian National Conference held in December 1883?",
+    "question_hi": "दिसंबर 1883 में आयोजित भारतीय राष्ट्रीय सम्मेलन के पहले अध्यक्ष कौन थे?",
+    "options":[
+      "Surendranath Banerjee",
+      "Anand Mohan Bose",
+      "W.C. Banerjee",
+      "M.G. Ranade"
+    ],
+    "options_hi":[
+      "सुरेंद्रनाथ बनर्जी",
+      "आनंद मोहन बोस",
+      "डब्ल्यू.सी. बनर्जी",
+      "एम.जी. रानाडे"
+    ],
+    "correct": "Surendranath Banerjee",
+    "explanation": {
+      "summary": "Correct Answer: Surendranath Banerjee\n\nसही उत्तर: सुरेंद्रनाथ बनर्जी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Surendranath Banerjee and Anand Mohan Bose organized the first session of the Indian National Conference in 1883. Banerjee was the chief architect and face of this precursor to the INC.\n\n✅ **यह सही क्यों है**\n\n- सुरेंद्रनाथ बनर्जी और आनंद मोहन बोस ने 1883 में भारतीय राष्ट्रीय सम्मेलन के पहले सत्र का आयोजन किया। बनर्जी INC के इस अग्रदूत के मुख्य वास्तुकार और चेहरे थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- W.C. Banerjee was the first president of the Indian National Congress (1885), not the Conference. M.G. Ranade was tied to the Poona Sarvajanik Sabha.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- डब्ल्यू.सी. बनर्जी भारतीय राष्ट्रीय कांग्रेस (1885) के पहले अध्यक्ष थे, न कि सम्मेलन के। एम.जी. रानाडे पूना सार्वजनिक सभा से जुड़े थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Indian National Conference merged with the Indian National Congress in 1886 to form a unified national political front.\n\n📝 **निष्कर्ष**\n\n- भारतीय राष्ट्रीय सम्मेलन 1886 में एक एकीकृत राष्ट्रीय राजनीतिक मोर्चा बनाने के लिए भारतीय राष्ट्रीय कांग्रेस में विलीन हो गया।",
+      "fact": "💡 **Interesting Fact**\n\n- Surendranath Banerjee was affectionately called 'Rashtraguru' (Teacher of the Nation) for his pioneering role in early Indian nationalism.\n\n💡 **रोचक तथ्य**\n\n- प्रारंभिक भारतीय राष्ट्रवाद में उनकी अग्रणी भूमिका के लिए सुरेंद्रनाथ बनर्जी को प्यार से 'राष्ट्रगुरु' (राष्ट्र के शिक्षक) कहा जाता था।"
+    }
+  },
+  {
+    "id": "HIS1839",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "Extremists",
+      "BGTilak",
+      "Moderates"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which Indian freedom fighter said, 'We will not achieve any success in our labour if we croak once a year like a frog'.",
+    "question_hi": "किस भारतीय स्वतंत्रता सेनानी ने कहा था, 'यदि हम साल में एक बार मेंढक की तरह टर्राएंगे तो हमें अपने प्रयासों में कोई सफलता नहीं मिलेगी'?",
+    "options":[
+      "Bipin Chandra Pal",
+      "Lala Lajpat Rai",
+      "Arbindo Gosh",
+      "Bal Gangadhar Tilak"
+    ],
+    "options_hi":[
+      "बिपिन चंद्र पाल",
+      "लाला लाजपत राय",
+      "अरबिंदो घोष",
+      "बाल गंगाधर तिलक"
+    ],
+    "correct": "Bal Gangadhar Tilak",
+    "explanation": {
+      "summary": "Correct Answer: Bal Gangadhar Tilak\n\nसही उत्तर: बाल गंगाधर तिलक",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Bal Gangadhar Tilak famously used the \"croaking frog\" analogy to criticize the Moderate faction of the Congress for limiting their political activities to just an annual three-day session.\n\n✅ **यह सही क्यों है**\n\n- बाल गंगाधर तिलक ने कांग्रेस के नरमपंथी गुट की राजनीतिक गतिविधियों को केवल वार्षिक तीन-दिवसीय अधिवेशन तक सीमित रखने के लिए उनकी आलोचना करने हेतु \"टर्राने वाले मेंढक\" सादृश्य का प्रसिद्ध रूप से उपयोग किया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Bipin Chandra Pal, Lala Lajpat Rai, and Aurobindo Ghosh were prominent extremists who shared the sentiment, this exact legendary quote belongs to Tilak.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हालांकि बिपिन चंद्र पाल, लाला लाजपत राय और अरबिंदो घोष प्रमुख चरमपंथी थे जो इस भावना को साझा करते थे, यह सटीक पौराणिक उद्धरण तिलक का है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Extremists demanded sustained, year-round mass agitation and self-reliance (Swadeshi), completely rejecting the Moderates' 'Prayer, Petition, and Protest' methodology.\n\n📝 **निष्कर्ष**\n\n- चरमपंथियों ने नरमपंथियों की 'प्रार्थना, याचिका और विरोध' पद्धति को पूरी तरह से खारिज करते हुए निरंतर, साल भर जन आंदोलन और आत्मनिर्भरता (स्वदेशी) की मांग की।",
+      "fact": "💡 **Interesting Fact**\n\n- Due to his immense popularity and aggressive anti-colonial stance, the British colonial authorities labeled Tilak as the 'Father of the Indian unrest'.\n\n💡 **रोचक तथ्य**\n\n- उनकी अपार लोकप्रियता और आक्रामक उपनिवेशवाद-विरोधी रुख के कारण, ब्रिटिश औपनिवेशिक अधिकारियों ने तिलक को 'भारतीय अशांति का जनक' करार दिया।"
+    }
+  },
+  {
+    "id": "HIS1840",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Governor-Generals & Viceroys"
+    },
+    "tags":[
+      "LordCurzon",
+      "BritishAdministration",
+      "Commissions"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which Viceroy's period was called for 'Missions, Omissions and Commissions'.",
+    "question_hi": "किस वायसराय के काल को 'मिशन, चूक और आयोगों (Missions, Omissions and Commissions)' का काल कहा गया है?",
+    "options":[
+      "Lytton",
+      "Curzon",
+      "Irwin",
+      "Rippon"
+    ],
+    "options_hi":[
+      "लिटन",
+      "कर्जन",
+      "इरविन",
+      "रिपन"
+    ],
+    "correct": "Curzon",
+    "explanation": {
+      "summary": "Correct Answer: Curzon\n\nसही उत्तर: कर्जन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Lord Curzon's highly hyper-active administrative tenure (1899–1905) saw the formation of numerous investigative commissions (Police, Universities, Famine) and notorious 'omissions' like the Bengal Partition.\n\n✅ **यह सही क्यों है**\n\n- लॉर्ड कर्जन के अत्यधिक अति-सक्रिय प्रशासनिक कार्यकाल (1899-1905) में कई खोजी आयोगों (पुलिस, विश्वविद्यालय, अकाल) का गठन और बंगाल विभाजन जैसी कुख्यात 'चूक' देखी गई।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Lytton is known for the Vernacular Press Act; Ripon for local self-government; Irwin for the Gandhi-Irwin pact. None of them had an obsession with establishing countless commissions like Curzon.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- लिटन को वर्नाक्यूलर प्रेस एक्ट के लिए; रिपन को स्थानीय स्वशासन के लिए; इरविन को गांधी-इरविन समझौते के लिए जाना जाता है। उनमें से किसी को भी कर्जन की तरह अनगिनत आयोग स्थापित करने का जुनून नहीं था।",
+      "conclusion": "📝 **Concluding Note**\n\n- Curzon's belief in absolute bureaucratic efficiency led him to over-legislate, eventually triggering massive nationalist backlash through the Swadeshi Movement.\n\n📝 **निष्कर्ष**\n\n- पूर्ण नौकरशाही दक्षता में कर्जन के विश्वास ने उन्हें अत्यधिक कानून बनाने के लिए प्रेरित किया, जिससे अंततः स्वदेशी आंदोलन के माध्यम से बड़े पैमाने पर राष्ट्रवादी प्रतिक्रिया उत्पन्न हुई।",
+      "fact": "💡 **Interesting Fact**\n\n- P.E. Roberts historically remarked that Curzon's tenure was an endless series of \"commissions, omissions, and missions.\"\n\n💡 **रोचक तथ्य**\n\n- पी.ई. रॉबर्ट्स ने ऐतिहासिक रूप से टिप्पणी की थी कि कर्जन का कार्यकाल \"आयोगों, चूकों और मिशनों\" की एक अंतहीन श्रृंखला थी।"
+    }
+  },
+  {
+    "id": "HIS1841",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "LucknowPact",
+      "INC",
+      "Tilak"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements regarding the Lucknow Pact 1916.\n1. This was marked for re-union of Moderate and Extremists parties\n2. B. G. Tilak and Annie Besant dominated the Lucknow session\n3. The Congress and League pact was done for United Scheme of Constitutional Reforms.\n4. Ferozshah Mehta participated in this session",
+    "question_hi": "लखनऊ समझौता 1916 के संबंध में निम्नलिखित कथनों पर विचार करें।\n1. यह नरमपंथी और चरमपंथी दलों के पुनर्मिलन के लिए जाना जाता है\n2. लखनऊ अधिवेशन में बी.जी. तिलक और एनी बेसेंट का दबदबा रहा\n3. संवैधानिक सुधारों की संयुक्त योजना के लिए कांग्रेस और लीग समझौता हुआ था।\n4. फिरोजशाह मेहता ने इस अधिवेशन में भाग लिया था",
+    "options":[
+      "1 and 2",
+      "2, 3 and 4",
+      "1, 2 and 3",
+      "All the above"
+    ],
+    "options_hi":[
+      "1 और 2",
+      "2, 3 और 4",
+      "1, 2 और 3",
+      "उपरोक्त सभी"
+    ],
+    "correct": "1, 2 and 3",
+    "explanation": {
+      "summary": "Correct Answer: 1, 2 and 3\n\nसही उत्तर: 1, 2 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statements 1, 2, and 3 are correct. The 1916 Lucknow session reunited Moderates and Extremists, spearheaded by Tilak and Besant, and forged the historic Congress-Muslim League pact for constitutional demands.\n\n✅ **यह सही क्यों है**\n\n- कथन 1, 2 और 3 सही हैं। 1916 के लखनऊ अधिवेशन ने तिलक और बेसेंट के नेतृत्व में नरमपंथियों और चरमपंथियों को फिर से मिला दिया, और संवैधानिक मांगों के लिए ऐतिहासिक कांग्रेस-मुस्लिम लीग समझौता किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 4 is incorrect. Pherozeshah Mehta, a stalwart Moderate who staunchly opposed the Extremists' re-entry, died in 1915, making his participation in 1916 impossible.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 4 गलत है। चरमपंथियों के पुनः प्रवेश का कड़ा विरोध करने वाले एक दिग्गज नरमपंथी फिरोजशाह मेहता की 1915 में मृत्यु हो गई थी, जिससे 1916 में उनकी भागीदारी असंभव हो गई।",
+      "conclusion": "📝 **Concluding Note**\n\n- The death of rigid Moderate leaders like G.K. Gokhale and Pherozeshah Mehta in 1915 paved the way for the smooth re-entry of the Extremists into the Congress.\n\n📝 **निष्कर्ष**\n\n- 1915 में जी.के. गोखले और फिरोजशाह मेहता जैसे कठोर नरमपंथी नेताओं की मृत्यु ने चरमपंथियों के कांग्रेस में सुचारू रूप से पुनः प्रवेश का मार्ग प्रशस्त किया।",
+      "fact": "💡 **Interesting Fact**\n\n- The Lucknow Pact of 1916 was the only time in history when the Muslim League and the Indian National Congress held their annual sessions at the same time and place.\n\n💡 **रोचक तथ्य**\n\n- 1916 का लखनऊ समझौता इतिहास में एकमात्र ऐसा समय था जब मुस्लिम लीग और भारतीय राष्ट्रीय कांग्रेस ने एक ही समय और स्थान पर अपने वार्षिक अधिवेशन आयोजित किए थे।"
+    }
+  },
+  {
+    "id": "HIS1842",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "PartitionOfBengal",
+      "LordCurzon",
+      "SwadeshiMovement"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In which month of 1905 the 'Partition of Bengal' was declared",
+    "question_hi": "1905 के किस महीने में 'बंगाल विभाजन' की घोषणा की गई थी?",
+    "options":[
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "options_hi":[
+      "जुलाई",
+      "अगस्त",
+      "सितंबर",
+      "अक्टूबर"
+    ],
+    "correct": "July",
+    "explanation": {
+      "summary": "Correct Answer: July\n\nसही उत्तर: जुलाई",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The formal decision to partition Bengal was officially announced/declared by the British Government (Viceroy Lord Curzon) on July 19/20, 1905.\n\n✅ **यह सही क्यों है**\n\n- बंगाल को विभाजित करने के औपचारिक निर्णय की आधिकारिक घोषणा 19/20 जुलाई, 1905 को ब्रिटिश सरकार (वायसराय लॉर्ड कर्जन) द्वारा की गई थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While the Swadeshi movement was formally launched in August, and the partition actually came into effect on October 16, 1905, the initial declaration was made in July.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हालांकि स्वदेशी आंदोलन औपचारिक रूप से अगस्त में शुरू किया गया था, और विभाजन वास्तव में 16 अक्टूबर 1905 को लागू हुआ था, प्रारंभिक घोषणा जुलाई में की गई थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- The chronological distinction between the 'announcement' (July) and the 'implementation' (October) of the partition is a frequent exam trap.\n\n📝 **निष्कर्ष**\n\n- विभाजन की 'घोषणा' (जुलाई) और 'कार्यान्वयन' (अक्टूबर) के बीच कालानुक्रमिक अंतर अक्सर परीक्षाओं में पूछा जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- October 16, 1905, the day partition took effect, was observed as a day of national mourning; people fasted, bathed in the Ganga, and tied Rakhis to symbolize unity.\n\n💡 **रोचक तथ्य**\n\n- 16 अक्टूबर 1905, जिस दिन विभाजन लागू हुआ, उसे राष्ट्रीय शोक दिवस के रूप में मनाया गया; लोगों ने उपवास किया, गंगा में स्नान किया और एकता के प्रतीक के रूप में राखियाँ बांधीं।"
+    }
+  },
+  {
+    "id": "HIS1843",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "GhadarParty",
+      "RevolutionaryMovement",
+      "LalaHardayal"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In which language the first-issue of 'Gadar' magazine was published?",
+    "question_hi": "'ग़दर' पत्रिका का पहला अंक किस भाषा में प्रकाशित हुआ था?",
+    "options":[
+      "Gurumukhi",
+      "Hindi",
+      "Urdu",
+      "English"
+    ],
+    "options_hi":[
+      "गुरुमुखी",
+      "हिंदी",
+      "उर्दू",
+      "अंग्रेजी"
+    ],
+    "correct": "Urdu",
+    "explanation": {
+      "summary": "Correct Answer: Urdu\n\nसही उत्तर: उर्दू",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The very first foundational issue of the 'Ghadar' (meaning Revolt) weekly magazine was published on November 1, 1913, in the Urdu language from San Francisco.\n\n✅ **यह सही क्यों है**\n\n- 'ग़दर' (जिसका अर्थ विद्रोह है) साप्ताहिक पत्रिका का पहला संस्थापक अंक 1 नवंबर 1913 को सैन फ्रांसिस्को से उर्दू भाषा में प्रकाशित हुआ था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Although Gurmukhi soon became the most impactful and predominant language for its later distribution among Punjabi expatriates, the inaugural issue was strictly in Urdu.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यद्यपि गुरुमुखी जल्द ही पंजाबी प्रवासियों के बीच बाद के वितरण के लिए सबसे प्रभावशाली और प्रमुख भाषा बन गई, लेकिन उद्घाटन अंक पूरी तरह से उर्दू में था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The magazine prominently carried the caption 'Angrezi Raj ka Dushman' (Enemy of British Rule) on its front page, serving as the ideological spine of the Ghadar Movement.\n\n📝 **निष्कर्ष**\n\n- पत्रिका ने अपने पहले पन्ने पर 'अंग्रेजी राज का दुश्मन' शीर्षक प्रमुखता से छापा, जो गदर आंदोलन की वैचारिक रीढ़ के रूप में कार्य करता था।",
+      "fact": "💡 **Interesting Fact**\n\n- After its initial success in Urdu and Gurmukhi, the Ghadar magazine was subsequently printed in multiple languages including Hindi, Gujarati, and Pashto to reach a wider diaspora.\n\n💡 **रोचक तथ्य**\n\n- उर्दू और गुरुमुखी में अपनी प्रारंभिक सफलता के बाद, गदर पत्रिका को व्यापक प्रवासियों तक पहुँचने के लिए हिंदी, गुजराती और पश्तो सहित कई भाषाओं में छापा गया।"
+    }
+  },
+  {
+    "id": "HIS1844",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "KomagataMaru",
+      "GurditSingh",
+      "IndianDiaspora"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Who hired 'Camagatamaru' ship to go to Vancouver?",
+    "question_hi": "वैंकूवर जाने के लिए 'कामागाटामारू' जहाज किसने किराए पर लिया था?",
+    "options":[
+      "Gurdeet Singh",
+      "Kartar Singh Sarabha",
+      "Sohan Singh",
+      "Balwant Singh"
+    ],
+    "options_hi":[
+      "गुरदित सिंह",
+      "करतार सिंह सराभा",
+      "सोहन सिंह",
+      "बलवंत सिंह"
+    ],
+    "correct": "Gurdeet Singh",
+    "explanation": {
+      "summary": "Correct Answer: Gurdeet Singh\n\nसही उत्तर: गुरदित सिंह",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Baba Gurdit Singh, an affluent Sikh businessman operating in Southeast Asia, chartered the Japanese steamship 'Komagata Maru' in 1914 to challenge racially exclusionary Canadian immigration laws.\n\n✅ **यह सही क्यों है**\n\n- दक्षिण पूर्व एशिया में काम करने वाले एक संपन्न सिख व्यवसायी बाबा गुरदित सिंह ने 1914 में नस्लीय रूप से बहिष्करण वाले कनाडाई आव्रजन कानूनों को चुनौती देने के लिए जापानी स्टीमशिप 'कोमागाटा मारू' को किराए पर लिया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Kartar Singh Sarabha and Sohan Singh Bhakna were key leaders of the Ghadar Party. While Ghadarites capitalized on the ship's tragedy, the hiring was exclusively Gurdit Singh's initiative.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- करतार सिंह सराभा और सोहन सिंह भकना गदर पार्टी के प्रमुख नेता थे। जबकि गदरियों ने जहाज की त्रासदी का फायदा उठाया, इसे किराए पर लेना विशेष रूप से गुरदित सिंह की पहल थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- The forced return of the Komagata Maru passengers and the subsequent firing at Budge Budge (Calcutta) deeply radicalized the Indian diaspora worldwide.\n\n📝 **निष्कर्ष**\n\n- कोमागाटा मारू के यात्रियों की जबरन वापसी और बाद में बजबज (कलकत्ता) में गोलीबारी ने दुनिया भर में भारतीय प्रवासियों को गहराई से कट्टरपंथी बना दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- In 2016, more than a century after the incident, the Canadian Prime Minister Justin Trudeau formally apologized in the House of Commons for the Komagata Maru tragedy.\n\n💡 **रोचक तथ्य**\n\n- 2016 में, घटना के एक सदी से अधिक समय बाद, कनाडाई प्रधान मंत्री जस्टिन ट्रूडो ने हाउस ऑफ कॉमन्स में कोमागाटा मारू त्रासदी के लिए औपचारिक रूप से माफी मांगी।"
+    }
+  },
+  {
+    "id": "HIS1845",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "MahatmaGandhi",
+      "ReturnToIndia",
+      "Biography"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "What was the age of Mahatma Gandhi when he returned to India from South Africa?",
+    "question_hi": "दक्षिण अफ्रीका से भारत लौटने पर महात्मा गांधी की आयु क्या थी?",
+    "options":[
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "options_hi":[
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "correct": "45",
+    "explanation": {
+      "summary": "Correct Answer: 45\n\nसही उत्तर: 45",
+      "analysis_correct": "✅ **Why this is correct**\n\n- M.K. Gandhi was born on October 2, 1869. He definitively returned to India from South Africa on January 9, 1915. The mathematical difference (1915 - 1869) makes him 45 years old upon his return.\n\n✅ **यह सही क्यों है**\n\n- एम.के. गांधी का जन्म 2 अक्टूबर 1869 को हुआ था। वे 9 जनवरी 1915 को दक्षिण अफ्रीका से भारत लौट आए थे। गणितीय अंतर (1915 - 1869) वापसी पर उन्हें 45 वर्ष का बनाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other age does not align with the historical dates of his birth (1869) and his final arrival at the Apollo Bunder in Bombay (1915).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य आयु उनके जन्म (1869) और बॉम्बे के अपोलो बंदरगाह (1915) पर उनके अंतिम आगमन की ऐतिहासिक तिथियों के साथ संरेखित नहीं होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Gandhi's return at the mature age of 45 brought a seasoned, politically battle-tested leader into the forefront of the Indian National Congress.\n\n📝 **निष्कर्ष**\n\n- 45 वर्ष की परिपक्व आयु में गांधी की वापसी ने एक अनुभवी, राजनीतिक रूप से युद्ध-परीक्षणित नेता को भारतीय राष्ट्रीय कांग्रेस में सबसे आगे ला दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- The day of Mahatma Gandhi's return to India, January 9, is celebrated annually by the Government of India as 'Pravasi Bharatiya Divas' to mark the contribution of the overseas Indian community.\n\n💡 **रोचक तथ्य**\n\n- भारत में महात्मा गांधी की वापसी का दिन, 9 जनवरी, प्रवासी भारतीय समुदाय के योगदान को चिह्नित करने के लिए भारत सरकार द्वारा प्रतिवर्ष 'प्रवासी भारतीय दिवस' के रूप में मनाया जाता है।"
+    }
+  },
+  {
+    "id": "HIS1846",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags":[
+      "BGTilak",
+      "NonCooperationMovement",
+      "IndianHistory"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Who of the following died on the day of commencement of Non-co-operation Movement?",
+    "question_hi": "असहयोग आंदोलन शुरू होने के दिन निम्नलिखित में से किसकी मृत्यु हो गई थी?",
+    "options":[
+      "Madan Mohan Malviya",
+      "Arbindo Gosh",
+      "Bal Gangadhar Tilak",
+      "Annie Besant"
+    ],
+    "options_hi":[
+      "मदन मोहन मालवीय",
+      "अरबिंदो घोष",
+      "बाल गंगाधर तिलक",
+      "एनी बेसेंट"
+    ],
+    "correct": "Bal Gangadhar Tilak",
+    "explanation": {
+      "summary": "Correct Answer: Bal Gangadhar Tilak\n\nसही उत्तर: बाल गंगाधर तिलक",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Bal Gangadhar Tilak passed away on August 1, 1920. This tragic date coincided exactly with the official launch day of Mahatma Gandhi's Non-Cooperation Movement.\n\n✅ **यह सही क्यों है**\n\n- बाल गंगाधर तिलक का 1 अगस्त 1920 को निधन हो गया। यह दुखद तिथि महात्मा गांधी के असहयोग आंदोलन के आधिकारिक लॉन्च के दिन के साथ ठीक मेल खाती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Malaviya, Aurobindo Ghosh, and Annie Besant lived significantly beyond 1920 and witnessed later phases of the freedom struggle.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- मालवीय, अरबिंदो घोष और एनी बेसेंट 1920 के काफी बाद तक जीवित रहे और उन्होंने स्वतंत्रता संग्राम के बाद के चरणों को देखा।",
+      "conclusion": "📝 **Concluding Note**\n\n- Tilak's death marked the end of the 'Extremist' era and the dawn of the complete Gandhian phase over the Indian National Congress.\n\n📝 **निष्कर्ष**\n\n- तिलक की मृत्यु ने 'चरमपंथी' युग के अंत और भारतीय राष्ट्रीय कांग्रेस पर संपूर्ण गांधीवादी चरण की शुरुआत को चिह्नित किया।",
+      "fact": "💡 **Interesting Fact**\n\n- In his honor, the Congress immediately established the 'Tilak Swaraj Fund' to finance the Non-Cooperation Movement, which famously collected over one crore rupees in just six months.\n\n💡 **रोचक तथ्य**\n\n- उनके सम्मान में, कांग्रेस ने असहयोग आंदोलन को वित्तपोषित करने के लिए तुरंत 'तिलक स्वराज्य कोष' की स्थापना की, जिसने प्रसिद्ध रूप से केवल छह महीनों में एक करोड़ रुपये से अधिक एकत्र किए।"
+    }
+  },
+  {
+    "id": "HIS1847",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags":[
+      "DirectActionDay",
+      "MuslimLeague",
+      "PartitionOfIndia"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which date is observed 'Direct Action Day' by the Muslim League in 1946?",
+    "question_hi": "1946 में मुस्लिम लीग द्वारा किस तिथि को 'डायरेक्ट एक्शन डे (प्रत्यक्ष कार्यवाही दिवस)' के रूप में मनाया गया?",
+    "options":[
+      "14 August",
+      "15 August",
+      "16 August",
+      "18 August"
+    ],
+    "options_hi":[
+      "14 अगस्त",
+      "15 अगस्त",
+      "16 अगस्त",
+      "18 अगस्त"
+    ],
+    "correct": "16 August",
+    "explanation": {
+      "summary": "Correct Answer: 16 August\n\nसही उत्तर: 16 अगस्त",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Muhammad Ali Jinnah and the Muslim League called for 'Direct Action Day' on August 16, 1946, to show their strength and demand the creation of an independent Pakistan.\n\n✅ **यह सही क्यों है**\n\n- मुहम्मद अली जिन्ना और मुस्लिम लीग ने अपनी ताकत दिखाने और एक स्वतंत्र पाकिस्तान के निर्माण की मांग करने के लिए 16 अगस्त 1946 को 'प्रत्यक्ष कार्यवाही दिवस' का आह्वान किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- August 14 and 15 are the subsequent independence days of Pakistan and India in 1947. August 16 is the specific day declared for Direct Action.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 14 और 15 अगस्त क्रमशः 1947 में पाकिस्तान और भारत के स्वतंत्रता दिवस हैं। 16 अगस्त को प्रत्यक्ष कार्यवाही के लिए घोषित किया गया विशिष्ट दिन है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The call for Direct Action resulted in catastrophic communal violence, infamously known as the Great Calcutta Killings, making partition almost inevitable.\n\n📝 **निष्कर्ष**\n\n- प्रत्यक्ष कार्यवाही के आह्वान के परिणामस्वरूप विनाशकारी सांप्रदायिक हिंसा हुई, जिसे कुख्यात रूप से 'ग्रेट कलकत्ता किलिंग्स' के रूप में जाना जाता है, जिससे विभाजन लगभग अपरिहार्य हो गया।",
+      "fact": "💡 **Interesting Fact**\n\n- During the terrible riots of Direct Action Day in Calcutta, Mahatma Gandhi undertook a fast in Noakhali, acting as a \"one-man boundary force\" to restore peace.\n\n💡 **रोचक तथ्य**\n\n- कलकत्ता में प्रत्यक्ष कार्यवाही दिवस के भयानक दंगों के दौरान, महात्मा गांधी ने नोआखली में उपवास किया, और शांति बहाल करने के लिए \"वन-मैन बाउंड्री फोर्स\" के रूप में कार्य किया।"
+    }
+  },
+  {
+    "id": "POL696",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Framework",
+      "subTopic": "Union & its Territory (Art 1-4)"
+    },
+    "tags":[
+      "Articles",
+      "ConstitutionOfIndia",
+      "Chronology"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "In which order the following placed in the Constitution of India?\n(i) Right to freedom of religion\n(ii) Change of state name\n(iii) Imposition of President's rule in a state\n(iv) Mention about the Indian Administrative Services",
+    "question_hi": "भारत के संविधान में निम्नलिखित को किस क्रम में रखा गया है?\n(i) धर्म की स्वतंत्रता का अधिकार\n(ii) राज्य का नाम बदलना\n(iii) राज्य में राष्ट्रपति शासन लगाना\n(iv) भारतीय प्रशासनिक सेवाओं के बारे में उल्लेख",
+    "options":[
+      "(iv) (ii) (iii) (i)",
+      "(ii) (i) (iv) (iii)",
+      "(iii) (iv) (ii) (i)",
+      "(i) (iii) (iv) (ii)"
+    ],
+    "options_hi":[
+      "(iv) (ii) (iii) (i)",
+      "(ii) (i) (iv) (iii)",
+      "(iii) (iv) (ii) (i)",
+      "(i) (iii) (iv) (ii)"
+    ],
+    "correct": "(ii) (i) (iv) (iii)",
+    "explanation": {
+      "summary": "Correct Answer: (ii) (i) (iv) (iii)\n\nसही उत्तर: (ii) (i) (iv) (iii)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- (ii) Change of state name is Article 3; (i) Right to freedom of religion is Articles 25-28; (iv) Indian Administrative Services is Article 312; (iii) President's rule is Article 356. The chronological order is 3 -> 25 -> 312 -> 356.\n\n✅ **यह सही क्यों है**\n\n- (ii) राज्य का नाम बदलना अनुच्छेद 3 है; (i) धर्म की स्वतंत्रता का अधिकार अनुच्छेद 25-28 है; (iv) भारतीय प्रशासनिक सेवा अनुच्छेद 312 है; (iii) राष्ट्रपति शासन अनुच्छेद 356 है। कालानुक्रमिक क्रम 3 -> 25 -> 312 -> 356 है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other sequence violates the numerical progression of the parts and articles of the Indian Constitution.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य अनुक्रम भारतीय संविधान के भागों और अनुच्छेदों की संख्यात्मक प्रगति का उल्लंघन करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Memorizing the broad placement of Parts (like Part I for Union, Part III for Rights, Part XVIII for Emergency) makes answering chronological article questions easy.\n\n📝 **निष्कर्ष**\n\n- भागों के व्यापक स्थान (जैसे संघ के लिए भाग I, अधिकारों के लिए भाग III, आपातकाल के लिए भाग XVIII) को याद रखने से कालानुक्रमिक अनुच्छेद प्रश्नों का उत्तर देना आसान हो जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Indian Constitution is the longest written national constitution in the world, originally containing 395 articles in 22 parts.\n\n💡 **रोचक तथ्य**\n\n- भारतीय संविधान दुनिया का सबसे लंबा लिखित राष्ट्रीय संविधान है, जिसमें मूल रूप से 22 भागों में 395 अनुच्छेद थे।"
+    }
+  },
+  {
+    "id": "POL697",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Dynamics & Evolution",
+      "subTopic": "Amendment of the Constitution"
+    },
+    "tags": [
+      "93rdAmendment",
+      "Reservation",
+      "OBC"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The 93rd Amendment of the Constitution relates to the following",
+    "question_hi": "संविधान का 93वां संशोधन निम्नलिखित से संबंधित है:",
+    "options":[
+      "Panchayati Raj Institutions",
+      "Reservation for women in legislative assemblies",
+      "Reservation for Other Backward Classes in educational institutions",
+      "Fundamental Duties"
+    ],
+    "options_hi":[
+      "पंचायती राज संस्थाएं",
+      "विधानसभाओं में महिलाओं के लिए आरक्षण",
+      "शैक्षणिक संस्थानों में अन्य पिछड़ा वर्ग (OBC) के लिए आरक्षण",
+      "मौलिक कर्तव्य"
+    ],
+    "correct": "Reservation for Other Backward Classes in educational institutions",
+    "explanation": {
+      "summary": "Correct Answer: Reservation for Other Backward Classes in educational institutions\n\nसही उत्तर: शैक्षणिक संस्थानों में अन्य पिछड़ा वर्ग (OBC) के लिए आरक्षण",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The 93rd Constitutional Amendment Act (2005) enabled the state to make special provisions for the advancement of socially and educationally backward classes (OBCs) in admission to educational institutions, including private unaided ones.\n\n✅ **यह सही क्यों है**\n\n- 93वें संवैधानिक संशोधन अधिनियम (2005) ने राज्य को निजी गैर-सहायता प्राप्त संस्थानों सहित शैक्षणिक संस्थानों में प्रवेश में सामाजिक और शैक्षिक रूप से पिछड़े वर्गों (OBC) की उन्नति के लिए विशेष प्रावधान करने में सक्षम बनाया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Panchayati Raj is the 73rd Amendment. Women's reservation in assemblies is the recent 106th Amendment. Fundamental Duties were added by the 42nd Amendment.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पंचायती राज 73वां संशोधन है। विधानसभाओं में महिला आरक्षण हालिया 106वां संशोधन है। मौलिक कर्तव्यों को 42वें संशोधन द्वारा जोड़ा गया था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The 93rd Amendment inserted clause (5) in Article 15, significantly widening the scope of affirmative action in India's educational sector.\n\n📝 **निष्कर्ष**\n\n- 93वें संशोधन ने अनुच्छेद 15 में खंड (5) को सम्मिलित किया, जिससे भारत के शैक्षिक क्षेत्र में सकारात्मक कार्रवाई के दायरे को काफी हद तक विस्तृत किया गया।",
+      "fact": "💡 **Interesting Fact**\n\n- This amendment specifically excluded minority educational institutions (covered under Article 30) from the ambit of this reservation policy.\n\n💡 **रोचक तथ्य**\n\n- इस संशोधन ने अल्पसंख्यक शैक्षणिक संस्थानों (अनुच्छेद 30 के तहत शामिल) को विशेष रूप से इस आरक्षण नीति के दायरे से बाहर रखा।"
+    }
+  },
+  {
+    "id": "POL698",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional & Non-Constitutional Bodies",
+      "subTopic": "Election Commission"
+    },
+    "tags":[
+      "Articles",
+      "ConstitutionalBodies",
+      "UPSC"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following provisions given in the Indian Constitution -\n1. Article 280 - Election Commission of India\n2. Article 315 - Union Public Service Commission\n3. Article 324 - Finance Commission\nWhich of the above statements is not correct?",
+    "question_hi": "भारतीय संविधान में दिए गए निम्नलिखित प्रावधानों पर विचार करें -\n1. अनुच्छेद 280 - भारत का चुनाव आयोग\n2. अनुच्छेद 315 - संघ लोक सेवा आयोग\n3. अनुच्छेद 324 - वित्त आयोग\nउपरोक्त में से कौन सा/से कथन सही नहीं है/हैं?",
+    "options":[
+      "Only one",
+      "Only one and three",
+      "All three",
+      "None of the above"
+    ],
+    "options_hi":[
+      "केवल एक",
+      "केवल एक और तीन",
+      "तीनों",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Only one and three",
+    "explanation": {
+      "summary": "Correct Answer: Only one and three\n\nसही उत्तर: केवल एक और तीन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statements 1 and 3 are swapped. Article 280 establishes the Finance Commission, and Article 324 provides for the Election Commission. Since the question asks for 'not correct' statements, 'One and three' is the answer.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 और 3 आपस में बदल दिए गए हैं। अनुच्छेद 280 वित्त आयोग की स्थापना करता है, और अनुच्छेद 324 चुनाव आयोग का प्रावधान करता है। चूँकि प्रश्न 'सही नहीं' कथन पूछता है, इसलिए 'एक और तीन' उत्तर है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is entirely correct (Article 315 deals with the UPSC). Selecting 'All three' or 'Only one' fails to properly identify all the incorrect pairs.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 पूरी तरह से सही है (अनुच्छेद 315 यूपीएससी से संबंधित है)। 'तीनों' या 'केवल एक' का चयन करने से सभी गलत जोड़े की ठीक से पहचान करने में विफलता होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Memorizing the specific articles for major Constitutional Bodies (EC, FC, UPSC, CAG) is an absolute necessity for civil service examinations.\n\n📝 **निष्कर्ष**\n\n- सिविल सेवा परीक्षाओं के लिए प्रमुख संवैधानिक निकायों (ईसी, एफसी, यूपीएससी, सीएजी) के लिए विशिष्ट अनुच्छेदों को याद रखना अत्यंत आवश्यक है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Finance Commission is a quasi-judicial body constituted by the President of India every fifth year to distribute tax proceeds between the Centre and States.\n\n💡 **रोचक तथ्य**\n\n- वित्त आयोग एक अर्ध-न्यायिक निकाय है जिसका गठन भारत के राष्ट्रपति द्वारा हर पांचवें वर्ष केंद्र और राज्यों के बीच कर आय वितरित करने के लिए किया जाता है।"
+    }
+  },
+  {
+    "id": "POL699",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Dynamics & Evolution",
+      "subTopic": "Miscellaneous"
+    },
+    "tags":[
+      "BooksAndAuthors",
+      "RajniKothari",
+      "PoliticalScience"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Who is the author of 'Rethinking Democracy'?",
+    "question_hi": "'रीथिंकिंग डेमोक्रेसी' पुस्तक के लेखक कौन हैं?",
+    "options":[
+      "Sunil Khilnani",
+      "Granville Austin",
+      "APJ Abdul Kalam",
+      "Rajni Kothari"
+    ],
+    "options_hi":[
+      "सुनील खिलनानी",
+      "ग्रानविले ऑस्टिन",
+      "एपीजे अब्दुल कलाम",
+      "रजनी कोठारी"
+    ],
+    "correct": "Rajni Kothari",
+    "explanation": {
+      "summary": "Correct Answer: Rajni Kothari\n\nसही उत्तर: रजनी कोठारी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The renowned Indian political scientist and founder of CSDS, Rajni Kothari, wrote the seminal book 'Rethinking Democracy', offering critical insights into civil society and democratic institutions in India.\n\n✅ **यह सही क्यों है**\n\n- प्रख्यात भारतीय राजनीति विज्ञानी और CSDS के संस्थापक रजनी कोठारी ने 'रीथिंकिंग डेमोक्रेसी' नामक महत्वपूर्ण पुस्तक लिखी, जो भारत में नागरिक समाज और लोकतांत्रिक संस्थानों में महत्वपूर्ण अंतर्दृष्टि प्रदान करती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Granville Austin is known for 'The Indian Constitution: Cornerstone of a Nation'. Sunil Khilnani wrote 'The Idea of India'. APJ Abdul Kalam authored 'Wings of Fire'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- ग्रानविले ऑस्टिन को 'द इंडियन कॉन्स्टिट्यूशन: कॉर्नरस्टोन ऑफ ए नेशन' के लिए जाना जाता है। सुनील खिलनानी ने 'द आइडिया ऑफ इंडिया' लिखी। एपीजे अब्दुल कलाम ने 'विंग्स ऑफ फायर' लिखी।",
+      "conclusion": "📝 **Concluding Note**\n\n- Foundational texts on Indian politics by prominent sociologists and political scientists are standard static GK questions in state exams.\n\n📝 **निष्कर्ष**\n\n- प्रमुख समाजशास्त्रियों और राजनीति विज्ञानियों द्वारा भारतीय राजनीति पर आधारित ग्रंथ राज्य परीक्षाओं में मानक स्थैतिक जीके (Static GK) प्रश्न हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Rajni Kothari famously coined the term 'Congress System' to describe the period of Congress party dominance in India's early post-independence era.\n\n💡 **रोचक तथ्य**\n\n- रजनी कोठारी ने भारत के प्रारंभिक स्वतंत्रता-पश्चात युग में कांग्रेस पार्टी के प्रभुत्व की अवधि का वर्णन करने के लिए 'कांग्रेस सिस्टम' शब्द गढ़ा था।"
+    }
+  },
+  {
+    "id": "POL700",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Dynamics & Evolution",
+      "subTopic": "Miscellaneous"
+    },
+    "tags":[
+      "NCRWC",
+      "Vajpayee",
+      "ConstitutionalReview"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "During which Prime Minister's tenure the National Commission to Review the Constitution was formed?",
+    "question_hi": "किस प्रधान मंत्री के कार्यकाल के दौरान 'संविधान की समीक्षा के लिए राष्ट्रीय आयोग' का गठन किया गया था?",
+    "options":[
+      "Morarji Desai",
+      "V.P. Singh",
+      "Atal Bihari Vajpayee",
+      "Manmohan Singh"
+    ],
+    "options_hi":[
+      "मोरारजी देसाई",
+      "वी.पी. सिंह",
+      "अटल बिहारी वाजपेयी",
+      "मनमोहन सिंह"
+    ],
+    "correct": "Atal Bihari Vajpayee",
+    "explanation": {
+      "summary": "Correct Answer: Atal Bihari Vajpayee\n\nसही उत्तर: अटल बिहारी वाजपेयी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The National Commission to Review the Working of the Constitution (NCRWC) was set up by a resolution of the Government of India in 2000 during Atal Bihari Vajpayee's NDA government tenure.\n\n✅ **यह सही क्यों है**\n\n- 'संविधान के कामकाज की समीक्षा के लिए राष्ट्रीय आयोग' (NCRWC) की स्थापना 2000 में अटल बिहारी वाजपेयी के नेतृत्व वाली एनडीए सरकार के कार्यकाल के दौरान भारत सरकार के एक प्रस्ताव द्वारा की गई थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Morarji Desai oversaw the post-Emergency amendments. Manmohan Singh's tenure saw right-based legislation (RTI, RTE) but not the holistic NCRWC formation.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- मोरारजी देसाई ने आपातकाल के बाद के संशोधनों की देखरेख की। मनमोहन सिंह के कार्यकाल में अधिकार-आधारित कानून (आरटीआई, आरटीई) देखे गए लेकिन समग्र एनसीआरडब्ल्यूसी गठन नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The commission concluded that the core features of the Constitution were sound, but its socio-economic implementation needed massive overhaul.\n\n📝 **निष्कर्ष**\n\n- आयोग ने निष्कर्ष निकाला कि संविधान की मुख्य विशेषताएं सुदृढ़ थीं, लेकिन इसके सामाजिक-आर्थिक कार्यान्वयन में बड़े पैमाने पर बदलाव की आवश्यकता थी।",
+      "fact": "💡 **Interesting Fact**\n\n- The 11-member NCRWC was headed by Justice M.N. Venkatachaliah, the 25th Chief Justice of India.\n\n💡 **रोचक तथ्य**\n\n- 11 सदस्यीय NCRWC की अध्यक्षता भारत के 25वें मुख्य न्यायाधीश न्यायमूर्ति एम.एन. वेंकटचलैया ने की थी।"
+    }
+  },
+  {
+    "id": "POL701",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "The Judiciary (Supreme Court)",
+      "subTopic": "The Judiciary (Supreme Court)"
+    },
+    "tags":[
+      "JudicialReview",
+      "SupremeCourt",
+      "ProcedureEstablishedByLaw"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Assertion (A): The Supreme Court of India cannot declare a bad law valid.\nReason (R): The Supreme Court of India follows the procedure established by law",
+    "question_hi": "अभिकथन (A): भारत का सर्वोच्च न्यायालय किसी बुरे कानून को वैध घोषित नहीं कर सकता।\nकारण (R): भारत का सर्वोच्च न्यायालय कानून द्वारा स्थापित प्रक्रिया का पालन करता है",
+    "options":[
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are correct; but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is wrong",
+      "(A) is wrong but (R) is correct"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सही हैं; लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) सही है लेकिन (R) गलत है",
+      "(A) गलत है लेकिन (R) सही है"
+    ],
+    "correct": "(A) is wrong but (R) is correct",
+    "explanation": {
+      "summary": "Correct Answer: (A) is wrong but (R) is correct\n\nसही उत्तर: (A) गलत है लेकिन (R) सही है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Assertion (A) is incorrect because under the strict interpretation of 'procedure established by law' (Article 21), if a law is validly enacted by the legislature, the court must uphold it even if the policy seems morally 'bad' or harsh. Reason (R) correctly outlines the working principle.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन (A) गलत है क्योंकि 'कानून द्वारा स्थापित प्रक्रिया' (अनुच्छेद 21) की सख्त व्याख्या के तहत, यदि कोई कानून विधायिका द्वारा वैध रूप से अधिनियमित किया गया है, तो अदालत को इसे बरकरार रखना चाहिए, भले ही नीति नैतिक रूप से 'खराब' या कठोर लगे। कारण (R) कार्य सिद्धांत की सही रूपरेखा तैयार करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Believing that the Supreme Court operates purely on moral 'goodness' overrules the supremacy of the legislature, making (A) false.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह मानना कि सर्वोच्च न्यायालय विशुद्ध रूप से नैतिक 'अच्छाई' पर काम करता है, विधायिका की सर्वोच्चता को खारिज करता है, जिससे (A) गलत हो जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- India conventionally follows 'Procedure established by law' rather than the American 'Due process of law', which limits judicial activism against purely legislative wisdom.\n\n📝 **निष्कर्ष**\n\n- भारत पारंपरिक रूप से अमेरिकी 'उचित प्रक्रिया (Due process)' के बजाय 'कानून द्वारा स्थापित प्रक्रिया' का पालन करता है, जो विशुद्ध रूप से विधायी ज्ञान के खिलाफ न्यायिक सक्रियता को सीमित करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Over time, post the landmark Maneka Gandhi case (1978), the Indian Supreme Court has increasingly started infusing elements of 'due process' (fairness and reasonableness) into Article 21.\n\n💡 **रोचक तथ्य**\n\n- समय के साथ, ऐतिहासिक मेनका गांधी मामले (1978) के बाद, भारतीय सर्वोच्च न्यायालय ने अनुच्छेद 21 में तेजी से 'उचित प्रक्रिया' (निष्पक्षता और तर्कशीलता) के तत्वों को शामिल करना शुरू कर दिया है।"
+    }
+  },
+  {
+    "id": "POL702",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Union Government",
+      "subTopic": "Parliament (Lok Sabha, Rajya Sabha, Bills, Sessions, Parliamentary Committees)"
+    },
+    "tags":[
+      "ParliamentaryCommittees",
+      "PAC",
+      "EstimatesCommittee"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match List I with List II and give answer from the code given below\nList I:\na. Estimates Committee\nb. Public Accounts Committee\nc. Subordinate Legislation\nd. Public Sector Undertakings Committee\nList II:\ni. Examination of Appropriated Accounts\nii. Suggestions for Economy in Expenditure\niii. Examination of rules made by executive departments under laws passed by the legislature\niv. Review of the performance of public sector undertakings",
+    "question_hi": "सूची I को सूची II के साथ सुमेलित करें और नीचे दिए गए कूट से उत्तर दें:\nसूची I:\na. प्राक्कलन समिति\nb. लोक लेखा समिति\nc. अधीनस्थ विधान\nd. सार्वजनिक उपक्रम समिति\nसूची II:\ni. विनियोग खातों की जांच\nii. व्यय में मितव्ययिता के लिए सुझाव\niii. विधायिका द्वारा पारित कानूनों के तहत कार्यकारी विभागों द्वारा बनाए गए नियमों की जांच\niv. सार्वजनिक क्षेत्र के उपक्रमों के प्रदर्शन की समीक्षा",
+    "options":[
+      "(i) (ii) (iv) (iii)",
+      "(ii) (i) (iii) (iv)",
+      "(iii) (iv) (i) (ii)",
+      "(iv) (i) (ii) (iii)"
+    ],
+    "options_hi":[
+      "(i) (ii) (iv) (iii)",
+      "(ii) (i) (iii) (iv)",
+      "(iii) (iv) (i) (ii)",
+      "(iv) (i) (ii) (iii)"
+    ],
+    "correct": "(ii) (i) (iii) (iv)",
+    "explanation": {
+      "summary": "Correct Answer: (ii) (i) (iii) (iv)\n\nसही उत्तर: (ii) (i) (iii) (iv)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Estimates Committee ensures economy in expenditure (a-ii). Public Accounts Committee (PAC) examines appropriated accounts (b-i). Committee on Subordinate Legislation examines executive rules (c-iii). PSU Committee reviews public enterprise performance (d-iv).\n\n✅ **यह सही क्यों है**\n\n- प्राक्कलन समिति व्यय में मितव्ययिता सुनिश्चित करती है (a-ii)। लोक लेखा समिति (PAC) विनियोग खातों की जांच करती है (b-i)। अधीनस्थ विधान पर समिति कार्यकारी नियमों की जांच करती है (c-iii)। सार्वजनिक उपक्रम समिति सार्वजनिक उद्यम के प्रदर्शन की समीक्षा करती है (d-iv)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other configuration confuses the fundamental mandate of the PAC (auditing post-expenditure) with the Estimates Committee (evaluating budget estimates).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य विन्यास पीएसी (खर्च के बाद का ऑडिट) के मौलिक जनादेश को प्राक्कलन समिति (बजट अनुमानों का मूल्यांकन) के साथ भ्रमित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Parliamentary committees act as the watchdog of public finance and executive accountability in a democratic setup.\n\n📝 **निष्कर्ष**\n\n- संसदीय समितियां लोकतांत्रिक व्यवस्था में सार्वजनिक वित्त और कार्यकारी जवाबदेही के प्रहरी के रूप में कार्य करती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Estimates Committee is the largest parliamentary committee with 30 members, all of whom are exclusively from the Lok Sabha.\n\n💡 **रोचक तथ्य**\n\n- प्राक्कलन समिति 30 सदस्यों वाली सबसे बड़ी संसदीय समिति है, और इसके सभी सदस्य विशेष रूप से लोकसभा से होते हैं।"
+    }
+  },
+  {
+    "id": "POL703",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Union Government",
+      "subTopic": "Parliament (Lok Sabha, Rajya Sabha, Bills, Sessions, Parliamentary Committees)"
+    },
+    "tags":[
+      "RajyaSabha",
+      "AllIndiaServices",
+      "Article312"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Assertion (A): According to Article 312, of the Indian Constitution, the Rajya Sabha can create new All India Services in the national interest.\nReason (R): The Rajya Sabha can define national interest in a comprehensive manner.",
+    "question_hi": "अभिकथन (A): भारतीय संविधान के अनुच्छेद 312 के अनुसार, राज्य सभा राष्ट्रीय हित में नई अखिल भारतीय सेवाएं बना सकती है।\nकारण (R): राज्य सभा राष्ट्रीय हित को व्यापक तरीके से परिभाषित कर सकती है।",
+    "options":[
+      "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true; but (R) is not the correct explanation of (A).",
+      "(A) is true but (R) is false.",
+      "(A) is false but (R) is true."
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है।",
+      "(A) और (R) दोनों सत्य हैं; लेकिन (R) (A) का सही स्पष्टीकरण नहीं है।",
+      "(A) सत्य है लेकिन (R) असत्य है।",
+      "(A) असत्य है लेकिन (R) सत्य है।"
+    ],
+    "correct": "(A) is true but (R) is false.",
+    "explanation": {
+      "summary": "Correct Answer: (A) is true but (R) is false.\n\nसही उत्तर: (A) सत्य है लेकिन (R) असत्य है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Assertion (A) is true: Rajya Sabha has the exclusive power (Article 312) to pass a resolution by a 2/3rd majority to create new All India Services. However, Reason (R) is false; Rajya Sabha does not have a constitutional mandate to broadly \"define national interest comprehensively\", its powers are specific.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन (A) सत्य है: राज्य सभा के पास नई अखिल भारतीय सेवाएं बनाने के लिए 2/3 बहुमत से प्रस्ताव पारित करने की विशेष शक्ति (अनुच्छेद 312) है। हालाँकि, कारण (R) असत्य है; राज्य सभा के पास व्यापक रूप से \"राष्ट्रीय हित को परिभाषित करने\" का कोई संवैधानिक जनादेश नहीं है, इसकी शक्तियाँ विशिष्ट हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Accepting (R) as true would inaccurately grant the Upper House limitless interpretive powers over what constitutes 'national interest', violating the balance of power.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- (R) को सत्य मानने से उच्च सदन को 'राष्ट्रीय हित' का गठन करने वाली असीमित व्याख्यात्मक शक्तियां गलत तरीके से मिल जाएंगी, जो शक्ति संतुलन का उल्लंघन है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The creation of an All India Service affects state autonomy, which is why the Rajya Sabha (Council of States) must initiate the process.\n\n📝 **निष्कर्ष**\n\n- अखिल भारतीय सेवा का निर्माण राज्य की स्वायत्तता को प्रभावित करता है, यही कारण है कि राज्य सभा (राज्यों की परिषद) को इस प्रक्रिया को शुरू करना आवश्यक है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Indian Forest Service (IFS) was created in 1966 under the provisions of the All India Services Act, 1951, utilizing the power granted by Article 312.\n\n💡 **रोचक तथ्य**\n\n- भारतीय वन सेवा (IFS) का निर्माण 1966 में अखिल भारतीय सेवा अधिनियम, 1951 के प्रावधानों के तहत, अनुच्छेद 312 द्वारा प्रदान की गई शक्ति का उपयोग करके किया गया था।"
+    }
+  },
+  {
+    "id": "CUR597",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "GovernmentSchemes",
+      "SwachhBharat",
+      "Agnipath"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to the Modi government consider the following statements.\n1. The Swachh Bharat Abhiyan on Nationwide cleanliness campaign was launched on 2 October 2014.\n2. The Agnipath scheme for the Indian armed forces was launched in 2022\n3. PM Mudra Yojana scheme was launched in 2015 to provide subsidized loans to Micro and Small Enterprises.",
+    "question_hi": "मोदी सरकार के संदर्भ में निम्नलिखित कथनों पर विचार करें।\n1. देशव्यापी स्वच्छता अभियान पर 'स्वच्छ भारत अभियान' 2 अक्टूबर 2014 को शुरू किया गया था।\n2. भारतीय सशस्त्र बलों के लिए अग्निपथ योजना 2022 में शुरू की गई थी\n3. पीएम मुद्रा योजना 2015 में सूक्ष्म और लघु उद्यमों को रियायती ऋण प्रदान करने के लिए शुरू की गई थी।",
+    "options":[
+      "Only one",
+      "Only one and three",
+      "All three",
+      "None of the above"
+    ],
+    "options_hi":[
+      "केवल एक",
+      "केवल एक और तीन",
+      "तीनों",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "All three",
+    "explanation": {
+      "summary": "Correct Answer: All three\n\nसही उत्तर: तीनों",
+      "analysis_correct": "✅ **Why this is correct**\n\n- All three statements accurately reflect the launch dates and primary objectives of these major schemes: Swachh Bharat (2014), Mudra (2015 for micro-finance), and the Agnipath military recruitment scheme (2022).\n\n✅ **यह सही क्यों है**\n\n- सभी तीन कथन इन प्रमुख योजनाओं के लॉन्च की तारीखों और प्राथमिक उद्देश्यों को सटीक रूप से दर्शाते हैं: स्वच्छ भारत (2014), मुद्रा (माइक्रो-फाइनेंस के लिए 2015), और अग्निपथ सैन्य भर्ती योजना (2022)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Eliminating any of these statements denies established chronological facts of recent Indian public policy initiatives.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इनमें से किसी भी कथन को हटाने से हालिया भारतीय सार्वजनिक नीति पहलों के स्थापित कालानुक्रमिक तथ्यों को नकार दिया जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Awareness of the launch years of flagship government schemes is a staple requirement for all competitive examinations.\n\n📝 **निष्कर्ष**\n\n- प्रमुख सरकारी योजनाओं के लॉन्च के वर्षों के बारे में जागरूकता सभी प्रतियोगी परीक्षाओं के लिए एक मुख्य आवश्यकता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Under the Agnipath scheme, youths aged 17.5 to 21 years are recruited as 'Agniveers' for a standard four-year tenure in the armed forces.\n\n💡 **रोचक तथ्य**\n\n- अग्निपथ योजना के तहत, 17.5 से 21 वर्ष की आयु के युवाओं को सशस्त्र बलों में मानक चार साल के कार्यकाल के लिए 'अग्निवीर' के रूप में भर्ती किया जाता है।"
+    }
+  },
+  {
+    "id": "POL704",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Local Government & Special Areas",
+      "subTopic": "Panchayati Raj (73rd Amendment)"
+    },
+    "tags":[
+      "PanchayatiRaj",
+      "Reservation",
+      "Article243D"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In which article the provision on reservation of schedule cast and schedule tribes to panchayat has been given?",
+    "question_hi": "किस अनुच्छेद में पंचायतों में अनुसूचित जाति और अनुसूचित जनजाति के आरक्षण का प्रावधान दिया गया है?",
+    "options":[
+      "243 A",
+      "243 B",
+      "243 C",
+      "243 D"
+    ],
+    "options_hi":[
+      "243 A",
+      "243 B",
+      "243 C",
+      "243 D"
+    ],
+    "correct": "243 D",
+    "explanation": {
+      "summary": "Correct Answer: 243 D\n\nसही उत्तर: 243 D",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Article 243D of the Constitution explicitly mandates the reservation of seats for the Scheduled Castes (SCs) and Scheduled Tribes (STs) in every Panchayat in proportion to their population.\n\n✅ **यह सही क्यों है**\n\n- संविधान का अनुच्छेद 243D स्पष्ट रूप से प्रत्येक पंचायत में अनुसूचित जाति (SC) और अनुसूचित जनजाति (ST) के लिए उनकी जनसंख्या के अनुपात में सीटों के आरक्षण को अनिवार्य करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Article 243A concerns the Gram Sabha. 243B is about the Constitution of Panchayats. 243C deals with the Composition of Panchayats.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अनुच्छेद 243A ग्राम सभा से संबंधित है। 243B पंचायतों के गठन के बारे में है। 243C पंचायतों की संरचना से संबंधित है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The 73rd Amendment completely institutionalized affirmative action at the grassroots level of Indian democracy.\n\n📝 **निष्कर्ष**\n\n- 73वें संशोधन ने भारतीय लोकतंत्र के जमीनी स्तर पर सकारात्मक कार्रवाई को पूरी तरह से संस्थागत बना दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- Article 243D also reserves not less than one-third of the total number of seats for women, including those belonging to SC and ST categories.\n\n💡 **रोचक तथ्य**\n\n- अनुच्छेद 243D महिलाओं के लिए भी कुल सीटों की संख्या का एक तिहाई से कम नहीं (एससी और एसटी श्रेणियों से संबंधित महिलाओं सहित) आरक्षित करता है।"
+    }
+  },
+  {
+    "id": "ECO897",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Economic Planning (Five-Year Plans, NITI Aayog)"
+    },
+    "tags":[
+      "NITIAayog",
+      "CEO",
+      "EconomicPlanning"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In January 2015, who among the following was appointed as the first C.E.O. of NITI Aayog of India?",
+    "question_hi": "जनवरी 2015 में, निम्नलिखित में से किसे भारत के नीति (NITI) आयोग का पहला मुख्य कार्यकारी अधिकारी (C.E.O.) नियुक्त किया गया था?",
+    "options":[
+      "Sindhushree Kullar",
+      "B.V.R. Subrahmanyan",
+      "Cyrus Mistry",
+      "S. S. Mudra"
+    ],
+    "options_hi":[
+      "सिंधुश्री खुल्लर",
+      "बी.वी.आर. सुब्रह्मण्यम",
+      "साइरस मिस्त्री",
+      "एस. एस. मूंदड़ा"
+    ],
+    "correct": "Sindhushree Kullar",
+    "explanation": {
+      "summary": "Correct Answer: Sindhushree Kullar\n\nसही उत्तर: सिंधुश्री खुल्लर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Sindhushree Khullar, a senior IAS officer, was appointed as the first Chief Executive Officer (CEO) of the newly formed NITI Aayog in January 2015, which replaced the Planning Commission.\n\n✅ **यह सही क्यों है**\n\n- एक वरिष्ठ आईएएस अधिकारी सिंधुश्री खुल्लर को जनवरी 2015 में नवगठित नीति (NITI) आयोग का पहला मुख्य कार्यकारी अधिकारी (CEO) नियुक्त किया गया था, जिसने योजना आयोग का स्थान लिया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- B.V.R. Subrahmanyam became the CEO much later. Cyrus Mistry was the chairman of the Tata Group. S.S. Mundra was an RBI Deputy Governor.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- बी.वी.आर. सुब्रह्मण्यम बहुत बाद में सीईओ बने। साइरस मिस्त्री टाटा समूह के अध्यक्ष थे। एस.एस. मूंदड़ा आरबीआई के डिप्टी गवर्नर थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Remembering the inaugural heads of major national institutions is critical for static GK economy sections.\n\n📝 **निष्कर्ष**\n\n- प्रमुख राष्ट्रीय संस्थानों के उद्घाटन प्रमुखों को याद रखना स्थैतिक जीके (Static GK) अर्थव्यवस्था वर्गों के लिए महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- NITI Aayog stands for 'National Institution for Transforming India', and the Prime Minister serves as its ex-officio chairperson.\n\n💡 **रोचक तथ्य**\n\n- NITI का अर्थ 'नेशनल इंस्टीट्यूशन फॉर ट्रांसफॉर्मिंग इंडिया' है, और प्रधान मंत्री इसके पदेन अध्यक्ष के रूप में कार्य करते हैं।"
+    }
+  },
+  {
+    "id": "ECO898",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Taxation in India (Direct/Indirect Taxes, GST)"
+    },
+    "tags":[
+      "TaxReforms",
+      "Committees",
+      "IndianEconomy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which one of the following committee is not related to tax-reforms in India?",
+    "question_hi": "निम्नलिखित में से कौन सी समिति भारत में कर-सुधारों से संबंधित नहीं है?",
+    "options":[
+      "Chellia Committee",
+      "Taraporewala Committee",
+      "Kelkar Committee",
+      "Reforms Commission"
+    ],
+    "options_hi":[
+      "चेलैया समिति",
+      "तारापोरवाला समिति",
+      "केलकर समिति",
+      "सुधार आयोग"
+    ],
+    "correct": "Taraporewala Committee",
+    "explanation": {
+      "summary": "Correct Answer: Taraporewala Committee\n\nसही उत्तर: तारापोरवाला समिति",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The S.S. Tarapore Committee was established by the Reserve Bank of India to formulate a roadmap for Capital Account Convertibility, not for matters regarding tax reforms.\n\n✅ **यह सही क्यों है**\n\n- एस.एस. तारापोर समिति की स्थापना भारतीय रिज़र्व बैंक द्वारा पूंजी खाता परिवर्तनीयता (Capital Account Convertibility) के लिए रोडमैप तैयार करने के लिए की गई थी, न कि कर सुधारों से संबंधित मामलों के लिए।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Both the Raja Chelliah Committee (1991) and the Vijay Kelkar Committee (2002) were landmark committees exclusively established to propose comprehensive tax reforms in India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- राजा चेलैया समिति (1991) और विजय केलकर समिति (2002) दोनों ही विशेष रूप से भारत में व्यापक कर सुधारों का प्रस्ताव करने के लिए स्थापित ऐतिहासिक समितियां थीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Distinguishing between financial (banking/currency) committees and fiscal (taxation/budget) committees helps avoid confusion in such questions.\n\n📝 **निष्कर्ष**\n\n- वित्तीय (बैंकिंग/मुद्रा) समितियों और राजकोषीय (कराधान/बजट) समितियों के बीच अंतर करने से ऐसे सवालों में भ्रम से बचने में मदद मिलती है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Vijay Kelkar Committee played a pivotal role in recommending the rollout of the Goods and Services Tax (GST) in India.\n\n💡 **रोचक तथ्य**\n\n- विजय केलकर समिति ने भारत में वस्तु एवं सेवा कर (GST) को लागू करने की सिफारिश करने में महत्वपूर्ण भूमिका निभाई थी।"
+    }
+  },
+  {
+    "id": "ECO899",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Sectors of the Economy"
+    },
+    "tags":[
+      "EconomicGrowth",
+      "FDI",
+      "Macroeconomics"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which one of the following indicates that India is a fast growing economy?",
+    "question_hi": "निम्नलिखित में से कौन सा संकेत देता है कि भारत एक तेजी से बढ़ती अर्थव्यवस्था है?",
+    "options":[
+      "Policy Reforms",
+      "Digital Transformation",
+      "Increasing FDI",
+      "All the above"
+    ],
+    "options_hi":[
+      "नीतिगत सुधार",
+      "डिजिटल परिवर्तन",
+      "बढ़ता एफडीआई (प्रत्यक्ष विदेशी निवेश)",
+      "उपरोक्त सभी"
+    ],
+    "correct": "All the above",
+    "explanation": {
+      "summary": "Correct Answer: All the above\n\nसही उत्तर: उपरोक्त सभी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- All these factors collectively drive and indicate a robust economy. Policy reforms ease business, digital transformation boosts efficiency, and rising Foreign Direct Investment (FDI) signals global confidence.\n\n✅ **यह सही क्यों है**\n\n- ये सभी कारक सामूहिक रूप से एक मजबूत अर्थव्यवस्था को गति देते हैं और संकेत देते हैं। नीतिगत सुधार व्यापार को आसान बनाते हैं, डिजिटल परिवर्तन दक्षता को बढ़ाते हैं, और बढ़ता प्रत्यक्ष विदेशी निवेश (FDI) वैश्विक विश्वास का संकेत देता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Limiting the indication of growth to just one singular factor ignores the multi-dimensional nature of India's current economic expansion.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- विकास के संकेत को केवल एक विलक्षण कारक तक सीमित करने से भारत के वर्तमान आर्थिक विस्तार की बहुआयामी प्रकृति की अनदेखी होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Contemporary economic growth relies on a synergy of sound governmental frameworks, technological integration, and foreign capital influx.\n\n📝 **निष्कर्ष**\n\n- समकालीन आर्थिक विकास सुदृढ़ सरकारी ढांचे, तकनीकी एकीकरण और विदेशी पूंजी प्रवाह के तालमेल पर निर्भर करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The introduction of UPI (Unified Payments Interface) has made India the global leader in real-time digital payment transactions.\n\n💡 **रोचक तथ्य**\n\n- यूपीआई (यूनिफाइड पेमेंट्स इंटरफेस) की शुरुआत ने भारत को रियल-टाइम डिजिटल भुगतान लेनदेन में वैश्विक नेता बना दिया है।"
+    }
+  },
+  {
+    "id": "ECO900",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Sectors of the Economy"
+    },
+    "tags":[
+      "ServiceSector",
+      "EconomyDrivers",
+      "IndianEconomy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which one of the following is not a driving factor for increase in the contribution of service sector in India?",
+    "question_hi": "निम्नलिखित में से कौन सा भारत में सेवा क्षेत्र के योगदान में वृद्धि के लिए प्रेरक कारक नहीं है?",
+    "options":[
+      "Globalization and Liberalization",
+      "Technological advancement",
+      "Urbanization",
+      "Decrease in core industries"
+    ],
+    "options_hi":[
+      "वैश्वीकरण और उदारीकरण",
+      "तकनीकी प्रगति",
+      "शहरीकरण",
+      "मुख्य उद्योगों में कमी"
+    ],
+    "correct": "Decrease in core industries",
+    "explanation": {
+      "summary": "Correct Answer: Decrease in core industries\n\nसही उत्तर: मुख्य उद्योगों में कमी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- A 'decrease in core industries' (like manufacturing or heavy infrastructure) is detrimental to overall economic health and is not a positive organic driver for service sector growth.\n\n✅ **यह सही क्यों है**\n\n- 'मुख्य उद्योगों (जैसे विनिर्माण या भारी बुनियादी ढांचे) में कमी' समग्र आर्थिक स्वास्थ्य के लिए हानिकारक है और यह सेवा क्षेत्र के विकास के लिए कोई सकारात्मक जैविक चालक नहीं है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Globalization, IT revolution, and rapid urbanization are the actual foundational pillars that created massive demand for banking, software, and retail services in India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- वैश्वीकरण, आईटी क्रांति और तीव्र शहरीकरण वे वास्तविक आधारभूत स्तंभ हैं जिन्होंने भारत में बैंकिंग, सॉफ्टवेयर और खुदरा सेवाओं के लिए भारी मांग पैदा की।",
+      "conclusion": "📝 **Concluding Note**\n\n- The phenomenal rise of the Indian service sector is largely attributed to its skilled demographic dividend capitalizing on global IT and service outsourcing needs.\n\n📝 **निष्कर्ष**\n\n- भारतीय सेवा क्षेत्र के अभूतपूर्व उदय का श्रेय काफी हद तक वैश्विक आईटी और सेवा आउटसोर्सिंग जरूरतों को भुनाने वाले इसके कुशल जनसांख्यिकीय लाभांश को दिया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The service sector is the dominant driver of the Indian economy, contributing to over 50% of the nation's Gross Value Added (GVA).\n\n💡 **रोचक तथ्य**\n\n- सेवा क्षेत्र भारतीय अर्थव्यवस्था का प्रमुख चालक है, जो देश के सकल मूल्य वर्धित (GVA) में 50% से अधिक का योगदान देता है।"
+    }
+  },
+  {
+    "id": "ECO901",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "FinancialInclusion",
+      "GovtSchemes",
+      "Insurance"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Select the scheme which is not related to financial inclusion in India?",
+    "question_hi": "उस योजना का चयन करें जो भारत में वित्तीय समावेशन से संबंधित नहीं है?",
+    "options":[
+      "PM Jeevan Jyoti Bima Yojana",
+      "Mudra Yojana",
+      "PM Suraksha Yojana",
+      "Mantri Suraksha Bima Yojana"
+    ],
+    "options_hi":[
+      "पीएम जीवन ज्योति बीमा योजना",
+      "मुद्रा योजना",
+      "पीएम सुरक्षा योजना",
+      "मंत्री सुरक्षा बीमा योजना"
+    ],
+    "correct": "Mantri Suraksha Bima Yojana",
+    "explanation": {
+      "summary": "Correct Answer: Mantri Suraksha Bima Yojana\n\nसही उत्तर: मंत्री सुरक्षा बीमा योजना",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The term 'Mantri Suraksha Bima Yojana' is factually incomplete and not an official scheme. The actual scheme is the Pradhan Mantri Suraksha Bima Yojana (PMSBY).\n\n✅ **यह सही क्यों है**\n\n- 'मंत्री सुरक्षा बीमा योजना' शब्द तथ्यात्मक रूप से अधूरा है और यह कोई आधिकारिक योजना नहीं है। वास्तविक योजना 'प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY)' है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- PM Jeevan Jyoti Bima Yojana (Life Insurance), Mudra Yojana (Micro-credit), and PM Suraksha Yojana (Accident Insurance) are all active, official financial inclusion programs.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पीएम जीवन ज्योति बीमा योजना (जीवन बीमा), मुद्रा योजना (माइक्रो-क्रेडिट), और पीएम सुरक्षा योजना (दुर्घटना बीमा) सभी सक्रिय, आधिकारिक वित्तीय समावेशन कार्यक्रम हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Questions on government schemes often use slight variations or misnomers to test the candidate's exact knowledge of official scheme nomenclature.\n\n📝 **निष्कर्ष**\n\n- सरकारी योजनाओं पर प्रश्नों में अक्सर आधिकारिक योजना नामकरण के बारे में उम्मीदवार के सटीक ज्ञान का परीक्षण करने के लिए मामूली बदलाव या गलत नामों का उपयोग किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Pradhan Mantri Suraksha Bima Yojana (PMSBY) offers an accidental death and disability cover of ₹2 lakh for an extremely nominal premium of just ₹20 per year.\n\n💡 **रोचक तथ्य**\n\n- प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY) प्रति वर्ष केवल ₹20 के अत्यंत मामूली प्रीमियम पर ₹2 लाख का आकस्मिक मृत्यु और विकलांगता कवर प्रदान करती है।"
+    }
+  }
+]
