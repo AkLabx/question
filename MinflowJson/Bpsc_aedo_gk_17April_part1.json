@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "BIO398",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Kingdom Classification"
+    },
+    "tags":[
+      "Taxonomy",
+      "Classification",
+      "Whittaker",
+      "Linnaeus"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Place these taxonomic classification systems in chronological order of their development:\na) Whittaker's five-kingdom system\nb) Linnaeus's artificial system\nc) Bentham and Hooker's natural system\nd) Engler and Prantl's phylogenetic system\ne) APG system for flowering plants",
+    "question_hi": "इन वर्गिकी वर्गीकरण प्रणालियों को उनके विकास के कालानुक्रमिक क्रम में रखें:\na) व्हिटेकर की पाँच-जगत प्रणाली\nb) लिनियस की कृत्रिम प्रणाली\nc) बेंथम और हुकर की प्राकृतिक प्रणाली\nd) एंगलर और प्रांटल की जातिवृत्तीय प्रणाली\ne) पुष्पीय पौधों के लिए APG तंत्र",
+    "options":[
+      "b-c-d-a-e",
+      "a-b-c-d-e",
+      "a-c-b-d-e",
+      "b-d-c-a-e"
+    ],
+    "options_hi":[
+      "b-c-d-a-e",
+      "a-b-c-d-e",
+      "a-c-b-d-e",
+      "b-d-c-a-e"
+    ],
+    "correct": "b-c-d-a-e",
+    "explanation": {
+      "summary": "Correct Answer: A) b-c-d-a-e\n\nसही उत्तर: A) b-c-d-a-e",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The chronological order reflects the evolution of taxonomy: Linnaeus proposed the Artificial System in 1735. Bentham and Hooker developed the Natural System between 1862-1883. Engler and Prantl introduced their Phylogenetic System from 1887-1915. Whittaker presented the Five-Kingdom System in 1969. The APG (Angiosperm Phylogeny Group) system was first published in 1998.\n\n✅ **यह सही क्यों है**\n\n- कालानुक्रमिक क्रम वर्गीकरण के विकास को दर्शाता है: लिनियस ने 1735 में कृत्रिम प्रणाली प्रस्तावित की। बेंथम और हुकर ने 1862-1883 के बीच प्राकृतिक प्रणाली विकसित की। एंगलर और प्रांटल ने 1887-1915 तक अपनी जातिवृत्तीय प्रणाली पेश की। व्हिटेकर ने 1969 में पाँच-जगत प्रणाली प्रस्तुत की। APG प्रणाली पहली बार 1998 में प्रकाशित हुई थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any sequence placing Whittaker (a) before Linnaeus (b) or APG (e) earlier than modern times is historically and scientifically incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अनुक्रम जो व्हिटेकर (a) को लिनियस (b) से पहले या APG (e) को आधुनिक समय से पहले रखता है, वह ऐतिहासिक और वैज्ञानिक रूप से गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The history of biological classification transitions from simple morphological traits (artificial) to evolutionary relationships (phylogenetic) and DNA-based consensus (APG).\n\n📝 **निष्कर्ष**\n\n- जैविक वर्गीकरण का इतिहास सरल रूपात्मक लक्षणों (कृत्रिम) से विकासवादी संबंधों (जातिवृत्तीय) और डीएनए-आधारित आम सहमति (एपीजी) तक परिवर्तित होता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Carl Linnaeus is known as the 'Father of Taxonomy', and his binomial nomenclature system is still the universal standard used today.\n\n💡 **रोचक तथ्य**\n\n- कार्ल लिनियस को 'वर्गीकरण के जनक' के रूप में जाना जाता है, और उनकी द्विपद नामकरण प्रणाली आज भी इस्तेमाल किया जाने वाला सार्वभौमिक मानक है।"
+    }
+  },
+  {
+    "id": "BIO399",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "The Cell and its Organelles"
+    },
+    "tags":[
+      "Cellular Respiration",
+      "Metabolism",
+      "Glycolysis"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to glucose metabolism and cellular respiration, consider the following statements:\n1. The conversion of succinate to fumarate in the TCA cycle is unique because it is the only step catalyzed by an enzyme embedded in the inner mitochondrial membrane and directly links the TCA cycle to the electron transport chain.\n2. Oxidative phosphorylation is the only stage of cellular respiration where oxygen is directly consumed, and all ATP generated in this stage is produced by substrate-level phosphorylation.\n3. In glycolysis, the enzyme phosphofructokinase-1 (PFK-1) is allosterically inhibited by high concentrations of ATP and citrate, making it a key regulatory point for both glycolysis and the TCA cycle.",
+    "question_hi": "ग्लूकोज उपापचय और कोशिकीय श्वसन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. TCA चक्र में सक्सीनेट का फ्यूमरेट में रूपांतरण अद्वितीय है क्योंकि यह आंतरिक माइटोकॉन्ड्रियल झिल्ली में अंतर्निहित एक एंजाइम द्वारा उत्प्रेरित एकमात्र चरण है और सीधे तौर पर TCA चक्र से इलेक्ट्रॉन परिवहन श्रृंखला तक जुड़ता है।\n2. ऑक्सीडेटिव फॉस्फोराइलेशन कोशिकीय श्वसन का एकमात्र चरण है जहाँ ऑक्सीजन का सीधे उपभोग होता है, और इस चरण में उत्पन्न सभी ATP सब्सट्रेट-स्तरीय फॉस्फोराइलेशन द्वारा निर्मित होते हैं।\n3. ग्लाइकोलाइसिस में, एंजाइम फॉस्फोफ्रक्टोकाइनेज-1 (PFK-1) ATP और साइट्रेट की उच्च सांद्रता द्वारा एलोस्टेरिक रूप से बाधित होता है, जिससे यह ग्लाइकोलाइसिस और TCA चक्र दोनों के लिए एक प्रमुख नियामक बिंदु बन जाता है।",
+    "options":[
+      "All Statements are correct",
+      "Statement 1 and Statement 3 only",
+      "Statement 3 only",
+      "Statement 1 and Statement 2 only"
+    ],
+    "options_hi":[
+      "सभी कथन सही हैं",
+      "केवल कथन 1 और 3",
+      "केवल कथन 3",
+      "केवल कथन 1 और 2"
+    ],
+    "correct": "Statement 1 and Statement 3 only",
+    "explanation": {
+      "summary": "Correct Answer: B) Statement 1 and Statement 3 only\n\nसही उत्तर: B) केवल कथन 1 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is true because Succinate dehydrogenase (Complex II) is embedded in the inner mitochondrial membrane, linking the Krebs cycle to the ETC.\n- Statement 3 is true as PFK-1 is the primary pace-making enzyme of glycolysis, heavily inhibited by high ATP and citrate.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सत्य है क्योंकि सक्सीनेट डिहाइड्रोजनेज (कॉम्प्लेक्स II) आंतरिक माइटोकॉन्ड्रियल झिल्ली में अंतर्निहित है, जो क्रेब्स चक्र को ETC से जोड़ता है।\n- कथन 3 सत्य है क्योंकि PFK-1 ग्लाइकोलाइसिस का प्रमुख गति-निर्धारण एंजाइम है, जो उच्च ATP और साइट्रेट द्वारा अत्यधिक बाधित होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect because ATP generated during oxidative phosphorylation is produced via chemiosmosis (using ATP synthase), not substrate-level phosphorylation.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि ऑक्सीडेटिव फॉस्फोराइलेशन के दौरान उत्पन्न ATP केमियोस्मोसिस (ATP सिंथेस का उपयोग करके) के माध्यम से उत्पन्न होता है, न कि सब्सट्रेट-स्तरीय फॉस्फोराइलेशन से।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the distinct mechanisms of ATP generation (substrate-level vs. oxidative) is critical in cellular biochemistry.\n\n📝 **निष्कर्ष**\n\n- कोशिकीय जैव रसायन विज्ञान में ATP पीढ़ी (सब्सट्रेट-स्तर बनाम ऑक्सीडेटिव) के विशिष्ट तंत्र को समझना महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- Cyanide poisoning is deadly because it directly binds to Complex IV of the electron transport chain, completely halting oxidative phosphorylation.\n\n💡 **रोचक तथ्य**\n\n- साइनाइड विषाक्तता घातक है क्योंकि यह सीधे इलेक्ट्रॉन परिवहन श्रृंखला के कॉम्प्लेक्स IV से जुड़ जाती है, जिससे ऑक्सीडेटिव फॉस्फोराइलेशन पूरी तरह से रुक जाता है।"
+    }
+  },
+  {
+    "id": "ENV220",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Ecology & Ecosystem",
+      "subTopic": "Basic Concepts"
+    },
+    "tags":[
+      "Ecological Niche",
+      "Ecology",
+      "Competition"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The realized niche of an organism is",
+    "question_hi": "किसी जीव का वास्तविक निकेत है",
+    "options":[
+      "the life pattern that the organism actually assumes",
+      "the habitat of a species within a community resulting from clumping",
+      "the habitat that exists in nature as opposed to the ideal",
+      "the area a species can occupy in the face of exploitive competition"
+    ],
+    "options_hi":[
+      "जीव द्वारा वास्तव में अपनाई गई जीवन पद्धती",
+      "समूहीकरण से उत्पन्न समुदाय के भीतर किसी प्रजाति का आवास",
+      "आदर्श के विपरीत प्रकृति में विद्यमान आवास",
+      "वह क्षेत्र जहाँ कोई प्रजाति शोषणकारी प्रतिस्पर्धा के दौरान कब्ज़ा कर सकती है"
+    ],
+    "correct": "the area a species can occupy in the face of exploitive competition",
+    "explanation": {
+      "summary": "Correct Answer: D) the area a species can occupy in the face of exploitive competition\n\nसही उत्तर: D) वह क्षेत्र जहाँ कोई प्रजाति शोषणकारी प्रतिस्पर्धा के दौरान कब्ज़ा कर सकती है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- A realized niche refers to the actual environmental conditions and resources a species utilizes when restricted by biotic interactions like exploitive competition and predation.\n\n✅ **यह सही क्यों है**\n\n- वास्तविक निकेत उन वास्तविक पर्यावरणीय स्थितियों और संसाधनों को संदर्भित करता है जिनका उपयोग कोई प्रजाति तब करती है जब वह शोषणकारी प्रतिस्पर्धा और शिकार जैसी जैविक अंतःक्रियाओं द्वारा सीमित होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- A 'fundamental niche' represents the ideal scenario without competition. Options A, B, and C describe habitat broadly or life patterns without accurately capturing the limiting factor of competition that defines a 'realized' niche.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 'मौलिक निकेत' बिना प्रतिस्पर्धा के आदर्श परिदृश्य को दर्शाता है। विकल्प A, B और C 'वास्तविक' निकेत को परिभाषित करने वाले प्रतिस्पर्धा के सीमित कारक को सटीक रूप से नहीं पकड़ते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The fundamental niche is potential, while the realized niche is actual. Competitive exclusion always makes the realized niche smaller than the fundamental niche.\n\n📝 **निष्कर्ष**\n\n- मौलिक निकेत संभावित है, जबकि वास्तविक निकेत वास्तविक है। प्रतिस्पर्धी बहिष्करण हमेशा वास्तविक निकेत को मौलिक निकेत से छोटा बनाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Joseph Grinnell first developed the concept of the ecological niche in 1917, viewing it largely as an organism's physical habitat.\n\n💡 **रोचक तथ्य**\n\n- जोसेफ ग्रिनेल ने पहली बार 1917 में पारिस्थितिक निकेत की अवधारणा विकसित की, इसे मुख्य रूप से एक जीव के भौतिक आवास के रूप में देखा।"
+    }
+  },
+  {
+    "id": "PHY423",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Light (Reflection, Refraction, Interference, Diffraction)"
+    },
+    "tags": [
+      "Light",
+      "Reflection",
+      "Chlorophyll"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "If we shine green light on a tree, the tree will",
+    "question_hi": "यदि हम किसी वृक्ष पर हरा प्रकाश डालें, तो वृक्ष....... होगा।",
+    "options":[
+      "will camouflage in the light",
+      "appear darker",
+      "appear the same as before",
+      "appear brighter"
+    ],
+    "options_hi":[
+      "प्रकाश में छिप जाएगा",
+      "अधिक गहरा दिखाई देगा",
+      "पहले जैसा ही दिखाई देगा",
+      "अधिक चमकीला दिखाई देगा"
+    ],
+    "correct": "appear brighter",
+    "explanation": {
+      "summary": "Correct Answer: D) appear brighter\n\nसही उत्तर: D) अधिक चमकीला दिखाई देगा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Leaves appear green because chlorophyll reflects green light and absorbs red and blue light. When illuminated purely with green light, leaves reflect nearly all of it, making the tree appear distinctly bright green.\n\n✅ **यह सही क्यों है**\n\n- पत्तियाँ हरी दिखाई देती हैं क्योंकि क्लोरोफिल हरे प्रकाश को परावर्तित करता है और लाल तथा नीले प्रकाश को अवशोषित करता है। जब केवल हरे प्रकाश से प्रकाशित किया जाता है, तो पत्तियाँ इसे लगभग पूरी तरह परावर्तित करती हैं, जिससे पेड़ अधिक चमकीला हरा दिखाई देता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The tree will not appear darker because it doesn't absorb the green light. It will not look the same as before because white light contains other colors that the tree usually absorbs.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पेड़ अधिक गहरा नहीं दिखेगा क्योंकि यह हरे प्रकाश को अवशोषित नहीं करता है। यह पहले जैसा भी नहीं दिखेगा क्योंकि सफेद प्रकाश में अन्य रंग होते हैं जिन्हें पेड़ सामान्यतः अवशोषित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The color of an object is determined by the wavelengths of light it reflects back to the human eye.\n\n📝 **निष्कर्ष**\n\n- किसी वस्तु का रंग प्रकाश की उन तरंग दैर्ध्य द्वारा निर्धारित होता है जिन्हें वह मानव नेत्र की ओर वापस परावर्तित करती है।",
+      "fact": "💡 **Interesting Fact**\n\n- If you shine pure red light on a healthy green plant, the leaves will appear black, because chlorophyll absorbs almost all the red light and reflects nothing.\n\n💡 **रोचक तथ्य**\n\n- यदि आप एक स्वस्थ हरे पौधे पर शुद्ध लाल प्रकाश डालते हैं, तो पत्तियाँ काली दिखाई देंगी, क्योंकि क्लोरोफिल लगभग सभी लाल प्रकाश को अवशोषित कर लेता है और कुछ भी परावर्तित नहीं करता है।"
+    }
+  },
+  {
+    "id": "BIO400",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Photosynthesis"
+    },
+    "tags":[
+      "Photosynthesis",
+      "Z Scheme",
+      "Electron Transport"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "In the Z-scheme of photosynthesis, which of the following electron flow combinations are NOT correct?\n(i) P680 -> PQA -> PQB -> Cytb6f -> Pheo -> PC -> P700\n(ii) P700 -> A0 -> A1 -> FeSx -> FeSA -> FeSB -> Fd\n(iii) P680 -> Pheo -> PQA -> PQB -> Cytb6f -> PC -> P700\n(iv) P700 -> A1 -> A0 -> FeSA -> FeSB -> FeSx -> Fd",
+    "question_hi": "प्रकाश संश्लेषण की Z-योजना में, निम्नलिखित में से कौन से इलेक्ट्रॉन प्रवाह संयोजन सही नहीं हैं?\n(i) P680 -> PQA -> PQB -> Cytb6f -> Pheo -> PC -> P700\n(ii) P700 -> A0 -> A1 -> FeSx -> FeSA -> FeSB -> Fd\n(iii) P680 -> Pheo -> PQA -> PQB -> Cytb6f -> PC -> P700\n(iv) P700 -> A1 -> A0 -> FeSA -> FeSB -> FeSx -> Fd",
+    "options":[
+      "(iii) and (iv)",
+      "(i) and (iv)",
+      "(ii) and (iii)",
+      "(i) and (ii)"
+    ],
+    "options_hi":[
+      "(iii) और (iv)",
+      "(i) और (iv)",
+      "(ii) और (iii)",
+      "(i) और (ii)"
+    ],
+    "correct": "(i) and (iv)",
+    "explanation": {
+      "summary": "Correct Answer: B) (i) and (iv)\n\nसही उत्तर: B) (i) और (iv)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement (i) is incorrect because the electron from P680 first goes to Pheophytin (Pheo), not PQA. \n- Statement (iv) is incorrect because the electron from P700 goes to A0 first, not A1. Therefore, combinations (i) and (iv) describe incorrect pathways.\n\n✅ **यह सही क्यों है**\n\n- कथन (i) गलत है क्योंकि P680 से इलेक्ट्रॉन पहले फियोफाइटिन (Pheo) में जाता है, PQA में नहीं।\n- कथन (iv) गलत है क्योंकि P700 से इलेक्ट्रॉन पहले A0 में जाता है, A1 में नहीं। इसलिए, संयोजन (i) और (iv) गलत मार्गों का वर्णन करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statements (ii) and (iii) represent the scientifically correct sequence of the Z-Scheme light-dependent reactions. Selecting options containing them would imply they are 'incorrect', which is false.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन (ii) और (iii) प्रकाश पर निर्भर प्रतिक्रियाओं के वैज्ञानिक रूप से सही अनुक्रम को दर्शाते हैं। उन्हें शामिल करने वाले विकल्पों को चुनने का अर्थ होगा कि वे 'गलत' हैं, जो कि असत्य है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Z-Scheme represents the non-cyclic photophosphorylation where electrons travel sequentially from Photosystem II (P680) to Photosystem I (P700).\n\n📝 **निष्कर्ष**\n\n- Z-योजना गैर-चक्रीय फोटोफॉस्फोराइलेशन का प्रतिनिधित्व करती है जहाँ इलेक्ट्रॉन अनुक्रमिक रूप से फोटोसिस्टम II (P680) से फोटोसिस्टम I (P700) तक यात्रा करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Pheophytin is functionally identical to chlorophyll a, except it lacks the central magnesium ion, acting as the primary electron acceptor in Photosystem II.\n\n💡 **रोचक तथ्य**\n\n- फियोफाइटिन कार्यात्मक रूप से क्लोरोफिल ए के समान है, सिवाय इसके कि इसमें केंद्रीय मैग्नीशियम आयन का अभाव है, और यह फोटोसिस्टम II में प्राथमिक इलेक्ट्रॉन स्वीकर्ता के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "id": "BIO401",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Morphology"
+    },
+    "tags":[
+      "Plant Tissue",
+      "Phloem",
+      "Botany"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R):\nAssertion (A): Sieve tube elements in phloem are living cells but lack nuclei at maturity.\nReason (R): Companion cells control the metabolic activities of sieve tube elements through occluding junctions, ensuring the continuous pressure gradient necessary for phloem loading and unloading of sugars.",
+    "question_hi": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया हैः\nअभिकथन (A): फ्लोएम में चालनी नलिका तत्व जीवित कोशिकाएँ होती हैं, लेकिन परिपक्व होने पर इनमें केन्द्रक नहीं होते।\nकारण (R): सहचर कोशिकाएँ, अवरोधी संधियों के माध्यम से चालनी नलिका तत्वों की उपापचयी गतिविधियों को नियंत्रित करती हैं, जिससे फ्लोएम में शर्करा के लदान और उतराई के लिए आवश्यक निरंतर दाब प्रवणता सुनिश्चित होती है।",
+    "options":[
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "Both (A) and (R) are not correct",
+      "None of the above"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।",
+      "(A) सही हैं लेकीन (R) सही नहीं है।",
+      "(A) और (R) दोनों सही नहीं है।",
+      "उपरोक्त में से कोई नहीं"
+    ],
+    "correct": "(A) is correct but (R) is not correct",
+    "explanation": {
+      "summary": "Correct Answer: B) (A) is correct but (R) is not correct\n\nसही उत्तर: B) (A) सही हैं लेकीन (R) सही नहीं है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Assertion is correct: mature sieve tube elements lack a nucleus, ribosomes, and vacuoles to facilitate sugar transport, yet they remain alive.\n- The Reason is factually incorrect because companion cells connect to sieve tube elements via 'plasmodesmata', not 'occluding junctions'. Occluding (tight) junctions are found exclusively in animal epithelial cells.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन सही है: परिपक्व चालनी नलिका तत्वों में शर्करा परिवहन की सुविधा के लिए केन्द्रक, राइबोसोम और रिक्तिकाओं का अभाव होता है, फिर भी वे जीवित रहते हैं।\n- कारण तथ्यात्मक रूप से गलत है क्योंकि सहचर कोशिकाएँ 'प्लाज्मोडेस्माटा' के माध्यम से जुड़ती हैं, न कि 'अवरोधी संधियों' के माध्यम से। अवरोधी संधियाँ केवल जानवरों की उपकला कोशिकाओं में पाई जाती हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options validating Reason (R) are anatomically wrong because plant cells do not possess occluding junctions.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कारण (R) को मान्य करने वाले विकल्प संरचनात्मक रूप से गलत हैं क्योंकि पादप कोशिकाओं में अवरोधी संधियाँ नहीं होती हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The physiological connection between companion cells and sieve elements relies entirely on plasmodesmata for the movement of proteins and metabolites.\n\n📝 **निष्कर्ष**\n\n- सहचर कोशिकाओं और चालनी तत्वों के बीच शारीरिक संबंध प्रोटीन और मेटाबोलाइट्स की गति के लिए पूरी तरह से प्लाज्मोडेस्माटा पर निर्भर करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Despite lacking a nucleus, a sieve tube cell can live for the entire lifespan of a tree (which could be hundreds of years), maintained entirely by its sister companion cell.\n\n💡 **रोचक तथ्य**\n\n- केन्द्रक के अभाव के बावजूद, एक चालनी नलिका कोशिका पेड़ के पूरे जीवनकाल (जो सैकड़ों वर्ष हो सकता है) तक जीवित रह सकती है, जिसका रखरखाव पूरी तरह से इसकी सहचर कोशिका द्वारा किया जाता है।"
+    }
+  },
+  {
+    "id": "BIO402",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "Genetics",
+      "Evolution",
+      "Andamanese"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Read the following Assertion (A) and Reason (R) carefully and choose the correct option:\nAssertion (A): The mtDNA haplogroups M31 and M32 observed in the Onge and Great Andamanese populations represent ancient maternal lineages that have undergone in situ evolution on the Andaman Islands...\nReason (R): Complete mtDNA sequencing revealed that the coding region mutations defining M31 and M32 do not overlap with those of known Indian, East Asian, or Oceanian haplogroups... indicating phylogenetic independence...",
+    "question_hi": "निम्नलिखित कथन (A) और कारण (R) को ध्यान से पढ़ें और सही विकल्प चुनेंः\nकथन (A): ओंगे और ग्रेट अंडमानी आबादी में देखे गए मिटोकोन्ड्रियल DNA हैपलोग्रुप M31 और M32 अंडमान द्वीपों पर आंतरिक विकास के अधीन प्राचीन मातृ वंशावलियाँ दर्शाते हैं...\nकारण (R): पूर्ण मिटोकोन्ड्रियल DNA सीक्वेंसिंग से पता चला कि M31 और M32 को परिभाषित करने वाले उत्परिवर्तन ज्ञात भारतीय या एशियाई हैपलोग्रुप से ओवरलैप नहीं करते... जो स्वतंत्रता को दर्शाता है।",
+    "options":[
+      "(A) is false, but (R) is true",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+      "(A) is true, but (R) is false"
+    ],
+    "options_hi":[
+      "(A) असत्य है, लेकिन (R) सत्य है।",
+      "(A) और (R) दोनों सत्य है, लेकिन (R), (A) का सही स्पष्टीकरण नहीं है।",
+      "(A) और (R) दोनों सत्य है, और (R), (A) का सही स्पष्टीकरण है।",
+      "(A) सत्य है, लेकिन (R) असत्य है।"
+    ],
+    "correct": "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: C) Both (A) and (R) are true, and (R) is the correct explanation of (A)\n\nसही उत्तर: C) (A) और (R) दोनों सत्य है, और (R), (A) का सही स्पष्टीकरण है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Both statements are biologically true. The fact that the defining mutations of M31 and M32 do not overlap with mainland populations is the direct genetic evidence (Reason) that confirms these tribes evolved in isolation on the islands (Assertion).\n\n✅ **यह सही क्यों है**\n\n- दोनों कथन जैविक रूप से सत्य हैं। यह तथ्य कि M31 और M32 के उत्परिवर्तन मुख्य भूमि की आबादी के साथ ओवरलैप नहीं करते हैं, प्रत्यक्ष आनुवंशिक प्रमाण (कारण) है जो पुष्टि करता है कि ये जनजातियाँ द्वीपों पर अलगाव में विकसित हुईं (अभिकथन)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options invalidating either statement or their explanatory relationship ignore the direct link between unique DNA mutations and geographical isolation leading to in situ evolution.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- किसी भी कथन या उनके व्याख्यात्मक संबंध को अमान्य करने वाले विकल्प अद्वितीय डीएनए उत्परिवर्तन और भौगोलिक अलगाव के बीच सीधे लिंक को अनदेखा करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Andaman tribes represent one of the most ancient and isolated human lineages outside of Africa, providing unique insights into early human migration patterns via the coastal route.\n\n📝 **निष्कर्ष**\n\n- अंडमान जनजातियाँ अफ्रीका के बाहर सबसे प्राचीन और अलग-थलग मानव वंशावली में से एक का प्रतिनिधित्व करती हैं, जो तटीय मार्ग के माध्यम से प्रारंभिक मानव प्रवासन पैटर्न में अद्वितीय अंतर्दृष्टि प्रदान करती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Sentinelese, another Andamanese tribe, are so isolated that their genetics remain completely unstudied, as they violently reject all contact with the outside world.\n\n💡 **रोचक तथ्य**\n\n- सेंटिनलीज, एक अन्य अंडमानी जनजाति, इतनी अलग-थलग है कि उनके आनुवंशिकी का पूरी तरह से अध्ययन नहीं किया गया है, क्योंकि वे बाहरी दुनिया के साथ सभी संपर्कों को हिंसक रूप से अस्वीकार करते हैं।"
+    }
+  },
+  {
+    "id": "BIO403",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Biotechnology & Applications",
+      "subTopic": "Biotechnology & Applications"
+    },
+    "tags":[
+      "DNA Fingerprinting",
+      "Biotechnology",
+      "Indian Scientists"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements about Dr. Lalji Singh and his research:\n1) Dr. Lalji Singh is widely regarded as the 'Father of DNA Fingerprinting in India'.\n2) He independently invented the DNA fingerprinting technique in 1984, ahead of global developments.\n3) His research extensively applied DNA fingerprinting to wildlife conservation, including ancestry studies on tiger, peacock and elephant populations in India.",
+    "question_hi": "डॉ. लालजी सिंह और उनके शोध के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1) डॉ. लालजी सिंह को भारत में 'DNA फिंगरप्रिंटिंग का पिता' माना जाता है।\n2) उन्होंने 1984 में DNA फिंगरप्रिंटिंग तकनीक को स्वतंत्र रूप से आविष्कार किया, जो वैश्विक विकास से पहले था।\n3) उनके शोध ने DNA फिंगरप्रिंटिंग को वन्यजीव संरक्षण में व्यापक रूप से लागू किया।",
+    "options":[
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "options_hi":[
+      "केवल एक",
+      "केवल दो",
+      "तीनों",
+      "कोई नहीं"
+    ],
+    "correct": "Only two",
+    "explanation": {
+      "summary": "Correct Answer: B) Only two\n\nसही उत्तर: B) केवल दो",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statements 1 and 3 are correct. Dr. Lalji Singh is the Father of DNA Fingerprinting in India, and he heavily utilized this for Indian wildlife conservation (e.g., establishing the Laboratory for the Conservation of Endangered Species - LaCONES). Therefore, 'Only two' statements are correct.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 और 3 सही हैं। डॉ. लालजी सिंह भारत में डीएनए फिंगरप्रिंटिंग के जनक हैं, और उन्होंने भारतीय वन्यजीव संरक्षण के लिए इसका भारी उपयोग किया। इसलिए, 'केवल दो' कथन सही हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect. DNA fingerprinting was invented globally by British geneticist Sir Alec Jeffreys in 1984. Dr. Lalji Singh developed an indigenous DNA probe specifically for India a few years later.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है। डीएनए फिंगरप्रिंटिंग का वैश्विक आविष्कार 1984 में ब्रिटिश आनुवंशिकीविद् सर एलेक जेफ्रीज़ ने किया था। डॉ. लालजी सिंह ने कुछ साल बाद भारत के लिए एक स्वदेशी डीएनए जांच विकसित की।",
+      "conclusion": "📝 **Concluding Note**\n\n- Dr. Lalji Singh's development of the Bkm-derived probe made India the third country in the world to develop its own indigenous DNA fingerprinting probe.\n\n📝 **निष्कर्ष**\n\n- डॉ. लालजी सिंह द्वारा Bkm-व्युत्पन्न जांच के विकास ने भारत को अपनी स्वदेशी डीएनए फिंगरप्रिंटिंग जांच विकसित करने वाला दुनिया का तीसरा देश बना दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- The first time DNA fingerprinting was used as legal evidence in an Indian court was during a paternity dispute in Kerala in 1989, thanks to Dr. Lalji Singh's work.\n\n💡 **रोचक तथ्य**\n\n- पहली बार डीएनए फिंगरप्रिंटिंग का उपयोग भारतीय अदालत में कानूनी साक्ष्य के रूप में 1989 में केरल में पितृत्व विवाद के दौरान किया गया था, जिसका श्रेय डॉ. लालजी सिंह के काम को जाता है।"
+    }
+  },
+  {
+    "id": "CUR584",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Awards & Honours",
+      "subTopic": "International Awards (Nobel, Booker etc.)"
+    },
+    "tags":[
+      "Nobel Prize",
+      "Svante Pääbo",
+      "Genetics"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In 2022, Svante Pääbo was awarded the Nobel Prize in Physiology or Medicine for his groundbreaking work in which area?",
+    "question_hi": "2022 में, स्वैंटे पाबो को फिजियोलॉजी या मेडिसिन में नोबेल पुरस्कार से सम्मानित किया गया, जो उनके असाधारण वैज्ञानिक कार्य के लिए किस क्षेत्र में था?",
+    "options":[
+      "Discoveries concerning the genomes of extinct hominins and human evolution",
+      "Mapping the human proteome",
+      "Pioneering stem cell research",
+      "Developing the first synthetic genome"
+    ],
+    "options_hi":[
+      "विलुप्त होमिनिन्स के जीनोम और मानव विकास से संबंधित खोजें",
+      "मानव प्रोटिओम का मैपिंग",
+      "स्टेम सेल रिसर्च का अग्रणी कार्य",
+      "पहला सिंथेटिक जीनोम विकसित करना"
+    ],
+    "correct": "Discoveries concerning the genomes of extinct hominins and human evolution",
+    "explanation": {
+      "summary": "Correct Answer: A) Discoveries concerning the genomes of extinct hominins and human evolution\n\nसही उत्तर: A) विलुप्त होमिनिन्स के जीनोम और मानव विकास से संबंधित खोजें",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Svante Pääbo is a Swedish geneticist who won the 2022 Nobel Prize for founding the field of paleogenomics. He successfully sequenced the Neanderthal genome and discovered a previously unknown hominin, Denisova.\n\n✅ **यह सही क्यों है**\n\n- स्वैंटे पाबो एक स्वीडिश आनुवंशिकीविद् हैं, जिन्होंने पेलियोजीनोमिक्स के क्षेत्र की स्थापना के लिए 2022 का नोबेल पुरस्कार जीता। उन्होंने निएंडरथल जीनोम को सफलतापूर्वक अनुक्रमित किया और पहले से अज्ञात होमिनिन, डेनिसोवा की खोज की।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Stem cell research (e.g., Shinya Yamanaka), synthetic genomes (e.g., Craig Venter), and proteome mapping are distinct biological achievements led by other scientists.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- स्टेम सेल अनुसंधान, सिंथेटिक जीनोम और प्रोटिओम मैपिंग अन्य वैज्ञानिकों के नेतृत्व में विशिष्ट जैविक उपलब्धियां हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Pääbo's discoveries provided critical evidence that gene transfer occurred from these now-extinct hominins to Homo sapiens following their migration out of Africa.\n\n📝 **निष्कर्ष**\n\n- पाबो की खोजों ने महत्वपूर्ण प्रमाण प्रदान किया कि अफ्रीका से प्रवास के बाद इन विलुप्त हो चुके होमिनिन्स से होमो सेपियन्स में जीन स्थानांतरण हुआ था।",
+      "fact": "💡 **Interesting Fact**\n\n- Because of gene flow, 1-2% of the genome of present-day humans of European or Asian descent originates from Neanderthals.\n\n💡 **रोचक तथ्य**\n\n- जीन प्रवाह के कारण, यूरोपीय या एशियाई मूल के आधुनिक मनुष्यों के जीनोम का 1-2% निएंडरथल से उत्पन्न होता है।"
+    }
+  },
+  {
+    "id": "BIO404",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "The Cell and its Organelles"
+    },
+    "tags":[
+      "Cellular Respiration",
+      "Mitochondria",
+      "ATP"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Read the following Assertion (A) and Reason (R) carefully and choose the correct option:\nAssertion (A): In eukaryotic cells, the majority of ATP produced during aerobic respiration is generated through oxidative phosphorylation in the mitochondria.\nReason (R): Oxidative phosphorylation relies on a proton gradient across the inner mitochondrial membrane, established by the electron transport chain, which drives ATP synthesis via chemiosmosis.",
+    "question_hi": "निम्नलिखित कथन (A) और कारण (R) को ध्यान से पढ़ें और सही विकल्प चुनेंः\nकथन (A): यूकैरियोटिक कोशिकाओं में, एरोबिक श्वसन के दौरान उत्पादित अधिकांश ATP माइटोकॉन्ड्रिया में ऑक्सीडेटिव फॉस्फोराइलेशन के माध्यम से उत्पन्न होता है।\nकारण (R): ऑक्सीडेटिव फॉस्फोराइलेशन आंतरिक माइटोकॉन्ड्रियल झिल्ली के पार प्रोटॉन ग्रेडिएंट पर निर्भर करता है, जो इलेक्ट्रॉन ट्रांसपोर्ट चेन द्वारा स्थापित किया जाता है, जो केमियोस्मोसिस के माध्यम से ATP संश्लेषण को चलाता है।",
+    "options":[
+      "(A) is false, but (R) is true",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+      "(A) is true, but (R) is false",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(A) असत्य है, लेकिन (R) सत्य है।",
+      "(A) और (R) दोनों सत्य है, लेकिन (R), (A) का सही स्पष्टीकरण नहीं है।",
+      "(A) सत्य है, लेकिन (R) असत्य है।",
+      "(A) और (R) दोनों सत्य है, और (R), (A) का सही स्पष्टीकरण है।"
+    ],
+    "correct": "Both (A) and (R) are true, and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: D) Both (A) and (R) are true, and (R) is the correct explanation of (A)\n\nसही उत्तर: D) (A) और (R) दोनों सत्य है, और (R), (A) का सही स्पष्टीकरण है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Assertion is true as oxidative phosphorylation produces around 28-34 ATP per glucose molecule, dwarfing glycolysis and the Krebs cycle. The Reason accurately details the underlying biochemical mechanism (chemiosmosis via a proton gradient) that explains HOW oxidative phosphorylation achieves this high ATP yield.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन सत्य है क्योंकि ऑक्सीडेटिव फॉस्फोराइलेशन प्रति ग्लूकोज अणु में लगभग 28-34 एटीपी पैदा करता है। कारण अंतर्निहित जैव रासायनिक तंत्र (प्रोटॉन ग्रेडिएंट के माध्यम से केमियोस्मोसिस) का सटीक विवरण देता है जो बताता है कि ऑक्सीडेटिव फॉस्फोराइलेशन इस उच्च एटीपी उपज को कैसे प्राप्त करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Invalidating either the fact that mitochondria produce the most ATP or the chemiosmotic theory contradicts standard biochemical models established by Peter Mitchell.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इस तथ्य को अमान्य करना कि माइटोकॉन्ड्रिया सबसे अधिक एटीपी का उत्पादन करते हैं या केमियोस्मोटिक सिद्धांत पीटर मिशेल द्वारा स्थापित मानक जैव रासायनिक मॉडल का खंडन करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The electron transport chain pumps protons out of the matrix to create potential energy; ATP synthase then uses this proton motive force to synthesize ATP.\n\n📝 **निष्कर्ष**\n\n- इलेक्ट्रॉन परिवहन श्रृंखला संभावित ऊर्जा बनाने के लिए मैट्रिक्स से प्रोटॉन को पंप करती है; एटीपी सिंथेस फिर इस प्रोटॉन प्रेरक बल का उपयोग एटीपी को संश्लेषित करने के लिए करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The concept of chemiosmosis was proposed by Peter Mitchell in 1961, for which he was awarded the Nobel Prize in Chemistry in 1978.\n\n💡 **रोचक तथ्य**\n\n- केमियोस्मोसिस की अवधारणा 1961 में पीटर मिशेल द्वारा प्रस्तावित की गई थी, जिसके लिए उन्हें 1978 में रसायन विज्ञान में नोबेल पुरस्कार से सम्मानित किया गया था।"
+    }
+  },
+  {
+    "id": "HIS1798",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Indus Valley Civilization"
+    },
+    "tags":[
+      "Rakhigarhi",
+      "DNA Study",
+      "Indus Valley Civilization"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match the items of List-I (Key Aspects of the 2019 Rakhigarhi DNA Study) with List-II (Descriptions):\nList-I:\na) Source of the ancient DNA sample\nb) Primary ancestry components identified\nc) Notably absent ancestry in the IVC individual\nd) Broader genetic implications for modern Indians\nList-II:\n1) A mixture of ancient Iranian-related farmers/herders and AASI\n2) Steppe pastoralists\n3) Skeletal remains of a woman from ~2500 BCE at Rakhigarhi\n4) IVC populations as direct genetic ancestors without external Steppe input",
+    "question_hi": "सूची-I (2019 राखीगढ़ी डीएनए अध्ययन के प्रमुख पहलू) के आइटमों को सूची-II (विवरण) से मिलान करें:\nसूची-I:\na) प्राचीन डीएनए नमूने का स्रोत\nb) पहचानी गई प्राथमिक वंशावली घटक\nc) सिंधु घाटी सभ्यता व्यक्ति में उल्लेखनीय रूप से अनुपस्थित वंशावली\nd) आधुनिक भारतीयों के लिए व्यापक आनुवंशिक निहितार्थ\nसूची-II:\n1) प्राचीन ईरानी-संबंधित किसानों / चरवाहों और प्राचीन पूर्वज दक्षिण भारतीयों (AASI) का मिश्रण\n2) स्टेप घुमंतू चरवाहे\n3) राखीगढ़ी में ~2500 ईसा पूर्व की एक महिला के कंकाली अवशेष\n4) बाहरी स्टेप इनपुट के बिना सिंधु घाटी सभ्यता आबादियों को सीधे आनुवंशिक पूर्वज के रूप में",
+    "options":[
+      "a-4, b-2, c-3, d-1",
+      "a-1, b-3, c-4, d-2",
+      "a-1, b-4, c-2, d-3",
+      "a-3, b-1, c-2, d-4"
+    ],
+    "options_hi":[
+      "a-4, b-2, c-3, d-1",
+      "a-1, b-3, c-4, d-2",
+      "a-1, b-4, c-2, d-3",
+      "a-3, b-1, c-2, d-4"
+    ],
+    "correct": "a-3, b-1, c-2, d-4",
+    "explanation": {
+      "summary": "Correct Answer: D) a-3, b-1, c-2, d-4\n\nसही उत्तर: D) a-3, b-1, c-2, d-4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- a-3: The DNA was extracted from the skeletal remains of a woman excavated in Rakhigarhi.\n- b-1: Her DNA showed a mix of Iranian-related agriculturalists and Ancient Ancestral South Indians (AASI).\n- c-2: Steppe pastoralist DNA, associated with Indo-Aryan migrations, was completely absent.\n- d-4: The study proved that IVC populations are the primary ancestral source for most modern South Asians.\n\n✅ **यह सही क्यों है**\n\n- a-3: डीएनए राखीगढ़ी में खुदाई की गई एक महिला के कंकाल के अवशेषों से निकाला गया था।\n- b-1: उसके डीएनए में ईरानी किसानों और प्राचीन पैतृक दक्षिण भारतीयों (AASI) का मिश्रण था।\n- c-2: भारत-आर्य प्रवासन से जुड़ा स्टेप चरवाहा डीएनए पूरी तरह से अनुपस्थित था।\n- d-4: अध्ययन ने साबित कर दिया कि अधिकांश आधुनिक दक्षिण एशियाई लोगों के लिए IVC आबादी प्राथमिक पैतृक स्रोत है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Failing to pair 'absent ancestry' with the Steppe pastoralists misrepresents the core scientific breakthrough of the highly publicized 2019 Shinde/Reich paper.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 'स्टेप चरवाहों' के साथ 'अनुपस्थित वंशावली' को नहीं जोड़ने से 2019 के शिंदे/रीच पेपर के मुख्य वैज्ञानिक निष्कर्ष गलत हो जाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Rakhigarhi DNA study resolved major historical debates by showing farming in India arose indigenously (without mass migration from the Fertile Crescent) and that Steppe DNA arrived only after the decline of the IVC.\n\n📝 **निष्कर्ष**\n\n- राखीगढ़ी डीएनए अध्ययन ने यह दिखाकर प्रमुख ऐतिहासिक बहसों को हल कर दिया कि भारत में खेती स्वदेशी रूप से पैदा हुई और स्टेप डीएनए IVC के पतन के बाद ही आया।",
+      "fact": "💡 **Interesting Fact**\n\n- Extracting ancient DNA in South Asia is notoriously difficult because hot and humid monsoon climates rapidly degrade genetic material over thousands of years.\n\n💡 **रोचक तथ्य**\n\n- दक्षिण एशिया में प्राचीन डीएनए निकालना बेहद मुश्किल है क्योंकि गर्म और आर्द्र मानसूनी जलवायु हजारों वर्षों में आनुवंशिक सामग्री को तेजी से नष्ट कर देती है।"
+    }
+  },
+  {
+    "id": "HIS1799",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "The Revolt of 1857"
+    },
+    "tags":[
+      "1857 Revolt",
+      "Archaeology",
+      "Ajnala"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "The forensic analysis of the 282 skeletons unearthed from an abandoned well in Ajnala, Punjab, in 2014, primarily confirmed their identity as Indian soldiers from the 1857 Sepoy Mutiny through which key combined evidence?",
+    "question_hi": "2014 में पंजाब के अजनाला में एक परित्यक्त कुएं से खुदाई में प्राप्त 282 कंकालों के फॉरेंसिक विश्लेषण ने मुख्य रूप से उनके 1857 सिपाही विद्रोह के भारतीय सैनिकों के रूप में पहचान की पुष्टि किस प्रमुख संयुक्त साक्ष्य के माध्यम से की?",
+    "options":[
+      "Cranial measurements and carbon isotope values suggesting local Punjabi ancestry",
+      "Mitochondrial DNA haplogroups and strontium isotope ratios indicating Gangetic plain origins",
+      "Dental caries patterns and skeletal trauma from Partition-era violence",
+      "Radiocarbon dating and the presence of European-style weapons"
+    ],
+    "options_hi":[
+      "खोपड़ी मापन और कार्बन आइसोटोप मूल्य जो स्थानीय पंजाबी वंशावली का सुझाव देते हैं",
+      "माइटोकॉन्ड्रियल डीएनए हैपलोग्रुप और स्ट्रॉन्शियम आइसोटोप अनुपात जो गंगा मैदान मूल को दर्शाते हैं",
+      "दंत क्षय पैटर्न और विभाजन-युग हिंसा से कंकाली आघात",
+      "रेडियोकार्बन डेटिंग और यूरोपीय शैली के हथियारों की उपस्थिति"
+    ],
+    "correct": "Mitochondrial DNA haplogroups and strontium isotope ratios indicating Gangetic plain origins",
+    "explanation": {
+      "summary": "Correct Answer: B) Mitochondrial DNA haplogroups and strontium isotope ratios indicating Gangetic plain origins\n\nसही उत्तर: B) माइटोकॉन्ड्रियल डीएनए हैपलोग्रुप और स्ट्रॉन्शियम आइसोटोप अनुपात जो गंगा मैदान मूल को दर्शाते हैं",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Research published around 2022 systematically analyzed the DNA and stable isotopes (especially Strontium) of teeth from the skeletons. The data proved the soldiers were not local Punjabis but originated from the Gangetic plains (UP/Bihar), matching the historical records of the 26th Native Infantry stationed in Mian Mir during the 1857 revolt.\n\n✅ **यह सही क्यों है**\n\n- 2022 के शोध में कंकालों के दांतों के डीएनए और स्थिर आइसोटोप (स्ट्रॉन्शियम) का विश्लेषण किया गया। डेटा ने साबित कर दिया कि सैनिक स्थानीय पंजाबी नहीं थे बल्कि गंगा के मैदानों (यूपी/बिहार) से उत्पन्न हुए थे, जो 1857 के विद्रोह के दौरान मियाँ मीर में तैनात 26वीं नेटिव इन्फैंट्री के ऐतिहासिक रिकॉर्ड से मेल खाते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options suggesting they were locals (A) or victims of the 1947 partition (C) were the initial local rumors that the scientific analysis explicitly debunked. \n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- ऐसे विकल्प जो यह सुझाव देते हैं कि वे स्थानीय थे (A) या 1947 के विभाजन के शिकार थे (C), ये शुरुआती स्थानीय अफवाहें थीं जिन्हें वैज्ञानिक विश्लेषण ने स्पष्ट रूप से खारिज कर दिया।",
+      "conclusion": "📝 **Concluding Note**\n\n- The integration of modern genetic science with archaeology can successfully solve centuries-old historical mysteries and corroborate colonial-era textual records.\n\n📝 **निष्कर्ष**\n\n- पुरातत्व के साथ आधुनिक आनुवंशिक विज्ञान का एकीकरण सदियों पुराने ऐतिहासिक रहस्यों को सफलतापूर्वक सुलझा सकता है और औपनिवेशिक युग के पाठ्य रिकॉर्ड की पुष्टि कर सकता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Strontium isotopes in human teeth are fixed during childhood based on the local water and food consumed, acting as a permanent geographical fingerprint of where a person grew up.\n\n💡 **रोचक तथ्य**\n\n- मानव दांतों में स्ट्रॉन्शियम आइसोटोप बचपन के दौरान ग्रहण किए गए स्थानीय पानी और भोजन के आधार पर तय होते हैं, जो एक व्यक्ति के बड़े होने की जगह के स्थायी भौगोलिक फिंगरप्रिंट के रूप में कार्य करते हैं।"
+    }
+  },
+  {
+    "id": "GEO1213",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "World Geography",
+      "subTopic": "Major Rivers & Lakes"
+    },
+    "tags": [
+      "Great Lakes",
+      "North America",
+      "Geography"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The correct order of location of Great Lakes of America from the coast to the interior is:",
+    "question_hi": "समुद्र तट से अंदर की ओर अमेरिका की महासरोवरों का उचित स्थान क्रम ऐसा है -",
+    "options":[
+      "Michigan, Ontario, Erie, Huron",
+      "Ontario, Huron, Erie, Michigan",
+      "Ontario, Erie, Huron, Michigan",
+      "Erie, Ontario, Huron, Michigan"
+    ],
+    "options_hi":[
+      "मिशिगन, ओंटारियो, एरी, हूरोन",
+      "ओंटारियो, हूरोन, एरी, मिशिगन",
+      "ओंटारियो, एरी, हूरोन, मिशिगन",
+      "एरी, ओंटारियो, हूरोन, मिशिगन"
+    ],
+    "correct": "Ontario, Erie, Huron, Michigan",
+    "explanation": {
+      "summary": "Correct Answer: C) Ontario, Erie, Huron, Michigan\n\nसही उत्तर: C) ओंटारियो, एरी, हूरोन, मिशिगन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Moving from the Atlantic Coast inland (from east to west) via the St. Lawrence River, the lakes appear in this sequence: Lake Ontario (closest to the coast), then Lake Erie, Lake Huron, Lake Michigan, and finally Lake Superior deep in the interior.\n\n✅ **यह सही क्यों है**\n\n- अटलांटिक तट से अंदर की ओर (पूर्व से पश्चिम की ओर) सेंट लॉरेंस नदी के माध्यम से जाने पर, झीलें इस क्रम में आती हैं: लेक ओंटारियो (तट के सबसे करीब), फिर लेक एरी, लेक हूरोन, लेक मिशिगन और अंत में अंदरूनी हिस्से में लेक सुपीरियर।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Lake Michigan is the furthest inland among the options listed, so placing it first or second is geographically inaccurate. Erie comes immediately after Ontario.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- सूचीबद्ध विकल्पों में मिशिगन झील सबसे अंदरूनी हिस्से में है, इसलिए इसे पहले या दूसरे स्थान पर रखना भौगोलिक दृष्टि से गलत है। एरी, ओंटारियो के तुरंत बाद आती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Great Lakes contain roughly 21% of the world's surface fresh water by volume, forming a critical economic and geographical feature of North America.\n\n📝 **निष्कर्ष**\n\n- ग्रेट लेक्स (महासरोवरों) में दुनिया के ताजे पानी का लगभग 21% हिस्सा है, जो उत्तरी अमेरिका की एक महत्वपूर्ण आर्थिक और भौगोलिक विशेषता बनाते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Lake Michigan is the only one of the Great Lakes that is located entirely within the United States; the other four form a water border between the US and Canada.\n\n💡 **रोचक तथ्य**\n\n- मिशिगन झील ग्रेट लेक्स में से एकमात्र ऐसी झील है जो पूरी तरह से संयुक्त राज्य अमेरिका के भीतर स्थित है; अन्य चार अमेरिका और कनाडा के बीच जलीय सीमा बनाते हैं।"
+    }
+  },
+  {
+    "id": "SGK648",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "World at a Glance",
+      "subTopic": "Countries (Capitals, Currencies, Parliaments)"
+    },
+    "tags":[
+      "Capitals",
+      "World Geography",
+      "Countries"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which among the following pair/s is/are NOT correctly matched?\n1) Norway - Oslo\n2) Canada - Montreal\n3) Australia - Canberra\n4) South Africa - Cape Town",
+    "question_hi": "निम्नलिखित में से कौनसा/से युग्म सुमेलित नहीं है?\n1) नॉर्वे - ओस्लो\n2) कनाडा - मॉन्ट्रियल\n3) ऑस्ट्रेलिया - कैनबरा\n4) दक्षिण अफ्रीका - केप टाउन",
+    "options":[
+      "2, 3 and 4",
+      "2 and 4",
+      "1, 2 and 4",
+      "Only 2"
+    ],
+    "options_hi":[
+      "2, 3 और 4",
+      "2 और 4",
+      "1, 2 और 4",
+      "केवल 2"
+    ],
+    "correct": "Only 2",
+    "explanation": {
+      "summary": "Correct Answer: D) Only 2\n\nसही उत्तर: D) केवल 2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Canada's capital is Ottawa, not Montreal. The other pairs are correctly matched. Therefore, Only pair 2 is incorrect.\n\n✅ **यह सही क्यों है**\n\n- कनाडा की राजधानी ओटावा है, मॉन्ट्रियल नहीं। अन्य युग्म सही ढंग से सुमेलित हैं। इस प्रकार, केवल 2 गलत है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Norway's capital is Oslo. Australia's capital is Canberra (not Sydney). South Africa has three capitals: Pretoria (executive), Bloemfontein (judicial), and Cape Town (legislative). Thus, matching South Africa with Cape Town is factually acceptable.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- नॉर्वे की राजधानी ओस्लो है। ऑस्ट्रेलिया की कैनबरा है। दक्षिण अफ्रीका की तीन राजधानियाँ हैं, जिनमें केप टाउन (विधायी) शामिल है। इसलिए, दक्षिण अफ्रीका को केप टाउन से मिलाना स्वीकार्य है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Major commercial cities (like Montreal, Sydney, or Johannesburg) are frequently confused with official political capitals (Ottawa, Canberra, Pretoria).\n\n📝 **निष्कर्ष**\n\n- प्रमुख वाणिज्यिक शहरों (जैसे मॉन्ट्रियल, सिडनी या जोहान्सबर्ग) को अक्सर आधिकारिक राजनीतिक राजधानियों (ओटावा, कैनबरा, प्रिटोरिया) के साथ भ्रमित किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Queen Victoria was the one who officially chose Ottawa to be the capital of Canada in 1857 because it was safely isolated from the American border and located between French and English-speaking regions.\n\n💡 **रोचक तथ्य**\n\n- 1857 में महारानी विक्टोरिया ने ही आधिकारिक तौर पर ओटावा को कनाडा की राजधानी चुना था क्योंकि यह अमेरिकी सीमा से सुरक्षित रूप से अलग था और फ्रांसीसी और अंग्रेजी भाषी क्षेत्रों के बीच स्थित था।"
+    }
+  },
+  {
+    "id": "SGK649",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "National & International Insignia",
+      "subTopic": "National Symbols of India"
+    },
+    "tags":[
+      "State Symbols",
+      "Flowers",
+      "Indian States"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match List-I with List-II: State and State Flower\nList-I:\na) Jharkhand\nb) Karnataka\nc) Odisha\nd) Punjab\nList-II:\n1) Lotus\n2) Gladiolus\n3) Palash\n4) Ashoka",
+    "question_hi": "सूची-I को सूची-II के साथ सुमेलित कीजिए: राज्य और राज्य फूल\nसूची-I:\na) झारखंड\nb) कर्नाटक\nc) ओडिशा\nd) पंजाब\nसूची-II:\n1) कमल\n2) ग्लेडियोलस\n3) पलाश\n4) अशोक",
+    "options":[
+      "a-3, b-1, c-4, d-2",
+      "a-2, b-3, c-4, d-1",
+      "a-1, b-2, c-3, d-4",
+      "a-3, b-4, c-1, d-2"
+    ],
+    "options_hi":[
+      "a-3, b-1, c-4, d-2",
+      "a-2, b-3, c-4, d-1",
+      "a-1, b-2, c-3, d-4",
+      "a-3, b-4, c-1, d-2"
+    ],
+    "correct": "a-3, b-1, c-4, d-2",
+    "explanation": {
+      "summary": "Correct Answer: A) a-3, b-1, c-4, d-2\n\nसही उत्तर: A) a-3, b-1, c-4, d-2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Jharkhand's state flower is Palash (Butea monosperma), known as the 'Flame of the Forest'.\n- Karnataka's state flower is the Lotus.\n- Odisha's state flower is Ashoka (Saraca asoca).\n- Punjab's state flower is Gladiolus.\n\n✅ **यह सही क्यों है**\n\n- झारखंड का राज्य फूल पलाश (ब्यूटिया मोनोस्पर्मा) है, जिसे 'जंगल की ज्वाला' कहा जाता है।\n- कर्नाटक का कमल है।\n- ओडिशा का अशोक है।\n- पंजाब का ग्लेडियोलस है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any combination other than a-3, b-1, c-4, d-2 incorrectly links the official state floral emblems.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन आधिकारिक राज्य पुष्प प्रतीकों को गलत तरीके से जोड़ता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Memorizing state symbols (animal, bird, tree, flower) is a standard requirement for State PSC examinations.\n\n📝 **निष्कर्ष**\n\n- राज्य प्रतीकों (पशु, पक्षी, वृक्ष, फूल) को याद रखना राज्य लोक सेवा आयोग परीक्षाओं के लिए एक मानक आवश्यकता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Palash (Jharkhand and UP's state flower) yields a vibrant natural dye that is traditionally used to play Holi in India.\n\n💡 **रोचक तथ्य**\n\n- पलाश (झारखंड और यूपी का राज्य फूल) एक जीवंत प्राकृतिक रंग देता है जिसका उपयोग पारंपरिक रूप से भारत में होली खेलने के लिए किया जाता है।"
+    }
+  },
+  {
+    "id": "GEO1214",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Physical Features of India"
+    },
+    "tags":[
+      "Himalayas",
+      "Mountain Peaks",
+      "Geography"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which one is the highest Himalayan peak in India?",
+    "question_hi": "भारत में सबसे ऊँची हिमालयीन पर्वत चोटी कौन-सी है?",
+    "options":[
+      "Kamet",
+      "K2",
+      "Nanda Devi",
+      "Mt. Everest"
+    ],
+    "options_hi":[
+      "कामेट",
+      "के 2",
+      "नंदा देवी",
+      "माउंट एवरेस्ट"
+    ],
+    "correct": "Nanda Devi",
+    "explanation": {
+      "summary": "Correct Answer: C) Nanda Devi\n\nसही उत्तर: C) नंदा देवी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Nanda Devi (7,816 m) is the highest mountain peak situated entirely within the undisputed territorial boundaries of India in the Himalayas. \n\n✅ **यह सही क्यों है**\n\n- नंदा देवी (7,816 मीटर) हिमालय में पूरी तरह से भारत की निर्विवाद क्षेत्रीय सीमाओं के भीतर स्थित सबसे ऊँची पर्वत चोटी है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Mt. Everest is in Nepal/China. \n- K2 (Godwin-Austen) is geographically in the Karakoram range, not the Himalayas, and is located in Gilgit-Baltistan (PoK). \n- Kangchenjunga lies on the border of India (Sikkim) and Nepal. Thus, Nanda Devi is the highest peak *entirely* inside India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- माउंट एवरेस्ट नेपाल/चीन में है।\n- K2 (गॉडविन-ऑस्टेन) भौगोलिक रूप से काराकोरम पर्वतमाला में है, हिमालय में नहीं, और गिलगित-बाल्टिस्तान (पीओके) में है। कंचनजंघा भारत-नेपाल सीमा पर है।",
+      "conclusion": "📝 **Concluding Note**\n\n- When asked for the highest peak 'in India', K2 is the political answer, Kangchenjunga is the highest border peak, but Nanda Devi is the highest indisputably internal Himalayan peak.\n\n📝 **निष्कर्ष**\n\n- 'भारत में' सबसे ऊंची चोटी राजनीतिक रूप से K2 है, कंचनजंघा सबसे ऊंची सीमा चोटी है, लेकिन नंदा देवी निर्विवाद रूप से सबसे ऊंची आंतरिक हिमालयी चोटी है।",
+      "fact": "💡 **Interesting Fact**\n\n- In 1965, the CIA and the IB secretly planted a nuclear-powered surveillance device on Nanda Devi to spy on China; the device was lost in an avalanche and remains missing to this day.\n\n💡 **रोचक तथ्य**\n\n- 1965 में, सीआईए और आईबी ने चीन की जासूसी करने के लिए नंदा देवी पर परमाणु-संचालित निगरानी उपकरण गुप्त रूप से लगाया था; यह उपकरण हिमस्खलन में खो गया और आज भी लापता है।"
+    }
+  },
+  {
+    "id": "ENV221",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Biodiversity & Conservation",
+      "subTopic": "Biosphere Reserves"
+    },
+    "tags":[
+      "Biosphere Reserves",
+      "Wildlife",
+      "Geography"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which among the following pair/s is/are NOT correctly matched?\n(A) Dehang-Debang - Arunachal Pradesh\n(B) Manas - Assam\n(C) Similipal - Odisha\n(D) Seshachalam - Tamil Nadu",
+    "question_hi": "निम्नलिखित में से कौनसा / से युग्म सुमेलित नहीं है?\n(A) दिहांग-दिबांग - अरुणाचल प्रदेश\n(B) मानस - असम\n(C) सिमिलीपाल - ओडिशा\n(D) शेषचलम - तमिलनाडु",
+    "options":[
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "options_hi":[
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": "(D)",
+    "explanation": {
+      "summary": "Correct Answer: D) (D)\n\nसही उत्तर: D) (D)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Seshachalam Hills Biosphere Reserve is located in the Eastern Ghats in southern Andhra Pradesh, not Tamil Nadu. Therefore, this pair is incorrectly matched.\n\n✅ **यह सही क्यों है**\n\n- शेषचलम हिल्स बायोस्फीयर रिजर्व तमिलनाडु में नहीं, बल्कि दक्षिणी आंध्र प्रदेश में पूर्वी घाट में स्थित है। इसलिए, यह युग्म गलत सुमेलित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Dehang-Debang is correctly located in Arunachal Pradesh.\n- Manas is correctly located in Assam.\n- Similipal is correctly located in Odisha.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- दिहांग-दिबांग अरुणाचल प्रदेश में सही ढंग से स्थित है। मानस असम में है। सिमिलीपाल ओडिशा में है।",
+      "conclusion": "📝 **Concluding Note**\n\n- India has 18 designated Biosphere Reserves, 12 of which are part of the World Network of Biosphere Reserves by UNESCO.\n\n📝 **निष्कर्ष**\n\n- भारत में 18 नामित बायोस्फीयर रिजर्व हैं, जिनमें से 12 यूनेस्को द्वारा बायोस्फीयर रिजर्व के विश्व नेटवर्क का हिस्सा हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Seshachalam hills are globally famous for their endemic red sanders (Pterocarpus santalinus), a highly valued timber species.\n\n💡 **रोचक तथ्य**\n\n- शेषचलम की पहाड़ियाँ अपने स्थानिक लाल चंदन (टेरोकार्पस सैंटालिनस) के लिए विश्व स्तर पर प्रसिद्ध हैं, जो एक अत्यधिक मूल्यवान लकड़ी की प्रजाति है।"
+    }
+  },
+  {
+    "id": "ECO888",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "International Trade & Balance of Payments"
+    },
+    "tags": [
+      "Exports",
+      "Indian Trade",
+      "Economy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match List-I (Export Destination from India) with List-II (Rank by Value):\nList-I:\na) U.S.A.\nb) China\nc) Netherlands\nd) U.A.E.\nList-II:\n1) Rank 1\n2) Rank 2\n3) Rank 3\n4) Rank 4",
+    "question_hi": "सूची-I (भारत से निर्यात गंतव्य स्थान) को सूची-II (मूल्याधारित श्रेणी) के साथ सुमेलित कीजिए:\nसूची-I:\na) यू.एस.ए.\nb) चीन\nc) नीदरलैंड\nd) संयुक्त अरब अमीरात\nसूची-II:\n1) 1\n2) 2\n3) 3\n4) 4",
+    "options":[
+      "a-1, b-4, c-3, d-2",
+      "a-2, b-1, c-4, d-3",
+      "a-1, b-2, c-4, d-3",
+      "a-1, b-2, c-3, d-4"
+    ],
+    "options_hi":[
+      "a-1, b-4, c-3, d-2",
+      "a-2, b-1, c-4, d-3",
+      "a-1, b-2, c-4, d-3",
+      "a-1, b-2, c-3, d-4"
+    ],
+    "correct": "a-1, b-4, c-3, d-2",
+    "explanation": {
+      "summary": "Correct Answer: A) a-1, b-4, c-3, d-2\n\nसही उत्तर: A) a-1, b-4, c-3, d-2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Based on recent trade data, the USA remains India's top export destination (Rank 1). The UAE is consistently the second largest (Rank 2). The Netherlands has recently emerged as a key European entry point, taking the third spot (Rank 3), pushing China to Rank 4 among these options.\n\n✅ **यह सही क्यों है**\n\n- हाल के व्यापार आंकड़ों के अनुसार, अमेरिका भारत का शीर्ष निर्यात गंतव्य (रैंक 1) बना हुआ है। संयुक्त अरब अमीरात लगातार दूसरा सबसे बड़ा (रैंक 2) है। नीदरलैंड हाल ही में एक प्रमुख यूरोपीय प्रवेश बिंदु के रूप में उभरा है, जिसने तीसरा स्थान (रैंक 3) ले लिया है, जिससे चीन इन विकल्पों में रैंक 4 पर आ गया है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- China is a massive source of imports for India, but it is not the top destination for India's exports. Any option placing China or UAE at Rank 1 is factually incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- चीन भारत के लिए आयात का एक बड़ा स्रोत है, लेकिन यह भारत के निर्यात के लिए शीर्ष गंतव्य नहीं है। चीन या यूएई को रैंक 1 पर रखने वाला कोई भी विकल्प तथ्यात्मक रूप से गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- India's export dynamics have shifted recently, with European nations like the Netherlands playing an increasingly prominent role in Indian petroleum product exports.\n\n📝 **निष्कर्ष**\n\n- भारत की निर्यात गतिशीलता हाल ही में बदल गई है, जिसमें नीदरलैंड जैसे यूरोपीय राष्ट्र भारतीय पेट्रोलियम उत्पाद निर्यात में तेजी से प्रमुख भूमिका निभा रहे हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Netherlands became India's third-largest export destination primarily due to a massive surge in the export of refined petroleum products from India.\n\n💡 **रोचक तथ्य**\n\n- नीदरलैंड मुख्य रूप से भारत से परिष्कृत पेट्रोलियम उत्पादों के निर्यात में भारी वृद्धि के कारण भारत का तीसरा सबसे बड़ा निर्यात गंतव्य बन गया है।"
+    }
+  },
+  {
+    "id": "ECO889",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "Make In India",
+      "Manufacturing",
+      "Economy"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements one is labelled as Assertion (A) and the other is labelled as Reason (R):\nAssertion (A): 'Make in India' is the initiative launched in 2014.\nReason (R): Its main aim is to promote India's manufacturing domain to the world.",
+    "question_hi": "नीचे दो कथन दिये हुए है एक को अभिकथन (A) और दूसरे को कारण (R) ऐसा नाम दिया गया है।\nअभिकथन (A): 'मेक इन इंडिया' उपक्रम 2014 में शुरू किया गया।\nकारण (R): उस का मुख्य हेतु भारत का विनिर्माण कार्यक्षेत्र को वैश्विक बढ़ावा देना है।",
+    "options":[
+      "Both (A) and (R) are not correct",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य नहीं हैं।",
+      "(A) सत्य है लेकिन (R) सत्य नहीं है।",
+      "(A) सत्य नहीं है लेकिन (R) सत्य है।",
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है।"
+    ],
+    "correct": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: D) Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nसही उत्तर: D) (A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- 'Make in India' was launched on 25 September 2014 by Prime Minister Narendra Modi. Its explicit and primary objective is to transform India into a global design and manufacturing hub.\n\n✅ **यह सही क्यों है**\n\n- 'मेक इन इंडिया' 25 सितंबर 2014 को प्रधान मंत्री नरेंद्र मोदी द्वारा शुरू किया गया था। इसका स्पष्ट और प्राथमिक उद्देश्य भारत को वैश्विक विनिर्माण केंद्र में बदलना है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options denying the timeline (2014) or the core objective (promoting manufacturing globally) are factually incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- समयरेखा (2014) या मुख्य उद्देश्य (वैश्विक स्तर पर विनिर्माण को बढ़ावा देना) से इनकार करने वाले विकल्प तथ्यात्मक रूप से गलत हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The initiative covers 27 sectors of the economy and is built on four pillars: New Processes, New Infrastructure, New Sectors, and New Mindset.\n\n📝 **निष्कर्ष**\n\n- यह पहल अर्थव्यवस्था के 27 क्षेत्रों को कवर करती है और चार स्तंभों पर बनी है: नई प्रक्रियाएं, नया बुनियादी ढांचा, नए क्षेत्र और नई मानसिकता।",
+      "fact": "💡 **Interesting Fact**\n\n- The official logo for the Make in India campaign is a striding lion made entirely of cogs, symbolizing manufacturing strength and national pride.\n\n💡 **रोचक तथ्य**\n\n- मेक इन इंडिया अभियान का आधिकारिक लोगो पूरी तरह से कोग्स (मशीन के दांत) से बना एक चलता हुआ शेर है, जो विनिर्माण शक्ति और राष्ट्रीय गौरव का प्रतीक है।"
+    }
+  },
+  {
+    "id": "ENV222",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Environmental Issues & Conventions",
+      "subTopic": "Climate Change & Global Warming"
+    },
+    "tags": [
+      "Mission LiFE",
+      "Environment",
+      "Sustainability"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to Life consider the following statements:\n1) It is a Mission Lifestyle for Environment.\n2) Its aim is to promote sustainable tourism.\n3) It is aimed at taking tourism to Indian villages.",
+    "question_hi": "लाईफ (LiFE) के बारे में निम्नलिखित कथनों पर विचार कीजिए।\n1) यह पर्यावरण के लिये जीवनशैली है।\n2) इस का उद्देश्य शाश्वत पर्यटन उद्योग को बढ़ावा देना है।\n3) इस का उद्देश्य पर्यटन को भारतीय गांवों तक ले जाना है।",
+    "options":[
+      "None of them is correct",
+      "Only 1 and 2 are correct",
+      "All the three are correct",
+      "Only 1 is correct"
+    ],
+    "options_hi":[
+      "इन में से कोई सत्य नहीं है",
+      "केवल 1 और 2 सत्य है",
+      "तीनों सत्य है",
+      "केवल 1 सत्य है"
+    ],
+    "correct": "All the three are correct",
+    "explanation": {
+      "summary": "Correct Answer: C) All the three are correct\n\nसही उत्तर: C) तीनों सत्य है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: LiFE stands for Lifestyle for Environment, an India-led global mass movement. \n- Statements 2 and 3 are correct: The Ministry of Tourism launched 'Travel for LiFE', a sectoral program under Mission LiFE, which heavily focuses on promoting sustainable tourism and driving responsible tourism to Indian villages to empower local communities.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: LiFE का अर्थ लाइफस्टाइल फॉर एनवायरनमेंट (पर्यावरण के लिए जीवन शैली) है।\n- कथन 2 और 3 सही हैं: पर्यटन मंत्रालय ने मिशन LiFE के तहत 'ट्रैवल फॉर LiFE' लॉन्च किया, जो टिकाऊ पर्यटन को बढ़ावा देने और स्थानीय समुदायों को सशक्त बनाने के लिए भारतीय गांवों में पर्यटन को ले जाने पर केंद्रित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Selecting 'Only 1' ignores the specific implementation arms of the Mission. Tourism is deeply integrated into the LiFE framework via the 'Travel for LiFE' sub-scheme.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 'केवल 1' का चयन मिशन की विशिष्ट कार्यान्वयन भुजाओं की अनदेखी करता है। 'ट्रेवल फॉर लाइफ' के माध्यम से पर्यटन को गहराई से एकीकृत किया गया है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Mission LiFE nudges individuals to undertake simple acts in their daily lives that can contribute significantly to climate change mitigation.\n\n📝 **निष्कर्ष**\n\n- मिशन LiFE व्यक्तियों को अपने दैनिक जीवन में सरल कार्य करने के लिए प्रेरित करता है जो जलवायु परिवर्तन शमन में महत्वपूर्ण योगदान दे सकते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The concept of LiFE was introduced by Prime Minister Narendra Modi at COP26 in Glasgow in 2021.\n\n💡 **रोचक तथ्य**\n\n- LiFE की अवधारणा 2021 में ग्लासगो में COP26 में प्रधान मंत्री नरेंद्र मोदी द्वारा पेश की गई थी।"
+    }
+  },
+  {
+    "id": "GEO1215",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Agriculture in India"
+    },
+    "tags": [
+      "Bihar",
+      "Agriculture",
+      "Crops"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Food crops in order of importance of area cultivated in Bihar is:",
+    "question_hi": "बिहार में खेती क्षेत्र के आधार पर खाद्य फसलों का क्रम ऐसा है :",
+    "options":[
+      "Maize, Pulses, Paddy, Wheat",
+      "Maize, Paddy, Wheat, Pulses",
+      "Paddy, Wheat, Maize, Pulses",
+      "Wheat, Paddy, Maize, Pulses"
+    ],
+    "options_hi":[
+      "मक्का, दालें, चावल, गेहूं",
+      "मक्का, चावल, गेहूं, दालें",
+      "चावल, गेहूं, मक्का, दालें",
+      "गेहूं, चावल, मक्का, दालें"
+    ],
+    "correct": "Paddy, Wheat, Maize, Pulses",
+    "explanation": {
+      "summary": "Correct Answer: C) Paddy, Wheat, Maize, Pulses\n\nसही उत्तर: C) चावल, गेहूं, मक्का, दालें",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Gangetic plains of Bihar are heavily dependent on monsoon agriculture. Paddy (rice) is the primary Kharif crop and covers the maximum cultivated area. It is followed by Wheat (the primary Rabi crop). Maize and Pulses follow them in terms of acreage.\n\n✅ **यह सही क्यों है**\n\n- बिहार के गंगा के मैदान मानसून कृषि पर अत्यधिक निर्भर हैं। धान (चावल) प्राथमिक खरीफ फसल है और अधिकतम खेती योग्य क्षेत्र को कवर करती है। इसके बाद गेहूं (प्राथमिक रबी फसल) का स्थान है। इसके बाद मक्का और दालें आती हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options suggesting Wheat or Maize occupy the largest area contradict the geographical and agricultural reality of Bihar, which is a predominantly rice-eating and rice-growing state.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- गेहूं या मक्का को सबसे बड़े क्षेत्र में बताने वाले विकल्प बिहार की कृषि वास्तविकता का खंडन करते हैं, जो मुख्य रूप से चावल उत्पादक राज्य है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The cropping pattern of Bihar is typical of the fertile Indo-Gangetic plains, prioritizing water-intensive cereal crops.\n\n📝 **निष्कर्ष**\n\n- बिहार का फसल पैटर्न उपजाऊ इंडो-गंगा के मैदानों का विशिष्ट है, जो पानी की सघनता वाली अनाज फसलों को प्राथमिकता देता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Bihar is among the top maize-producing states in India and experiences a unique phenomenon where maize is grown effectively during the Rabi season in northern districts.\n\n💡 **रोचक तथ्य**\n\n- बिहार भारत के शीर्ष मक्का उत्पादक राज्यों में से एक है और यहाँ एक अनूठी घटना देखने को मिलती है जहाँ उत्तरी जिलों में रबी के मौसम में मक्का प्रभावी रूप से उगाया जाता है।"
+    }
+  },
+  {
+    "id": "GEO1216",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "River Systems of India"
+    },
+    "tags":[
+      "Bihar",
+      "Floods",
+      "Rivers"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements about floods in Bihar are correct?\n1) Bihar is basically a plain area\n2) Major rivers in Bihar are long with catchment in mountains\n3) Bihar is economically backward",
+    "question_hi": "बिहार की बाढ़ के बारे में नीचे में से कौन-से कथन सत्य है?\n1) बिहार मूलतः मैदानी क्षेत्र है\n2) बिहार की प्रमुख नदियाँ लंबी है और उन का जलग्रहण क्षेत्र पहाड़ों में है।\n3) बिहार आर्थिक रूप से पिछड़ा है।",
+    "options":[
+      "None of the above is correct",
+      "Only 1 and 2 are correct",
+      "All the three are correct",
+      "Only 1 is correct"
+    ],
+    "options_hi":[
+      "इन में से कोई सत्य नहीं है",
+      "केवल 1 और 2 सत्य है",
+      "तीनों सत्य है",
+      "केवल 1 सत्य है"
+    ],
+    "correct": "All the three are correct",
+    "explanation": {
+      "summary": "Correct Answer: C) All the three are correct\n\nसही उत्तर: C) तीनों सत्य है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Bihar's topography is fundamentally a flat plain, making it prone to waterlogging. \n- Its major rivers (Kosi, Gandak, Bagmati) have vast catchments in the Himalayas (Nepal), bringing massive silt and flash floods. \n- The state is economically backward, which is both a cause (poor infrastructure to manage floods) and a devastating consequence of perennial flooding.\n\n✅ **यह सही क्यों है**\n\n- बिहार की स्थलाकृति मूल रूप से एक समतल मैदान है।\n- इसकी प्रमुख नदियों का हिमालय (नेपाल) में विशाल जलग्रहण क्षेत्र है, जो भारी गाद और बाढ़ लाती हैं।\n- राज्य आर्थिक रूप से पिछड़ा है, जो बाढ़ के कारण भी है और बुनियादी ढांचे की कमी के कारण बाढ़ प्रबंधन में बाधा भी है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Eliminating statement 3 overlooks the direct socio-economic context highlighted in geographic disaster studies of the state. Thus 'Only 1 and 2' is incomplete.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 3 को समाप्त करना राज्य के भौगोलिक आपदा अध्ययनों में उजागर प्रत्यक्ष सामाजिक-आर्थिक संदर्भ को नज़रअंदाज़ करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Around 73% of Bihar's total geographical area is highly flood-prone, making it India's most flood-affected state.\n\n📝 **निष्कर्ष**\n\n- बिहार के कुल भौगोलिक क्षेत्र का लगभग 73% अत्यधिक बाढ़ प्रवण है, जो इसे भारत का सबसे अधिक बाढ़ प्रभावित राज्य बनाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Kosi river is infamously known as the 'Sorrow of Bihar' because of its tendency to frequently change course, causing unpredictable and widespread devastation.\n\n💡 **रोचक तथ्य**\n\n- कोसी नदी को 'बिहार का शोक' के रूप में जाना जाता है क्योंकि यह अक्सर अपना मार्ग बदल लेती है, जिससे अप्रत्याशित और व्यापक तबाही होती है।"
+    }
+  },
+  {
+    "id": "HIS1800",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Indus Valley Civilization"
+    },
+    "tags": [
+      "Silver",
+      "Harappan",
+      "Indus Valley"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Ancient evidence of silver in India is found in the",
+    "question_hi": "भारत में चाँदी के प्राचीनतम प्रमाण कहाँ प्राप्त हुए थे ?",
+    "options":[
+      "Silver Punch-marked coins",
+      "Chalcolithic culture of Western India",
+      "Vedic text",
+      "Harappan culture"
+    ],
+    "options_hi":[
+      "चाँदी के छिद्रित सिक्के",
+      "पश्चिमी भारत की ताम्रपाषाण सभ्यता",
+      "वैदिक ग्रंथ",
+      "हडप्पा सभ्यता"
+    ],
+    "correct": "Harappan culture",
+    "explanation": {
+      "summary": "Correct Answer: D) Harappan culture\n\nसही उत्तर: D) हडप्पा सभ्यता",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The earliest evidence of the use of silver in India comes from the Harappan (Indus Valley) Civilization (c. 2500 BCE). Harappans used silver to make vessels and ornaments.\n\n✅ **यह सही क्यों है**\n\n- भारत में चांदी के उपयोग का सबसे पहला प्रमाण हड़प्पा (सिंधु घाटी) सभ्यता (लगभग 2500 ईसा पूर्व) से मिलता है। हड़प्पावासी चांदी का उपयोग बर्तन और आभूषण बनाने के लिए करते थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Silver punch-marked coins date back to the 6th century BCE (Mahajanapada period). The Chalcolithic cultures primarily used copper. Vedic texts are later than the mature Harappan phase.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- चांदी के छिद्रित सिक्के छठी शताब्दी ईसा पूर्व (महाजनपद काल) के हैं। ताम्रपाषाण संस्कृतियां मुख्य रूप से तांबे का उपयोग करती थीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Harappans were skilled metallurgists. They imported silver likely from places like Afghanistan or Iran, showing extensive trade networks.\n\n📝 **निष्कर्ष**\n\n- हड़प्पावासी कुशल धातुकर्मी थे। वे संभवतः अफगानिस्तान या ईरान जैसे स्थानों से चांदी का आयात करते थे, जो व्यापक व्यापार नेटवर्क को दर्शाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The famous 'Dancing Girl' statue of Mohenjo-Daro is made of bronze, but numerous silver seals and jars containing silver jewelry were also discovered at the site.\n\n💡 **रोचक तथ्य**\n\n- मोहनजोदड़ो की प्रसिद्ध 'डांसिंग गर्ल' की मूर्ति कांसे से बनी है, लेकिन इस स्थल पर चांदी की कई मुहरें और चांदी के आभूषणों वाले जार भी खोजे गए थे।"
+    }
+  },
+  {
+    "id": "HIS1801",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Religious Movements (Buddhism & Jainism)"
+    },
+    "tags":[
+      "Buddhism",
+      "Buddhist Councils",
+      "Kanishka"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Fourth Buddhist Council was held during the reign of",
+    "question_hi": "चतुर्थ बौद्ध संगीति किसके शासनकाल में आयोजित हुई?",
+    "options":[
+      "Menander",
+      "Ashoka",
+      "Harshavardhana",
+      "Kanishka"
+    ],
+    "options_hi":[
+      "मेनेण्डर",
+      "अशोक",
+      "हर्षवर्धन",
+      "कनिष्क"
+    ],
+    "correct": "Kanishka",
+    "explanation": {
+      "summary": "Correct Answer: D) Kanishka\n\nसही उत्तर: D) कनिष्क",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Fourth Buddhist Council was held at Kundalvana in Kashmir under the patronage of Kushan emperor Kanishka in the 1st century AD. It was presided over by Vasumitra and Ashvaghosha.\n\n✅ **यह सही क्यों है**\n\n- चतुर्थ बौद्ध संगीति 1ली शताब्दी ईस्वी में कुषाण सम्राट कनिष्क के संरक्षण में कश्मीर के कुंडलवन में आयोजित की गई थी। इसकी अध्यक्षता वसुमित्र और अश्वघोष ने की थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Ashoka patronized the Third Buddhist Council at Pataliputra. Harshavardhana patronized large assemblies later, but not the foundational four councils.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अशोक ने पाटलिपुत्र में तीसरी बौद्ध संगीति का संरक्षण किया। हर्षवर्धन ने बाद में बड़ी सभाओं का संरक्षण किया, लेकिन चार मूलभूत परिषदों का नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Fourth Council is highly significant because it resulted in the formal division of Buddhism into the Mahayana (Greater Vehicle) and Hinayana (Lesser Vehicle) sects.\n\n📝 **निष्कर्ष**\n\n- चौथी संगीति अत्यधिक महत्वपूर्ण है क्योंकि इसके परिणामस्वरूप बौद्ध धर्म का महायान और हीनयान संप्रदायों में औपचारिक विभाजन हुआ।",
+      "fact": "💡 **Interesting Fact**\n\n- During this council, the Buddhist scriptures were translated from the vernacular Pali into classical Sanskrit.\n\n💡 **रोचक तथ्य**\n\n- इस परिषद के दौरान, बौद्ध ग्रंथों का स्थानीय पाली से शास्त्रीय संस्कृत में अनुवाद किया गया था।"
+    }
+  },
+  {
+    "id": "HIS1802",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Mahajanapadas & Magadha Empire"
+    },
+    "tags":[
+      "Mahajanapadas",
+      "Avanti",
+      "Pradyota"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Chand-Pradyota was the ruler of which Ancient Republic?",
+    "question_hi": "चंद्रप्रद्योत किस प्राचीन गणराज्य का शासक था ?",
+    "options":[
+      "Vajji",
+      "Anga",
+      "Avanti",
+      "Kasi"
+    ],
+    "options_hi":[
+      "वज्जि",
+      "अंग",
+      "अवन्ती",
+      "काशी"
+    ],
+    "correct": "Avanti",
+    "explanation": {
+      "summary": "Correct Answer: C) Avanti\n\nसही उत्तर: C) अवन्ती",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Chanda Pradyota was the powerful ruler of the Avanti Mahajanapada (capital at Ujjain) during the time of Gautama Buddha. He was a contemporary of King Bimbisara of Magadha.\n\n✅ **यह सही क्यों है**\n\n- चंड प्रद्योत गौतम बुद्ध के समय में अवंती महाजनपद (राजधानी उज्जैन) का शक्तिशाली शासक था। वह मगध के राजा बिम्बिसार का समकालीन था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Vajji was a confederacy ruled by the Licchavis. Anga's capital was Champa, later conquered by Magadha. Kasi was an ancient state centered around Varanasi.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- वज्जि लिच्छवियों द्वारा शासित एक परिसंघ था। अंग की राजधानी चम्पा थी। काशी वाराणसी के आसपास केंद्रित एक प्राचीन राज्य था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Pradyota dynasty ruled over Avanti before it was eventually annexed into the expanding Magadha Empire by Shishunaga.\n\n📝 **निष्कर्ष**\n\n- प्रद्योत वंश ने अवंती पर शासन किया था, जिसके बाद अंततः शिशुनाग द्वारा इसे मगध साम्राज्य में मिला लिया गया।",
+      "fact": "💡 **Interesting Fact**\n\n- When Chanda Pradyota suffered from jaundice, his rival-turned-friend King Bimbisara of Magadha sent his royal physician, Jivaka, to cure him.\n\n💡 **रोचक तथ्य**\n\n- जब चंड प्रद्योत पीलिया से पीड़ित हुआ, तो उसके प्रतिद्वंद्वी से मित्र बने मगध के राजा बिम्बिसार ने अपने शाही चिकित्सक, जीवक को उसका इलाज करने के लिए भेजा था।"
+    }
+  },
+  {
+    "id": "HIS1803",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "South Indian Dynasties"
+    },
+    "tags":[
+      "Rashtrakutas",
+      "Jainism",
+      "Religion"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which Religion had Rashtrakuta protection?",
+    "question_hi": "राष्ट्रकूट शासक किस धर्म के संरक्षक थे ?",
+    "options":[
+      "Shakta",
+      "Jain",
+      "Shaiva",
+      "Buddha"
+    ],
+    "options_hi":[
+      "शाक्त संप्रदाय",
+      "जैन धर्म",
+      "शैव धर्म",
+      "बौद्ध धर्म"
+    ],
+    "correct": "Jain",
+    "explanation": {
+      "summary": "Correct Answer: B) Jain\n\nसही उत्तर: B) जैन धर्म",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Rashtrakuta kings (8th-10th century CE) were highly tolerant and patronized multiple faiths, but Jainism saw exceptional royal patronage and reached its zenith under them. Emperor Amoghavarsha I was a devoted patron and follower of Digambara Jainism.\n\n✅ **यह सही क्यों है**\n\n- राष्ट्रकूट राजा (8वीं-10वीं शताब्दी ईस्वी) अत्यधिक सहिष्णु थे, लेकिन जैन धर्म को उनके तहत असाधारण शाही संरक्षण मिला और यह अपने चरम पर पहुंच गया। सम्राट अमोघवर्ष प्रथम दिगंबर जैन धर्म के कट्टर संरक्षक और अनुयायी थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Shaivism and Vaishnavism were also patronized (e.g., the Kailasanatha temple), in historical multiple-choice questions focusing on Rashtrakuta's distinct religious identity, their massive support for Jainism is the intended focal point. Buddhism was declining during this period.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यद्यपि शैव धर्म का भी संरक्षण किया गया था, लेकिन राष्ट्रकूट के विशिष्ट धार्मिक संरक्षण के संदर्भ में जैन धर्म को उनका भारी समर्थन ऐतिहासिक रूप से सबसे महत्वपूर्ण है। इस अवधि में बौद्ध धर्म का पतन हो रहा था।",
+      "conclusion": "📝 **Concluding Note**\n\n- Around one-third of the Deccan population during the Rashtrakuta era is estimated to have followed Jainism, reflecting the deep impact of their royal patronage.\n\n📝 **निष्कर्ष**\n\n- अनुमान है कि राष्ट्रकूट युग के दौरान डेक्कन की लगभग एक तिहाई आबादी जैन धर्म का पालन करती थी, जो उनके शाही संरक्षण के गहरे प्रभाव को दर्शाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Amoghavarsha I is often compared to Emperor Ashoka for his religious zeal; he wrote the famous Kannada text 'Kavirajamarga' and was a disciple of the Jain monk Jinasena.\n\n💡 **रोचक तथ्य**\n\n- अमोघवर्ष प्रथम की तुलना अक्सर उनके धार्मिक उत्साह के लिए सम्राट अशोक से की जाती है; उन्होंने प्रसिद्ध कन्नड़ ग्रंथ 'कविराजमार्ग' लिखा और जैन भिक्षु जिनसेन के शिष्य थे।"
+    }
+  },
+  {
+    "id": "HIS1804",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Delhi Sultanate"
+    },
+    "tags":[
+      "Mongols",
+      "Iltutmish",
+      "Delhi Sultanate"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In which reign Mongols were seen on the Bank of Indus river for the first time?",
+    "question_hi": "किसके शासन काल में मंगोलो को पहली बार सिंधु नदी पर देखा गया था?",
+    "options":[
+      "Raziya",
+      "Iltutmish",
+      "Qutubuddin Aibak",
+      "Balban"
+    ],
+    "options_hi":[
+      "रजिया",
+      "इल्तुतमिश",
+      "कुतुबुद्दीन ऐबक",
+      "बलबन"
+    ],
+    "correct": "Iltutmish",
+    "explanation": {
+      "summary": "Correct Answer: B) Iltutmish\n\nसही उत्तर: B) इल्तुतमिश",
+      "analysis_correct": "✅ **Why this is correct**\n\n- During the reign of Shamsuddin Iltutmish (1221 AD), the Mongols under Genghis Khan appeared on the banks of the Indus River. They were pursuing Jalal al-Din Mingburnu, the prince of the Khwarazmian Empire.\n\n✅ **यह सही क्यों है**\n\n- शम्सुद्दीन इल्तुतमिश (1221 ई.) के शासनकाल के दौरान, चंगेज खान के नेतृत्व में मंगोल सिंधु नदी के तट पर दिखाई दिए। वे ख्वारज़्मियन साम्राज्य के राजकुमार जलाल अल-दीन मिंगबर्नु का पीछा कर रहे थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Aibak ruled before this event. Raziya and Balban faced Mongol threats much later in the 13th century.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- ऐबक ने इस घटना से पहले शासन किया था। रजिया और बलबन ने बाद में 13वीं शताब्दी में मंगोल खतरों का सामना किया।",
+      "conclusion": "📝 **Concluding Note**\n\n- Iltutmish cleverly avoided a direct Mongol invasion by diplomatically refusing asylum to Jalal al-Din, thereby saving the nascent Delhi Sultanate from Genghis Khan's wrath.\n\n📝 **निष्कर्ष**\n\n- इल्तुतमिश ने कूटनीतिक रूप से जलाल अल-दीन को शरण देने से इनकार करके सीधे मंगोल आक्रमण से बचा लिया, जिससे नवजात दिल्ली सल्तनत चंगेज खान के क्रोध से बच गई।",
+      "fact": "💡 **Interesting Fact**\n\n- Genghis Khan never crossed the Indus River into the heartlands of India, primarily due to the intense summer heat which his troops and horses could not tolerate.\n\n💡 **रोचक तथ्य**\n\n- चंगेज खान ने सिंधु नदी पार करके कभी भी भारत के हृदय स्थल में प्रवेश नहीं किया, इसका मुख्य कारण भीषण गर्मी थी जिसे उसके सैनिक और घोड़े सहन नहीं कर सके।"
+    }
+  },
+  {
+    "id": "HIS1805",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Delhi Sultanate"
+    },
+    "tags":[
+      "Khilji",
+      "Malik Kafur",
+      "Hazar-Dinari"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Who was known as Hazar-Dinari?",
+    "question_hi": "निम्न में से किसे हजार दिनारी के नाम से जानते है?",
+    "options":[
+      "Qutubuddin Aibak",
+      "Malik Kafur",
+      "Sikandar Lodi",
+      "Balban"
+    ],
+    "options_hi":[
+      "कुतुबुद्दीन ऐबक",
+      "मलिक काफूर",
+      "सिकंदर लोदी",
+      "बलबन"
+    ],
+    "correct": "Malik Kafur",
+    "explanation": {
+      "summary": "Correct Answer: B) Malik Kafur\n\nसही उत्तर: B) मलिक काफूर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Malik Kafur was a prominent slave-general of Alauddin Khalji. He earned the title 'Hazar-Dinari' because Alauddin's commander, Nusrat Khan, purchased him for 1,000 dinars during the Gujarat campaign of 1299.\n\n✅ **यह सही क्यों है**\n\n- मलिक काफूर अलाउद्दीन खिलजी का एक प्रमुख दास-सेनापति था। उसे 'हज़ार-दिनारी' की उपाधि मिली क्योंकि अलाउद्दीन के सेनापति नुसरत खान ने 1299 के गुजरात अभियान के दौरान उसे 1,000 दीनार में खरीदा था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Qutubuddin Aibak was known as 'Lakh Baksh' (Giver of Lakhs). Balban and Sikandar Lodi were sultans, not slaves bought for a famous sum of dinars.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कुतुबुद्दीन ऐबक को 'लाख बख्श' के नाम से जाना जाता था। बलबन और सिकंदर लोदी सुल्तान थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Malik Kafur played a crucial role in expanding the Delhi Sultanate's power into South India, leading highly successful campaigns against the Yadavas, Kakatiyas, and Hoysalas.\n\n📝 **निष्कर्ष**\n\n- मलिक काफूर ने दिल्ली सल्तनत की शक्ति को दक्षिण भारत में विस्तारित करने में महत्वपूर्ण भूमिका निभाई, यादवों, काकतीय और होयसलों के खिलाफ सफल अभियानों का नेतृत्व किया।",
+      "fact": "💡 **Interesting Fact**\n\n- During his campaign in South India, Malik Kafur famously looted the Koh-i-Noor diamond from the Kakatiya dynasty at Warangal and brought it to Alauddin Khalji.\n\n💡 **रोचक तथ्य**\n\n- दक्षिण भारत में अपने अभियान के दौरान, मलिक काफूर ने वारंगल में काकतीय वंश से कोहिनूर हीरा लूटा और इसे अलाउद्दीन खिलजी के पास लाया।"
+    }
+  },
+  {
+    "id": "HIS1806",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "Art & Architecture (Sultanate & Mughal Period)"
+    },
+    "tags":[
+      "Architecture",
+      "Gwalior Fort",
+      "Man Singh"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Who built Gujari Mahal?",
+    "question_hi": "'गुजरी महल' किसने बनवाया था ?",
+    "options":[
+      "Akbar",
+      "Man Singh",
+      "Tej Karan",
+      "Suraj Sen"
+    ],
+    "options_hi":[
+      "अकबर",
+      "मान सिंह",
+      "तेज करन",
+      "सूरज सेन"
+    ],
+    "correct": "Man Singh",
+    "explanation": {
+      "summary": "Correct Answer: B) Man Singh\n\nसही उत्तर: B) मान सिंह",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Gujari Mahal, situated inside the Gwalior Fort complex, was built by Raja Man Singh Tomar (15th century) for his beloved Queen Mrignayani, who belonged to the Gurjar community.\n\n✅ **यह सही क्यों है**\n\n- ग्वालियर किले के परिसर में स्थित गुजरी महल का निर्माण राजा मान सिंह तोमर (15वीं शताब्दी) ने अपनी प्रिय रानी मृगनयनी के लिए करवाया था, जो गुर्जर समुदाय से थीं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Suraj Sen was the original founder of the Gwalior Fort centuries earlier. Akbar built forts in Agra, Fatehpur Sikri, and Allahabad.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- सूरज सेन सदियों पहले ग्वालियर किले के मूल संस्थापक थे। अकबर ने आगरा और फतेहपुर सीकरी में किले बनवाए थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Today, Gujari Mahal houses an archaeological museum showcasing rare Hindu and Jain sculptures, displaying the rich heritage of the region.\n\n📝 **निष्कर्ष**\n\n- आज, गुजरी महल में एक पुरातात्विक संग्रहालय है जिसमें दुर्लभ हिंदू और जैन मूर्तियां हैं, जो इस क्षेत्र की समृद्ध विरासत को प्रदर्शित करती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- According to legend, Mrignayani demanded a separate palace with a continuous water supply from her village river, the Rai, prompting Man Singh to build the Gujari Mahal.\n\n💡 **रोचक तथ्य**\n\n- किंवदंती के अनुसार, मृगनयनी ने अपने गांव की नदी (राई) से पानी की निरंतर आपूर्ति वाले एक अलग महल की मांग की थी, जिसके कारण मान सिंह ने गुजरी महल का निर्माण किया।"
+    }
+  },
+  {
+    "id": "HIS1807",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Mughal Empire"
+    },
+    "tags":[
+      "Later Mughals",
+      "Muhammad Shah"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which Mughal Emperor is known by the name of \"Rangila\"?",
+    "question_hi": "किस मुगल शासक को रंगीला नाम से जानते है ?",
+    "options":[
+      "Rafi-ud-Daulah",
+      "Rafi-ud-Darajat",
+      "Muhammad Shah",
+      "Farrukh Siyar"
+    ],
+    "options_hi":[
+      "रफ़ी-उद-दौला",
+      "रफ़ी-उद-दराजत",
+      "मुहम्मद शाह",
+      "फर्रुख सियर"
+    ],
+    "correct": "Muhammad Shah",
+    "explanation": {
+      "summary": "Correct Answer: C) Muhammad Shah\n\nसही उत्तर: C) मुहम्मद शाह",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Muhammad Shah, who ruled from 1719 to 1748, was nicknamed 'Rangila' (meaning colorful or merry-maker) due to his hedonistic lifestyle, love for arts, music, dance, and his negligence of state affairs.\n\n✅ **यह सही क्यों है**\n\n- 1719 से 1748 तक शासन करने वाले मुहम्मद शाह को उनकी विलासितापूर्ण जीवन शैली, कला, संगीत और नृत्य के प्रति प्रेम और राज्य के मामलों में उनकी लापरवाही के कारण 'रंगीला' उपनाम दिया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Farrukh Siyar was a puppet ruler controlled by the Sayyid brothers. Rafi-ud-Darajat and Rafi-ud-Daulah were also short-lived puppet emperors placed on the throne in 1719.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- फर्रुख सियर सैय्यद बंधुओं द्वारा नियंत्रित एक कठपुतली शासक था। रफ़ी-उद-दराजत और रफ़ी-उद-दौला भी 1719 में बहुत कम समय के लिए कठपुतली सम्राट थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- His reign saw the rapid decline of the Mughal Empire, culminating in the devastating invasion of Delhi by Nadir Shah in 1739.\n\n📝 **निष्कर्ष**\n\n- उनके शासनकाल में मुगल साम्राज्य का तेजी से पतन हुआ, जिसकी परिणति 1739 में नादिर शाह द्वारा दिल्ली पर विनाशकारी आक्रमण के रूप में हुई।",
+      "fact": "💡 **Interesting Fact**\n\n- Despite his political failures, Muhammad Shah Rangila was a great patron of culture. Urdu language and Hindustani classical music (Khyal) flourished heavily during his reign.\n\n💡 **रोचक तथ्य**\n\n- अपनी राजनीतिक विफलताओं के बावजूद, मुहम्मद शाह रंगीला संस्कृति के महान संरक्षक थे। उनके शासनकाल में उर्दू भाषा और हिंदुस्तानी शास्त्रीय संगीत (ख्याल) काफी फला-फूला।"
+    }
+  },
+  {
+    "id": "HIS1808",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Socio-Religious Reform Movements"
+    },
+    "tags":[
+      "Kuka Movement",
+      "Punjab",
+      "Namdhari"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Kuka movement was organized by",
+    "question_hi": "कूका आंदोलन किसके द्वारा आयोजित किया गया था?",
+    "options":[
+      "Guru Gobind Singh",
+      "Guru Nanak",
+      "Guru Ram Singh",
+      "Guru Ram Das"
+    ],
+    "options_hi":[
+      "गुरू गोविंद सिंह",
+      "गुरू नानक",
+      "गुरू राम सिंह",
+      "गुरू राम दास"
+    ],
+    "correct": "Guru Ram Singh",
+    "explanation": {
+      "summary": "Correct Answer: C) Guru Ram Singh\n\nसही उत्तर: C) गुरू राम सिंह",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Kuka Movement (Namdhari Movement) was founded by Bhagat Jawahar Mal (Sian Sahib) but was heavily organized and popularized by his disciple, Guru Ram Singh, in the mid-19th century in Punjab to reform Sikhism and resist British rule.\n\n✅ **यह सही क्यों है**\n\n- कूका आंदोलन (नामधारी आंदोलन) की स्थापना भगत जवाहर मल द्वारा की गई थी, लेकिन इसे 19वीं शताब्दी के मध्य में पंजाब में सिख धर्म में सुधार और ब्रिटिश शासन का विरोध करने के लिए उनके शिष्य गुरु राम सिंह द्वारा बड़े पैमाने पर संगठित और लोकप्रिय बनाया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Guru Nanak, Guru Ram Das, and Guru Gobind Singh are the 1st, 4th, and 10th Sikh Gurus, living centuries before the British colonial era when the Kuka movement occurred.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- गुरु नानक, गुरु राम दास और गुरु गोविंद सिंह प्रारंभिक सिख गुरु हैं, जो ब्रिटिश औपनिवेशिक युग से सदियों पहले थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Kukas were unique because they practiced a boycott of British goods, schools, and courts decades before Mahatma Gandhi launched the Non-Cooperation Movement.\n\n📝 **निष्कर्ष**\n\n- कूका अद्वितीय थे क्योंकि उन्होंने महात्मा गांधी द्वारा असहयोग आंदोलन शुरू करने से दशकों पहले ब्रिटिश सामानों, स्कूलों और अदालतों का बहिष्कार किया था।",
+      "fact": "💡 **Interesting Fact**\n\n- The followers were called 'Kukas' because of their peculiar style of reciting the Gurbani, which often ended in high-pitched shrieks or cries (called 'Kook' in Punjabi).\n\n💡 **रोचक तथ्य**\n\n- अनुयायियों को 'कूका' कहा जाता था क्योंकि गुरबानी पढ़ने की उनकी शैली अजीब थी, जो अक्सर तेज चीख (पंजाबी में 'कूक') के साथ समाप्त होती थी।"
+    }
+  },
+  {
+    "id": "HIS1809",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Tribal & Peasant Uprisings"
+    },
+    "tags":[
+      "Pagalpanthi",
+      "Tribal Revolt",
+      "Bengal"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The Pagalpanthi rebellion was indeed a rebellion of",
+    "question_hi": "पागलपंथी विद्रोह वास्तव में किसका विद्रोह था ?",
+    "options":[
+      "Koliya",
+      "Garos",
+      "Gonds",
+      "Bhils"
+    ],
+    "options_hi":[
+      "कोलिया",
+      "गारो",
+      "गोंड",
+      "भील"
+    ],
+    "correct": "Garos",
+    "explanation": {
+      "summary": "Correct Answer: B) Garos\n\nसही उत्तर: B) गारो",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Pagalpanthi movement was a semi-religious sect founded by Karam Shah. The rebellion (1825–1833) in the Mymensingh district of Bengal (now Bangladesh) was primarily an uprising of the Garo and Hajong tribes, led by Karam Shah's son, Tipu Shah, against the oppressive Zamindars.\n\n✅ **यह सही क्यों है**\n\n- पागलपंथी आंदोलन करम शाह द्वारा स्थापित एक अर्ध-धार्मिक संप्रदाय था। बंगाल (अब बांग्लादेश) के मयमनसिंह जिले में विद्रोह (1825-1833) मुख्य रूप से गारो और हाजोंग जनजातियों का विद्रोह था, जिसका नेतृत्व दमनकारी जमींदारों के खिलाफ करम शाह के बेटे टीपू शाह ने किया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Bhils and Kolis revolted in Western India (Maharashtra/Gujarat region). Gonds revolted in Central India. They had no connection to the Bengal-based Pagalpanthi uprising.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- भीलों और कोलियों ने पश्चिमी भारत में विद्रोह किया। गोंडों ने मध्य भारत में विद्रोह किया। उनका बंगाल आधारित पागलपंथी विद्रोह से कोई संबंध नहीं था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The rebellion forced the British government to intervene and make arrangements to protect the cultivators from the illegal exactions of the Zamindars.\n\n📝 **निष्कर्ष**\n\n- विद्रोह ने ब्रिटिश सरकार को हस्तक्षेप करने और काश्तकारों को जमींदारों की अवैध वसूली से बचाने की व्यवस्था करने के लिए मजबूर किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Tipu Shah established a completely independent parallel government in the region, collecting taxes and running administration for a brief period before being crushed by the British army.\n\n💡 **रोचक तथ्य**\n\n- टीपू शाह ने इस क्षेत्र में एक पूरी तरह से स्वतंत्र समानांतर सरकार की स्थापना की, कर एकत्र किया और ब्रिटिश सेना द्वारा कुचले जाने से पहले कुछ समय के लिए प्रशासन चलाया।"
+    }
+  },
+  {
+    "id": "HIS1810",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Press & Literature in British India"
+    },
+    "tags":[
+      "Journalism",
+      "Kerala",
+      "Swadeshabhimani"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "'The Swadesh Vahini' was edited by",
+    "question_hi": "'स्वदेश वाहिनी' किसके द्वारा संपादित किया गया?",
+    "options":[
+      "Motilal Nehru",
+      "C.N. Mudaliar",
+      "K. Ramakrishna Pillai",
+      "C.V. Raman Pillai"
+    ],
+    "options_hi":[
+      "मोती लाल नेहरू",
+      "सी. एन. मुदालियर",
+      "के. राम कृष्णा पिल्लै",
+      "सी. वी. रमन पिल्ले"
+    ],
+    "correct": "K. Ramakrishna Pillai",
+    "explanation": {
+      "summary": "Correct Answer: C) K. Ramakrishna Pillai\n\nसही उत्तर: C) के. राम कृष्णा पिल्लै",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Swadeshabhimani (often referred to contextually in historical texts as The Swadesh Vahini) was a Malayalam newspaper edited by the legendary journalist K. Ramakrishna Pillai. He courageously criticized the corruption of the Diwan of Travancore.\n\n✅ **यह सही क्यों है**\n\n- स्वदेशाभिमानी (जिसे ऐतिहासिक ग्रंथों में अक्सर स्वदेश वाहिनी कहा जाता है) एक मलयालम समाचार पत्र था जिसके संपादक महान पत्रकार के. राम कृष्ण पिल्लै थे। उन्होंने त्रावणकोर के दीवान के भ्रष्टाचार की निडरता से आलोचना की।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Motilal Nehru founded 'The Independent'. C.V. Raman Pillai was a pioneer of the Malayalam novel. They were not editors of this specific publication.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- मोतीलाल नेहरू ने 'द इंडिपेंडेंट' की स्थापना की। सी.वी. रमन पिल्लै मलयालम उपन्यास के अग्रणी थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Ramakrishna Pillai's fearless journalism led to the confiscation of his press and his permanent exile from the Kingdom of Travancore in 1910.\n\n📝 **निष्कर्ष**\n\n- राम कृष्ण पिल्लै की निडर पत्रकारिता के कारण उनकी प्रेस जब्त कर ली गई और 1910 में उन्हें त्रावणकोर साम्राज्य से स्थायी रूप से निर्वासित कर दिया गया।",
+      "fact": "💡 **Interesting Fact**\n\n- K. Ramakrishna Pillai was the first person to write the biography of Karl Marx in the Malayalam language.\n\n💡 **रोचक तथ्य**\n\n- के. राम कृष्ण पिल्लै मलयालम भाषा में कार्ल मार्क्स की जीवनी लिखने वाले पहले व्यक्ति थे।"
+    }
+  },
+  {
+    "id": "HIS1811",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Socio-Religious Reform Movements"
+    },
+    "tags": [
+      "Brahmo Samaj",
+      "Legislation",
+      "Social Reform"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In which year was the 'Native Marriage Act' Passed?",
+    "question_hi": "नेटिव मैरिज एक्ट किस वर्ष पारित किया गया था?",
+    "options":[
+      "1876",
+      "1872",
+      "1874",
+      "1870"
+    ],
+    "options_hi":[
+      "1876",
+      "1872",
+      "1874",
+      "1870"
+    ],
+    "correct": "1872",
+    "explanation": {
+      "summary": "Correct Answer: B) 1872\n\nसही उत्तर: B) 1872",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Native Marriage Act (also widely known as the Civil Marriage Act) was passed in 1872, primarily due to the intense reform efforts of Brahmo Samaj leader Keshab Chandra Sen.\n\n✅ **यह सही क्यों है**\n\n- नेटिव मैरिज एक्ट (जिसे नागरिक विवाह अधिनियम भी कहा जाता है) 1872 में पारित किया गया था, मुख्य रूप से ब्रह्म समाज के नेता केशव चंद्र सेन के कड़े सुधार प्रयासों के कारण।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The years 1870, 1874, and 1876 do not correspond to the passage of this specific landmark social legislation.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 1870, 1874 और 1876 के वर्ष इस विशिष्ट सामाजिक कानून के पारित होने से मेल नहीं खाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Act was revolutionary as it prohibited polygamy, legalized inter-caste marriages, and set the minimum marriageable age for girls at 14 and boys at 18.\n\n📝 **निष्कर्ष**\n\n- यह अधिनियम क्रांतिकारी था क्योंकि इसने बहुविवाह पर रोक लगा दी, अंतरजातीय विवाह को वैध कर दिया, और लड़कियों के लिए विवाह की न्यूनतम आयु 14 और लड़कों के लिए 18 वर्ष निर्धारित की।",
+      "fact": "💡 **Interesting Fact**\n\n- Ironically, the promoter of the act, Keshab Chandra Sen, later violated the act's principles by marrying off his underage daughter to the minor Maharaja of Cooch Behar, leading to a split in the Brahmo Samaj.\n\n💡 **रोचक तथ्य**\n\n- विडंबना यह है कि इस अधिनियम के प्रवर्तक केशव चंद्र सेन ने बाद में अपनी नाबालिग बेटी का विवाह कूच बिहार के नाबालिग महाराजा से करके इस अधिनियम के सिद्धांतों का उल्लंघन किया, जिससे ब्रह्म समाज में विभाजन हो गया।"
+    }
+  },
+  {
+    "id": "HIS1812",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags":[
+      "Ghadar Party",
+      "Lala Hardayal",
+      "Revolutionaries"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Where was Ghadar Party established?",
+    "question_hi": "गदर पार्टी की स्थापना कहाँ हुई थी ?",
+    "options":[
+      "England",
+      "USA",
+      "France",
+      "Germany"
+    ],
+    "options_hi":[
+      "इग्लैंड",
+      "संयुक्त राज्य अमरीका",
+      "फ्रांस",
+      "जर्मनी"
+    ],
+    "correct": "USA",
+    "explanation": {
+      "summary": "Correct Answer: B) USA\n\nसही उत्तर: B) संयुक्त राज्य अमरीका",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Ghadar Party was an international political movement organized by Indians to overthrow British rule in India. It was founded in 1913 in San Francisco, USA, with Lala Hardayal and Sohan Singh Bhakna as key figures.\n\n✅ **यह सही क्यों है**\n\n- गदर पार्टी भारत में ब्रिटिश शासन को उखाड़ फेंकने के लिए भारतीयों द्वारा आयोजित एक अंतर्राष्ट्रीय राजनीतिक आंदोलन था। इसकी स्थापना 1913 में सैन फ्रांसिस्को, संयुक्त राज्य अमेरिका में हुई थी, जिसके प्रमुख नेता लाला हरदयाल और सोहन सिंह भकना थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While revolutionary activities took place in England (India House) and Germany (Berlin Committee), the Ghadar Party explicitly originated on the Pacific Coast of North America (USA and Canada).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यद्यपि क्रांतिकारी गतिविधियां इंग्लैंड (इंडिया हाउस) और जर्मनी (बर्लिन समिति) में भी हुईं, गदर पार्टी विशेष रूप से उत्तरी अमेरिका (यूएसए और कनाडा) के प्रशांत तट पर उत्पन्न हुई थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- The party published a weekly paper called 'The Ghadar', whose masthead boldly stated: 'Enemy of the British Rule'.\n\n📝 **निष्कर्ष**\n\n- पार्टी ने 'द गदर' नामक एक साप्ताहिक समाचार पत्र प्रकाशित किया, जिसके मास्टहेड पर साहसपूर्वक लिखा था: 'ब्रिटिश राज का दुश्मन'।",
+      "fact": "💡 **Interesting Fact**\n\n- The Komagata Maru incident in 1914, involving a Japanese ship carrying Indian immigrants being turned away from Canada, heavily fueled the Ghadarites' anger against the British Empire.\n\n💡 **रोचक तथ्य**\n\n- 1914 में कोमागाटा मारू की घटना, जिसमें भारतीय प्रवासियों को ले जा रहे एक जापानी जहाज को कनाडा से वापस भेज दिया गया था, ने ब्रिटिश साम्राज्य के खिलाफ गदर पार्टी के गुस्से को काफी बढ़ा दिया था।"
+    }
+  },
+  {
+    "id": "HIS1813",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Post-Gupta Period"
+    },
+    "tags":[
+      "Pala Dynasty",
+      "Vikramshila",
+      "Education"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Ancient University of Vikramshila was founded by which ruler of Pala dynasty?",
+    "question_hi": "विक्रमशीला प्राचीन विश्वविद्यालय की स्थापना किस पाला वंश के शासक ने की थी?",
+    "options":[
+      "Ramapala",
+      "Devapala",
+      "Gopala",
+      "Dharmapala"
+    ],
+    "options_hi":[
+      "रामपाल",
+      "देवपाल",
+      "गोपाल",
+      "धर्मपाल"
+    ],
+    "correct": "Dharmapala",
+    "explanation": {
+      "summary": "Correct Answer: D) Dharmapala\n\nसही उत्तर: D) धर्मपाल",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Vikramshila University, one of the three most important Buddhist learning centers in ancient India (along with Nalanda and Odantapuri), was established by the Pala King Dharmapala in the late 8th century CE in present-day Bihar.\n\n✅ **यह सही क्यों है**\n\n- प्राचीन भारत में तीन सबसे महत्वपूर्ण बौद्ध शिक्षण केंद्रों में से एक, विक्रमशिला विश्वविद्यालय की स्थापना पाल राजा धर्मपाल ने 8वीं शताब्दी के उत्तरार्ध में वर्तमान बिहार में की थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Gopala was the founder of the Pala dynasty and established Odantapuri. Devapala and Ramapala were later rulers of the dynasty.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- गोपाल पाल वंश के संस्थापक थे और उन्होंने ओदंतपुरी की स्थापना की थी। देवपाल और रामपाल बाद के शासक थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Vikramshila was particularly famous for specialized training in Tantrism (Vajrayana Buddhism) and sent many scholars to Tibet to spread Buddhism.\n\n📝 **निष्कर्ष**\n\n- विक्रमशिला विशेष रूप से तांत्रिक (वज्रयान बौद्ध धर्म) में विशेष प्रशिक्षण के लिए प्रसिद्ध था और बौद्ध धर्म का प्रसार करने के लिए कई विद्वानों को तिब्बत भेजा था।",
+      "fact": "💡 **Interesting Fact**\n\n- Like Nalanda, Vikramshila University was brutally destroyed by the invading forces of Bakhtiyar Khalji around 1193 CE.\n\n💡 **रोचक तथ्य**\n\n- नालंदा की तरह, विक्रमशिला विश्वविद्यालय को भी 1193 ईस्वी के आसपास बख्तियार खिलजी की हमलावर सेनाओं द्वारा क्रूरतापूर्वक नष्ट कर दिया गया था।"
+    }
+  },
+  {
+    "id": "HIS1814",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Mahajanapadas & Magadha Empire"
+    },
+    "tags":[
+      "Magadha",
+      "Rajgir",
+      "Bihar"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The first capital of Magadha Kingdom before Pataliputra was",
+    "question_hi": "मगध वंश की राजधानी पाटलिपुत्र के पूर्व कहाँ थी ?",
+    "options":[
+      "Nalanda",
+      "Rajgir",
+      "Vaishali",
+      "Champa"
+    ],
+    "options_hi":[
+      "नालंदा",
+      "राजगीर",
+      "वैशाली",
+      "चम्पा"
+    ],
+    "correct": "Rajgir",
+    "explanation": {
+      "summary": "Correct Answer: B) Rajgir\n\nसही उत्तर: B) राजगीर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Rajgir (ancient name Girivraja or Rajagriha) was the first capital of the ancient Magadha Kingdom under King Bimbisara. Later, Udayin (of the Haryanka dynasty) shifted the capital to Pataliputra.\n\n✅ **यह सही क्यों है**\n\n- राजगीर (प्राचीन नाम गिरिव्रज या राजगृह) राजा बिम्बिसार के अधीन प्राचीन मगध साम्राज्य की पहली राजधानी थी। बाद में, उदायिन (हर्यक वंश) ने राजधानी को पाटलिपुत्र स्थानांतरित कर दिया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Vaishali was the capital of the Vajjian confederacy. Champa was the capital of the Anga kingdom. Nalanda was an educational center, not a political capital.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- वैशाली वज्जि संघ की राजधानी थी। चम्पा अंग साम्राज्य की राजधानी थी। नालंदा एक शैक्षिक केंद्र था।",
+      "conclusion": "📝 **Concluding Note**\n\n- Rajgir was surrounded by five hills, providing excellent natural fortification against enemy invasions, which aided Magadha's early rise to power.\n\n📝 **निष्कर्ष**\n\n- राजगीर पांच पहाड़ियों से घिरा हुआ था, जो दुश्मनों के आक्रमणों के खिलाफ उत्कृष्ट प्राकृतिक किलेबंदी प्रदान करता था, जिससे मगध की शक्ति बढ़ने में मदद मिली।",
+      "fact": "💡 **Interesting Fact**\n\n- The First Buddhist Council was held in the Saptaparni Cave in Rajgir immediately after the Mahaparinirvana of Lord Buddha.\n\n💡 **रोचक तथ्य**\n\n- भगवान बुद्ध के महापरिनिर्वाण के तुरंत बाद राजगीर की सप्तपर्णी गुफा में प्रथम बौद्ध संगीति आयोजित की गई थी।"
+    }
+  },
+  {
+    "id": "HIS1815",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Tribal & Peasant Uprisings"
+    },
+    "tags":[
+      "Kisan Sabha",
+      "Peasants",
+      "Bihar"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Bihar Provincial Kisan Sabha was founded by",
+    "question_hi": "बिहार प्रांतीय किसान सभा की स्थापना की गयी थी",
+    "options":[
+      "Jaiprakash Narayan",
+      "Swami Sahajanand Saraswati",
+      "Rajendra Prasad",
+      "Shri Krishna Sinha"
+    ],
+    "options_hi":[
+      "जय प्रकाश नारायण द्वारा",
+      "स्वामी सहजानंद सरस्वती द्वारा",
+      "राजेन्द्र प्रसाद द्वारा",
+      "श्री कृष्ण सिन्हा द्वारा"
+    ],
+    "correct": "Swami Sahajanand Saraswati",
+    "explanation": {
+      "summary": "Correct Answer: B) Swami Sahajanand Saraswati\n\nसही उत्तर: B) स्वामी सहजानंद सरस्वती द्वारा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Swami Sahajanand Saraswati founded the Bihar Provincial Kisan Sabha (BPKS) in 1929 to organize peasants and raise their grievances regarding zamindari exploitation and occupancy rights.\n\n✅ **यह सही क्यों है**\n\n- स्वामी सहजानंद सरस्वती ने 1929 में किसानों को संगठित करने और जमींदारी शोषण और उनके अधिकारों के संबंध में उनकी शिकायतों को उठाने के लिए बिहार प्रांतीय किसान सभा (BPKS) की स्थापना की थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Jaiprakash Narayan, Rajendra Prasad, and Shri Krishna Sinha were great leaders from Bihar who worked closely on national and state issues, but the formal establishment of the Kisan Sabha was solely driven by Swami Sahajanand.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जयप्रकाश नारायण, राजेंद्र प्रसाद और श्री कृष्ण सिन्हा बिहार के महान नेता थे, लेकिन किसान सभा की औपचारिक स्थापना पूरी तरह से स्वामी सहजानंद द्वारा की गई थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- This regional success laid the foundation for the All India Kisan Sabha, which was formed in 1936 at Lucknow, with Swami Sahajanand as its first President.\n\n📝 **निष्कर्ष**\n\n- इस क्षेत्रीय सफलता ने अखिल भारतीय किसान सभा की नींव रखी, जिसका गठन 1936 में लखनऊ में किया गया था, जिसके प्रथम अध्यक्ष स्वामी सहजानंद थे।",
+      "fact": "💡 **Interesting Fact**\n\n- Subhas Chandra Bose and the Forward Bloc highly respected Swami Sahajanand, and Bose declared April 28 to be celebrated as 'All India Swami Sahajanand Day' when Swami ji was arrested during the freedom struggle.\n\n💡 **रोचक तथ्य**\n\n- सुभाष चंद्र बोस और फॉरवर्ड ब्लॉक स्वामी सहजानंद का बहुत सम्मान करते थे, और जब स्वतंत्रता संग्राम के दौरान स्वामी जी को गिरफ्तार किया गया था, तब बोस ने 28 अप्रैल को 'अखिल भारतीय स्वामी सहजानंद दिवस' के रूप में मनाने की घोषणा की थी।"
+    }
+  },
+  {
+    "id": "SGK650",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "India at a Glance",
+      "subTopic": "First in India (Male/Female)"
+    },
+    "tags":[
+      "Bihar",
+      "Chief Ministers",
+      "Polity"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The first Chief Minister of Bihar after independence was",
+    "question_hi": "आज़ादी के बाद बिहार के पहले मुख्यमंत्री कौन थे ?",
+    "options":[
+      "Jaiprakash Narayan",
+      "Dr. Anugrah Narayan Sinha",
+      "Shri Krishna Sinha",
+      "Dr. Rajendra Prasad"
+    ],
+    "options_hi":[
+      "जय प्रकाश नारायण",
+      "डॉ. अनुग्रह नारायण सिन्हा",
+      "श्री कृष्ण सिन्हा",
+      "डॉ. राजेन्द्र प्रसाद"
+    ],
+    "correct": "Shri Krishna Sinha",
+    "explanation": {
+      "summary": "Correct Answer: C) Shri Krishna Sinha\n\nसही उत्तर: C) श्री कृष्ण सिन्हा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Shri Krishna Sinha (popularly known as Sri Babu) was the first Chief Minister of the Indian state of Bihar, serving from 1946 until his death in 1961.\n\n✅ **यह सही क्यों है**\n\n- श्री कृष्ण सिन्हा (जिन्हें लोकप्रिय रूप से श्री बाबू के नाम से जाना जाता है) भारतीय राज्य बिहार के पहले मुख्यमंत्री थे, जिन्होंने 1946 से 1961 में अपनी मृत्यु तक सेवा की।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Dr. Rajendra Prasad became the first President of India. Dr. Anugrah Narayan Sinha was the first Deputy Chief Minister and Finance Minister of Bihar. Jaiprakash Narayan never held the CM office.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति बने। डॉ. अनुग्रह नारायण सिन्हा बिहार के पहले उपमुख्यमंत्री और वित्त मंत्री थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Sri Babu and Anugrah Babu are widely considered the architects of modern Bihar, leading the state through heavy industrialization (like the Barauni Refinery and Sindri Fertilizers).\n\n📝 **निष्कर्ष**\n\n- श्री बाबू और अनुग्रह बाबू को व्यापक रूप से आधुनिक बिहार का वास्तुकार माना जाता है, जिन्होंने राज्य में भारी औद्योगीकरण का नेतृत्व किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Under Shri Krishna Sinha's leadership, Bihar was the first state in India to abolish the Zamindari system.\n\n💡 **रोचक तथ्य**\n\n- श्री कृष्ण सिन्हा के नेतृत्व में, बिहार जमींदारी व्यवस्था को खत्म करने वाला भारत का पहला राज्य था।"
+    }
+  },
+  {
+    "id": "HIS1816",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Post-Gupta Period"
+    },
+    "tags": [
+      "Pala Dynasty",
+      "Buddhism",
+      "Bengal"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Palas of Bengal and Bihar were Patrons of",
+    "question_hi": "बंगाल एवं बिहार के पाल किस धर्म के अनुयायी थे ?",
+    "options":[
+      "Vaishnavism",
+      "Shaivism",
+      "Buddhism",
+      "Jainism"
+    ],
+    "options_hi":[
+      "वैष्णव धर्म",
+      "शैव धर्म",
+      "बौद्ध धर्म",
+      "जैन धर्म"
+    ],
+    "correct": "Buddhism",
+    "explanation": {
+      "summary": "Correct Answer: C) Buddhism\n\nसही उत्तर: C) बौद्ध धर्म",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Pala dynasty rulers were great patrons of Mahayana and Vajrayana Buddhism. They supported great monastic universities like Nalanda, Vikramshila, and Odantapuri.\n\n✅ **यह सही क्यों है**\n\n- पाल वंश के शासक महायान और वज्रयान बौद्ध धर्म के महान संरक्षक थे। उन्होंने नालंदा, विक्रमशिला और ओदंतपुरी जैसे महान मठ विश्वविद्यालयों का समर्थन किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While they were tolerant of Shaivism and Vaishnavism (Hinduism), their direct and primary royal patronage that defined their era was explicitly towards Buddhism.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हालांकि वे शैव और वैष्णव धर्म (हिंदू धर्म) के प्रति सहिष्णु थे, लेकिन उनका प्रत्यक्ष और प्राथमिक शाही संरक्षण स्पष्ट रूप से बौद्ध धर्म के प्रति था।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Pala period is considered the golden era of Bengal, marking the last great stronghold of Buddhism in the Indian subcontinent before the Islamic invasions.\n\n📝 **निष्कर्ष**\n\n- पाल काल को बंगाल का स्वर्ण युग माना जाता है, जो इस्लामी आक्रमणों से पहले भारतीय उपमहाद्वीप में बौद्ध धर्म का अंतिम महान गढ़ था।",
+      "fact": "💡 **Interesting Fact**\n\n- The great Buddhist monk Atisha Dipankara, who went to Tibet and reformed Tibetan Buddhism, was associated with the Vikramshila university during the Pala era.\n\n💡 **रोचक तथ्य**\n\n- महान बौद्ध भिक्षु अतीश दीपांकर, जो तिब्बत गए और तिब्बती बौद्ध धर्म में सुधार किया, पाल युग के दौरान विक्रमशिला विश्वविद्यालय से जुड़े थे।"
+    }
+  },
+  {
+    "id": "HIS1817",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags":[
+      "Purna Swaraj",
+      "INC Session",
+      "Lahore"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "When did the Congress Party Pass the proposal of independence of India for the first time?",
+    "question_hi": "किस वर्ष कांग्रेस पार्टी ने स्वाधीनता के प्रस्ताव को पारित कराया था ?",
+    "options":[
+      "1935",
+      "1915",
+      "1942",
+      "1929"
+    ],
+    "options_hi":[
+      "1935",
+      "1915",
+      "1942",
+      "1929"
+    ],
+    "correct": "1929",
+    "explanation": {
+      "summary": "Correct Answer: D) 1929\n\nसही उत्तर: D) 1929",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Indian National Congress officially passed the historic 'Purna Swaraj' (Complete Independence) resolution at its Lahore session in December 1929, under the presidency of Jawaharlal Nehru.\n\n✅ **यह सही क्यों है**\n\n- भारतीय राष्ट्रीय कांग्रेस ने आधिकारिक तौर पर दिसंबर 1929 में जवाहरलाल नेहरू की अध्यक्षता में अपने लाहौर अधिवेशन में ऐतिहासिक 'पूर्ण स्वराज्य' प्रस्ताव पारित किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 1942 is famous for the Quit India Movement. 1935 is known for the Government of India Act. Before 1929, the INC's demand was mostly restricted to 'Dominion Status', not complete independence.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 1942 भारत छोड़ो आंदोलन के लिए प्रसिद्ध है। 1929 से पहले, कांग्रेस की मांग ज्यादातर 'डोमिनियन स्टेटस' तक सीमित थी, पूर्ण स्वतंत्रता तक नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Following this resolution, January 26, 1930, was celebrated as the first Independence Day, which is why India's Constitution was later enacted on January 26, 1950.\n\n📝 **निष्कर्ष**\n\n- इस प्रस्ताव के बाद, 26 जनवरी, 1930 को प्रथम स्वतंत्रता दिवस के रूप में मनाया गया, यही कारण है कि बाद में 26 जनवरी, 1950 को भारत का संविधान लागू किया गया।",
+      "fact": "💡 **Interesting Fact**\n\n- On the midnight of December 31, 1929, Jawaharlal Nehru hoisted the newly adopted tricolor flag of India on the banks of the Ravi river in Lahore to mark the passing of the resolution.\n\n💡 **रोचक तथ्य**\n\n- 31 दिसंबर, 1929 की आधी रात को, जवाहरलाल नेहरू ने प्रस्ताव पारित होने के उपलक्ष्य में लाहौर में रावी नदी के तट पर भारत का नया अपनाया गया तिरंगा झंडा फहराया।"
+    }
+  },
+  {
+    "id": "HIS1818",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags":[
+      "Gandhi-Irwin",
+      "Pact",
+      "Round Table"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In which year the famous Gandhi-Irwin Pact took place?",
+    "question_hi": "किस वर्ष गांधी-इर्विन समझौता हुआ था ?",
+    "options":[
+      "1932",
+      "1930",
+      "1931",
+      "1929"
+    ],
+    "options_hi":[
+      "1932",
+      "1930",
+      "1931",
+      "1929"
+    ],
+    "correct": "1931",
+    "explanation": {
+      "summary": "Correct Answer: C) 1931\n\nसही उत्तर: C) 1931",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Gandhi-Irwin Pact was signed on March 5, 1931. It was a political agreement between Mahatma Gandhi and Lord Irwin, the Viceroy of India, leading to the suspension of the Civil Disobedience Movement.\n\n✅ **यह सही क्यों है**\n\n- गांधी-इरविन समझौता 5 मार्च 1931 को हस्ताक्षरित किया गया था। यह महात्मा गांधी और भारत के वायसराय लॉर्ड इरविन के बीच एक राजनीतिक समझौता था, जिसके कारण सविनय अवज्ञा आंदोलन को निलंबित कर दिया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 1930 saw the Dandi March and the start of the Civil Disobedience Movement. 1932 is known for the Poona Pact between Gandhi and Ambedkar.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 1930 में दांडी मार्च और सविनय अवज्ञा आंदोलन शुरू हुआ। 1932 को गांधी और अम्बेडकर के बीच पूना पैक्ट के लिए जाना जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The pact paved the way for the Indian National Congress to participate in the Second Round Table Conference in London.\n\n📝 **निष्कर्ष**\n\n- इस समझौते ने भारतीय राष्ट्रीय कांग्रेस के लिए लंदन में दूसरे गोलमेज सम्मेलन में भाग लेने का मार्ग प्रशस्त किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Sarojini Naidu famously referred to Mahatma Gandhi and Lord Irwin as the 'Two Mahatmas' due to the respectful nature of the negotiations.\n\n💡 **रोचक तथ्य**\n\n- सरोजिनी नायडू ने सम्मानजनक बातचीत के कारण महात्मा गांधी और लॉर्ड इरविन को 'दो महात्मा' कहा था।"
+    }
+  },
+  {
+    "id": "HIS1819",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Socio-Religious Reform Movements"
+    },
+    "tags":[
+      "Dalit Movement",
+      "Jagjivan Ram",
+      "Untouchability"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "All India Depressed Classes League was established by",
+    "question_hi": "अखिल भारतीय दलित वर्ग की स्थापना की गई थी",
+    "options":[
+      "M. Jyotiba Phule",
+      "Babu Jagjivan Ram",
+      "N.S. Kajrolkar",
+      "Dr. B.R. Ambedkar"
+    ],
+    "options_hi":[
+      "म. ज्योतिबा फूले द्वारा",
+      "बाबू जगजीवन राम द्वारा",
+      "एन. एस. काजरोलकर द्वारा",
+      "डॉ. बी. आर. अम्बेडकर द्वारा"
+    ],
+    "correct": "Babu Jagjivan Ram",
+    "explanation": {
+      "summary": "Correct Answer: B) Babu Jagjivan Ram\n\nसही उत्तर: B) बाबू जगजीवन राम द्वारा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The 'All India Depressed Classes League' was established in 1935 by Babu Jagjivan Ram. It was an organization dedicated to attaining equality for untouchables and actively supported the Indian National Congress.\n\n✅ **यह सही क्यों है**\n\n- 'अखिल भारतीय दलित वर्ग लीग' की स्थापना 1935 में बाबू जगजीवन राम ने की थी। यह अछूतों के लिए समानता प्राप्त करने के लिए समर्पित एक संगठन था और सक्रिय रूप से भारतीय राष्ट्रीय कांग्रेस का समर्थन करता था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Dr. B.R. Ambedkar founded the 'All India Depressed Classes Federation' (1930) and the Scheduled Castes Federation (1942). The term 'League' specifically belongs to Jagjivan Ram. Jyotiba Phule founded the Satyashodhak Samaj.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- डॉ. बी.आर. अम्बेडकर ने 'फेडरेशन' की स्थापना की थी। 'लीग' शब्द विशेष रूप से जगजीवन राम का है। ज्योतिबा फुले ने सत्यशोधक समाज की स्थापना की थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- The distinction between Ambedkar's 'Federation' and Jagjivan Ram's 'League' is a frequently tested nuance in modern history exams.\n\n📝 **निष्कर्ष**\n\n- अम्बेडकर के 'फेडरेशन' और जगजीवन राम के 'लीग' के बीच का अंतर आधुनिक इतिहास की परीक्षाओं में अक्सर पूछा जाने वाला विषय है।",
+      "fact": "💡 **Interesting Fact**\n\n- Babu Jagjivan Ram holds the record for the longest-serving cabinet minister in India, serving over three decades in various ministries from 1946 to 1979.\n\n💡 **रोचक तथ्य**\n\n- बाबू जगजीवन राम के पास भारत में सबसे लंबे समय तक कैबिनेट मंत्री के रूप में कार्य करने का रिकॉर्ड है, जिन्होंने 1946 से 1979 तक विभिन्न मंत्रालयों में तीन दशकों से अधिक समय तक सेवा की।"
+    }
+  },
+  {
+    "id": "HIS1820",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags": [
+      "Pakistan Resolution",
+      "Muslim League",
+      "Lahore"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The Pakistan Resolution was drafted by",
+    "question_hi": "पाकिस्तान प्रस्ताव का मसौदा तैयार किया गया था",
+    "options":[
+      "Fazlul Haque",
+      "Sikandar Hayat Khan",
+      "Muhammad Ali Jinnah",
+      "Rahmat Ali"
+    ],
+    "options_hi":[
+      "फजलूल हक द्वारा",
+      "सिकंदर हयात खान द्वारा",
+      "मुहम्मद अली जिनाह द्वारा",
+      "रहमत अली द्वारा"
+    ],
+    "correct": "Sikandar Hayat Khan",
+    "explanation": {
+      "summary": "Correct Answer: B) Sikandar Hayat Khan\n\nसही उत्तर: B) सिकंदर हयात खान द्वारा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The historic Lahore Resolution (often called the Pakistan Resolution) of 1940 was drafted by Sikandar Hayat Khan, the then Chief Minister of Punjab. It was subsequently presented in the Muslim League session by A.K. Fazlul Huq.\n\n✅ **यह सही क्यों है**\n\n- 1940 का ऐतिहासिक लाहौर प्रस्ताव (जिसे अक्सर पाकिस्तान प्रस्ताव कहा जाता है) पंजाब के तत्कालीन मुख्यमंत्री सिकंदर हयात खान द्वारा तैयार (ड्राफ्ट) किया गया था। बाद में इसे फजलुल हक द्वारा मुस्लिम लीग सत्र में प्रस्तुत किया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Fazlul Huq presented the resolution, he didn't draft it. Rahmat Ali coined the word 'Pakistan' in a 1933 pamphlet but wasn't the drafter of this resolution. Jinnah presided over the session.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- फजलुल हक ने प्रस्ताव प्रस्तुत किया था। रहमत अली ने 1933 में 'पाकिस्तान' शब्द गढ़ा था। जिन्ना ने सत्र की अध्यक्षता की थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Lahore Resolution demanded that Muslim-majority areas in northwestern and eastern India be grouped to constitute 'independent states'.\n\n📝 **निष्कर्ष**\n\n- लाहौर प्रस्ताव ने मांग की कि उत्तर-पश्चिमी और पूर्वी भारत में मुस्लिम बहुल क्षेत्रों को 'स्वतंत्र राज्यों' के गठन के लिए समूहीकृत किया जाए।",
+      "fact": "💡 **Interesting Fact**\n\n- Interestingly, the original text of the 1940 Lahore Resolution never explicitly used the word 'Pakistan'; the term was popularized by the press shortly afterward.\n\n💡 **रोचक तथ्य**\n\n- दिलचस्प बात यह है कि 1940 के लाहौर प्रस्ताव के मूल पाठ में कभी भी 'पाकिस्तान' शब्द का स्पष्ट रूप से उपयोग नहीं किया गया था; इस शब्द को कुछ ही समय बाद प्रेस द्वारा लोकप्रिय बनाया गया था।"
+    }
+  },
+  {
+    "id": "HIS1821",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags":[
+      "INA",
+      "Subhas Chandra Bose",
+      "Mohan Singh"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In which year was the Indian National Army founded?",
+    "question_hi": "किस वर्ष आई. एन. ए. की स्थापना हुई थी ?",
+    "options":[
+      "1943",
+      "1941",
+      "1942",
+      "1940"
+    ],
+    "options_hi":[
+      "1943",
+      "1941",
+      "1942",
+      "1940"
+    ],
+    "correct": "1942",
+    "explanation": {
+      "summary": "Correct Answer: C) 1942\n\nसही उत्तर: C) 1942",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The First Indian National Army (INA) was formed in August 1942 in Singapore by Captain Mohan Singh, primarily comprising Indian prisoners of war captured by Japan during the Malayan campaign.\n\n✅ **यह सही क्यों है**\n\n- पहली आजाद हिन्द फौज (INA) का गठन अगस्त 1942 में सिंगापुर में कैप्टन मोहन सिंह द्वारा किया गया था, जिसमें मुख्य रूप से मलय अभियान के दौरान जापान द्वारा पकड़े गए भारतीय युद्ध बंदी शामिल थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Subhas Chandra Bose famously revived and took command of the INA in 1943, leading it into active combat, the original foundation strictly dates back to 1942.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यद्यपि सुभाष चंद्र बोस ने 1943 में प्रसिद्ध रूप से आईएनए को पुनर्जीवित किया और इसकी कमान संभाली, लेकिन इसकी मूल स्थापना 1942 की है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The INA played a massive psychological role in the freedom struggle, culminating in the famous Red Fort trials of INA officers which united the entire nation in 1945-46.\n\n📝 **निष्कर्ष**\n\n- आईएनए ने स्वतंत्रता संग्राम में बड़े पैमाने पर मनोवैज्ञानिक भूमिका निभाई, जिसकी परिणति आईएनए अधिकारियों के लाल किला परीक्षणों में हुई, जिसने 1945-46 में पूरे देश को एकजुट कर दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- The INA had an all-women combat regiment called the Rani of Jhansi Regiment, led by Captain Lakshmi Sahgal, which was extremely rare for armies during World War II.\n\n💡 **रोचक तथ्य**\n\n- INA में एक महिला लड़ाकू रेजीमेंट थी जिसे रानी झांसी रेजीमेंट कहा जाता था, जिसका नेतृत्व कैप्टन लक्ष्मी सहगल ने किया था, जो द्वितीय विश्व युद्ध के दौरान सेनाओं के लिए अत्यंत दुर्लभ था।"
+    }
+  },
+  {
+    "id": "HIS1822",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Constitutional Development in British India"
+    },
+    "tags":[
+      "Independence",
+      "Clement Attlee",
+      "British PM"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Who was the Prime Minister of England when India attained independence?",
+    "question_hi": "भारत की आजादी के समय इंग्लैंड का प्रधानमंत्री कौन था ?",
+    "options":[
+      "W. Churchill",
+      "Clement Attlee",
+      "Harold Macmillan",
+      "None of these"
+    ],
+    "options_hi":[
+      "विस्टन चर्चिल",
+      "क्लीमेंट एटली",
+      "हैरोल्ड मैकमिलन",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Clement Attlee",
+    "explanation": {
+      "summary": "Correct Answer: B) Clement Attlee\n\nसही उत्तर: B) क्लीमेंट एटली",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Clement Attlee, representing the Labour Party, became the Prime Minister of the United Kingdom following the July 1945 elections. He was in power on August 15, 1947, when India became independent.\n\n✅ **यह सही क्यों है**\n\n- लेबर पार्टी का प्रतिनिधित्व करने वाले क्लीमेंट एटली जुलाई 1945 के चुनावों के बाद यूनाइटेड किंगडम के प्रधान मंत्री बने। 15 अगस्त, 1947 को जब भारत स्वतंत्र हुआ तब वे सत्ता में थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Winston Churchill was the Prime Minister during most of World War II but lost the 1945 election. Harold Macmillan became Prime Minister much later, in 1957.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- विंस्टन चर्चिल द्वितीय विश्व युद्ध के दौरान प्रधान मंत्री थे लेकिन 1945 का चुनाव हार गए। हैरोल्ड मैकमिलन बहुत बाद में, 1957 में प्रधान मंत्री बने।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Labour Party under Attlee was much more sympathetic to Indian independence compared to Churchill's Conservative Party, fast-tracking the transfer of power.\n\n📝 **निष्कर्ष**\n\n- एटली के नेतृत्व वाली लेबर पार्टी चर्चिल की कंजर्वेटिव पार्टी की तुलना में भारतीय स्वतंत्रता के प्रति अधिक सहानुभूति रखती थी, जिसने सत्ता हस्तांतरण को गति दी।",
+      "fact": "💡 **Interesting Fact**\n\n- It was Clement Attlee who historically announced in the House of Commons on February 20, 1947, that the British would leave India no later than June 1948 (though Mountbatten advanced it to August 1947).\n\n💡 **रोचक तथ्य**\n\n- क्लीमेंट एटली ने ही 20 फरवरी, 1947 को हाउस ऑफ कॉमन्स में घोषणा की थी कि अंग्रेज जून 1948 तक भारत छोड़ देंगे (हालाँकि माउंटबेटन ने इसे अगस्त 1947 तक आगे बढ़ा दिया था)।"
+    }
+  },
+  {
+    "id": "POL685",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Framework",
+      "subTopic": "Making of the Constitution"
+    },
+    "tags":[
+      "Independence Act",
+      "1947",
+      "Constitution"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The Indian Independent Act, 1947 came into force on",
+    "question_hi": "भारतीय स्वतंत्रता अधिनियम 1947 कब लागू हुआ?",
+    "options":[
+      "August 14, 1947",
+      "July 10, 1947",
+      "July 18, 1947",
+      "July 4, 1947"
+    ],
+    "options_hi":[
+      "August 14, 1947",
+      "July 10, 1947",
+      "July 18, 1947",
+      "July 4, 1947"
+    ],
+    "correct": "July 18, 1947",
+    "explanation": {
+      "summary": "Correct Answer: C) July 18, 1947\n\nसही उत्तर: C) July 18, 1947",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Indian Independence Bill was introduced in the British Parliament on July 4, 1947. It received Royal Assent from King George VI and came into force legally on July 18, 1947.\n\n✅ **यह सही क्यों है**\n\n- भारतीय स्वतंत्रता विधेयक 4 जुलाई, 1947 को ब्रिटिश संसद में पेश किया गया था। इसे राजा जॉर्ज षष्ठम से शाही स्वीकृति मिली और यह 18 जुलाई, 1947 को कानूनी रूप से लागू हुआ।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- July 4 was the date of introduction. August 14/15 were the appointed dates for the actual partition and creation of the two independent dominions of Pakistan and India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 4 जुलाई पेश करने की तिथि थी। 14/15 अगस्त पाकिस्तान और भारत के दो स्वतंत्र प्रभुत्वों के वास्तविक विभाजन और निर्माण की निर्धारित तिथियाँ थीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Act provided the legal framework to formally end British rule in India and divide British India into two sovereign states.\n\n📝 **निष्कर्ष**\n\n- इस अधिनियम ने भारत में ब्रिटिश शासन को औपचारिक रूप से समाप्त करने और ब्रिटिश भारत को दो संप्रभु राज्यों में विभाजित करने के लिए कानूनी ढांचा प्रदान किया।",
+      "fact": "💡 **Interesting Fact**\n\n- The Act officially stripped the British monarch of the title 'Emperor of India', severing the ultimate imperial link established after the 1857 revolt.\n\n💡 **रोचक तथ्य**\n\n- इस अधिनियम ने आधिकारिक तौर पर ब्रिटिश सम्राट से 'भारत के सम्राट' की उपाधि छीन ली, जिसने 1857 के विद्रोह के बाद स्थापित शाही संबंध को तोड़ दिया।"
+    }
+  },
+  {
+    "id": "POL686",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional & Non-Constitutional Bodies",
+      "subTopic": "Election Commission"
+    },
+    "tags":[
+      "Electoral Reforms",
+      "Committees",
+      "Polity"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "What is the correct chronological sequence of the below? Choose the right answers from the codes:\n1) Joint Parliamentary Committee on Reform of Electoral Law.\n2) Goswami Committee on Electoral Reforms.\n3) Tarkunde Committee on Electoral Reforms.\n4) Election Commission Campaign against Criminalization of Politics.",
+    "question_hi": "नीचे दिए गए प्रश्नों का सही कालानुक्रमिक क्रम क्या है? नीचे दिए गए कूटों में से सही उत्तर चुनिएः\n1) चुनावी कानून सुधार पर संयुक्त संसदीय समिति ।\n2) चुनावी सुधारों पर गोस्वामी समिति ।\n3) चुनावी सुधारों पर तारकुंडे समिति ।\n4) राजनीति के अपराधीकरण के विरूद्ध चुनाव आयोग का अभियान ।",
+    "options":[
+      "4, 1, 3, 2",
+      "4, 1, 2, 3",
+      "1, 4, 2, 3",
+      "1, 3, 2, 4"
+    ],
+    "options_hi":[
+      "4, 1, 3, 2",
+      "4, 1, 2, 3",
+      "1, 4, 2, 3",
+      "1, 3, 2, 4"
+    ],
+    "correct": "1, 3, 2, 4",
+    "explanation": {
+      "summary": "Correct Answer: D) 1, 3, 2, 4\n\nसही उत्तर: D) 1, 3, 2, 4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- 1. The Joint Parliamentary Committee on Reform of Electoral Law was formed in 1971.\n- 3. The Tarkunde Committee (an unofficial committee set up by JP Narayan) submitted its report in 1974-75.\n- 2. The Dinesh Goswami Committee on Electoral Reforms was appointed in 1990.\n- 4. The Election Commission's vigorous campaign against the criminalization of politics took prominence in 1997.\n\n✅ **यह सही क्यों है**\n\n- 1. चुनावी कानून में सुधार पर संयुक्त संसदीय समिति का गठन 1971 में किया गया था।\n- 3. तारकुंडे समिति ने 1974-75 में अपनी रिपोर्ट सौंपी थी।\n- 2. दिनेश गोस्वामी समिति 1990 में नियुक्त की गई थी।\n- 4. राजनीति के अपराधीकरण के खिलाफ चुनाव आयोग का अभियान 1997 में प्रमुखता से चला।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any sequence that does not place the 1971 JPC first and the 1997 EC Campaign last disrupts the historical progression of electoral reforms in India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अनुक्रम जो 1971 के जेपीसी को पहले और 1997 के ईसी अभियान को अंतिम स्थान पर नहीं रखता है, भारत में चुनावी सुधारों की ऐतिहासिक प्रगति को बाधित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- These committees sequentially addressed major issues like lowering the voting age, preventing booth capturing, and checking the nexus between politicians and criminals.\n\n📝 **निष्कर्ष**\n\n- इन समितियों ने क्रमिक रूप से मतदान की आयु कम करने, बूथ कैप्चरिंग को रोकने और राजनेताओं और अपराधियों के बीच साठगांठ को रोकने जैसे प्रमुख मुद्दों को संबोधित किया।",
+      "fact": "💡 **Interesting Fact**\n\n- The Dinesh Goswami Committee (1990) was the one that strongly recommended the mandatory use of Electronic Voting Machines (EVMs) to stop ballot paper tampering.\n\n💡 **रोचक तथ्य**\n\n- दिनेश गोस्वामी समिति (1990) ने ही मतपत्रों में छेड़छाड़ को रोकने के लिए इलेक्ट्रॉनिक वोटिंग मशीन (EVM) के अनिवार्य उपयोग की जोरदार सिफारिश की थी।"
+    }
+  },
+  {
+    "id": "POL687",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Framework",
+      "subTopic": "Union & its Territory (Art 1-4)"
+    },
+    "tags":[
+      "Article 1",
+      "Union of States",
+      "Constitution"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In the question given below, there are two statements marked as Assertion (A) and Reason (R). Mark your answer as per the codes provided:\nAssertion (A): The Constitution has described India as a 'Union of States', and not a Federation.\nReason (R): Indian polity is a result of agreement between States to form an indestructible Union.",
+    "question_hi": "नीचे दिए गए प्रश्न में, अभिकथन (A) और कारण (R) के रूप में चिह्नित दो कथन दिए गए हैं।\nअभिकथन (A): संविधान ने भारत को 'राज्यों का संघ' बताया है, न कि एक संघ ।\nकारण (R): भारतीय राजनीति एक अविनाशी संघ बनाने के लिए राज्यों के बीच समझौते का परिणाम है।",
+    "options":[
+      "(A) is false, while (R) is true",
+      "Both (A) and (R) are true but (R) is not the correct explanation for (A)",
+      "(A) is true, while (R) is false",
+      "Both (A) and (R) are true and (R) is the correct explanation for (A)"
+    ],
+    "options_hi":[
+      "(A) असत्य है, जबकि (R) सत्य है।",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R), (A) का सही स्पष्टीकरण नहीं है।",
+      "(A) सत्य है, जबकि (R) असत्य है।",
+      "(A) और (R) दोनों सत्य हैं और (R), (A) का सही स्पष्टीकरण है।"
+    ],
+    "correct": "(A) is true, while (R) is false",
+    "explanation": {
+      "summary": "Correct Answer: C) (A) is true, while (R) is false\n\nसही उत्तर: C) (A) सत्य है, जबकि (R) असत्य है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Assertion (A) is true: Article 1 states 'India, that is Bharat, shall be a Union of States'. \n- Reason (R) is false: Dr. B.R. Ambedkar explicitly clarified that the Indian Federation is NOT the result of an agreement among the states (unlike the USA), and states do not have the right to secede.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन (A) सत्य है: अनुच्छेद 1 कहता है 'भारत, जो कि भारत है, राज्यों का एक संघ होगा'।\n- कारण (R) असत्य है: डॉ बी.आर. अम्बेडकर ने स्पष्ट किया कि भारतीय संघ राज्यों के बीच किसी समझौते का परिणाम नहीं है (जैसे अमेरिका में), और राज्यों को अलग होने का कोई अधिकार नहीं है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Claiming that the Indian Union is built on an 'agreement between States' fundamentally misrepresents the core unitary bias of the Indian Constitution.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह दावा करना कि भारतीय संघ 'राज्यों के बीच समझौते' पर बना है, मौलिक रूप से भारतीय संविधान के एकात्मक पूर्वाग्रह को गलत तरीके से प्रस्तुत करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- India is described as an 'indestructible Union of destructible states', meaning the Parliament can alter state boundaries, but states cannot leave the Union.\n\n📝 **निष्कर्ष**\n\n- भारत को 'विनाशकारी राज्यों का अविनाशी संघ' कहा जाता है, जिसका अर्थ है कि संसद राज्य की सीमाओं को बदल सकती है, लेकिन राज्य संघ को नहीं छोड़ सकते।",
+      "fact": "💡 **Interesting Fact**\n\n- The word 'Federation' is nowhere mentioned in the entire text of the Indian Constitution.\n\n💡 **रोचक तथ्य**\n\n- 'फेडरेशन' (संघ) शब्द का भारतीय संविधान के पूरे पाठ में कहीं भी उल्लेख नहीं किया गया है।"
+    }
+  },
+  {
+    "id": "POL688",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "State Government",
+      "subTopic": "Chief Minister & State Council of Ministers"
+    },
+    "tags":[
+      "Chief Minister",
+      "Governor",
+      "Polity"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements is/are incorrect?\n1) The Constitution does not contain any specific procedure for the selection and appointment of the Chief Minister.\n2) Upon death of incumbent Chief Minister, if the ruling party appoints a new leader, then the Governor has to appoint the new leader as Chief Minister.",
+    "question_hi": "निम्नलिखित कथनों में से कौन सा/से गलत है/हैं?\n1) संविधान में मुख्यमंत्री के चयन और नियुक्ति के लिए कोई विशिष्ट प्रक्रिया नहीं है।\n2) वर्तमान मुख्यमंत्री की मृत्यु के बाद, यदि सत्तारूढ़ दल किसी नए नेता की नियुक्ति करता है, तो राज्यपाल को नए नेता को मुख्यमंत्री नियुक्त करना होगा।",
+    "options":[
+      "Neither 1 nor 2",
+      "2 only",
+      "Both 1 and 2",
+      "1 only"
+    ],
+    "options_hi":[
+      "न तो 1 और न ही 2",
+      "केवल 2",
+      "1 और 2 दोनों",
+      "केवल 1"
+    ],
+    "correct": "2 only",
+    "explanation": {
+      "summary": "Correct Answer: B) 2 only\n\nसही उत्तर: B) केवल 2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: Article 164 only says the CM shall be appointed by the Governor without detailing a specific procedure.\n- Statement 2 is constitutionally incorrect: While by political convention a Governor usually appoints the new leader chosen by the ruling party after a CM's death, the Governor is NOT constitutionally bound to do so ('has to' is false). The Governor exercises individual situational discretion.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: अनुच्छेद 164 केवल कहता है कि मुख्यमंत्री की नियुक्ति राज्यपाल द्वारा की जाएगी।\n- कथन 2 संवैधानिक रूप से गलत है: यद्यपि राजनीतिक परंपरा के अनुसार राज्यपाल मुख्यमंत्री की मृत्यु के बाद सत्तारूढ़ दल द्वारा चुने गए नए नेता को नियुक्त करता है, लेकिन राज्यपाल संवैधानिक रूप से ऐसा करने के लिए बाध्य ('नियुक्त करना होगा') नहीं है। राज्यपाल व्यक्तिगत विवेकाधिकार का प्रयोग करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Selecting 'Neither' implies that Statement 2 is completely true, which ignores the discretionary powers granted to the Governor under the Constitution in crisis situations.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 'न तो 1 और न ही 2' का चयन करने का अर्थ है कि कथन 2 पूरी तरह से सत्य है, जो संकट की स्थितियों में संविधान के तहत राज्यपाल को दी गई विवेकाधीन शक्तियों की अनदेखी करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the difference between constitutional law (written text) and parliamentary conventions (unwritten practices) is key to solving advanced polity questions.\n\n📝 **निष्कर्ष**\n\n- संवैधानिक कानून (लिखित पाठ) और संसदीय परंपराओं (अलिखित प्रथाओं) के बीच अंतर को समझना राजनीति के उन्नत प्रश्नों को हल करने की कुंजी है।",
+      "fact": "💡 **Interesting Fact**\n\n- If a Chief Minister dies and leaves no clear successor, the Governor can use their individual discretion to appoint someone, who then has to prove their majority on the floor of the House within a set time.\n\n💡 **रोचक तथ्य**\n\n- यदि किसी मुख्यमंत्री की मृत्यु हो जाती है और कोई स्पष्ट उत्तराधिकारी नहीं बचता है, तो राज्यपाल किसी को भी नियुक्त करने के लिए अपने व्यक्तिगत विवेक का उपयोग कर सकता है, जिसे बाद में एक निर्धारित समय के भीतर सदन के पटल पर अपना बहुमत साबित करना होता है।"
+    }
+  }
+]
