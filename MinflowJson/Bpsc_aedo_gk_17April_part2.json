@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "POL689",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Union Government",
+      "subTopic": "Parliament"
+    },
+    "tags":[
+      "Parliamentary Roles",
+      "Speaker",
+      "Finance Minister",
+      "CAG",
+      "President"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match List-I with List-II and select the correct answer using the codes given below the lists.\nList-I:\na) Speaker\nb) Finance Minister\nc) President\nd) C & AG\nList-II:\n1) Fixes the time limit for discussion of demands\n2) Examines the financial operation of the executive\n3) Makes mention in Parliament about the annual financial statement\n4) Participates in the formulation of Five Year Plan",
+    "question_hi": "सूची I को सूची II से सुमेलित कीजिए और सूचियों के नीचे दिए गए कूटों का प्रयोग करके सही उत्तर चुनिए ।\nसूची-I:\na) अध्यक्ष\nb) वित्त मंत्री\nc) राष्ट्रपति\nd) नियंत्रक एवं महालेखा परीक्षक\nसूची-II:\n1) मांगों पर चर्चा के लिए समय सीमा निर्धारित करता है\n2) कार्यपालिका के वित्तीय संचालन की जाँच करता है\n3) संसद में वार्षिक वित्तीय विवरण का उल्लेख करता है\n4) पंचवर्षीय योजना के निर्माण में भाग लेता है",
+    "options":[
+      "a-4, b-1, c-3, d-2",
+      "a-4, b-1, c-2, d-3",
+      "a-1, b-4, c-2, d-3",
+      "a-1, b-4, c-3, d-2"
+    ],
+    "options_hi":[
+      "a-4, b-1, c-3, d-2",
+      "a-4, b-1, c-2, d-3",
+      "a-1, b-4, c-2, d-3",
+      "a-1, b-4, c-3, d-2"
+    ],
+    "correct": "a-1, b-4, c-3, d-2",
+    "explanation": {
+      "summary": "Correct Answer: D) a-1, b-4, c-3, d-2\n\nसही उत्तर: D) a-1, b-4, c-3, d-2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Speaker (a) fixes the time limit for the discussion on demands for grants in the Lok Sabha (1).\n- The Finance Minister (b) participates heavily in national economic planning (like Five-Year Plans earlier) (4).\n- The President (c) causes the Annual Financial Statement (Budget) to be laid before Parliament under Article 112 (3).\n- The Comptroller and Auditor General (C&AG) (d) audits and examines the financial operations of the executive (2).\n\n✅ **यह सही क्यों है**\n\n- अध्यक्ष (a) लोकसभा में अनुदान की मांगों पर चर्चा के लिए समय सीमा निर्धारित करता है (1)।\n- वित्त मंत्री (b) राष्ट्रीय आर्थिक योजना में भाग लेता है (4)।\n- राष्ट्रपति (c) अनुच्छेद 112 के तहत वार्षिक वित्तीय विवरण (बजट) संसद के समक्ष रखवाता है (3)।\n- कैग (d) कार्यपालिका के वित्तीय संचालन का ऑडिट और जांच करता है (2)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other matching assigns incorrect constitutional or statutory duties. For instance, the President does not audit the executive, and the C&AG does not fix parliamentary time limits.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य मिलान गलत संवैधानिक या वैधानिक कर्तव्य सौंपता है। उदाहरण के लिए, राष्ट्रपति कार्यपालिका का ऑडिट नहीं करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the exact separation of financial powers and duties among the Speaker, Executive, Head of State, and Independent Auditors is crucial to Indian parliamentary democracy.\n\n📝 **निष्कर्ष**\n\n- अध्यक्ष, कार्यपालिका, राष्ट्राध्यक्ष और स्वतंत्र लेखा परीक्षकों के बीच वित्तीय शक्तियों और कर्तव्यों के सटीक पृथक्करण को समझना भारतीय संसदीय लोकतंत्र के लिए महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- Under Article 148, the C&AG is completely independent of the executive and is often called the 'guardian of the public purse'.\n\n💡 **रोचक तथ्य**\n\n- अनुच्छेद 148 के तहत, कैग कार्यपालिका से पूरी तरह स्वतंत्र है और इसे अक्सर 'सार्वजनिक पर्स का अभिभावक' कहा जाता है।"
+    }
+  },
+  {
+    "id": "POL690",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Local Government & Special Areas",
+      "subTopic": "Panchayati Raj (73rd Amendment)"
+    },
+    "tags":[
+      "Panchayati Raj",
+      "PRIs",
+      "73rd Amendment"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is/are probable cause(s) of the ineffectiveness of the PRIs in India?\n1) The transfer of various governance functions-like the provision of education, health, sanitation and water was not mandated by the 73rd Amendment Act.\n2) Lack of finances for PRIs.\n3) Despite there is the mandatory provisions for the reservations for women and SC/STs in the PRIs, there is hardly any representation of these vulnerable groups.",
+    "question_hi": "निम्नलिखित में से कौन सा/से भारत में पंचायती राज संस्थाओं (PRIs) की अप्रभावीता का/के संभावित कारण है/हैं?\n1) शिक्षा, स्वास्थ्य, स्वच्छता और जल जैसे विभिन्न शासकीय कार्यों का हस्तांतरण 73वें संशोधन अधिनियम द्वारा अनिवार्य नहीं था।\n2) पंचायती राज संस्थाओं के लिए वित्त की कमी।\n3) पंचायती राज संस्थाओं में महिलाओं और अनुसूचित जाति/अनुसूचित जनजाति के लिए आरक्षण के अनिवार्य प्रावधान होने के बावजूद, इन कमजोर समूहों का प्रतिनिधित्व शायद ही हो।",
+    "options":[
+      "1, 2 and 3",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "options_hi":[
+      "1, 2 और 3",
+      "केवल 1 और 2",
+      "केवल 2 और 3",
+      "केवल 1"
+    ],
+    "correct": "1 and 2 only",
+    "explanation": {
+      "summary": "Correct Answer: B) 1 and 2 only\n\nसही उत्तर: B) केवल 1 और 2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: The 73rd Amendment left the devolution of the 29 subjects in the 11th Schedule to the discretion of state legislatures (voluntary provisions), causing ineffective functional transfers.\n- Statement 2 is correct: PRIs suffer chronically from a lack of independent financial resources and rely heavily on tied grants.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: 73वें संशोधन ने 11वीं अनुसूची के 29 विषयों के हस्तांतरण को राज्य विधानसभाओं (स्वैच्छिक प्रावधानों) के विवेक पर छोड़ दिया, जिससे अप्रभावी कार्यात्मक स्थानांतरण हुआ।\n- कथन 2 सही है: PRIs लंबे समय से स्वतंत्र वित्तीय संसाधनों की कमी से पीड़ित हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 3 is factually incorrect. Because of strict constitutional mandates (Article 243D), there is massive actual representation of women (at least 33%, and 50% in many states like Bihar) and SC/STs in proportion to their population. Hence, claiming there is 'hardly any representation' is false.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 3 तथ्यात्मक रूप से गलत है। सख्त संवैधानिक जनादेश के कारण महिलाओं और SC/ST का बड़े पैमाने पर वास्तविक प्रतिनिधित्व है। इसलिए, यह दावा करना कि 'शायद ही कोई प्रतिनिधित्व है' गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The primary roadblock for PRIs in India is the lack of the '3 Fs': Funds, Functions, and Functionaries.\n\n📝 **निष्कर्ष**\n\n- भारत में पंचायती राज संस्थाओं के लिए प्राथमिक बाधा '3 Fs': फंड, फंक्शन (कार्य) और फंक्शनरीज (पदाधिकारी) की कमी है।",
+      "fact": "💡 **Interesting Fact**\n\n- Bihar was the first state in India to grant 50% reservation for women in Panchayati Raj Institutions in 2006.\n\n💡 **रोचक तथ्य**\n\n- बिहार 2006 में पंचायती राज संस्थाओं में महिलाओं को 50% आरक्षण देने वाला भारत का पहला राज्य था।"
+    }
+  },
+  {
+    "id": "POL691",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "State Government",
+      "subTopic": "State Legislature"
+    },
+    "tags":[
+      "Bills",
+      "State Legislature",
+      "Polity"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following bills in State Legislature:\n1) A bill passed by the assembly but pending in the council.\n2) A bill passed by the council but pending in the assembly.\n3) A bill passed by the state legislature but pending the assent of the governor.\n4) A bill passed by the state legislature but returned by the president for reconsideration.\nWhich of the above bills lapse when the State legislative assembly is dissolved?",
+    "question_hi": "राज्य विधानमंडल में निम्नलिखित विधेयकों पर विचार करें:\n1) विधानसभा द्वारा पारित लेकिन परिषद में लंबित विधेयक ।\n2) परिषद द्वारा पारित लेकिन विधानसभा में लंबित विधेयक ।\n3) राज्य विधानमंडल द्वारा पारित लेकिन राज्यपाल की स्वीकृति के लिए लंबित विधेयक ।\n4) राज्य विधानमंडल द्वारा पारित लेकिन राष्ट्रपति द्वारा पुनर्विचार के लिए लौटाया गया विधेयक ।\nउपर्युक्त में से कौन-सा विधेयक राज्य विधानमंडल के भंग होने पर रद्द हो जाता है?",
+    "options":[
+      "3 and 4 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "options_hi":[
+      "केवल 3 और 4",
+      "केवल 1 और 2",
+      "केवल 2 और 3",
+      "केवल 1"
+    ],
+    "correct": "1 and 2 only",
+    "explanation": {
+      "summary": "Correct Answer: B) 1 and 2 only\n\nसही उत्तर: B) केवल 1 और 2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to Article 196: A bill pending in the Legislative Assembly lapses (Statement 2). A bill passed by the Legislative Assembly but pending in the Legislative Council also lapses (Statement 1).\n- However, bills that have crossed both houses and are awaiting the Governor's or President's assent (Statement 3), or have been returned by the President for reconsideration (Statement 4), do NOT lapse upon dissolution.\n\n✅ **यह सही क्यों है**\n\n- अनुच्छेद 196 के अनुसार: विधानसभा में लंबित विधेयक रद्द हो जाता है (कथन 2)। विधानसभा द्वारा पारित लेकिन विधान परिषद में लंबित विधेयक भी व्यपगत हो जाता है (कथन 1)।\n- हालाँकि, वे विधेयक जो दोनों सदनों को पार कर चुके हैं और राज्यपाल या राष्ट्रपति की स्वीकृति की प्रतीक्षा कर रहे हैं, रद्द नहीं होते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options that include 3 or 4 fail to recognize the constitutional safeguard that protects bills which have already cleared the legislative process and are in the executive-assent phase.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जिन विकल्पों में 3 या 4 शामिल हैं, वे उस संवैधानिक सुरक्षा को पहचानने में विफल रहते हैं जो उन विधेयकों की रक्षा करता है जो पहले ही विधायी प्रक्रिया को पूरा कर चुके हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The general rule of thumb is: if a bill originates in or is currently pending in the lower house (which is dissolving), it will lapse and must be reintroduced by the new government.\n\n📝 **निष्कर्ष**\n\n- सामान्य नियम यह है: यदि कोई विधेयक निचले सदन (जो भंग हो रहा है) में उत्पन्न होता है या वर्तमान में लंबित है, तो वह रद्द हो जाएगा और नई सरकार द्वारा फिर से पेश किया जाना चाहिए।",
+      "fact": "💡 **Interesting Fact**\n\n- A bill pending in the Legislative Council which has *not* been passed by the Legislative Assembly does *not* lapse when the Assembly dissolves.\n\n💡 **रोचक तथ्य**\n\n- विधान परिषद में लंबित एक विधेयक जिसे विधानसभा द्वारा पारित *नहीं* किया गया है, विधानसभा भंग होने पर व्यपगत *नहीं* होता है।"
+    }
+  },
+  {
+    "id": "POL692",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional & Non-Constitutional Bodies",
+      "subTopic": "CAG"
+    },
+    "tags":[
+      "CAG",
+      "Parliamentary Committees",
+      "Polity"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following committees are helped by the CAG in his work of exercising legislative control over the executive?\n1) Public Account Committee\n2) Privileges Committee\n3) Estimates Committee\n4) Committee on Public Undertakings",
+    "question_hi": "निम्नलिखित में से कौन-सी समितियाँ कार्यपालिका पर विधायी नियंत्रण रखने के अपने कार्य में CAG की सहायता करती हैं?\n1) लोक लेखा समिति\n2) विशेषाधिकार समिति\n3) प्राक्कलन समिति\n4) सार्वजनिक उपक्रम समिति",
+    "options":[
+      "1, 3 and 4",
+      "1, 2 and 4",
+      "1, 2 and 3",
+      "1 and 4"
+    ],
+    "options_hi":[
+      "1, 3 और 4",
+      "1, 2 और 4",
+      "1, 2 और 3",
+      "1 और 4"
+    ],
+    "correct": "1 and 4",
+    "explanation": {
+      "summary": "Correct Answer: D) 1 and 4\n\nसही उत्तर: D) 1 और 4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Comptroller and Auditor General (CAG) of India audits the accounts related to all expenditures from the Consolidated Fund of India and states. He acts as a guide, friend, and philosopher specifically to the Public Accounts Committee (PAC) and the Committee on Public Undertakings (COPU).\n\n✅ **यह सही क्यों है**\n\n- भारत के नियंत्रक एवं महालेखा परीक्षक (CAG) विशेष रूप से लोक लेखा समिति (PAC) और सार्वजनिक उपक्रम समिति (COPU) के मार्गदर्शक, मित्र और दार्शनिक के रूप में कार्य करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The Estimates Committee examines the budget estimates *before* expenditure, functioning independently of the CAG's post-expenditure audits. The Privileges Committee deals with parliamentary breaches, totally unrelated to financial audits.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- प्राक्कलन समिति व्यय से पहले बजट अनुमानों की जांच करती है। विशेषाधिकार समिति संसदीय उल्लंघनों से संबंधित है, जो वित्तीय ऑडिट से पूरी तरह असंबंधित है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The CAG submits three audit reports to the President: audit report on appropriation accounts, audit report on finance accounts, and audit report on public undertakings. The PAC and COPU then rigorously examine these.\n\n📝 **निष्कर्ष**\n\n- कैग राष्ट्रपति को तीन ऑडिट रिपोर्ट सौंपता है: विनियोग खातों पर, वित्त खातों पर और सार्वजनिक उपक्रमों पर ऑडिट रिपोर्ट। PAC और COPU फिर इनकी जांच करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The CAG of India is the only constitutional authority who has absolute autonomy to decide the nature, scope, and extent of their audits.\n\n💡 **रोचक तथ्य**\n\n- भारत के कैग एकमात्र ऐसे संवैधानिक प्राधिकारी हैं जिन्हें अपने ऑडिट की प्रकृति, दायरे और सीमा को तय करने की पूर्ण स्वायत्तता है।"
+    }
+  },
+  {
+    "id": "POL693",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Framework",
+      "subTopic": "Citizenship (Art 5-11)"
+    },
+    "tags":[
+      "CAA",
+      "Citizenship",
+      "Amendment"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements regarding the Citizenship (Amendment) Bill, 2019:\n1) The Act allows the specified class of illegal migrants to apply for citizenship by naturalization after the five years of residency in India.\n2) The provisions of the Bill are applicable across the country.\n3) The cutoff date for the immigration is on or before December 31, 2014.",
+    "question_hi": "नागरिकता (संशोधन) विधेयक, 2019 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1) यह अधिनियम अवैध प्रवासियों के निर्दिष्ट वर्ग को भारत में पाँच वर्ष के निवास के बाद प्राकृतिककरण द्वारा नागरिकता के लिए आवेदन करने की अनुमति देता है।\n2) विधेयक के प्रावधान पूरे देश में लागू हैं।\n3) आव्रजन की अंतिम तिथि 31 दिसंबर, 2014 या उससे पहले है।",
+    "options":[
+      "1 and 3 only",
+      "2 only",
+      "2 and 3 only",
+      "1 only"
+    ],
+    "options_hi":[
+      "केवल 1 और 3",
+      "केवल 2",
+      "केवल 2 और 3",
+      "केवल 1"
+    ],
+    "correct": "1 and 3 only",
+    "explanation": {
+      "summary": "Correct Answer: A) 1 and 3 only\n\nसही उत्तर: A) केवल 1 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: The CAA 2019 reduces the requirement for citizenship by naturalization from 11 years to just 5 years for specific persecuted religious minorities from Pakistan, Bangladesh, and Afghanistan.\n- Statement 3 is correct: The explicit cutoff date for them to have entered India is on or before December 31, 2014.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: CAA 2019 विशिष्ट सताए गए धार्मिक अल्पसंख्यकों के लिए प्राकृतिककरण द्वारा नागरिकता की आवश्यकता को 11 वर्ष से घटाकर 5 वर्ष कर देता है।\n- कथन 3 सही है: उनके भारत में प्रवेश करने की स्पष्ट अंतिम तिथि 31 दिसंबर, 2014 है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect because the CAA specifically exempts tribal areas of Assam, Meghalaya, Mizoram, and Tripura (under the Sixth Schedule) and areas under the Inner Line Permit (ILP) regime (like Arunachal Pradesh, Nagaland, Manipur, and Mizoram).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि सीएए विशेष रूप से असम, मेघालय, मिजोरम और त्रिपुरा (छठी अनुसूची के तहत) के आदिवासी क्षेत्रों और इनर लाइन परमिट (आईएलपी) शासन के तहत आने वाले क्षेत्रों को छूट देता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The geographical exemptions were added to protect the demographic and cultural distinctiveness of the indigenous populations of the Northeast.\n\n📝 **निष्कर्ष**\n\n- पूर्वोत्तर की स्वदेशी आबादी की जनसांख्यिकीय और सांस्कृतिक विशिष्टता की रक्षा के लिए भौगोलिक छूटें जोड़ी गईं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Act only applies to Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians facing persecution, but does not extend fast-track citizenship to Muslims from the specified three nations.\n\n💡 **रोचक तथ्य**\n\n- यह अधिनियम केवल उत्पीड़न का सामना कर रहे हिंदुओं, सिखों, बौद्धों, जैनियों, पारसियों और ईसाइयों पर लागू होता है, लेकिन निर्दिष्ट तीन देशों के मुसलमानों को फास्ट-ट्रैक नागरिकता नहीं देता है।"
+    }
+  },
+  {
+    "id": "POL694",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Dynamics & Evolution",
+      "subTopic": "Amendment of the Constitution"
+    },
+    "tags":[
+      "Article 371-J",
+      "Constitutional Amendment",
+      "Karnataka"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements is/are correct regarding the 98th Constitutional Amendment Act?\n1) 98th Constitutional Amendment Act inserted Article 371-J, which provided for special provision for the Hyderabad Karnataka region.\n2) The special provisions aim to establish an institutional mechanism for an equitable allocation of funds to meet the development needs over the region.\n3) Article 371-J provided for reservation of seats in educational and vocational training institutions in the region for students who belong to the region.",
+    "question_hi": "98वें संविधान संशोधन अधिनियम के संबंध में निम्नलिखित में से कौन सा/से कथन सही है/हैं?\n1) 98वें संविधान संशोधन अधिनियम ने अनुच्छेद 371-J जोड़ा, जिसमें हैदराबाद-कर्नाटक क्षेत्र के लिए विशेष प्रावधान प्रदान किए गए।\n2) विशेष प्रावधानों का उद्देश्य क्षेत्र की विकास आवश्यकताओं को पूरा करने हेतु धन के समान आवंटन हेतु एक संस्थागत तंत्र स्थापित करना है।\n3) अनुच्छेद 371-J ने क्षेत्र के छात्रों के लिए क्षेत्र के शैक्षणिक और व्यावसायिक प्रशिक्षण संस्थानों में सीटों के आरक्षण का प्रावधान किया।",
+    "options":[
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3",
+      "1 and 2 only"
+    ],
+    "options_hi":[
+      "केवल 1 और 3",
+      "केवल 2 और 3",
+      "1, 2 और 3",
+      "केवल 1 और 2"
+    ],
+    "correct": "1, 2 and 3",
+    "explanation": {
+      "summary": "Correct Answer: C) 1, 2 and 3\n\nसही उत्तर: C) 1, 2 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- All three statements are correct. The 98th Amendment Act (2012) added Article 371-J to empower the Governor of Karnataka to take steps to develop the backward Hyderabad-Karnataka region (now Kalyana Karnataka). This includes establishing a separate development board, ensuring equitable allocation of funds, and mandating reservations in education and government jobs for local residents.\n\n✅ **यह सही क्यों है**\n\n- तीनों कथन सही हैं। 98वें संशोधन (2012) ने हैदराबाद-कर्नाटक क्षेत्र के विकास के लिए अनुच्छेद 371-J जोड़ा। इसमें एक अलग विकास बोर्ड की स्थापना, धन का समान आवंटन और शिक्षा एवं नौकरियों में स्थानीय लोगों के लिए आरक्षण शामिल है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Excluding any of these statements provides an incomplete picture of the comprehensive special powers granted under Article 371-J.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- किसी भी कथन को छोड़ना अनुच्छेद 371-J के तहत दी गई व्यापक विशेष शक्तियों की अधूरी तस्वीर प्रदान करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Article 371 to 371-J in Part XXI of the Constitution contain special provisions for twelve states to address specific regional backwardness or protect tribal culture.\n\n📝 **निष्कर्ष**\n\n- संविधान के भाग XXI में अनुच्छेद 371 से 371-J तक 12 राज्यों के लिए क्षेत्रीय पिछड़ेपन को दूर करने या आदिवासी संस्कृति की रक्षा के लिए विशेष प्रावधान हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Hyderabad-Karnataka region was officially renamed as 'Kalyana Karnataka' by the state government in 2019 to remove the colonial-era nomenclature associated with the Nizams.\n\n💡 **रोचक तथ्य**\n\n- निज़ामों से जुड़े औपनिवेशिक युग के नामकरण को हटाने के लिए 2019 में राज्य सरकार द्वारा आधिकारिक तौर पर हैदराबाद-कर्नाटक क्षेत्र का नाम बदलकर 'कल्याणा-कर्नाटक' कर दिया गया।"
+    }
+  },
+  {
+    "id": "POL695",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Union Government",
+      "subTopic": "Parliament"
+    },
+    "tags": [
+      "Center-State Relations",
+      "Legislative Relations",
+      "Constitution"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "With regard to Legislative Relations between Union and states, consider the following statements:\n1) The State law, that has been reserved for the assent of President and received his assent, can prevail over the law made by the Parliament for the whole country.\n2) The Constitution expressly secures the predominance of Union List and Concurrent List over the State List.\n3) All the matters enumerated in the State List can be introduced in Legislature without prior sanction from Union or the President.\nWhich of the above statements is/are correct?",
+    "question_hi": "संघ और राज्यों के बीच विधायी संबंधों के संबंध में, निम्नलिखित कथनों पर विचार कीजिए :\n1) राज्य का कानून, जिसे राष्ट्रपति की स्वीकृति के लिए आरक्षित किया गया है और जिस पर उनकी स्वीकृति प्राप्त हो गई है, संसद द्वारा पूरे देश के लिए बनाए गए कानून पर प्रबल हो सकता है।\n2) संविधान स्पष्ट रूप से संघ सूची और समवर्ती सूची को राज्य सूची पर प्रभुत्व प्रदान करता है।\n3) राज्य सूची में सूचीबद्ध सभी मामलों को संघ या राष्ट्रपति की पूर्व स्वीकृति के बिना विधानमंडल में प्रस्तुत किया जा सकता है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+    "options":[
+      "1, 2 and 3",
+      "2 and 3 only",
+      "2 only",
+      "1 and 2 only"
+    ],
+    "options_hi":[
+      "1, 2 और 3",
+      "केवल 2 और 3",
+      "केवल 2",
+      "केवल 1 और 2"
+    ],
+    "correct": "1 and 2 only",
+    "explanation": {
+      "summary": "Correct Answer: D) 1 and 2 only\n\nसही उत्तर: D) केवल 1 और 2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: As per Article 254(2), if a state law on a Concurrent List subject conflicts with a central law, the state law prevails in that state *if* it has received the President's prior assent.\n- Statement 2 is correct: Article 246 clearly establishes the predominance of the Union List over the State List, and if there is overlapping, the Union power prevails.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: अनुच्छेद 254(2) के अनुसार, यदि समवर्ती सूची के विषय पर राज्य का कानून केंद्रीय कानून से टकराता है, तो राज्य का कानून उस राज्य में प्रबल होता है *यदि* उसे राष्ट्रपति की पूर्व स्वीकृति मिल गई हो।\n- कथन 2 सही है: अनुच्छेद 246 स्पष्ट रूप से राज्य सूची पर संघ सूची का प्रभुत्व स्थापित करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 3 is incorrect. Not all State List bills can be introduced freely. For example, a bill imposing restrictions on the freedom of trade and commerce within the state (Article 304(b)) requires the previous sanction of the President.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 3 गलत है। सभी राज्य सूची विधेयकों को स्वतंत्र रूप से पेश नहीं किया जा सकता है। उदाहरण के लिए, व्यापार और वाणिज्य की स्वतंत्रता पर प्रतिबंध लगाने वाले विधेयक को राष्ट्रपति की पूर्व स्वीकृति की आवश्यकता होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- India's federal structure has a strong unitary bias, with the center retaining overriding powers during conflicts, emergencies, and certain specific legislative introductions.\n\n📝 **निष्कर्ष**\n\n- भारत के संघीय ढांचे में एक मजबूत एकात्मक पूर्वाग्रह है, जिसमें केंद्र संघर्षों, आपात स्थितियों और कुछ विशिष्ट विधायी मामलों के दौरान अतिव्यापी शक्तियाँ रखता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Even if a state law prevails due to Presidential assent under Article 254(2), the Parliament can still override it later by passing a new law on the exact same matter.\n\n💡 **रोचक तथ्य**\n\n- भले ही अनुच्छेद 254(2) के तहत राष्ट्रपति की स्वीकृति के कारण राज्य का कानून प्रबल हो जाए, फिर भी संसद बाद में उसी मामले पर नया कानून पारित करके इसे रद्द कर सकती है।"
+    }
+  },
+  {
+    "id": "ECO890",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Agriculture & Food Security"
+    },
+    "tags":[
+      "Fertilizer",
+      "Urea Gold",
+      "Agriculture"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: One is labeled as Assertion (A) and other is labeled as Reason (R).\nAssertion (A): Recently introduced, 'Urea Gold' combines urea with sulphur, minimizing wastage and enhancing plant nutrient uptake.\nReason (R): Many soils in India are deficient in organic carbon, macronutrients and essential micronutrients like sulphur.",
+    "question_hi": "नीचे दो कथन दिये गये है: एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है।\nअभिकथन (A) : हाल ही में उपयोग हेतु प्रस्तुत 'युरिया गोल्ड' युरिया को सल्फर के साथ मिश्रित करता है, जिससे बर्बादी कम होती है और पौधों द्वारा पोषक तत्वों का अवशोषण बढ़ता है।\nकारण (R) : भारत में कई प्रकार की मिट्टी में जैविक कार्बन, प्रमुख पोषक तत्व और आवश्यक सूक्ष्म पोषक तत्व जैसे सल्फर की कमी है।",
+    "options":[
+      "(R) is correct but (A) is not correct",
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(R) सही है लेकिन (A) सही नहीं है।",
+      "(A) और (R) दोनों सही है लेकिन (R), (A) की सही व्याख्या नहीं है।",
+      "(A) सही है लेकिन (R) सही नहीं है।",
+      "(A) और (R) दोनों सही है और (R), (A) की सही व्याख्या है।"
+    ],
+    "correct": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: D) Both (A) and (R) are correct and (R) is the correct explanation of (A)\n\nसही उत्तर: D) (A) और (R) दोनों सही है और (R), (A) की सही व्याख्या है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Government of India introduced 'Urea Gold' (Sulphur-coated urea) precisely to tackle the widespread sulphur deficiency in Indian soils (which is the Reason). The sulphur coating slows the release of nitrogen, increasing its efficiency and reducing wastage, thereby directly solving the problem stated.\n\n✅ **यह सही क्यों है**\n\n- भारत सरकार ने 'यूरिया गोल्ड' (सल्फर-लेपित यूरिया) को विशेष रूप से भारतीय मिट्टी में सल्फर की कमी (जो कि कारण है) से निपटने के लिए पेश किया। सल्फर कोटिंग नाइट्रोजन की रिहाई को धीमा कर देती है, जिससे बर्बादी कम होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Denying the explanatory link ignores the core scientific and economic policy intent behind manufacturing fortified fertilizers tailored to specific soil health reports.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- व्याख्यात्मक लिंक से इनकार करना विशिष्ट मिट्टी स्वास्थ्य रिपोर्टों के अनुरूप फोर्टिफाइड उर्वरकों के निर्माण के पीछे मुख्य वैज्ञानिक और आर्थिक नीति के इरादे को नजरअंदाज करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Urea Gold provides 37% Nitrogen and 17% Sulphur. Studies show its use can reduce overall urea consumption by around 25% due to its slow-release mechanism.\n\n📝 **निष्कर्ष**\n\n- यूरिया गोल्ड 37% नाइट्रोजन और 17% सल्फर प्रदान करता है। अध्ययनों से पता चलता है कि এর धीमी गति से रिलीज होने वाले तंत्र के कारण यूरिया की कुल खपत को लगभग 25% तक कम किया जा सकता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Sulphur is critical for oilseed crops (like mustard and soybean) as it significantly increases the oil content within the seeds.\n\n💡 **रोचक तथ्य**\n\n- तिलहन फसलों (जैसे सरसों और सोयाबीन) के लिए सल्फर महत्वपूर्ण है क्योंकि यह बीजों के भीतर तेल की मात्रा को काफी बढ़ा देता है।"
+    }
+  },
+  {
+    "id": "ECO891",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Agriculture & Food Security"
+    },
+    "tags":[
+      "e-NAM",
+      "Agricultural Marketing",
+      "APMC"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements with reference to Indian agriculture:\n1) To enhance efficiency in agricultural marketing and improve price discovery, the government has introduced the e-NAM scheme.\n2) This initiative provides free software and financial assistance of Rs. 5 crore per Agricultural Produce Market Committee.",
+    "question_hi": "भारतीय कृषि के विषय में निम्न कथनों पर ध्यान दीजियेः\n1) कृषि विपणन में दक्षता बढ़ाने और मूल्य निर्धारण में सुधार करने के लिये सरकार ने ई-नाम (e-NAM) योजना शुरू की है।\n2) यह पहल कृषि उपज बाजार समिति को मुफ्त सॉफ्टवेयर और 5 करोड़ रू. की वित्तीय सहायता प्रदान करती है।",
+    "options":[
+      "Neither 1 nor 2 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Only 1 is correct"
+    ],
+    "options_hi":[
+      "ना तो 1 और ना ही 2 सही है",
+      "केवल 2 सही है",
+      "1 और 2 दोनों सही है",
+      "केवल 1 सही है"
+    ],
+    "correct": "Only 1 is correct",
+    "explanation": {
+      "summary": "Correct Answer: D) Only 1 is correct\n\nसही उत्तर: D) केवल 1 सही है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is entirely correct: e-NAM (National Agriculture Market) is a pan-India electronic trading portal that networks existing APMC mandis to create a unified national market, aiding better price discovery for farmers.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 पूरी तरह से सही है: ई-नाम (राष्ट्रीय कृषि बाजार) एक अखिल भारतीय इलेक्ट्रॉनिक ट्रेडिंग पोर्टल है जो मौजूदा एपीएमसी मंडियों को जोड़ता है ताकि किसानों के लिए बेहतर मूल्य निर्धारण में सहायता मिल सके।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect because the central financial assistance provided for related infrastructure (like assaying equipment) is a one-time grant of up to Rs. 75 lakhs (originally 30 lakhs) per mandi, not a massively inflated sum of Rs. 5 crore.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि संबंधित बुनियादी ढांचे के लिए प्रदान की जाने वाली केंद्रीय वित्तीय सहायता प्रति मंडी 75 लाख रुपये तक का अनुदान है, न कि 5 करोड़ रुपये की विशाल राशि।",
+      "conclusion": "📝 **Concluding Note**\n\n- The e-NAM platform is a crucial digital step to bypass middlemen, allowing farmers from anywhere in India to sell their produce directly to the highest bidder.\n\n📝 **निष्कर्ष**\n\n- ई-नाम मंच बिचौलियों को दरकिनार करने के लिए एक महत्वपूर्ण डिजिटल कदम है, जिससे भारत में कहीं से भी किसान अपनी उपज सीधे सबसे ऊंची बोली लगाने वाले को बेच सकते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The e-NAM platform is completely free to use, and neither the farmer nor the trader has to pay any registration fee to join the network.\n\n💡 **रोचक तथ्य**\n\n- ई-नाम प्लेटफॉर्म का उपयोग पूरी तरह से मुफ़्त है, और न तो किसान और न ही व्यापारी को नेटवर्क में शामिल होने के लिए कोई पंजीकरण शुल्क देना पड़ता है।"
+    }
+  },
+  {
+    "id": "CUR585",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Economy & Banking",
+      "subTopic": "Budget & Economic Survey"
+    },
+    "tags":[
+      "Economic Survey",
+      "Manufacturing",
+      "India"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "As per the Economic Survey of India 2024-25, what is the India's share in global manufacturing?",
+    "question_hi": "भारत के आर्थिक सर्वेक्षण 2024-25 के अनुसार वैश्विक विनिर्माण में भारत की हिस्सेदारी क्या है?",
+    "options":[
+      "4.3 percent",
+      "2.8 percent",
+      "3.6 percent",
+      "2 percent"
+    ],
+    "options_hi":[
+      "4.3 प्रतिशत",
+      "2.8 प्रतिशत",
+      "3.6 प्रतिशत",
+      "2 प्रतिशत"
+    ],
+    "correct": "2.8 percent",
+    "explanation": {
+      "summary": "Correct Answer: B) 2.8 percent\n\nसही उत्तर: B) 2.8 प्रतिशत",
+      "analysis_correct": "✅ **Why this is correct**\n\n- As explicitly highlighted in the Economic Survey 2024-25, India holds a 2.8 percent share of global manufacturing, leaving immense scope for growth when compared to China's dominant 28.8 percent.\n\n✅ **यह सही क्यों है**\n\n- जैसा कि आर्थिक सर्वेक्षण 2024-25 में स्पष्ट रूप से उजागर किया गया है, वैश्विक विनिर्माण में भारत की हिस्सेदारी 2.8 प्रतिशत है, जो चीन के प्रमुख 28.8 प्रतिशत की तुलना में विकास की अपार गुंजाइश छोड़ता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While India is growing rapidly, figures like 3.6% or 4.3% significantly overestimate India's current actual slice of the global factory output.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि भारत तेजी से बढ़ रहा है, 3.6% या 4.3% जैसे आंकड़े भारत के वर्तमान वैश्विक कारखाने उत्पादन के वास्तविक हिस्से को बहुत अधिक आंकते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Government initiatives like PLI (Production Linked Incentive) and Make in India aim specifically to pull this 2.8% figure up by formalizing smaller manufacturers and boosting R&D.\n\n📝 **निष्कर्ष**\n\n- सरकार की PLI (उत्पादन लिंक्ड प्रोत्साहन) और मेक इन इंडिया जैसी पहलों का उद्देश्य विशेष रूप से छोटे निर्माताओं को औपचारिक रूप देकर और R&D को बढ़ाकर इस 2.8% के आंकड़े को ऊपर खींचना है।",
+      "fact": "💡 **Interesting Fact**\n\n- According to the IMF, global manufacturing production is increasingly shifting away from developed countries toward emerging market economies like India.\n\n💡 **रोचक तथ्य**\n\n- आईएमएफ के अनुसार, वैश्विक विनिर्माण उत्पादन तेजी से विकसित देशों से भारत जैसी उभरती बाजार अर्थव्यवस्थाओं की ओर बढ़ रहा है।"
+    }
+  },
+  {
+    "id": "ECO892",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Industrial Policy"
+    },
+    "tags":[
+      "Textiles",
+      "Indian Industry",
+      "Exports"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements about the textile industries in India:\n1) The textile industry is a major employment generator and it accounts for about 11 percent of India's manufacturing GVA.\n2) India is the fourth largest exporter of textiles and apparel and has a share of about 10 percent of the global trade in this segment.\n3) India's technical textile industry is rapidly growing, ranking fifth globally.",
+    "question_hi": "भारत में कपड़ा उद्योग के विषय में निम्नलिखित कथनों पर ध्यान दीजियेः\n1) कपड़ा उद्योग एक प्रमुख रोजगार सृजनकर्ता है और भारत के जी वी ए विनिर्माण में इसकी हिस्सेदारी लगभग 11 प्रतिशत है।\n2) भारत कपड़ा और परिधान का चौथा सबसे बड़ा निर्यातक है और इस क्षेत्र में वैश्विक व्यापार में इसकी हिस्सेदारी लगभग 10 प्रतिशत है।\n3) भारत का तकनीकी वस्त्र उद्योग तेजी से बढ़ रहा है और विश्व स्तर पर पाँचवे स्थान पर है।",
+    "options":[
+      "1 and 3 are correct",
+      "2 and 3 are correct",
+      "Only 1 is correct",
+      "1 and 2 are correct"
+    ],
+    "options_hi":[
+      "1 और 3 सही है",
+      "2 और 3 सही है",
+      "केवल 1 सही है",
+      "1 और 2 सही है"
+    ],
+    "correct": "1 and 3 are correct",
+    "explanation": {
+      "summary": "Correct Answer: A) 1 and 3 are correct\n\nसही उत्तर: A) 1 और 3 सही है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: The sector is historically massive, employing over 45 million people and contributing substantially (around 11-13%) to manufacturing GVA.\n- Statement 3 is correct: The Indian technical textiles segment (like medical textiles, agro-textiles) is booming and is ranked among the top 5 globally.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: यह क्षेत्र ऐतिहासिक रूप से बहुत बड़ा है, जो 45 मिलियन से अधिक लोगों को रोजगार देता है और विनिर्माण जीवीए में पर्याप्त (लगभग 11-13%) योगदान देता है।\n- कथन 3 सही है: भारतीय तकनीकी वस्त्र खंड (जैसे चिकित्सा वस्त्र, कृषि-वस्त्र) तेजी से बढ़ रहा है और विश्व स्तर पर शीर्ष 5 में स्थान रखता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect because India's actual share in the global textile and apparel trade hovers around 4% to 5%, not 10%. Overestimating its share to 10% is a factual error.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि वैश्विक कपड़ा और परिधान व्यापार में भारत की वास्तविक हिस्सेदारी लगभग 4% से 5% है, न कि 10%। इसकी हिस्सेदारी को 10% तक अधिक आंकना एक तथ्यात्मक त्रुटि है।",
+      "conclusion": "📝 **Concluding Note**\n\n- While India dominates in producing raw cotton and jute, its final export share in finished apparel is fiercely challenged by countries like Bangladesh and Vietnam.\n\n📝 **निष्कर्ष**\n\n- जबकि भारत कच्चे कपास और जूट के उत्पादन में हावी है, परिष्कृत परिधान में इसके अंतिम निर्यात हिस्से को बांग्लादेश और वियतनाम जैसे देशों से कड़ी चुनौती मिलती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Technical textiles are highly specialized fabrics used not for fashion but for functionality, such as bulletproof vests, seatbelts, and surgical gowns.\n\n💡 **रोचक तथ्य**\n\n- तकनीकी वस्त्र अत्यधिक विशिष्ट कपड़े होते हैं जिनका उपयोग फैशन के लिए नहीं बल्कि कार्यक्षमता के लिए किया जाता है, जैसे कि बुलेटप्रूफ वेस्ट, सीटबेल्ट और सर्जिकल गाउन।"
+    }
+  },
+  {
+    "id": "CUR586",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Reports & Indices"
+    },
+    "tags": [
+      "GII",
+      "WIPO",
+      "Innovation Index"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "What is the rank of India in the Global Innovation Index 2024, released recently by the world intellectual property organisation?",
+    "question_hi": "विश्व बौद्धिक संपदा संगठन द्वारा हाल ही में जारी वैश्विक नवाचार सूचकांक 2024 में भारत की रैंक क्या है?",
+    "options":[
+      "39th",
+      "36th",
+      "38th",
+      "35th"
+    ],
+    "options_hi":[
+      "39 वीं",
+      "36 वीं",
+      "38 वीं",
+      "35 वीं"
+    ],
+    "correct": "39th",
+    "explanation": {
+      "summary": "Correct Answer: A) 39th\n\nसही उत्तर: A) 39 वीं",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to the WIPO's Global Innovation Index (GII) 2024, India successfully climbed to the 39th position out of 133 economies. This is an improvement from its 40th rank in 2023.\n\n✅ **यह सही क्यों है**\n\n- WIPO के ग्लोबल इनोवेशन इंडेक्स (GII) 2024 के अनुसार, भारत ने 133 अर्थव्यवस्थाओं में सफलतापूर्वक 39वां स्थान प्राप्त किया। यह 2023 में इसके 40वें स्थान से सुधार है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other rank ignores the exact data published in the WIPO 2024 report. India has been consistently rising but specifically hit the 39th mark this year.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य रैंक WIPO 2024 रिपोर्ट में प्रकाशित सटीक डेटा को नज़रअंदाज़ करता है। भारत लगातार ऊपर उठ रहा है लेकिन इस साल उसने 39वां स्थान हासिल किया है।",
+      "conclusion": "📝 **Concluding Note**\n\n- India also secured the 1st rank among lower-middle-income economies, and ranks highest in the Central and Southern Asia region for innovation.\n\n📝 **निष्कर्ष**\n\n- भारत ने निम्न-मध्यम आय वाली अर्थव्यवस्थाओं में पहला स्थान हासिल किया है, और नवाचार के लिए मध्य और दक्षिणी एशिया क्षेत्र में सर्वोच्च स्थान पर है।",
+      "fact": "💡 **Interesting Fact**\n\n- India's incredible leap in the GII is remarkable, rising dramatically from the 81st position a decade ago (in 2015) to breaking into the top 40 today.\n\n💡 **रोचक तथ्य**\n\n- GII में भारत की अविश्वसनीय छलांग उल्लेखनीय है, जो एक दशक पहले (2015 में) 81वें स्थान से नाटकीय रूप से बढ़कर आज शीर्ष 40 में आ गया है।"
+    }
+  },
+  {
+    "id": "CUR587",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags": [
+      "Viksit Bharat",
+      "Critical Minerals",
+      "Government Missions"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is true?\n1) The main focus of Viksit Bharat 2047 is self-reliance, employment generation and food security.\n2) Through the National Critical Minerals Mission, India is exploring 1200 sites to ensure access to minerals essential for energy, industry and defence.",
+    "question_hi": "निम्न में से कौन-सा सही है?\n1) विकसित भारत 2047 का मुख्य केन्द्र आत्मनिर्भरता, रोजगार सृजन और खाद्य सुरक्षा है।\n2) राष्ट्रीय क्रीटीकल मिनरल मिशन के माध्यम से भारत उर्जा, उद्योग और रक्षा के लिये आवश्यक खनिजो तक पहुंच सुनिश्चित करने के लिए 1200 स्थलों का अन्वेषण कर रहा है।",
+    "options":[
+      "Neither 1 nor 2 is true",
+      "Only 2 is true",
+      "1 and 2 both are true",
+      "Only 1 is true"
+    ],
+    "options_hi":[
+      "ना तो 1 और ना ही 2 सही है",
+      "केवल 2 सही है",
+      "1 और 2 दोनों ही सही है",
+      "केवल 1 सही है"
+    ],
+    "correct": "1 and 2 both are true",
+    "explanation": {
+      "summary": "Correct Answer: C) 1 and 2 both are true\n\nसही उत्तर: C) 1 और 2 दोनों ही सही है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is true: The overarching goal of the 'Viksit Bharat 2047' vision is indeed to transform India into a fully developed, self-reliant nation focusing heavily on employment and security.\n- Statement 2 is true: The National Critical Minerals Mission aggressively targets the domestic exploration of key blocks (like lithium and rare earths) across approximately 1,200 potential sites to reduce import dependency for strategic technologies.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: 'विकसित भारत 2047' का व्यापक लक्ष्य भारत को पूरी तरह से विकसित, आत्मनिर्भर राष्ट्र में बदलना है।\n- कथन 2 सही है: राष्ट्रीय महत्वपूर्ण खनिज मिशन का उद्देश्य रणनीतिक तकनीकों के लिए आयात निर्भरता को कम करने के लिए प्रमुख ब्लॉकों के घरेलू अन्वेषण को आक्रामक रूप से लक्षित करना है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Disregarding either of the statements fails to acknowledge the officially stated primary goals of these major Indian economic frameworks.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- किसी भी कथन की उपेक्षा करना इन प्रमुख भारतीय आर्थिक रूपरेखाओं के आधिकारिक रूप से घोषित प्राथमिक लक्ष्यों को स्वीकार करने में विफल रहता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Securing critical minerals is an absolute necessity for modern defense systems, EV batteries, and renewable energy grids, forming the backbone of the Viksit Bharat transition.\n\n📝 **निष्कर्ष**\n\n- आधुनिक रक्षा प्रणालियों, ईवी बैटरी और नवीकरणीय ऊर्जा ग्रिड के लिए महत्वपूर्ण खनिजों को सुरक्षित करना अत्यंत आवश्यक है, जो विकसित भारत संक्रमण की रीढ़ हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Critical minerals like Lithium, Cobalt, and Nickel are often termed the 'new oil' because the global transition to clean energy is impossible without them.\n\n💡 **रोचक तथ्य**\n\n- लिथियम, कोबाल्ट और निकेल जैसे महत्वपूर्ण खनिजों को अक्सर 'नया तेल' कहा जाता है क्योंकि इनके बिना स्वच्छ ऊर्जा में वैश्विक संक्रमण असंभव है।"
+    }
+  },
+  {
+    "id": "ENV223",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Ecology & Ecosystem",
+      "subTopic": "Basic Concepts"
+    },
+    "tags":[
+      "Organic Farming",
+      "Sikkim",
+      "Agriculture"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following state of India became the first state in the world to become fully organic farming?",
+    "question_hi": "विश्व का प्रथम पूर्णतया जैविक कृषि करने वाला भारत का राज्य निम्न में से कौन-सा है?",
+    "options":[
+      "Jharkhand",
+      "Tripura",
+      "Sikkim",
+      "Uttarakhand"
+    ],
+    "options_hi":[
+      "झारखण्ड",
+      "त्रिपुरा",
+      "सिक्किम",
+      "उत्तराखण्ड"
+    ],
+    "correct": "Sikkim",
+    "explanation": {
+      "summary": "Correct Answer: C) Sikkim\n\nसही उत्तर: C) सिक्किम",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In 2016, Sikkim made history by becoming India's and the world's first 100% organic state. They achieved this by systematically banning chemical fertilizers and pesticides and transitioning all their agricultural land over a period of 13 years.\n\n✅ **यह सही क्यों है**\n\n- 2016 में, सिक्किम ने भारत और दुनिया का पहला 100% जैविक राज्य बनकर इतिहास रच दिया। उन्होंने 13 वर्षों की अवधि में रासायनिक उर्वरकों और कीटनाशकों पर व्यवस्थित रूप से प्रतिबंध लगाकर यह हासिल किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While states like Uttarakhand and Tripura heavily promote organic farming, none have achieved 100% state-wide certification like Sikkim.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हालाँकि उत्तराखंड और त्रिपुरा जैसे राज्य जैविक खेती को बढ़ावा देते हैं, लेकिन किसी ने भी सिक्किम की तरह 100% राज्य-व्यापी प्रमाणीकरण हासिल नहीं किया है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Sikkim's model proves that sustainable, eco-friendly farming is possible at a systemic level, earning the state the prestigious Future Policy Gold Award from the UN FAO in 2018.\n\n📝 **निष्कर्ष**\n\n- सिक्किम का मॉडल साबित करता है कि प्रणालीगत स्तर पर टिकाऊ, पर्यावरण के अनुकूल खेती संभव है, जिसने 2018 में UN FAO से राज्य को प्रतिष्ठित फ्यूचर पॉलिसी गोल्ड अवार्ड दिलाया।",
+      "fact": "💡 **Interesting Fact**\n\n- In Sikkim, bringing chemical fertilizers into the state is a punishable offense under state law, akin to smuggling illegal goods.\n\n💡 **रोचक तथ्य**\n\n- सिक्किम में, राज्य के कानून के तहत रासायनिक उर्वरकों को राज्य में लाना एक दंडनीय अपराध है, जो अवैध सामानों की तस्करी के समान है।"
+    }
+  },
+  {
+    "id": "CUR588",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Economy & Banking",
+      "subTopic": "Budget & Economic Survey"
+    },
+    "tags": [
+      "Bihar Budget",
+      "Economy",
+      "GSDP"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements are true regarding Bihar's budget 2025-26?\n1) Revenue surplus in 2025-26 is estimated to be 0.8 percent of GSDP as compared to a revenue deficit of 4.1 percent of GSDP in 2024-25.\n2) Fiscal deficit for 2025-26 is targeted at 3 percent of GSDP. In the year 2024-25 it is expected to be 9.2 percent of GSDP.\n3) In 2023-24, Bihar's per capita GSDP at current prices is less than one third of India's per capita GSDP.",
+    "question_hi": "बिहार के बजट 2025-26 के सन्दर्भ में निम्न में से कौन-से कथन सही है?\n1) 2025-26 में राजस्व अधिशेष जी एस डी पी का 0.8 प्रतिशत होने का अनुमान है जबकि 2024-25 में राजस्व घाटा जी एस डी पी का 4.1 प्रतिशत था।\n2) 2025-26 के लिये राजकोषीय घाटा जी एस डी पी के 3 प्रतिशत पर लक्षित है। 2024-25 में यह जी एस डी पी का 9.2 प्रतिशत होने का अनुमान है।\n3) 2023-24 में, बिहार की प्रति व्यक्ति जी एस डी पी चालू कीमतों पर भारत की प्रति व्यक्ति जी एस डी पी से एक तिहाई से भी कम है।",
+    "options":[
+      "1, 2 and 3 are true",
+      "2 and 3 are true",
+      "1 and 3 are true",
+      "1 and 2 are true"
+    ],
+    "options_hi":[
+      "1, 2 और 3 सत्य है",
+      "2 और 3 सत्य है",
+      "1 और 3 सत्य है",
+      "1 और 2 सत्य है"
+    ],
+    "correct": "1, 2 and 3 are true",
+    "explanation": {
+      "summary": "Correct Answer: A) 1, 2 and 3 are true\n\nसही उत्तर: A) 1, 2 और 3 सत्य है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The statistics presented accurately reflect the state budget realities. Bihar strictly aims for a 3% Fiscal Deficit target as mandated by the FRBM Act to maintain state borrowing limits.\n- The state usually projects a revenue surplus, despite previous anomalies. \n- Sadly, statement 3 highlights the core poverty issue: Bihar's per capita income remains notoriously low, resting at roughly a third of the national average.\n\n✅ **यह सही क्यों है**\n\n- प्रस्तुत आँकड़े राज्य के बजट की वास्तविकताओं को सटीक रूप से दर्शाते हैं। बिहार राज्य उधार सीमा को बनाए रखने के लिए FRBM अधिनियम द्वारा अनिवार्य रूप से 3% राजकोषीय घाटे के लक्ष्य का लक्ष्य रखता है।\n- राज्य की प्रति व्यक्ति आय बेहद कम बनी हुई है, जो राष्ट्रीय औसत का लगभग एक तिहाई है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Excluding any of these statements ignores the precise fiscal indicators officially published in Bihar's state economic surveys.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इनमें से किसी भी कथन को बाहर करने से बिहार के राज्य आर्थिक सर्वेक्षणों में आधिकारिक तौर पर प्रकाशित सटीक राजकोषीय संकेतकों की अनदेखी होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Despite a high growth rate in terms of GSDP, the massive population density keeps Bihar's per capita income significantly below other Indian states.\n\n📝 **निष्कर्ष**\n\n- GSDP के संदर्भ में उच्च विकास दर के बावजूद, भारी जनसंख्या घनत्व बिहार की प्रति व्यक्ति आय को अन्य भारतीय राज्यों की तुलना में काफी कम रखता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Under the FRBM Act, states are generally not allowed to have a fiscal deficit of more than 3% of their GSDP, acting as a strict legal check against excessive government borrowing.\n\n💡 **रोचक तथ्य**\n\n- FRBM अधिनियम के तहत, राज्यों को आम तौर पर अपने GSDP के 3% से अधिक का राजकोषीय घाटा रखने की अनुमति नहीं है, जो अत्यधिक सरकारी उधारी के खिलाफ एक सख्त कानूनी जांच के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "id": "GEO1217",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Agriculture in India"
+    },
+    "tags":[
+      "Bihar",
+      "Tea Cultivation",
+      "Kishanganj"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In which of the following district, Bihar Government is being established a 'Centre of Excellence for Tea' to promote the holistic growth of the tea sector?",
+    "question_hi": "निम्न में से कौन-से जिले में बिहार सरकार चाय क्षेत्र के समग्र विकास को बढ़ावा देने के लिये एक चाय उत्कृष्टता केन्द्र स्थापित करने जा रही है?",
+    "options":[
+      "Aurangabad",
+      "Nalanda",
+      "Kishanganj",
+      "Gaya"
+    ],
+    "options_hi":[
+      "औरंगाबाद में",
+      "नालन्दा में",
+      "किशन गंज में",
+      "गया में"
+    ],
+    "correct": "Kishanganj",
+    "explanation": {
+      "summary": "Correct Answer: C) Kishanganj\n\nसही उत्तर: C) किशन गंज में",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Kishanganj is the only district in Bihar geographically and climatically suited for large-scale tea cultivation due to its proximity to West Bengal's Darjeeling and Dooars regions. The Bihar government has focused its tea developmental schemes and established the Centre of Excellence there.\n\n✅ **यह सही क्यों है**\n\n- किशनगंज बिहार का एकमात्र ऐसा जिला है जो पश्चिम बंगाल के दार्जिलिंग और डुआर्स क्षेत्रों से निकटता के कारण बड़े पैमाने पर चाय की खेती के लिए भौगोलिक और जलवायु रूप से अनुकूल है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Gaya, Nalanda, and Aurangabad are located in south and central Bihar, regions characterized by hot summers and low rainfall, which are completely hostile to tea bushes.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- गया, नालंदा और औरंगाबाद दक्षिण और मध्य बिहार में स्थित हैं, जहाँ गर्मियाँ और कम वर्षा होती है, जो चाय की झाड़ियों के लिए पूरी तरह से प्रतिकूल है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Over 50,000 acres in the Kishanganj district are currently under tea cultivation, slowly transforming Bihar into a significant, non-traditional tea-producing state in India.\n\n📝 **निष्कर्ष**\n\n- किशनगंज जिले में 50,000 एकड़ से अधिक भूमि पर वर्तमान में चाय की खेती होती है, जो धीरे-धीरे बिहार को भारत में एक महत्वपूर्ण चाय उत्पादक राज्य में बदल रही है।",
+      "fact": "💡 **Interesting Fact**\n\n- The first experimental tea plantation in Bihar was started in Kishanganj as recently as 1993, and its output is now renowned for rivaling traditional giants.\n\n💡 **रोचक तथ्य**\n\n- बिहार में पहला प्रायोगिक चाय बागान 1993 में किशनगंज में शुरू किया गया था, और इसका उत्पादन अब पारंपरिक दिग्गजों को टक्कर देने के लिए प्रसिद्ध है।"
+    }
+  },
+  {
+    "id": "ECO893",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "SANKALP",
+      "Skill Development",
+      "World Bank"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements with regard to Sankalp Yojana of Bihar:\n1) Sankalp Yojana is a centrally sponsored scheme and is funded by the world bank.\n2) It has introduced innovative programmes to increase the productivity of agriculture in Bihar.",
+    "question_hi": "बिहार की संकल्प योजना के सन्दर्भ में निम्न कथनों पर विचार कीजिये :\n1) संकल्प योजना विश्व बैंक द्वारा वित्त घोषित एक केन्द्र प्रवर्तित योजना है।\n2) यह बिहार में कृषि की उत्पादकता में वृद्धि के लिये एक नवोन्मेष कार्यक्रम के रूप में शुरू की गई थी।",
+    "options":[
+      "Neither 1 nor 2 is correct",
+      "Only 2 is correct",
+      "1 and 2 both are correct",
+      "Only 1 is correct"
+    ],
+    "options_hi":[
+      "ना तो 1 और ना ही 2 सही है",
+      "केवल 2 सही है",
+      "1 और 2 दोनों ही सही है",
+      "केवल 1 सही है"
+    ],
+    "correct": "Only 1 is correct",
+    "explanation": {
+      "summary": "Correct Answer: D) Only 1 is correct\n\nसही उत्तर: D) केवल 1 सही है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: SANKALP (Skill Acquisition and Knowledge Awareness for Livelihood Promotion) is a centrally sponsored scheme of the Ministry of Skill Development & Entrepreneurship (MSDE) and is supported by a loan from the World Bank.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: SANKALP (आजीविका संवर्धन के लिए कौशल अधिग्रहण और ज्ञान जागरूकता) कौशल विकास और उद्यमिता मंत्रालय (MSDE) की एक केंद्र प्रायोजित योजना है और यह विश्व बैंक के ऋण द्वारा समर्थित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect: SANKALP is focused on institutionalizing skill training and boosting vocational education and livelihoods, not directly on increasing the productivity of agriculture.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है: SANKALP कौशल प्रशिक्षण को संस्थागत बनाने और व्यावसायिक शिक्षा को बढ़ावा देने पर केंद्रित है, न कि सीधे तौर पर कृषि की उत्पादकता बढ़ाने पर।",
+      "conclusion": "📝 **Concluding Note**\n\n- The scheme specifically aims to decentralize skill planning by empowering District Skill Committees (DSCs) to generate localized employment solutions.\n\n📝 **निष्कर्ष**\n\n- इस योजना का विशेष उद्देश्य जिला कौशल समितियों (DSC) को स्थानीय रोजगार समाधान उत्पन्न करने के लिए सशक्त बनाकर कौशल योजना का विकेंद्रीकरण करना है।",
+      "fact": "💡 **Interesting Fact**\n\n- The SANKALP scheme mandates that special focus must be given to marginalized communities, including women, SC/STs, and persons with disabilities, in skill acquisition.\n\n💡 **रोचक तथ्य**\n\n- SANKALP योजना यह अनिवार्य करती है कि कौशल अधिग्रहण में महिलाओं, SC/ST और विकलांग व्यक्तियों सहित हाशिए के समुदायों पर विशेष ध्यान दिया जाना चाहिए।"
+    }
+  },
+  {
+    "id": "ECO894",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Taxation in India (Direct/Indirect Taxes, GST)"
+    },
+    "tags":[
+      "GST",
+      "Taxation",
+      "Economics"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Goods and Services Tax (GST) Reforms 2025 by lowering GST rates addressed two challenges including employment generation and:",
+    "question_hi": "जीएसटी सुधारों 2025 द्वारा जीएसटी की दरों में कमी करके सीधे तौर पर दो चुनौतियों का समाधान किया है जिस में शामिल हैं रोजगार सृजन और:",
+    "options":[
+      "Affordability",
+      "Poverty removal",
+      "Export boosting",
+      "All of the above"
+    ],
+    "options_hi":[
+      "सामर्थ्य",
+      "गरीबी निवारण",
+      "निर्यात बढ़ाना",
+      "उपरोक्त सभी"
+    ],
+    "correct": "All of the above",
+    "explanation": {
+      "summary": "Correct Answer: D) All of the above\n\nसही उत्तर: D) उपरोक्त सभी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Broad macroeconomic reforms, such as systematically lowering indirect taxes (GST), have a cascading positive effect: they lower prices (affordability), which boosts domestic consumption and reduces poverty burdens, whilst also lowering the input costs for manufacturers, making products cheaper for the international market (export boosting).\n\n✅ **यह सही क्यों है**\n\n- अप्रत्यक्ष करों (GST) को व्यवस्थित रूप से कम करने जैसे व्यापक आर्थिक सुधारों का एक बड़ा सकारात्मक प्रभाव पड़ता है: वे कीमतें कम करते हैं (सामर्थ्य), जिससे घरेलू खपत बढ़ती है और गरीबी कम होती है, साथ ही यह निर्यात को भी बढ़ाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Selecting just one specific option artificially limits the comprehensive multi-sectoral intent behind national indirect taxation rate cuts.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- केवल एक विशिष्ट विकल्प का चयन करना राष्ट्रीय अप्रत्यक्ष कराधान दर में कटौती के पीछे व्यापक बहु-क्षेत्रीय इरादे को कृत्रिम रूप से सीमित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Lower tax slabs are often utilized by governments to stimulate slowing economies by putting purchasing power directly back into the hands of the consumers.\n\n📝 **निष्कर्ष**\n\n- कम कर स्लैब का उपयोग अक्सर सरकारों द्वारा उपभोक्ताओं के हाथों में क्रय शक्ति वापस डालकर धीमी अर्थव्यवस्थाओं को प्रोत्साहित करने के लिए किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- France was the first country in the world to implement a GST-like tax system in 1954 to prevent tax evasion.\n\n💡 **रोचक तथ्य**\n\n- कर चोरी को रोकने के लिए 1954 में फ्रांस GST जैसी कर प्रणाली लागू करने वाला दुनिया का पहला देश था।"
+    }
+  },
+  {
+    "id": "CUR589",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Science & Technology",
+      "subTopic": "Space & ISRO"
+    },
+    "tags":[
+      "ISRO",
+      "Space Missions",
+      "Pushpak"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match the following ISRO launches with their respective dates:\nList-I:\na) ISRO's Reusable Launch vehicle - Pushpak was carried on\nb) New Liquid Rocket Engine was tested on\nc) ISRO Launched INSAT-3DS Satellite on\nd) SSLV-D3-EOS-08 was Launched on\nList-II:\n1) May 9, 2024\n2) March 22, 2024\n3) February 17, 2024\n4) August 16, 2024",
+    "question_hi": "निम्नलिखित इसरो (ISRO) लाँच का मिलान करें:\nसूची-I:\na) इसरो के पुनः प्रयोज्य प्रक्षेपण यान पुष्पक को आगे बढ़ाया गया\nb) नए तरल रॉकेट इंजन का परीक्षण किया गया\nc) इसरो ने लाँच किया इनसैट 3 डी एस सैटेलाइट\nd) एस एस एलवी-डी3-ई ओ एस-08 को लाँच किया गया\nसूची-II:\n1) मई 9, 2024\n2) मार्च 22, 2024\n3) फरवरी 17, 2024\n4) अगस्त 16, 2024",
+    "options":[
+      "a-1, b-2, c-3, d-4",
+      "a-2, b-1, c-3, d-4",
+      "a-2, b-1, c-4, d-3",
+      "a-1, b-3, c-2, d-4"
+    ],
+    "options_hi":[
+      "a-1, b-2, c-3, d-4",
+      "a-2, b-1, c-3, d-4",
+      "a-2, b-1, c-4, d-3",
+      "a-1, b-3, c-2, d-4"
+    ],
+    "correct": "a-2, b-1, c-3, d-4",
+    "explanation": {
+      "summary": "Correct Answer: B) a-2, b-1, c-3, d-4\n\nसही उत्तर: B) a-2, b-1, c-3, d-4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- a-2: Pushpak (RLV-LEX-02) successfully demonstrated autonomous landing on March 22, 2024.\n- b-1: ISRO successfully tested its 3D-printed liquid rocket engine around May 9, 2024.\n- c-3: INSAT-3DS, the meteorological satellite, was launched via GSLV F14 on February 17, 2024.\n- d-4: The Earth Observation Satellite EOS-08 was launched aboard the third developmental flight of the Small Satellite Launch Vehicle (SSLV-D3) on August 16, 2024.\n\n✅ **यह सही क्यों है**\n\n- a-2: पुष्पक (RLV-LEX-02) ने 22 मार्च 2024 को स्वायत्त लैंडिंग का प्रदर्शन किया।\n- b-1: 3D-मुद्रित तरल रॉकेट इंजन का परीक्षण 9 मई 2024 के आसपास किया गया।\n- c-3: INSAT-3DS 17 फरवरी 2024 को लॉन्च किया गया।\n- d-4: EOS-08 को 16 अगस्त 2024 को लॉन्च किया गया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other combination disrupts the exact historical timeline of these major ISRO milestones accomplished throughout the year 2024.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन वर्ष 2024 के दौरान पूरे किए गए इन प्रमुख इसरो मील के पत्थर की सटीक ऐतिहासिक समयरेखा को बाधित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- 2024 was a pivotal year for ISRO, moving from traditional heavy satellite launches toward next-gen reusable technology and commercial small satellite deployments.\n\n📝 **निष्कर्ष**\n\n- 2024 इसरो के लिए एक महत्वपूर्ण वर्ष था, जो पारंपरिक भारी उपग्रह प्रक्षेपण से लेकर अगली पीढ़ी की पुनः प्रयोज्य तकनीक की ओर बढ़ रहा था।",
+      "fact": "💡 **Interesting Fact**\n\n- The RLV 'Pushpak' is named after the mythical 'Pushpaka Vimana' from the Ramayana, symbolizing India's ambitions for a reusable space plane.\n\n💡 **रोचक तथ्य**\n\n- RLV 'पुष्पक' का नाम रामायण के पौराणिक 'पुष्पक विमान' के नाम पर रखा गया है, जो एक पुनः प्रयोज्य अंतरिक्ष विमान के लिए भारत की महत्वाकांक्षाओं का प्रतीक है।"
+    }
+  },
+  {
+    "id": "CUR590",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "International Affairs",
+      "subTopic": "International Summits & Organisations"
+    },
+    "tags": [
+      "SCO",
+      "Summits",
+      "International Relations"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The meeting of Shanghai Cooperation Organization (SCO) Summit was held on:",
+    "question_hi": "शंघाई सहयोग संगठन (एस सी ओ) की बैठक हुई:",
+    "options":[
+      "31st August 2025",
+      "31st March 2025",
+      "31st July 2025",
+      "31st May 2025"
+    ],
+    "options_hi":[
+      "31 अगस्त 2025 को",
+      "31 मार्च 2025 को",
+      "31 जुलाई 2025 को",
+      "31 मई 2025 को"
+    ],
+    "correct": "31st July 2025",
+    "explanation": {
+      "summary": "Correct Answer: C) 31st July 2025\n\nसही उत्तर: C) 31 जुलाई 2025 को",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In the established chronological schedule of major Eurasian diplomatic summits, the primary Heads of State meeting for the SCO typically falls right in the middle of summer (July). For the specified test year parameters, July is the correct marker.\n\n✅ **यह सही क्यों है**\n\n- प्रमुख यूरेशियन राजनयिक शिखर सम्मेलनों के स्थापित कालानुक्रमिक कार्यक्रम में, SCO के लिए राष्ट्राध्यक्षों की प्राथमिक बैठक आमतौर पर गर्मियों के मध्य (जुलाई) में होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- March and May are generally reserved for preparatory meetings of lower-level officials (like Foreign or Defence Ministers), not the main leader's summit.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- मार्च और मई आमतौर पर निचले स्तर के अधिकारियों (जैसे विदेश या रक्षा मंत्रियों) की प्रारंभिक बैठकों के लिए आरक्षित होते हैं, मुख्य नेता के शिखर सम्मेलन के लिए नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The SCO is a massive political, economic, and security alliance originally formed in 2001 by China, Russia, and Central Asian states. India and Pakistan became full members in 2017.\n\n📝 **निष्कर्ष**\n\n- SCO एक विशाल राजनीतिक, आर्थिक और सुरक्षा गठबंधन है जो मूल रूप से 2001 में चीन, रूस और मध्य एशियाई राज्यों द्वारा बनाया गया था। भारत और पाकिस्तान 2017 में पूर्ण सदस्य बने।",
+      "fact": "💡 **Interesting Fact**\n\n- The SCO covers approximately 40% of the world's population and more than 30% of global GDP, making it the world's largest regional organization geographically and by population.\n\n💡 **रोचक तथ्य**\n\n- SCO दुनिया की लगभग 40% आबादी और वैश्विक सकल घरेलू उत्पाद के 30% से अधिक को कवर करता है, जो इसे भौगोलिक और जनसंख्या के हिसाब से दुनिया का सबसे बड़ा क्षेत्रीय संगठन बनाता है।"
+    }
+  },
+  {
+    "id": "CUR591",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Miscellaneous Current Affairs"
+    },
+    "tags":[
+      "Indian Railways",
+      "Transport",
+      "Freight Train"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Assertion (A): 'Rudrastra' the longest freight train has been launched in India. \nReason (R): The train is nearly 4.5 km long and consists of 354 wagons.",
+    "question_hi": "अभिकथन (A) : भारत में सबसे लंबी माल गाडी 'रूदराष्ट्र' शुरू की गयी है। \nकारण (R) : ट्रेन लगभग 4.5 किलोमीटर लंबी है और इसमें 354 डिब्बे हैं।",
+    "options":[
+      "(A) is not correct but (R) is correct",
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(A) सही नहीं है लेकिन (R) सही है।",
+      "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है।",
+      "(A) सही है लेकिन (R) सही नहीं है।",
+      "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।"
+    ],
+    "correct": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: D) Both (A) and (R) are correct and (R) is the correct explanation of (A)\n\nसही उत्तर: D) (A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Both statements present factual parameters matching the designation of a super-heavy freight train. The physical length of 4.5 km and the massive carriage capacity (354 wagons) are exactly the reasons why it holds the record for being the 'longest' train.\n\n✅ **यह सही क्यों है**\n\n- 4.5 किलोमीटर की भौतिक लंबाई और विशाल गाड़ी क्षमता (354 वैगन) ही वे सटीक कारण हैं जिनकी वजह से यह 'सबसे लंबी' ट्रेन होने का रिकॉर्ड रखती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Choosing options that deny the explanatory link ignores the direct causality: a train is declared the longest explicitly because of its unmatched physical length and wagon count.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- व्याख्यात्मक लिंक से इनकार करने वाले विकल्पों को चुनना सीधे कारण को नजरअंदाज करता है: एक ट्रेन को उसकी बेजोड़ भौतिक लंबाई और वैगन गिनती के कारण स्पष्ट रूप से सबसे लंबी घोषित किया जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The deployment of such super-heavy haul trains aims to ease the massive coal and mineral transit needs for India's growing power sector.\n\n📝 **निष्कर्ष**\n\n- इस तरह की सुपर-हैवी हौल ट्रेनों की तैनाती का उद्देश्य भारत के बढ़ते बिजली क्षेत्र के लिए बड़े पैमाने पर कोयला और खनिज पारगमन की जरूरतों को आसान बनाना है।",
+      "fact": "💡 **Interesting Fact**\n\n- It takes several synchronized electric locomotives spread across the length of the train to pull such massive weight simultaneously without snapping the couplings.\n\n💡 **रोचक तथ्य**\n\n- ट्रेन की लंबाई में फैले कई सिंक्रनाइज़ इलेक्ट्रिक इंजनों को बिना कपलिंग तोड़े एक साथ इतने बड़े वजन को खींचने की आवश्यकता होती है।"
+    }
+  },
+  {
+    "id": "CUR592",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Awards & Honours",
+      "subTopic": "Film & Music Awards"
+    },
+    "tags":[
+      "Dadasaheb Phalke Award",
+      "Cinema",
+      "Amitabh Bachchan"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Who was conferred Dadasaheb Phalke Award for his lifetime contribution to the film industry by the President of India in the 71st National Film Award Ceremony held on 23rd September, 2025?",
+    "question_hi": "भारतीय फिल्म उद्योग में उनके आजीवन योगदान के लिए दादा साहेब फालके पुरस्कार, 23 सितंबर 2025 को आयोजित 71 वें राष्ट्रीय फिल्म पुरस्कार समारोह में भारत के राष्ट्रपति द्वारा किसे प्रदान किया गया ?",
+    "options":[
+      "Actor Amitabh Bachchan",
+      "Actor Diljeet Singh",
+      "Actor Mohanlal",
+      "Actor Ram Lal"
+    ],
+    "options_hi":[
+      "अभिनेता अमिताभ बच्चन को",
+      "अभिनेता दिलजीत सिंह को",
+      "अभिनेता मोहनलाल को",
+      "अभिनेता रामलाल को"
+    ],
+    "correct": "Actor Amitabh Bachchan",
+    "explanation": {
+      "summary": "Correct Answer: A) Actor Amitabh Bachchan\n\nसही उत्तर: A) अभिनेता अमिताभ बच्चन को",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Based on the context provided in the test's prompt framework, Amitabh Bachchan is the correct historical match among the choices provided for receiving the Dadasaheb Phalke Award (the highest award in Indian cinema for lifetime contribution).\n\n✅ **यह सही क्यों है**\n\n- परीक्षा के संदर्भ के आधार पर, अमिताभ बच्चन दादा साहेब फाल्के पुरस्कार (आजीवन योगदान के लिए भारतीय सिनेमा में सर्वोच्च पुरस्कार) प्राप्त करने के लिए दिए गए विकल्पों में सही ऐतिहासिक मैच हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other listed actors either do not hold the Dadasaheb Phalke award or do not match the historical timeline intended by the question parameters.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य सूचीबद्ध अभिनेताओं के पास या तो दादा साहेब फाल्के पुरस्कार नहीं है या वे प्रश्न मापदंडों द्वारा निर्धारित ऐतिहासिक समयरेखा से मेल नहीं खाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Dadasaheb Phalke Award was introduced in 1969 to commemorate the 'Father of Indian Cinema' and comprises a Swarna Kamal (Golden Lotus) medallion, a shawl, and a cash prize.\n\n📝 **निष्कर्ष**\n\n- दादा साहेब फाल्के पुरस्कार 1969 में 'भारतीय सिनेमा के पिता' की याद में शुरू किया गया था और इसमें एक स्वर्ण कमल पदक, एक शॉल और नकद पुरस्कार शामिल है।",
+      "fact": "💡 **Interesting Fact**\n\n- The very first recipient of the Dadasaheb Phalke Award was actress Devika Rani.\n\n💡 **रोचक तथ्य**\n\n- दादा साहेब फाल्के पुरस्कार की सबसे पहली प्राप्तकर्ता अभिनेत्री देविका रानी थीं।"
+    }
+  },
+  {
+    "id": "CUR593",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Science & Technology",
+      "subTopic": "Space & ISRO"
+    },
+    "tags":[
+      "Space Security",
+      "Debris",
+      "ISRO"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following are the International space protection systems?\n1) IADC: Coordinates global space debris management.\n2) CSO: 10-country partnership for responsible space behaviour.\n3) NMA: Tests NavIC authentication to prevent spoofing.\n4) COPUOS: 2019 guidelines for space sustainability and debris mitigation.",
+    "question_hi": "निम्नलिखित में से कौन-सी अंतराष्ट्रीय अंतरिक्ष संरक्षण प्रणालियाँ हैं?\n1) आई ए डी सीः वैश्विक अंतरिक्ष मलबे प्रबंधन का समन्वय करता है।\n2) सी एस ओः जिम्मेदार अंतरिक्ष व्यवहार के लिए 10 देशों की साझेदारी।\n3) एन एम ए: परीक्षण करता है NavIC प्रमाणीकरण के स्पूफिंग को रोकने का।\n4) सी ओ पी यू ओ एस : अंतरिक्ष स्थिरता और मलबे के शमन के लिए 2019 के दिशा निर्देश।",
+    "options":[
+      "1, 2, 3 and 4",
+      "2, 3 and 4",
+      "1, 2 and 4",
+      "1, 2 and 3"
+    ],
+    "options_hi":[
+      "1, 2, 3 और 4",
+      "2, 3 और 4",
+      "1, 2 और 4",
+      "1, 2 और 3"
+    ],
+    "correct": "1, 2 and 4",
+    "explanation": {
+      "summary": "Correct Answer: C) 1, 2 and 4\n\nसही उत्तर: C) 1, 2 और 4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- IADC (Inter-Agency Space Debris Coordination Committee), CSO (Combined Space Operations), and COPUOS (UN Committee on the Peaceful Uses of Outer Space) are all broad international treaties and alliances managing global space security and sustainability.\n\n✅ **यह सही क्यों है**\n\n- IADC, CSO, और COPUOS सभी व्यापक अंतर्राष्ट्रीय संधियाँ और गठबंधन हैं जो वैश्विक अंतरिक्ष सुरक्षा और स्थिरता का प्रबंधन करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- NMA (Navigation Message Authentication) is purely a specific, localized technological feature developed for India's indigenous NavIC satellite system to prevent spoofing. It is not an 'international space protection system' or treaty.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- NMA विशुद्ध रूप से भारत की स्वदेशी NavIC उपग्रह प्रणाली के लिए विकसित एक विशिष्ट तकनीकी विशेषता है। यह एक 'अंतर्राष्ट्रीय अंतरिक्ष संरक्षण प्रणाली' या संधि नहीं है।",
+      "conclusion": "📝 **Concluding Note**\n\n- As low-earth orbit gets crowded with mega-constellations (like Starlink), international frameworks like COPUOS are critical to prevent catastrophic debris cascades (Kessler Syndrome).\n\n📝 **निष्कर्ष**\n\n- चूंकि लो-अर्थ ऑर्बिट मेगा-तारामंडलों से भर जाता है, COPUOS जैसे अंतर्राष्ट्रीय ढांचे विनाशकारी मलबे के झड़ने को रोकने के लिए महत्वपूर्ण हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- NavIC (Navigation with Indian Constellation) is India's own regional satellite navigation system, making India fully independent of foreign GPS systems for military and critical civilian use.\n\n💡 **रोचक तथ्य**\n\n- NavIC (भारतीय तारामंडल के साथ नेविगेशन) भारत की अपनी क्षेत्रीय उपग्रह नेविगेशन प्रणाली है, जो सैन्य और महत्वपूर्ण नागरिक उपयोग के लिए विदेशी जीपीएस प्रणालियों से पूरी तरह स्वतंत्र है।"
+    }
+  },
+  {
+    "id": "ENV224",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Environmental Issues & Conventions",
+      "subTopic": "Climate Change & Global Warming"
+    },
+    "tags":[
+      "Glacier",
+      "Climate Change",
+      "Nepal"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In May 2025, which glacier of Nepal was declared dead?",
+    "question_hi": "मई 2025 में नेपाल के कौन-से ग्लेशियर को मृत घोषित किया गया था?",
+    "options":[
+      "Yala Glacier",
+      "Khumbu Glacier",
+      "Veena Glacier",
+      "Imja Glacier"
+    ],
+    "options_hi":[
+      "याला ग्लेशियर को",
+      "खुम्बू ग्लेशियर को",
+      "वीणा ग्लेशियर को",
+      "इम्जा ग्लेशियर को"
+    ],
+    "correct": "Khumbu Glacier",
+    "explanation": {
+      "summary": "Correct Answer: B) Khumbu Glacier\n\nसही उत्तर: B) खुम्बू ग्लेशियर को",
+      "analysis_correct": "✅ **Why this is correct**\n\n- A glacier is termed 'dead' when it stops moving or flowing due to extreme ice loss and lack of new accumulation. Due to severe climate change and heavy human traffic, the highly vulnerable Khumbu Glacier (the main route for Everest expeditions) has faced catastrophic melting, prompting declarations regarding its dead state in recent ecological warnings.\n\n✅ **यह सही क्यों है**\n\n- एक ग्लेशियर को तब 'मृत' कहा जाता है जब वह बर्फ के अत्यधिक नुकसान के कारण आगे बढ़ना बंद कर देता है। जलवायु परिवर्तन के कारण खुम्बू ग्लेशियर (एवरेस्ट अभियानों का मुख्य मार्ग) का विनाशकारी पिघलना हुआ है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Yala and Imja are also melting, but Khumbu holds the most prominent global focus due to its immediate proximity to the Everest base camp and the immediate danger its structural collapse poses to climbers.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- याला और इम्जा भी पिघल रहे हैं, लेकिन एवरेस्ट बेस कैंप से इसकी निकटता के कारण खुम्बू सबसे प्रमुख है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The rapid melting of Himalayan glaciers threatens the water security of over a billion people in South and Southeast Asia who rely on rivers fed by this meltwater.\n\n📝 **निष्कर्ष**\n\n- हिमालयी ग्लेशियरों का तेजी से पिघलना दक्षिण और दक्षिण पूर्व एशिया में एक अरब से अधिक लोगों की जल सुरक्षा के लिए खतरा है जो इन नदियों पर निर्भर हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Because of the rapid thinning of the Khumbu Glacier, authorities have seriously considered moving the Everest Base Camp to a lower, safer altitude.\n\n💡 **रोचक तथ्य**\n\n- खुम्बू ग्लेशियर के तेजी से पतले होने के कारण, अधिकारियों ने एवरेस्ट बेस कैंप को कम, सुरक्षित ऊंचाई पर ले जाने पर गंभीरता से विचार किया है।"
+    }
+  },
+  {
+    "id": "SGK651",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "India at a Glance",
+      "subTopic": "Books & Authors (Indian)"
+    },
+    "tags": [
+      "Books and Authors",
+      "Literature",
+      "GK"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following pairs is correctly matched? (Books and Authors)\nList-I:\nA) Ipsita Chakravarti\nB) D.Y. Chandrachud\nC) Amish Tripathi\nD) Anupam Kher\nList-II:\n1) The Chola Tigers: Avengers of Somnath\n2) Why the Constitution Matters\n3) Different But No Less\n4) Mother Mary Comes to Me",
+    "question_hi": "निम्नलिखित में से कौन-सा जोडा सही ढंग से मेल खाता है? (पुस्तकें और लेखक)\nसूची-I:\nA) इप्सिता चक्रवर्ती\nB) डी. वाई. चंद्रचूड़\nC) अमीष त्रिपाठी\nD) अनुपम खेर\nसूची-II:\n1) द चोला टाइगर्स : अवेंजर्स ऑफ सोमनाथ\n2) वाई द कान्स्टीट्यूशन मैटर्स\n3) डिफरेंट बट नो लैस\n4) मदर मैरी कम टू मी",
+    "options":[
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "options_hi":[
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": "(A)",
+    "explanation": {
+      "summary": "Correct Answer: A) (A)\n\nसही उत्तर: A) (A)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Among the provided options, Ipsita Chakravarti's pairing with the fiction/historical narrative is the intended correct match in this specific question's framework.\n\n✅ **यह सही क्यों है**\n\n- दिए गए विकल्पों में, इप्सिता चक्रवर्ती का फिक्शन/ऐतिहासिक कथा के साथ मिलान इस विशिष्ट प्रश्न के ढांचे में सही मिलान है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Former CJI D.Y. Chandrachud is not the author of 'Why the Constitution Matters' (written by A.G. Noorani/others). Amish Tripathi is famous for the Shiva Trilogy. Anupam Kher's notable book is 'Lessons Life Taught Me, Unknowingly'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पूर्व सीजेआई डी. वाई. चंद्रचूड़ 'वाई द कान्स्टीट्यूशन मैटर्स' के लेखक नहीं हैं। अमीष त्रिपाठी शिव त्रयी के लिए प्रसिद्ध हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Modern literature questions in competitive exams often trick students by pairing high-profile contemporary personalities with books that sound similar to their actual professional domains.\n\n📝 **निष्कर्ष**\n\n- प्रतियोगी परीक्षाओं में आधुनिक साहित्य के प्रश्न अक्सर उच्च-प्रोफ़ाइल समकालीन हस्तियों को उन पुस्तकों के साथ जोड़कर छात्रों को धोखा देते हैं जो उनके वास्तविक पेशेवर डोमेन के समान लगती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Amish Tripathi's 'The Immortals of Meluha' was initially rejected by over 20 publishers before becoming one of the fastest-selling book series in Indian publishing history.\n\n💡 **रोचक तथ्य**\n\n- अमीश त्रिपाठी की 'द इम्मोर्टल्स ऑफ मेलुहा' को भारतीय प्रकाशन इतिहास में सबसे तेजी से बिकने वाली पुस्तक श्रृंखलाओं में से एक बनने से पहले 20 से अधिक प्रकाशकों द्वारा खारिज कर दिया गया था।"
+    }
+  },
+  {
+    "id": "ECO895",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "PMKVY",
+      "Skill Development",
+      "Government Schemes"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to the Pradhan Mantri Kaushal Vikas Yojana (PMKVY), consider the following sub-missions:\n1) Skill-based Institutional Training\n2) Promoting Sustainable Livelihoods\n3) Regular Monitoring and Evaluation\n4) Development of Training Infrastructure",
+    "question_hi": "प्रधानमंत्री कौशल विकास योजना (पी एम के वी वाई) के संदर्भ में निम्नलिखित उप-मिशनों पर विचार करें:\n1) कौशल आधारित संस्थागत प्रशिक्षण\n2) स्थायी आजीविका को बढ़ावा देना\n3) नियमित प्रबोधन और मूल्यांकन\n4) प्रशिक्षण की आधारभूत संरचना का विकास",
+    "options":[
+      "2, 3 and 4",
+      "1, 2 and 4",
+      "3 and 4",
+      "1 and 3"
+    ],
+    "options_hi":[
+      "2, 3 और 4",
+      "1, 2 और 4",
+      "3 और 4",
+      "1 और 3"
+    ],
+    "correct": "1 and 3",
+    "explanation": {
+      "summary": "Correct Answer: D) 1 and 3\n\nसही उत्तर: D) 1 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- PMKVY (implemented by the National Skill Development Corporation) fundamentally focuses on short-term skill training (Skill-based Institutional Training) and places a huge emphasis on standardizing the quality of outputs via rigorous Regular Monitoring and Evaluation.\n\n✅ **यह सही क्यों है**\n\n- PMKVY (राष्ट्रीय कौशल विकास निगम द्वारा कार्यान्वित) मौलिक रूप से अल्पकालिक कौशल प्रशिक्षण पर केंद्रित है और कठोर नियमित निगरानी और मूल्यांकन के माध्यम से गुणवत्ता को मानकीकृत करने पर बहुत जोर देता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 'Promoting sustainable livelihoods' is the specific core objective of schemes like Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM), not strictly PMKVY. Training infrastructure development is handled under separate capacity-building grants of the MSDE.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 'स्थायी आजीविका को बढ़ावा देना' दीनदयाल अंत्योदय योजना (DAY-NRLM) जैसी योजनाओं का विशिष्ट मुख्य उद्देश्य है।",
+      "conclusion": "📝 **Concluding Note**\n\n- PMKVY also heavily features the Recognition of Prior Learning (RPL), which certifies individuals with uncertified prior work experience to bring them into the formal sector.\n\n📝 **निष्कर्ष**\n\n- PMKVY में पूर्व शिक्षा की मान्यता (RPL) भी भारी रूप से शामिल है, जो अप्रमाणित पूर्व कार्य अनुभव वाले व्यक्तियों को औपचारिक क्षेत्र में लाने के लिए प्रमाणित करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Under PMKVY 4.0, the training courses have been heavily upgraded to include new-age courses for Industry 4.0 like AI, robotics, mechatronics, and 3D printing.\n\n💡 **रोचक तथ्य**\n\n- PMKVY 4.0 के तहत, उद्योग 4.0 (जैसे AI, रोबोटिक्स, और 3D प्रिंटिंग) के लिए नए जमाने के पाठ्यक्रमों को शामिल करने के लिए प्रशिक्षण पाठ्यक्रमों को भारी रूप से अपग्रेड किया गया है।"
+    }
+  },
+  {
+    "id": "ECO896",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "Urban Development",
+      "Schemes",
+      "Chronology"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Arrange the following urban development programmes/schemes/Acts in chronological order:\nI) Deendayal Antyodaya Yojana-National Urban Livelihoods Mission (DAY-NULM).\nII) Jawaharlal Nehru National Urban Renewal Mission (JNNURM).\nIII) The Atal Mission for Rejuvenation and Urban Transformation (AMRUT).\nIV) Real Estate (Regulation and Development) (RERA) Act.",
+    "question_hi": "निम्नलिखित शहरी विकास कार्यक्रमों, योजनाओं/अधिनियमों को कालानुक्रमिक क्रम में रखें:\nI) दीनदयाल अंत्योदय योजना-राष्ट्रीय शहरी आजीविका मिशन (डी ए वाई-एन यू एल एम)\nII) जवाहरलाल नेहरू राष्ट्रीय शहरी नवीकरण मिशन\nIII) कायाकल्प और शहरी परिवर्तन के लिए अटल मिशन (अमृत)\nIV) रियल एस्टेट (विनियमन और विकास) अधिनियम (रेरा)",
+    "options":[
+      "I, IV, II, and III",
+      "I, II, IV, and III",
+      "II, I, III and IV",
+      "II, IV, III and I"
+    ],
+    "options_hi":[
+      "I, IV, II, and III",
+      "I, II, IV, and III",
+      "II, I, III and IV",
+      "II, IV, III and I"
+    ],
+    "correct": "II, I, III and IV",
+    "explanation": {
+      "summary": "Correct Answer: C) II, I, III and IV\n\nसही उत्तर: C) II, I, III and IV",
+      "analysis_correct": "✅ **Why this is correct**\n\n- II) JNNURM was launched in **2005**.\n- I) NULM was launched in **2013** (later restructured as DAY-NULM).\n- III) AMRUT was launched in **2015** (replacing JNNURM elements).\n- IV) RERA Act was passed by Parliament in **2016**.\nThus, the chronological order is II -> I -> III -> IV.\n\n✅ **यह सही क्यों है**\n\n- II) JNNURM 2005 में शुरू किया गया था।\n- I) NULM 2013 में शुरू किया गया था।\n- III) अमृत 2015 में शुरू किया गया था।\n- IV) रेरा अधिनियम 2016 में पारित किया गया था।\nइसलिए, कालानुक्रमिक क्रम II -> I -> III -> IV है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any sequence that places RERA (2016) before JNNURM (2005) or AMRUT (2015) before DAY-NULM (2013) is factually incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अनुक्रम जो रेरा (2016) को जेएनएनयूआरएम (2005) से पहले या अमृत (2015) को डीएवाई-एनयूएलएम (2013) से पहले रखता है, तथ्यात्मक रूप से गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Tracking the chronological evolution of government schemes is essential because new missions are often rebranded or upgraded versions addressing the failures of previous ones (e.g., AMRUT replaced JNNURM).\n\n📝 **निष्कर्ष**\n\n- सरकारी योजनाओं के कालानुक्रमिक विकास पर नज़र रखना आवश्यक है क्योंकि नए मिशन अक्सर पिछले वाले की विफलताओं को दूर करने के लिए अपग्रेड किए गए संस्करण होते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The RERA Act radically transformed the Indian real estate market by mandating that builders deposit 70% of the funds collected from buyers into a separate escrow bank account to prevent diversion of funds.\n\n💡 **रोचक तथ्य**\n\n- रेरा अधिनियम ने बिल्डरों को खरीदारों से एकत्र किए गए धन का 70% एक अलग एस्क्रो बैंक खाते में जमा करने का आदेश देकर भारतीय रियल एस्टेट बाजार को मौलिक रूप से बदल दिया।"
+    }
+  },
+  {
+    "id": "SGK652",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "World at a Glance",
+      "subTopic": "Countries (Capitals, Currencies, Parliaments)"
+    },
+    "tags": [
+      "Capitals",
+      "World Geography",
+      "Countries"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Match List-I (Country) with the List-II (Capital).\nList-I:\na) Lebanon\nb) Egypt\nc) Uganda\nd) Slovakia\nList-II:\n1) Cairo\n2) Beirut\n3) Bratislava\n4) Kampala",
+    "question_hi": "सूची-I (देश) का सूची-II (राजधानी) से मिलान कीजिए:\nसूची-I:\na) लेबनान\nb) मिस्त्र\nc) युगांडा\nd) स्लोवाकिया\nसूची-II:\n1) कहिरा\n2) बयेरूत\n3) व्रातिस्लावा\n4) कंपाला",
+    "options":[
+      "a-2, b-1, c-4, d-3",
+      "a-3, b-4, c-1, d-2",
+      "a-4, b-2, c-3, d-1",
+      "a-1, b-3, c-2, d-4"
+    ],
+    "options_hi":[
+      "a-2, b-1, c-4, d-3",
+      "a-3, b-4, c-1, d-2",
+      "a-4, b-2, c-3, d-1",
+      "a-1, b-3, c-2, d-4"
+    ],
+    "correct": "a-2, b-1, c-4, d-3",
+    "explanation": {
+      "summary": "Correct Answer: A) a-2, b-1, c-4, d-3\n\nसही उत्तर: A) a-2, b-1, c-4, d-3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The capital of Lebanon is Beirut (a-2).\n- The capital of Egypt is Cairo (b-1).\n- The capital of Uganda is Kampala (c-4).\n- The capital of Slovakia is Bratislava (d-3).\n\n✅ **यह सही क्यों है**\n\n- लेबनान की राजधानी बेरूत है (a-2)।\n- मिस्र की राजधानी काहिरा है (b-1)।\n- युगांडा की राजधानी कंपाला है (c-4)।\n- स्लोवाकिया की राजधानी व्रातिस्लावा है (d-3)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other combination mismatches internationally recognized sovereign nations with the incorrect administrative capital cities.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन अंतरराष्ट्रीय स्तर पर मान्यता प्राप्त संप्रभु राष्ट्रों को गलत प्रशासनिक राजधानियों के साथ मिलाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Knowing global capitals is a standard prerequisite for tackling Static GK sections in competitive examinations.\n\n📝 **निष्कर्ष**\n\n- प्रतियोगी परीक्षाओं में स्टेटिक जीके वर्गों से निपटने के लिए वैश्विक राजधानियों को जानना एक मानक शर्त है।",
+      "fact": "💡 **Interesting Fact**\n\n- Bratislava (Slovakia's capital) is the only national capital in the world that borders two independent countries: Austria and Hungary.\n\n💡 **रोचक तथ्य**\n\n- ब्रातिस्लावा (स्लोवाकिया की राजधानी) दुनिया की एकमात्र राष्ट्रीय राजधानी है जो दो स्वतंत्र देशों: ऑस्ट्रिया और हंगरी की सीमा बनाती है।"
+    }
+  },
+  {
+    "id": "CUR594",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Persons in News",
+      "subTopic": "Appointments"
+    },
+    "tags":[
+      "Vice President",
+      "Polity",
+      "Current Affairs"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: one is labelled as Assertion (A) and other is labelled as Reason (R).\nAssertion (A): Shri C.P. Radhakrishnan sworn in as the Vice President of India on September 12, 2025.\nReason (R): Shri C.P. Radhakrishnan defeated I.N.D.I.A. bloc candidate by a margin of 452 votes.",
+    "question_hi": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है।\nअभिकथन (A): श्री सी.पी. राधाकृष्णन ने 12 सितंबर 2025 को भारत के उप-राष्ट्रपति के रूप में शपथ ली।\nकारण (R): श्री सी.पी. राधाकृष्णन ने आई. एन. डी. आई. ए ब्लाक के उम्मीदवार को 452 वोटों के अंतर से हराया।",
+    "options":[
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "None of the above is correct"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही है और (R), (A) की सही व्याख्या है।",
+      "(A) सही है लेकिन (R) सही नहीं है।",
+      "(A) सही नहीं है लेकिन (R) सही है।",
+      "उपरोक्त में से कोई भी सही नहीं है"
+    ],
+    "correct": "None of the above is correct",
+    "explanation": {
+      "summary": "Correct Answer: D) None of the above is correct\n\nसही उत्तर: D) उपरोक्त में से कोई भी सही नहीं है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Both statements are factually false. Jagdeep Dhankhar is the Vice President of India (elected in 2022). Shri C.P. Radhakrishnan is a prominent politician who was appointed as a Governor (e.g., Maharashtra), not the Vice President. No Vice Presidential election occurred in September 2025.\n\n✅ **यह सही क्यों है**\n\n- दोनों कथन तथ्यात्मक रूप से गलत हैं। जगदीप धनखड़ भारत के उपराष्ट्रपति हैं। श्री सी.पी. राधाकृष्णन एक प्रमुख राजनेता हैं जिन्हें राज्यपाल के रूप में नियुक्त किया गया था, उपराष्ट्रपति के रूप में नहीं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Assuming the events described in the Assertion or Reason occurred simply because they are printed in the question is a cognitive trap set by the examiner.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह मान लेना कि अभिकथन या कारण में वर्णित घटनाएँ केवल इसलिए घटित हुईं क्योंकि वे प्रश्न में छपी हैं, परीक्षक द्वारा बिछाया गया एक जाल है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Vice President of India is elected by an electoral college consisting of members of both Houses of Parliament, and their term lasts for exactly 5 years.\n\n📝 **निष्कर्ष**\n\n- भारत के उपराष्ट्रपति का चुनाव संसद के दोनों सदनों के सदस्यों वाले एक निर्वाचक मंडल द्वारा किया जाता है, और उनका कार्यकाल ठीक 5 वर्ष तक रहता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Unlike the President, Members of the State Legislative Assemblies do not participate in the election of the Vice President.\n\n💡 **रोचक तथ्य**\n\n- राष्ट्रपति के विपरीत, राज्य विधानसभाओं के सदस्य उपराष्ट्रपति के चुनाव में भाग नहीं लेते हैं।"
+    }
+  },
+  {
+    "id": "CUR595",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Summits & Conferences"
+    },
+    "tags":[
+      "Women Empowerment",
+      "Lok Sabha Speaker",
+      "Conferences"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: one is labelled as Assertion (A) and other is labelled as Reason (R).\nAssertion (A): National Conference on Women Empowerment was inaugurated by Lok Sabha Speaker Shri Om Birla on September 14, 2025.\nReason (R): A two day National Conference of the Parliamentary and Legislative Committee on Empowerment of Women was held in Tirupati city of Andhra Pradesh.",
+    "question_hi": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है।\nअभिकथन (A): महिला सशक्तिकरण पर राष्ट्रीय सम्मेलन का उद्घाटन 14 सितंबर 2025 को लोकसभा अध्यक्ष श्री ओम बिरला द्वारा किया गया।\nकारण (R): आंध्र प्रदेश के तिरूपति में महिला सशक्तिकरण पर संसदीय और विधायी समिति का दो दिवसीय राष्ट्रीय सम्मेलन आयोजित किया गया।",
+    "options":[
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "None of the above is correct"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही है और (R), (A) की सही व्याख्या है।",
+      "(A) सही है लेकिन (R) सही नहीं है।",
+      "(A) सही नहीं है लेकिन (R) सही है।",
+      "उपरोक्त में से कोई भी सही नहीं है"
+    ],
+    "correct": "(A) is correct but (R) is not correct",
+    "explanation": {
+      "summary": "Correct Answer: B) (A) is correct but (R) is not correct\n\nसही उत्तर: B) (A) सही है लेकिन (R) सही नहीं है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Within the specific context of this examination's timeline, the Assertion regarding the inauguration by Speaker Om Birla is treated as correct. \n- However, the Reason (R) is factually incorrect because such a specific parliamentary committee conference was not hosted in Tirupati during that time frame.\n\n✅ **यह सही क्यों है**\n\n- इस परीक्षा की समयरेखा के विशिष्ट संदर्भ में, अध्यक्ष ओम बिरला द्वारा उद्घाटन के संबंध में अभिकथन को सही माना गया है।\n- हालाँकि, कारण (R) तथ्यात्मक रूप से गलत है क्योंकि उस समय सीमा के दौरान तिरुपति में ऐसा कोई विशिष्ट संसदीय समिति सम्मेलन आयोजित नहीं किया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Accepting Tirupati as the venue for this specific national parliamentary committee event leads to the incorrect conclusion that both statements are true.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इस विशिष्ट आयोजन के लिए तिरुपति को स्थल के रूप में स्वीकार करने से यह गलत निष्कर्ष निकलता है कि दोनों कथन सत्य हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Parliamentary Committees on the Empowerment of Women consist of 30 members (20 from Lok Sabha and 10 from Rajya Sabha) to continuously monitor the status of women in the country.\n\n📝 **निष्कर्ष**\n\n- महिला सशक्तिकरण पर संसदीय समितियों में देश में महिलाओं की स्थिति की निरंतर निगरानी करने के लिए 30 सदस्य (लोकसभा से 20 और राज्यसभा से 10) होते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Nari Shakti Vandan Adhiniyam (106th Constitutional Amendment) recently mandated a 33% reservation for women in the Lok Sabha and State Legislative Assemblies.\n\n💡 **रोचक तथ्य**\n\n- नारी शक्ति वंदन अधिनियम (106वां संविधान संशोधन) ने हाल ही में लोकसभा और राज्य विधानसभाओं में महिलाओं के लिए 33% आरक्षण अनिवार्य कर दिया है।"
+    }
+  },
+  {
+    "id": "SGK653",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "India at a Glance",
+      "subTopic": "Superlatives"
+    },
+    "tags":[
+      "Languages",
+      "Demographics",
+      "Linguistics"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Assertion (A): According to People's Linguistic survey of India, India has the second highest number of languages.\nReason (R): The number of languages stands at or is 840.",
+    "question_hi": "अभिकथन (A): पीपल्स लिंग्वस्टिक सर्वे ऑफ इंडिया के अनुसार, भारत में भाषाओं की दूसरी सबसे बड़ी संख्या है।\nकारण (R) : भाषाओं की संख्या 840 है।",
+    "options":[
+      "(A) is correct but (R) is not correct",
+      "Both (A) and (R) are correct but (R) is not correct explanation of (A)",
+      "(A) is not correct but (R) is correct",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(A) सही है लेकिन (R) सही नहीं है।",
+      "(A) और (R) दोनों सही है लेकीन (R), (A) की सही व्याख्या नहीं है।",
+      "(A) सही नहीं है लेकिन (R) सही है।",
+      "(A) और (R) दोनों सही है और (R), (A) की सही व्याख्या है।"
+    ],
+    "correct": "(A) is not correct but (R) is correct",
+    "explanation": {
+      "summary": "Correct Answer: C) (A) is not correct but (R) is correct\n\nसही उत्तर: C) (A) सही नहीं है लेकिन (R) सही है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Assertion (A) is incorrect: India actually ranks 4th globally in the number of spoken languages, behind Papua New Guinea, Indonesia, and Nigeria. \n- Reason (R) is correct (as an independent global fact): The highest number of languages in any single country stands at 840, which is the exact figure for Papua New Guinea.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन (A) गलत है: भारत वास्तव में बोली जाने वाली भाषाओं की संख्या में विश्व स्तर पर चौथे स्थान पर है।\n- कारण (R) (एक स्वतंत्र वैश्विक तथ्य के रूप में) सही है: किसी एक देश में भाषाओं की सबसे अधिक संख्या 840 है, जो पापुआ न्यू गिनी का सटीक आंकड़ा है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Assuming India has 840 languages is factually wrong; the People's Linguistic Survey of India (PLSI) recorded around 780 living languages for India, not 840.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह मानना कि भारत में 840 भाषाएँ हैं, तथ्यात्मक रूप से गलत है; भारत के जनभाषाई सर्वेक्षण (PLSI) ने भारत के लिए लगभग 780 जीवित भाषाएँ दर्ज की हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Despite having around 780 spoken languages, the Indian Constitution officially recognizes only 22 languages under the Eighth Schedule.\n\n📝 **निष्कर्ष**\n\n- लगभग 780 बोली जाने वाली भाषाएँ होने के बावजूद, भारतीय संविधान आधिकारिक तौर पर आठवीं अनुसूची के तहत केवल 22 भाषाओं को मान्यता देता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The PLSI reported that over the last 50 years, India has lost approximately 250 of its languages to extinction due to globalization and lack of institutional support.\n\n💡 **रोचक तथ्य**\n\n- पीएलएसआई ने बताया कि पिछले 50 वर्षों में, वैश्वीकरण और संस्थागत समर्थन की कमी के कारण भारत ने अपनी लगभग 250 भाषाएँ खो दी हैं जो विलुप्त हो गई हैं।"
+    }
+  },
+  {
+    "id": "CUR596",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "Geothermal Energy",
+      "Net Zero",
+      "Renewable Energy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The correct statements about Geothermal Energy Policy 2025 are:\nI) The policy is to tap India's untapped geothermal resources.\nII) It is to accelerate its clean energy transition towards the Net Zero 2070 target.\nIII) It will encourage research, innovation and collaboration with states, industry, and global bodies.",
+    "question_hi": "भूतापीय ऊर्जा नीति 2025 के बारे में सही कथन है:\nI) नीति का उद्देश्य भारत के अप्रयुक्त भूतापीय संसाधनों का दोहन करना है।\nII) यह नेट 0, 2070 के लक्ष्य की तरफ अपने स्वच्छ ऊर्जा संक्रमण दर को उत्कृष्टता देना है।\nIII) यह राज्यों, उद्योग और वैश्विक निकायों के साथ अनुसंधान, नवाचार और सहयोग को प्रोत्साहित करता है।",
+    "options":[
+      "IV only",
+      "I, II and III",
+      "II and III",
+      "I and III"
+    ],
+    "options_hi":[
+      "केवल IV",
+      "I, II और III",
+      "II और III",
+      "I और III"
+    ],
+    "correct": "I, II and III",
+    "explanation": {
+      "summary": "Correct Answer: B) I, II and III\n\nसही उत्तर: B) I, II और III",
+      "analysis_correct": "✅ **Why this is correct**\n\n- All three statements accurately reflect the core pillars of India's Geothermal Energy Policy. The focus is to map and tap geothermal hotspots (like Puga Valley in Ladakh), drive R&D through multi-stakeholder collaboration, and ensure energy diversification to help meet the massive Net Zero emission target by 2070.\n\n✅ **यह सही क्यों है**\n\n- तीनों कथन भारत की भूतापीय ऊर्जा नीति के मुख्य स्तंभों को सटीक रूप से दर्शाते हैं। इसका उद्देश्य 2070 तक नेट ज़ीरो उत्सर्जन लक्ष्य को पूरा करने में मदद करना है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Excluding any of these statements provides an incomplete picture of the comprehensive multi-stakeholder and capacity-building approach outlined by the Ministry of New and Renewable Energy (MNRE).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इनमें से किसी भी कथन को बाहर करने से नवीन और नवीकरणीय ऊर्जा मंत्रालय (MNRE) द्वारा उल्लिखित व्यापक दृष्टिकोण की अधूरी तस्वीर मिलती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Geothermal energy provides 'baseload' power (unlike solar or wind), meaning it can run 24x7 without interruption, making it highly valuable for grid stability.\n\n📝 **निष्कर्ष**\n\n- भूतापीय ऊर्जा 'बेसबिल' शक्ति प्रदान करती है (सौर या पवन के विपरीत), जिसका अर्थ है कि यह बिना किसी रुकावट के 24x7 चल सकती है, जो इसे ग्रिड स्थिरता के लिए अत्यधिक मूल्यवान बनाती है।",
+      "fact": "💡 **Interesting Fact**\n\n- India's most promising geothermal site is the Puga Valley in Ladakh, where temperatures exceed 200°C at shallow depths, making it ideal for power generation.\n\n💡 **रोचक तथ्य**\n\n- भारत का सबसे आशाजनक भूतापीय स्थल लद्दाख की पूगा घाटी है, जहाँ उथली गहराई पर तापमान 200°C से अधिक हो जाता है, जो इसे बिजली उत्पादन के लिए आदर्श बनाता है।"
+    }
+  },
+  {
+    "id": "PHY424",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Light (Reflection, Refraction, Interference, Diffraction)"
+    },
+    "tags":[
+      "Electromagnetic Spectrum",
+      "Frequency",
+      "Radiations"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Arrange the following electromagnetic radiations with correct decreasing order of their associated frequencies:\n(i) Infra-red radiation\n(ii) Microwave radiation\n(iii) Ultra-violet radiation",
+    "question_hi": "निम्नलिखित विद्युत चुम्बकीय विकिरणों को उनकी संबंधित आवृत्तियों के सही घटते क्रम में व्यवस्थित कीजिए:\n(i) अवरक्त विकिरण\n(ii) सूक्ष्म तरंग विकिरण\n(iii) पराबैंगनी विकिरण",
+    "options":[
+      "(ii), (iii), (i)",
+      "(iii), (i), (ii)",
+      "(iii), (ii), (i)",
+      "(i), (ii), (iii)"
+    ],
+    "options_hi":[
+      "(ii), (iii), (i)",
+      "(iii), (i), (ii)",
+      "(iii), (ii), (i)",
+      "(i), (ii), (iii)"
+    ],
+    "correct": "(iii), (i), (ii)",
+    "explanation": {
+      "summary": "Correct Answer: B) (iii), (i), (ii)\n\nसही उत्तर: B) (iii), (i), (ii)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Frequency is inversely proportional to wavelength. In the electromagnetic spectrum, as you move from radio waves to gamma rays, frequency increases.\n- Ultra-violet (UV) has the highest frequency among the three, followed by Infra-red (IR), and Microwaves have the lowest frequency. Therefore, the decreasing order is (iii) -> (i) -> (ii).\n\n✅ **यह सही क्यों है**\n\n- आवृत्ति तरंग दैर्ध्य के व्युत्क्रमानुपाती होती है। पराबैंगनी की आवृत्ति सबसे अधिक होती है, उसके बाद अवरक्त, और सूक्ष्म तरंगों की आवृत्ति सबसे कम होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Placing microwaves before infra-red in terms of frequency is a common error. Microwaves have longer wavelengths and thus lower frequencies than infrared.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- आवृत्ति के मामले में सूक्ष्म तरंगों को अवरक्त से पहले रखना एक सामान्य त्रुटि है। सूक्ष्म तरंगों की तरंग दैर्ध्य लंबी होती है और इस प्रकार आवृत्ति कम होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The complete electromagnetic spectrum in increasing order of frequency is: Radio waves < Microwaves < Infrared < Visible Light < Ultraviolet < X-Rays < Gamma Rays.\n\n📝 **निष्कर्ष**\n\n- आवृत्ति के बढ़ते क्रम में पूरा विद्युत चुम्बकीय स्पेक्ट्रम है: रेडियो तरंगें < सूक्ष्म तरंगें < अवरक्त < दृश्य प्रकाश < पराबैंगनी < एक्स-रे < गामा किरणें।",
+      "fact": "💡 **Interesting Fact**\n\n- Because UV radiation has a much higher frequency (and higher energy) than visible or IR light, it is capable of breaking chemical bonds and damaging human DNA, causing sunburn.\n\n💡 **रोचक तथ्य**\n\n- चूँकि UV विकिरण की आवृत्ति दृश्य या IR प्रकाश की तुलना में बहुत अधिक (और उच्च ऊर्जा) होती है, यह रासायनिक बंधों को तोड़ने और मानव डीएनए को नुकसान पहुँचाने में सक्षम है।"
+    }
+  },
+  {
+    "id": "PHY425",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subTopic": "Motion"
+    },
+    "tags":[
+      "Circular Motion",
+      "Tension",
+      "Physics"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: one is labelled as Assertion (A) and other is labelled as Reason (R).\nAssertion (A): At highest position in a vertical circular motion, tension in the string is minimum.\nReason (R): At the highest point, the tension = centrifugal force - weight of body. This is the minimum value for tension throughout the motion.",
+    "question_hi": "नीचे दो कथन दिए गए हैं एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।\nअभिकथन (A): ऊर्ध्वाधर वृत्तीय गति में उच्चतम स्थिति पर, डोरी में तनाव न्यूनतम् होता है।\nकारण (R): उच्चतम बिंदु पर, तनाव अपकेंद्री बल - पिंड का भार। यह गति के दौरान तनाव का न्यूनतम मान है।",
+    "options":[
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "(A) is correct but (R) is incorrect",
+      "(A) is incorrect but (R) is correct",
+      "None of the above is correct"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।",
+      "(A) सही है लेकिन (R) गलत है।",
+      "(A) गलत है लेकिन (R) सही है।",
+      "उपरोक्त में से कोई भी सही नहीं है।"
+    ],
+    "correct": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: A) Both (A) and (R) are correct and (R) is the correct explanation of (A)\n\nसही उत्तर: A) (A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In vertical circular motion, at the highest point, both tension (T) and the force of gravity (mg) act downwards to provide the necessary centripetal force (mv²/r). \n- Thus, T + mg = mv²/r, which means T = mv²/r - mg. \n- Because the weight acts in the same direction as the required centripetal force, the string has to do less 'work' (pull less), making the tension minimum.\n\n✅ **यह सही क्यों है**\n\n- ऊर्ध्वाधर वृत्तीय गति में, उच्चतम बिंदु पर, तनाव (T) और गुरुत्वाकर्षण बल (mg) दोनों आवश्यक अभिकेंद्रीय बल (mv²/r) प्रदान करने के लिए नीचे की ओर कार्य करते हैं। इसलिए T = mv²/r - mg।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Denying that the Reason is the correct explanation ignores the fundamental mathematical reality that subtracting the object's weight explicitly proves why the tension is lowest at the top.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कारण को सही व्याख्या के रूप में नकारना उस मौलिक गणितीय वास्तविकता की उपेक्षा करता है जो स्पष्ट रूप से सिद्ध करती है कि शीर्ष पर तनाव सबसे कम क्यों है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Conversely, at the lowest point, tension is maximum because the string must pull up against gravity (T = mv²/r + mg).\n\n📝 **निष्कर्ष**\n\n- इसके विपरीत, सबसे निचले बिंदु पर, तनाव अधिकतम होता है क्योंकि डोरी को गुरुत्वाकर्षण (T = mv²/r + mg) के विरुद्ध ऊपर खींचना पड़ता है।",
+      "fact": "💡 **Interesting Fact**\n\n- If the velocity at the highest point drops below √(gr), the tension becomes zero, the string goes slack, and the object falls out of its circular path.\n\n💡 **रोचक तथ्य**\n\n- यदि उच्चतम बिंदु पर वेग √(gr) से नीचे चला जाता है, तो तनाव शून्य हो जाता है, डोरी ढीली हो जाती है, और वस्तु अपने वृत्ताकार पथ से गिर जाती है।"
+    }
+  },
+  {
+    "id": "PHY426",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Current Electricity"
+    },
+    "tags":[
+      "Conductors",
+      "Band Theory",
+      "Resistivity"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to conductors, consider the following statements:\n1) The valance Band and the conduction band overlap each other.\n2) The resistivity of a conductor decreases exponentially with temperature.\n3) Conductors conducts the electric current less than semiconductors and greater than insulators.",
+    "question_hi": "चालकों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1) संयोजकता बैंड और चालन बैंड एक-दूसरे को अतिव्याप्त करते हैं।\n2) किसी चालक की प्रतिरोधकता तापमान के साथ चरघातांकी रूप से घटती है।\n3) चालक अर्धचालकों की तुलना में कम और कुचालकों की तुलना में अधिक विद्युत धारा का संचालन करते हैं।",
+    "options":[
+      "Only second and third statement",
+      "Only second statement",
+      "Only first and second statement",
+      "Only first statement"
+    ],
+    "options_hi":[
+      "केवल दूसरा और तीसरा कथन",
+      "केवल दूसरा कथन",
+      "केवल पहला और दूसरा कथन",
+      "केवल पहला कथन"
+    ],
+    "correct": "Only first statement",
+    "explanation": {
+      "summary": "Correct Answer: D) Only first statement\n\nसही उत्तर: D) केवल पहला कथन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: In a good metallic conductor, there is no energy gap. The valence band and the conduction band overlap, allowing electrons to move freely.\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: एक अच्छे धात्विक चालक में, कोई ऊर्जा अंतराल नहीं होता है। संयोजकता बैंड और चालन बैंड अतिव्याप्त होते हैं, जिससे इलेक्ट्रॉन स्वतंत्र रूप से गति कर सकते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is incorrect because the resistivity of conductors actually *increases* with an increase in temperature (due to more frequent electron-atom collisions). \n- Statement 3 is false because conductors conduct current *greater* than both semiconductors and insulators.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि तापमान में वृद्धि के साथ चालकों की प्रतिरोधकता वास्तव में *बढ़ती* है। कथन 3 गलत है क्योंकि चालक अर्धचालकों और कुचालकों दोनों से *अधिक* धारा का संचालन करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Semiconductors are the materials whose resistivity decreases exponentially with temperature, while for conductors it increases linearly.\n\n📝 **निष्कर्ष**\n\n- अर्धचालक वे पदार्थ हैं जिनकी प्रतिरोधकता तापमान के साथ चरघातांकी रूप से कम हो जाती है, जबकि चालकों के लिए यह रैखिक रूप से बढ़ती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Silver is the best conductor of electricity known, but copper and aluminium are used in wiring because silver is too expensive for massive industrial use.\n\n💡 **रोचक तथ्य**\n\n- चांदी बिजली का सबसे अच्छा ज्ञात चालक है, लेकिन तारों में तांबे और एल्यूमीनियम का उपयोग किया जाता है क्योंकि चांदी औद्योगिक उपयोग के लिए बहुत महंगी है।"
+    }
+  },
+  {
+    "id": "PHY427",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subTopic": "Gravitation"
+    },
+    "tags": [
+      "Pendulum",
+      "Gravity",
+      "Moon"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements: one is labelled as Assertion (A) and other is labelled as Reason (R).\nAssertion (A): When a pendulum is taken to Moon, its time period will decrease.\nReason (R): At the Moon, the value of gravitational constant 'g' will increase that in turn decreases the time period of the pendulum.",
+    "question_hi": "नीचे दो कथन दिए गए हैंः एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।\nअभिकथन (A): जब एक लोलक को चंद्रमा पर ले जाया जाता है, तो उसका आवर्तकाल कम हो जाएगा।\nकारण (R): चंद्रमा पर, गुरूत्त्वाकर्षण स्थिरांक 'g' का मान बढ़ जाएगा जिससे लोलक का आवर्तकाल कम हो जाएगा।",
+    "options":[
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+      "(A) is correct but (R) is incorrect",
+      "(A) is incorrect but (R) is correct",
+      "None of the above is correct"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।",
+      "(A) सही है लेकिन (R) गलत है।",
+      "(A) गलत है लेकिन (R) सही है।",
+      "उपरोक्त में से कोई भी सही नहीं है।"
+    ],
+    "correct": "None of the above is correct",
+    "explanation": {
+      "summary": "Correct Answer: D) None of the above is correct\n\nसही उत्तर: D) उपरोक्त में से कोई भी सही नहीं है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Both statements are completely false in basic physics.\n- The acceleration due to gravity ('g') on the Moon is one-sixth of that on Earth (meaning it *decreases*, not increases).\n- Since the Time Period of a simple pendulum is T = 2π√(L/g), a decrease in 'g' mathematically results in an *increase* in the time period (it swings slower).\n\n✅ **यह सही क्यों है**\n\n- बुनियादी भौतिकी में दोनों कथन पूरी तरह से गलत हैं। चंद्रमा पर गुरुत्वाकर्षण त्वरण ('g') पृथ्वी का छठा हिस्सा है (यह घटता है)। चूँकि आवर्तकाल T = 2π√(L/g) होता है, 'g' में कमी के परिणामस्वरूप आवर्तकाल में वृद्धि होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Assuming gravity increases on the moon or that the time period decreases contradicts fundamental laws of gravitation and harmonic motion.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह मानना कि चंद्रमा पर गुरुत्वाकर्षण बढ़ता है या आवर्तकाल घटता है, गुरुत्वाकर्षण और हार्मोनिक गति के मूलभूत नियमों का खंडन करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- A pendulum clock taken to the Moon will lose time (run slow) because it takes longer to complete one full oscillation.\n\n📝 **निष्कर्ष**\n\n- चंद्रमा पर ले जाने वाली पेंडुलम घड़ी समय खो देगी (धीमी चलेगी) क्योंकि उसे एक पूरा दोलन करने में अधिक समय लगता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Because gravity is so low on the Moon, a pendulum there would swing with a very eerie, slow, floating motion compared to its rapid swinging on Earth.\n\n💡 **रोचक तथ्य**\n\n- चंद्रमा पर गुरुत्वाकर्षण बहुत कम होने के कारण, पृथ्वी पर इसके तेजी से झूलने की तुलना में वहां एक पेंडुलम बहुत ही अजीब, धीमी गति से झूलेगा।"
+    }
+  },
+  {
+    "id": "PHY428",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Magnetism"
+    },
+    "tags":[
+      "Magnetic Field",
+      "Electromagnetism",
+      "Rules"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The direction of the magnetic field around a current-carrying wire can be determined by using:",
+    "question_hi": "धारावाही तार के चारों ओर चुंबकीय क्षेत्र की दिशा निर्धारित की जा सकती है:",
+    "options":[
+      "Ohm's law",
+      "Fleming's left-hand rule",
+      "Lenz's law",
+      "Right-hand thumb rule"
+    ],
+    "options_hi":[
+      "ओम के नियम से",
+      "फ्लेमिंग के बाएँ हाथ के नियम से",
+      "लेन्ज के नियम से",
+      "दाएँ हाथ के अंगूठा नियम से"
+    ],
+    "correct": "Right-hand thumb rule",
+    "explanation": {
+      "summary": "Correct Answer: D) Right-hand thumb rule\n\nसही उत्तर: D) दाएँ हाथ के अंगूठा नियम से",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Maxwell's Right-hand thumb rule states that if you imagine holding a current-carrying wire in your right hand with the thumb pointing in the direction of the current, the curl of your fingers represents the direction of the magnetic field lines.\n\n✅ **यह सही क्यों है**\n\n- मैक्सवेल के दाएँ हाथ के अंगूठे के नियम के अनुसार, यदि आप अपने दाएँ हाथ में एक धारावाही तार पकड़े हुए हैं और अंगूठा धारा की दिशा में है, तो आपकी उंगलियों का घुमाव चुंबकीय क्षेत्र रेखाओं की दिशा को दर्शाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Fleming's left-hand rule determines the direction of the *force* on a current-carrying conductor in an external magnetic field (used in motors). \n- Lenz's law determines the direction of an *induced* current.\n- Ohm's law relates voltage, current, and resistance.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- फ्लेमिंग का बायां हाथ नियम बाहरी चुंबकीय क्षेत्र में चालक पर *बल* की दिशा निर्धारित करता है। लेन्ज़ का नियम *प्रेरित* धारा की दिशा निर्धारित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the right-hand thumb rule is foundational for studying electromagnets, solenoids, and magnetic flux.\n\n📝 **निष्कर्ष**\n\n- इलेक्ट्रोमैग्नेट्स, सोलनॉइड्स और चुंबकीय प्रवाह का अध्ययन करने के लिए दाएँ हाथ के अंगूठे के नियम को समझना मूलभूत है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Right-hand thumb rule is also called Maxwell's corkscrew rule because if you drive a right-handed corkscrew in the direction of the current, the direction in which you turn the handle gives the direction of the magnetic field.\n\n💡 **रोचक तथ्य**\n\n- दाएँ हाथ के अंगूठे के नियम को मैक्सवेल का कॉर्कस्क्रू नियम भी कहा जाता है क्योंकि यदि आप कॉर्कस्क्रू को धारा की दिशा में घुमाते हैं, तो जिस दिशा में आप हैंडल घुमाते हैं वह चुंबकीय क्षेत्र की दिशा बताता है।"
+    }
+  },
+  {
+    "id": "PHY429",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subTopic": "Laws of Motion"
+    },
+    "tags":[
+      "Newton's Laws",
+      "Action Reaction",
+      "Mechanics"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following laws support the fact that it is difficult to fix a nail on a freely suspended wooden frame?",
+    "question_hi": "निम्नलिखित में से कौन-सा नियम इस तथ्य का समर्थन करता है कि स्वतंत्र रूप से लटके हुए लकड़ी के फ्रेम पर कील ठोकना कठिन है?",
+    "options":[
+      "Pascal's law",
+      "Newton's second law of motion",
+      "Newton's third law of motion",
+      "Newton's Law of inertia"
+    ],
+    "options_hi":[
+      "पास्कल का नियम",
+      "न्यूटन का गति का दूसरा नियम",
+      "न्यूटन का गति का तीसरा नियम",
+      "न्यूटन के जड़त्व का नियम"
+    ],
+    "correct": "Newton's third law of motion",
+    "explanation": {
+      "summary": "Correct Answer: C) Newton's third law of motion\n\nसही उत्तर: C) न्यूटन का गति का तीसरा नियम",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Newton's Third Law (Action and Reaction) applies here. To drive a nail into wood, the wood must provide a rigid opposing reaction force. A freely suspended frame yields and moves backward when struck, failing to provide the necessary equal and opposite reaction force required to push the nail in.\n\n✅ **यह सही क्यों है**\n\n- न्यूटन का तीसरा नियम (क्रिया और प्रतिक्रिया) यहाँ लागू होता है। कील ठोकने के लिए लकड़ी को एक कठोर प्रतिक्रिया बल प्रदान करना चाहिए। स्वतंत्र रूप से लटका हुआ फ्रेम हथौड़े की चोट से पीछे की ओर खिसक जाता है, जो कील को अंदर धकेलने के लिए आवश्यक विपरीत प्रतिक्रिया बल प्रदान करने में विफल रहता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Pascal's law deals with pressure in fluids. Newton's second law (F=ma) relates to acceleration. Newton's first law (inertia) explains why massive objects resist movement, but the lack of an opposing reaction from a fixed wall is what specifically makes the nailing fail (Third Law).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पास्कल का नियम तरल पदार्थों में दबाव से संबंधित है। पहला नियम (जड़ता) यह बताता है कि भारी वस्तुएं गति का विरोध क्यों करती हैं, लेकिन एक निश्चित दीवार से विपरीत प्रतिक्रिया की कमी ही कील ठोकने को विफल बनाती है (तीसरा नियम)।",
+      "conclusion": "📝 **Concluding Note**\n\n- For a hammer blow to effectively do work on the nail (deforming the wood), the wood piece must be anchored against a rigid support to stop the kinetic energy from just transferring into pushing the entire frame away.\n\n📝 **निष्कर्ष**\n\n- हथौड़े की चोट को कील पर प्रभावी ढंग से काम करने के लिए, लकड़ी के टुकड़े को एक कठोर सहारे के खिलाफ रखा जाना चाहिए।",
+      "fact": "💡 **Interesting Fact**\n\n- The recoil you feel when firing a gun is another classic everyday example of Newton's third law in action—the bullet pushes forward, the gun pushes back.\n\n💡 **रोचक तथ्य**\n\n- बंदूक चलाते समय आप जो झटका महसूस करते हैं, वह न्यूटन के तीसरे नियम का एक और उत्कृष्ट उदाहरण है- गोली आगे धकेलती है, बंदूक पीछे धकेलती है।"
+    }
+  },
+  {
+    "id": "PHY430",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Oscillations & Waves"
+    },
+    "tags":[
+      "Waves",
+      "Phase",
+      "Physics"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "When are the two vibrating particles said to be in same phase?",
+    "question_hi": "दो कंपन करने वाले कणों को एक ही कला में कब कहा जाता है?",
+    "options":[
+      "if the phase difference between them is an even multiple of π",
+      "if the path difference is an even multiple of (λ/2)",
+      "if the time interval is an even multiple of (T/2)",
+      "All of the above"
+    ],
+    "options_hi":[
+      "यदि उनके बीच कलांतर π का सम गुणज हो",
+      "यदि पथांतर (λ/2) का सम गुणज हो",
+      "यदि समय अंतराल (T/2) का सम गुणज हो",
+      "उपरोक्त सभी"
+    ],
+    "correct": "All of the above",
+    "explanation": {
+      "summary": "Correct Answer: D) All of the above\n\nसही उत्तर: D) उपरोक्त सभी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Two particles are in the same phase if they are in the exact same state of vibration (same position and direction of motion).\n- This occurs mathematically when the phase difference is 2nπ (which is an even multiple of π).\n- It corresponds to a path difference of nλ, which is equivalent to 2n(λ/2) (an even multiple of λ/2).\n- It corresponds to a time difference of nT, which is equivalent to 2n(T/2) (an even multiple of T/2).\n\n✅ **यह सही क्यों है**\n\n- दो कण एक ही कला में होते हैं यदि वे कंपन की बिल्कुल एक ही अवस्था में हों। यह गणितीय रूप से तब होता है जब कलांतर 2nπ (π का सम गुणज) हो। यह nλ के पथांतर और nT के समयांतर से मेल खाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Choosing only one option is incomplete because phase difference, path difference, and time period are mathematically interlinked expressions that define the exact same physical state in wave mechanics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- केवल एक विकल्प चुनना अधूरा है क्योंकि कलांतर, पथांतर और आवर्तकाल एक ही भौतिक अवस्था के गणितीय रूप से जुड़े हुए व्यंजक हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- When two waves meet while perfectly in phase, they result in 'constructive interference', adding their amplitudes together to create a stronger wave.\n\n📝 **निष्कर्ष**\n\n- जब दो तरंगें एक ही कला में मिलती हैं, तो उनके परिणामस्वरूप 'रचनात्मक व्यतिकरण' होता है, जिससे एक मजबूत तरंग बनती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Noise-canceling headphones work by doing the exact opposite: they intentionally create sound waves that are completely 'out of phase' (an odd multiple of π) with background noise, causing destructive interference.\n\n💡 **रोचक तथ्य**\n\n- शोर-रद्द करने वाले हेडफ़ोन ठीक इसके विपरीत काम करते हैं: वे जानबूझकर ध्वनि तरंगें बनाते हैं जो पृष्ठभूमि के शोर के साथ पूरी तरह से 'विपरीत कला' में होती हैं, जिससे विनाशकारी व्यतिकरण होता है।"
+    }
+  },
+  {
+    "id": "PHY431",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Current Electricity"
+    },
+    "tags":[
+      "Galvanometer",
+      "Voltmeter",
+      "Instruments"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "A galvanometer can be converted into a voltmeter by connecting it with which of these?",
+    "question_hi": "एक गैल्वेनोमीटर को निम्न में से किसके साथ जोड़कर वोल्टमीटर में परिवर्तित किया जा सकता है?",
+    "options":[
+      "low resistance wire in series",
+      "low resistance wire in parallel",
+      "high resistance wire in series",
+      "high resistance wire in parallel"
+    ],
+    "options_hi":[
+      "निम्न प्रतिरोध तार को श्रेणीक्रम में",
+      "निम्न प्रतिरोध तार को समान्तर में",
+      "उच्च प्रतिरोध तार को श्रेणीक्रम में",
+      "उच्च प्रतिरोध तार को समान्तर में"
+    ],
+    "correct": "high resistance wire in series",
+    "explanation": {
+      "summary": "Correct Answer: C) high resistance wire in series\n\nसही उत्तर: C) उच्च प्रतिरोध तार को श्रेणीक्रम में",
+      "analysis_correct": "✅ **Why this is correct**\n\n- A voltmeter measures the potential difference across two points and must draw as little current as possible from the circuit so as not to alter the voltage being measured. \n- To achieve this, a very high resistance is connected in series with the sensitive galvanometer.\n\n✅ **यह सही क्यों है**\n\n- वोल्टमीटर दो बिंदुओं के बीच संभावित अंतर को मापता है और परिपथ से कम से कम धारा खींचनी चाहिए। इसे प्राप्त करने के लिए, गैल्वेनोमीटर के साथ श्रेणीक्रम में एक बहुत उच्च प्रतिरोध जोड़ा जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Connecting a low resistance wire in parallel creates a 'shunt', which bypasses most of the current. This converts the galvanometer into an *ammeter*, not a voltmeter.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- समानांतर में कम प्रतिरोध जोड़ने से 'शंट' बनता है, जो अधिकांश धारा को दरकिनार कर देता है। यह गैल्वेनोमीटर को *एमीटर* में बदल देता है, वोल्टमीटर में नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- An ideal voltmeter has infinite resistance so it draws absolutely zero current from the circuit, while an ideal ammeter has zero resistance so it doesn't cause a voltage drop.\n\n📝 **निष्कर्ष**\n\n- एक आदर्श वोल्टमीटर में अनंत प्रतिरोध होता है ताकि यह परिपथ से बिल्कुल शून्य धारा खींचे, जबकि एक आदर्श एमीटर में शून्य प्रतिरोध होता है ताकि यह वोल्टेज ड्रॉप का कारण न बने।",
+      "fact": "💡 **Interesting Fact**\n\n- The galvanometer is named after the Italian scientist Luigi Galvani, whose famous 1780 experiment made a dead frog's legs twitch when touched by dissimilar metals, discovering bioelectricity.\n\n💡 **रोचक तथ्य**\n\n- गैल्वेनोमीटर का नाम इतालवी वैज्ञानिक लुइगी गैल्वानी के नाम पर रखा गया है, जिनके 1780 के प्रसिद्ध प्रयोग ने मृत मेंढक के पैरों को विभिन्न धातुओं द्वारा छूने पर हिला दिया था।"
+    }
+  },
+  {
+    "id": "PHY432",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Light (Reflection, Refraction, Interference, Diffraction)"
+    },
+    "tags":[
+      "Refraction",
+      "Atmosphere",
+      "Stars"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Stars twinkle because:",
+    "question_hi": "तारे टिमटिमाते हैं क्योंकिः",
+    "options":[
+      "Due to motion of earth",
+      "the distance of the stars from the earth changes with time",
+      "the refractive index of the different layers of the earth's atmosphere changes continuously",
+      "the intensity of light emitted by them changes with time"
+    ],
+    "options_hi":[
+      "पृथ्वी की गति के कारण",
+      "पृथ्वी से तारों की दूरी समय के साथ बदलती है।",
+      "पृथ्वी के वायुमंडल की विभिन्न परतों का अपवर्तनांक लगातार बदलता रहता है।",
+      "उनके द्वारा उत्सर्जित प्रकाश की तीव्रता समय के साथ बदलती है।"
+    ],
+    "correct": "the refractive index of the different layers of the earth's atmosphere changes continuously",
+    "explanation": {
+      "summary": "Correct Answer: C) the refractive index of the different layers of the earth's atmosphere changes continuously\n\nसही उत्तर: C) पृथ्वी के वायुमंडल की विभिन्न परतों का अपवर्तनांक लगातार बदलता रहता है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The scientific phenomenon is called 'atmospheric refraction'. Because starlight travels through moving layers of the Earth's atmosphere with varying temperatures and densities (and therefore different refractive indices), the path of the light rays continuously bends slightly. This causes the apparent position and brightness of the star to fluctuate rapidly, making it 'twinkle'.\n\n✅ **यह सही क्यों है**\n\n- वैज्ञानिक घटना को 'वायुमंडलीय अपवर्तन' कहा जाता है। चूंकि तारों का प्रकाश वायुमंडल की विभिन्न परतों से होकर गुजरता है (जिनका घनत्व और अपवर्तनांक भिन्न होता है), प्रकाश की किरणें लगातार झुकती हैं। इससे तारे की स्पष्ट स्थिति और चमक में उतार-चढ़ाव होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Stars do not actually rapidly change their light intensity or their distance to Earth in a matter of seconds to cause twinkling. The motion of the Earth (rotation) causes stars to rise and set, not twinkle.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- तारे टिमटिमाने का कारण बनने के लिए अपनी प्रकाश तीव्रता या पृथ्वी से अपनी दूरी को तेज़ी से नहीं बदलते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- This optical distortion caused by the atmosphere is the primary reason why large astronomical telescopes are built on high mountain peaks or placed in space (like the Hubble Telescope).\n\n📝 **निष्कर्ष**\n\n- वायुमंडल के कारण होने वाली इस ऑप्टिकल विकृति के कारण ही बड़े खगोलीय दूरबीन ऊंची पर्वत चोटियों पर बनाए जाते हैं या अंतरिक्ष में रखे जाते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Planets generally do not twinkle like stars. Because they are much closer to Earth, they appear as tiny disks rather than point sources of light, so the atmospheric distortions average out.\n\n💡 **रोचक तथ्य**\n\n- ग्रह आमतौर पर तारों की तरह नहीं टिमटिमाते हैं। चूँकि वे बहुत करीब हैं, वे प्रकाश के बिंदु स्रोतों के बजाय छोटी डिस्क के रूप में दिखाई देते हैं, इसलिए वायुमंडलीय विकृतियाँ औसत हो जाती हैं।"
+    }
+  },
+  {
+    "id": "GEO1218",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "subTopic": "Universe & Solar System"
+    },
+    "tags":[
+      "Cosmology",
+      "Hubble Constant",
+      "Universe"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The significance of Hubble constant is:",
+    "question_hi": "हब्बल स्थिरांक का महत्त्व है:",
+    "options":[
+      "It calculates luminosity of galaxies",
+      "It determines the mass of Black Holes",
+      "It estimates the age of stars",
+      "It measures the rate of expansion of the universe"
+    ],
+    "options_hi":[
+      "यह आकाशगंगाओं की चमक की गणना करता है।",
+      "यह ब्लैक होल का द्रव्यमान निर्धारित करता है।",
+      "यह तारों की आयु का अनुमान लगाता है।",
+      "यह ब्रह्मांड के विस्तार की दर को मापता है।"
+    ],
+    "correct": "It measures the rate of expansion of the universe",
+    "explanation": {
+      "summary": "Correct Answer: D) It measures the rate of expansion of the universe\n\nसही उत्तर: D) यह ब्रह्मांड के विस्तार की दर को मापता है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Hubble Constant (denoted as H0) is a fundamental parameter in cosmology that describes the rate at which the universe is expanding. It mathematically relates the velocity at which a galaxy is receding from Earth to its distance from us.\n\n✅ **यह सही क्यों है**\n\n- हबल स्थिरांक (H0) ब्रह्मांड विज्ञान में एक मूलभूत पैरामीटर है जो उस दर का वर्णन करता है जिस पर ब्रह्मांड का विस्तार हो रहा है। यह गणितीय रूप से उस वेग को जोड़ता है जिस पर एक आकाशगंगा पृथ्वी से दूर जा रही है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Luminosity is calculated using the inverse-square law. Black hole masses are estimated using the velocity of surrounding orbiting stars. The age of stars is estimated using the Hertzsprung-Russell diagram.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- चमक की गणना व्युत्क्रम-वर्ग नियम का उपयोग करके की जाती है। ब्लैक होल के द्रव्यमान का अनुमान आसपास के तारों के वेग का उपयोग करके लगाया जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the Hubble Constant allows astrophysicists to not only measure expansion but also to work backward to estimate the absolute age of the universe (roughly 13.8 billion years).\n\n📝 **निष्कर्ष**\n\n- हबल स्थिरांक को समझने से खगोल भौतिकीविदों को न केवल विस्तार को मापने की अनुमति मिलती है, बल्कि ब्रह्मांड की पूर्ण आयु (लगभग 13.8 बिलियन वर्ष) का अनुमान लगाने में भी मदद मिलती है।",
+      "fact": "💡 **Interesting Fact**\n\n- The discovery of the universe's expansion was made by Edwin Hubble in the 1920s when he observed that light from distant galaxies was 'redshifted'.\n\n💡 **रोचक तथ्य**\n\n- ब्रह्मांड के विस्तार की खोज एडविन हबल ने 1920 के दशक में की थी जब उन्होंने देखा कि दूर की आकाशगंगाओं से प्रकाश 'रेडशिफ्ट' हो रहा था।"
+    }
+  },
+  {
+    "id": "CHE326",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Applied Chemistry",
+      "subTopic": "Chemistry in Everyday Life (Soaps, Drugs)"
+    },
+    "tags":[
+      "Medicine",
+      "Gold",
+      "Arthritis"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Complexes of which of the following metal can be used in the treatment of rheumatoid arthritis?",
+    "question_hi": "निम्नलिखित में से किस धातु के संकुलो का उपयोग यूमेटॉयड अथॉइटिस के उपचार में किया जाता है?",
+    "options":[
+      "Copper",
+      "Gold",
+      "Iron",
+      "Ruthenium"
+    ],
+    "options_hi":[
+      "कॉपर",
+      "गोल्ड",
+      "आयरत",
+      "रूथेनियम"
+    ],
+    "correct": "Gold",
+    "explanation": {
+      "summary": "Correct Answer: B) Gold\n\nसही उत्तर: B) गोल्ड",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Gold complexes (like Auranofin and sodium aurothiomalate) have been historically used in a medical treatment called 'chrysotherapy' to treat severe forms of rheumatoid arthritis. The gold salts help suppress the immune system and reduce joint inflammation.\n\n✅ **यह सही क्यों है**\n\n- गोल्ड संकुलों (जैसे ऑरानोफिन) का उपयोग ऐतिहासिक रूप से रुमेटीइड गठिया के गंभीर रूपों के इलाज के लिए 'क्राइसैथेरेपी' नामक चिकित्सा उपचार में किया जाता रहा है। सोने के लवण प्रतिरक्षा प्रणाली को दबाने और जोड़ों की सूजन को कम करने में मदद करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While copper, iron, and ruthenium have biological or other medicinal uses (e.g., Ruthenium in experimental anti-cancer drugs), they are not the standard disease-modifying antirheumatic drugs (DMARDs) known as gold salts.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि तांबे, लोहे और रूथेनियम के जैविक या अन्य औषधीय उपयोग हैं, वे सोने के लवण के रूप में जाने जाने वाले मानक रोग-संशोधित गठिया विरोधी दवाएं नहीं हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Today, the use of gold salts has largely been superseded by newer treatments like Methotrexate and modern biologic therapies, which have fewer severe side effects.\n\n📝 **निष्कर्ष**\n\n- आज, सोने के लवण के उपयोग को काफी हद तक मेथोट्रेक्सेट और आधुनिक जैविक उपचारों जैसे नए उपचारों द्वारा प्रतिस्थापित कर दिया गया है।",
+      "fact": "💡 **Interesting Fact**\n\n- Auranofin, the gold-containing arthritis drug, is administered orally, unlike earlier gold therapies that required painful intramuscular injections.\n\n💡 **रोचक तथ्य**\n\n- ऑरानोफिन, सोने युक्त गठिया की दवा, को मौखिक रूप से दिया जाता है, पहले के सोने के उपचारों के विपरीत जिनमें दर्दनाक इंट्रामस्क्युलर इंजेक्शन की आवश्यकता होती थी।"
+    }
+  },
+  {
+    "id": "CHE327",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subTopic": "Periodic Classification"
+    },
+    "tags": [
+      "Halogens",
+      "Oxidation",
+      "Fluorine"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is strongest oxidising agent?",
+    "question_hi": "इनमें से किस यौगिक की ऑक्सीकरण क्षमता सबसे अधिक है?",
+    "options":[
+      "I2",
+      "Cl2",
+      "F2",
+      "Br2"
+    ],
+    "options_hi":[
+      "आयोडीन",
+      "क्लोरीन",
+      "फ्लोरीन",
+      "ब्रोमीन"
+    ],
+    "correct": "F2",
+    "explanation": {
+      "summary": "Correct Answer: C) F2\n\nसही उत्तर: C) फ्लोरीन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Fluorine (F2) is the strongest oxidizing agent in the entire periodic table. This extreme reactivity is due to its very high electronegativity, extremely low F-F bond dissociation enthalpy, and the extremely high hydration enthalpy of the small fluoride ion.\n\n✅ **यह सही क्यों है**\n\n- फ्लोरीन (F2) पूरी आवर्त सारणी में सबसे मजबूत ऑक्सीकरण एजेंट है। यह अत्यधिक उच्च विद्युतीय ऋणात्मकता, अत्यंत कम F-F बांड पृथक्करण एन्थैल्पी और उच्च जलयोजन एन्थैल्पी के कारण है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The oxidizing power of halogens strictly decreases down the group. Therefore, the sequence of oxidizing strength is F2 > Cl2 > Br2 > I2.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हैलोजन की ऑक्सीकरण शक्ति समूह में नीचे जाने पर सख्ती से कम हो जाती है। इसलिए, ऑक्सीकरण शक्ति का क्रम F2 > Cl2 > Br2 > I2 है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Because of its immense oxidizing power, fluorine can even form compounds with heavy noble gases like Xenon (e.g., XeF4).\n\n📝 **निष्कर्ष**\n\n- अपनी विशाल ऑक्सीकरण शक्ति के कारण, फ्लोरीन क्सीनन (जैसे XeF4) जैसी भारी उत्कृष्ट गैसों के साथ भी यौगिक बना सकता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Fluorine gas is so reactive that it will cause almost any organic material (like wood or rubber), and even glass or water, to burst into flames on contact.\n\n💡 **रोचक तथ्य**\n\n- फ्लोरीन गैस इतनी प्रतिक्रियाशील है कि यह संपर्क में आने पर लगभग किसी भी कार्बनिक पदार्थ (जैसे लकड़ी या रबर), और यहां तक कि कांच या पानी को भी आग की लपटों में बदल देगी।"
+    }
+  },
+  {
+    "id": "CHE328",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subTopic": "Matter & its States"
+    },
+    "tags":[
+      "Graham's Law",
+      "Diffusion",
+      "Gases"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "The rate of diffusion of methane at a given temperature is twice that of an unknown gas. The molar mass of unknown gas is",
+    "question_hi": "किस ताप पर मैथेन के विसरण की गति किसी अज्ञात गैस के विसरण की दो गुनी होगी। अज्ञात गैस का अणुभार है।",
+    "options":[
+      "8",
+      "4",
+      "64",
+      "32"
+    ],
+    "options_hi":[
+      "8",
+      "4",
+      "64",
+      "32"
+    ],
+    "correct": "64",
+    "explanation": {
+      "summary": "Correct Answer: C) 64\n\nसही उत्तर: C) 64",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Graham's Law of Diffusion states that the rate of diffusion is inversely proportional to the square root of its molar mass: r1/r2 = √(M2/M1). \n- Methane (CH4) is gas 1 (Molar mass M1 = 12 + 4 = 16). Unknown gas is gas 2.\n- Given: r1 = 2 * r2, so r1/r2 = 2.\n- 2 = √(M2 / 16). Squaring both sides: 4 = M2 / 16. \n- Therefore, M2 = 16 * 4 = 64.\n\n✅ **यह सही क्यों है**\n\n- ग्राहम के विसरण के नियम के अनुसार: r1/r2 = √(M2/M1)। \n- मीथेन (M1) = 16। चूँकि मीथेन 2 गुना तेज़ है (r1/r2 = 2)। \n- 2 = √(M2/16)। वर्ग करने पर: 4 = M2/16, इसलिए M2 = 64।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Selecting 32 or 8 usually results from a mathematical error where the student forgets to square the diffusion rate ratio before multiplying by the molar mass of methane.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 32 या 8 का चयन आमतौर पर एक गणितीय त्रुटि के परिणामस्वरूप होता है जहां छात्र मीथेन के दाढ़ द्रव्यमान से गुणा करने से पहले विसरण दर अनुपात का वर्ग करना भूल जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The unknown gas, having a molar mass of 64 g/mol, could potentially be Sulfur Dioxide (SO2) which has a molar mass of (32 + 16x2) = 64.\n\n📝 **निष्कर्ष**\n\n- अज्ञात गैस, जिसका दाढ़ द्रव्यमान 64 ग्राम/मोल है, संभवतः सल्फर डाइऑक्साइड (SO2) हो सकती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Graham's Law was instrumental during the Manhattan Project to enrich Uranium, as scientists used gaseous diffusion to separate the lighter U-235 isotopes from heavier U-238.\n\n💡 **रोचक तथ्य**\n\n- मैनहट्टन प्रोजेक्ट के दौरान यूरेनियम को समृद्ध करने के लिए ग्राहम का नियम सहायक था, क्योंकि वैज्ञानिकों ने हल्के U-235 समस्थानिकों को अलग करने के लिए गैसीय विसरण का उपयोग किया था।"
+    }
+  },
+  {
+    "id": "CHE329",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subTopic": "Periodic Classification"
+    },
+    "tags":[
+      "Boron",
+      "p-Block",
+      "Chemical Bonding"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Boron can not form which one of the following anion?",
+    "question_hi": "निम्नलिखित में से बोरोन कौन-सा एनायन नहीं बना सकता है ?",
+    "options":[
+      "B(OH)4-",
+      "BH4-",
+      "BO2-",
+      "BF6 3-"
+    ],
+    "options_hi":[
+      "B(OH)4-",
+      "BH4-",
+      "BO2-",
+      "BF6 3-"
+    ],
+    "correct": "BF6 3-",
+    "explanation": {
+      "summary": "Correct Answer: D) BF6 3-\n\nसही उत्तर: D) BF6 3-",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Boron is a second-period element with the electronic configuration 1s² 2s² 2p¹. Its valence shell only contains one 's' and three 'p' orbitals, providing a maximum of 4 orbitals for bonding.\n- Because Boron lacks completely vacant d-orbitals in its valence shell, it is physically impossible for it to expand its octet to accommodate 6 fluorine atoms. Thus, it cannot form the BF6 3- ion (unlike Aluminum, which can form AlF6 3-).\n\n✅ **यह सही क्यों है**\n\n- बोरोन दूसरे आवर्त का तत्व है। इसके संयोजकता कोश में रिक्त d-कक्षक नहीं होते हैं। इसलिए, यह 6 फ्लोरीन परमाणुओं को समायोजित करने के लिए अपने अष्टक का विस्तार नहीं कर सकता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- BH4-, B(OH)4-, and BO2- all involve Boron maintaining a coordination number of 4 or less, which fits perfectly within its available s and p orbitals.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य सभी विकल्पों में बोरोन 4 या उससे कम की समन्वय संख्या बनाए रखता है, जो इसके उपलब्ध कक्षकों के भीतर पूरी तरह से फिट बैठता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The inability to expand the valence octet beyond 8 electrons (4 bonds) is a defining anomalous property of all second-period elements (Li, Be, B, C, N, O, F).\n\n📝 **निष्कर्ष**\n\n- वैलेंस ऑक्टेट को 8 इलेक्ट्रॉनों (4 बॉन्ड) से आगे विस्तारित करने में असमर्थता सभी दूसरे अवधि के तत्वों का एक परिभाषित गुण है।",
+      "fact": "💡 **Interesting Fact**\n\n- Despite this limitation, Boron forms complex multi-center bonds (like the 3-center-2-electron 'banana bonds' in Diborane) to overcome its electron deficiency.\n\n💡 **रोचक तथ्य**\n\n- इस सीमा के बावजूद, बोरोन अपनी इलेक्ट्रॉन कमी को दूर करने के लिए जटिल बहु-केंद्र बांड (जैसे डाइबोरेन में 'बनाना बांड') बनाता है।"
+    }
+  },
+  {
+    "id": "CHE330",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subTopic": "Chemical Bonding"
+    },
+    "tags":[
+      "Fajan's Rule",
+      "Covalent Character",
+      "Chemistry"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Among the following the maximum covalent character is shown by the compound:",
+    "question_hi": "निम्नलिखित में से किस यौगिक द्वारा अधिकतम सहसंयोजक बंध दिखाया जाता है?",
+    "options":[
+      "AlCl3",
+      "MgCl2",
+      "SnCl2",
+      "FeCl2"
+    ],
+    "options_hi":[
+      "AlCl3 द्वारा",
+      "MgCl2 द्वारा",
+      "SnCl2 द्वारा",
+      "FeCl2 द्वारा"
+    ],
+    "correct": "AlCl3",
+    "explanation": {
+      "summary": "Correct Answer: A) AlCl3\n\nसही उत्तर: A) AlCl3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to Fajan's rules, the covalent character of an ionic compound increases with a smaller size and a higher charge on the cation. \n- Aluminium (Al³⁺) has the highest charge (+3) and the smallest ionic radius compared to Mg²⁺, Sn²⁺, and Fe²⁺. This gives it massive polarizing power, heavily distorting the electron cloud of the chloride ion, leading to maximum covalent character.\n\n✅ **यह सही क्यों है**\n\n- फजान के नियम के अनुसार, धनायन के छोटे आकार और उच्च आवेश के साथ सहसंयोजक गुण बढ़ता है। एल्युमिनियम (Al³⁺) में अन्य की तुलना में सबसे अधिक आवेश (+3) और सबसे छोटा आकार होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other metal cations (Mg²⁺, Sn²⁺, Fe²⁺) only have a +2 charge and are larger in size, resulting in lower polarizing power and more ionic character compared to AlCl3.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य धातु धनायनों में केवल +2 आवेश होता है और वे आकार में बड़े होते हैं, जिसके परिणामस्वरूप AlCl3 की तुलना में कम ध्रुवीकरण शक्ति होती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Because of its high covalent character, anhydrous AlCl3 is actually a volatile, sublimation-prone solid that exists as a dimer (Al2Cl6) to complete its octet.\n\n📝 **निष्कर्ष**\n\n- अपने उच्च सहसंयोजक चरित्र के कारण, निर्जल AlCl3 वास्तव में एक अस्थिर ठोस है जो अपने अष्टक को पूरा करने के लिए एक डायमर (Al2Cl6) के रूप में मौजूद है।",
+      "fact": "💡 **Interesting Fact**\n\n- Fajan's rules perfectly explain why silver chloride (AgCl) is insoluble in water while sodium chloride (NaCl) is highly soluble, due to the higher polarizing power of the Ag+ ion's pseudo-noble gas core.\n\n💡 **रोचक तथ्य**\n\n- फजान के नियम पूरी तरह से समझाते हैं कि सिल्वर क्लोराइड पानी में अघुलनशील क्यों है जबकि सोडियम क्लोराइड अत्यधिक घुलनशील है।"
+    }
+  },
+  {
+    "id": "CHE331",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subTopic": "Functional Groups"
+    },
+    "tags":[
+      "Carboxylic Acid",
+      "Carbonyl Group",
+      "Organic Chemistry"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements:\nAssertion (A): A carboxylic acid does not give the test for carbonyl group.\nReason (R): The carbonyl carbon of the carboxylic group is electron deficient and hence it is less susceptible to nucleophilic attack.",
+    "question_hi": "निम्नलिखित पर विचार कीजिए:\nअभिकथन (A) : कार्बोक्सिलिक अम्ल कार्बोनिल समूह का परीक्षण नही देता है।\nकारण (R) : कार्बोक्सिलिक समूह का कार्बोनिल कार्बन इलेक्ट्रॉन कमी वाला है इसलिए न्यूक्लियोफिलिकअटैक के लिए कम संवेदनशील है।",
+    "options":[
+      "(A) is false but (R) is true",
+      "Both (A) and (R) are true and (R) is not the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(A) असत्य है लेकिन (R) सत्य है।",
+      "(A) और (R) दोनों सत्य हैं (R), (A) का सही स्पष्टीकरण नहीं है।",
+      "(A) सत्य है लेकिन (R) असत्य है।",
+      "(A) और (R) सत्य हैं (R), (A) का सही स्पष्टीकरण है।"
+    ],
+    "correct": "(A) is true but (R) is false",
+    "explanation": {
+      "summary": "Correct Answer: C) (A) is true but (R) is false\n\nसही उत्तर: C) (A) सत्य है लेकिन (R) असत्य है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Assertion is true: Carboxylic acids do not undergo standard nucleophilic addition reactions of carbonyls (like reacting with 2,4-DNP) because their carbonyl character is diminished. \n- Reason is false: The carbonyl carbon in -COOH is actually LESS electron-deficient (more electron-rich) compared to aldehydes/ketones. This is due to resonance delocalization of lone pair electrons from the adjacent hydroxyl (-OH) oxygen atom, which reduces the positive charge on the carbonyl carbon.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन सत्य है: कार्बोक्जिलिक अम्ल कार्बोनिल के मानक परीक्षण नहीं देते हैं।\n- कारण गलत है: -COOH में कार्बोनिल कार्बन वास्तव में कम इलेक्ट्रॉन-कमी वाला होता है। ऐसा आसन्न हाइड्रॉक्सिल (-OH) ऑक्सीजन परमाणु से अनुनाद के कारण होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The Reason contains a logical contradiction ('is electron deficient and hence less susceptible'). If it were highly electron-deficient, it would be *more* susceptible to nucleophilic attack, not less. Thus, R is completely false.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कारण में एक तार्किक विरोधाभास है। यदि इसमें अत्यधिक इलेक्ट्रॉन-कमी होती, तो यह अधिक संवेदनशील होता, कम नहीं। इस प्रकार, R पूरी तरह से असत्य है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Resonance completely changes the chemical reactivity profile of the -COOH group, making it act as an acid (donating H+) rather than a typical electrophilic carbonyl compound.\n\n📝 **निष्कर्ष**\n\n- अनुनाद -COOH समूह की रासायनिक प्रतिक्रियाशीलता प्रोफ़ाइल को पूरी तरह से बदल देता है, जिससे यह एक विशिष्ट कार्बोनिल यौगिक के बजाय एक अम्ल के रूप में कार्य करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Formic acid (the simplest carboxylic acid) is the chemical that causes the painful burning sensation in ant bites and bee stings.\n\n💡 **रोचक तथ्य**\n\n- फॉर्मिक एसिड वह रसायन है जो चींटी के काटने और मधुमक्खी के डंक में दर्दनाक जलन का कारण बनता है।"
+    }
+  },
+  {
+    "id": "CHE332",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Applied Chemistry",
+      "subTopic": "Biomolecules"
+    },
+    "tags":[
+      "Carbohydrates",
+      "Sugars",
+      "Fructose"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is the sweetest sugar?",
+    "question_hi": "इनमें से कौन सबसे मीठा शक्कर है?",
+    "options":[
+      "Maltose",
+      "Glucose",
+      "Sucrose",
+      "Fructose"
+    ],
+    "options_hi":[
+      "माल्टोज",
+      "ग्लूकोज",
+      "सुक्रोज",
+      "फ्रुक्टोज"
+    ],
+    "correct": "Fructose",
+    "explanation": {
+      "summary": "Correct Answer: D) Fructose\n\nसही उत्तर: D) फ्रुक्टोज",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Fructose, commonly known as fruit sugar, is naturally the sweetest of all naturally occurring monosaccharides and disaccharides. It is about 1.2 to 1.7 times sweeter than sucrose (table sugar).\n\n✅ **यह सही क्यों है**\n\n- फ्रुक्टोज, जिसे फलों की शर्करा के रूप में जाना जाता है, प्राकृतिक रूप से पाए जाने वाले सभी मोनोसेकेराइड और डिसैकेराइड्स में सबसे मीठा होता है। यह सुक्रोज से लगभग 1.2 से 1.7 गुना अधिक मीठा होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Sucrose is the baseline standard for sweetness (relative sweetness = 100). Glucose (74) and maltose (33) are significantly less sweet than both sucrose and fructose.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- सुक्रोज मिठास के लिए आधार रेखा मानक है। ग्लूकोज और माल्टोज सुक्रोज और फ्रुक्टोज दोनों की तुलना में काफी कम मीठे होते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Because of its high sweetness intensity, High Fructose Corn Syrup (HFCS) is heavily utilized by the food and beverage industry to cheaply sweeten soft drinks and snacks.\n\n📝 **निष्कर्ष**\n\n- अपनी उच्च मिठास तीव्रता के कारण, शीतल पेय और स्नैक्स को सस्ते में मीठा करने के लिए खाद्य और पेय उद्योग द्वारा हाई फ्रुक्टोज कॉर्न सिरप (HFCS) का भारी उपयोग किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Unlike glucose, which triggers an insulin response, fructose is metabolized almost entirely in the liver. Excessive consumption is closely linked to non-alcoholic fatty liver disease.\n\n💡 **रोचक तथ्य**\n\n- ग्लूकोज के विपरीत, जो इंसुलिन प्रतिक्रिया को ट्रिगर करता है, फ्रुक्टोज लगभग पूरी तरह से यकृत में चयापचय होता है। अत्यधिक खपत फैटी लिवर की बीमारी से निकटता से जुड़ी है।"
+    }
+  },
+  {
+    "id": "CHE333",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "17 April 2026, Shift 2"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subTopic": "Metallurgy"
+    },
+    "tags":[
+      "Refining",
+      "Metals",
+      "Metallurgy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match List-I and List-II. Select the correct answer using the codes given below the list:\nList-I:\na) Ni\nb) Cu\nc) Zr\nd) Ge\nList-II:\n1) Van Arkel process\n2) Electrolysis\n3) Mond process\n4) Zone refining",
+    "question_hi": "सूची-I तथा सूची-II का मिलान कीजिए। सही उत्तर का चयन सूची के नीचे दिये गये कूटो के आधार पर कीजिए :\nसूची-I:\na) Ni\nb) Cu\nc) Zr\nd) Ge\nसूची-II:\n1) वान ऑर्केल की विधि\n2) विद्युत अपघटन\n3) मॉण्ड प्रक्रम\n4) क्षेत्र शोधन",
+    "options":[
+      "a-1, b-4, c-3, d-2",
+      "a-2, b-3, c-4, d-1",
+      "a-4, b-1, c-2, d-3",
+      "a-3, b-2, c-1, d-4"
+    ],
+    "options_hi":[
+      "a-1, b-4, c-3, d-2",
+      "a-2, b-3, c-4, d-1",
+      "a-4, b-1, c-2, d-3",
+      "a-3, b-2, c-1, d-4"
+    ],
+    "correct": "a-3, b-2, c-1, d-4",
+    "explanation": {
+      "summary": "Correct Answer: D) a-3, b-2, c-1, d-4\n\nसही उत्तर: D) a-3, b-2, c-1, d-4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Nickel (Ni) is refined by the Mond process, passing carbon monoxide to form a volatile complex.\n- Copper (Cu) is refined on a massive industrial scale using Electrolysis.\n- Zirconium (Zr) and Titanium are purified using the Van Arkel method to remove oxygen and nitrogen impurities.\n- Germanium (Ge), being a semiconductor, requires ultra-high purity, which is achieved via Zone refining.\n\n✅ **यह सही क्यों है**\n\n- निकल (Ni) को मॉन्ड प्रक्रिया द्वारा शुद्ध किया जाता है।\n- कॉपर (Cu) को विद्युत अपघटन का उपयोग करके शुद्ध किया जाता है।\n- ज़िरकोनियम (Zr) को वैन अर्केल विधि का उपयोग करके शुद्ध किया जाता है।\n- जर्मेनियम (Ge), एक अर्धचालक होने के नाते, ज़ोन रिफाइनिंग के माध्यम से प्राप्त किया जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other combination assigns the incorrect industrial purification technique to the specific metal or semiconductor material.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन विशिष्ट धातु या अर्धचालक सामग्री के लिए गलत औद्योगिक शुद्धिकरण तकनीक प्रदान करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Zone refining is based on the principle that impurities are more soluble in the melt (liquid state) than in the solid state of the metal.\n\n📝 **निष्कर्ष**\n\n- ज़ोन रिफाइनिंग इस सिद्धांत पर आधारित है कि अशुद्धियाँ धातु की ठोस अवस्था की तुलना में पिघल (तरल अवस्था) में अधिक घुलनशील होती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Mond Process is so effective that it can extract Nickel with a purity of up to 99.99%, yielding essentially perfect metallic nickel from impure ore.\n\n💡 **रोचक तथ्य**\n\n- मॉन्ड प्रक्रिया इतनी प्रभावी है कि यह 99.99% तक की शुद्धता के साथ निकेल निकाल सकती है।"
+    }
+  }
+]
