@@ -1516,9 +1516,14 @@
                 totalTimeSeconds--;
                 if(totalTimeSeconds % 5 === 0) saveState();
                 
-                const minutes = Math.floor(totalTimeSeconds / 60);
+                const hours = Math.floor(totalTimeSeconds / 3600);
+                const minutes = Math.floor((totalTimeSeconds % 3600) / 60);
                 const seconds = totalTimeSeconds % 60;
-                elTimerText.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                if (hours > 0) {
+                    elTimerText.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                } else {
+                    elTimerText.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                }
                 
                 elTimerBar.style.width = `${(totalTimeSeconds / initialTotalTime) * 100}%`;
                 
