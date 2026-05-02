@@ -1,0 +1,2195 @@
+[
+  {
+    "v1_id": "HIS1774",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Post-Gupta Period"
+    },
+    "tags":[
+      "KarkotaDynasty",
+      "KashmirHistory",
+      "Lalitaditya"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to the Karkota dynasty, consider the following statements:\n1. Durlabhavardhana, also known as Prajnaditya, was the founder of the dynasty.\n2. Lalitaditya Muktapida defeated the Turks and built the Martand Sun Temple at Anantnag.\n3. Vajraditya's reign was marked by territorial expansion into the Deccan.\n4. Jayapida imposed excessive taxation, which weakened his rule.\n\nWhich of the statements given above are correct?",
+    "question_hi": "कार्कोट राजवंश के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. दुर्लभवर्धन, जिन्हें प्रज्ञादित्य के नाम से भी जाना जाता है, इस राजवंश के संस्थापक थे।\n2. ललितादित्य मुक्तापीड ने तुर्कों को हराया और अनंतनाग में मार्तंड सूर्य मंदिर का निर्माण कराया।\n3. वज्रादित्य का शासनकाल दक्कन में क्षेत्रीय विस्तार के लिए जाना जाता था।\n4. जयापीड ने अत्यधिक कराधान लगाया, जिससे उसका शासन कमजोर हो गया।\n\nऊपर दिए गए कथनों में से कौन सा/से सही है/हैं?",
+    "options":[
+      "1 and 2 only",
+      "3 and 4 only",
+      "1, 2 and 4 only",
+      "2 and 4 only"
+    ],
+    "options_hi":[
+      "केवल 1 और 2",
+      "केवल 3 और 4",
+      "केवल 1, 2 और 4",
+      "केवल 2 और 4"
+    ],
+    "correct": "1, 2 and 4 only",
+    "explanation": {
+      "summary": "Correct Answer: 1, 2 and 4 only\n\nसही उत्तर: केवल 1, 2 और 4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Durlabhavardhana founded the Karkota dynasty. Lalitaditya Muktapida was its greatest ruler, known for building the Martand Sun Temple. Jayapida's reign faced a decline due to his heavy taxation policies.\n\n✅ **यह सही क्यों है**\n\n- दुर्लभवर्धन ने कार्कोट वंश की स्थापना की। ललितादित्य मुक्तापीड इसका सबसे महान शासक था, जिसे मार्तंड सूर्य मंदिर बनाने के लिए जाना जाता है। जयापीड के शासनकाल में भारी कर नीतियों के कारण पतन हुआ।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 3 is wrong because Vajraditya was known for his cruel behavior and draining of wealth, not for any successful Deccan expansion.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 3 गलत है क्योंकि वज्रादित्य को उसके क्रूर व्यवहार और धन की बर्बादी के लिए जाना जाता था, न कि दक्कन के सफल विस्तार के लिए।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Karkota Empire (c. 625 - 855 CE) marked a golden era of political expansion and architectural marvels in Kashmir.\n\n📝 **निष्कर्ष**\n\n- कार्कोट साम्राज्य (लगभग 625 - 855 ई.) कश्मीर में राजनीतिक विस्तार और स्थापत्य चमत्कारों का एक स्वर्ण युग था।",
+      "fact": "💡 **Interesting Fact**\n\n- Kalhana's epic chronicle 'Rajatarangini' provides the most detailed historical account of the Karkota kings.\n\n💡 **रोचक तथ्य**\n\n- कल्हण का महाकाव्य 'राजतरंगिणी' कार्कोट राजाओं का सबसे विस्तृत ऐतिहासिक विवरण प्रदान करता है।"
+    }
+  },
+  {
+    "v1_id": "POL674",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional Dynamics & Evolution",
+      "subTopic": "Important Acts (Pre & Post Independence - e.g., GoI Act 1935, RTI Act 2005)"
+    },
+    "tags":[
+      "WaterDispute",
+      "Tribunal",
+      "Article262"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Vansadhara Water Disputes Tribunal was set up in 2010 to resolve the water dispute between which of the following States?",
+    "question_hi": "वंशधारा जल विवाद न्यायाधिकरण की स्थापना 2010 में निम्नलिखित में से किन राज्यों के बीच जल विवाद को सुलझाने के लिए की गई थी?",
+    "options":[
+      "Odisha and Andhra Pradesh",
+      "Karnataka and Tamil Nadu",
+      "Odisha and Chhattisgarh",
+      "Goa, Karnataka and Maharashtra"
+    ],
+    "options_hi":[
+      "ओडिशा और आंध्र प्रदेश",
+      "कर्नाटक और तमिलनाडु",
+      "ओडिशा और छत्तीसगढ़",
+      "गोवा, कर्नाटक और महाराष्ट्र"
+    ],
+    "correct": "Odisha and Andhra Pradesh",
+    "explanation": {
+      "summary": "Correct Answer: Odisha and Andhra Pradesh\n\nसही उत्तर: ओडिशा और आंध्र प्रदेश",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Vansadhara Water Disputes Tribunal was constituted by the Central Government in 2010 under the Inter-State River Water Disputes Act, 1956, to adjudicate the water sharing dispute between Odisha and Andhra Pradesh.\n\n✅ **यह सही क्यों है**\n\n- केंद्र सरकार द्वारा 2010 में अंतर-राज्यीय नदी जल विवाद अधिनियम, 1956 के तहत ओडिशा और आंध्र प्रदेश के बीच जल बंटवारे के विवाद को सुलझाने के लिए वंशधारा जल विवाद न्यायाधिकरण का गठन किया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Karnataka and Tamil Nadu dispute the Cauvery river. Odisha and Chhattisgarh dispute the Mahanadi. Goa, Karnataka, and Maharashtra share the Mahadayi water dispute.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कर्नाटक और तमिलनाडु के बीच कावेरी नदी का विवाद है। ओडिशा और छत्तीसगढ़ के बीच महानदी का विवाद है। गोवा, कर्नाटक और महाराष्ट्र महादयी जल विवाद साझा करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Inter-state water disputes are resolved by special tribunals formed under Article 262 of the Constitution, bypassing the standard judicial hierarchy initially.\n\n📝 **निष्कर्ष**\n\n- अंतर-राज्यीय जल विवादों को संविधान के अनुच्छेद 262 के तहत गठित विशेष न्यायाधिकरणों द्वारा हल किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Vansadhara River originates in the Kalahandi district of Odisha and flows into the Bay of Bengal in Andhra Pradesh.\n\n💡 **रोचक तथ्य**\n\n- वंशधारा नदी ओडिशा के कालाहांडी जिले से निकलती है और आंध्र प्रदेश में बंगाल की खाड़ी में गिरती है।"
+    }
+  },
+  {
+    "v1_id": "HIS1775",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Vedic Period"
+    },
+    "tags":[
+      "RigVeda",
+      "MandalaIX",
+      "Soma"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is a characteristic of Mandala IX of the Rig Veda?",
+    "question_hi": "ऋग्वेद के नौवें मंडल की विशेषता निम्नलिखित में से कौन सी है?",
+    "options":[
+      "It is attributed to the Kanva clan and Angirasa poets.",
+      "It contains hymns dedicated to Soma Pavamana, focusing on the sacred purification process.",
+      "It contains the Nadi Sukta, which praises rivers as sacred entities.",
+      "It features philosophical speculation about the creation of the universe."
+    ],
+    "options_hi":[
+      "इसका श्रेय कण्व वंश और अंगिरस कवियों को दिया जाता है।",
+      "इसमें पवित्र शुद्धिकरण प्रक्रिया पर ध्यान केंद्रित करते हुए सोम पवमान को समर्पित सूक्त शामिल हैं।",
+      "इसमें नदी सूक्त है, जो नदियों को पवित्र संस्थाओं के रूप में पूजता है।",
+      "इसमें ब्रह्मांड के निर्माण के बारे में दार्शनिक अटकलें हैं।"
+    ],
+    "correct": "It contains hymns dedicated to Soma Pavamana, focusing on the sacred purification process.",
+    "explanation": {
+      "summary": "Correct Answer: It contains hymns dedicated to Soma Pavamana, focusing on the sacred purification process.\n\nसही उत्तर: इसमें पवित्र शुद्धिकरण प्रक्रिया पर ध्यान केंद्रित करते हुए सोम पवमान को समर्पित सूक्त शामिल हैं।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Mandala IX of the Rig Veda is exclusively devoted to Soma Pavamana. It consists of 114 hymns praising the sacred plant and the intoxicating juice extracted from it, signifying purification and divine connection.\n\n✅ **यह सही क्यों है**\n\n- ऋग्वेद का नौवां मंडल विशेष रूप से सोम पवमान को समर्पित है। इसमें 114 सूक्त हैं जो पवित्र पौधे और उससे निकाले गए रस की प्रशंसा करते हैं, जो शुद्धिकरण और दिव्य संबंध का प्रतीक है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The Kanva clan is mostly associated with Mandala VIII. The Nadi Sukta and the Nasadiya Sukta (creation) are found in Mandala X.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कण्व वंश का संबंध मुख्य रूप से आठवें मंडल से है। नदी सूक्त और नासदीय सूक्त (सृष्टि) 10वें मंडल में पाए जाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Rig Veda comprises 10 Mandalas, where Mandalas II to VII are the oldest \"family books\", and IX is topically organized around the Soma ritual.\n\n📝 **निष्कर्ष**\n\n- ऋग्वेद में 10 मंडल शामिल हैं, जहाँ द्वितीय से सातवें मंडल सबसे पुराने \"पारिवारिक ग्रंथ\" हैं, और नौवां मंडल सोम अनुष्ठान के इर्द-गिर्द आयोजित किया गया है।",
+      "fact": "💡 **Interesting Fact**\n\n- The deity Soma was deeply revered not just as a plant but as a celestial king and the drop of life in Vedic mythology.\n\n💡 **रोचक तथ्य**\n\n- देवता सोम को वैदिक पौराणिक कथाओं में न केवल एक पौधे के रूप में बल्कि एक खगोलीय राजा और जीवन की बूंद के रूप में गहराई से पूजा जाता था।"
+    }
+  },
+  {
+    "v1_id": "BIO382",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Morphology"
+    },
+    "tags":[
+      "PlantTissue",
+      "Xylem",
+      "WaterTransport"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In plants, water is mainly transported through which tissue?",
+    "question_hi": "पौधों में, जल मुख्य रूप से किस ऊतक के माध्यम से पहुँचाया जाता है?",
+    "options":[
+      "Phloem",
+      "Cortex",
+      "Xylem",
+      "Cambium"
+    ],
+    "options_hi":[
+      "फ्लोएम",
+      "कॉर्टेक्स",
+      "जाइलम",
+      "कैम्बियम"
+    ],
+    "correct": "Xylem",
+    "explanation": {
+      "summary": "Correct Answer: Xylem\n\nसही उत्तर: जाइलम",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Xylem is a specialized vascular tissue in plants responsible for the unidirectional, upward transport of water and dissolved minerals from the roots to the stems and leaves.\n\n✅ **यह सही क्यों है**\n\n- जाइलम पौधों में एक विशेष संवहनी ऊतक है जो जड़ों से तनों और पत्तियों तक पानी और घुले हुए खनिजों के एकदिशीय, ऊपर की ओर परिवहन के लिए जिम्मेदार है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Phloem transports soluble organic compounds (food/sugar) downward and upward. Cortex is for storage. Cambium promotes secondary growth.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- फ्लोएम घुलनशील कार्बनिक यौगिकों (भोजन/चीनी) को नीचे और ऊपर की ओर ले जाता है। कॉर्टेक्स भंडारण के लिए है। कैम्बियम द्वितीयक वृद्धि को बढ़ावा देता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the distinct roles of xylem (water) and phloem (food) is fundamental to plant anatomy and physiology.\n\n📝 **निष्कर्ष**\n\n- जाइलम (पानी) और फ्लोएम (भोजन) की अलग-अलग भूमिकाओं को समझना पौधे की शरीर रचना और शरीर विज्ञान के लिए मौलिक है।",
+      "fact": "💡 **Interesting Fact**\n\n- Mature xylem vessels are actually dead cells; they form hollow, continuous tubes that act like microscopic water pipes.\n\n💡 **रोचक तथ्य**\n\n- परिपक्व जाइलम वाहिकाएं वास्तव में मृत कोशिकाएं होती हैं; वे खोखली, निरंतर नलियां बनाती हैं जो सूक्ष्म पानी के पाइप की तरह काम करती हैं।"
+    }
+  },
+  {
+    "v1_id": "ECO878",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Poverty, Inequality & Unemployment"
+    },
+    "tags": [
+      "MPI",
+      "Poverty",
+      "HumanDevelopment"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Multi-dimensional poverty index has been included in which of the following?",
+    "question_hi": "बहुआयामी गरीबी सूचकांक को निम्नलिखित में से किसमें शामिल किया गया है?",
+    "options":[
+      "World Development Report",
+      "Human Development Report",
+      "World Trade Report",
+      "World Hunger Report"
+    ],
+    "options_hi":[
+      "विश्व विकास रिपोर्ट",
+      "मानव विकास रिपोर्ट",
+      "विश्व व्यापार रिपोर्ट",
+      "विश्व भुखमरी रिपोर्ट"
+    ],
+    "correct": "Human Development Report",
+    "explanation": {
+      "summary": "Correct Answer: Human Development Report\n\nसही उत्तर: मानव विकास रिपोर्ट",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Multidimensional Poverty Index (MPI) was developed by OPHI and the UNDP in 2010 and has since been a key component published annually within the Human Development Report (HDR).\n\n✅ **यह सही क्यों है**\n\n- बहुआयामी गरीबी सूचकांक (MPI) 2010 में OPHI और UNDP द्वारा विकसित किया गया था और तब से यह मानव विकास रिपोर्ट (HDR) के भीतर प्रतिवर्ष प्रकाशित होने वाला एक प्रमुख घटक रहा है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The World Development Report is published by the World Bank. The World Trade Report is by the WTO. Hunger is tracked by the Global Hunger Index.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- विश्व विकास रिपोर्ट विश्व बैंक द्वारा प्रकाशित की जाती है। विश्व व्यापार रिपोर्ट WTO द्वारा प्रकाशित की जाती है। भुखमरी को ग्लोबल हंगर इंडेक्स द्वारा ट्रैक किया जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The MPI looks beyond income, evaluating acute deprivations in health, education, and living standards.\n\n📝 **निष्कर्ष**\n\n- MPI आय से परे स्वास्थ्य, शिक्षा और जीवन स्तर में तीव्र अभावों का मूल्यांकन करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- India's national MPI is published by NITI Aayog, which adapts the global methodology to track poverty down to the district level.\n\n💡 **रोचक तथ्य**\n\n- भारत का राष्ट्रीय MPI नीति आयोग द्वारा प्रकाशित किया जाता है, जो जिला स्तर तक गरीबी को ट्रैक करने के लिए वैश्विक पद्धति को अपनाता है।"
+    }
+  },
+  {
+    "v1_id": "HIS1776",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Gandhian Era 1919-1947)"
+    },
+    "tags":[
+      "Champaran",
+      "Gandhi",
+      "Satyagraha"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Champaran Satyagraha was Gandhi's first major mass movement in India.\nReason (R): The movement aimed at resolving the issues faced by the indigo planters.\n\nChoose the correct answer:",
+    "question_hi": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): चंपारण सत्याग्रह भारत में गांधी का पहला प्रमुख जन आंदोलन था।\nकारण (R): इस आंदोलन का उद्देश्य नील उत्पादकों द्वारा सामना की जाने वाली समस्याओं का समाधान करना था।\n\nसही उत्तर चुनें:",
+    "options":[
+      "(A) is true but (R) is false",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is false but (R) is true",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+    ],
+    "options_hi":[
+      "(A) सत्य है लेकिन (R) असत्य है",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) असत्य है लेकिन (R) सत्य है",
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है"
+    ],
+    "correct": "(A) is false but (R) is true",
+    "explanation": {
+      "summary": "Correct Answer: (A) is false but (R) is true\n\nसही उत्तर: (A) असत्य है लेकिन (R) सत्य है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Reason (R) is true: The Champaran Satyagraha (1917) resolved the Tinkathia system oppression faced by indigo farmers. Assertion (A) is false: While it was his first Civil Disobedience, it was a localized movement, not his first major 'mass movement' (which was the Non-Cooperation Movement).\n\n✅ **यह सही क्यों है**\n\n- कारण (R) सत्य है: चंपारण सत्याग्रह (1917) ने नील किसानों के तिनकठिया प्रणाली के उत्पीड़न को हल किया। अभिकथन (A) गलत है: हालांकि यह उनका पहला सविनय अवज्ञा था, यह एक स्थानीय आंदोलन था, न कि उनका पहला प्रमुख 'जन आंदोलन' (जो असहयोग आंदोलन था)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Designating Champaran as a nationwide 'mass movement' is factually incorrect in Indian historical terminology.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- चंपारण को देशव्यापी 'जन आंदोलन' के रूप में नामित करना भारतीय ऐतिहासिक शब्दावली में तथ्यात्मक रूप से गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Gandhi's initial interventions (Champaran, Kheda, Ahmedabad) were geographically restricted, issue-specific satyagrahas.\n\n📝 **निष्कर्ष**\n\n- गांधी के शुरुआती हस्तक्षेप (चंपारण, खेड़ा, अहमदाबाद) भौगोलिक रूप से सीमित, मुद्दे-विशिष्ट सत्याग्रह थे।",
+      "fact": "💡 **Interesting Fact**\n\n- Raj Kumar Shukla was the key local farmer who persuaded Gandhi to visit Champaran to witness the plight of the indigo cultivators.\n\n💡 **रोचक तथ्य**\n\n- राज कुमार शुक्ल वह प्रमुख स्थानीय किसान थे जिन्होंने गांधीजी को नील खेतिहरों की दुर्दशा देखने के लिए चंपारण आने के लिए राजी किया था।"
+    }
+  },
+  {
+    "v1_id": "PHY413",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Light (Reflection, Refraction, Interference, Diffraction)"
+    },
+    "tags":[
+      "Optics",
+      "Lenses",
+      "Mirrors"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match the following lenses/mirrors with their correct applications:\nList-I:\ni. Concave mirror\nii. Convex mirror\niii. Convex lens\niv. Concave lens\n\nList-II:\np. Used in cameras and projectors for focusing light\nq. Used in correcting myopia (short-sightedness)\nr. Used in vehicles for rear-viewing\ns. Used in shaving to produce magnified upright image",
+    "question_hi": "निम्नलिखित लेंस/दर्पणों को उनके सही अनुप्रयोगों के साथ सुमेलित करें:\nसूची-I:\ni. अवतल दर्पण\nii. उत्तल दर्पण\niii. उत्तल लेंस\niv. अवतल लेंस\n\nसूची-II:\np. प्रकाश को केंद्रित करने के लिए कैमरे और प्रोजेक्टर में उपयोग किया जाता है\nq. मायोपिया (निकट दृष्टिदोष) को ठीक करने में उपयोग किया जाता है\nr. वाहनों में पीछे देखने के लिए उपयोग किया जाता है\ns. दाढ़ी बनाने में आवर्धित सीधा चित्र बनाने के लिए उपयोग किया जाता है",
+    "options":[
+      "i-r, ii-s, iii-p, iv-q",
+      "i-s, ii-r, iii-p, iv-q",
+      "i-r, ii-s, iii-q, iv-p",
+      "i-s, ii-r, iii-q, iv-p"
+    ],
+    "options_hi":[
+      "i-r, ii-s, iii-p, iv-q",
+      "i-s, ii-r, iii-p, iv-q",
+      "i-r, ii-s, iii-q, iv-p",
+      "i-s, ii-r, iii-q, iv-p"
+    ],
+    "correct": "i-s, ii-r, iii-p, iv-q",
+    "explanation": {
+      "summary": "Correct Answer: i-s, ii-r, iii-p, iv-q\n\nसही उत्तर: i-s, ii-r, iii-p, iv-q",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Concave mirrors form upright, magnified images (shaving: s). Convex mirrors provide a wider field of view (rear-view: r). Convex lenses focus light (cameras: p). Concave lenses diverge light (correcting myopia: q).\n\n✅ **यह सही क्यों है**\n\n- अवतल दर्पण सीधे, आवर्धित चित्र बनाते हैं (शेविंग: s)। उत्तल दर्पण देखने का एक व्यापक क्षेत्र प्रदान करते हैं (रियर-व्यू: r)। उत्तल लेंस प्रकाश को केंद्रित करते हैं (कैमरे: p)। अवतल लेंस प्रकाश को फैलाते हैं (मायोपिया को ठीक करना: q)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other matching assigns the incorrect optical phenomenon to practical tools.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य मिलान व्यावहारिक उपकरणों को गलत प्रकाशीय घटना प्रदान करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The converging or diverging properties of lenses and mirrors strictly dictate their daily life utility.\n\n📝 **निष्कर्ष**\n\n- लेंस और दर्पणों के अभिसारी या अपसारी गुण उनके दैनिक जीवन की उपयोगिता को सख्ती से तय करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Hypermetropia (far-sightedness) requires the opposite correction as myopia, utilizing convex lenses.\n\n💡 **रोचक तथ्य**\n\n- हाइपरमेट्रोपिया (दूरदृष्टि दोष) को मायोपिया के विपरीत सुधार की आवश्यकता होती है, जिसमें उत्तल लेंस का उपयोग किया जाता है।"
+    }
+  },
+  {
+    "v1_id": "CUR576",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Science & Technology",
+      "subTopic": "Space & ISRO"
+    },
+    "tags":[
+      "SPADEX",
+      "ISRO",
+      "SpaceDocking"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "On January 10, 2025, India became the _____ country to successfully carry out a satellite docking process in Low Earth Orbit.",
+    "question_hi": "10 जनवरी 2025 को भारत लो अर्थ ऑर्बिट (LEO) में सफलतापूर्वक सैटेलाइट डॉकिंग प्रक्रिया को अंजाम देने वाला _____ देश बन गया।",
+    "options":[
+      "Fourth",
+      "Fifth",
+      "Sixth",
+      "Third"
+    ],
+    "options_hi":[
+      "चौथा",
+      "पांचवां",
+      "छठा",
+      "तीसरा"
+    ],
+    "correct": "Fourth",
+    "explanation": {
+      "summary": "Correct Answer: Fourth\n\nसही उत्तर: चौथा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- With the Space Docking Experiment (SPADEX), India became the fourth country globally—after the United States, Russia, and China—to successfully demonstrate autonomous satellite docking in space.\n\n✅ **यह सही क्यों है**\n\n- स्पेस डॉकिंग एक्सपेरिमेंट (SPADEX) के साथ, भारत अमेरिका, रूस और चीन के बाद अंतरिक्ष में स्वायत्त उपग्रह डॉकिंग को सफलतापूर्वक प्रदर्शित करने वाला विश्व का चौथा देश बन गया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- India is not the third, fifth, or sixth. Only three other sovereign space agencies have demonstrated this highly complex orbital rendezvous capability.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- भारत तीसरा, पांचवां या छठा नहीं है। केवल तीन अन्य संप्रभु अंतरिक्ष एजेंसियों ने इस अत्यधिक जटिल कक्षीय क्षमता का प्रदर्शन किया है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The SPADEX mission is crucial for ISRO's future ambitions, including building the Bharatiya Antariksha Station and bringing back lunar samples.\n\n📝 **निष्कर्ष**\n\n- SPADEX मिशन इसरो की भविष्य की महत्वाकांक्षाओं के लिए महत्वपूर्ण है, जिसमें भारतीय अंतरिक्ष स्टेशन का निर्माण और चंद्र नमूने वापस लाना शामिल है।",
+      "fact": "💡 **Interesting Fact**\n\n- The two spacecraft involved in the SPADEX mission are called the 'Chaser' (SDX01) and the 'Target' (SDX02).\n\n💡 **रोचक तथ्य**\n\n- SPADEX मिशन में शामिल दो अंतरिक्ष यानों को 'चेज़र' (SDX01) और 'टारगेट' (SDX02) कहा जाता है।"
+    }
+  },
+  {
+    "v1_id": "GEO1213",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Natural Vegetation & Wildlife"
+    },
+    "tags":[
+      "BiharForest",
+      "ISFR2021"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "What is the approximate percent of geographical area covered under forest in Bihar?",
+    "question_hi": "बिहार में भौगोलिक क्षेत्र का लगभग कितना प्रतिशत वन के अंतर्गत आता है?",
+    "options":[
+      "5%",
+      "7%",
+      "13%",
+      "11%"
+    ],
+    "options_hi":[
+      "5%",
+      "7%",
+      "13%",
+      "11%"
+    ],
+    "correct": "7%",
+    "explanation": {
+      "summary": "Correct Answer: 7%\n\nसही उत्तर: 7%",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to the India State of Forest Report (ISFR) 2021, the actual forest cover of Bihar stands at approximately 7.84% of its total geographical area, making 7% the closest correct option.\n\n✅ **यह सही क्यों है**\n\n- भारत वन स्थिति रिपोर्ट (ISFR) 2021 के अनुसार, बिहार का वास्तविक वन आवरण इसके कुल भौगोलिक क्षेत्र का लगभग 7.84% है, जिससे 7% निकटतम सही विकल्प है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 5% is an underestimation, while 11% and 13% overestimate Bihar's actual vegetative forest cover.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 5% एक कम अनुमान है, जबकि 11% और 13% बिहार के वास्तविक वन आवरण को अधिक आंकते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Bihar continues initiatives like Jal-Jeevan-Hariyali to systematically increase its total green cover over time.\n\n📝 **निष्कर्ष**\n\n- बिहार समय के साथ व्यवस्थित रूप से अपने कुल हरित आवरण को बढ़ाने के लिए जल-जीवन-हरियाली जैसी पहल जारी रखे हुए है।",
+      "fact": "💡 **Interesting Fact**\n\n- Kaimur and West Champaran districts hold the largest share of dense forest cover in Bihar.\n\n💡 **रोचक तथ्य**\n\n- कैमूर और पश्चिम चंपारण जिलों में बिहार में घने जंगल का सबसे बड़ा हिस्सा है।"
+    }
+  },
+  {
+    "v1_id": "BIO383",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Photosynthesis"
+    },
+    "tags":[
+      "Pigments",
+      "Chlorophyll"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is the primary pigment involved in photosynthesis?",
+    "question_hi": "प्रकाश संश्लेषण में शामिल प्राथमिक वर्णक निम्नलिखित में से कौन सा है?",
+    "options":[
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotene",
+      "Xanthophyll"
+    ],
+    "options_hi":[
+      "क्लोरोफिल a",
+      "क्लोरोफिल b",
+      "कैरोटीन",
+      "ज़ैंथोफिल"
+    ],
+    "correct": "Chlorophyll a",
+    "explanation": {
+      "summary": "Correct Answer: Chlorophyll a\n\nसही उत्तर: क्लोरोफिल a",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Chlorophyll 'a' acts as the primary photosynthetic pigment because it is directly responsible for converting light energy to chemical energy at the reaction center of photosystems.\n\n✅ **यह सही क्यों है**\n\n- क्लोरोफिल 'a' प्राथमिक प्रकाश संश्लेषक वर्णक के रूप में कार्य करता है क्योंकि यह सीधे प्रकाश तंत्र के प्रतिक्रिया केंद्र पर प्रकाश ऊर्जा को रासायनिक ऊर्जा में परिवर्तित करने के लिए जिम्मेदार है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Chlorophyll b, Carotenes, and Xanthophylls are accessory pigments. They broaden the absorption spectrum and pass captured energy to Chlorophyll a.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- क्लोरोफिल b, कैरोटीन और ज़ैंथोफिल सहायक वर्णक हैं। वे अवशोषण स्पेक्ट्रम को व्यापक बनाते हैं और क्लोरोफिल a को कैप्चर की गई ऊर्जा प्रदान करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- All oxygenic photosynthetic organisms fundamentally rely on Chlorophyll a in their reaction centers.\n\n📝 **निष्कर्ष**\n\n- सभी ऑक्सीजन प्रकाश संश्लेषक जीव मौलिक रूप से अपने प्रतिक्रिया केंद्रों में क्लोरोफिल a पर निर्भर करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Chlorophyll a absorbs mostly violet-blue and red light, reflecting green, which is why most leaves appear green to the human eye.\n\n💡 **रोचक तथ्य**\n\n- क्लोरोफिल a ज्यादातर बैंगनी-नीले और लाल प्रकाश को अवशोषित करता है, और हरे रंग को दर्शाता है, यही कारण है कि ज्यादातर पत्तियां मानव आंख को हरी दिखाई देती हैं।"
+    }
+  },
+  {
+    "v1_id": "BIO384",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Morphology"
+    },
+    "tags": [
+      "Transpiration",
+      "AscentOfSap"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Transpiration helps in the ascent of sap.\nReason (R): Transpiration increases osmotic pressure in roots.\n\nSelect the correct answer:",
+    "question_hi": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): वाष्पोत्सर्जन रस के आरोहण में मदद करता है।\nकारण (R): वाष्पोत्सर्जन जड़ों में आसमाटिक (परासरण) दबाव बढ़ाता है।\n\nसही उत्तर चुनें:",
+    "options":[
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is false but (R) is true",
+      "(A) is true but (R) is false"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) असत्य है लेकिन (R) सत्य है",
+      "(A) सत्य है लेकिन (R) असत्य है"
+    ],
+    "correct": "(A) is true but (R) is false",
+    "explanation": {
+      "summary": "Correct Answer: (A) is true but (R) is false\n\nसही उत्तर: (A) सत्य है लेकिन (R) असत्य है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The assertion is true: Transpiration creates a negative tension (pull) in the xylem that lifts sap. The reason is false: Transpiration pull affects leaf and stem tension; it does NOT increase root osmotic pressure, which is driven independently by active mineral uptake.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन सत्य है: वाष्पोत्सर्जन जाइलम में एक नकारात्मक तनाव (खिंचाव) पैदा करता है जो रस को ऊपर उठाता है। कारण गलत है: वाष्पोत्सर्जन खिंचाव पत्ती और तने के तनाव को प्रभावित करता है; यह जड़ परासरण दबाव में वृद्धि नहीं करता है, जो स्वतंत्र रूप से खनिजों के अवशोषण द्वारा संचालित होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The reason inaccurately describes the physiological mechanism linking roots and transpiration.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कारण जड़ों और वाष्पोत्सर्जन को जोड़ने वाले शारीरिक तंत्र का गलत वर्णन करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Cohesion-Tension theory by Dixon and Joly remains the most accepted model for the upward transport of water in plants.\n\n📝 **निष्कर्ष**\n\n- डिक्सन और जॉली द्वारा ससंजन-तनाव सिद्धांत पौधों में पानी के ऊपर की ओर परिवहन के लिए सबसे स्वीकृत मॉडल है।",
+      "fact": "💡 **Interesting Fact**\n\n- On a hot day, a single large oak tree can transpire over 150 liters of water into the atmosphere.\n\n💡 **रोचक तथ्य**\n\n- एक गर्म दिन में, एक अकेला बड़ा ओक का पेड़ वायुमंडल में 150 लीटर से अधिक पानी वाष्पोत्सर्जित कर सकता है।"
+    }
+  },
+  {
+    "v1_id": "POL675",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Local Government & Special Areas",
+      "subTopic": "Panchayati Raj (73rd Amendment)"
+    },
+    "tags":[
+      "PESAAct",
+      "GramSabha",
+      "ScheduledAreas"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which among the following is true about the Panchayats Extension to the Scheduled Areas (PESA) Act?\n1. It was enacted in 1996.\n2. It accords statutory status to the Gram Sabhas in Scheduled V areas.\n3. Section 4(i) of the Act mandates that the Gram Sabha or Panchayat should consent before any land acquisition for development projects.\n\nSelect the correct code:",
+    "question_hi": "पंचायत उपबंध (अनुसूचित क्षेत्रों पर विस्तार) अधिनियम (पेसा), के बारे में निम्नलिखित में से कौन सा सत्य है?\n1. इसे 1996 में अधिनियमित किया गया था।\n2. यह अनुसूचित V क्षेत्रों में ग्राम सभाओं को वैधानिक दर्जा प्रदान करता है।\n3. अधिनियम की धारा 4(i) यह अनिवार्य करती है कि विकास परियोजनाओं के लिए किसी भी भूमि अधिग्रहण से पहले ग्राम सभा या पंचायत की सहमति होनी चाहिए।\n\nसही कूट का चयन करें:",
+    "options":[
+      "Only 1",
+      "1 and 2",
+      "All of the above",
+      "2 and 3"
+    ],
+    "options_hi":[
+      "केवल 1",
+      "1 और 2",
+      "उपरोक्त सभी",
+      "2 और 3"
+    ],
+    "correct": "All of the above",
+    "explanation": {
+      "summary": "Correct Answer: All of the above\n\nसही उत्तर: उपरोक्त सभी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The PESA Act was passed in 1996 to extend Part IX of the Constitution to Fifth Schedule Areas. It firmly establishes the Gram Sabha as a statutory body and mandates consultation/consent for land acquisition and management of minor forest produce.\n\n✅ **यह सही क्यों है**\n\n- PESA अधिनियम 1996 में संविधान के भाग IX को पाँचवीं अनुसूची क्षेत्रों तक विस्तारित करने के लिए पारित किया गया था। यह ग्राम सभा को एक वैधानिक निकाय के रूप में स्थापित करता है और भूमि अधिग्रहण और लघु वनोपज के प्रबंधन के लिए परामर्श/सहमति अनिवार्य करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- All three given statements are factual characteristics of the PESA framework, meaning excluding any of them is incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- दिए गए तीनों कथन PESA ढांचे की तथ्यात्मक विशेषताएं हैं, जिसका अर्थ है कि उनमें से किसी को भी बाहर करना गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- PESA is considered the backbone of tribal self-governance in India, ensuring that modern development respects traditional rights.\n\n📝 **निष्कर्ष**\n\n- PESA को भारत में आदिवासी स्वशासन की रीढ़ माना जाता है, यह सुनिश्चित करते हुए कि आधुनिक विकास पारंपरिक अधिकारों का सम्मान करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The PESA Act was enacted on the recommendations of the Dilip Singh Bhuria Committee.\n\n💡 **रोचक तथ्य**\n\n- PESA अधिनियम दिलीप सिंह भूरिया समिति की सिफारिशों पर अधिनियमित किया गया था।"
+    }
+  },
+  {
+    "v1_id": "SGK643",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "Defence & Security",
+      "subTopic": "Defence Exercises"
+    },
+    "tags":[
+      "MilitaryExercise",
+      "Varuna",
+      "DharmaGuardian"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Match the following List-I (Bilateral Military Exercise) and List-II (Countries):\nList-I:\n1. Varuna Naval\n2. Dharma Guardian\n3. Ekuverin\n4. Cyclone\n\nList-II:\na. India - France\nb. India - Japan\nc. India - Maldives\nd. India - Egypt",
+    "question_hi": "निम्नलिखित सूची-I (द्विपक्षीय सैन्य अभ्यास) और सूची-II (देशों) को सुमेलित करें:\nसूची-I:\n1. वरुण नौसेना\n2. धर्म गार्जियन\n3. एकुवेरिन\n4. साइक्लोन\n\nसूची-II:\na. भारत - फ्रांस\nb. भारत - जापान\nc. भारत - मालदीव\nd. भारत - मिस्र",
+    "options":[
+      "1-d, 2-b, 3-c, 4-a",
+      "1-a, 2-b, 3-c, 4-d",
+      "1-a, 2-b, 3-d, 4-c",
+      "1-c, 2-b, 3-a, 4-d"
+    ],
+    "options_hi":[
+      "1-d, 2-b, 3-c, 4-a",
+      "1-a, 2-b, 3-c, 4-d",
+      "1-a, 2-b, 3-d, 4-c",
+      "1-c, 2-b, 3-a, 4-d"
+    ],
+    "correct": "1-a, 2-b, 3-c, 4-d",
+    "explanation": {
+      "summary": "Correct Answer: 1-a, 2-b, 3-c, 4-d\n\nसही उत्तर: 1-a, 2-b, 3-c, 4-d",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Varuna is an Indo-French naval exercise. Dharma Guardian is an army exercise with Japan. Ekuverin means 'friends' in the Maldivian language and is an exercise with the Maldives. Cyclone is a joint special forces exercise with Egypt.\n\n✅ **यह सही क्यों है**\n\n- वरुण एक इंडो-फ्रेंच नौसैनिक अभ्यास है। धर्म गार्जियन जापान के साथ थल सेना का अभ्यास है। एकुवेरिन का अर्थ मालदीव की भाषा में 'मित्र' है और यह मालदीव के साथ एक अभ्यास है। साइक्लोन मिस्र के साथ एक संयुक्त विशेष बल अभ्यास है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other combination mismatches the specific strategic exercises with their designated partner nations.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य संयोजन विशिष्ट रणनीतिक अभ्यासों को उनके निर्दिष्ट भागीदार देशों के साथ गलत तरीके से मिलाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Joint military exercises boost interoperability and are key instruments of India's defence diplomacy.\n\n📝 **निष्कर्ष**\n\n- संयुक्त सैन्य अभ्यास अंतर-संचालनीयता को बढ़ाते हैं और भारत की रक्षा कूटनीति के प्रमुख उपकरण हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The inaugural edition of 'Exercise Cyclone-I' with Egypt was held in 2023 in Rajasthan, marking a new milestone in bilateral defence cooperation.\n\n💡 **रोचक तथ्य**\n\n- मिस्र के साथ 'अभ्यास साइक्लोन-I' का उद्घाटन संस्करण 2023 में राजस्थान में आयोजित किया गया था, जो द्विपक्षीय रक्षा सहयोग में एक नया मील का पत्थर है।"
+    }
+  },
+  {
+    "v1_id": "GEO1214",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "River Systems of India"
+    },
+    "tags":[
+      "Waterfalls",
+      "Goa",
+      "Dudhsagar"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following waterfalls of India is located in Goa?",
+    "question_hi": "भारत का निम्नलिखित में से कौन सा जलप्रपात गोवा में स्थित है?",
+    "options":[
+      "Landshing waterfalls",
+      "Dhunwadhar waterfalls",
+      "Nokhalikai waterfalls",
+      "Dudhsagar waterfalls"
+    ],
+    "options_hi":[
+      "लांगशियांग जलप्रपात",
+      "धुआंधार जलप्रपात",
+      "नोहकलिकाई जलप्रपात",
+      "दूधसागर जलप्रपात"
+    ],
+    "correct": "Dudhsagar waterfalls",
+    "explanation": {
+      "summary": "Correct Answer: Dudhsagar waterfalls\n\nसही उत्तर: दूधसागर जलप्रपात",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Dudhsagar Falls (Sea of Milk) is a spectacular four-tiered waterfall located on the Mandovi River, lying on the border between Goa and Karnataka.\n\n✅ **यह सही क्यों है**\n\n- दूधसागर जलप्रपात (दूध का सागर) मांडोवी नदी पर स्थित एक शानदार चार-स्तरीय जलप्रपात है, जो गोवा और कर्नाटक की सीमा पर स्थित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Dhuandhar is in Madhya Pradesh over the Narmada river. Nohkalikai and Langshiang are major waterfalls located in Meghalaya.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- धुआंधार मध्य प्रदेश में नर्मदा नदी पर है। नोहकलिकाई और लांगशियांग मेघालय में स्थित प्रमुख जलप्रपात हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Dudhsagar is one of India's tallest waterfalls, and it gains massive prominence during the monsoon season.\n\n📝 **निष्कर्ष**\n\n- दूधसागर भारत के सबसे ऊंचे जलप्रपातों में से एक है, और मानसून के मौसम में यह व्यापक प्रमुखता प्राप्त करता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The picturesque railway bridge crossing directly in front of the Dudhsagar falls was famously featured in the Bollywood movie 'Chennai Express'.\n\n💡 **रोचक तथ्य**\n\n- दूधसागर झरने के ठीक सामने से गुजरने वाले सुरम्य रेलवे पुल को बॉलीवुड फिल्म 'चेन्नई एक्सप्रेस' में प्रमुखता से दिखाया गया था।"
+    }
+  },
+  {
+    "v1_id": "PHY414",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Heat & Thermodynamics",
+      "subTopic": "Laws of Thermodynamics"
+    },
+    "tags":[
+      "IdealGas",
+      "Thermodynamics",
+      "WorkDone"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "An ideal gas is taken around a closed cycle ABCA. The coordinates of the points are: A(V, p); B(3V, 4p); C(3V, p). What is the work done during one complete cycle?",
+    "question_hi": "एक आदर्श गैस को एक बंद चक्र ABCA के चारों ओर ले जाया जाता है। बिंदुओं के निर्देशांक हैं: A(V, p); B(3V, 4p); C(3V, p)। एक पूर्ण चक्र के दौरान किया गया कार्य क्या है?",
+    "options":[
+      "pV",
+      "2pV",
+      "6pV",
+      "3pV"
+    ],
+    "options_hi":[
+      "pV",
+      "2pV",
+      "6pV",
+      "3pV"
+    ],
+    "correct": "3pV",
+    "explanation": {
+      "summary": "Correct Answer: 3pV\n\nसही उत्तर: 3pV",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The net work done in a cyclic p-V process is the area of the cycle. This forms a right-angled triangle. Base (Volume axis) = 3V - V = 2V. Height (Pressure axis) = 4p - p = 3p. Area = 1/2 × Base × Height = 1/2 × 2V × 3p = 3pV.\n\n✅ **यह सही क्यों है**\n\n- एक चक्रीय p-V प्रक्रिया में किया गया शुद्ध कार्य चक्र का क्षेत्रफल होता है। यह एक समकोण त्रिभुज बनाता है। आधार (आयतन) = 3V - V = 2V। ऊँचाई (दबाव) = 4p - p = 3p। क्षेत्रफल = 1/2 × आधार × ऊँचाई = 1/2 × 2V × 3p = 3pV।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other values result from neglecting the 1/2 factor in the triangle area formula or calculating the coordinates incorrectly.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य मान त्रिभुज क्षेत्रफल सूत्र में 1/2 कारक की उपेक्षा करने या निर्देशांक की गलत गणना करने के परिणामस्वरूप आते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The area enclosed within a cyclic loop on a p-V diagram corresponds precisely to the net work performed by the gas.\n\n📝 **निष्कर्ष**\n\n- p-V आरेख पर एक चक्रीय लूप के भीतर घिरा क्षेत्र गैस द्वारा किए गए शुद्ध कार्य से ठीक मेल खाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- If the p-V cycle is clockwise, the work done by the gas is positive (expansion dominates). If counter-clockwise, work done is negative.\n\n💡 **रोचक तथ्य**\n\n- यदि p-V चक्र दक्षिणावर्त है, तो गैस द्वारा किया गया कार्य धनात्मक है (विस्तार हावी है)। यदि वामावर्त है, तो किया गया कार्य ऋणात्मक है।"
+    }
+  },
+  {
+    "v1_id": "ECO879",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Industrial Policy"
+    },
+    "tags": [
+      "MSME",
+      "Industry",
+      "IndianEconomy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "As per MSME Act the latest definition of small scale industry is based on:",
+    "question_hi": "MSME अधिनियम के अनुसार लघु उद्योग की नवीनतम परिभाषा किस पर आधारित है:",
+    "options":[
+      "Investment only",
+      "Investment in manufacturing sector",
+      "Investment and annual turnover in a sector",
+      "Turnover in services sector"
+    ],
+    "options_hi":[
+      "केवल निवेश",
+      "विनिर्माण क्षेत्र में निवेश",
+      "एक क्षेत्र में निवेश और वार्षिक टर्नओवर",
+      "सेवा क्षेत्र में टर्नओवर"
+    ],
+    "correct": "Investment and annual turnover in a sector",
+    "explanation": {
+      "summary": "Correct Answer: Investment and annual turnover in a sector\n\nसही उत्तर: एक क्षेत्र में निवेश और वार्षिक टर्नओवर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The MSME definition was heavily revised in 2020. The new composite criteria classify enterprises based on both 'Investment in Plant & Machinery' and 'Annual Turnover', removing the distinction between manufacturing and service sectors.\n\n✅ **यह सही क्यों है**\n\n- 2020 में MSME परिभाषा में भारी संशोधन किया गया था। नए समग्र मानदंड विनिर्माण और सेवा क्षेत्रों के बीच अंतर को हटाते हुए 'संयंत्र और मशीनरी में निवेश' और 'वार्षिक टर्नओवर' दोनों के आधार पर उद्यमों को वर्गीकृत करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Relying solely on investment was the older method (pre-2020). Focusing only on manufacturing or services is also incorrect under the unified new law.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पूरी तरह से निवेश पर निर्भर रहना पुराना तरीका था (2020 से पहले)। एकीकृत नए कानून के तहत केवल विनिर्माण या सेवाओं पर ध्यान केंद्रित करना भी गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- A Small Enterprise is now defined as one where investment does not exceed ₹10 crore and turnover does not exceed ₹50 crore.\n\n📝 **निष्कर्ष**\n\n- एक लघु उद्यम (Small Enterprise) को अब उस उद्यम के रूप में परिभाषित किया गया है जहाँ निवेश ₹10 करोड़ से अधिक नहीं है और टर्नओवर ₹50 करोड़ से अधिक नहीं है।",
+      "fact": "💡 **Interesting Fact**\n\n- The inclusion of 'Turnover' in the MSME criteria ensures that transparent, GST-compliant scaling up does not immediately disqualify a firm from MSME benefits.\n\n💡 **रोचक तथ्य**\n\n- MSME मानदंड में 'टर्नओवर' को शामिल करने से यह सुनिश्चित होता है कि पारदर्शी, जीएसटी-अनुपालन वाले विस्तार से किसी फर्म को तुरंत MSME लाभों से अयोग्य घोषित नहीं किया जाता है।"
+    }
+  },
+  {
+    "v1_id": "HIS1777",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "Early Medieval India"
+    },
+    "tags":[
+      "Rajputs",
+      "Mewar",
+      "Haldighati"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to the Guhilots/Sisodiyas, Rathors and Kachwahas, consider the following statements:\n1. The Guhilots ruled over Mewar with Chittor as their capital.\n2. Sawai Jai Singh of the Rathor dynasty was a high-ranking noble under the Mughals.\n3. Mansingh of the Kachwahas was a trusted commander of Akbar.\n4. Maharana Pratap of the Sisodiyas fought against Akbar at the Battle of Haldighati.\n5. Jaswant Singh of the Kachwahas was also an astronomer.\n\nWhich of the statements given above are correct?",
+    "question_hi": "गुहिलोट/सिसोदिया, राठौर और कछवाहों के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. गुहिलोटों ने चित्तौड़ को अपनी राजधानी बनाकर मेवाड़ पर शासन किया।\n2. राठौर राजवंश का सवाई जय सिंह मुगलों के अधीन एक उच्च श्रेणी का रईस था।\n3. कछवाहों के मानसिंह अकबर के एक विश्वसनीय सेनापति थे।\n4. सिसोदियों के महाराणा प्रताप ने हल्दीघाटी के युद्ध में अकबर के खिलाफ लड़ाई लड़ी थी।\n5. कछवाहों के जसवंत सिंह एक खगोलशास्त्री भी थे。\n\nऊपर दिए गए कथनों में से कौन सा/से सही है/हैं?",
+    "options":[
+      "1, 2, 3 and 5 only",
+      "2, 3 and 4 only",
+      "1, 3, 4 and 5 only",
+      "1, 3 and 4 only"
+    ],
+    "options_hi":[
+      "केवल 1, 2, 3 और 5",
+      "केवल 2, 3 और 4",
+      "केवल 1, 3, 4 और 5",
+      "केवल 1, 3 और 4"
+    ],
+    "correct": "1, 3 and 4 only",
+    "explanation": {
+      "summary": "Correct Answer: 1, 3 and 4 only\n\nसही उत्तर: केवल 1, 3 और 4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is true (Sisodiyas/Guhilots ruled Mewar). Statement 3 is true (Man Singh was Akbar's general). Statement 4 is true (Maharana Pratap fought at Haldighati in 1576).\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सत्य है (सिसोदिया/गुहिलोटों ने मेवाड़ पर शासन किया)। कथन 3 सत्य है (मान सिंह अकबर का सेनापति था)। कथन 4 सत्य है (महाराणा प्रताप ने 1576 में हल्दीघाटी में लड़ाई लड़ी थी)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is false: Sawai Jai Singh was a Kachwaha of Amber (Jaipur), not a Rathore. Statement 5 is false: Jai Singh II was the astronomer; Jaswant Singh was a Rathore ruler of Marwar.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है: सवाई जय सिंह आमेर (जयपुर) का कछवाहा था, राठौर नहीं। कथन 5 गलत है: जय सिंह द्वितीय खगोलशास्त्री थे; जसवंत सिंह मारवाड़ के राठौर शासक थे।",
+      "conclusion": "📝 **Concluding Note**\n\n- Rajput clans had complex, varying alliances with the Mughal empire, shaping medieval North Indian geopolitics.\n\n📝 **निष्कर्ष**\n\n- राजपूत कुलों का मुगल साम्राज्य के साथ जटिल और अलग-अलग गठबंधन था, जिसने मध्ययुगीन उत्तर भारतीय भू-राजनीति को आकार दिया।",
+      "fact": "💡 **Interesting Fact**\n\n- Sawai Jai Singh II built five astronomical observatories (Jantar Mantar) in New Delhi, Jaipur, Ujjain, Mathura, and Varanasi.\n\n💡 **रोचक तथ्य**\n\n- सवाई जय सिंह द्वितीय ने नई दिल्ली, जयपुर, उज्जैन, मथुरा और वाराणसी में पांच खगोलीय वेधशालाओं (जंतर मंतर) का निर्माण कराया था।"
+    }
+  },
+  {
+    "v1_id": "GEO1215",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "World Geography",
+      "subTopic": "World Population & Tribes"
+    },
+    "tags":[
+      "Demographics",
+      "PopulationTransition"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following stages of demographic transition associated with economic development:\nI. High birth rate with low death rate\nII. Low birth rate with low death rate\nIII. High birth rate with high death rate\n\nArrange these stages in correct chronological order:",
+    "question_hi": "आर्थिक विकास से जुड़े जनसांख्यिकीय संक्रमण के निम्नलिखित चरणों पर विचार करें:\nI. कम मृत्यु दर के साथ उच्च जन्म दर\nII. कम मृत्यु दर के साथ कम जन्म दर\nIII. उच्च मृत्यु दर के साथ उच्च जन्म दर\n\nइन चरणों को सही कालानुक्रमिक क्रम में व्यवस्थित करें:",
+    "options":[
+      "I, III, II",
+      "III, II, I",
+      "II, I, III",
+      "III, I, II"
+    ],
+    "options_hi":[
+      "I, III, II",
+      "III, II, I",
+      "II, I, III",
+      "III, I, II"
+    ],
+    "correct": "III, I, II",
+    "explanation": {
+      "summary": "Correct Answer: III, I, II\n\nसही उत्तर: III, I, II",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Stage 1 (Pre-industrial): High birth and high death rates (III). Stage 2 (Developing): High birth rate but falling death rate due to better healthcare (I). Stage 3/4 (Developed): Low birth and low death rates (II).\n\n✅ **यह सही क्यों है**\n\n- चरण 1 (पूर्व-औद्योगिक): उच्च जन्म और उच्च मृत्यु दर (III)। चरण 2 (विकासशील): उच्च जन्म दर लेकिन बेहतर स्वास्थ्य सेवा के कारण मृत्यु दर में गिरावट (I)। चरण 3/4 (विकसित): कम जन्म और कम मृत्यु दर (II)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other sequence reverses or mixes the well-established historical progression of global population demographics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य क्रम वैश्विक जनसंख्या जनसांख्यिकी की अच्छी तरह से स्थापित ऐतिहासिक प्रगति को उलट देता है या मिला देता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Demographic Transition Theory models how population growth stabilizes as societies transition from agrarian to industrialized economies.\n\n📝 **निष्कर्ष**\n\n- जनसांख्यिकीय संक्रमण सिद्धांत मॉडल करता है कि समाज के कृषि से औद्योगिक अर्थव्यवस्थाओं में संक्रमण के रूप में जनसंख्या वृद्धि कैसे स्थिर होती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Some highly developed nations like Japan are currently experiencing a 'Stage 5' transition, where death rates outpace birth rates, leading to a shrinking population.\n\n💡 **रोचक तथ्य**\n\n- जापान जैसे कुछ अत्यधिक विकसित देश वर्तमान में 'स्टेज 5' संक्रमण का अनुभव कर रहे हैं, जहां मृत्यु दर जन्म दर से अधिक है, जिससे जनसंख्या सिकुड़ रही है।"
+    }
+  },
+  {
+    "v1_id": "PHY415",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Oscillations & Waves"
+    },
+    "tags": [
+      "SHM",
+      "Energy",
+      "Oscillations"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): In simple harmonic motion, the potential energy of the particle is maximum at the extreme positions.\nReason (R): At the extreme positions, the velocity of the particle is maximum.\n\nChoose the correct answer:",
+    "question_hi": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सरल आवर्त गति में, कण की स्थितिज ऊर्जा चरम स्थितियों पर अधिकतम होती है।\nकारण (R): चरम स्थितियों पर, कण का वेग अधिकतम होता है।\n\nसही उत्तर चुनें:",
+    "options":[
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is false but (R) is true",
+      "(A) is true but (R) is false"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) असत्य है लेकिन (R) सत्य है",
+      "(A) सत्य है लेकिन (R) असत्य है"
+    ],
+    "correct": "(A) is true but (R) is false",
+    "explanation": {
+      "summary": "Correct Answer: (A) is true but (R) is false\n\nसही उत्तर: (A) सत्य है लेकिन (R) असत्य है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The assertion is true: Potential energy (1/2 kx²) is maximum at extreme positions because displacement (x) is maximum. The reason is false: At extreme positions, the particle momentarily stops, meaning its velocity is ZERO, not maximum.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन सत्य है: चरम स्थितियों पर स्थितिज ऊर्जा (1/2 kx²) अधिकतम होती है क्योंकि विस्थापन (x) अधिकतम होता है। कारण गलत है: चरम स्थितियों पर, कण क्षण भर के लिए रुक जाता है, जिसका अर्थ है कि इसका वेग शून्य है, अधिकतम नहीं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The reason states the exact opposite of the physical reality of a pendulum or spring mass. Velocity is maximum at the mean (equilibrium) position.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कारण पेंडुलम या स्प्रिंग द्रव्यमान की भौतिक वास्तविकता के ठीक विपरीत बताता है। मध्य (संतुलन) स्थिति में वेग अधिकतम होता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- In SHM, energy continuously converts between kinetic and potential, but the total mechanical energy remains constant.\n\n📝 **निष्कर्ष**\n\n- SHM में, ऊर्जा लगातार गतिज और स्थितिज के बीच परिवर्तित होती है, लेकिन कुल यांत्रिक ऊर्जा स्थिर रहती है।",
+      "fact": "💡 **Interesting Fact**\n\n- At exactly half the maximum displacement in an SHM, the kinetic energy is three times the potential energy.\n\n💡 **रोचक तथ्य**\n\n- SHM में अधिकतम विस्थापन के ठीक आधे हिस्से पर, गतिज ऊर्जा स्थितिज ऊर्जा से तीन गुना होती है।"
+    }
+  },
+  {
+    "v1_id": "HIS1778",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 2: 1905-1919)"
+    },
+    "tags": [
+      "AbhinavBharat",
+      "Savarkar",
+      "RevolutionaryMovement"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "It was a Secret Society founded by Vinayak Damodar Savarkar (VD Savarkar) and his brother Ganesh Damodar Savarkar (Babarao Savarkar) in 1904 to overthrow British rule in India. It established connections with Indian revolutionaries in London. Which of the following revolutionary organizations is described in the above passage?",
+    "question_hi": "यह 1904 में विनायक दामोदर सावरकर (वीडी सावरकर) और उनके भाई गणेश दामोदर सावरकर (बाबाराव सावरकर) द्वारा भारत में ब्रिटिश शासन को उखाड़ फेंकने के लिए स्थापित एक गुप्त समाज था। इसने लंदन में भारतीय क्रांतिकारियों के साथ संबंध स्थापित किए। उपरोक्त गद्यांश में निम्नलिखित में से किस क्रांतिकारी संगठन का वर्णन किया गया है?",
+    "options":[
+      "Anushilan Samiti",
+      "Abhinav Bharat",
+      "Ghadar Party",
+      "Jugantar Party"
+    ],
+    "options_hi":[
+      "अनुशीलन समिति",
+      "अभिनव भारत",
+      "गदर पार्टी",
+      "युगांतर पार्टी"
+    ],
+    "correct": "Abhinav Bharat",
+    "explanation": {
+      "summary": "Correct Answer: Abhinav Bharat\n\nसही उत्तर: अभिनव भारत",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Abhinav Bharat Society (Young India Society) was a secret society founded by V. D. Savarkar and his brother G. D. Savarkar in 1904 at Nasik, modeled after Giuseppe Mazzini's \"Young Italy\".\n\n✅ **यह सही क्यों है**\n\n- अभिनव भारत सोसाइटी (यंग इंडिया सोसाइटी) 1904 में नासिक में वी.डी. सावरकर और उनके भाई जी.डी. सावरकर द्वारा स्थापित एक गुप्त समाज था, जो ग्यूसेप मेज़िनी के \"यंग इटली\" की तर्ज पर था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Anushilan Samiti and Jugantar were primarily active in Bengal. The Ghadar Party was founded in 1913 in North America by expatriate Indians.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अनुशीलन समिति और युगांतर मुख्य रूप से बंगाल में सक्रिय थे। गदर पार्टी की स्थापना 1913 में उत्तरी अमेरिका में प्रवासी भारतीयों द्वारा की गई थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Abhinav Bharat Society was disbanded in 1952, long after India gained independence.\n\n📝 **निष्कर्ष**\n\n- भारत के स्वतंत्रता प्राप्त करने के लंबे समय बाद 1952 में अभिनव भारत सोसाइटी को भंग कर दिया गया था।",
+      "fact": "💡 **Interesting Fact**\n\n- The members of Abhinav Bharat were involved in the assassination of A.M.T. Jackson, the district magistrate of Nasik, in 1909.\n\n💡 **रोचक तथ्य**\n\n- अभिनव भारत के सदस्य 1909 में नासिक के जिला मजिस्ट्रेट ए.एम.टी. जैक्सन की हत्या में शामिल थे।"
+    }
+  },
+  {
+    "v1_id": "PHY416",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Electromagnetic Induction & AC"
+    },
+    "tags":[
+      "AC_Circuit",
+      "PhaseAngle",
+      "ElectricalEngineering"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "In an Alternating Current (AC) circuit, the phase relationship between current and voltage depends on the circuit elements. Match the entries in Column-I with Column-II:\nColumn-I:\ni. Pure Resistance (R)\nii. Pure Capacitance (C)\niii. Pure Inductance (L)\niv. R-L-C Series Circuit\n\nColumn-II:\np. Current leads voltage by 90°\nq. Current and voltage are in same phase\nr. Current and voltage may or may not be in same phase\ns. Current lags voltage by 90°",
+    "question_hi": "एक प्रत्यावर्ती धारा (AC) परिपथ में, धारा और वोल्टेज के बीच चरण संबंध परिपथ तत्वों पर निर्भर करता है। कॉलम-I की प्रविष्टियों को कॉलम-II से सुमेलित करें:\nकॉलम-I:\ni. शुद्ध प्रतिरोध (R)\nii. शुद्ध धारिता (C)\niii. शुद्ध प्रेरण (L)\niv. R-L-C श्रेणी परिपथ\n\nकॉलम-II:\np. धारा वोल्टेज से 90° आगे रहती है\nq. धारा और वोल्टेज समान चरण में होते हैं\nr. धारा और वोल्टेज समान चरण में हो भी सकते हैं और नहीं भी\ns. धारा वोल्टेज से 90° पीछे रहती है",
+    "options":[
+      "i-p, ii-s, iii-q, iv-r",
+      "i-q, ii-p, iii-s, iv-r",
+      "i-q, ii-s, iii-p, iv-r",
+      "i-s, ii-r, iii-p, iv-q"
+    ],
+    "options_hi":[
+      "i-p, ii-s, iii-q, iv-r",
+      "i-q, ii-p, iii-s, iv-r",
+      "i-q, ii-s, iii-p, iv-r",
+      "i-s, ii-r, iii-p, iv-q"
+    ],
+    "correct": "i-q, ii-p, iii-s, iv-r",
+    "explanation": {
+      "summary": "Correct Answer: i-q, ii-p, iii-s, iv-r\n\nसही उत्तर: i-q, ii-p, iii-s, iv-r",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Pure Resistor (R): Current and voltage are in phase (q). Pure Capacitor (C): Current leads voltage by 90° (p). Pure Inductor (L): Current lags voltage by 90° (s). RLC series: Phase angle depends on relative values of L and C (r).\n\n✅ **यह सही क्यों है**\n\n- शुद्ध प्रतिरोध (R): धारा और वोल्टेज चरण में हैं (q)। शुद्ध कैपेसिटर (C): धारा वोल्टेज से 90° आगे रहती है (p)। शुद्ध प्रारंभ करनेवाला (L): धारा वोल्टेज से 90° पीछे रहती है (s)। RLC श्रृंखला: चरण कोण L और C के सापेक्ष मानों पर निर्भर करता है (r)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Other combinations mismatch the fundamental current-voltage phase relations derived from Faraday's law and basic capacitor physics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य संयोजन फैराडे के नियम और बुनियादी कैपेसिटर भौतिकी से प्राप्त मौलिक धारा-वोल्टेज चरण संबंधों को गलत तरीके से मिलाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Memory trick: CIVIL -> in a Capacitor (C), I leads V; in an inductor (L), V leads I.\n\n📝 **निष्कर्ष**\n\n- याद रखने का तरीका: CIVIL -> संधारित्र (C) में, I (धारा) V (वोल्टेज) से आगे है; प्रारंभ करनेवाला (L) में, V I से आगे है।",
+      "fact": "💡 **Interesting Fact**\n\n- At resonance in an RLC circuit, the inductive and capacitive reactances cancel out, making the entire circuit behave purely resistively (phase difference becomes zero).\n\n💡 **रोचक तथ्य**\n\n- RLC सर्किट में अनुनाद (resonance) पर, आगमनात्मक और कैपेसिटिव प्रतिक्रियाएं रद्द हो जाती हैं, जिससे पूरा सर्किट विशुद्ध रूप से प्रतिरोधी व्यवहार करता है (चरण अंतर शून्य हो जाता है)।"
+    }
+  },
+  {
+    "v1_id": "GEO1216",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Indian States & UTs (Capitals, Borders)"
+    },
+    "tags": [
+      "BiharGeography",
+      "Kaimur"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following town is located in westernmost part of Bihar?",
+    "question_hi": "बिहार के सबसे पश्चिमी भाग में निम्नलिखित में से कौन सा शहर स्थित है?",
+    "options":[
+      "Bhagalpur",
+      "Patna",
+      "Kaimur",
+      "Katihar"
+    ],
+    "options_hi":[
+      "भागलपुर",
+      "पटना",
+      "कैमूर",
+      "कटिहार"
+    ],
+    "correct": "Kaimur",
+    "explanation": {
+      "summary": "Correct Answer: Kaimur\n\nसही उत्तर: कैमूर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Kaimur is geographically the westernmost district of Bihar. It shares its border directly with Uttar Pradesh to the west.\n\n✅ **यह सही क्यों है**\n\n- कैमूर भौगोलिक दृष्टि से बिहार का सबसे पश्चिमी जिला है। यह पश्चिम में सीधे उत्तर प्रदेश के साथ अपनी सीमा साझा करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Katihar and Bhagalpur are in the eastern and south-eastern parts of Bihar respectively. Patna is centrally located.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कटिहार और भागलपुर क्रमशः बिहार के पूर्वी और दक्षिण-पूर्वी हिस्सों में हैं। पटना मध्य में स्थित है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Knowing the geographical extremities of the state (North: West Champaran, South: Gaya/Jamui, East: Kishanganj, West: Kaimur) is crucial for state-level exams.\n\n📝 **निष्कर्ष**\n\n- राज्य स्तरीय परीक्षाओं के लिए राज्य की भौगोलिक चरम सीमाओं (उत्तर: पश्चिम चंपारण, दक्षिण: गया/जमुई, पूर्व: किशनगंज, पश्चिम: कैमूर) को जानना महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Kaimur Range is the eastern portion of the Vindhya Range, giving the district its rugged and distinct topography.\n\n💡 **रोचक तथ्य**\n\n- कैमूर रेंज विंध्य रेंज का पूर्वी भाग है, जो जिले को इसकी ऊबड़-खाबड़ और विशिष्ट स्थलाकृति प्रदान करता है।"
+    }
+  },
+  {
+    "v1_id": "POL676",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Fundamental Rights & Duties",
+      "subTopic": "Fundamental Duties (Art 51A)"
+    },
+    "tags": [
+      "Article51A",
+      "Constitution",
+      "Duties"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match the List-I (Article of Constitution) with List-II (Fundamental Duties):\nList-I:\na. Article 51 A (c)\nb. Article 51 A (f)\nc. Article 51 A (k)\nd. Article 51 A (i)\n\nList-II:\n1. Educate one's children/ward between 6 and 14 years\n2. To uphold the sovereignty of India\n3. To value and preserve rich heritage of our composite culture\n4. To safeguard public property",
+    "question_hi": "सूची-I (संविधान का अनुच्छेद) को सूची-II (मौलिक कर्तव्य) के साथ सुमेलित करें:\nसूची-I:\na. अनुच्छेद 51 ए (c)\nb. अनुच्छेद 51 ए (f)\nc. अनुच्छेद 51 ए (k)\nd. अनुच्छेद 51 ए (i)\n\nसूची-II:\n1. 6 से 14 वर्ष के बीच के अपने बच्चों/प्रतिपाल्य को शिक्षित करना\n2. भारत की संप्रभुता को बनाए रखना\n3. हमारी सामासिक संस्कृति की समृद्ध विरासत को महत्व देना और संरक्षित करना\n4. सार्वजनिक संपत्ति को सुरक्षित रखना",
+    "options":[
+      "a-2, b-4, c-3, d-1",
+      "a-4, b-3, c-2, d-1",
+      "a-1, b-2, c-3, d-4",
+      "a-2, b-3, c-1, d-4"
+    ],
+    "options_hi":[
+      "a-2, b-4, c-3, d-1",
+      "a-4, b-3, c-2, d-1",
+      "a-1, b-2, c-3, d-4",
+      "a-2, b-3, c-1, d-4"
+    ],
+    "correct": "a-2, b-3, c-1, d-4",
+    "explanation": {
+      "summary": "Correct Answer: a-2, b-3, c-1, d-4\n\nसही उत्तर: a-2, b-3, c-1, d-4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- 51A(c) is to uphold sovereignty, unity, and integrity (2). 51A(f) is to preserve our rich heritage (3). 51A(k) is the duty to provide education (1). 51A(i) is to safeguard public property (4).\n\n✅ **यह सही क्यों है**\n\n- 51A(c) संप्रभुता, एकता और अखंडता को बनाए रखना है (2)। 51A(f) हमारी समृद्ध विरासत को संरक्षित करना है (3)। 51A(k) शिक्षा प्रदान करने का कर्तव्य है (1)। 51A(i) सार्वजनिक संपत्ति की रक्षा करना है (4)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other matching option fails to align the specific sub-clauses of Article 51A with the exact textual duty listed in the Constitution.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य मिलान विकल्प संविधान में सूचीबद्ध सटीक पाठ्य कर्तव्य के साथ अनुच्छेद 51 ए के विशिष्ट उप-खंडों को संरेखित करने में विफल रहता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Fundamental Duties serve as a reminder to citizens that rights come with civic responsibilities.\n\n📝 **निष्कर्ष**\n\n- मौलिक कर्तव्य नागरिकों को एक अनुस्मारक के रूप में काम करते हैं कि अधिकार नागरिक जिम्मेदारियों के साथ आते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Clause (k), the duty of parents to provide education, was not in the original 42nd Amendment list; it was added later by the 86th Constitutional Amendment Act in 2002.\n\n💡 **रोचक तथ्य**\n\n- खंड (k), शिक्षा प्रदान करने के लिए माता-पिता का कर्तव्य, मूल 42वें संशोधन सूची में नहीं था; इसे बाद में 2002 में 86वें संविधान संशोधन अधिनियम द्वारा जोड़ा गया था।"
+    }
+  },
+  {
+    "v1_id": "CHE322",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subTopic": "Important Compounds (Acids, Bases, Salts)"
+    },
+    "tags": [
+      "WaterGas",
+      "ChemicalReaction",
+      "IndustrialChemistry"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "$H_{2}O + C \\longrightarrow H_{2} + CO$. The above reaction is an example of:",
+    "question_hi": "$H_{2}O + C \\longrightarrow H_{2} + CO$ उपरोक्त प्रतिक्रिया किसका एक उदाहरण है:",
+    "options":[
+      "Ziegler-Natta process",
+      "Water gas reaction",
+      "Aldol condensation",
+      "Wacker process"
+    ],
+    "options_hi":[
+      "जिग्लर-नाटा प्रक्रिया",
+      "वाटर गैस (जल गैस) प्रतिक्रिया",
+      "एल्डोल संघनन",
+      "वेकर प्रक्रिया"
+    ],
+    "correct": "Water gas reaction",
+    "explanation": {
+      "summary": "Correct Answer: Water gas reaction\n\nसही उत्तर: वाटर गैस (जल गैस) प्रतिक्रिया",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The reaction of passing superheated steam (H₂O) over red-hot carbon (C) to produce a mixture of carbon monoxide (CO) and hydrogen (H₂) is called the Water Gas reaction. The mixture is known as water gas or synthesis gas (syngas).\n\n✅ **यह सही क्यों है**\n\n- कार्बन मोनोऑक्साइड (CO) और हाइड्रोजन (H₂) का मिश्रण बनाने के लिए लाल-गर्म कार्बन (C) के ऊपर सुपरहीटेड भाप (H₂O) गुजारने की प्रतिक्रिया को वाटर गैस (जल गैस) प्रतिक्रिया कहा जाता है। मिश्रण को जल गैस या संश्लेषण गैस (सिनगैस) के रूप में जाना जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Ziegler-Natta is a catalyst process for polymerizing alkenes. Aldol condensation is an organic reaction of aldehydes/ketones. The Wacker process oxidizes ethylene to acetaldehyde.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जिग्लर-नाटा एल्केन्स को पॉलीमराइज़ करने के लिए एक उत्प्रेरक प्रक्रिया है। एल्डोल संघनन एल्डिहाइड/कीटोन की एक कार्बनिक प्रतिक्रिया है। वेकर प्रक्रिया एथिलीन को एसिटालडिहाइड में ऑक्सीकृत करती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Water gas is an important industrial fuel gas and a source for producing pure hydrogen.\n\n📝 **निष्कर्ष**\n\n- वाटर गैस (जल गैस) एक महत्वपूर्ण औद्योगिक ईंधन गैस है और शुद्ध हाइड्रोजन के उत्पादन का एक स्रोत है।",
+      "fact": "💡 **Interesting Fact**\n\n- To extract pure hydrogen from water gas, it undergoes the 'water-gas shift reaction', reacting further with steam to convert the CO into CO2, which is then removed.\n\n💡 **रोचक तथ्य**\n\n- वाटर गैस से शुद्ध हाइड्रोजन निकालने के लिए, यह 'वाटर-गैस शिफ्ट रिएक्शन' से गुजरता है, जिसमें CO को CO2 में बदलने के लिए भाप के साथ आगे प्रतिक्रिया की जाती है, जिसे बाद में हटा दिया जाता है।"
+    }
+  },
+  {
+    "v1_id": "ECO880",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Agriculture & Food Security"
+    },
+    "tags": [
+      "RevolutionsInIndia",
+      "Agriculture"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Match List-I with the List-II:\nList-I:\na. Black revolution\nb. Blue revolution\nc. White revolution\nd. Green revolution\n\nList-II:\n1. Milk\n2. Food crop\n3. Petroleum\n4. Fish\n\nSelect the correct answer:",
+    "question_hi": "सूची-I को सूची-II के साथ सुमेलित करें:\nसूची-I:\na. काली क्रांति\nb. नीली क्रांति\nc. श्वेत क्रांति\nd. हरित क्रांति\n\nसूची-II:\n1. दूध\n2. खाद्य फसल\n3. पेट्रोलियम\n4. मछली\n\nसही उत्तर चुनें:",
+    "options":[
+      "a-3, b-4, c-1, d-2",
+      "a-3, b-1, c-4, d-2",
+      "a-4, b-1, c-3, d-2",
+      "a-1, b-3, c-4, d-2"
+    ],
+    "options_hi":[
+      "a-3, b-4, c-1, d-2",
+      "a-3, b-1, c-4, d-2",
+      "a-4, b-1, c-3, d-2",
+      "a-1, b-3, c-4, d-2"
+    ],
+    "correct": "a-3, b-4, c-1, d-2",
+    "explanation": {
+      "summary": "Correct Answer: a-3, b-4, c-1, d-2\n\nसही उत्तर: a-3, b-4, c-1, d-2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Black Revolution relates to Petroleum. Blue Revolution relates to Fish. White Revolution (Operation Flood) relates to Milk. Green Revolution relates to Food crops (wheat/rice).\n\n✅ **यह सही क्यों है**\n\n- काली क्रांति पेट्रोलियम से संबंधित है। नीली क्रांति मछली से संबंधित है। श्वेत क्रांति (ऑपरेशन फ्लड) दूध से संबंधित है। हरित क्रांति खाद्य फसलों (गेहूं/चावल) से संबंधित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Only the first option perfectly aligns each color code to its globally and nationally recognized industrial sector.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- केवल पहला विकल्प वैश्विक और राष्ट्रीय स्तर पर मान्यता प्राप्त औद्योगिक क्षेत्र के साथ प्रत्येक रंग कोड को पूरी तरह से संरेखित करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- These 'color revolutions' signify large-scale government-backed initiatives intended to achieve self-sufficiency and high production in respective sectors.\n\n📝 **निष्कर्ष**\n\n- ये 'रंग क्रांतियां' संबंधित क्षेत्रों में आत्मनिर्भरता और उच्च उत्पादन प्राप्त करने के उद्देश्य से बड़े पैमाने पर सरकार समर्थित पहलों को दर्शाती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Dr. Verghese Kurien is known as the 'Father of the White Revolution' in India for transforming the dairy sector.\n\n💡 **रोचक तथ्य**\n\n- डेयरी क्षेत्र को बदलने के लिए डॉ. वर्गीज कुरियन को भारत में 'श्वेत क्रांति के जनक' के रूप में जाना जाता है।"
+    }
+  },
+  {
+    "v1_id": "BIO385",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "The Cell and its Organelles"
+    },
+    "tags":[
+      "Glycolysis",
+      "Respiration",
+      "Cytoplasm"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements about glycolysis is correct?",
+    "question_hi": "ग्लाइकोलाइसिस के बारे में निम्नलिखित में से कौन सा कथन सही है?",
+    "options":[
+      "It occurs in mitochondria",
+      "It requires oxygen",
+      "It produces carbon dioxide directly",
+      "It takes place in cytoplasm"
+    ],
+    "options_hi":[
+      "यह माइटोकॉन्ड्रिया में होता है",
+      "इसके लिए ऑक्सीजन की आवश्यकता होती है",
+      "यह सीधे कार्बन डाइऑक्साइड का उत्पादन करता है",
+      "यह कोशिकाद्रव्य (साइटोप्लाज्म) में होता है"
+    ],
+    "correct": "It takes place in cytoplasm",
+    "explanation": {
+      "summary": "Correct Answer: It takes place in cytoplasm\n\nसही उत्तर: यह कोशिकाद्रव्य (साइटोप्लाज्म) में होता है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Glycolysis is the initial step of cellular respiration where glucose breaks down into pyruvate. This process universally occurs in the cell's cytoplasm, not in the mitochondria.\n\n✅ **यह सही क्यों है**\n\n- ग्लाइकोलाइसिस कोशिकीय श्वसन का प्रारंभिक चरण है जहां ग्लूकोज पाइरूवेट में टूट जाता है। यह प्रक्रिया सार्वभौमिक रूप से कोशिका के कोशिकाद्रव्य में होती है, न कि माइटोकॉन्ड्रिया में।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- It is an anaerobic process (doesn't require oxygen). It doesn't produce CO2 directly; CO2 is produced later during the Krebs cycle in the mitochondria.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह एक अवायवीय प्रक्रिया है (ऑक्सीजन की आवश्यकता नहीं है)। यह सीधे CO2 का उत्पादन नहीं करता है; CO2 का उत्पादन बाद में माइटोकॉन्ड्रिया में क्रेब्स चक्र के दौरान होता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Glycolysis is the only energy-yielding process shared by both aerobic and anaerobic organisms.\n\n📝 **निष्कर्ष**\n\n- ग्लाइकोलाइसिस एकमात्र ऊर्जा देने वाली प्रक्रिया है जो एरोबिक और एनारोबिक दोनों जीवों द्वारा साझा की जाती है।",
+      "fact": "💡 **Interesting Fact**\n\n- The word glycolysis comes from the Greek words 'glykys', meaning sweet, and 'lysis', meaning splitting.\n\n💡 **रोचक तथ्य**\n\n- ग्लाइकोलाइसिस शब्द ग्रीक शब्द 'ग्लाइकिस' (जिसका अर्थ मीठा है) और 'लाइसिस' (जिसका अर्थ टूटना है) से आया है।"
+    }
+  },
+  {
+    "v1_id": "HIS1779",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Post-Gupta Period"
+    },
+    "tags":[
+      "Vikramshila",
+      "BuddhistScholars",
+      "DipankarSrijnana"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Dipankar Srijnana was the Buddhist scholar associated with:",
+    "question_hi": "दीपांकर श्रीज्ञान किस विश्वविद्यालय से जुड़े बौद्ध विद्वान थे?",
+    "options":[
+      "Vikramshila University",
+      "Odantpuri University",
+      "Nalanda University",
+      "None of the above"
+    ],
+    "options_hi":[
+      "विक्रमशिला विश्वविद्यालय",
+      "ओदंतपुरी विश्वविद्यालय",
+      "नालंदा विश्वविद्यालय",
+      "उपरोक्त में से कोई नहीं"
+    ],
+    "correct": "Vikramshila University",
+    "explanation": {
+      "summary": "Correct Answer: Vikramshila University\n\nसही उत्तर: विक्रमशिला विश्वविद्यालय",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Atisha Dipankar Srijnana was a renowned 11th-century Buddhist leader. He was one of the most prominent Acharyas (teachers) associated with the ancient Vikramshila Mahavihara (University) in Bihar.\n\n✅ **यह सही क्यों है**\n\n- अतीश दीपांकर श्रीज्ञान 11वीं सदी के प्रसिद्ध बौद्ध नेता थे। वे बिहार में प्राचीन विक्रमशिला महाविहार (विश्वविद्यालय) से जुड़े सबसे प्रमुख आचार्यों (शिक्षकों) में से एक थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Nalanda and Odantpuri were great contemporary centers of learning, historical Tibetan and Indian records explicitly place Dipankar's primary administrative and teaching tenure at Vikramshila.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि नालंदा और ओदंतपुरी शिक्षा के महान समकालीन केंद्र थे, ऐतिहासिक तिब्बती और भारतीय रिकॉर्ड स्पष्ट रूप से दीपांकर के प्राथमिक प्रशासनिक और शिक्षण कार्यकाल को विक्रमशिला में रखते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Vikramshila, founded by Pala king Dharmapala, rivalled Nalanda and specialized in Vajrayana Buddhism.\n\n📝 **निष्कर्ष**\n\n- पाल राजा धर्मपाल द्वारा स्थापित विक्रमशिला ने नालंदा को टक्कर दी और वज्रयान बौद्ध धर्म में विशेषज्ञता हासिल की।",
+      "fact": "💡 **Interesting Fact**\n\n- Atisha traveled extensively to Tibet at the invitation of a Tibetan king and was instrumental in reforming and spreading Tibetan Buddhism.\n\n💡 **रोचक तथ्य**\n\n- अतीश ने एक तिब्बती राजा के निमंत्रण पर तिब्बत की व्यापक यात्रा की और तिब्बती बौद्ध धर्म के सुधार और प्रसार में महत्वपूर्ण भूमिका निभाई।"
+    }
+  },
+  {
+    "v1_id": "ECO881",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags": [
+      "Bharatmala",
+      "Infrastructure",
+      "Highways"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Bharatmala Pariyojna was launched on October 2017. The total length of National Highways approved in it was:",
+    "question_hi": "भारतमाला परियोजना अक्टूबर 2017 में शुरू की गई थी। इसमें स्वीकृत राष्ट्रीय राजमार्गों की कुल लंबाई थी:",
+    "options":[
+      "34,800 km",
+      "40,500 km",
+      "41,800 km",
+      "27,900 km"
+    ],
+    "options_hi":[
+      "34,800 km",
+      "40,500 km",
+      "41,800 km",
+      "27,900 km"
+    ],
+    "correct": "34,800 km",
+    "explanation": {
+      "summary": "Correct Answer: 34,800 km\n\nसही उत्तर: 34,800 km",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Cabinet Committee on Economic Affairs (CCEA) approved Phase-I of the Bharatmala Pariyojana in October 2017, which encompassed the development of 34,800 km of National Highways over a period of five years.\n\n✅ **यह सही क्यों है**\n\n- आर्थिक मामलों की मंत्रिमंडलीय समिति (CCEA) ने अक्टूबर 2017 में भारतमाला परियोजना के चरण-I को मंजूरी दी, जिसमें पांच वर्षों की अवधि में 34,800 किमी राष्ट्रीय राजमार्गों का विकास शामिल था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other figures do not match the official Phase-I target metric sanctioned by the Government of India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य आंकड़े भारत सरकार द्वारा स्वीकृत आधिकारिक चरण-I लक्ष्य मीट्रिक से मेल नहीं खाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Bharatmala aims to optimize freight and passenger movement across the country by bridging critical infrastructure gaps through economic corridors.\n\n📝 **निष्कर्ष**\n\n- भारतमाला का लक्ष्य आर्थिक गलियारों के माध्यम से महत्वपूर्ण बुनियादी ढांचे की कमियों को दूर करके देश भर में माल और यात्री आवाजाही को अनुकूलित करना है।",
+      "fact": "💡 **Interesting Fact**\n\n- The total initial outlay for the Bharatmala Phase-I project was a massive ₹5,35,000 crore.\n\n💡 **रोचक तथ्य**\n\n- भारतमाला चरण-I परियोजना के लिए कुल प्रारंभिक परिव्यय 5,35,000 करोड़ रुपये का भारी-भरकम बजट था।"
+    }
+  },
+  {
+    "v1_id": "CUR577",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "International Affairs",
+      "subTopic": "International Summits & Organisations"
+    },
+    "tags":[
+      "SEforALL",
+      "Barbados",
+      "SustainableEnergy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "What was the theme of Sustainable Energy for All Global Forum held in March 2025 in Barbados?",
+    "question_hi": "मार्च 2025 में बारबाडोस में आयोजित सस्टेनेबल एनर्जी फॉर ऑल ग्लोबल फोरम का विषय क्या था?",
+    "options":[
+      "Sustainable Energy for Equity, Security and Prosperity",
+      "Competitive, Collective, Climate Neutral",
+      "From Goals to actions: Power the Future with Sustainable Energy",
+      "Just Transformation"
+    ],
+    "options_hi":[
+      "इक्विटी, सुरक्षा और समृद्धि के लिए सतत ऊर्जा",
+      "प्रतिस्पर्धी, सामूहिक, जलवायु तटस्थ",
+      "लक्ष्यों से लेकर कार्यों तक: टिकाऊ ऊर्जा के साथ भविष्य को शक्ति प्रदान करें",
+      "न्यायसंगत परिवर्तन"
+    ],
+    "correct": "Sustainable Energy for Equity, Security and Prosperity",
+    "explanation": {
+      "summary": "Correct Answer: Sustainable Energy for Equity, Security and Prosperity\n\nसही उत्तर: इक्विटी, सुरक्षा और समृद्धि के लिए सतत ऊर्जा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The 2025 SEforALL Global Forum held in Barbados operated under the official theme \"Sustainable Energy for Equity, Security and Prosperity,\" focusing on accelerating action for SDG7.\n\n✅ **यह सही क्यों है**\n\n- बारबाडोस में आयोजित 2025 SEforALL ग्लोबल फोरम आधिकारिक विषय \"इक्विटी, सुरक्षा और समृद्धि के लिए सतत ऊर्जा\" के तहत संचालित हुआ, जिसमें SDG7 के लिए कार्रवाई में तेजी लाने पर ध्यान केंद्रित किया गया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other options represent past themes, broader UN slogans, or generic sustainability statements rather than the specific 2025 Forum theme.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य विकल्प पिछले विषयों, व्यापक संयुक्त राष्ट्र के नारों, या विशिष्ट 2025 फोरम विषय के बजाय सामान्य स्थिरता बयानों का प्रतिनिधित्व करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Global platforms like SEforALL are pivotal in bridging the funding and policy disparities for clean energy transitions in developing nations.\n\n📝 **निष्कर्ष**\n\n- SEforALL जैसे वैश्विक मंच विकासशील देशों में स्वच्छ ऊर्जा संक्रमण के लिए वित्तपोषण और नीतिगत असमानताओं को पाटने में महत्वपूर्ण हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- This 2025 edition was uniquely co-hosted by the Government of Barbados, led by Prime Minister Mia Mottley, a globally recognized champion for climate finance reform (The Bridgetown Initiative).\n\n💡 **रोचक तथ्य**\n\n- यह 2025 संस्करण विशिष्ट रूप से बारबाडोस सरकार द्वारा सह-आयोजित किया गया था, जिसका नेतृत्व प्रधानमंत्री मिया मोटली ने किया था, जो जलवायु वित्त सुधार (ब्रिजटाउन पहल) के लिए विश्व स्तर पर मान्यता प्राप्त चैंपियन हैं।"
+    }
+  },
+  {
+    "v1_id": "GEO1217",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "River Systems of India"
+    },
+    "tags":[
+      "BiharLakes",
+      "Kaimur",
+      "AnupamLake"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following lakes is situated in Bihar?",
+    "question_hi": "निम्नलिखित में से कौन सी झील बिहार में स्थित है?",
+    "options":[
+      "Anupam lake",
+      "Sambar lake",
+      "Kama lake",
+      "Sukhna lake"
+    ],
+    "options_hi":[
+      "अनुपम झील",
+      "सांभर झील",
+      "कामा झील",
+      "सुखना झील"
+    ],
+    "correct": "Anupam lake",
+    "explanation": {
+      "summary": "Correct Answer: Anupam lake\n\nसही उत्तर: अनुपम झील",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Anupam Lake is located in the Kaimur Wildlife Sanctuary within the Kaimur district of Bihar. It is an important ecological and tourist site in the state.\n\n✅ **यह सही क्यों है**\n\n- अनुपम झील बिहार के कैमूर जिले में कैमूर वन्यजीव अभयारण्य में स्थित है। यह राज्य का एक महत्वपूर्ण पारिस्थितिक और पर्यटन स्थल है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Sambhar Lake is a famous inland salt lake in Rajasthan. Sukhna Lake is an artificial reservoir in Chandigarh. Kama Lake is not a prominent Bihar lake.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- सांभर झील राजस्थान में एक प्रसिद्ध अंतर्देशीय खारे पानी की झील है। सुखना झील चंडीगढ़ में एक कृत्रिम जलाशय है। कामा झील बिहार की कोई प्रमुख झील नहीं है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Local wetlands and lakes in Bihar, such as Kanwar Lake and Anupam Lake, hold massive biodiversity and avifauna significance.\n\n📝 **निष्कर्ष**\n\n- बिहार में स्थानीय आर्द्रभूमि और झीलें, जैसे कांवर झील और अनुपम झील, बड़े पैमाने पर जैव विविधता और पक्षी-जीव महत्व रखती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Kaimur Wildlife Sanctuary, where Anupam Lake is situated, is the largest wildlife sanctuary in Bihar, spanning over 1342 sq km.\n\n💡 **रोचक तथ्य**\n\n- कैमूर वन्यजीव अभयारण्य, जहाँ अनुपम झील स्थित है, बिहार का सबसे बड़ा वन्यजीव अभयारण्य है, जो 1342 वर्ग किमी से अधिक में फैला है।"
+    }
+  },
+  {
+    "v1_id": "PHY417",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Magnetism"
+    },
+    "tags":[
+      "GaussLaw",
+      "Electromagnetism",
+      "Monopoles"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Gauss's law in magnetostatics and electrostatics are respectively, ∮B.dS = 0 and ∮E.dS = q_enclosed / ε₀.\nReason (R): Magnetic monopoles do not exist, whereas electric monopoles (isolated charges) exist.\n\nChoose the correct answer:",
+    "question_hi": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): स्थिर चुंबकिकी और स्थिर वैद्युतिकी में गॉस का नियम क्रमशः ∮B.dS = 0 और ∮E.dS = q_enclosed / ε₀ हैं।\nकारण (R): चुंबकीय मोनोपोल (एकल ध्रुव) मौजूद नहीं हैं, जबकि विद्युत मोनोपोल (पृथक आवेश) मौजूद हैं।\n\nसही उत्तर चुनें:",
+    "options":[
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is false but (R) is true",
+      "(A) is true but (R) is false"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) असत्य है लेकिन (R) सत्य है",
+      "(A) सत्य है लेकिन (R) असत्य है"
+    ],
+    "correct": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nसही उत्तर: (A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The net magnetic flux through any closed surface is always zero (∮B.dS = 0). The direct physical reason for this mathematical formulation is that isolated magnetic poles (monopoles) do not exist; field lines always form closed loops.\n\n✅ **यह सही क्यों है**\n\n- किसी भी बंद सतह के माध्यम से शुद्ध चुंबकीय प्रवाह हमेशा शून्य (∮B.dS = 0) होता है। इस गणितीय सूत्रीकरण का प्रत्यक्ष भौतिक कारण यह है कि पृथक चुंबकीय ध्रुव (मोनोपोल) मौजूद नहीं होते हैं; क्षेत्र रेखाएं हमेशा बंद लूप बनाती हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The absence of magnetic monopoles is the exact fundamental premise that makes the right side of Gauss's Law for magnetism zero. Therefore, (R) perfectly explains (A).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- चुंबकीय मोनोपोल की अनुपस्थिति सटीक मौलिक आधार है जो चुंबकत्व के लिए गॉस के नियम के दाईं ओर को शून्य बनाता है। इसलिए, (R) (A) को पूरी तरह से समझाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- These equations represent two of the four foundational Maxwell's Equations that govern classical electromagnetism.\n\n📝 **निष्कर्ष**\n\n- ये समीकरण चार मूलभूत मैक्सवेल के समीकरणों में से दो का प्रतिनिधित्व करते हैं जो शास्त्रीय विद्युत चुंबकत्व को नियंत्रित करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- If a magnetic monopole were ever discovered, it would require a modification of Gauss's law for magnetism to include a magnetic charge term, profoundly altering physics.\n\n💡 **रोचक तथ्य**\n\n- यदि कभी चुंबकीय मोनोपोल की खोज की जाती है, तो उसे भौतिकी को गहराई से बदलते हुए, चुंबकीय आवेश शब्द को शामिल करने के लिए चुंबकत्व के लिए गॉस के नियम में संशोधन की आवश्यकता होगी।"
+    }
+  },
+  {
+    "v1_id": "POL677",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Union Government",
+      "subTopic": "The Judiciary (Supreme Court)"
+    },
+    "tags": [
+      "Writs",
+      "Article32",
+      "HighCourts"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following sentences about writ jurisdiction in India:\n1. The writ jurisdiction is a form of original jurisdiction and not appellate jurisdiction.\n2. It can be issued either by High Courts or the Supreme Court.\n\nSelect the correct option:",
+    "question_hi": "भारत में रिट क्षेत्राधिकार के बारे में निम्नलिखित वाक्यों पर विचार करें:\n1. रिट क्षेत्राधिकार मूल क्षेत्राधिकार का एक रूप है न कि अपीलीय क्षेत्राधिकार का।\n2. यह उच्च न्यायालयों या सर्वोच्च न्यायालय द्वारा जारी किया जा सकता है।\n\nसही विकल्प चुनें:",
+    "options":[
+      "Both 1 and 2",
+      "Only 1",
+      "None of the above",
+      "Only 2"
+    ],
+    "options_hi":[
+      "1 और 2 दोनों",
+      "केवल 1",
+      "उपरोक्त में से कोई नहीं",
+      "केवल 2"
+    ],
+    "correct": "Both 1 and 2",
+    "explanation": {
+      "summary": "Correct Answer: Both 1 and 2\n\nसही उत्तर: 1 और 2 दोनों",
+      "analysis_correct": "✅ **Why this is correct**\n\n- A citizen can directly approach the Supreme Court (Art 32) or High Courts (Art 226) for the enforcement of fundamental rights without going through the appeals process, making it 'original'. Also, only these two tiers of constitutional courts possess writ jurisdiction.\n\n✅ **यह सही क्यों है**\n\n- एक नागरिक अपील प्रक्रिया से गुज़रे बिना मौलिक अधिकारों को लागू करने के लिए सीधे सर्वोच्च न्यायालय (अनुच्छेद 32) या उच्च न्यायालयों (अनुच्छेद 226) से संपर्क कर सकता है, जिससे यह 'मूल (original)' बन जाता है। इसके अलावा, केवल इन दो स्तरों की संवैधानिक अदालतों के पास रिट क्षेत्राधिकार है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Both statements are completely factually correct according to the Indian Constitution, so dismissing either is wrong.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- भारतीय संविधान के अनुसार दोनों कथन तथ्यात्मक रूप से पूरी तरह सही हैं, इसलिए किसी को भी खारिज करना गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- While the Supreme Court can issue writs only for fundamental rights, High Courts have wider jurisdiction and can issue writs for ordinary legal rights as well.\n\n📝 **निष्कर्ष**\n\n- जबकि सर्वोच्च न्यायालय केवल मौलिक अधिकारों के लिए रिट जारी कर सकता है, उच्च न्यायालयों का अधिकार क्षेत्र व्यापक है और वे सामान्य कानूनी अधिकारों के लिए भी रिट जारी कर सकते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Dr. B.R. Ambedkar called Article 32 (which provides the right to move the Supreme Court for constitutional remedies) the 'heart and soul of the Constitution'.\n\n💡 **रोचक तथ्य**\n\n- डॉ. बी.आर. अंबेडकर ने अनुच्छेद 32 (जो संवैधानिक उपचार के लिए सर्वोच्च न्यायालय जाने का अधिकार प्रदान करता है) को 'संविधान का हृदय और आत्मा' कहा।"
+    }
+  },
+  {
+    "v1_id": "SGK644",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "Awards, Honors & Sports",
+      "subTopic": "International Awards (Nobel Prize)"
+    },
+    "tags":[
+      "InternationalAwards",
+      "Pulitzer",
+      "Magsaysay"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match the following lists:\nList-I:\n1. Ramon Magsaysay Award\n2. Pulitzer Prize\n3. Templeton Prize\n4. Hugo Award\n\nList-II:\na. Science Fiction\nb. Journalism, Literature, Music\nc. Asia's Highest Honour\nd. Spiritual, Religious\n\nSelect the correct code:",
+    "question_hi": "निम्नलिखित सूचियों का मिलान करें:\nसूची-I:\n1. रेमन मैग्सेसे पुरस्कार\n2. पुलित्जर पुरस्कार\n3. टेम्पलटन पुरस्कार\n4. ह्यूगो पुरस्कार\n\nसूची-II:\na. विज्ञान कथा\nb. पत्रकारिता, साहित्य, संगीत\nc. एशिया का सर्वोच्च सम्मान\nd. आध्यात्मिक, धार्मिक\n\nसही कूट का चयन करें:",
+    "options":[
+      "1-c, 2-b, 3-d, 4-a",
+      "1-b, 2-a, 3-b, 4-d",
+      "1-b, 2-d, 3-c, 4-a",
+      "1-c, 2-b, 3-a, 4-d"
+    ],
+    "options_hi":[
+      "1-c, 2-b, 3-d, 4-a",
+      "1-b, 2-a, 3-b, 4-d",
+      "1-b, 2-d, 3-c, 4-a",
+      "1-c, 2-b, 3-a, 4-d"
+    ],
+    "correct": "1-c, 2-b, 3-d, 4-a",
+    "explanation": {
+      "summary": "Correct Answer: 1-c, 2-b, 3-d, 4-a\n\nसही उत्तर: 1-c, 2-b, 3-d, 4-a",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Ramon Magsaysay is Asia's equivalent to the Nobel Prize (c). Pulitzer is prestigious for US Journalism and Literature (b). Templeton is for contributions affirming life's spiritual dimension (d). Hugo recognizes excellence in Science Fiction/Fantasy (a).\n\n✅ **यह सही क्यों है**\n\n- रेमन मैग्सेसे एशिया में नोबेल पुरस्कार (c) के समकक्ष है। पुलित्जर अमेरिकी पत्रकारिता और साहित्य (b) के लिए प्रतिष्ठित है। टेम्पलटन जीवन के आध्यात्मिक आयाम (d) की पुष्टि करने वाले योगदान के लिए है। ह्यूगो साइंस फिक्शन/काल्पनिक कथाओं (a) में उत्कृष्टता को मान्यता देता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any variation misaligns the core domain of recognition these distinct international prizes were established to honor.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य भिन्नता उस मुख्य मान्यता क्षेत्र को गलत तरीके से संरेखित करती है जिसके लिए इन विशिष्ट अंतरराष्ट्रीय पुरस्कारों की स्थापना की गई थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- Knowing global awards across varied domains is a staple for competitive general knowledge sections.\n\n📝 **निष्कर्ष**\n\n- विभिन्न क्षेत्रों में वैश्विक पुरस्कारों को जानना प्रतियोगी सामान्य ज्ञान वर्गों के लिए एक प्रमुख हिस्सा है।",
+      "fact": "💡 **Interesting Fact**\n\n- Acharya Vinoba Bhave was the first Indian to win the Ramon Magsaysay Award in 1958 for Community Leadership.\n\n💡 **रोचक तथ्य**\n\n- आचार्य विनोबा भावे सामुदायिक नेतृत्व के लिए 1958 में रेमन मैग्सेसे पुरस्कार जीतने वाले पहले भारतीय थे।"
+    }
+  },
+  {
+    "v1_id": "HIS1780",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Post-Gupta Period"
+    },
+    "tags":[
+      "Literature",
+      "Karpuramanjari",
+      "Rajasekhara"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements about the play Karpuramanjari is correct?",
+    "question_hi": "कर्पूरमंजरी नाटक के बारे में निम्नलिखित में से कौन सा कथन सही है?",
+    "options":[
+      "It was written in Sanskrit by Bhoja I to please his wife.",
+      "It was written by Rajasekhara in Sauraseni Prakrit to please his wife Avantisundari.",
+      "It was composed during the reign of Nagabhata II.",
+      "It is a famous work by Kalidasa that praises the Gupta kings."
+    ],
+    "options_hi":[
+      "यह भोज प्रथम द्वारा अपनी पत्नी को खुश करने के लिए संस्कृत में लिखा गया था।",
+      "यह राजशेखर द्वारा अपनी पत्नी अवंतिसुंदरी को प्रसन्न करने के लिए शौरसेनी प्राकृत में लिखा गया था।",
+      "इसकी रचना नागभट्ट द्वितीय के शासनकाल में हुई थी।",
+      "यह कालिदास की एक प्रसिद्ध कृति है जो गुप्त राजाओं की प्रशंसा करती है।"
+    ],
+    "correct": "It was written by Rajasekhara in Sauraseni Prakrit to please his wife Avantisundari.",
+    "explanation": {
+      "summary": "Correct Answer: It was written by Rajasekhara in Sauraseni Prakrit to please his wife Avantisundari.\n\nसही उत्तर: यह राजशेखर द्वारा अपनी पत्नी अवंतिसुंदरी को प्रसन्न करने के लिए शौरसेनी प्राकृत में लिखा गया था।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Karpuramanjari is a unique ancient Indian play (classified as a Saṭṭaka) composed entirely in Sauraseni Prakrit by the eminent poet Rajasekhara. He wrote it at the behest of his beloved wife, Avantisundari.\n\n✅ **यह सही क्यों है**\n\n- कर्पूरमंजरी एक अनूठा प्राचीन भारतीय नाटक है (सट्टक के रूप में वर्गीकृत) जिसे प्रख्यात कवि राजशेखर द्वारा पूरी तरह से शौरसेनी प्राकृत में रचा गया है। उन्होंने इसे अपनी प्यारी पत्नी अवंतिसुंदरी के आग्रह पर लिखा था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- It was not written by Kalidasa or Bhoja. It is not in Sanskrit. Rajasekhara was the court poet of Pratihara kings Mahendrapala I and Mahipala, not Nagabhata II.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह कालिदास या भोज द्वारा नहीं लिखा गया था। यह संस्कृत में नहीं है। राजशेखर प्रतिहार राजा महेंद्रपाल प्रथम और महिपाल के दरबारी कवि थे, नागभट्ट द्वितीय के नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Ancient Indian drama usually mixed Sanskrit and Prakrit, but a 'Sattaka' like Karpuramanjari strictly used Prakrit throughout.\n\n📝 **निष्कर्ष**\n\n- प्राचीन भारतीय नाटकों में आमतौर पर संस्कृत और प्राकृत का मिश्रण होता था, लेकिन कर्पूरमंजरी जैसे 'सट्टक' में पूरी तरह से केवल प्राकृत का उपयोग किया जाता था।",
+      "fact": "💡 **Interesting Fact**\n\n- Avantisundari, Rajasekhara's wife, was herself an accomplished Chahamana princess and scholar whose poetic opinions were quoted by her husband in his works.\n\n💡 **रोचक तथ्य**\n\n- राजशेखर की पत्नी अवंतिसुंदरी खुद एक कुशल चाहमान राजकुमारी और विदुषी थीं, जिनकी काव्यात्मक राय उनके पति ने अपनी कृतियों में उद्धृत की थी।"
+    }
+  },
+  {
+    "v1_id": "PHY418",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subTopic": "Semiconductor Electronics"
+    },
+    "tags":[
+      "Semiconductors",
+      "Resistivity",
+      "TemperatureEffect"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following statements is correct? As the temperature increases:",
+    "question_hi": "निम्नलिखित में से कौन सा कथन सही है? जैसे-जैसे तापमान बढ़ता है:",
+    "options":[
+      "The resistivity of a semiconductor increases, whereas the resistivity of a conductor decreases.",
+      "The resistivity of a semiconductor decreases, whereas the resistivity of a conductor increases.",
+      "The resistivity of both semiconductor and conductor decrease.",
+      "The resistivity of both semiconductor and conductor increase."
+    ],
+    "options_hi":[
+      "अर्धचालक की प्रतिरोधकता बढ़ जाती है, जबकि चालक की प्रतिरोधकता कम हो जाती है।",
+      "अर्धचालक की प्रतिरोधकता कम हो जाती है, जबकि चालक की प्रतिरोधकता बढ़ जाती है।",
+      "अर्धचालक और चालक दोनों की प्रतिरोधकता कम हो जाती है।",
+      "अर्धचालक और चालक दोनों की प्रतिरोधकता बढ़ जाती है।"
+    ],
+    "correct": "The resistivity of a semiconductor decreases, whereas the resistivity of a conductor increases.",
+    "explanation": {
+      "summary": "Correct Answer: The resistivity of a semiconductor decreases, whereas the resistivity of a conductor increases.\n\nसही उत्तर: अर्धचालक की प्रतिरोधकता कम हो जाती है, जबकि चालक की प्रतिरोधकता बढ़ जाती है।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In a metal (conductor), increased temperature causes higher atomic vibration, increasing electron scattering and resistivity. In a semiconductor, heat breaks covalent bonds, freeing more electrons to conduct electricity, thus decreasing resistivity.\n\n✅ **यह सही क्यों है**\n\n- एक धातु (चालक) में, बढ़ा हुआ तापमान उच्च परमाणु कंपन का कारण बनता है, जिससे इलेक्ट्रॉन बिखरने और प्रतिरोधकता बढ़ती है। एक अर्धचालक में, गर्मी सहसंयोजक बंधनों को तोड़ती है, जिससे बिजली का संचालन करने के लिए अधिक इलेक्ट्रॉन मुक्त होते हैं, इस प्रकार प्रतिरोधकता कम होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options that state they both behave similarly completely ignore the fundamental band-gap physics distinguishing metals from semiconductors.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- वे विकल्प जो बताते हैं कि वे दोनों समान व्यवहार करते हैं, धातुओं को अर्धचालकों से अलग करने वाले मौलिक बैंड-गैप भौतिकी को पूरी तरह से अनदेखा करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Conductors have a positive temperature coefficient of resistivity, while intrinsic semiconductors have a negative temperature coefficient.\n\n📝 **निष्कर्ष**\n\n- चालकों में प्रतिरोधकता का सकारात्मक तापमान गुणांक होता है, जबकि आंतरिक अर्धचालकों में नकारात्मक तापमान गुणांक होता है।",
+      "fact": "💡 **Interesting Fact**\n\n- At absolute zero (0 Kelvin), a pure semiconductor acts as a perfect insulator because it has zero free thermal electrons in its conduction band.\n\n💡 **रोचक तथ्य**\n\n- पूर्ण शून्य (0 केल्विन) पर, एक शुद्ध अर्धचालक एक पूर्ण इन्सुलेटर के रूप में कार्य करता है क्योंकि इसके चालन बैंड में शून्य मुक्त थर्मल इलेक्ट्रॉन होते हैं।"
+    }
+  },
+  {
+    "v1_id": "HIS1781",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Indian National Movement (Phase 1: 1885-1905)"
+    },
+    "tags": [
+      "ZamindariAssociation",
+      "PoliticalOrganizations"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements:\nStatement I: The Zamindari Association, also known as Landholder's Society, was established in 1838 to protect the interests of Zamindars in colonial India.\nStatement II: The Zamindari Association raised its voice for the problems faced by common people and advocated for reforms benefiting the rural population.\n\nSelect the correct answer:",
+    "question_hi": "निम्नलिखित कथनों पर विचार करें:\nकथन I: जमींदारी एसोसिएशन, जिसे लैंडहोल्डर्स सोसाइटी के रूप में भी जाना जाता है, की स्थापना 1838 में औपनिवेशिक भारत में जमींदारों के हितों की रक्षा के लिए की गई थी।\nकथन II: जमींदारी एसोसिएशन ने आम लोगों की समस्याओं के लिए आवाज उठाई और ग्रामीण आबादी को लाभ पहुंचाने वाले सुधारों की वकालत की।\n\nसही उत्तर चुनें:",
+    "options":[
+      "Both Statement I and Statement II are correct and Statement II is the correct explanation for Statement I",
+      "Both Statement I and Statement II are correct and Statement II is not the correct explanation for Statement I",
+      "Statement I is incorrect but Statement II is correct",
+      "Statement I is correct but Statement II is incorrect"
+    ],
+    "options_hi":[
+      "कथन I और कथन II दोनों सही हैं और कथन II कथन I का सही स्पष्टीकरण है",
+      "कथन I और कथन II दोनों सही हैं और कथन II कथन I का सही स्पष्टीकरण नहीं है",
+      "कथन I गलत है लेकिन कथन II सही है",
+      "कथन I सही है लेकिन कथन II गलत है"
+    ],
+    "correct": "Statement I is correct but Statement II is incorrect",
+    "explanation": {
+      "summary": "Correct Answer: Statement I is correct but Statement II is incorrect\n\nसही उत्तर: कथन I सही है लेकिन कथन II गलत है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement I is correct: Established by Dwarkanath Tagore in 1838, the Landholders' Society was created strictly to safeguard the class interests of landlords. Statement II is incorrect: It did not fight for common peasants or rural masses; it was an elitist lobby protecting its own property rights.\n\n✅ **यह सही क्यों है**\n\n- कथन I सही है: 1838 में द्वारकानाथ टैगोर द्वारा स्थापित, लैंडहोल्डर्स सोसाइटी को कड़ाई से जमींदारों के वर्ग हितों की रक्षा के लिए बनाया गया था। कथन II गलत है: इसने आम किसानों या ग्रामीण जनता के लिए संघर्ष नहीं किया; यह एक कुलीन लॉबी थी जो अपने संपत्ति अधिकारों की रक्षा करती थी।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Assuming the Zamindari Association was a democratic or pro-poor organization contradicts the fundamental historical character of early 19th-century elite associations in India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह मानना कि जमींदारी एसोसिएशन एक लोकतांत्रिक या गरीब-समर्थक संगठन था, भारत में 19वीं सदी की शुरुआत के कुलीन संघों के मौलिक ऐतिहासिक चरित्र का खंडन करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Landholders' Society marked the beginning of organized political associations in India, albeit for narrow class interests.\n\n📝 **निष्कर्ष**\n\n- लैंडहोल्डर्स सोसाइटी ने भारत में संगठित राजनीतिक संघों की शुरुआत की, हालांकि यह संकीर्ण वर्गीय हितों के लिए था।",
+      "fact": "💡 **Interesting Fact**\n\n- It later merged with the Bengal British India Society to form the British Indian Association in 1851.\n\n💡 **रोचक तथ्य**\n\n- 1851 में ब्रिटिश इंडियन एसोसिएशन बनाने के लिए बाद में इसका बंगाल ब्रिटिश इंडिया सोसाइटी के साथ विलय हो गया।"
+    }
+  },
+  {
+    "v1_id": "PHY419",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subTopic": "Laws of Motion"
+    },
+    "tags":[
+      "InertialFrame",
+      "ReferenceFrames",
+      "Kinematics"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "A particle is found to be at rest when observed from a reference frame S1 and the same particle is found to move with a constant velocity when observed from another frame S2. Which of the following statements is true?",
+    "question_hi": "एक कण को संदर्भ फ्रेम S1 से देखे जाने पर स्थिर अवस्था में पाया जाता है और उसी कण को एक अन्य फ्रेम S2 से देखे जाने पर निरंतर वेग से चलता हुआ पाया जाता है। निम्नलिखित में से कौन सा कथन सत्य है?",
+    "options":[
+      "S1 is an inertial frame but S2 is a non-inertial frame.",
+      "S2 is an inertial frame but S1 is a non-inertial frame.",
+      "Both S1 and S2 are non-inertial frames.",
+      "Both S1 and S2 are inertial frames."
+    ],
+    "options_hi":[
+      "S1 एक जड़त्वीय फ्रेम है लेकिन S2 एक गैर-जड़त्वीय फ्रेम है।",
+      "S2 एक जड़त्वीय फ्रेम है लेकिन S1 एक गैर-जड़त्वीय फ्रेम है।",
+      "S1 और S2 दोनों गैर-जड़त्वीय फ्रेम हैं।",
+      "S1 और S2 दोनों जड़त्वीय फ्रेम हैं।"
+    ],
+    "correct": "Both S1 and S2 are inertial frames.",
+    "explanation": {
+      "summary": "Correct Answer: Both S1 and S2 are inertial frames.\n\nसही उत्तर: S1 और S2 दोनों जड़त्वीय फ्रेम हैं।",
+      "analysis_correct": "✅ **Why this is correct**\n\n- By definition, an inertial frame is one where Newton's First Law holds (an object with zero net force remains at rest or moves at a constant velocity). Because the object is at rest in S1, the net force is zero. In S2, it moves with constant velocity (zero acceleration), meaning S2 also observes zero net force. Thus, both are inertial frames relative to each other.\n\n✅ **यह सही क्यों है**\n\n- परिभाषा के अनुसार, एक जड़त्वीय फ्रेम वह है जहां न्यूटन का पहला नियम लागू होता है (शून्य शुद्ध बल वाली वस्तु आराम पर रहती है या निरंतर वेग से चलती है)। चूँकि वस्तु S1 में स्थिर है, शुद्ध बल शून्य है। S2 में, यह निरंतर वेग (शून्य त्वरण) के साथ चलती है, जिसका अर्थ है कि S2 भी शून्य शुद्ध बल का निरीक्षण करता है। इस प्रकार, दोनों एक दूसरे के सापेक्ष जड़त्वीय फ्रेम हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- A non-inertial frame would observe the particle accelerating (changing velocity) despite no real forces acting on it. Since velocity is constant in both, neither is non-inertial.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- एक गैर-जड़त्वीय फ्रेम उस पर कार्य करने वाले किसी भी वास्तविक बल के बावजूद कण को त्वरित (बदलते वेग) का निरीक्षण करेगा। चूँकि वेग दोनों में स्थिर है, इसलिए कोई भी गैर-जड़त्वीय नहीं है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Any frame of reference moving at a constant velocity relative to an inertial frame is also an inertial frame.\n\n📝 **निष्कर्ष**\n\n- किसी जड़त्वीय फ्रेम के सापेक्ष एक निरंतर वेग से गतिमान संदर्भ का कोई भी फ्रेम भी एक जड़त्वीय फ्रेम होता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Earth is technically a non-inertial frame because it rotates and orbits, causing slight accelerations (Coriolis and centrifugal forces), though it is treated as an inertial frame for most everyday physics problems.\n\n💡 **रोचक तथ्य**\n\n- पृथ्वी तकनीकी रूप से एक गैर-जड़त्वीय फ्रेम है क्योंकि यह घूमती है और परिक्रमा करती है, जिससे मामूली त्वरण (कोरिओलिस और केन्द्रापसारक बल) होते हैं, हालांकि इसे रोजमर्रा की अधिकांश भौतिकी समस्याओं के लिए एक जड़त्वीय फ्रेम माना जाता है।"
+    }
+  },
+  {
+    "v1_id": "HIS1782",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Ancient History",
+      "subTopic": "Indus Valley Civilization"
+    },
+    "tags":[
+      "IVC",
+      "Harappa",
+      "BurialPractices"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to the burial practices of the Harappans, consider the following statements:\n1. The Harappans practiced three types of burials: complete burial, fractional burial and cremation burial.\n2. They placed the dead in a North-South direction, often accompanied by grave goods such as pottery and tools.\n3. Joint burials have been found at Harappan sites like Lothal.\n\nWhich of the statements given above is/are correct?",
+    "question_hi": "हड़प्पावासियों की दफन प्रथाओं के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. हड़प्पावासियों ने तीन प्रकार के दफनाने का अभ्यास किया: पूर्ण दफन, आंशिक दफन और दाह संस्कार दफन।\n2. उन्होंने मृतकों को उत्तर-दक्षिण दिशा में रखा, अक्सर मिट्टी के बर्तनों और औजारों जैसे कब्र के सामान के साथ।\n3. लोथल जैसे हड़प्पा स्थलों पर संयुक्त दफन (युग्म शवाधान) पाए गए हैं。\n\nऊपर दिए गए कथनों में से कौन सा/से सही है/हैं?",
+    "options":[
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "options_hi":[
+      "केवल 1 और 2",
+      "केवल 2 और 3",
+      "केवल 1 और 3",
+      "1, 2 और 3"
+    ],
+    "correct": "1, 2 and 3",
+    "explanation": {
+      "summary": "Correct Answer: 1, 2 and 3\n\nसही उत्तर: 1, 2 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- All statements perfectly describe IVC customs. Excavations at Kalibangan and Harappa reveal varied burial customs including fractional burials. Bodies were mostly laid North-South. At Lothal, evidence of double burials (a male and female) was distinctly found.\n\n✅ **यह सही क्यों है**\n\n- सभी कथन IVC रीति-रिवाजों का पूरी तरह से वर्णन करते हैं। कालीबंगा और हड़प्पा की खुदाई में आंशिक दफन सहित विभिन्न दफन रीति-रिवाजों का पता चलता है। शवों को ज्यादातर उत्तर-दक्षिण में रखा गया था। लोथल में दोहरे दफन (एक पुरुष और महिला) के साक्ष्य स्पष्ट रूप से पाए गए थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Omitting any of these well-documented archaeological observations from Indus Valley sites provides an incomplete answer.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- सिंधु घाटी स्थलों से इन अच्छी तरह से प्रलेखित पुरातात्विक टिप्पणियों में से किसी को भी छोड़ना एक अधूरा उत्तर प्रदान करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The presence of grave goods highlights the Harappans' belief in the afterlife.\n\n📝 **निष्कर्ष**\n\n- कब्र के सामान की उपस्थिति हड़प्पावासियों के जीवन के बाद (मृत्यु उपरांत) के जीवन में विश्वास को उजागर करती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Cemetery R-37 in Harappa is one of the most famous excavation sites providing deep insights into mature Harappan burial culture.\n\n💡 **रोचक तथ्य**\n\n- हड़प्पा में कब्रिस्तान R-37 सबसे प्रसिद्ध उत्खनन स्थलों में से एक है जो परिपक्व हड़प्पा दफन संस्कृति में गहरी अंतर्दृष्टि प्रदान करता है।"
+    }
+  },
+  {
+    "v1_id": "ECO882",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags": [
+      "MUDRAYojana",
+      "Loans",
+      "MSME"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The enterprises named as Shishu, Tarun and Kishore are associated with:",
+    "question_hi": "शिशु, तरुण और किशोर नामक उद्यम किससे जुड़े हैं:",
+    "options":[
+      "NABARD",
+      "IDBI",
+      "MUDRA Banks",
+      "Co-operative Banks"
+    ],
+    "options_hi":[
+      "नाबार्ड",
+      "आईडीबीआई",
+      "मुद्रा (MUDRA) बैंक",
+      "सहकारी बैंक"
+    ],
+    "correct": "MUDRA Banks",
+    "explanation": {
+      "summary": "Correct Answer: MUDRA Banks\n\nसही उत्तर: मुद्रा (MUDRA) बैंक",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Pradhan Mantri MUDRA Yojana (PMMY) categorizes loans into three growth phases: Shishu (loans up to ₹50,000), Kishore (₹50,000 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh) to support micro and small enterprises.\n\n✅ **यह सही क्यों है**\n\n- प्रधान मंत्री मुद्रा योजना (PMMY) सूक्ष्म और लघु उद्यमों का समर्थन करने के लिए ऋण को तीन विकास चरणों में वर्गीकृत करती है: शिशु (₹50,000 तक का ऋण), किशोर (₹50,000 से ₹5 लाख), और तरुण (₹5 लाख से ₹10 लाख)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- NABARD targets agricultural/rural funding broadly without these specific tier names. IDBI and Co-operative banks don't use these exclusive programmatic product names.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- नाबार्ड इन विशिष्ट टियर नामों के बिना मोटे तौर पर कृषि/ग्रामीण वित्तपोषण को लक्षित करता है। IDBI और सहकारी बैंक इन विशेष प्रोग्रामेटिक उत्पाद नामों का उपयोग नहीं करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- MUDRA (Micro Units Development & Refinance Agency Ltd) was set up to 'fund the unfunded' non-corporate micro sector.\n\n📝 **निष्कर्ष**\n\n- मुद्रा (माइक्रो यूनिट्स डेवलपमेंट एंड रिफाइनेंस एजेंसी लिमिटेड) को 'फंड द अनफंडेड' गैर-कॉर्पोरेट सूक्ष्म क्षेत्र के लिए स्थापित किया गया था।",
+      "fact": "💡 **Interesting Fact**\n\n- MUDRA does not lend directly to micro-entrepreneurs/individuals. It provides refinance support to Banks/MFIs/NBFCs for lending.\n\n💡 **रोचक तथ्य**\n\n- MUDRA सीधे सूक्ष्म-उद्यमियों/व्यक्तियों को ऋण नहीं देता है। यह ऋण देने के लिए बैंकों/एमएफआई/एनबीएफसी को पुनर्वित्त (refinance) सहायता प्रदान करता है।"
+    }
+  },
+  {
+    "v1_id": "POL678",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Union Government",
+      "subTopic": "The President & Vice-President"
+    },
+    "tags":[
+      "VicePresident",
+      "Constitution",
+      "Elections"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "What is the minimum age required to become the Vice President of India?",
+    "question_hi": "भारत का उपराष्ट्रपति बनने के लिए आवश्यक न्यूनतम आयु क्या है?",
+    "options":[
+      "25 years",
+      "30 years",
+      "40 years",
+      "35 years"
+    ],
+    "options_hi":[
+      "25 वर्ष",
+      "30 वर्ष",
+      "40 वर्ष",
+      "35 वर्ष"
+    ],
+    "correct": "35 years",
+    "explanation": {
+      "summary": "Correct Answer: 35 years\n\nसही उत्तर: 35 वर्ष",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to Article 66 of the Indian Constitution, a candidate for the office of Vice President must be a citizen of India, have completed the age of 35 years, and be qualified for election as a member of the Rajya Sabha.\n\n✅ **यह सही क्यों है**\n\n- भारतीय संविधान के अनुच्छेद 66 के अनुसार, उपराष्ट्रपति पद के लिए एक उम्मीदवार को भारत का नागरिक होना चाहिए, 35 वर्ष की आयु पूरी कर लेनी चाहिए, और राज्यसभा के सदस्य के रूप में चुनाव के लिए योग्य होना चाहिए।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 25 years is the minimum age for Lok Sabha and Legislative Assemblies. 30 years is for Rajya Sabha and Legislative Councils.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 25 वर्ष लोकसभा और विधानसभाओं के लिए न्यूनतम आयु है। 30 वर्ष राज्यसभा और विधान परिषदों के लिए है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The President, Vice-President, and Governors share the same minimum age eligibility of 35 years in the Indian Constitution.\n\n📝 **निष्कर्ष**\n\n- भारतीय संविधान में राष्ट्रपति, उपराष्ट्रपति और राज्यपाल 35 वर्ष की समान न्यूनतम आयु पात्रता साझा करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Unlike the President whose oath is administered by the Chief Justice of India, the Vice President takes their oath before the President.\n\n💡 **रोचक तथ्य**\n\n- राष्ट्रपति (जिनकी शपथ भारत के मुख्य न्यायाधीश द्वारा दिलाई जाती है) के विपरीत, उपराष्ट्रपति राष्ट्रपति के समक्ष शपथ लेते हैं।"
+    }
+  },
+  {
+    "v1_id": "GEO1218",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Major Passes, Glaciers & Plateaus"
+    },
+    "tags":[
+      "ZojilaPass",
+      "Himalayas",
+      "Ladakh"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Zojila Pass lies in between:",
+    "question_hi": "जोजिला दर्रा किसके बीच स्थित है:",
+    "options":[
+      "Kashmir Valley and Ladakh",
+      "Kashmir and Pakistan",
+      "Kashmir and Tibbat",
+      "Kashmir and Himachal"
+    ],
+    "options_hi":[
+      "कश्मीर घाटी और लद्दाख",
+      "कश्मीर और पाकिस्तान",
+      "कश्मीर और तिब्बत",
+      "कश्मीर और हिमाचल"
+    ],
+    "correct": "Kashmir Valley and Ladakh",
+    "explanation": {
+      "summary": "Correct Answer: Kashmir Valley and Ladakh\n\nसही उत्तर: कश्मीर घाटी और लद्दाख",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Zojila is a strategic high mountain pass in the Himalayas in the Union Territory of Ladakh. It acts as a vital link connecting the Kashmir Valley (Srinagar) to its west with the Dras and Suru valleys (Kargil and Leh) in Ladakh.\n\n✅ **यह सही क्यों है**\n\n- जोजिला केंद्र शासित प्रदेश लद्दाख में हिमालय में एक रणनीतिक उच्च पर्वतीय दर्रा है। यह लद्दाख में द्रास और सुरु घाटियों (कारगिल और लेह) के साथ पश्चिम में कश्मीर घाटी (श्रीनगर) को जोड़ने वाले एक महत्वपूर्ण लिंक के रूप में कार्य करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- It is strictly an internal transport link within India and does not cross international borders into Pakistan or Tibet. Bara-lacha la connects Himachal and Ladakh.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह कड़ाई से भारत के भीतर एक आंतरिक परिवहन लिंक है और पाकिस्तान या तिब्बत में अंतरराष्ट्रीय सीमाओं को पार नहीं करता है। बारा-लाचा ला हिमाचल और लद्दाख को जोड़ता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Zojila tunnel is currently under construction to provide all-weather connectivity, bypassing the heavy snowfalls that close the pass in winter.\n\n📝 **निष्कर्ष**\n\n- जोजिला सुरंग वर्तमान में सभी मौसमों में संपर्क प्रदान करने के लिए निर्माणाधीन है, जो सर्दियों में दर्रे को बंद करने वाली भारी बर्फबारी को दरकिनार कर देगी।",
+      "fact": "💡 **Interesting Fact**\n\n- During the 1948 Indo-Pak war, the Indian Army achieved a remarkable feat by employing tanks at this extreme altitude to recapture Zojila.\n\n💡 **रोचक तथ्य**\n\n- 1948 के भारत-पाक युद्ध के दौरान, भारतीय सेना ने जोजिला को वापस लेने के लिए इस अत्यधिक ऊंचाई पर टैंकों का उपयोग करके एक उल्लेखनीय उपलब्धि हासिल की।"
+    }
+  },
+  {
+    "v1_id": "CUR578",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Miscellaneous Current Affairs",
+      "subTopic": "Environment & Ecology News"
+    },
+    "tags":[
+      "ZoologicalSurvey",
+      "Nematode",
+      "NewSpecies"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In the light of new discovery of soil dwelling nematode crassolabium dhritiae, which of the following statements are true?\n1. It was discovered in Keonjhar, Odisha.\n2. It is named after the director of Zoological Survey of India i.e. Dr. Malti Mukherjee.\n3. These organisms play significant role in nutrient-cycling and decomposition of organic matter.\n\nSelect the correct option:",
+    "question_hi": "मिट्टी में रहने वाले नेमाटोड 'क्रैसोलाबियम धृतिये' की नई खोज के प्रकाश में, निम्नलिखित में से कौन से कथन सत्य हैं?\n1. इसकी खोज ओडिशा के क्योंझर में हुई थी।\n2. इसका नाम भारतीय प्राणी सर्वेक्षण (ZSI) की निदेशक डॉ. मालती मुखर्जी के नाम पर रखा गया है।\n3. ये जीव पोषक चक्रण और कार्बनिक पदार्थों के अपघटन में महत्वपूर्ण भूमिका निभाते हैं।\n\nसही विकल्प चुनें:",
+    "options":[
+      "Only I",
+      "I and III",
+      "Only II",
+      "II and III"
+    ],
+    "options_hi":[
+      "केवल I",
+      "I और III",
+      "केवल II",
+      "II और III"
+    ],
+    "correct": "I and III",
+    "explanation": {
+      "summary": "Correct Answer: I and III\n\nसही उत्तर: I और III",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement I is true: The nematode was discovered by ZSI in the Keonjhar district of Odisha. Statement III is true: Soil nematodes are crucial decomposers for nutrient cycling.\n\n✅ **यह सही क्यों है**\n\n- कथन I सत्य है: नेमाटोड की खोज ZSI द्वारा ओडिशा के क्योंझर जिले में की गई थी। कथन III सत्य है: मिट्टी के नेमाटोड पोषक चक्रण के लिए महत्वपूर्ण अपघटक हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement II is factually incorrect because 'Crassolabium dhritiae' is named after Dr. Dhriti Banerjee (the current ZSI Director), not 'Dr. Malti Mukherjee'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन II तथ्यात्मक रूप से गलत है क्योंकि 'क्रैसोलाबियम धृतिये' का नाम डॉ. धृति बनर्जी (वर्तमान ZSI निदेशक) के नाम पर रखा गया है, न कि 'डॉ. मालती मुखर्जी' के नाम पर।",
+      "conclusion": "📝 **Concluding Note**\n\n- Taxonomic discoveries emphasize the rich yet understudied micro-biodiversity of the Deccan Peninsula Biogeographic Zone.\n\n📝 **निष्कर्ष**\n\n- वर्गीकरण (Taxonomic) खोजें दक्कन प्रायद्वीप बायोग्राफिक ज़ोन की समृद्ध लेकिन कम अध्ययन की गई सूक्ष्म-जैव विविधता पर जोर देती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Dr. Dhriti Banerjee made history by becoming the first female Director of the Zoological Survey of India in its 100+ year history.\n\n💡 **रोचक तथ्य**\n\n- डॉ. धृति बनर्जी ने भारतीय प्राणी सर्वेक्षण (ZSI) के 100+ वर्ष के इतिहास में पहली महिला निदेशक बनकर इतिहास रच दिया।"
+    }
+  },
+  {
+    "v1_id": "HIS1783",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "The Revolt of 1857"
+    },
+    "tags": [
+      "WhiteMutiny",
+      "BritishIndia",
+      "CompanyRule"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to the White Mutiny, consider the following statements:\n1. It posed a serious threat to British control in India, similar to the Revolt of 1857.\n2. It was primarily caused by the grievances of Indian sepoys who felt mistreated by British officers.\n\nWhich of the statements given above is/are correct?",
+    "question_hi": "श्वेत विद्रोह (व्हाइट म्यूटिनी) के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. इसने 1857 के विद्रोह के समान भारत में ब्रिटिश नियंत्रण के लिए एक गंभीर खतरा पैदा किया।\n2. यह मुख्य रूप से भारतीय सिपाहियों की शिकायतों के कारण हुआ था जिन्होंने ब्रिटिश अधिकारियों द्वारा दुर्व्यवहार महसूस किया था।\n\nऊपर दिए गए कथनों में से कौन सा/से सही है/हैं?",
+    "options":[
+      "1 only",
+      "2 only",
+      "Neither 1 nor 2",
+      "Both 1 and 2"
+    ],
+    "options_hi":[
+      "केवल 1",
+      "केवल 2",
+      "न तो 1 और न ही 2",
+      "1 और 2 दोनों"
+    ],
+    "correct": "Neither 1 nor 2",
+    "explanation": {
+      "summary": "Correct Answer: Neither 1 nor 2\n\nसही उत्तर: न तो 1 और न ही 2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The White Mutiny of 1859 was an administrative protest by *European* troops of the EIC over their involuntary transfer to the British Crown without a bounty. It was largely non-violent, resolved legally, and posed no massive existential threat like the 1857 revolt.\n\n✅ **यह सही क्यों है**\n\n- 1859 का श्वेत विद्रोह ईआईसी के *यूरोपीय* सैनिकों द्वारा बिना इनाम के ब्रिटिश क्राउन में उनके अनैच्छिक स्थानांतरण पर एक प्रशासनिक विरोध था। यह काफी हद तक अहिंसक था, कानूनी रूप से हल किया गया था, और 1857 के विद्रोह की तरह कोई बड़ा अस्तित्वगत खतरा पैदा नहीं हुआ।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 1 exaggerates the threat scale. Statement 2 misidentifies the participants as Indian sepoys rather than the white European soldiers.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 1 खतरे के पैमाने को बढ़ा-चढ़ाकर पेश करता है। कथन 2 भारतीय सिपाहियों के रूप में प्रतिभागियों की गलत पहचान श्वेत यूरोपीय सैनिकों के बजाय करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Following the 1857 revolt, the British completely reorganized the military, drastically increasing the ratio of European to Indian troops to prevent future uprisings.\n\n📝 **निष्कर्ष**\n\n- 1857 के विद्रोह के बाद, अंग्रेजों ने भविष्य के विद्रोह को रोकने के लिए यूरोपीय सैनिकों और भारतीय सैनिकों के अनुपात में भारी वृद्धि करते हुए सेना को पूरी तरह से पुनर्गठित किया।",
+      "fact": "💡 **Interesting Fact**\n\n- The British government resolved the White Mutiny by allowing soldiers who did not wish to transfer to the Queen's army to take a free passage back home.\n\n💡 **रोचक तथ्य**\n\n- ब्रिटिश सरकार ने श्वेत विद्रोह का समाधान उन सैनिकों को मुफ्त मार्ग से घर वापस जाने की अनुमति देकर किया जो रानी की सेना में स्थानांतरित नहीं होना चाहते थे।"
+    }
+  },
+  {
+    "v1_id": "HIS1784",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Medieval History",
+      "subTopic": "The Mughal Empire"
+    },
+    "tags":[
+      "Akbar",
+      "Navratnas",
+      "MughalCourt"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With reference to Akbar's Navratnas, consider the following pairs:\n1. Faizi - a. A Persian poet and translator\n2. Abul Fazal - b. Author of Ain-i-Akbari\n3. Raja Todarmal - c. Home Minister\n4. Raja Man Singh - d. Chief of Army Staff\n5. Tansen - e. Great musician and cultural figure\n6. Abdul Rahim Khan-i-Khana - f. Finance Minister\n\nWhich of the pairs given above are correctly matched?",
+    "question_hi": "अकबर के नवरत्नों के संदर्भ में, निम्नलिखित युग्मों पर विचार करें:\n1. फैजी - a. एक फारसी कवि और अनुवादक\n2. अबुल फजल - b. आइन-ए-अकबरी के लेखक\n3. राजा टोडरमल - c. गृह मंत्री\n4. राजा मान सिंह - d. सेनाध्यक्ष\n5. तानसेन - e. महान संगीतकार और सांस्कृतिक व्यक्ति\n6. अब्दुर रहीम खान-ए-खाना - f. वित्त मंत्री\n\nऊपर दिए गए युग्मों में से कौन-से सही सुमेलित हैं?",
+    "options":[
+      "1, 2, 4 and 6 only",
+      "1, 2, 4 and 5 only",
+      "1, 2, 3, 4, 5 and 6",
+      "3 and 6 only"
+    ],
+    "options_hi":[
+      "केवल 1, 2, 4 और 6",
+      "केवल 1, 2, 4 और 5",
+      "1, 2, 3, 4, 5 और 6",
+      "केवल 3 और 6"
+    ],
+    "correct": "1, 2, 4 and 5 only",
+    "explanation": {
+      "summary": "Correct Answer: 1, 2, 4 and 5 only\n\nसही उत्तर: केवल 1, 2, 4 और 5",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Faizi was a Persian poet. Abul Fazal authored Ain-i-Akbari. Man Singh was a prominent military commander (Mansabdar). Tansen was the legendary musician. Thus, 1, 2, 4, and 5 are perfectly matched.\n\n✅ **यह सही क्यों है**\n\n- फैजी एक फारसी कवि थे। अबुल फजल ने आइन-ए-अकबरी लिखी। मान सिंह एक प्रमुख सैन्य कमांडर (मनसबदार) थे। तानसेन महान संगीतकार थे। इस प्रकार, 1, 2, 4 और 5 पूरी तरह से मेल खाते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Raja Todarmal was the Finance Minister (Diwan-i-Ashraf) responsible for the Dahsala system, not the Home Minister. Abdul Rahim Khan-i-Khana was a poet and commander, not the Finance Minister.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- राजा टोडरमल दहसाला प्रणाली के लिए जिम्मेदार वित्त मंत्री (दीवान-ए-अशरफ) थे, गृह मंत्री नहीं। अब्दुर रहीम खान-ए-खाना एक कवि और कमांडर थे, न कि वित्त मंत्री।",
+      "conclusion": "📝 **Concluding Note**\n\n- Akbar's Navaratnas (Nine Jewels) represented an extraordinary assembly of intellect, arts, and administrative brilliance regardless of religion.\n\n📝 **निष्कर्ष**\n\n- अकबर के नवरत्न धर्म की परवाह किए बिना बुद्धि, कला और प्रशासनिक प्रतिभा के एक असाधारण सम्मेलन का प्रतिनिधित्व करते थे।",
+      "fact": "💡 **Interesting Fact**\n\n- Faizi, the poet laureate of Akbar's court, translated the famous Indian mathematical treatise 'Lilavati' into Persian.\n\n💡 **रोचक तथ्य**\n\n- अकबर के दरबार के राजकवि फैजी ने प्रसिद्ध भारतीय गणितीय ग्रंथ 'लीलावती' का फारसी में अनुवाद किया था।"
+    }
+  },
+  {
+    "v1_id": "BIO386",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "Mendel",
+      "Genetics",
+      "LawOfSegregation"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following correctly represents the law of segregation?",
+    "question_hi": "निम्नलिखित में से कौन पृथक्करण के नियम का सही प्रतिनिधित्व करता है?",
+    "options":[
+      "9:3:3:1",
+      "3:1",
+      "1:1",
+      "1:2:1"
+    ],
+    "options_hi":[
+      "9:3:3:1",
+      "3:1",
+      "1:1",
+      "1:2:1"
+    ],
+    "correct": "3:1",
+    "explanation": {
+      "summary": "Correct Answer: 3:1\n\nसही उत्तर: 3:1",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Mendel's Law of Segregation states that allele pairs separate during gamete formation. The classic phenotypic ratio demonstrating this principle in a monohybrid cross (F2 generation) is 3:1 (3 dominant to 1 recessive).\n\n✅ **यह सही क्यों है**\n\n- मेंडल का पृथक्करण का नियम बताता है कि युग्मक निर्माण के दौरान एलील जोड़े अलग हो जाते हैं। एक मोनोहाइब्रिड क्रॉस (F2 पीढ़ी) में इस सिद्धांत को प्रदर्शित करने वाला क्लासिक फेनोटाइपिक अनुपात 3:1 (3 प्रमुख से 1 अप्रभावी) है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- 9:3:3:1 represents the Law of Independent Assortment (dihybrid cross). 1:2:1 is a genotypic ratio (TT : Tt : tt) for a monohybrid cross.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 9:3:3:1 स्वतंत्र अपव्यूहन (डायहाइब्रिड क्रॉस) के नियम का प्रतिनिधित्व करता है। 1:2:1 मोनोहाइब्रिड क्रॉस के लिए एक जीनोटाइपिक अनुपात (TT : Tt : tt) है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The 3:1 ratio proves that recessive traits are merely hidden in the F1 generation and re-emerge unaltered in the F2 generation.\n\n📝 **निष्कर्ष**\n\n- 3:1 अनुपात यह साबित करता है कि अप्रभावी लक्षण F1 पीढ़ी में केवल छिपे हुए हैं और F2 पीढ़ी में अपरिवर्तित रूप से फिर से उभरते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Unlike the Law of Independent Assortment, the Law of Segregation is universally applicable with virtually no exceptions in standard diploid organisms.\n\n💡 **रोचक तथ्य**\n\n- स्वतंत्र अपव्यूहन के नियम के विपरीत, पृथक्करण का नियम मानक द्विगुणित जीवों में लगभग बिना किसी अपवाद के सार्वभौमिक रूप से लागू होता है।"
+    }
+  },
+  {
+    "v1_id": "ENV218",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Environmental Issues & Conventions",
+      "subTopic": "Climate Change & Global Warming"
+    },
+    "tags":[
+      "ClimateAction",
+      "Corruption",
+      "Governance"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Corruption is a major threat to climate action.\nReason (R): It acts as a hindrance in reducing emissions and adapting to the unavoidable effects of global heating.\n\nChoose the correct answer:",
+    "question_hi": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): भ्रष्टाचार जलवायु कार्रवाई के लिए एक बड़ा खतरा है।\nकारण (R): यह उत्सर्जन को कम करने और ग्लोबल हीटिंग के अपरिहार्य प्रभावों के अनुकूल होने में बाधा के रूप में कार्य करता है।\n\nसही उत्तर चुनें:",
+    "options":[
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is false but (R) is true",
+      "(A) is true but (R) is false"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) असत्य है लेकिन (R) सत्य है",
+      "(A) सत्य है लेकिन (R) असत्य है"
+    ],
+    "correct": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nसही उत्तर: (A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Global environmental bodies recognize corruption as a severe threat (Assertion) because funds meant for climate projects are siphoned off, and bribery undermines emission regulations. This direct hindrance is perfectly explained by the Reason.\n\n✅ **यह सही क्यों है**\n\n- वैश्विक पर्यावरण निकाय भ्रष्टाचार को एक गंभीर खतरे (अभिकथन) के रूप में पहचानते हैं क्योंकि जलवायु परियोजनाओं के लिए धन की हेराफेरी की जाती है, और रिश्वतखोरी उत्सर्जन नियमों को कमजोर करती है। यह प्रत्यक्ष बाधा कारण द्वारा पूरी तरह से स्पष्ट की गई है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Suggesting they are not causally linked ignores basic environmental governance principles where institutional failure directly drives ecological failure.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह सुझाव देना कि वे कारण से जुड़े नहीं हैं, बुनियादी पर्यावरणीय शासन सिद्धांतों की अनदेखी करता है जहां संस्थागत विफलता सीधे पारिस्थितिक विफलता को बढ़ाती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Transparency and accountability are fundamental prerequisites for achieving the goals set by the Paris Agreement.\n\n📝 **निष्कर्ष**\n\n- पेरिस समझौते द्वारा निर्धारित लक्ष्यों को प्राप्त करने के लिए पारदर्शिता और जवाबदेही मौलिक पूर्वापेक्षाएं हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Interpol estimates that environmental crimes, facilitated by corruption, generate over $100 billion in illicit revenues annually.\n\n💡 **रोचक तथ्य**\n\n- इंटरपोल का अनुमान है कि भ्रष्टाचार द्वारा सुगम पर्यावरण अपराध सालाना 100 बिलियन डॉलर से अधिक का अवैध राजस्व उत्पन्न करते हैं।"
+    }
+  },
+  {
+    "v1_id": "HIS1785",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Tribunal & Peasant Uprisings"
+    },
+    "tags":[
+      "KisanSabha",
+      "PeasantMovement",
+      "SahajanandSaraswati"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "With which Kisan Leader Sahajanand Saraswati was not associated?",
+    "question_hi": "किसान नेता सहजानंद सरस्वती निम्नलिखित में से किसके साथ नहीं जुड़े थे?",
+    "options":[
+      "Bihar Provincial Kisan Sabha, 1929",
+      "Hunkar Hindi Weekly",
+      "Bakasht Movement",
+      "Krishak Samachar"
+    ],
+    "options_hi":[
+      "बिहार प्रांतीय किसान सभा, 1929",
+      "हुंकार हिंदी साप्ताहिक",
+      "बकाश्त आंदोलन",
+      "कृषक समाचार"
+    ],
+    "correct": "Krishak Samachar",
+    "explanation": {
+      "summary": "Correct Answer: Krishak Samachar\n\nसही उत्तर: कृषक समाचार",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Swami Sahajanand Saraswati was the most prominent peasant leader of India. While he founded the Bihar Provincial Kisan Sabha, led the Bakasht movement, and launched the 'Hunkar' magazine, he was NOT associated with 'Krishak Samachar'.\n\n✅ **यह सही क्यों है**\n\n- स्वामी सहजानंद सरस्वती भारत के सबसे प्रमुख किसान नेता थे। यद्यपि उन्होंने बिहार प्रांतीय किसान सभा की स्थापना की, बकाश्त आंदोलन का नेतृत्व किया, और 'हुंकार' पत्रिका शुरू की, वे 'कृषक समाचार' से नहीं जुड़े थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other three options represent his core monumental contributions to the peasant struggle in Bihar and India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य तीन विकल्प बिहार और भारत में किसान संघर्ष में उनके मुख्य स्मारकीय योगदान का प्रतिनिधित्व करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- His efforts culminated in the formation of the All India Kisan Sabha in 1936, where he served as its first President.\n\n📝 **निष्कर्ष**\n\n- उनके प्रयासों के परिणामस्वरूप 1936 में अखिल भारतीय किसान सभा का गठन हुआ, जहाँ उन्होंने इसके पहले अध्यक्ष के रूप में कार्य किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Netaji Subhas Chandra Bose deeply respected Swami Sahajanand and once declared that the peasant movement in India was synonymous with the name of Sahajanand.\n\n💡 **रोचक तथ्य**\n\n- नेताजी सुभाष चंद्र बोस स्वामी सहजानंद का बहुत सम्मान करते थे और एक बार उन्होंने घोषणा की थी कि भारत में किसान आंदोलन सहजानंद के नाम का पर्याय था।"
+    }
+  },
+  {
+    "v1_id": "POL679",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Polity",
+      "topic": "Constitutional & Non-Constitutional Bodies",
+      "subTopic": "Election Commission"
+    },
+    "tags": [
+      "NationalParty",
+      "ElectionCommission",
+      "PoliticalParties"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which among the following are valid conditions that can give recognition to any political party as a National Party in India?\n1. Party should have polled at least six percent votes in four or more states in Lok Sabha or State Assembly elections and secured at least four seats in Lok Sabha from one state or more than one state.\n2. Party has won two percent of total seats in Lok Sabha from at least three states.\n3. In the last General Elections to the Lok Sabha, the party should have won atleast one seat for every 25 seats allotted in any one state.\n4. Party is recognized as state party in four or more states.\n\nSelect the correct combination:",
+    "question_hi": "भारत में किसी भी राजनीतिक दल को राष्ट्रीय पार्टी के रूप में मान्यता देने के लिए निम्नलिखित में से कौन सी वैध शर्तें हैं?\n1. पार्टी को लोकसभा या राज्य विधानसभा चुनावों में चार या अधिक राज्यों में कम से कम छह प्रतिशत वोट मिले हों और एक राज्य या एक से अधिक राज्यों से लोकसभा में कम से कम चार सीटें हासिल की हों।\n2. पार्टी ने कम से कम तीन राज्यों से लोकसभा में कुल सीटों का दो प्रतिशत जीता हो।\n3. लोकसभा के पिछले आम चुनावों में, पार्टी को किसी एक राज्य में आवंटित प्रत्येक 25 सीटों के लिए कम से कम एक सीट जीतनी चाहिए।\n4. पार्टी को चार या अधिक राज्यों में राज्य पार्टी के रूप में मान्यता प्राप्त है।\n\nसही संयोजन चुनें:",
+    "options":[
+      "Only 1 and 2",
+      "1, 2 and 3",
+      "1, 3 and 4",
+      "1, 2 and 4"
+    ],
+    "options_hi":[
+      "केवल 1 और 2",
+      "1, 2 और 3",
+      "1, 3 और 4",
+      "1, 2 और 4"
+    ],
+    "correct": "1, 2 and 4",
+    "explanation": {
+      "summary": "Correct Answer: 1, 2 and 4\n\nसही उत्तर: 1, 2 और 4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Election Symbols Order, 1968 details three independent conditions for a National Party: 1) 6% votes in 4 states + 4 LS seats. 2) 2% of total LS seats from 3 states. 3) Recognition as a state party in 4 states. Statements 1, 2, and 4 correctly describe these.\n\n✅ **यह सही क्यों है**\n\n- चुनाव चिह्न आदेश, 1968 एक राष्ट्रीय पार्टी के लिए तीन स्वतंत्र शर्तों का विवरण देता है: 1) 4 राज्यों में 6% वोट + 4 लोकसभा सीटें। 2) 3 राज्यों से कुल लोकसभा सीटों का 2%। 3) 4 राज्यों में राज्य पार्टी के रूप में मान्यता। कथन 1, 2, और 4 इनका सही वर्णन करते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 3 (1 seat for every 25 seats) is a condition required to be recognized as a 'State Party', not a 'National Party'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 3 (प्रत्येक 25 सीटों के लिए 1 सीट) 'राज्य पार्टी' के रूप में मान्यता प्राप्त करने के लिए आवश्यक शर्त है, 'राष्ट्रीय पार्टी' नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Fulfilling any ONE of these strict criteria grants a political party the coveted 'National Party' status with reserved symbols nationwide.\n\n📝 **निष्कर्ष**\n\n- इनमें से किसी भी एक कड़े मापदंड को पूरा करने पर राजनीतिक दल को देश भर में आरक्षित प्रतीकों के साथ प्रतिष्ठित 'राष्ट्रीय पार्टी' का दर्जा मिल जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- In 2023, the Aam Aadmi Party (AAP) attained National Party status by fulfilling the condition of being a recognized state party in four states (Delhi, Punjab, Goa, and Gujarat).\n\n💡 **रोचक तथ्य**\n\n- 2023 में, आम आदमी पार्टी (AAP) ने चार राज्यों (दिल्ली, पंजाब, गोवा और गुजरात) में एक मान्यता प्राप्त राज्य पार्टी होने की शर्त को पूरा करके राष्ट्रीय पार्टी का दर्जा प्राप्त किया।"
+    }
+  },
+  {
+    "v1_id": "PHY420",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subTopic": "Atoms & Nuclei"
+    },
+    "tags":[
+      "FundamentalForces",
+      "NuclearForce",
+      "Electromagnetism"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the interaction forces between two protons separated by a distance of the order of 1 femtometer (10⁻¹⁵m). The correct order of the strengths of the electromagnetic, gravitational and nuclear forces acting between them is:",
+    "question_hi": "1 फेमटोमीटर (10⁻¹⁵m) के क्रम की दूरी से अलग दो प्रोटॉन के बीच अंतःक्रियात्मक बलों पर विचार करें। उनके बीच कार्य करने वाले विद्युत चुम्बकीय, गुरुत्वाकर्षण और परमाणु बलों की शक्तियों का सही क्रम है:",
+    "options":[
+      "Gravitational > Electromagnetic > Nuclear",
+      "Electromagnetic > Nuclear > Gravitational",
+      "Nuclear > Gravitational > Electromagnetic",
+      "Nuclear > Electromagnetic > Gravitational"
+    ],
+    "options_hi":[
+      "गुरुत्वाकर्षण > विद्युत चुम्बकीय > परमाणु",
+      "विद्युत चुम्बकीय > परमाणु > गुरुत्वाकर्षण",
+      "परमाणु > गुरुत्वाकर्षण > विद्युत चुम्बकीय",
+      "परमाणु > विद्युत चुम्बकीय > गुरुत्वाकर्षण"
+    ],
+    "correct": "Nuclear > Electromagnetic > Gravitational",
+    "explanation": {
+      "summary": "Correct Answer: Nuclear > Electromagnetic > Gravitational\n\nसही उत्तर: परमाणु > विद्युत चुम्बकीय > गुरुत्वाकर्षण",
+      "analysis_correct": "✅ **Why this is correct**\n\n- At an extremely short distance like 1 femtometer (typical size of a nucleus), the Strong Nuclear force absolutely dominates to keep protons together. The Electromagnetic force (repulsion) is second strongest, and the Gravitational force is incredibly weak between subatomic particles.\n\n✅ **यह सही क्यों है**\n\n- 1 फेमटोमीटर (नाभिक का विशिष्ट आकार) जैसी अत्यंत कम दूरी पर, प्रोटॉन को एक साथ रखने के लिए मजबूत परमाणु बल (Strong Nuclear Force) हावी होता है। विद्युत चुम्बकीय बल (प्रतिकर्षण) दूसरा सबसे मजबूत है, और उपपरमाण्विक कणों के बीच गुरुत्वाकर्षण बल अविश्वसनीय रूप से कमजोर है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Gravity is vastly weaker than both electromagnetism and the strong force at the quantum scale, making any option that puts Gravity first or second incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- क्वांटम पैमाने पर गुरुत्वाकर्षण विद्युत चुंबकत्व और मजबूत बल दोनों की तुलना में काफी कमजोर है, जिससे कोई भी विकल्प जो गुरुत्वाकर्षण को पहले या दूसरे स्थान पर रखता है, गलत हो जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Strong Nuclear Force is roughly 137 times stronger than electromagnetism, but its effective range is strictly limited to subatomic distances.\n\n📝 **निष्कर्ष**\n\n- मजबूत परमाणु बल विद्युत चुंबकत्व की तुलना में लगभग 137 गुना अधिक मजबूत होता है, लेकिन इसकी प्रभावी सीमा सख्ती से उपपरमाण्विक दूरियों तक सीमित होती है।",
+      "fact": "💡 **Interesting Fact**\n\n- If the strong nuclear force were even slightly weaker, atomic nuclei wouldn't hold together against the electromagnetic repulsion of protons, making the universe as we know it impossible.\n\n💡 **रोचक तथ्य**\n\n- यदि मजबूत परमाणु बल थोड़ा सा भी कमजोर होता, तो परमाणु नाभिक प्रोटॉन के विद्युत चुम्बकीय प्रतिकर्षण के खिलाफ एक साथ नहीं टिकते, जिससे ब्रह्मांड जैसा कि हम जानते हैं, असंभव हो जाता।"
+    }
+  },
+  {
+    "v1_id": "HIS1786",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "14 April 2026, Shift 1"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "British Conquest of India"
+    },
+    "tags":[
+      "Dalhousie",
+      "DoctrineOfLapse",
+      "ColonialExpansion"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Doctrine of Lapse was implemented to expand British territories.\nReason (R): It allowed the British to annex states with no direct male heir.\n\nChoose the correct answer:",
+    "question_hi": "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): ब्रिटिश क्षेत्रों का विस्तार करने के लिए व्यपगत का सिद्धांत (डॉक्ट्रिन ऑफ लैप्स) लागू किया गया था।\nकारण (R): इसने अंग्रेजों को बिना प्रत्यक्ष पुरुष उत्तराधिकारी वाले राज्यों पर कब्जा करने की अनुमति दी।\n\nसही उत्तर चुनें:",
+    "options":[
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is false but (R) is true",
+      "(A) is true but (R) is false"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सत्य हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) असत्य है लेकिन (R) सत्य है",
+      "(A) सत्य है लेकिन (R) असत्य है"
+    ],
+    "correct": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nसही उत्तर: (A) और (R) दोनों सत्य हैं और (R) (A) का सही स्पष्टीकरण है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The assertion is absolutely true; Lord Dalhousie's prime motive was aggressive imperial expansion. The reason perfectly explains 'how' this was achieved: by denying the traditional Hindu right of adopting a male heir and annexing the 'lapsed' state to the British Empire.\n\n✅ **यह सही क्यों है**\n\n- अभिकथन पूर्णतः सत्य है; लॉर्ड डलहौजी का मुख्य उद्देश्य आक्रामक साम्राज्यवादी विस्तार था। कारण पूरी तरह से समझाता है कि यह 'कैसे' हासिल किया गया था: एक पुरुष उत्तराधिकारी को गोद लेने के पारंपरिक हिंदू अधिकार से इनकार करके और ब्रिटिश साम्राज्य में 'व्यपगत' राज्य पर कब्जा करके।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Disconnecting the cause and effect here ignores the clear historical mechanism of Dalhousie's most infamous expansionist policy.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यहां कारण और प्रभाव को अलग करना डलहौजी की सबसे कुख्यात विस्तारवादी नीति के स्पष्ट ऐतिहासिक तंत्र की उपेक्षा करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- This ruthless annexation policy fueled immense resentment among Indian rulers, becoming one of the major underlying causes of the 1857 Revolt.\n\n📝 **निष्कर्ष**\n\n- इस निर्मम विलय नीति ने भारतीय शासकों में भारी आक्रोश पैदा किया, जो 1857 के विद्रोह के प्रमुख अंतर्निहित कारणों में से एक बन गया।",
+      "fact": "💡 **Interesting Fact**\n\n- Satara (1848), Jhansi (1853), and Nagpur (1854) were some of the most prominent states annexed using the Doctrine of Lapse.\n\n💡 **रोचक तथ्य**\n\n- सतारा (1848), झाँसी (1853), और नागपुर (1854) व्यपगत के सिद्धांत (डॉक्ट्रिन ऑफ लैप्स) का उपयोग करके कब्जा किए गए कुछ सबसे प्रमुख राज्य थे।"
+    }
+  }
+]
