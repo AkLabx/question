@@ -2505,11 +2505,11 @@
                 bookmarks,
                 isQuizFinished
             };
-            localStorage.setItem(`upscQuizState_${config.examName}`, JSON.stringify(state));
+            localStorage.setItem(`upscQuizState_${config.examName}_${config.examDate}`, JSON.stringify(state));
         }
 
         function restoreState() {
-            const saved = localStorage.getItem(`upscQuizState_${config.examName}`);
+            const saved = localStorage.getItem(`upscQuizState_${config.examName}_${config.examDate}`);
             if(saved) {
                 try {
                     const state = JSON.parse(saved);
@@ -2531,7 +2531,7 @@
         }
 
         function loadHistory() {
-            const saved = localStorage.getItem(`upscQuizHistory_${config.examName}`);
+            const saved = localStorage.getItem(`upscQuizHistory_${config.examName}_${config.examDate}`);
             if (saved) {
                 try {
                     quizHistory = JSON.parse(saved);
@@ -2547,7 +2547,7 @@
                         }
                     });
                     if (updated) {
-                        localStorage.setItem(`upscQuizHistory_${config.examName}`, JSON.stringify(quizHistory));
+                        localStorage.setItem(`upscQuizHistory_${config.examName}_${config.examDate}`, JSON.stringify(quizHistory));
                     }
                 } catch(e) {
                     quizHistory = [];
@@ -2634,7 +2634,7 @@
         }
 
         function startNewQuiz() {
-            localStorage.removeItem(`upscQuizState_${config.examName}`);
+            localStorage.removeItem(`upscQuizState_${config.examName}_${config.examDate}`);
             attemptId = 'attempt_' + Date.now();
             currentQuestion = 0;
             totalTimeSeconds = config.timeInMinutes * 60;
@@ -2661,14 +2661,14 @@
             if(!confirm("Are you sure you want to delete this attempt permanently?")) return;
             const initialLength = quizHistory.length;
             quizHistory = quizHistory.filter(h => String(h.id) !== String(id));
-            localStorage.setItem(`upscQuizHistory_${config.examName}`, JSON.stringify(quizHistory));
+            localStorage.setItem(`upscQuizHistory_${config.examName}_${config.examDate}`, JSON.stringify(quizHistory));
             location.reload();
         }
 
         function clearAllHistory() {
             if(!confirm("Are you sure you want to delete ALL your historical attempts permanently? This action cannot be undone.")) return;
             quizHistory = [];
-            localStorage.removeItem(`upscQuizHistory_${config.examName}`);
+            localStorage.removeItem(`upscQuizHistory_${config.examName}_${config.examDate}`);
             location.reload();
         }
 
@@ -3139,9 +3139,15 @@
                 totalTimeSeconds--;
                 if(totalTimeSeconds % 5 === 0) saveState();
 
-                const minutes = Math.floor(totalTimeSeconds / 60);
+                const hours = Math.floor(totalTimeSeconds / 3600);
+                const minutes = Math.floor((totalTimeSeconds % 3600) / 60);
                 const seconds = totalTimeSeconds % 60;
-                elTimerText.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+                if (hours > 0) {
+                    elTimerText.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                } else {
+                    elTimerText.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                }
 
                 elTimerBar.style.width = `${(totalTimeSeconds / initialTotalTime) * 100}%`;
 
@@ -3192,7 +3198,7 @@
                         bookmarks: [...bookmarks],
                         lifelinesUsed: [...lifelinesUsed]
                     });
-                    localStorage.setItem(`upscQuizHistory_${config.examName}`, JSON.stringify(quizHistory));
+                    localStorage.setItem(`upscQuizHistory_${config.examName}_${config.examDate}`, JSON.stringify(quizHistory));
                 }
             }
 
@@ -3211,7 +3217,7 @@
         }
 
         function goToDashboard() {
-            localStorage.removeItem(`upscQuizState_${config.examName}`);
+            localStorage.removeItem(`upscQuizState_${config.examName}_${config.examDate}`);
             location.reload();
         }
 
