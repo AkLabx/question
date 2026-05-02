@@ -1,47 +1,424 @@
 <!DOCTYPE html>
- <html lang="en"> <head> 
-<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
-<title>Dynamic Quiz App</title> 
-<script src="https://cdn.tailwindcss.com"></script> 
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>70th BPSC History Optional Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        :root {
+            --zoom-level: 16px;
+        }
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            font-size: var(--zoom-level);
+            overflow-x: hidden;
+            color: #334155;
+            line-height: 1.7;
+        }
+        h2 {
+            letter-spacing: -0.01em;
+        }
+        .option-btn {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-origin: left center;
+        }
+        .option-btn:hover:not(:disabled) {
+            transform: translateX(6px);
+            border-color: #60a5fa;
+            background-color: #f0fdfa;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+        .correct-ans {
+            background-color: #f0fdf4 !important;
+            border-color: #22c55e !important;
+            color: #166534 !important;
+        }
+        .wrong-ans {
+            background-color: #fef2f2 !important;
+            border-color: #ef4444 !important;
+            color: #991b1b !important;
+        }
+        .disabled-option {
+            opacity: 0.4;
+            pointer-events: none;
+            text-decoration: line-through;
+        }
 
- <style> :root { --zoom-level: 16px; } body { font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8fafc; font-size: var(--zoom-level); overflow-x: hidden; color: #334155; line-height: 1.7; } h2 { letter-spacing: -0.01em; } .option-btn { transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); transform-origin: left center; } .option-btn:hover:not(:disabled) { transform: translateX(6px); border-color: #60a5fa; background-color: #f0fdfa; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03); } .correct-ans { background-color: #f0fdf4 !important; border-color: #22c55e !important; color: #166534 !important; } .wrong-ans { background-color: #fef2f2 !important; border-color: #ef4444 !important; color: #991b1b !important; } .disabled-option { opacity: 0.4; pointer-events: none; text-decoration: line-through; } /* Custom Radio/Checkmark */ .custom-radio { transition: all 0.2s ease; } .radio-dot { transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1); transform: scale(0); } .option-btn:hover:not(:disabled) .custom-radio { border-color: #3b82f6; } .correct-ans .custom-radio { border-color: #22c55e; background-color: #dcfce7; } .correct-ans .radio-dot { transform: scale(1); background-color: #22c55e; } .wrong-ans .custom-radio { border-color: #ef4444; background-color: #fee2e2; } .wrong-ans .radio-dot { transform: scale(1); background-color: #ef4444; } /* Focus Mode Styles */ body.focus-mode header .logo-container, body.focus-mode header h1, body.focus-mode .meta-badges, body.focus-mode #btn-bookmark, body.focus-mode #question-map-btn, body.focus-mode #details-panel, body.focus-mode #btn-review { display: none !important; } body.focus-mode header { background-color: #ffffff; border-bottom-color: transparent; } body.focus-mode { background-color: #ffffff; } body.focus-mode footer { background-color: transparent; box-shadow: none; border-top: none; } /* Question Fade Transition */ .q-animate { animation: fadeInSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards; } @keyframes fadeInSlide { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } } /* Custom Scrollbar for Map */ .custom-scrollbar::-webkit-scrollbar { width: 6px; } .custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; } .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; } .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; } /* Progress Bar Animation */ .progress-bar-fill { transition: width 0.3s ease; } #question-map-panel { transition: transform 0.3s ease-in-out; } .map-btn { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; font-size: 0.875rem; font-weight: 500; border-radius: 0.375rem; border: 1px solid #e5e7eb; cursor: pointer; transition: all 0.2s; } .map-btn:hover { border-color: #9ca3af; } .status-unvisited { background: #ffffff; color: #374151; } .status-skipped { background: #fef08a; border-color: #eab308; color: #854d0e; } .status-correct { background: #22c55e; border-color: #16a34a; color: white; } .status-incorrect { background: #ef4444; border-color: #dc2626; color: white; } .status-review { background: #a855f7; border-color: #9333ea; color: white; } #explanation-box { animation: slideDown 0.3s ease-out forwards; } @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } } </style> </head> <body class="flex flex-col h-screen text-gray-800"> <!-- DASHBOARD PAGE --> <div id="dashboard-page" class="fixed inset-0 z-[60] bg-[#f8fafc] overflow-y-auto hidden flex-col items-center"> <div class="max-w-3xl mx-auto w-full p-4 md:p-8 mt-4 md:mt-12"> <div class="flex items-center gap-3 mb-8"> <div class="bg-blue-600 text-white p-3 rounded-xl shadow-lg shadow-blue-600/30"> <i class="ph ph-exam text-3xl"></i> </div> <div> <h1 class="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight">Quiz Dashboard</h1> <p class="text-slate-500 font-medium mt-1">Track your performance and start mock tests.</p> </div> </div> <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 mb-8"> <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 border-b border-slate-100 pb-4 gap-4"> <h2 class="text-xl md:text-2xl font-bold text-slate-800 flex items-center gap-2"> <i class="ph-fill ph-chart-line-up text-blue-500"></i> Historical Performance </h2> <button id="btn-clear-history" type="button" onclick="clearAllHistory()" class="px-3 py-1.5 bg-rose-50 text-rose-600 rounded-lg border border-rose-200 hover:bg-rose-100 transition text-sm font-medium flex items-center gap-1 hidden"> <i class="ph ph-trash"></i> Clear All </button> </div> <div id="history-container" class="space-y-4"> <!-- History items will be injected here --> </div> </div> <div class="flex justify-center gap-4 flex-col sm:flex-row"> <button id="btn-start-quiz" onclick="startNewQuiz()" class="bg-blue-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-blue-700 transition shadow-sm hover:shadow-md text-lg w-full sm:w-auto flex items-center justify-center gap-2"> <i class="ph-fill ph-play-circle text-xl"></i> Start New Quiz </button> <button id="btn-resume-quiz" onclick="resumeQuiz()" class="hidden bg-emerald-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-emerald-700 transition shadow-sm hover:shadow-md text-lg w-full sm:w-auto items-center justify-center gap-2"> <i class="ph-fill ph-play-pause text-xl"></i> Resume Quiz </button> </div> </div> </div> <header class="bg-white shadow-sm z-20 flex-shrink-0 transition-colors duration-300">
-    <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-2 overflow-hidden">
-        <div class="flex items-center gap-2 sm:gap-3 logo-container transition-opacity duration-300 min-w-0 flex-shrink">
-            <div class="bg-blue-600 text-white p-1.5 sm:p-2 rounded-lg flex-shrink-0">
-                <i class="ph ph-exam text-xl"></i>
+        /* Custom Radio/Checkmark */
+        .custom-radio {
+            transition: all 0.2s ease;
+        }
+        .radio-dot {
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: scale(0);
+        }
+        .option-btn:hover:not(:disabled) .custom-radio {
+            border-color: #3b82f6;
+        }
+        .correct-ans .custom-radio {
+            border-color: #22c55e;
+            background-color: #dcfce7;
+        }
+        .correct-ans .radio-dot {
+            transform: scale(1);
+            background-color: #22c55e;
+        }
+        .wrong-ans .custom-radio {
+            border-color: #ef4444;
+            background-color: #fee2e2;
+        }
+        .wrong-ans .radio-dot {
+            transform: scale(1);
+            background-color: #ef4444;
+        }
+
+        /* Focus Mode Styles */
+        body.focus-mode header .logo-container,
+        body.focus-mode header h1,
+        body.focus-mode .meta-badges,
+        body.focus-mode #btn-bookmark,
+        body.focus-mode #question-map-btn,
+        body.focus-mode #details-panel,
+        body.focus-mode #btn-review {
+            display: none !important;
+        }
+
+        body.focus-mode header {
+            background-color: #ffffff;
+            border-bottom-color: transparent;
+        }
+        body.focus-mode {
+            background-color: #ffffff;
+        }
+        body.focus-mode footer {
+            background-color: transparent;
+            box-shadow: none;
+            border-top: none;
+        }
+
+        /* Question Fade Transition */
+        .q-animate {
+            animation: fadeInSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+        @keyframes fadeInSlide {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Custom Scrollbar for Map */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Progress Bar Animation */
+        .progress-bar-fill {
+            transition: width 0.3s ease;
+        }
+
+        #question-map-panel {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .map-btn {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: 0.375rem;
+            border: 1px solid #e5e7eb;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .map-btn:hover { border-color: #9ca3af; }
+        .status-unvisited { background: #ffffff; color: #374151; }
+        .status-skipped { background: #fef08a; border-color: #eab308; color: #854d0e; }
+        .status-correct { background: #22c55e; border-color: #16a34a; color: white; }
+        .status-incorrect { background: #ef4444; border-color: #dc2626; color: white; }
+        .status-review { background: #a855f7; border-color: #9333ea; color: white; }
+
+        #explanation-box {
+            animation: slideDown 0.3s ease-out forwards;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="flex flex-col h-screen text-gray-800">
+
+    <!-- DASHBOARD PAGE -->
+    <div id="dashboard-page" class="fixed inset-0 z-[60] bg-[#f8fafc] overflow-y-auto hidden flex-col items-center">
+        <div class="max-w-3xl mx-auto w-full p-4 md:p-8 mt-4 md:mt-12">
+            <div class="flex items-center gap-3 mb-8">
+                <div class="bg-blue-600 text-white p-3 rounded-xl shadow-lg shadow-blue-600/30">
+                    <i class="ph ph-exam text-3xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight">Quiz Dashboard</h1>
+                    <p class="text-slate-500 font-medium mt-1">Track your performance and start mock tests.</p>
+                </div>
             </div>
-            <h1 id="header-title" class="font-bold text-base sm:text-lg md:text-xl text-slate-800 truncate transition-opacity duration-300 min-w-0">Quiz</h1>
-        </div>
-        <div class="flex items-center justify-end gap-1 sm:gap-2 flex-shrink-0 relative">
-            <button onclick="toggleExtraHeader()" class="p-1 sm:p-2 rounded-md hover:bg-slate-100 text-slate-600 flex items-center gap-1 transition" title="Fold/Unfold Header Info">
-                <i id="icon-fold" class="ph ph-caret-up text-[1.25rem] sm:text-xl leading-none"></i>
-                <span class="hidden md:inline text-sm font-medium">Fold</span>
-            </button>
-            <button onclick="toggleFocusMode()" class="p-1 sm:p-2 rounded-md hover:bg-slate-100 text-slate-600 flex items-center gap-1 transition" title="Toggle Zen / Focus Mode">
-                <i id="icon-focus" class="ph ph-corners-out text-[1.25rem] sm:text-xl leading-none"></i>
-                <span id="focus-text" class="hidden md:inline text-sm font-medium">Focus</span>
-            </button>
-            <button onclick="toggleMap()" id="question-map-btn" class="p-1 sm:p-2 rounded-md bg-blue-50 text-blue-600 hover:bg-blue-100 flex items-center gap-1 transition" title="Question Map">
-                <i class="ph ph-grid-four text-[1.25rem] sm:text-xl leading-none"></i>
-                <span class="hidden md:inline text-sm font-medium">Map</span>
-            </button>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 mb-8">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 border-b border-slate-100 pb-4 gap-4">
+                    <h2 class="text-xl md:text-2xl font-bold text-slate-800 flex items-center gap-2">
+                        <i class="ph-fill ph-chart-line-up text-blue-500"></i> Historical Performance
+                    </h2>
+                    <button id="btn-clear-history" type="button" onclick="clearAllHistory()" class="px-3 py-1.5 bg-rose-50 text-rose-600 rounded-lg border border-rose-200 hover:bg-rose-100 transition text-sm font-medium flex items-center gap-1 hidden">
+                        <i class="ph ph-trash"></i> Clear All
+                    </button>
+                </div>
+
+                <div id="history-container" class="space-y-4">
+                    <!-- History items will be injected here -->
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-4 flex-col sm:flex-row">
+                <button id="btn-start-quiz" onclick="startNewQuiz()" class="bg-blue-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-blue-700 transition shadow-sm hover:shadow-md text-lg w-full sm:w-auto flex items-center justify-center gap-2">
+                    <i class="ph-fill ph-play-circle text-xl"></i> Start New Quiz
+                </button>
+                <button id="btn-resume-quiz" onclick="resumeQuiz()" class="hidden bg-emerald-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-emerald-700 transition shadow-sm hover:shadow-md text-lg w-full sm:w-auto items-center justify-center gap-2">
+                    <i class="ph-fill ph-play-pause text-xl"></i> Resume Quiz
+                </button>
+            </div>
         </div>
     </div>
-</header> <div id="details-panel" class="bg-white border-b border-gray-200 flex-shrink-0 overflow-hidden transition-all duration-300" style="height: auto;"> <div class="max-w-5xl mx-auto px-4 py-3"> <div class="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between"> <div class="flex-1 w-full"> <div class="flex justify-between text-sm mb-1"> <span class="font-medium text-gray-600">Quiz Progress</span> <span id="progress-text" class="font-bold text-blue-600">0</span> </div> <div class="w-full bg-gray-200 rounded-full h-2.5"> <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full progress-bar-fill" style="width: 0%"></div> </div> </div> <div class="flex items-center gap-4 w-full md:w-auto"> <div class="flex flex-col flex-1 md:flex-none"> <div class="flex items-center gap-2 text-rose-600 font-bold bg-rose-50 px-3 py-1 rounded-md border border-rose-100"> <i class="ph ph-timer"></i> <span id="timer-text">00:00</span> </div> </div> <div class="flex items-center gap-2 border-l pl-4 border-gray-200"> <button onclick="use5050()" id="btn-5050" class="flex items-center gap-1 bg-amber-100 text-amber-700 hover:bg-amber-200 px-2 py-1 rounded text-sm font-medium transition disabled:opacity-50 disabled:cursor-not-allowed" title="Remove 2 wrong options"> <i class="ph ph-magic-wand"></i> 50:50 </button> <button onclick="changeZoom(-2)" class="p-1 rounded hover:bg-gray-100 text-gray-600" title="Zoom Out"> <i class="ph ph-magnifying-glass-minus text-lg"></i> </button> <button onclick="changeZoom(2)" class="p-1 rounded hover:bg-gray-100 text-gray-600" title="Zoom In"> <i class="ph ph-magnifying-glass-plus text-lg"></i> </button> </div> </div> </div> <div class="w-full bg-gray-100 h-1 mt-3 rounded-full overflow-hidden"> <div id="timer-bar" class="bg-rose-400 h-full w-full origin-left transition-all duration-1000 linear"></div> </div> </div> </div> <div class="flex-1 flex overflow-hidden relative w-full max-w-5xl mx-auto"> <main class="flex-1 overflow-y-auto p-4 md:p-8 custom-scrollbar pb-36" id="quiz-body"> <div id="question-content-wrapper" class="max-w-4xl mx-auto"> <div class="flex flex-wrap items-center justify-between gap-2 mb-6 border-b border-gray-200 pb-4"> <div class="flex flex-wrap items-center gap-2 meta-badges transition-opacity duration-300"> <span class="bg-indigo-50 text-indigo-800 text-xs font-bold px-3 py-1.5 rounded-md tracking-wide uppercase border border-indigo-100 shadow-sm"> Q. <span id="display-seq-num">1</span> of <span id="display-total-num"></span> </span> <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1.5 rounded border border-slate-200 flex items-center gap-1"> <i class="ph ph-hash"></i> Original: Q.<span id="display-actual-num">1</span> </span> <span class="bg-blue-50 text-blue-700 text-xs px-2.5 py-1.5 rounded border border-blue-100 flex items-center gap-1"> <i class="ph ph-exam"></i> <span id="meta-exam"></span> </span> <span class="bg-purple-50 text-purple-700 text-xs px-2.5 py-1.5 rounded border border-purple-100 flex items-center gap-1"> <i class="ph ph-books"></i> <span id="meta-paper"></span> </span> <span class="bg-emerald-50 text-emerald-700 text-xs px-2.5 py-1.5 rounded border border-emerald-100 flex items-center gap-1"> <i class="ph ph-calendar-blank"></i> <span id="meta-date"></span> </span> </div> <button onclick="toggleBookmark()" id="btn-bookmark" class="text-gray-400 hover:text-yellow-500 transition p-2 rounded-full hover:bg-yellow-50" title="Bookmark Question"> <i class="ph-fill ph-star text-2xl drop-shadow-sm" id="icon-bookmark"></i> </button> </div> <div class="mb-8"> <h2 id="question-text" class="text-[1.25em] md:text-[1.5em] font-bold leading-relaxed text-slate-800 mb-6 tracking-tight"> </h2> <div id="assertion-reason-container" class="hidden mb-8"> </div> <div id="match-list-container" class="hidden mb-8"> </div> <div id="statements-container" class="hidden mb-8 text-slate-700 bg-white p-5 border border-slate-200 rounded-xl shadow-sm"> </div> <div id="options-container" class="space-y-3.5"> </div> </div> <div id="explanation-container" class="hidden mt-10 mb-6"> <div class="bg-white rounded-xl p-5 border border-gray-200 shadow-sm relative mt-2"> <div class="absolute -top-3 left-4 bg-gray-800 text-white px-3 py-0.5 rounded-full text-[0.75em] font-bold shadow-sm"> Correct Solution & Explanation </div> <div class="mt-4 text-gray-700 leading-relaxed text-[0.95em]" id="explanation-text"> </div> <div class="mt-5 pt-5 border-t border-slate-100 flex justify-end"> <button onclick="nextQuestion()" class="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 font-medium transition flex items-center gap-2 shadow-sm hover:shadow"> Next Question <i class="ph ph-arrow-right"></i> </button> </div> </div> </div> </div> </main> <aside id="question-map-panel" class="absolute inset-y-0 right-0 w-80 bg-white border-l border-gray-200 shadow-2xl z-30 translate-x-full flex flex-col"> <div class="p-4 border-b flex justify-between items-center bg-gray-50"> <h3 class="font-bold text-gray-700 flex items-center gap-2"><i class="ph ph-grid-four"></i> Question Map</h3> <button onclick="toggleMap()" class="text-gray-500 hover:text-red-500 bg-white p-1 rounded-md border border-gray-200"> <i class="ph ph-x text-lg"></i> </button> </div> <div class="p-3 bg-white border-b grid grid-cols-2 gap-2 text-xs"> <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-white border border-gray-300"></div> Unvisited</div> <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-yellow-200 border border-yellow-400"></div> Skipped</div> <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-green-500"></div> Correct</div> <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-red-500"></div> Incorrect</div> <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-purple-500"></div> Marked Review</div> </div> <div class="flex-1 overflow-y-auto p-4 custom-scrollbar"> <div id="map-grid" class="grid grid-cols-5 gap-2"> </div> </div> </aside> <div id="map-overlay" class="absolute inset-0 bg-black/20 z-20 hidden" onclick="toggleMap()"></div> </div> <footer id="quiz-footer" class="fixed bottom-0 sm:bottom-4 left-0 sm:left-4 right-0 sm:right-4 z-40 bg-white border-t sm:border border-gray-200 sm:rounded-xl shadow-[0_-4px_20px_rgba(0,0,0,0.08)] max-w-5xl mx-auto transition-all pb-2 sm:pb-0"> <div class="px-4 h-16 flex items-center justify-between"> <button onclick="prevQuestion()" id="btn-prev" class="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50 disabled:opacity-50 transition font-medium text-sm sm:text-base"> <i class="ph ph-caret-left"></i> <span class="hidden sm:inline">Previous</span> </button> <button onclick="toggleMarkReview()" id="btn-review" class="flex items-center gap-2 px-3 sm:px-4 py-2 border border-purple-200 bg-purple-50 rounded-md text-purple-700 hover:bg-purple-100 transition font-medium text-sm sm:text-base"> <i class="ph ph-flag"></i> <span class="hidden sm:inline" id="review-text">Mark for Review</span> </button> <button onclick="nextQuestion()" id="btn-next" class="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 bg-blue-600 rounded-md text-white hover:bg-blue-700 disabled:opacity-50 transition font-medium text-sm sm:text-base shadow-sm"> Next <i class="ph ph-caret-right"></i> </button> </div> </footer> <div id="result-page" class="hidden absolute inset-0 z-50 bg-[#f3f4f6] overflow-y-auto p-4 md:p-8 flex flex-col items-center justify-center"> <div class="bg-white border border-gray-200 shadow-xl rounded-2xl p-6 md:p-10 w-full max-w-3xl text-center relative mt-auto mb-auto"> <div class="inline-flex justify-center items-center w-20 h-20 rounded-full bg-green-100 mb-6 border-4 border-white shadow-sm"> <i class="ph-fill ph-trophy text-4xl text-green-600"></i> </div> <h2 class="text-3xl font-bold text-gray-800 mb-2">Quiz Completed!</h2> <p class="text-gray-500 mb-8" id="result-subtitle">Here is your performance summary</p> <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"> <div class="bg-blue-50 border border-blue-100 rounded-xl p-4 transition hover:shadow-md"> <div class="text-3xl font-bold text-blue-700 mb-1" id="res-total">0</div> <div class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Total</div> </div> <div class="bg-green-50 border border-green-100 rounded-xl p-4 transition hover:shadow-md"> <div class="text-3xl font-bold text-green-700 mb-1" id="res-correct">0</div> <div class="text-xs font-semibold text-green-600 uppercase tracking-wider">Correct</div> </div> <div class="bg-red-50 border border-red-100 rounded-xl p-4 transition hover:shadow-md"> <div class="text-3xl font-bold text-red-700 mb-1" id="res-wrong">0</div> <div class="text-xs font-semibold text-red-600 uppercase tracking-wider">Incorrect</div> </div> <div class="bg-purple-50 border border-purple-100 rounded-xl p-4 transition hover:shadow-md"> <div class="text-3xl font-bold text-purple-700 mb-1" id="res-accuracy">0%</div> <div class="text-xs font-semibold text-purple-600 uppercase tracking-wider">Accuracy</div> </div> </div> <div class="flex flex-col sm:flex-row items-center justify-center gap-4"> <button onclick="startReviewMode()" class="w-full sm:w-auto px-8 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 font-medium transition shadow-md flex items-center justify-center gap-2"> <i class="ph ph-magnifying-glass"></i> Review Answers </button> <button onclick="goToDashboard()" class="w-full sm:w-auto px-8 py-3 bg-white border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 font-medium transition shadow-sm flex items-center justify-center gap-2"> <i class="ph ph-house"></i> Go to Dashboard </button> </div> </div> </div> <script> 
 
-/* Fold details logic removed in favor of toggleExtraHeader */ /* --- QUIZ CONFIGURATION --- */
-const config = {
-  examName: "70th BPSC Mains CSE",
-  examDate: "30/04/2025",
-  subject: "History Optional",
-  paperName: "GK/GS Paper",
-  timeInMinutes: 150,
-  totalQuestions: 100
-};
+    <header class="bg-white shadow-sm z-20 flex-shrink-0 transition-colors duration-300">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3 logo-container transition-opacity duration-300 flex-1 min-w-0 pr-2">
+                <div class="bg-blue-600 text-white p-2 rounded-lg flex-shrink-0">
+                    <i class="ph ph-exam text-xl"></i>
+                </div>
+                <h1 id="header-title" class="font-bold text-lg md:text-xl text-slate-800 truncate transition-opacity duration-300">Quiz</h1>
+            </div>
+            <div class="flex items-center gap-2 md:gap-4 flex-shrink-0">
+                <button onclick="toggleFocusMode()" class="p-2 rounded-md hover:bg-slate-100 text-slate-600 flex items-center gap-2 transition" title="Toggle Zen / Focus Mode">
+                    <i id="icon-focus" class="ph ph-corners-out text-xl"></i>
+                    <span id="focus-text" class="hidden md:inline text-sm font-medium">Focus</span>
+                </button>
+                <button onclick="toggleMap()" id="question-map-btn" class="p-2 rounded-md bg-blue-50 text-blue-600 hover:bg-blue-100 flex items-center gap-2 transition" title="Question Map">
+                    <i class="ph ph-list-dashes text-xl"></i>
+                    <span class="hidden md:inline font-medium">Map</span>
+                </button>
+            </div>
+        </div>
+    </header>
 
-const STATE_KEY = "upscQuizState_" + config.examDate.replace(/\//g, "-") + "_" + (config.subject||"").replace(/[^a-zA-Z0-9]/g,"");
-const HISTORY_KEY = "upscQuizHistory_" + config.examDate.replace(/\//g, "-") + "_" + (config.subject||"").replace(/[^a-zA-Z0-9]/g,"");
+    <div id="details-panel" class="bg-white border-b border-gray-200 flex-shrink-0 overflow-hidden transition-all duration-300" style="height: auto;">
+        <div class="max-w-5xl mx-auto px-4 py-3">
+            <div class="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
+
+                <div class="flex-1 w-full">
+                    <div class="flex justify-between text-sm mb-1">
+                        <span class="font-medium text-gray-600">Quiz Progress</span>
+                        <span id="progress-text" class="font-bold text-blue-600">0</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full progress-bar-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4 w-full md:w-auto">
+                    <div class="flex flex-col flex-1 md:flex-none">
+                        <div class="flex items-center gap-2 text-rose-600 font-bold bg-rose-50 px-3 py-1 rounded-md border border-rose-100">
+                            <i class="ph ph-timer"></i>
+                            <span id="timer-text">00:00</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-2 border-l pl-4 border-gray-200">
+                        <button onclick="use5050()" id="btn-5050" class="flex items-center gap-1 bg-amber-100 text-amber-700 hover:bg-amber-200 px-2 py-1 rounded text-sm font-medium transition disabled:opacity-50 disabled:cursor-not-allowed" title="Remove 2 wrong options">
+                            <i class="ph ph-magic-wand"></i> 50:50
+                        </button>
+                        <button onclick="changeZoom(-2)" class="p-1 rounded hover:bg-gray-100 text-gray-600" title="Zoom Out">
+                            <i class="ph ph-magnifying-glass-minus text-lg"></i>
+                        </button>
+                        <button onclick="changeZoom(2)" class="p-1 rounded hover:bg-gray-100 text-gray-600" title="Zoom In">
+                            <i class="ph ph-magnifying-glass-plus text-lg"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full bg-gray-100 h-1 mt-3 rounded-full overflow-hidden">
+                <div id="timer-bar" class="bg-rose-400 h-full w-full origin-left transition-all duration-1000 linear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-1 flex overflow-hidden relative w-full max-w-5xl mx-auto">
+
+        <main class="flex-1 overflow-y-auto p-4 md:p-8 custom-scrollbar pb-36" id="quiz-body">
+
+            <div id="question-content-wrapper" class="max-w-4xl mx-auto">
+                <div class="relative border-b border-gray-200 pb-4 mb-6">
+                    <button onclick="toggleExtraInfo()" id="btn-fold-info" class="absolute right-0 top-0 text-gray-500 hover:text-gray-800 bg-gray-100 hover:bg-gray-200 rounded-full p-1 transition z-10" title="Toggle Header Info">
+                        <i id="icon-fold" class="ph ph-caret-up text-lg"></i>
+                    </button>
+                    <div id="extra-info-container" class="flex flex-wrap items-center justify-between gap-2 pr-10 overflow-hidden transition-all duration-300">
+                    <div class="flex flex-wrap items-center gap-2 meta-badges transition-opacity duration-300">
+                        <span class="bg-indigo-50 text-indigo-800 text-xs font-bold px-3 py-1.5 rounded-md tracking-wide uppercase border border-indigo-100 shadow-sm">
+                            Q. <span id="display-seq-num">1</span> of <span id="display-total-num"></span>
+                        </span>
+                        <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1.5 rounded border border-slate-200 flex items-center gap-1">
+                            <i class="ph ph-hash"></i> Original: Q.<span id="display-actual-num">1</span>
+                        </span>
+                        <span class="bg-blue-50 text-blue-700 text-xs px-2.5 py-1.5 rounded border border-blue-100 flex items-center gap-1">
+                            <i class="ph ph-exam"></i> <span id="meta-exam"></span>
+                        </span>
+                        <span class="bg-purple-50 text-purple-700 text-xs px-2.5 py-1.5 rounded border border-purple-100 flex items-center gap-1">
+                            <i class="ph ph-books"></i> <span id="meta-paper"></span>
+                        </span>
+                        <span class="bg-emerald-50 text-emerald-700 text-xs px-2.5 py-1.5 rounded border border-emerald-100 flex items-center gap-1">
+                            <i class="ph ph-calendar-blank"></i> <span id="meta-date"></span>
+                        </span>
+                    </div>
+                    <button onclick="toggleBookmark()" id="btn-bookmark" class="text-gray-400 hover:text-yellow-500 transition p-2 rounded-full hover:bg-yellow-50" title="Bookmark Question">
+                        <i class="ph-fill ph-star text-2xl drop-shadow-sm" id="icon-bookmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h2 id="question-text" class="text-[1.25em] md:text-[1.5em] font-bold leading-relaxed text-slate-800 mb-6 tracking-tight">
+                        </h2>
+
+                    <div id="assertion-reason-container" class="hidden mb-8">
+                        </div>
+
+                    <div id="match-list-container" class="hidden mb-8">
+                        </div>
+
+                    <div id="statements-container" class="hidden mb-8 text-slate-700 bg-white p-5 border border-slate-200 rounded-xl shadow-sm">
+                        </div>
+
+                    <div id="options-container" class="space-y-3.5">
+                        </div>
+                </div>
+
+                <div id="explanation-container" class="hidden mt-10 mb-6">
+                <div class="bg-white rounded-xl p-5 border border-gray-200 shadow-sm relative mt-2">
+                    <div class="absolute -top-3 left-4 bg-gray-800 text-white px-3 py-0.5 rounded-full text-[0.75em] font-bold shadow-sm">
+                        Correct Solution & Explanation
+                    </div>
+                    <div class="mt-4 text-gray-700 leading-relaxed text-[0.95em]" id="explanation-text">
+                        </div>
+
+                    <div class="mt-5 pt-5 border-t border-slate-100 flex justify-end">
+                        <button onclick="nextQuestion()" class="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 font-medium transition flex items-center gap-2 shadow-sm hover:shadow">
+                            Next Question <i class="ph ph-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </main>
+
+        <aside id="question-map-panel" class="absolute inset-y-0 right-0 w-80 bg-white border-l border-gray-200 shadow-2xl z-30 translate-x-full flex flex-col">
+            <div class="p-4 border-b flex justify-between items-center bg-gray-50">
+                <h3 class="font-bold text-gray-700 flex items-center gap-2"><i class="ph ph-grid-four"></i> Question Map</h3>
+                <button onclick="toggleMap()" class="text-gray-500 hover:text-red-500 bg-white p-1 rounded-md border border-gray-200">
+                    <i class="ph ph-x text-lg"></i>
+                </button>
+            </div>
+
+            <div class="p-3 bg-white border-b grid grid-cols-2 gap-2 text-xs">
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-white border border-gray-300"></div> Unvisited</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-yellow-200 border border-yellow-400"></div> Skipped</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-green-500"></div> Correct</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-red-500"></div> Incorrect</div>
+                <div class="flex items-center gap-1"><div class="w-3 h-3 rounded-full bg-purple-500"></div> Marked Review</div>
+            </div>
+
+            <div class="flex-1 overflow-y-auto p-4 custom-scrollbar">
+                <div id="map-grid" class="grid grid-cols-5 gap-2">
+                    </div>
+            </div>
+        </aside>
+
+        <div id="map-overlay" class="absolute inset-0 bg-black/20 z-20 hidden" onclick="toggleMap()"></div>
+    </div>
+
+    <footer id="quiz-footer" class="fixed bottom-0 sm:bottom-4 left-0 sm:left-4 right-0 sm:right-4 z-40 bg-white border-t sm:border border-gray-200 sm:rounded-xl shadow-[0_-4px_20px_rgba(0,0,0,0.08)] max-w-5xl mx-auto transition-all pb-2 sm:pb-0">
+        <div class="px-4 h-16 flex items-center justify-between">
+            <button onclick="prevQuestion()" id="btn-prev" class="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50 disabled:opacity-50 transition font-medium text-sm sm:text-base">
+                <i class="ph ph-caret-left"></i> <span class="hidden sm:inline">Previous</span>
+            </button>
+
+            <button onclick="toggleMarkReview()" id="btn-review" class="flex items-center gap-2 px-3 sm:px-4 py-2 border border-purple-200 bg-purple-50 rounded-md text-purple-700 hover:bg-purple-100 transition font-medium text-sm sm:text-base">
+                <i class="ph ph-flag"></i> <span class="hidden sm:inline" id="review-text">Mark for Review</span>
+            </button>
+
+            <button onclick="nextQuestion()" id="btn-next" class="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 bg-blue-600 rounded-md text-white hover:bg-blue-700 disabled:opacity-50 transition font-medium text-sm sm:text-base shadow-sm">
+                Next <i class="ph ph-caret-right"></i>
+            </button>
+        </div>
+    </footer>
+
+    <div id="result-page" class="hidden absolute inset-0 z-50 bg-[#f3f4f6] overflow-y-auto p-4 md:p-8 flex flex-col items-center justify-center">
+        <div class="bg-white border border-gray-200 shadow-xl rounded-2xl p-6 md:p-10 w-full max-w-3xl text-center relative mt-auto mb-auto">
+            <div class="inline-flex justify-center items-center w-20 h-20 rounded-full bg-green-100 mb-6 border-4 border-white shadow-sm">
+                <i class="ph-fill ph-trophy text-4xl text-green-600"></i>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-2">Quiz Completed!</h2>
+            <p class="text-gray-500 mb-8" id="result-subtitle">Here is your performance summary</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                <div class="bg-blue-50 border border-blue-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-blue-700 mb-1" id="res-total">0</div>
+                    <div class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Total</div>
+                </div>
+                <div class="bg-green-50 border border-green-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-green-700 mb-1" id="res-correct">0</div>
+                    <div class="text-xs font-semibold text-green-600 uppercase tracking-wider">Correct</div>
+                </div>
+                <div class="bg-red-50 border border-red-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-red-700 mb-1" id="res-wrong">0</div>
+                    <div class="text-xs font-semibold text-red-600 uppercase tracking-wider">Incorrect</div>
+                </div>
+                <div class="bg-purple-50 border border-purple-100 rounded-xl p-4 transition hover:shadow-md">
+                    <div class="text-3xl font-bold text-purple-700 mb-1" id="res-accuracy">0%</div>
+                    <div class="text-xs font-semibold text-purple-600 uppercase tracking-wider">Accuracy</div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button onclick="startReviewMode()" class="w-full sm:w-auto px-8 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 font-medium transition shadow-md flex items-center justify-center gap-2">
+                    <i class="ph ph-magnifying-glass"></i> Review Answers
+                </button>
+                <button onclick="goToDashboard()" class="w-full sm:w-auto px-8 py-3 bg-white border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 font-medium transition shadow-sm flex items-center justify-center gap-2">
+                    <i class="ph ph-house"></i> Go to Dashboard
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- QUIZ CONFIGURATION ---
+        const config = {
+            examName: "70th BPSC History Optional Quiz",
+            examDate: "April 2025",
+            subject: "History Optional",
+            paperName: "History Paper",
+            timeInMinutes: 150,
+            totalQuestions: 100
+        };
 
 const baseData = 
 
@@ -1866,119 +2243,910 @@ const baseData =
         }
     }
 ];
- /* Generate Quiz Data based on config */
-const quizData = [ ...baseData, ...Array.from({ length: Math.max(0, config.totalQuestions - baseData.length) }, (_, i) => ({ q: `Additional Question ${baseData.length + i + 1} (Placeholder) / अतिरिक्त प्रश्न ${baseData.length + i + 1} (प्लेसहोल्डर)`, o: ["Option A / विकल्प A", "Option B / विकल्प B", "Option C / विकल्प C", "Option D / विकल्प D"], a: 0, e: { concept: "This is a placeholder question.", correct: "Option A is right by default for placeholders.", wrong: "Fallback for other options." } })) ].slice(0, config.totalQuestions); 
-/* Quiz State */
-let currentQuestion = 0; let totalTimeSeconds = config.timeInMinutes * 60; let timerInterval; let zoomLevel = 16; 
-/* Data Structures */
-/* for state tracking */ /* status: 0=unvisited, 1=skipped/visited, 2=answered, 3=review */
-const questionStatus = Array(config.totalQuestions).fill(0); const userAnswers = Array(config.totalQuestions).fill(null); const lifelinesUsed = Array(config.totalQuestions).fill(false); const bookmarks = Array(config.totalQuestions).fill(false); const optionPrefixes = ['(A)', '(B)', '(C)', '(D)']; 
-/* DOM Elements setup */
-document.getElementById('header-title').innerText = `${config.examName} - ${config.subject}`; document.getElementById('display-total-num').innerText = config.totalQuestions; document.getElementById('meta-exam').innerText = config.examName; document.getElementById('meta-paper').innerText = config.paperName; document.getElementById('meta-date').innerText = config.examDate; const elDetailsPanel = document.getElementById('details-panel'); const elMapPanel = document.getElementById('question-map-panel'); const elMapOverlay = document.getElementById('map-overlay'); const elQuestionText = document.getElementById('question-text'); const elStatementsContainer = document.getElementById('statements-container'); const elAssertionReasonContainer = document.getElementById('assertion-reason-container'); const elMatchListContainer = document.getElementById('match-list-container'); const elOptionsContainer = document.getElementById('options-container'); const elExplanationContainer = document.getElementById('explanation-container'); const elExplanationText = document.getElementById('explanation-text'); const elDisplaySeqNum = document.getElementById('display-seq-num'); const elDisplayActualNum = document.getElementById('display-actual-num'); const elProgressText = document.getElementById('progress-text'); const elProgressBar = document.getElementById('progress-bar'); const elTimerText = document.getElementById('timer-text'); const elTimerBar = document.getElementById('timer-bar'); const elMapGrid = document.getElementById('map-grid'); const elBtnPrev = document.getElementById('btn-prev'); const elBtnNext = document.getElementById('btn-next'); const elBtnReview = document.getElementById('btn-review'); const elBtn5050 = document.getElementById('btn-5050'); const elIconBookmark = document.getElementById('icon-bookmark'); let isQuizFinished = false; let attemptId = null; let quizHistory = []; 
+        // Generate Quiz Data based on config
+        const quizData = [
+            ...baseData,
+            ...Array.from({ length: Math.max(0, config.totalQuestions - baseData.length) }, (_, i) => ({
+                q: `Additional Question ${baseData.length + i + 1} (Placeholder) / अतिरिक्त प्रश्न ${baseData.length + i + 1} (प्लेसहोल्डर)`,
+                o: ["Option A / विकल्प A", "Option B / विकल्प B", "Option C / विकल्प C", "Option D / विकल्प D"],
+                a: 0,
+                e: {
+                    concept: "This is a placeholder question.",
+                    correct: "Option A is right by default for placeholders.",
+                    wrong: "Fallback for other options."
+                }
+            }))
+        ].slice(0, config.totalQuestions);
 
-/* --- HAPTIC & AUDIO FEEDBACK SYSTEM --- */
-const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-let audioCtx = null;
-try {
-  if (AudioContextClass) {
-    audioCtx = new AudioContextClass();
-  }
-} catch(e) {
-  console.log("AudioContext init blocked or failed: ", e);
-} function triggerFeedback(type) { try { /* Haptics if available */
-if (navigator.vibrate) { if (type === 'click') navigator.vibrate(10); else if (type === 'swipe') navigator.vibrate(15); else if (type === 'action') navigator.vibrate([10, 20, 10]); } /* Audio */
-if (audioCtx && audioCtx.state === 'suspended') { audioCtx.resume(); } if (audioCtx) { const oscillator = audioCtx.createOscillator(); const gainNode = audioCtx.createGain(); oscillator.connect(gainNode); gainNode.connect(audioCtx.destination); if (type === 'click') { oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(600, audioCtx.currentTime); oscillator.frequency.exponentialRampToValueAtTime(300, audioCtx.currentTime + 0.1); gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime); gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1); oscillator.start(); oscillator.stop(audioCtx.currentTime + 0.1); } else if (type === 'swipe') { oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(300, audioCtx.currentTime); oscillator.frequency.exponentialRampToValueAtTime(400, audioCtx.currentTime + 0.1); gainNode.gain.setValueAtTime(0.03, audioCtx.currentTime); gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1); oscillator.start(); oscillator.stop(audioCtx.currentTime + 0.1); } else if (type === 'action') { oscillator.type = 'triangle'; oscillator.frequency.setValueAtTime(400, audioCtx.currentTime); oscillator.frequency.setValueAtTime(600, audioCtx.currentTime + 0.05); gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime); gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1); oscillator.start(); oscillator.stop(audioCtx.currentTime + 0.1); } } } catch(e) {} } /* --- GESTURE NAVIGATION (SWIPE-TO-CHANGE) --- */
-let touchStartX = 0; let touchStartY = 0; let touchEndX = 0; let touchEndY = 0; const quizBody = document.getElementById('quiz-body'); if (quizBody) { quizBody.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; touchStartY = e.changedTouches[0].screenY; }, {passive: true}); quizBody.addEventListener('touchend', e => { touchEndX = e.changedTouches[0].screenX; touchEndY = e.changedTouches[0].screenY; handleGesture(); }, {passive: true}); } function handleGesture() { /* Check if horizontal swipe and large enough */
-const diffX = touchEndX - touchStartX; const diffY = touchEndY - touchStartY; if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 60) { if (diffX < 0) { /* Swipe Left -> Next */
-if (!elBtnNext.disabled) { nextQuestion(true); } } else { /* Swipe Right -> Prev */
-if (!elBtnPrev.disabled) { prevQuestion(true); } } } } function saveState() { const state = { attemptId, currentQuestion, totalTimeSeconds, questionStatus, userAnswers, lifelinesUsed, bookmarks, isQuizFinished }; try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch(e) {} } function restoreState() { let saved = null; try { saved = localStorage.getItem(STATE_KEY); } catch(e) {} if(saved) { try { const state = JSON.parse(saved); attemptId = state.attemptId || null; currentQuestion = state.currentQuestion || 0;
-      if (currentQuestion >= config.totalQuestions) currentQuestion = 0; if(state.totalTimeSeconds !== undefined) totalTimeSeconds = state.totalTimeSeconds; isQuizFinished = state.isQuizFinished || false; if(state.questionStatus) state.questionStatus.forEach((v, i) => { if(i < questionStatus.length) questionStatus[i] = v; }); if(state.userAnswers) state.userAnswers.forEach((v, i) => { if(i < userAnswers.length) userAnswers[i] = v; }); if(state.lifelinesUsed) state.lifelinesUsed.forEach((v, i) => { if(i < lifelinesUsed.length) lifelinesUsed[i] = v; }); if(state.bookmarks) state.bookmarks.forEach((v, i) => { if(i < bookmarks.length) bookmarks[i] = v; }); return true; } catch(e) { console.error("Error restoring state", e); } } return false; } function loadHistory() { let saved = null; try { saved = localStorage.getItem(HISTORY_KEY); } catch(e) {} if (saved) { try { quizHistory = JSON.parse(saved); /* Ensure every item has a unique ID for reliable deletion/review */
-let updated = false; quizHistory.forEach((h, i) => { if (!h.id) { h.id = 'attempt_' + Date.now() + '_' + i + '_' + Math.random().toString(36).substring(2, 9); updated = true; } else { /* Ensure it's a string */
-h.id = String(h.id); } }); if (updated) { try { try { localStorage.setItem(HISTORY_KEY, JSON.stringify(quizHistory)); } catch(e) {} } catch(e) {} } } catch(e) { quizHistory = []; } } } function formatDate(isoStr) { const d = new Date(isoStr); const day = d.getDate(); const suffix = ['th', 'st', 'nd', 'rd'][(day % 10 > 3 || Math.floor(day % 100 / 10) === 1) ? 0 : day % 10]; const month = d.toLocaleString('en-US', { month: 'short' }); return `${day}${suffix} ${month}, ${d.getFullYear()}`; } function renderDashboard(hasActiveQuiz) { document.getElementById('dashboard-page').classList.remove('hidden'); document.getElementById('dashboard-page').classList.add('flex'); const historyContainer = document.getElementById('history-container'); const btnClearHistory = document.getElementById('btn-clear-history'); if (quizHistory.length === 0) { if (btnClearHistory) btnClearHistory.classList.add('hidden'); historyContainer.innerHTML = '<div class="text-slate-500 text-center py-8 bg-slate-50 rounded-xl border border-dashed border-slate-300 font-medium tracking-wide">No past attempts found. Take your first mock test!</div>'; } else { if (btnClearHistory) btnClearHistory.classList.remove('hidden'); let html = ''; [...quizHistory].reverse().forEach((attempt, index) => { const date = formatDate(attempt.date); const attemptNum = quizHistory.length - index; html += ` <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-slate-100 transition shadow-sm hover:shadow"> <div class="flex items-center gap-4 mb-3 sm:mb-0"> <div class="w-12 h-12 flex-shrink-0 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-lg shadow-inner"> #${attemptNum} </div> <div> <div class="font-bold text-slate-800 text-lg">Attempt ${attemptNum}</div> <div class="text-sm text-slate-500 flex items-center gap-1"><i class="ph ph-calendar-blank"></i> ${date}</div> </div> </div> <div class="flex items-center gap-4 sm:gap-6 pl-16 sm:pl-0"> <div class="text-left sm:text-right"> <div class="text-2xl font-bold ${attempt.score >= 70 ? 'text-emerald-600' : attempt.score >= 40 ? 'text-amber-500' : 'text-rose-500'}">${attempt.score}%</div> <div class="text-xs text-slate-500 uppercase font-bold tracking-wider">Accuracy</div> </div> <div class="flex items-center gap-2"> ${attempt.userAnswers ? `<button type="button" onclick="event.stopPropagation(); reviewPastAttempt('${attempt.id}')" class="px-4 py-2 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition shadow-sm font-medium text-sm flex flex-shrink-0 items-center justify-center gap-1.5"><i class="ph ph-magnifying-glass text-lg"></i> Review</button>` : `<div class="text-xs text-slate-400 italic w-24 text-center">No details</div>`} <button type="button" onclick="event.stopPropagation(); deleteHistoryItem('${attempt.id}')" class="px-3 py-2 bg-white border border-slate-300 rounded-lg text-rose-500 hover:bg-rose-50 hover:border-rose-200 transition shadow-sm flex flex-shrink-0 items-center justify-center" title="Delete attempt"><i class="ph ph-trash text-lg"></i></button> </div> </div> </div> `; }); historyContainer.innerHTML = html; } if (hasActiveQuiz) { document.getElementById('btn-start-quiz').classList.add('hidden'); document.getElementById('btn-start-quiz').classList.remove('flex'); document.getElementById('btn-resume-quiz').classList.remove('hidden'); document.getElementById('btn-resume-quiz').classList.add('flex'); } else { document.getElementById('btn-start-quiz').classList.remove('hidden'); document.getElementById('btn-start-quiz').classList.add('flex'); document.getElementById('btn-resume-quiz').classList.add('hidden'); document.getElementById('btn-resume-quiz').classList.remove('flex'); } } /* Initialization */
-function init() { loadHistory(); const hasState = restoreState(); if (isQuizFinished) { renderDashboard(false); } else if (hasState) { renderDashboard(true); } else { renderDashboard(false); } } function startNewQuiz() { try { localStorage.removeItem(STATE_KEY); } catch(e) {} attemptId = 'attempt_' + Date.now(); currentQuestion = 0; totalTimeSeconds = config.timeInMinutes * 60; questionStatus.fill(0); userAnswers.fill(null); lifelinesUsed.fill(false); bookmarks.fill(false); isQuizFinished = false; saveState(); document.getElementById('dashboard-page').classList.add('hidden'); document.getElementById('dashboard-page').classList.remove('flex'); initQuizUI(); } function resumeQuiz() { document.getElementById('dashboard-page').classList.add('hidden'); document.getElementById('dashboard-page').classList.remove('flex'); initQuizUI(); } function deleteHistoryItem(id) { if(!confirm("Are you sure you want to delete this attempt permanently?")) return; const initialLength = quizHistory.length; quizHistory = quizHistory.filter(h => String(h.id) !== String(id)); try { try { localStorage.setItem(HISTORY_KEY, JSON.stringify(quizHistory)); } catch(e) {} } catch(e) {} location.reload(); } function clearAllHistory() { if(!confirm("Are you sure you want to delete ALL your historical attempts permanently? This action cannot be undone.")) return; quizHistory = []; try { localStorage.removeItem(HISTORY_KEY); } catch(e) {} location.reload(); } function reviewPastAttempt(id) { if (!isQuizFinished && userAnswers.some(ans => ans !== null)) { if(!confirm("You have a quiz currently in progress! Entering review mode for a past attempt will OVERWRITE your current progress. Continue?")) { return; } } const historyItem = quizHistory.find(h => String(h.id) === String(id)); if (!historyItem || !historyItem.userAnswers) { alert("Detailed data is not available for this older attempt."); return; } /* Load state from historyItem */
-attemptId = historyItem.id || null; /* Set global attemptId */
-currentQuestion = 0; isQuizFinished = true; /* Review mode is finished quiz Note: need to clear total time just in case */
-totalTimeSeconds = 0; /* Deep copy to not mutate history */
-historyItem.questionStatus.forEach((v, i) => questionStatus[i] = v); historyItem.userAnswers.forEach((v, i) => userAnswers[i] = v); historyItem.bookmarks.forEach((v, i) => bookmarks[i] = v); historyItem.lifelinesUsed.forEach((v, i) => lifelinesUsed[i] = v); saveState(); /* Save state so reloading holds this attempt */
-document.getElementById('dashboard-page').classList.add('hidden'); document.getElementById('dashboard-page').classList.remove('flex'); generateMapGrid(); /* Force hide results page if it was inadvertently shown */
-document.getElementById('result-page').classList.add('hidden'); loadQuestion(0); } function initQuizUI() { generateMapGrid(); loadQuestion(currentQuestion); startTimer(); updateProgress(); } /* Load specific question */
-function loadQuestion(index) { if(index < 0 || index >= quizData.length) return; /* Trigger Fade Animation */
-const contentWrapper = document.getElementById('question-content-wrapper'); if (contentWrapper) { contentWrapper.classList.remove('q-animate'); void contentWrapper.offsetWidth; /* trigger reflow */
-contentWrapper.classList.add('q-animate'); } /* Mark previously active as skipped if not answered/review */
-if(questionStatus[currentQuestion] === 0) { questionStatus[currentQuestion] = 1; } currentQuestion = index; const qData = quizData[currentQuestion]; /* Update UI markers */
-elDisplaySeqNum.innerText = currentQuestion + 1; elDisplayActualNum.innerText = currentQuestion + 1; elQuestionText.innerHTML = qData.q; /* Reset complex question containers */
-elStatementsContainer.innerHTML = ''; elStatementsContainer.classList.add('hidden'); elAssertionReasonContainer.innerHTML = ''; elAssertionReasonContainer.classList.add('hidden'); elMatchListContainer.innerHTML = ''; elMatchListContainer.classList.add('hidden'); /* Render Statements if they exist */
-if (qData.statements && qData.statements.length > 0) { let html = '<ol class="list-decimal pl-5 space-y-2">'; qData.statements.forEach(stmt => { html += `<li>${stmt}</li>`; }); html += '</ol>'; elStatementsContainer.innerHTML = html; elStatementsContainer.classList.remove('hidden'); } /* Render Assertion-Reason */
-if (qData.type === 'assertion') { elAssertionReasonContainer.innerHTML = ` <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mb-3"> <div class="font-bold text-blue-900 mb-1">Assertion (A):</div> <div class="text-blue-800">${qData.assertion}</div> </div> <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-r-lg"> <div class="font-bold text-indigo-900 mb-1">Reason (R):</div> <div class="text-indigo-800">${qData.reason}</div> </div> `; elAssertionReasonContainer.classList.remove('hidden'); } /* Render Match List */
-if (qData.type === 'match') { let list1Html = qData.lists.list1.map(item => `<div class="flex gap-2"><span class="font-bold flex-shrink-0 w-[1.5em]">${item.id}.</span><span>${item.text}</span></div>`).join(''); let list2Html = qData.lists.list2.map(item => `<div class="flex gap-2"><span class="font-bold flex-shrink-0 w-[1.5em]">${item.id}.</span><span>${item.text}</span></div>`).join(''); elMatchListContainer.innerHTML = ` <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-50 border border-gray-200 p-4 rounded-lg text-[0.875em] md:text-[1em] text-gray-700"> <div> <div class="font-bold text-center border-b border-gray-300 pb-2 mb-3">List I</div> <div class="space-y-3">${list1Html}</div> </div> <div class="md:border-l md:border-gray-200 md:pl-4 mt-4 md:mt-0 pt-4 md:pt-0 border-t md:border-t-0"> <div class="font-bold text-center border-b border-gray-300 pb-2 mb-3">List II</div> <div class="space-y-3">${list2Html}</div> </div> </div> `; elMatchListContainer.classList.remove('hidden'); } /* Update Bookmark */
-updateBookmarkIcon(); /* Update Review Button */
-updateReviewButtonState(); /* Clear Explanation */
-elExplanationContainer.classList.add('hidden'); elExplanationText.innerHTML = ''; /* Render Options */
-elOptionsContainer.innerHTML = ''; const hasAnswered = userAnswers[currentQuestion] !== null; qData.o.forEach((optText, optIdx) => { const btn = document.createElement('button'); btn.className = `option-btn w-full text-left p-4 rounded-xl border-2 border-slate-200 bg-white hover:bg-slate-50 flex items-start`; /* Add prefix to button text if not already present */
-let cleanOptText = optText; let prefix = optionPrefixes[optIdx]; if(cleanOptText.startsWith('(')) { prefix = cleanOptText.substring(0, 3); cleanOptText = cleanOptText.substring(3).trim(); } btn.innerHTML = ` <div class="custom-radio w-[1.5em] h-[1.5em] flex-shrink-0 rounded-full border-2 border-slate-300 flex items-center justify-center mr-3 mt-0.5 bg-white"> <div class="radio-dot w-[0.625em] h-[0.625em] rounded-full"></div> </div> <div class="flex-1"> <span class="font-bold mr-2 text-slate-500">${prefix.replace(/[()]/g, '')}.</span> <span class="text-slate-700 leading-relaxed">${cleanOptText}</span> </div> `; btn.onclick = () => selectOption(optIdx); /* State recreation if already answered */
-if (hasAnswered) { btn.disabled = true; if (optIdx === qData.a) { btn.classList.add('correct-ans'); btn.innerHTML += `<i class="ph-fill ph-check-circle text-[1.25em] text-green-600 ml-auto mt-0.5"></i>`; } else if (optIdx === userAnswers[currentQuestion]) { btn.classList.add('wrong-ans'); btn.innerHTML += `<i class="ph-fill ph-x-circle text-[1.25em] text-red-600 ml-auto mt-0.5"></i>`; } } btn.id = `opt-${optIdx}`; elOptionsContainer.appendChild(btn); }); /* Re-apply 5050 if it was used before answering */
-if(lifelinesUsed[currentQuestion] && !hasAnswered) { apply5050Visuals(); } /* Enable/Disable 50:50 button */
-elBtn5050.disabled = lifelinesUsed[currentQuestion] || hasAnswered; /* Show explanation if already answered */
-if(hasAnswered) { showExplanation(); } /* Nav buttons */
-elBtnPrev.disabled = currentQuestion === 0; if(currentQuestion === quizData.length - 1) { elBtnNext.innerHTML = 'Finish <i class="ph ph-flag-checkered"></i>'; } else { elBtnNext.innerHTML = 'Next <i class="ph ph-caret-right"></i>'; } /* Update Map Status */
-updateMapGridVisuals(); saveState(); } /* Handle option selection */
-function selectOption(selectedIdx) { triggerFeedback('click'); if(userAnswers[currentQuestion] !== null) return; /* Prevent double click */
-userAnswers[currentQuestion] = selectedIdx; questionStatus[currentQuestion] = 2; /* Answered */
-const qData = quizData[currentQuestion]; const isCorrect = selectedIdx === qData.a; const buttons = elOptionsContainer.querySelectorAll('button'); buttons.forEach((btn, idx) => { btn.disabled = true; if(idx === qData.a) { btn.classList.add('correct-ans'); btn.innerHTML += `<i class="ph-fill ph-check-circle text-[1.25em] text-green-600 ml-auto mt-0.5"></i>`; } else if(idx === selectedIdx) { btn.classList.add('wrong-ans'); btn.innerHTML += `<i class="ph-fill ph-x-circle text-[1.25em] text-red-600 ml-auto mt-0.5"></i>`; } }); elBtn5050.disabled = true; showExplanation(); updateProgress(); updateMapGridVisuals(); saveState(); } /* Display explanation */
-function showExplanation() { const qData = quizData[currentQuestion]; /* Check if explanation is the new object format or old string format */
-if (typeof qData.e === 'object' && qData.e !== null) { elExplanationText.innerHTML = ` <div class="mb-3 bg-blue-50/60 border border-blue-200 p-3 rounded-lg"> <strong class="text-blue-800 font-semibold block mb-1">Concept / Fact:</strong> ${qData.e.concept} </div> <div class="mb-3 bg-emerald-50/60 border border-emerald-200 p-3 rounded-lg"> <strong class="text-emerald-800 font-semibold block mb-1">Why correct option is right:</strong> ${qData.e.correct} </div> <div class="bg-rose-50/60 border border-rose-200 p-3 rounded-lg"> <strong class="text-rose-800 font-semibold block mb-1">Why other options are wrong:</strong> ${qData.e.wrong} </div> `; } else { /* Fallback for older string-only explanations */
-elExplanationText.innerHTML = `<div class="bg-gray-50 border border-gray-200 p-3 rounded-lg">${qData.e}</div>`; } elExplanationContainer.classList.remove('hidden'); /* Scroll to explanation smoothly */
-setTimeout(() => { elExplanationContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 100); } /* Navigation */
-function nextQuestion(isSwipe = false) { triggerFeedback(isSwipe ? 'swipe' : 'click'); if (currentQuestion < quizData.length - 1) { loadQuestion(currentQuestion + 1); } else { finishQuiz(); } } function prevQuestion(isSwipe = false) { triggerFeedback(isSwipe ? 'swipe' : 'click'); if (currentQuestion > 0) { loadQuestion(currentQuestion - 1); } } /* Mark for Review */
-function toggleMarkReview() { triggerFeedback('action'); if(questionStatus[currentQuestion] === 3) { questionStatus[currentQuestion] = userAnswers[currentQuestion] !== null ? 2 : 1; } else { questionStatus[currentQuestion] = 3; } updateReviewButtonState(); updateMapGridVisuals(); saveState(); } function updateReviewButtonState() { const isReview = questionStatus[currentQuestion] === 3; elBtnReview.classList.toggle('bg-purple-600', isReview); elBtnReview.classList.toggle('text-white', isReview); elBtnReview.classList.toggle('bg-purple-50', !isReview); elBtnReview.classList.toggle('text-purple-700', !isReview); document.getElementById('review-text').innerText = isReview ? 'Marked Review' : 'Mark for Review'; } /* Bookmark toggle */
-function toggleBookmark() { triggerFeedback('action'); bookmarks[currentQuestion] = !bookmarks[currentQuestion]; updateBookmarkIcon(); } function updateBookmarkIcon() { if(bookmarks[currentQuestion]) { elIconBookmark.classList.replace('text-gray-400', 'text-yellow-500'); } else { elIconBookmark.classList.replace('text-yellow-500', 'text-gray-400'); } saveState(); } /* Zoom */
-function changeZoom(delta) { zoomLevel += delta; if(zoomLevel < 12) zoomLevel = 12; if(zoomLevel > 24) zoomLevel = 24; document.body.style.setProperty('--zoom-level', `${zoomLevel}px`); } /* 50:50 Lifeline */
-function use5050() { if(lifelinesUsed[currentQuestion] || userAnswers[currentQuestion] !== null) return; lifelinesUsed[currentQuestion] = true; elBtn5050.disabled = true; apply5050Visuals(); saveState(); } function apply5050Visuals() { const qData = quizData[currentQuestion]; let hiddenCount = 0; const options = [0, 1, 2, 3].sort(() => Math.random() - 0.5); /* Shuffle */
-options.forEach(idx => { if(idx !== qData.a && hiddenCount < 2) { const btn = document.getElementById(`opt-${idx}`); if(btn) { btn.classList.add('disabled-option'); } hiddenCount++; } }); } /* Focus Mode Toggle */
-let isHeaderFolded = false;
-let isHeaderFolded = false;
-function toggleExtraHeader() {
-  triggerFeedback('action');
-  isHeaderFolded = !isHeaderFolded;
-  const icon = document.getElementById('icon-fold');
-  const detailsPanel = document.getElementById('details-panel');
-  const badgesGroups = document.querySelectorAll('.meta-badges');
-  
-  if (isHeaderFolded) {
-    icon.classList.replace('ph-caret-up', 'ph-caret-down');
-    if (detailsPanel) detailsPanel.classList.add('hidden');
-    badgesGroups.forEach(bg => bg.classList.add('hidden'));
-  } else {
-    icon.classList.replace('ph-caret-down', 'ph-caret-up');
-    if (detailsPanel) detailsPanel.classList.remove('hidden');
-    // Ensure focus mode isn't overriding the badges unexpectedly if not active
-    if (!isFocusMode) {
-      badgesGroups.forEach(bg => bg.classList.remove('hidden'));
-    }
-  }
-}
- function updateMapGridVisuals() { for(let i=0; i<quizData.length; i++) { const btn = document.getElementById(`map-btn-${i}`); if(!btn) continue; btn.className = 'map-btn'; /* reset */
-if (i === currentQuestion) { btn.classList.add('ring-2', 'ring-blue-500', 'ring-offset-1'); } switch(questionStatus[i]) { case 0: btn.classList.add('status-unvisited'); break; case 1: btn.classList.add('status-skipped'); break; case 2: if (userAnswers[i] === quizData[i].a) { btn.classList.add('status-correct'); } else { btn.classList.add('status-incorrect'); } break; case 3: btn.classList.add('status-review'); break; } } } function toggleMap() { const isHidden = elMapPanel.classList.contains('translate-x-full'); if(isHidden) { elMapPanel.classList.remove('translate-x-full'); elMapOverlay.classList.remove('hidden'); /* Scroll current question into view on map */
-const currentBtn = document.getElementById(`map-btn-${currentQuestion}`); if(currentBtn) currentBtn.scrollIntoView({block: 'center'}); } else { elMapPanel.classList.add('translate-x-full'); elMapOverlay.classList.add('hidden'); } } /* Progress and Timer */
-function updateProgress() { const answeredCount = userAnswers.filter(a => a !== null).length; elProgressText.innerText = `${answeredCount}/${config.totalQuestions}`; elProgressBar.style.width = `${(answeredCount / config.totalQuestions) * 100}%`; } function startTimer() {
-    if (isQuizFinished) return;
-    const initialTotalTime = config.timeInMinutes * 60;
-    const hours = Math.floor(totalTimeSeconds / 3600);
-  const minutes = Math.floor((totalTimeSeconds % 3600) / 60);
-  const seconds = totalTimeSeconds % 60;
-  if (hours > 0) { elTimerText.innerText = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0'); } 
-  else { elTimerText.innerText = minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0'); }
-    timerInterval = setInterval(() => { if(totalTimeSeconds <= 0) { clearInterval(timerInterval); elTimerText.innerText = "00:00"; finishQuiz(); return; } totalTimeSeconds--; if(totalTimeSeconds % 5 === 0) saveState(); const hours = Math.floor(totalTimeSeconds / 3600);
-const minutes = Math.floor((totalTimeSeconds % 3600) / 60);
-const seconds = totalTimeSeconds % 60;
-if (hours > 0) {
-  elTimerText.innerText = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
-} else {
-  elTimerText.innerText = minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
-} elTimerBar.style.width = `${(totalTimeSeconds / initialTotalTime) * 100}%`; if (totalTimeSeconds < 300) { /* Less than 5 min */
-elTimerBar.classList.replace('bg-rose-400', 'bg-red-600'); elTimerText.classList.add('animate-pulse'); } }, 1000); } /* Finish logic */
-function finishQuiz() { isQuizFinished = true; saveState(); if (timerInterval) clearInterval(timerInterval); let correct = 0; let wrong = 0; let answered = 0; userAnswers.forEach((ans, idx) => { if (ans !== null) { answered++; if (ans === quizData[idx].a) { correct++; } else { wrong++; } } }); const accuracy = answered > 0 ? Math.round((correct / answered) * 100) : 0; /* Save to History Dashboard */
-if (attemptId) { const existing = quizHistory.find(h => h.id === attemptId); if (!existing) { quizHistory.push({ id: attemptId, date: new Date().toISOString(), score: accuracy, correct, wrong, total: config.totalQuestions, userAnswers: [...userAnswers], questionStatus: [...questionStatus], bookmarks: [...bookmarks], lifelinesUsed: [...lifelinesUsed] }); try { try { localStorage.setItem(HISTORY_KEY, JSON.stringify(quizHistory)); } catch(e) {} } catch(e) {} } } document.getElementById('res-total').innerText = config.totalQuestions; document.getElementById('res-correct').innerText = correct; document.getElementById('res-wrong').innerText = wrong; document.getElementById('res-accuracy').innerText = accuracy + '%'; document.getElementById('result-page').classList.remove('hidden'); } function startReviewMode() { document.getElementById('result-page').classList.add('hidden'); currentQuestion = 0; loadQuestion(0); } function goToDashboard() { try { localStorage.removeItem(STATE_KEY); } catch(e) {} location.reload(); } /* Initialize App */
-window.onload = init; 
+        // Quiz State
+        let currentQuestion = 0;
+        let totalTimeSeconds = config.timeInMinutes * 60;
+        let timerInterval;
+        let zoomLevel = 16;
 
-</script> </body> </html>
+        // Data Structures for state tracking
+        // status: 0=unvisited, 1=skipped/visited, 2=answered, 3=review
+        const questionStatus = Array(config.totalQuestions).fill(0);
+        const userAnswers = Array(config.totalQuestions).fill(null);
+        const lifelinesUsed = Array(config.totalQuestions).fill(false);
+        const bookmarks = Array(config.totalQuestions).fill(false);
+
+        const optionPrefixes = ['(A)', '(B)', '(C)', '(D)'];
+
+        // DOM Elements setup
+        document.getElementById('header-title').innerText = `${config.examName} - ${config.subject}`;
+        document.getElementById('display-total-num').innerText = config.totalQuestions;
+        document.getElementById('meta-exam').innerText = config.examName;
+        document.getElementById('meta-paper').innerText = config.paperName;
+        document.getElementById('meta-date').innerText = config.examDate;
+
+        const elDetailsPanel = document.getElementById('details-panel');
+        const elMapPanel = document.getElementById('question-map-panel');
+        const elMapOverlay = document.getElementById('map-overlay');
+        const elQuestionText = document.getElementById('question-text');
+        const elStatementsContainer = document.getElementById('statements-container');
+        const elAssertionReasonContainer = document.getElementById('assertion-reason-container');
+        const elMatchListContainer = document.getElementById('match-list-container');
+        const elOptionsContainer = document.getElementById('options-container');
+        const elExplanationContainer = document.getElementById('explanation-container');
+        const elExplanationText = document.getElementById('explanation-text');
+        const elDisplaySeqNum = document.getElementById('display-seq-num');
+        const elDisplayActualNum = document.getElementById('display-actual-num');
+        const elProgressText = document.getElementById('progress-text');
+        const elProgressBar = document.getElementById('progress-bar');
+        const elTimerText = document.getElementById('timer-text');
+        const elTimerBar = document.getElementById('timer-bar');
+        const elMapGrid = document.getElementById('map-grid');
+        const elBtnPrev = document.getElementById('btn-prev');
+        const elBtnNext = document.getElementById('btn-next');
+        const elBtnReview = document.getElementById('btn-review');
+        const elBtn5050 = document.getElementById('btn-5050');
+        const elIconBookmark = document.getElementById('icon-bookmark');
+
+        let isQuizFinished = false;
+        let attemptId = null;
+        let quizHistory = [];
+
+        // --- HAPTIC & AUDIO FEEDBACK SYSTEM ---
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function triggerFeedback(type) {
+            try {
+                // Haptics if available
+                if (navigator.vibrate) {
+                    if (type === 'click') navigator.vibrate(10);
+                    else if (type === 'swipe') navigator.vibrate(15);
+                    else if (type === 'action') navigator.vibrate([10, 20, 10]);
+                }
+
+                // Audio
+                if (audioCtx && audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+                if (audioCtx) {
+                    const oscillator = audioCtx.createOscillator();
+                    const gainNode = audioCtx.createGain();
+
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioCtx.destination);
+
+                    if (type === 'click') {
+                        oscillator.type = 'sine';
+                        oscillator.frequency.setValueAtTime(600, audioCtx.currentTime);
+                        oscillator.frequency.exponentialRampToValueAtTime(300, audioCtx.currentTime + 0.1);
+                        gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                        oscillator.start();
+                        oscillator.stop(audioCtx.currentTime + 0.1);
+                    } else if (type === 'swipe') {
+                        oscillator.type = 'sine';
+                        oscillator.frequency.setValueAtTime(300, audioCtx.currentTime);
+                        oscillator.frequency.exponentialRampToValueAtTime(400, audioCtx.currentTime + 0.1);
+                        gainNode.gain.setValueAtTime(0.03, audioCtx.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                        oscillator.start();
+                        oscillator.stop(audioCtx.currentTime + 0.1);
+                    } else if (type === 'action') {
+                        oscillator.type = 'triangle';
+                        oscillator.frequency.setValueAtTime(400, audioCtx.currentTime);
+                        oscillator.frequency.setValueAtTime(600, audioCtx.currentTime + 0.05);
+                        gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                        oscillator.start();
+                        oscillator.stop(audioCtx.currentTime + 0.1);
+                    }
+                }
+            } catch(e) {}
+        }
+
+        // --- GESTURE NAVIGATION (SWIPE-TO-CHANGE) ---
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let touchEndX = 0;
+        let touchEndY = 0;
+
+        const quizBody = document.getElementById('quiz-body');
+        if (quizBody) {
+            quizBody.addEventListener('touchstart', e => {
+                touchStartX = e.changedTouches[0].screenX;
+                touchStartY = e.changedTouches[0].screenY;
+            }, {passive: true});
+
+            quizBody.addEventListener('touchend', e => {
+                touchEndX = e.changedTouches[0].screenX;
+                touchEndY = e.changedTouches[0].screenY;
+                handleGesture();
+            }, {passive: true});
+        }
+
+        function handleGesture() {
+            // Check if horizontal swipe and large enough
+            const diffX = touchEndX - touchStartX;
+            const diffY = touchEndY - touchStartY;
+
+            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 60) {
+                if (diffX < 0) {
+                    // Swipe Left -> Next
+                    if (!elBtnNext.disabled) {
+                        nextQuestion(true);
+                    }
+                } else {
+                    // Swipe Right -> Prev
+                    if (!elBtnPrev.disabled) {
+                        prevQuestion(true);
+                    }
+                }
+            }
+        }
+
+        function saveState() {
+            const state = {
+                attemptId,
+                currentQuestion,
+                totalTimeSeconds,
+                questionStatus,
+                userAnswers,
+                lifelinesUsed,
+                bookmarks,
+                isQuizFinished
+            };
+            localStorage.setItem('upscQuizState', JSON.stringify(state));
+        }
+
+        function restoreState() {
+            const saved = localStorage.getItem('upscQuizState');
+            if(saved) {
+                try {
+                    const state = JSON.parse(saved);
+                    attemptId = state.attemptId || null;
+                    currentQuestion = state.currentQuestion || 0;
+                    if(state.totalTimeSeconds !== undefined) totalTimeSeconds = state.totalTimeSeconds;
+                    isQuizFinished = state.isQuizFinished || false;
+
+                    if(state.questionStatus) state.questionStatus.forEach((v, i) => { if(i < questionStatus.length) questionStatus[i] = v; });
+                    if(state.userAnswers) state.userAnswers.forEach((v, i) => { if(i < userAnswers.length) userAnswers[i] = v; });
+                    if(state.lifelinesUsed) state.lifelinesUsed.forEach((v, i) => { if(i < lifelinesUsed.length) lifelinesUsed[i] = v; });
+                    if(state.bookmarks) state.bookmarks.forEach((v, i) => { if(i < bookmarks.length) bookmarks[i] = v; });
+                    return true;
+                } catch(e) {
+                    console.error("Error restoring state", e);
+                }
+            }
+            return false;
+        }
+
+        function loadHistory() {
+            const saved = localStorage.getItem('upscQuizHistory');
+            if (saved) {
+                try {
+                    quizHistory = JSON.parse(saved);
+                    // Ensure every item has a unique ID for reliable deletion/review
+                    let updated = false;
+                    quizHistory.forEach((h, i) => {
+                        if (!h.id) {
+                            h.id = 'attempt_' + Date.now() + '_' + i + '_' + Math.random().toString(36).substring(2, 9);
+                            updated = true;
+                        } else {
+                            // Ensure it's a string
+                            h.id = String(h.id);
+                        }
+                    });
+                    if (updated) {
+                        localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+                    }
+                } catch(e) {
+                    quizHistory = [];
+                }
+            }
+        }
+
+        function formatDate(isoStr) {
+            const d = new Date(isoStr);
+            const day = d.getDate();
+            const suffix = ['th', 'st', 'nd', 'rd'][(day % 10 > 3 || Math.floor(day % 100 / 10) === 1) ? 0 : day % 10];
+            const month = d.toLocaleString('en-US', { month: 'short' });
+            return `${day}${suffix} ${month}, ${d.getFullYear()}`;
+        }
+
+        function renderDashboard(hasActiveQuiz) {
+            document.getElementById('dashboard-page').classList.remove('hidden');
+            document.getElementById('dashboard-page').classList.add('flex');
+
+            const historyContainer = document.getElementById('history-container');
+            const btnClearHistory = document.getElementById('btn-clear-history');
+
+            if (quizHistory.length === 0) {
+                if (btnClearHistory) btnClearHistory.classList.add('hidden');
+                historyContainer.innerHTML = '<div class="text-slate-500 text-center py-8 bg-slate-50 rounded-xl border border-dashed border-slate-300 font-medium tracking-wide">No past attempts found. Take your first mock test!</div>';
+            } else {
+                if (btnClearHistory) btnClearHistory.classList.remove('hidden');
+                let html = '';
+                [...quizHistory].reverse().forEach((attempt, index) => {
+                    const date = formatDate(attempt.date);
+                    const attemptNum = quizHistory.length - index;
+                    html += `
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-slate-100 transition shadow-sm hover:shadow">
+                            <div class="flex items-center gap-4 mb-3 sm:mb-0">
+                                <div class="w-12 h-12 flex-shrink-0 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-lg shadow-inner">
+                                    #${attemptNum}
+                                </div>
+                                <div>
+                                    <div class="font-bold text-slate-800 text-lg">Attempt ${attemptNum}</div>
+                                    <div class="text-sm text-slate-500 flex items-center gap-1"><i class="ph ph-calendar-blank"></i> ${date}</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4 sm:gap-6 pl-16 sm:pl-0">
+                                <div class="text-left sm:text-right">
+                                    <div class="text-2xl font-bold ${attempt.score >= 70 ? 'text-emerald-600' : attempt.score >= 40 ? 'text-amber-500' : 'text-rose-500'}">${attempt.score}%</div>
+                                    <div class="text-xs text-slate-500 uppercase font-bold tracking-wider">Accuracy</div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    ${attempt.userAnswers ? `<button type="button" onclick="event.stopPropagation(); reviewPastAttempt('${attempt.id}')" class="px-4 py-2 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition shadow-sm font-medium text-sm flex flex-shrink-0 items-center justify-center gap-1.5"><i class="ph ph-magnifying-glass text-lg"></i> Review</button>` : `<div class="text-xs text-slate-400 italic w-24 text-center">No details</div>`}
+                                    <button type="button" onclick="event.stopPropagation(); deleteHistoryItem('${attempt.id}')" class="px-3 py-2 bg-white border border-slate-300 rounded-lg text-rose-500 hover:bg-rose-50 hover:border-rose-200 transition shadow-sm flex flex-shrink-0 items-center justify-center" title="Delete attempt"><i class="ph ph-trash text-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                historyContainer.innerHTML = html;
+            }
+
+            if (hasActiveQuiz) {
+                document.getElementById('btn-start-quiz').classList.add('hidden');
+                document.getElementById('btn-start-quiz').classList.remove('flex');
+                document.getElementById('btn-resume-quiz').classList.remove('hidden');
+                document.getElementById('btn-resume-quiz').classList.add('flex');
+            } else {
+                document.getElementById('btn-start-quiz').classList.remove('hidden');
+                document.getElementById('btn-start-quiz').classList.add('flex');
+                document.getElementById('btn-resume-quiz').classList.add('hidden');
+                document.getElementById('btn-resume-quiz').classList.remove('flex');
+            }
+        }
+
+        // Initialization
+        function init() {
+            loadHistory();
+            const hasState = restoreState();
+
+            if (isQuizFinished) {
+                renderDashboard(false);
+            } else if (hasState) {
+                renderDashboard(true);
+            } else {
+                renderDashboard(false);
+            }
+        }
+
+        function startNewQuiz() {
+            localStorage.removeItem('upscQuizState');
+            attemptId = 'attempt_' + Date.now();
+            currentQuestion = 0;
+            totalTimeSeconds = config.timeInMinutes * 60;
+            questionStatus.fill(0);
+            userAnswers.fill(null);
+            lifelinesUsed.fill(false);
+            bookmarks.fill(false);
+            isQuizFinished = false;
+
+            saveState();
+
+            document.getElementById('dashboard-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.remove('flex');
+            initQuizUI();
+        }
+
+        function resumeQuiz() {
+            document.getElementById('dashboard-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.remove('flex');
+            initQuizUI();
+        }
+
+        function deleteHistoryItem(id) {
+            if(!confirm("Are you sure you want to delete this attempt permanently?")) return;
+            const initialLength = quizHistory.length;
+            quizHistory = quizHistory.filter(h => String(h.id) !== String(id));
+            localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+            location.reload();
+        }
+
+        function clearAllHistory() {
+            if(!confirm("Are you sure you want to delete ALL your historical attempts permanently? This action cannot be undone.")) return;
+            quizHistory = [];
+            localStorage.removeItem('upscQuizHistory');
+            location.reload();
+        }
+
+        function reviewPastAttempt(id) {
+            if (!isQuizFinished && userAnswers.some(ans => ans !== null)) {
+                if(!confirm("You have a quiz currently in progress! Entering review mode for a past attempt will OVERWRITE your current progress. Continue?")) {
+                    return;
+                }
+            }
+
+            const historyItem = quizHistory.find(h => String(h.id) === String(id));
+            if (!historyItem || !historyItem.userAnswers) {
+                alert("Detailed data is not available for this older attempt.");
+                return;
+            }
+            // Load state from historyItem
+            attemptId = historyItem.id || null; // Set global attemptId
+            currentQuestion = 0;
+            isQuizFinished = true; // Review mode is finished quiz
+
+            // Note: need to clear total time just in case
+            totalTimeSeconds = 0;
+
+            // Deep copy to not mutate history
+            historyItem.questionStatus.forEach((v, i) => questionStatus[i] = v);
+            historyItem.userAnswers.forEach((v, i) => userAnswers[i] = v);
+            historyItem.bookmarks.forEach((v, i) => bookmarks[i] = v);
+            historyItem.lifelinesUsed.forEach((v, i) => lifelinesUsed[i] = v);
+
+            saveState(); // Save state so reloading holds this attempt
+
+            document.getElementById('dashboard-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.remove('flex');
+
+            generateMapGrid();
+
+            // Force hide results page if it was inadvertently shown
+            document.getElementById('result-page').classList.add('hidden');
+
+            loadQuestion(0);
+        }
+
+        function initQuizUI() {
+            generateMapGrid();
+            loadQuestion(currentQuestion);
+            startTimer();
+            updateProgress();
+        }
+
+        // Load specific question
+        function loadQuestion(index) {
+            if(index < 0 || index >= quizData.length) return;
+
+            // Trigger Fade Animation
+            const contentWrapper = document.getElementById('question-content-wrapper');
+            if (contentWrapper) {
+                contentWrapper.classList.remove('q-animate');
+                void contentWrapper.offsetWidth; // trigger reflow
+                contentWrapper.classList.add('q-animate');
+            }
+
+            // Mark previously active as skipped if not answered/review
+            if(questionStatus[currentQuestion] === 0) {
+                questionStatus[currentQuestion] = 1;
+            }
+
+            currentQuestion = index;
+            const qData = quizData[currentQuestion];
+
+            // Update UI markers
+            elDisplaySeqNum.innerText = currentQuestion + 1;
+            elDisplayActualNum.innerText = currentQuestion + 1;
+            elQuestionText.innerHTML = qData.q;
+
+            // Reset complex question containers
+            elStatementsContainer.innerHTML = '';
+            elStatementsContainer.classList.add('hidden');
+            elAssertionReasonContainer.innerHTML = '';
+            elAssertionReasonContainer.classList.add('hidden');
+            elMatchListContainer.innerHTML = '';
+            elMatchListContainer.classList.add('hidden');
+
+            // Render Statements if they exist
+            if (qData.statements && qData.statements.length > 0) {
+                let html = '<ol class="list-decimal pl-5 space-y-2">';
+                qData.statements.forEach(stmt => {
+                    html += `<li>${stmt}</li>`;
+                });
+                html += '</ol>';
+                elStatementsContainer.innerHTML = html;
+                elStatementsContainer.classList.remove('hidden');
+            }
+
+            // Render Assertion-Reason
+            if (qData.type === 'assertion') {
+                elAssertionReasonContainer.innerHTML = `
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mb-3">
+                        <div class="font-bold text-blue-900 mb-1">Assertion (A):</div>
+                        <div class="text-blue-800">${qData.assertion}</div>
+                    </div>
+                    <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-r-lg">
+                        <div class="font-bold text-indigo-900 mb-1">Reason (R):</div>
+                        <div class="text-indigo-800">${qData.reason}</div>
+                    </div>
+                `;
+                elAssertionReasonContainer.classList.remove('hidden');
+            }
+
+            // Render Match List
+            if (qData.type === 'match') {
+                let list1Html = qData.lists.list1.map(item => `<div class="flex gap-2"><span class="font-bold flex-shrink-0 w-[1.5em]">${item.id}.</span><span>${item.text}</span></div>`).join('');
+                let list2Html = qData.lists.list2.map(item => `<div class="flex gap-2"><span class="font-bold flex-shrink-0 w-[1.5em]">${item.id}.</span><span>${item.text}</span></div>`).join('');
+
+                elMatchListContainer.innerHTML = `
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-50 border border-gray-200 p-4 rounded-lg text-[0.875em] md:text-[1em] text-gray-700">
+                        <div>
+                            <div class="font-bold text-center border-b border-gray-300 pb-2 mb-3">List I</div>
+                            <div class="space-y-3">${list1Html}</div>
+                        </div>
+                        <div class="md:border-l md:border-gray-200 md:pl-4 mt-4 md:mt-0 pt-4 md:pt-0 border-t md:border-t-0">
+                            <div class="font-bold text-center border-b border-gray-300 pb-2 mb-3">List II</div>
+                            <div class="space-y-3">${list2Html}</div>
+                        </div>
+                    </div>
+                `;
+                elMatchListContainer.classList.remove('hidden');
+            }
+
+            // Update Bookmark
+            updateBookmarkIcon();
+
+            // Update Review Button
+            updateReviewButtonState();
+
+            // Clear Explanation
+            elExplanationContainer.classList.add('hidden');
+            elExplanationText.innerHTML = '';
+
+            // Render Options
+            elOptionsContainer.innerHTML = '';
+            const hasAnswered = userAnswers[currentQuestion] !== null;
+
+            qData.o.forEach((optText, optIdx) => {
+                const btn = document.createElement('button');
+                btn.className = `option-btn w-full text-left p-4 rounded-xl border-2 border-slate-200 bg-white hover:bg-slate-50 flex items-start`;
+
+                // Add prefix to button text if not already present
+                let cleanOptText = optText;
+                let prefix = optionPrefixes[optIdx];
+                if(cleanOptText.startsWith('(')) {
+                     prefix = cleanOptText.substring(0, 3);
+                     cleanOptText = cleanOptText.substring(3).trim();
+                }
+
+                btn.innerHTML = `
+                    <div class="custom-radio w-[1.5em] h-[1.5em] flex-shrink-0 rounded-full border-2 border-slate-300 flex items-center justify-center mr-3 mt-0.5 bg-white">
+                        <div class="radio-dot w-[0.625em] h-[0.625em] rounded-full"></div>
+                    </div>
+                    <div class="flex-1">
+                        <span class="font-bold mr-2 text-slate-500">${prefix.replace(/[()]/g, '')}.</span>
+                        <span class="text-slate-700 leading-relaxed">${cleanOptText}</span>
+                    </div>
+                `;
+
+                btn.onclick = () => selectOption(optIdx);
+
+                // State recreation if already answered
+                if (hasAnswered) {
+                    btn.disabled = true;
+                    if (optIdx === qData.a) {
+                        btn.classList.add('correct-ans');
+                        btn.innerHTML += `<i class="ph-fill ph-check-circle text-[1.25em] text-green-600 ml-auto mt-0.5"></i>`;
+                    } else if (optIdx === userAnswers[currentQuestion]) {
+                        btn.classList.add('wrong-ans');
+                        btn.innerHTML += `<i class="ph-fill ph-x-circle text-[1.25em] text-red-600 ml-auto mt-0.5"></i>`;
+                    }
+                }
+
+                btn.id = `opt-${optIdx}`;
+                elOptionsContainer.appendChild(btn);
+            });
+
+            // Re-apply 5050 if it was used before answering
+            if(lifelinesUsed[currentQuestion] && !hasAnswered) {
+                apply5050Visuals();
+            }
+
+            // Enable/Disable 50:50 button
+            elBtn5050.disabled = lifelinesUsed[currentQuestion] || hasAnswered;
+
+            // Show explanation if already answered
+            if(hasAnswered) {
+                showExplanation();
+            }
+
+            // Nav buttons
+            elBtnPrev.disabled = currentQuestion === 0;
+            if(currentQuestion === quizData.length - 1) {
+                elBtnNext.innerHTML = 'Finish <i class="ph ph-flag-checkered"></i>';
+            } else {
+                elBtnNext.innerHTML = 'Next <i class="ph ph-caret-right"></i>';
+            }
+
+            // Update Map Status
+            updateMapGridVisuals();
+            saveState();
+        }
+
+        // Handle option selection
+        function selectOption(selectedIdx) {
+            triggerFeedback('click');
+            if(userAnswers[currentQuestion] !== null) return; // Prevent double click
+
+            userAnswers[currentQuestion] = selectedIdx;
+            questionStatus[currentQuestion] = 2; // Answered
+
+            const qData = quizData[currentQuestion];
+            const isCorrect = selectedIdx === qData.a;
+
+            const buttons = elOptionsContainer.querySelectorAll('button');
+            buttons.forEach((btn, idx) => {
+                btn.disabled = true;
+                if(idx === qData.a) {
+                    btn.classList.add('correct-ans');
+                    btn.innerHTML += `<i class="ph-fill ph-check-circle text-[1.25em] text-green-600 ml-auto mt-0.5"></i>`;
+                } else if(idx === selectedIdx) {
+                    btn.classList.add('wrong-ans');
+                    btn.innerHTML += `<i class="ph-fill ph-x-circle text-[1.25em] text-red-600 ml-auto mt-0.5"></i>`;
+                }
+            });
+
+            elBtn5050.disabled = true;
+            showExplanation();
+            updateProgress();
+            updateMapGridVisuals();
+            saveState();
+        }
+
+        // Display explanation
+        function showExplanation() {
+            const qData = quizData[currentQuestion];
+
+            // Check if explanation is the new object format or old string format
+            if (typeof qData.e === 'object' && qData.e !== null) {
+                elExplanationText.innerHTML = `
+                    <div class="mb-3 bg-blue-50/60 border border-blue-200 p-3 rounded-lg">
+                        <strong class="text-blue-800 font-semibold block mb-1">Concept / Fact:</strong>
+                        ${qData.e.concept}
+                    </div>
+                    <div class="mb-3 bg-emerald-50/60 border border-emerald-200 p-3 rounded-lg">
+                        <strong class="text-emerald-800 font-semibold block mb-1">Why correct option is right:</strong>
+                        ${qData.e.correct}
+                    </div>
+                    <div class="bg-rose-50/60 border border-rose-200 p-3 rounded-lg">
+                        <strong class="text-rose-800 font-semibold block mb-1">Why other options are wrong:</strong>
+                        ${qData.e.wrong}
+                    </div>
+                `;
+            } else {
+                // Fallback for older string-only explanations
+                elExplanationText.innerHTML = `<div class="bg-gray-50 border border-gray-200 p-3 rounded-lg">${qData.e}</div>`;
+            }
+
+            elExplanationContainer.classList.remove('hidden');
+
+            // Scroll to explanation smoothly
+            setTimeout(() => {
+                elExplanationContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+        }
+
+        // Navigation
+        function nextQuestion(isSwipe = false) {
+            triggerFeedback(isSwipe ? 'swipe' : 'click');
+            if (currentQuestion < quizData.length - 1) {
+                loadQuestion(currentQuestion + 1);
+            } else {
+                finishQuiz();
+            }
+        }
+
+        function prevQuestion(isSwipe = false) {
+            triggerFeedback(isSwipe ? 'swipe' : 'click');
+            if (currentQuestion > 0) {
+                loadQuestion(currentQuestion - 1);
+            }
+        }
+
+        // Mark for Review
+        function toggleMarkReview() {
+            triggerFeedback('action');
+            if(questionStatus[currentQuestion] === 3) {
+                questionStatus[currentQuestion] = userAnswers[currentQuestion] !== null ? 2 : 1;
+            } else {
+                questionStatus[currentQuestion] = 3;
+            }
+            updateReviewButtonState();
+            updateMapGridVisuals();
+            saveState();
+        }
+
+        function updateReviewButtonState() {
+            const isReview = questionStatus[currentQuestion] === 3;
+            elBtnReview.classList.toggle('bg-purple-600', isReview);
+            elBtnReview.classList.toggle('text-white', isReview);
+            elBtnReview.classList.toggle('bg-purple-50', !isReview);
+            elBtnReview.classList.toggle('text-purple-700', !isReview);
+            document.getElementById('review-text').innerText = isReview ? 'Marked Review' : 'Mark for Review';
+        }
+
+        // Bookmark toggle
+        function toggleBookmark() {
+            triggerFeedback('action');
+            bookmarks[currentQuestion] = !bookmarks[currentQuestion];
+            updateBookmarkIcon();
+        }
+
+        function updateBookmarkIcon() {
+            if(bookmarks[currentQuestion]) {
+                elIconBookmark.classList.replace('text-gray-400', 'text-yellow-500');
+            } else {
+                elIconBookmark.classList.replace('text-yellow-500', 'text-gray-400');
+            }
+            saveState();
+        }
+
+        // Zoom
+        function changeZoom(delta) {
+            zoomLevel += delta;
+            if(zoomLevel < 12) zoomLevel = 12;
+            if(zoomLevel > 24) zoomLevel = 24;
+            document.body.style.setProperty('--zoom-level', `${zoomLevel}px`);
+        }
+
+        // 50:50 Lifeline
+        function use5050() {
+            if(lifelinesUsed[currentQuestion] || userAnswers[currentQuestion] !== null) return;
+
+            lifelinesUsed[currentQuestion] = true;
+            elBtn5050.disabled = true;
+            apply5050Visuals();
+            saveState();
+        }
+
+        function apply5050Visuals() {
+            const qData = quizData[currentQuestion];
+            let hiddenCount = 0;
+            const options = [0, 1, 2, 3].sort(() => Math.random() - 0.5); // Shuffle
+
+            options.forEach(idx => {
+                if(idx !== qData.a && hiddenCount < 2) {
+                    const btn = document.getElementById(`opt-${idx}`);
+                    if(btn) {
+                        btn.classList.add('disabled-option');
+                    }
+                    hiddenCount++;
+                }
+            });
+        }
+
+        // Focus Mode Toggle
+        let isFocusMode = false;
+        function toggleFocusMode() {
+            triggerFeedback('action');
+            isFocusMode = !isFocusMode;
+            if(isFocusMode) {
+                document.body.classList.add('focus-mode');
+                document.getElementById('icon-focus').classList.replace('ph-corners-out', 'ph-corners-in');
+                document.getElementById('focus-text').innerText = 'Exit Zen';
+                if(elDetailsPanel) elDetailsPanel.style.height = '0px';
+            } else {
+                document.body.classList.remove('focus-mode');
+                document.getElementById('icon-focus').classList.replace('ph-corners-in', 'ph-corners-out');
+                document.getElementById('focus-text').innerText = 'Focus';
+                if(elDetailsPanel) elDetailsPanel.style.height = elDetailsPanel.scrollHeight + 'px';
+            }
+        }
+
+        // Map Panel Setup & Logic
+        function generateMapGrid() {
+            elMapGrid.innerHTML = '';
+            for(let i=0; i<quizData.length; i++) {
+                const btn = document.createElement('button');
+                btn.innerText = i + 1;
+                btn.className = `map-btn status-unvisited`;
+                btn.id = `map-btn-${i}`;
+                btn.onclick = () => {
+                    loadQuestion(i);
+                    toggleMap();
+                };
+                elMapGrid.appendChild(btn);
+            }
+        }
+
+        function updateMapGridVisuals() {
+            for(let i=0; i<quizData.length; i++) {
+                const btn = document.getElementById(`map-btn-${i}`);
+                if(!btn) continue;
+
+                btn.className = 'map-btn'; // reset
+                if (i === currentQuestion) {
+                    btn.classList.add('ring-2', 'ring-blue-500', 'ring-offset-1');
+                }
+
+                switch(questionStatus[i]) {
+                    case 0: btn.classList.add('status-unvisited'); break;
+                    case 1: btn.classList.add('status-skipped'); break;
+                    case 2:
+                        if (userAnswers[i] === quizData[i].a) {
+                            btn.classList.add('status-correct');
+                        } else {
+                            btn.classList.add('status-incorrect');
+                        }
+                        break;
+                    case 3: btn.classList.add('status-review'); break;
+                }
+            }
+        }
+
+        function toggleMap() {
+            const isHidden = elMapPanel.classList.contains('translate-x-full');
+            if(isHidden) {
+                elMapPanel.classList.remove('translate-x-full');
+                elMapOverlay.classList.remove('hidden');
+                // Scroll current question into view on map
+                const currentBtn = document.getElementById(`map-btn-${currentQuestion}`);
+                if(currentBtn) currentBtn.scrollIntoView({block: 'center'});
+            } else {
+                elMapPanel.classList.add('translate-x-full');
+                elMapOverlay.classList.add('hidden');
+            }
+        }
+
+        // Progress and Timer
+        function updateProgress() {
+            const answeredCount = userAnswers.filter(a => a !== null).length;
+            elProgressText.innerText = `${answeredCount}/${config.totalQuestions}`;
+            elProgressBar.style.width = `${(answeredCount / config.totalQuestions) * 100}%`;
+        }
+
+        function startTimer() {
+            if (isQuizFinished) return;
+            const initialTotalTime = config.timeInMinutes * 60;
+
+            timerInterval = setInterval(() => {
+                if(totalTimeSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    elTimerText.innerText = "00:00";
+                    finishQuiz();
+                    return;
+                }
+                totalTimeSeconds--;
+                if(totalTimeSeconds % 5 === 0) saveState();
+
+                const minutes = Math.floor(totalTimeSeconds / 60);
+                const seconds = totalTimeSeconds % 60;
+                elTimerText.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+                elTimerBar.style.width = `${(totalTimeSeconds / initialTotalTime) * 100}%`;
+
+                if (totalTimeSeconds < 300) { // Less than 5 min
+                    elTimerBar.classList.replace('bg-rose-400', 'bg-red-600');
+                    elTimerText.classList.add('animate-pulse');
+                }
+            }, 1000);
+        }
+
+        // Finish logic
+        function finishQuiz() {
+            isQuizFinished = true;
+            saveState();
+
+            if (timerInterval) clearInterval(timerInterval);
+
+            let correct = 0;
+            let wrong = 0;
+            let answered = 0;
+
+            userAnswers.forEach((ans, idx) => {
+                if (ans !== null) {
+                    answered++;
+                    if (ans === quizData[idx].a) {
+                        correct++;
+                    } else {
+                        wrong++;
+                    }
+                }
+            });
+
+            const accuracy = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+
+            // Save to History Dashboard
+            if (attemptId) {
+                const existing = quizHistory.find(h => h.id === attemptId);
+                if (!existing) {
+                    quizHistory.push({
+                        id: attemptId,
+                        date: new Date().toISOString(),
+                        score: accuracy,
+                        correct,
+                        wrong,
+                        total: config.totalQuestions,
+                        userAnswers: [...userAnswers],
+                        questionStatus: [...questionStatus],
+                        bookmarks: [...bookmarks],
+                        lifelinesUsed: [...lifelinesUsed]
+                    });
+                    localStorage.setItem('upscQuizHistory', JSON.stringify(quizHistory));
+                }
+            }
+
+            document.getElementById('res-total').innerText = config.totalQuestions;
+            document.getElementById('res-correct').innerText = correct;
+            document.getElementById('res-wrong').innerText = wrong;
+            document.getElementById('res-accuracy').innerText = accuracy + '%';
+
+            document.getElementById('result-page').classList.remove('hidden');
+        }
+
+        function startReviewMode() {
+            document.getElementById('result-page').classList.add('hidden');
+            currentQuestion = 0;
+            loadQuestion(0);
+        }
+
+        function goToDashboard() {
+            localStorage.removeItem('upscQuizState');
+            location.reload();
+        }
+
+
+        // Toggle Extra Info
+        let isExtraInfoFolded = false;
+        function toggleExtraInfo() {
+            const container = document.getElementById('extra-info-container');
+            const icon = document.getElementById('icon-fold');
+            const detailsPanel = document.getElementById('details-panel');
+
+            isExtraInfoFolded = !isExtraInfoFolded;
+            if (isExtraInfoFolded) {
+                container.style.height = '0px';
+                container.style.opacity = '0';
+                icon.classList.replace('ph-caret-up', 'ph-caret-down');
+
+                // Also fold the details panel as requested ("all Extra header info")
+                if(detailsPanel) {
+                    detailsPanel.style.height = '0px';
+                    detailsPanel.style.paddingTop = '0px';
+                    detailsPanel.style.paddingBottom = '0px';
+                    detailsPanel.style.borderBottom = 'none';
+                }
+            } else {
+                container.style.height = container.scrollHeight + 'px';
+                container.style.opacity = '1';
+                icon.classList.replace('ph-caret-down', 'ph-caret-up');
+
+                if(detailsPanel) {
+                    detailsPanel.style.height = detailsPanel.scrollHeight + 'px';
+                    detailsPanel.style.paddingTop = '';
+                    detailsPanel.style.paddingBottom = '';
+                    detailsPanel.style.borderBottom = '';
+                }
+
+                // Once transition finishes, remove explicit height so it responds to resize
+                setTimeout(() => {
+                    if (!isExtraInfoFolded) container.style.height = 'auto';
+                }, 300);
+            }
+        }
+
+        // Initialize App
+        window.onload = init;
+
+    </script>
+</body>
+</html>
