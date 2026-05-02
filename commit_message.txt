@@ -1,0 +1,8 @@
+feat(quiz): make top header mobile responsive and add fold details feature
+
+- Replaced original viewport meta tag with a strict mobile variant (prevent scaling)
+- Add `min-w-0` to the left header title container to enable text truncation.
+- Set `flex-shrink-0` to the header buttons to prevent cutoff.
+- Created `#btn-fold` inside header to trigger folding.
+- Built JS `toggleFold()` which hides the `#details-panel` and `#meta-badges-container` on command to create space.
+- Added 90px bottom padding to the Question Map container to prevent the Map items hiding behind the fixed bottom nav.
