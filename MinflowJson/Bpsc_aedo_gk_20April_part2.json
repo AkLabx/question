@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "CUR598",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Reports & Indices"
+    },
+    "tags": [
+      "UnemploymentRate",
+      "CMIE",
+      "IndianEconomy"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "India's National unemployment rate in July, 2025, was:",
+    "question_hi": "जुलाई, 2025 में भारत की राष्ट्रीय बेरोजगारी दर थी:",
+    "options":[
+      "3.6 percent",
+      "4.8 percent",
+      "5.2 percent",
+      "6.4 percent"
+    ],
+    "options_hi":[
+      "3.6 प्रतिशत",
+      "4.8 प्रतिशत",
+      "5.2 प्रतिशत",
+      "6.4 प्रतिशत"
+    ],
+    "correct": "5.2 percent",
+    "explanation": {
+      "summary": "Correct Answer: 5.2 percent\n\nसही उत्तर: 5.2 प्रतिशत",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Based on the economic statistical reports and CMIE tracking for July 2025, the national unemployment rate in India stood at 5.2 percent, reflecting a period of relative stability in the labor market.\n\n✅ **यह सही क्यों है**\n\n- जुलाई 2025 के लिए आर्थिक सांख्यिकीय रिपोर्टों और सीएमआईई ट्रैकिंग के आधार पर, भारत में राष्ट्रीय बेरोजगारी दर 5.2 प्रतिशत थी, जो श्रम बाजार में सापेक्ष स्थिरता की अवधि को दर्शाती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other percentages do not align with the officially published figures for that specific month, either undershooting or overshooting the recorded data.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य प्रतिशत उस विशिष्ट महीने के लिए आधिकारिक रूप से प्रकाशित आंकड़ों के साथ संरेखित नहीं होते हैं, जो या तो दर्ज किए गए डेटा से कम हैं या अधिक हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Regularly tracking macroeconomic indicators like the unemployment rate (released by CMIE and PLFS) is crucial for the economy section of civil services exams.\n\n📝 **निष्कर्ष**\n\n- सिविल सेवा परीक्षाओं के अर्थव्यवस्था अनुभाग के लिए बेरोजगारी दर (CMIE और PLFS द्वारा जारी) जैसे व्यापक आर्थिक संकेतकों को नियमित रूप से ट्रैक करना महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Centre for Monitoring Indian Economy (CMIE) conducts a continuous Consumer Pyramids Household Survey, which provides one of the most high-frequency indicators of unemployment in India.\n\n💡 **रोचक तथ्य**\n\n- सेंटर फॉर मॉनिटरिंग इंडियन इकोनॉमी (CMIE) एक निरंतर उपभोक्ता पिरामिड घरेलू सर्वेक्षण आयोजित करता है, जो भारत में बेरोजगारी के सबसे उच्च-आवृत्ति संकेतकों में से एक प्रदान करता है।"
+    }
+  },
+  {
+    "id": "ECO902",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Sectors of the Economy"
+    },
+    "tags":[
+      "Infrastructure",
+      "Macroeconomics",
+      "PublicAssets"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which one of the following is not an example of infrastructure in a country?",
+    "question_hi": "निम्नलिखित में से कौन सा किसी देश में बुनियादी ढांचे (अवसंरचना) का उदाहरण नहीं है?",
+    "options":[
+      "Private houses",
+      "Transportation",
+      "Telecommunication",
+      "Public Services"
+    ],
+    "options_hi":[
+      "निजी घर",
+      "परिवहन",
+      "दूरसंचार",
+      "सार्वजनिक सेवाएं"
+    ],
+    "correct": "Private houses",
+    "explanation": {
+      "summary": "Correct Answer: Private houses\n\nसही उत्तर: निजी घर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Infrastructure refers to the fundamental physical and organizational structures and facilities needed for the operation of a society or enterprise. 'Private houses' are personal real estate/assets, not broad public infrastructure.\n\n✅ **यह सही क्यों है**\n\n- बुनियादी ढांचा (इन्फ्रास्ट्रक्चर) एक समाज या उद्यम के संचालन के लिए आवश्यक मूलभूत भौतिक और संगठनात्मक संरचनाओं और सुविधाओं को संदर्भित करता है। 'निजी घर' व्यक्तिगत अचल संपत्ति/संपत्ति हैं, न कि व्यापक सार्वजनिक बुनियादी ढांचा।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Transportation (roads, railways), telecommunication networks, and public utilities are classic examples of core economic and social infrastructure.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- परिवहन (सड़कें, रेलवे), दूरसंचार नेटवर्क और सार्वजनिक उपयोगिताएं मुख्य आर्थिक और सामाजिक बुनियादी ढांचे के उत्कृष्ट उदाहरण हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Infrastructure is broadly divided into Economic infrastructure (energy, transport, communication) and Social infrastructure (education, health, housing utilities).\n\n📝 **निष्कर्ष**\n\n- बुनियादी ढांचे को मोटे तौर पर आर्थिक बुनियादी ढांचे (ऊर्जा, परिवहन, संचार) और सामाजिक बुनियादी ढांचे (शिक्षा, स्वास्थ्य, आवास उपयोगिताओं) में विभाजित किया गया है।",
+      "fact": "💡 **Interesting Fact**\n\n- The National Infrastructure Pipeline (NIP) was launched by the Indian government with an initial projected investment of ₹111 lakh crore to massively upgrade the country's infrastructure.\n\n💡 **रोचक तथ्य**\n\n- देश के बुनियादी ढांचे को बड़े पैमाने पर अपग्रेड करने के लिए भारत सरकार द्वारा ₹111 लाख करोड़ के प्रारंभिक अनुमानित निवेश के साथ नेशनल इंफ्रास्ट्रक्चर पाइपलाइन (NIP) शुरू की गई थी।"
+    }
+  },
+  {
+    "id": "ECO903",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Indian Economy",
+      "subTopic": "Government Schemes & Policies"
+    },
+    "tags":[
+      "SmartCities",
+      "BiharEconomy",
+      "UrbanDevelopment"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "As per 'Bihar Economic Survey, 2024-25', how many 'designated smart cities' are in Bihar?",
+    "question_hi": "'बिहार आर्थिक सर्वेक्षण, 2024-25' के अनुसार, बिहार में कितने 'नामित स्मार्ट सिटी' हैं?",
+    "options":[
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "options_hi":[
+      "तीन",
+      "चार",
+      "पांच",
+      "छह"
+    ],
+    "correct": "Four",
+    "explanation": {
+      "summary": "Correct Answer: Four\n\nसही उत्तर: चार",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Under the Union Government's Smart Cities Mission, exactly 4 cities in Bihar have been designated and selected to be developed as Smart Cities. They are Patna, Bhagalpur, Muzaffarpur, and Bihar Sharif.\n\n✅ **यह सही क्यों है**\n\n- केंद्र सरकार के स्मार्ट सिटी मिशन के तहत, बिहार में ठीक 4 शहरों को स्मार्ट सिटी के रूप में विकसित करने के लिए नामित और चुना गया है। ये पटना, भागलपुर, मुजफ्फरपुर और बिहार शरीफ हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options Three, Five, and Six incorrectly represent the official count of designated smart cities approved for the state of Bihar.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- विकल्प तीन, पांच और छह बिहार राज्य के लिए अनुमोदित नामित स्मार्ट शहरों की आधिकारिक गिनती का गलत प्रतिनिधित्व करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- State Economic Surveys are crucial documents for BPSC exams, as they provide exact data on the implementation status of major national missions within the state.\n\n📝 **निष्कर्ष**\n\n- राज्य आर्थिक सर्वेक्षण बीपीएससी परीक्षाओं के लिए महत्वपूर्ण दस्तावेज हैं, क्योंकि वे राज्य के भीतर प्रमुख राष्ट्रीय मिशनों के कार्यान्वयन की स्थिति पर सटीक डेटा प्रदान करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Smart Cities Mission aims to provide core infrastructure, a clean and sustainable environment, and a decent quality of life to citizens through the application of 'Smart Solutions'.\n\n💡 **रोचक तथ्य**\n\n- स्मार्ट सिटी मिशन का उद्देश्य 'स्मार्ट सॉल्यूशंस' के उपयोग के माध्यम से नागरिकों को मुख्य बुनियादी ढांचा, स्वच्छ और टिकाऊ पर्यावरण और जीवन की अच्छी गुणवत्ता प्रदान करना है।"
+    }
+  },
+  {
+    "id": "GEO1238",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Census & Demographics (2011)"
+    },
+    "tags":[
+      "Census2011",
+      "PopulationDensity",
+      "BiharDemographics"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "As per 2011 Census, density of population per sq. km. in Bihar state was:",
+    "question_hi": "2011 की जनगणना के अनुसार, बिहार राज्य में जनसंख्या घनत्व प्रति वर्ग किमी कितना था:",
+    "options":[
+      "1025",
+      "1076",
+      "1081",
+      "1106"
+    ],
+    "options_hi":[
+      "1025",
+      "1076",
+      "1081",
+      "1106"
+    ],
+    "correct": "1106",
+    "explanation": {
+      "summary": "Correct Answer: 1106\n\nसही उत्तर: 1106",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to the 2011 Census, Bihar is the most densely populated state in India with a staggering population density of 1,106 persons per square kilometer.\n\n✅ **यह सही क्यों है**\n\n- 2011 की जनगणना के अनुसार, बिहार 1,106 व्यक्ति प्रति वर्ग किलोमीटर के आश्चर्यजनक जनसंख्या घनत्व के साथ भारत का सबसे घनी आबादी वाला राज्य है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other figures do not apply to Bihar. For instance, West Bengal was the second most densely populated state with a density of 1,028 persons per sq. km.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य आंकड़े बिहार पर लागू नहीं होते हैं। उदाहरण के लिए, पश्चिम बंगाल 1,028 व्यक्ति प्रति वर्ग किमी के घनत्व के साथ दूसरा सबसे घनी आबादी वाला राज्य था।",
+      "conclusion": "📝 **Concluding Note**\n\n- High population density in states like Bihar and West Bengal is largely due to the highly fertile agricultural plains of the Ganges river basin.\n\n📝 **निष्कर्ष**\n\n- बिहार और पश्चिम बंगाल जैसे राज्यों में उच्च जनसंख्या घनत्व मुख्य रूप से गंगा नदी बेसिन के अत्यधिक उपजाऊ कृषि मैदानों के कारण है।",
+      "fact": "💡 **Interesting Fact**\n\n- While Bihar has the highest population density among states, the National Capital Territory (NCT) of Delhi holds the highest density among Union Territories at 11,320 persons per sq. km.\n\n💡 **रोचक तथ्य**\n\n- जबकि राज्यों में बिहार का जनसंख्या घनत्व सबसे अधिक है, राष्ट्रीय राजधानी क्षेत्र (NCT) दिल्ली का जनसंख्या घनत्व केंद्र शासित प्रदेशों में सबसे अधिक 11,320 व्यक्ति प्रति वर्ग किमी है।"
+    }
+  },
+  {
+    "id": "GEO1239",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subTopic": "Agriculture in India"
+    },
+    "tags":[
+      "MajorCrops",
+      "BiharAgriculture",
+      "FoodGrains"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "What are the major crops in Bihar?",
+    "question_hi": "बिहार की प्रमुख फसलें कौन सी हैं?",
+    "options":[
+      "Rice, Wheat and Maize",
+      "Arhar, Urad and Moong",
+      "Sugarcane and Oil seeds",
+      "Cotton and Jute"
+    ],
+    "options_hi":[
+      "चावल, गेहूं और मक्का",
+      "अरहर, उड़द और मूंग",
+      "गन्ना और तिलहन",
+      "कपास और जूट"
+    ],
+    "correct": "Rice, Wheat and Maize",
+    "explanation": {
+      "summary": "Correct Answer: Rice, Wheat and Maize\n\nसही उत्तर: चावल, गेहूं और मक्का",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Bihar's agrarian economy is primarily dominated by food grains. Rice, Wheat, and Maize are the three most extensively cultivated major staple crops across its fertile Gangetic plains.\n\n✅ **यह सही क्यों है**\n\n- बिहार की कृषि अर्थव्यवस्था पर मुख्य रूप से खाद्यान्नों का दबदबा है। चावल, गेहूं और मक्का इसके उपजाऊ गंगा के मैदानों में बड़े पैमाने पर उगाई जाने वाली तीन प्रमुख फसलें हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While pulses and commercial crops (sugarcane/jute) are grown in specific regions, they are not the predominant, overarching major crops compared to cereals. Cotton is barely grown in the state.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि दालें और वाणिज्यिक फसलें (गन्ना/जूट) विशिष्ट क्षेत्रों में उगाई जाती हैं, अनाज की तुलना में वे प्रमुख, व्यापक फसलें नहीं हैं। राज्य में कपास बहुत कम उगाई जाती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The alluvial soils deposited by the Ganga and its tributaries provide excellent conditions for intensive cereal farming in Bihar.\n\n📝 **निष्कर्ष**\n\n- गंगा और उसकी सहायक नदियों द्वारा जमा की गई जलोढ़ मिट्टी बिहार में गहन अनाज की खेती के लिए उत्कृष्ट स्थितियाँ प्रदान करती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Makhana (Fox Nut) and Litchi are highly specialized horticultural products of Bihar, with the state accounting for over 85% of India's Makhana production.\n\n💡 **रोचक तथ्य**\n\n- मखाना (फॉक्स नट) और लीची बिहार के अत्यधिक विशिष्ट बागवानी उत्पाद हैं, और भारत के मखाना उत्पादन में राज्य का हिस्सा 85% से अधिक है।"
+    }
+  },
+  {
+    "id": "BIO405",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "Xenobiology",
+      "Astrobiology",
+      "AlienLife"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The 'Study of alien life' is known as -",
+    "question_hi": "'विदेशी (एलियन) जीवन के अध्ययन' को किस रूप में जाना जाता है?",
+    "options":[
+      "Zoology",
+      "Biochemistry",
+      "Xenobiology",
+      "None of the above"
+    ],
+    "options_hi":[
+      "प्राणीशास्त्र (जूलॉजी)",
+      "जैव रसायन (बायोकेमिस्ट्री)",
+      "ज़ेनोबायोलॉजी",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Xenobiology",
+    "explanation": {
+      "summary": "Correct Answer: Xenobiology\n\nसही उत्तर: ज़ेनोबायोलॉजी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Xenobiology (or Astrobiology) is the branch of science dedicated to the study of the origin, evolution, distribution, and future of life in the universe, focusing specifically on extraterrestrial or 'alien' life forms.\n\n✅ **यह सही क्यों है**\n\n- ज़ेनोबायोलॉजी (या एस्ट्रोबायोलॉजी) विज्ञान की वह शाखा है जो ब्रह्मांड में जीवन की उत्पत्ति, विकास, वितरण और भविष्य के अध्ययन के लिए समर्पित है, विशेष रूप से अलौकिक या 'विदेशी' जीवन रूपों पर केंद्रित है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Zoology is the study of animals on Earth. Biochemistry is the study of chemical processes within and relating to living organisms. Neither deals with extraterrestrial biology.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- प्राणीशास्त्र पृथ्वी पर जानवरों का अध्ययन है। जैव रसायन जीवित जीवों के भीतर और उनसे संबंधित रासायनिक प्रक्रियाओं का अध्ययन है। कोई भी अलौकिक जीव विज्ञान से संबंधित नहीं है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Scientific root words often give the answer away: 'Xeno' comes from the Greek word for foreign, strange, or alien.\n\n📝 **निष्कर्ष**\n\n- वैज्ञानिक मूल शब्द अक्सर उत्तर दे देते हैं: 'ज़ेनो (Xeno)' ग्रीक शब्द से आया है जिसका अर्थ है विदेशी, अजीब या एलियन।",
+      "fact": "💡 **Interesting Fact**\n\n- In synthetic biology, xenobiology also refers to synthesizing and manipulating biological devices and systems built from non-natural, completely artificial chemicals (like XNA instead of DNA).\n\n💡 **रोचक तथ्य**\n\n- सिंथेटिक जीव विज्ञान में, ज़ेनोबायोलॉजी गैर-प्राकृतिक, पूरी तरह से कृत्रिम रसायनों (जैसे डीएनए के बजाय XNA) से निर्मित जैविक उपकरणों और प्रणालियों को संश्लेषित करने और हेरफेर करने को भी संदर्भित करता है।"
+    }
+  },
+  {
+    "id": "CUR599",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Science & Technology",
+      "subTopic": "Health, Medicine & Biotech"
+    },
+    "tags":[
+      "Paleontology",
+      "Fossils",
+      "Agriodontosaurus"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "The fossil of newly named 'Agriodontosaurus helsbypetrae' is found in -",
+    "question_hi": "नव नामित 'एग्रीओडोंटोसॉरस हेल्सबीपेट्रे (Agriodontosaurus helsbypetrae)' का जीवाश्म कहाँ पाया गया है?",
+    "options":[
+      "India",
+      "Egypt",
+      "South Sudan",
+      "None of the above"
+    ],
+    "options_hi":[
+      "भारत",
+      "मिस्र",
+      "दक्षिण सूडान",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "None of the above",
+    "explanation": {
+      "summary": "Correct Answer: None of the above\n\nसही उत्तर: उपर्युक्त में से कोई नहीं",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The fossil of *Agriodontosaurus helsbypetrae*, a tiny 242-million-year-old lepidosaur, was discovered in the Helsby Sandstone Formation in Devon, United Kingdom, making 'None of the above' the correct choice.\n\n✅ **यह सही क्यों है**\n\n- 242 मिलियन वर्ष पुराने छोटे लेपिडोसॉर *एग्रीओडोंटोसॉरस हेल्सबीपेट्रे* का जीवाश्म यूनाइटेड किंगडम के डेवोन में हेल्सबी सैंडस्टोन फॉर्मेशन में खोजा गया था, जिससे 'उपरोक्त में से कोई नहीं' सही विकल्प बन जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The excavation site is strictly in the UK. Options like India, Egypt, and South Sudan are factually incorrect geographical locations for this specific paleontological discovery.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- उत्खनन स्थल पूरी तरह से यूके में है। भारत, मिस्र और दक्षिण सूडान जैसे विकल्प इस विशिष्ट जीवाश्म विज्ञान संबंधी खोज के लिए तथ्यात्मक रूप से गलत भौगोलिक स्थान हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Current affairs frequently test recent major scientific and paleontological discoveries, especially those that alter evolutionary timelines.\n\n📝 **निष्कर्ष**\n\n- करेंट अफेयर्स अक्सर हाल की प्रमुख वैज्ञानिक और जीवाश्म विज्ञान संबंधी खोजों का परीक्षण करते हैं, विशेष रूप से वे जो विकासवादी समयसीमा को बदल देते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- *Agriodontosaurus helsbypetrae* is currently recognized as the oldest known definitive rhynchocephalian, shaking up scientists' assumptions about the earliest members of the lizard lineage.\n\n💡 **रोचक तथ्य**\n\n- *एग्रीओडोंटोसॉरस हेल्सबीपेट्रे* को वर्तमान में सबसे पुराने ज्ञात निश्चित राइनोसेफैलियन के रूप में पहचाना जाता है, जो छिपकली वंश के शुरुआती सदस्यों के बारे में वैज्ञानिकों की धारणाओं को हिलाकर रख देता है।"
+    }
+  },
+  {
+    "id": "CUR600",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Miscellaneous Current Affairs",
+      "subTopic": "Books & Authors (Recent)"
+    },
+    "tags":[
+      "BooksAndAuthors",
+      "AndreaMara",
+      "Literature"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "'It should have been you' book is written by -",
+    "question_hi": "'इट शुड हैव बीन यू (It should have been you)' पुस्तक किसके द्वारा लिखी गई है?",
+    "options":[
+      "Romila Thapar",
+      "Arundhati Roy",
+      "Jane Donnison",
+      "Andrea Mara"
+    ],
+    "options_hi":[
+      "रोमिला थापर",
+      "अरुंधति रॉय",
+      "जेन डॉन्निसन",
+      "एंड्रिया मारा"
+    ],
+    "correct": "Andrea Mara",
+    "explanation": {
+      "summary": "Correct Answer: Andrea Mara\n\nसही उत्तर: एंड्रिया मारा",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Andrea Mara is the acclaimed #1 international bestselling author of the gripping 2026 psychological thriller novel 'It Should Have Been You'.\n\n✅ **यह सही क्यों है**\n\n- एंड्रिया मारा मनोरंजक 2026 मनोवैज्ञानिक थ्रिलर उपन्यास 'इट शुड हैव बीन यू' की प्रशंसित #1 अंतर्राष्ट्रीय बेस्टसेलिंग लेखिका हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Romila Thapar writes on ancient Indian history. Arundhati Roy is a Booker prize-winning author known for 'The God of Small Things'. They are not associated with this recent suburban thriller.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- रोमिला थापर प्राचीन भारतीय इतिहास पर लिखती हैं। अरुंधति रॉय एक बुकर पुरस्कार विजेता लेखिका हैं जिन्हें 'द गॉड ऑफ स्मॉल थिंग्स' के लिए जाना जाता है। वे इस हालिया थ्रिलर से जुड़े नहीं हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Keeping track of prominent newly released books and international bestsellers is important for the 'Books and Authors' section of GK exams.\n\n📝 **निष्कर्ष**\n\n- प्रमुख नव जारी पुस्तकों और अंतरराष्ट्रीय बेस्टसेलर पर नज़र रखना जीके परीक्षाओं के 'पुस्तकें और लेखक' अनुभाग के लिए महत्वपूर्ण है।",
+      "fact": "💡 **Interesting Fact**\n\n- The plot of the book revolves around a harmless gossipy text message accidentally sent to a neighborhood WhatsApp group, which spirals into a murder mystery.\n\n💡 **रोचक तथ्य**\n\n- किताब की कहानी एक पड़ोस के व्हाट्सएप ग्रुप में गलती से भेजे गए एक गपशप वाले टेक्स्ट संदेश के इर्द-गिर्द घूमती है, जो एक मर्डर मिस्ट्री में बदल जाती है।"
+    }
+  },
+  {
+    "id": "SGK655",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "World at a Glance",
+      "subTopic": "Countries (Capitals, Currencies, Parliaments)"
+    },
+    "tags": [
+      "Currencies",
+      "KuwaitiDinar",
+      "Forex"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which option is correct about currencies?\n1. Kuwaiti Dinar is strongest currency\n2. Euro is used in Britain\n3. GBP is code for Gibraltar Pound\n4. Swiss Franc code is CHF",
+    "question_hi": "मुद्राओं के बारे में कौन सा विकल्प सही है?\n1. कुवैती दीनार सबसे मजबूत मुद्रा है\n2. ब्रिटेन में यूरो का उपयोग किया जाता है\n3. GBP जिब्राल्टर पाउंड का कोड है\n4. स्विस फ्रैंक का कोड CHF है",
+    "options":[
+      "1 and 2 are correct",
+      "2 and 3 are correct",
+      "1 and 4 are correct",
+      "1, 2 and 4 are correct"
+    ],
+    "options_hi":[
+      "1 और 2 सही हैं",
+      "2 और 3 सही हैं",
+      "1 और 4 सही हैं",
+      "1, 2 और 4 सही हैं"
+    ],
+    "correct": "1 and 4 are correct",
+    "explanation": {
+      "summary": "Correct Answer: 1 and 4 are correct\n\nसही उत्तर: 1 और 4 सही हैं",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement 1 is correct: The Kuwaiti Dinar (KWD) is consistently the highest-valued currency globally. Statement 4 is correct: The official ISO code for the Swiss Franc is CHF (Confoederatio Helvetica Franc).\n\n✅ **यह सही क्यों है**\n\n- कथन 1 सही है: कुवैती दीनार (KWD) लगातार विश्व स्तर पर सबसे अधिक मूल्यवान मुद्रा है। कथन 4 सही है: स्विस फ्रैंक का आधिकारिक ISO कोड CHF (कॉन्फोडेरेटियो हेल्वेटिका फ्रैंक) है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is wrong because Britain uses the Pound Sterling (GBP), not the Euro. Statement 3 is wrong because GBP stands for Great British Pound, whereas the Gibraltar Pound's ISO code is GIP.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि ब्रिटेन यूरो का नहीं, बल्कि पाउंड स्टर्लिंग (GBP) का उपयोग करता है। कथन 3 गलत है क्योंकि GBP का मतलब ग्रेट ब्रिटिश पाउंड है, जबकि जिब्राल्टर पाउंड का ISO कोड GIP है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Knowing ISO currency codes and the relative strength of major global currencies is a common requirement in Static GK.\n\n📝 **निष्कर्ष**\n\n- आईएसओ मुद्रा कोड और प्रमुख वैश्विक मुद्राओं की सापेक्ष शक्ति को जानना स्टेटिक जीके में एक सामान्य आवश्यकता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The Kuwaiti Dinar derives its high value mainly from the country's massive oil exports, which peg the currency against an undisclosed basket of global currencies.\n\n💡 **रोचक तथ्य**\n\n- कुवैती दीनार अपना उच्च मूल्य मुख्य रूप से देश के बड़े पैमाने पर तेल निर्यात से प्राप्त करता है, जो वैश्विक मुद्राओं की एक अघोषित टोकरी के खिलाफ मुद्रा को जोड़ता है।"
+    }
+  },
+  {
+    "id": "CUR601",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Awards & Honours",
+      "subTopic": "International Awards (Nobel, Booker etc.)"
+    },
+    "tags":[
+      "NobelPrize",
+      "Medicine",
+      "ShimonSakaguchi"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "2025 Nobel Prize in Physiology or Medicine awardee Shimon Sakaguchi belongs to--",
+    "question_hi": "फिजियोलॉजी या मेडिसिन में 2025 के नोबेल पुरस्कार विजेता शिमोन साकागुची कहाँ के निवासी हैं?",
+    "options":[
+      "USA",
+      "Japan",
+      "England",
+      "Sweden"
+    ],
+    "options_hi":[
+      "अमेरिका",
+      "जापान",
+      "इंग्लैंड",
+      "स्वीडन"
+    ],
+    "correct": "Japan",
+    "explanation": {
+      "summary": "Correct Answer: Japan\n\nसही उत्तर: जापान",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Shimon Sakaguchi is a prominent Japanese immunologist and Distinguished Professor at Osaka University. He was jointly awarded the 2025 Nobel Prize in Physiology or Medicine for his discovery of regulatory T cells.\n\n✅ **यह सही क्यों है**\n\n- शिमोन साकागुची एक प्रमुख जापानी प्रतिरक्षाविज्ञानी (इम्यूनोलॉजिस्ट) और ओसाका विश्वविद्यालय में प्रतिष्ठित प्रोफेसर हैं। उन्हें नियामक टी कोशिकाओं की अपनी खोज के लिए संयुक्त रूप से फिजियोलॉजी या मेडिसिन में 2025 के नोबेल पुरस्कार से सम्मानित किया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- He shared the prize with American scientists Mary E. Brunkow and Fred Ramsdell, but Sakaguchi himself is affiliated with Japanese institutions and is a citizen of Japan.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- उन्होंने अमेरिकी वैज्ञानिकों मैरी ई. ब्रंको और फ्रेड रैम्सडेल के साथ पुरस्कार साझा किया, लेकिन साकागुची स्वयं जापानी संस्थानों से संबद्ध हैं और जापान के नागरिक हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Identifying the nationality and institutional affiliation of newly crowned Nobel Laureates is a highly recurring theme in Current Affairs sections.\n\n📝 **निष्कर्ष**\n\n- नए नोबेल पुरस्कार विजेताओं की राष्ट्रीयता और संस्थागत संबद्धता की पहचान करना करेंट अफेयर्स अनुभागों में अत्यधिक आवर्ती विषय है।",
+      "fact": "💡 **Interesting Fact**\n\n- Sakaguchi's discovery of regulatory T cells (Tregs) helped scientists understand how the immune system prevents itself from attacking its own body, providing new treatments for autoimmune diseases.\n\n💡 **रोचक तथ्य**\n\n- नियामक टी कोशिकाओं (Tregs) की साकागुची की खोज ने वैज्ञानिकों को यह समझने में मदद की कि प्रतिरक्षा प्रणाली खुद को अपने शरीर पर हमला करने से कैसे रोकती है, जिससे ऑटोइम्यून बीमारियों के लिए नए उपचार मिलते हैं।"
+    }
+  },
+  {
+    "id": "CUR602",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Miscellaneous Current Affairs",
+      "subTopic": "Major World Events"
+    },
+    "tags":[
+      "AviationCrash",
+      "AirIndia",
+      "Ahmedabad"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Read the statements about Air India Flight 171-\n1. It got crashed in Ahmedabad on June 12, 2025\n2. It was scheduled to land at Heathrow Airport, London\n3. Total fatalities of Passengers were 260\n4. It was Boeing 787-8 Dreamliner",
+    "question_hi": "एयर इंडिया की उड़ान 171 के बारे में कथन पढ़ें-\n1. यह 12 जून 2025 को अहमदाबाद में दुर्घटनाग्रस्त हो गया था\n2. इसे लंदन के हीथ्रो हवाई अड्डे पर उतरना था\n3. यात्रियों की कुल मृत्यु 260 थी\n4. यह बोइंग 787-8 ड्रीमलाइनर था",
+    "options":[
+      "1, 2 and 4 correct",
+      "1, 3 and 4 are correct",
+      "1, 2 and 3 are correct",
+      "1 and 4 are correct"
+    ],
+    "options_hi":[
+      "1, 2 और 4 सही हैं",
+      "1, 3 और 4 सही हैं",
+      "1, 2 और 3 सही हैं",
+      "1 और 4 सही हैं"
+    ],
+    "correct": "1 and 4 are correct",
+    "explanation": {
+      "summary": "Correct Answer: 1 and 4 are correct\n\nसही उत्तर: 1 और 4 सही हैं",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Air India Flight 171 (a Boeing 787-8 Dreamliner) tragically crashed shortly after takeoff in Ahmedabad on June 12, 2025, making statements 1 and 4 factually correct.\n\n✅ **यह सही क्यों है**\n\n- एयर इंडिया की उड़ान 171 (एक बोइंग 787-8 ड्रीमलाइनर) 12 जून 2025 को अहमदाबाद में उड़ान भरने के कुछ ही समय बाद दुखद रूप से दुर्घटनाग्रस्त हो गई, जिससे कथन 1 और 4 तथ्यात्मक रूप से सही हो जाते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement 2 is false as the flight was scheduled for London's Gatwick Airport, not Heathrow. Statement 3 is false because while 260 total people died (including 19 on the ground), the passenger fatalities were 229.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन 2 गलत है क्योंकि उड़ान लंदन के गैटविक हवाई अड्डे के लिए निर्धारित थी, हीथ्रो के लिए नहीं। कथन 3 गलत है क्योंकि जबकि कुल 260 लोगों की मृत्यु हुई (जमीन पर 19 सहित), यात्री मृत्यु 229 थी।",
+      "conclusion": "📝 **Concluding Note**\n\n- Major aviation disasters are thoroughly investigated and heavily covered in international news, making their fine details frequent targets for current affairs questions.\n\n📝 **निष्कर्ष**\n\n- प्रमुख विमानन आपदाओं की गहन जांच की जाती है और अंतर्राष्ट्रीय समाचारों में भारी रूप से कवर किया जाता है, जिससे उनके सूक्ष्म विवरण वर्तमान मामलों के सवालों के लिए अक्सर लक्ष्य बन जाते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The crash of Flight 171 was the first fatal crash involving a Boeing 787 Dreamliner aircraft worldwide.\n\n💡 **रोचक तथ्य**\n\n- उड़ान 171 की दुर्घटना दुनिया भर में बोइंग 787 ड्रीमलाइनर विमान से जुड़ी पहली घातक दुर्घटना थी।"
+    }
+  },
+  {
+    "id": "CUR603",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Sports",
+      "subTopic": "National & International Tournaments"
+    },
+    "tags": [
+      "KhoKho",
+      "WorldCup",
+      "Sports"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which option is correct about Kho-Kho World Cup?",
+    "question_hi": "खो-खो विश्व कप के बारे में कौन सा विकल्प सही है?",
+    "options":[
+      "It was held in Mumbai",
+      "It was held during February 2025",
+      "India was winner and Nepal was runner",
+      "All above options are correct"
+    ],
+    "options_hi":[
+      "यह मुंबई में आयोजित किया गया था",
+      "यह फरवरी 2025 के दौरान आयोजित किया गया था",
+      "भारत विजेता था और नेपाल उपविजेता था",
+      "उपरोक्त सभी विकल्प सही हैं"
+    ],
+    "correct": "India was winner and Nepal was runner",
+    "explanation": {
+      "summary": "Correct Answer: India was winner and Nepal was runner\n\nसही उत्तर: भारत विजेता था और नेपाल उपविजेता था",
+      "analysis_correct": "✅ **Why this is correct**\n\n- At the inaugural 2025 Kho-Kho World Cup, the Indian men's and women's teams created history by defeating Nepal in both respective finals to clinch the titles.\n\n✅ **यह सही क्यों है**\n\n- उद्घाटन 2025 खो-खो विश्व कप में, भारतीय पुरुष और महिला दोनों टीमों ने अपने-अपने फाइनल में नेपाल को हराकर खिताब जीतकर इतिहास रच दिया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The tournament was hosted at the Indira Gandhi Indoor Stadium in New Delhi (not Mumbai) and concluded on January 19, 2025 (not February). Therefore, 'All above options are correct' is factually wrong.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- टूर्नामेंट नई दिल्ली (मुंबई में नहीं) के इंदिरा गांधी इंडोर स्टेडियम में आयोजित किया गया था और 19 जनवरी 2025 (फरवरी में नहीं) को संपन्न हुआ था। इसलिए, 'उपरोक्त सभी विकल्प सही हैं' तथ्यात्मक रूप से गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Indigenous sports gaining international World Cup status are highly celebrated in India and are prime topics for competitive exams.\n\n📝 **निष्कर्ष**\n\n- अंतरराष्ट्रीय विश्व कप का दर्जा हासिल करने वाले स्वदेशी खेलों का भारत में अत्यधिक जश्न मनाया जाता है और ये प्रतियोगी परीक्षाओं के लिए प्रमुख विषय हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The 2025 Kho-Kho World Cup marked the very first time that a Nepali national team had reached a World Cup final in any sport.\n\n💡 **रोचक तथ्य**\n\n- 2025 खो-खो विश्व कप पहली बार था जब नेपाली राष्ट्रीय टीम किसी भी खेल में विश्व कप फाइनल में पहुंची थी।"
+    }
+  },
+  {
+    "id": "CUR604",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Sports",
+      "subTopic": "Cricket"
+    },
+    "tags":[
+      "ICCAwards",
+      "Cricket",
+      "Sports"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which option is mismatched regarding 2024 ICC Award winners?",
+    "question_hi": "2024 ICC पुरस्कार विजेताओं के संबंध में कौन सा विकल्प बेमेल है?",
+    "options":[
+      "ICC Men ODI cricketer of year = Azmatullah Omarzai",
+      "ICC Men's T20 cricketer of year = Jasprit Bumrah",
+      "ICC Umpire of the year = Richard Illingworth",
+      "ICC Women ODI cricketer of year = Smriti Mandhana"
+    ],
+    "options_hi":[
+      "आईसीसी मेन्स वनडे क्रिकेटर ऑफ द ईयर = अजमतुल्लाह उमरजई",
+      "आईसीसी मेन्स टी20 क्रिकेटर ऑफ द ईयर = जसप्रीत बुमराह",
+      "आईसीसी अंपायर ऑफ द ईयर = रिचर्ड इलिंगवर्थ",
+      "आईसीसी महिला वनडे क्रिकेटर ऑफ द ईयर = स्मृति मंधाना"
+    ],
+    "correct": "ICC Men ODI cricketer of year = Azmatullah Omarzai",
+    "explanation": {
+      "summary": "Correct Answer: ICC Men ODI cricketer of year = Azmatullah Omarzai\n\nसही उत्तर: आईसीसी मेन्स वनडे क्रिकेटर ऑफ द ईयर = अजमतुल्लाह उमरजई",
+      "analysis_correct": "✅ **Why this is correct**\n\n- This option is mismatched. Azmatullah Omarzai (Afghanistan) did not win the ICC Men's ODI Cricketer of the Year award; this highly prestigious title was awarded to Virat Kohli for his spectacular performance in the 2023-2024 cycle.\n\n✅ **यह सही क्यों है**\n\n- यह विकल्प बेमेल है। अजमतुल्लाह उमरजई (अफगानिस्तान) ने ICC मेन्स वनडे क्रिकेटर ऑफ द ईयर का पुरस्कार नहीं जीता; यह अत्यधिक प्रतिष्ठित खिताब 2023-2024 चक्र में अपने शानदार प्रदर्शन के लिए विराट कोहली को प्रदान किया गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The other options correctly match the ICC titles to their respective recipients (like Bumrah, Mandhana, and Illingworth) for the given awards cycle.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- अन्य विकल्प दिए गए पुरस्कार चक्र के लिए उनके संबंधित प्राप्तकर्ताओं (जैसे बुमराह, मंधाना और इलिंगवर्थ) के साथ ICC खिताबों का सही मिलान करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The annual ICC Awards recognise and honour the best international cricket players of the previous year, making it a critical sports current affairs topic.\n\n📝 **निष्कर्ष**\n\n- वार्षिक ICC पुरस्कार पिछले वर्ष के सर्वश्रेष्ठ अंतरराष्ट्रीय क्रिकेट खिलाड़ियों को पहचानते हैं और सम्मानित करते हैं, जिससे यह एक महत्वपूर्ण खेल वर्तमान मामलों का विषय बन जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Richard Illingworth, who won the Umpire of the Year, was also a former English cricketer who played in the 1992 Cricket World Cup final.\n\n💡 **रोचक तथ्य**\n\n- अंपायर ऑफ द ईयर जीतने वाले रिचर्ड इलिंगवर्थ एक पूर्व अंग्रेजी क्रिकेटर भी थे, जिन्होंने 1992 क्रिकेट विश्व कप फाइनल में खेला था।"
+    }
+  },
+  {
+    "id": "CUR605",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "National Affairs",
+      "subTopic": "Miscellaneous Current Affairs"
+    },
+    "tags":[
+      "CommemorativeCoin",
+      "RSS",
+      "BharatMata"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Given below are two statements. One is labeled as Assertion (A) and other is labeled as Reason (R)\nAssertion (A): Rs. 100 coin was unveiled at RSS century event.\nReason (R): The coin features Bharat mata for the first time on Indian Currency.",
+    "question_hi": "नीचे दो कथन दिए गए हैं। एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): आरएसएस शताब्दी समारोह में 100 रुपये के सिक्के का अनावरण किया गया।\nकारण (R): भारतीय मुद्रा पर पहली बार सिक्के में भारत माता को चित्रित किया गया है।",
+    "options":[
+      "Both (A) & (R) are correct and (R) is the correct explanation of (A)",
+      "Both (A) & (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct"
+    ],
+    "options_hi":[
+      "(A) और (R) दोनों सही हैं और (R) (A) का सही स्पष्टीकरण है",
+      "(A) और (R) दोनों सही हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "(A) सही है लेकिन (R) सही नहीं है",
+      "(A) सही नहीं है लेकिन (R) सही है"
+    ],
+    "correct": "Both (A) & (R) are correct but (R) is not the correct explanation of (A)",
+    "explanation": {
+      "summary": "Correct Answer: Both (A) & (R) are correct but (R) is not the correct explanation of (A)\n\nसही उत्तर: (A) और (R) दोनों सही हैं लेकिन (R) (A) का सही स्पष्टीकरण नहीं है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Both statements are factually correct independent facts regarding the commemorative coin. However, the depiction of Bharat Mata on the coin is a feature of its design, not the functional 'reason' why a Rs. 100 denomination was required. The denomination marks the 100th anniversary (centenary).\n\n✅ **यह सही क्यों है**\n\n- स्मारक सिक्के के संबंध में दोनों कथन तथ्यात्मक रूप से सही स्वतंत्र तथ्य हैं। हालाँकि, सिक्के पर भारत माता का चित्रण इसके डिजाइन की एक विशेषता है, न कि कार्यात्मक 'कारण' कि 100 रुपये के मूल्यवर्ग की आवश्यकता क्यों थी। मूल्यवर्ग 100वीं वर्षगांठ (शताब्दी) को चिह्नित करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Option 1 implies causality which is incorrect. The Rs 100 denomination is typically chosen to mark a centenary (100 years), independent of the visual engraving on it.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- विकल्प 1 कारणता का तात्पर्य है जो गलत है। 100 रुपये का मूल्यवर्ग आमतौर पर इस पर दृश्य उत्कीर्णन से स्वतंत्र, शताब्दी (100 वर्ष) को चिह्नित करने के लिए चुना जाता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Commemorative coins in India are released by the Government to mark special events or anniversaries of prominent institutions and leaders.\n\n📝 **निष्कर्ष**\n\n- भारत में स्मारक सिक्के सरकार द्वारा प्रमुख संस्थानों और नेताओं के विशेष आयोजनों या वर्षगांठ को चिह्नित करने के लिए जारी किए जाते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Commemorative coins are generally not used for daily transactions and are minted under the authority of the Ministry of Finance, falling under the Coinage Act.\n\n💡 **रोचक तथ्य**\n\n- स्मारक सिक्कों का उपयोग आम तौर पर दैनिक लेनदेन के लिए नहीं किया जाता है और सिक्का अधिनियम के तहत वित्त मंत्रालय के अधिकार के तहत ढाला जाता है।"
+    }
+  },
+  {
+    "id": "CUR606",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Sports",
+      "subTopic": "Cricket"
+    },
+    "tags":[
+      "AsiaCup",
+      "MohsinNaqvi",
+      "CricketDiplomacy"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In which capacity (Role) Mohsin Naqvi was supposed to hand over Asia Cup cricket trophy to India in Dubai?",
+    "question_hi": "मोहसिन नकवी को दुबई में किस हैसियत (भूमिका) से भारत को एशिया कप क्रिकेट ट्रॉफी सौंपनी थी?",
+    "options":[
+      "He is interior minister for Pakistan",
+      "He is ACC Chief",
+      "He is PCB Chief",
+      "All of the above"
+    ],
+    "options_hi":[
+      "वह पाकिस्तान के आंतरिक मामलों के मंत्री हैं",
+      "वह एसीसी (ACC) प्रमुख हैं",
+      "वह पीसीबी (PCB) प्रमुख हैं",
+      "उपरोक्त सभी"
+    ],
+    "correct": "All of the above",
+    "explanation": {
+      "summary": "Correct Answer: All of the above\n\nसही उत्तर: उपरोक्त सभी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Mohsin Naqvi holds multiple prominent portfolios simultaneously. He acts as the Chairman of the Pakistan Cricket Board (PCB), is the President of the Asian Cricket Council (ACC), and crucially holds the political office of Interior Minister of Pakistan.\n\n✅ **यह सही क्यों है**\n\n- मोहसिन नकवी एक साथ कई प्रमुख विभागों को संभालते हैं। वह पाकिस्तान क्रिकेट बोर्ड (पीसीबी) के अध्यक्ष के रूप में कार्य करते हैं, एशियाई क्रिकेट परिषद (एसीसी) के अध्यक्ष हैं, और महत्वपूर्ण रूप से पाकिस्तान के आंतरिक मामलों के मंत्री का राजनीतिक पद रखते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Singling out only his PCB role or his ACC role gives an incomplete picture of his administrative capacities, all of which contributed to the controversy surrounding the trophy presentation.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- केवल उनकी पीसीबी भूमिका या उनकी एसीसी भूमिका को अलग करना उनकी प्रशासनिक क्षमताओं की एक अधूरी तस्वीर देता है, जिसने ट्रॉफी प्रस्तुति के आसपास के विवाद में योगदान दिया।",
+      "conclusion": "📝 **Concluding Note**\n\n- The intersection of sports administration and high-level political posts in South Asia often leads to complex diplomatic situations during international tournaments.\n\n📝 **निष्कर्ष**\n\n- दक्षिण एशिया में खेल प्रशासन और उच्च-स्तरीय राजनीतिक पदों के प्रतिच्छेदन से अक्सर अंतरराष्ट्रीय टूर्नामेंटों के दौरान जटिल कूटनीतिक स्थितियाँ पैदा होती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Indian team refused to accept the Asia Cup trophy from Naqvi due to his role as a serving minister of Pakistan amid heightened bilateral tensions.\n\n💡 **रोचक तथ्य**\n\n- भारतीय टीम ने द्विपक्षीय तनाव के बीच पाकिस्तान के एक सेवारत मंत्री के रूप में उनकी भूमिका के कारण नकवी से एशिया कप ट्रॉफी स्वीकार करने से इनकार कर दिया।"
+    }
+  },
+  {
+    "id": "ECO904",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Economics",
+      "topic": "Macroeconomics",
+      "subTopic": "Public Finance (Budget, Fiscal Policy, Taxation)"
+    },
+    "tags":[
+      "FiscalYear",
+      "USA",
+      "GlobalEconomy"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The federal government Fiscal year in USA is -",
+    "question_hi": "अमेरिका में संघीय सरकार का वित्तीय वर्ष है -",
+    "options":[
+      "January 1 to December 31",
+      "October 1 to September 30",
+      "April 1 to March 31",
+      "More than one of the above"
+    ],
+    "options_hi":[
+      "1 जनवरी से 31 दिसंबर",
+      "1 अक्टूबर से 30 सितंबर",
+      "1 अप्रैल से 31 मार्च",
+      "उपर्युक्त में से एक से अधिक"
+    ],
+    "correct": "October 1 to September 30",
+    "explanation": {
+      "summary": "Correct Answer: October 1 to September 30\n\nसही उत्तर: 1 अक्टूबर से 30 सितंबर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The United States federal government's fiscal year officially begins on October 1 and ends on September 30 of the following year.\n\n✅ **यह सही क्यों है**\n\n- संयुक्त राज्य अमेरिका की संघीय सरकार का वित्तीय वर्ष आधिकारिक तौर पर 1 अक्टूबर को शुरू होता है और अगले वर्ष के 30 सितंबर को समाप्त होता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- April 1 to March 31 is the fiscal year for India. January 1 to December 31 is a standard calendar year, used as the fiscal year in many corporate environments, but not the US federal government.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- 1 अप्रैल से 31 मार्च भारत का वित्तीय वर्ष है। 1 जनवरी से 31 दिसंबर एक मानक कैलेंडर वर्ष है, जिसका उपयोग कई कॉर्पोरेट वातावरणों में वित्तीय वर्ष के रूप में किया जाता है, लेकिन अमेरिकी संघीय सरकार में नहीं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Different nations and multinational corporations use different fiscal years for accounting, budget creation, and taxation purposes.\n\n📝 **निष्कर्ष**\n\n- विभिन्न देश और बहुराष्ट्रीय निगम लेखांकन, बजट निर्माण और कराधान उद्देश्यों के लिए अलग-अलग वित्तीय वर्षों का उपयोग करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The US federal fiscal year was changed in 1976 from running July 1-June 30 to its current Oct 1-Sept 30 format to give Congress more time to agree on a budget.\n\n💡 **रोचक तथ्य**\n\n- कांग्रेस को बजट पर सहमत होने के लिए अधिक समय देने के लिए 1976 में अमेरिकी संघीय वित्तीय वर्ष को 1 जुलाई-30 जून से बदलकर इसके वर्तमान 1 अक्टूबर-30 सितंबर प्रारूप में कर दिया गया था।"
+    }
+  },
+  {
+    "id": "SGK656",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "India at a Glance",
+      "subTopic": "Books & Authors (Indian)"
+    },
+    "tags":[
+      "BooksAndAuthors",
+      "Literature",
+      "ContemporaryWriters"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match List - I with List - II\nList I:\na. The Chola Tigers\nb. The Illuminated\nc. The Tubewell House\nd. Mother Mary Comes to me\nList II:\n1. Arundhati Roy\n2. Abhishek Chaudhary\n3. Anindita Ghosh\n4. Ashwin Sanghi",
+    "question_hi": "सूची-I को सूची-II के साथ सुमेलित करें:\nसूची I:\na. द चोल टाइगर्स\nb. द इल्यूमिनेटेड\nc. द ट्यूबवेल हाउस\nd. मदर मैरी कम्स टू मी\nसूची II:\n1. अरुंधति रॉय\n2. अभिषेक चौधरी\n3. अनिंदिता घोष\n4. अश्विन सांघी",
+    "options":[
+      "a-4, b-1, c-2, d-3",
+      "a-2, b-3, c-4, d-1",
+      "a-4, b-3, c-1, d-2",
+      "a-1, b-2, c-4, d-3"
+    ],
+    "options_hi":[
+      "a-4, b-1, c-2, d-3",
+      "a-2, b-3, c-4, d-1",
+      "a-4, b-3, c-1, d-2",
+      "a-1, b-2, c-4, d-3"
+    ],
+    "correct": "a-4, b-3, c-1, d-2",
+    "explanation": {
+      "summary": "Correct Answer: a-4, b-3, c-1, d-2\n\nसही उत्तर: a-4, b-3, c-1, d-2",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Based on contemporary Indian publishing mapping: Ashwin Sanghi writes historical thrillers (a-4), Anindita Ghose is known for 'The Illuminated' (b-3), Arundhati Roy wrote 'The Tubewell House' pieces (c-1), and Abhishek Chaudhary authored 'Mother Mary Comes to Me' (d-2).\n\n✅ **यह सही क्यों है**\n\n- समकालीन भारतीय प्रकाशन मानचित्रण के आधार पर: अश्विन सांघी ऐतिहासिक थ्रिलर (a-4) लिखते हैं, अनिंदिता घोष 'द इल्यूमिनेटेड' (b-3) के लिए जानी जाती हैं, अरुंधति रॉय ने 'द ट्यूबवेल हाउस' (c-1) लिखा, और अभिषेक चौधरी ने 'मदर मैरी कम्स टू मी' (d-2) लिखा।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any alternative pairing misattributes famous recent novels and essays to the wrong contemporary authors.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी वैकल्पिक जोड़ी प्रसिद्ध हालिया उपन्यासों और निबंधों को गलत समकालीन लेखकों को श्रेय देती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Questions matching contemporary authors with their recent notable publications require a broad reading of current affairs in the literary domain.\n\n📝 **निष्कर्ष**\n\n- समकालीन लेखकों का उनके हालिया उल्लेखनीय प्रकाशनों के साथ मिलान करने वाले प्रश्नों के लिए साहित्यिक क्षेत्र में वर्तमान मामलों के व्यापक अध्ययन की आवश्यकता होती है।",
+      "fact": "💡 **Interesting Fact**\n\n- 'The Illuminated' by Anindita Ghose is a critically acclaimed feminist novel exploring the complex relationship between a mother and daughter following the death of their family patriarch.\n\n💡 **रोचक तथ्य**\n\n- अनिंदिता घोष द्वारा लिखित 'द इल्यूमिनेटेड' एक समीक्षकों द्वारा प्रशंसित नारीवादी उपन्यास है जो अपने परिवार के पिता की मृत्यु के बाद एक माँ और बेटी के बीच जटिल संबंधों की पड़ताल करता है।"
+    }
+  },
+  {
+    "id": "CUR607",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Awards & Honours",
+      "subTopic": "Film & Music Awards"
+    },
+    "tags": [
+      "NationalFilmAwards",
+      "BestActor",
+      "Cinema"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Best Actor National Film Award 2025 was given to -",
+    "question_hi": "सर्वश्रेष्ठ अभिनेता राष्ट्रीय फिल्म पुरस्कार 2025 किसे दिया गया?",
+    "options":[
+      "Shah Rukh Khan",
+      "Vikrant Massey",
+      "More than one of the above",
+      "None of the above"
+    ],
+    "options_hi":[
+      "शाहरुख खान",
+      "विक्रांत मैसी",
+      "उपर्युक्त में से एक से अधिक",
+      "उपर्युक्त में से कोई नहीं"
+    ],
+    "correct": "Vikrant Massey",
+    "explanation": {
+      "summary": "Correct Answer: Vikrant Massey\n\nसही उत्तर: विक्रांत मैसी",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Vikrant Massey received widespread critical acclaim and top acting honors during the 2024-2025 award circuits (most notably for '12th Fail'), securing him the prestigious Best Actor National Film Award.\n\n✅ **यह सही क्यों है**\n\n- विक्रांत मैसी को 2024-2025 के पुरस्कार चक्रों (विशेष रूप से '12वीं फेल' के लिए) के दौरान व्यापक आलोचनात्मक प्रशंसा और शीर्ष अभिनय सम्मान प्राप्त हुआ, जिससे उन्हें प्रतिष्ठित सर्वश्रेष्ठ अभिनेता का राष्ट्रीय फिल्म पुरस्कार मिला।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Shah Rukh Khan won massive popular awards (like IIFA) in this period, the highly prestigious government-instituted National Film Award for Best Actor went to Vikrant Massey.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि शाहरुख खान ने इस अवधि में बड़े पैमाने पर लोकप्रिय पुरस्कार (जैसे आईफा) जीते, सर्वश्रेष्ठ अभिनेता का अत्यधिक प्रतिष्ठित सरकार द्वारा स्थापित राष्ट्रीय फिल्म पुरस्कार विक्रांत मैसी को मिला।",
+      "conclusion": "📝 **Concluding Note**\n\n- The National Film Awards are administered by the Directorate of Film Festivals, set up by the Ministry of Information and Broadcasting, making them India's most prominent state film honors.\n\n📝 **निष्कर्ष**\n\n- राष्ट्रीय फिल्म पुरस्कार सूचना और प्रसारण मंत्रालय द्वारा स्थापित फिल्म समारोह निदेशालय द्वारा प्रशासित किए जाते हैं, जो उन्हें भारत का सबसे प्रमुख राज्य फिल्म सम्मान बनाते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- In '12th Fail', Vikrant Massey played the real-life character of Manoj Kumar Sharma, who overcame extreme poverty and academic failures to become an IPS officer.\n\n💡 **रोचक तथ्य**\n\n- '12वीं फेल' में, विक्रांत मैसी ने मनोज कुमार शर्मा का वास्तविक जीवन चरित्र निभाया, जिन्होंने एक आईपीएस अधिकारी बनने के लिए अत्यधिक गरीबी और शैक्षणिक विफलताओं पर काबू पाया।"
+    }
+  },
+  {
+    "id": "BIO406",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Biotechnology & Applications",
+      "subTopic": "Biotechnology & Applications"
+    },
+    "tags":[
+      "CRISPR",
+      "GeneEditing",
+      "Biotechnology"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "CRISPR is a technology of -",
+    "question_hi": "क्रिस्पर (CRISPR) किसकी एक तकनीक है?",
+    "options":[
+      "Gene editing",
+      "Laser binding",
+      "Colour mixing",
+      "Road safety"
+    ],
+    "options_hi":[
+      "जीन एडिटिंग",
+      "लेजर बाइंडिंग",
+      "रंग मिश्रण",
+      "सड़क सुरक्षा"
+    ],
+    "correct": "Gene editing",
+    "explanation": {
+      "summary": "Correct Answer: Gene editing\n\nसही उत्तर: जीन एडिटिंग",
+      "analysis_correct": "✅ **Why this is correct**\n\n- CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a revolutionary biotechnology tool that enables geneticists and medical researchers to edit parts of the genome by removing, adding, or altering sections of the DNA sequence.\n\n✅ **यह सही क्यों है**\n\n- क्रिस्पर (CRISPR) एक क्रांतिकारी जैव प्रौद्योगिकी उपकरण है जो आनुवंशिकीविदों और चिकित्सा शोधकर्ताओं को डीएनए अनुक्रम के वर्गों को हटाने, जोड़ने या बदलने के द्वारा जीनोम के कुछ हिस्सों को संपादित करने (जीन एडिटिंग) में सक्षम बनाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- It has absolutely nothing to do with lasers, artistic color mixing, or civil infrastructure (road safety).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इसका लेज़र, कलात्मक रंग मिश्रण, या नागरिक बुनियादी ढांचे (सड़क सुरक्षा) से कोई लेना-देना नहीं है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Emmanuelle Charpentier and Jennifer Doudna were awarded the Nobel Prize in Chemistry in 2020 for the development of the CRISPR-Cas9 method for genome editing.\n\n📝 **निष्कर्ष**\n\n- इमैनुएल चारपेंटियर और जेनिफर डौडना को जीनोम संपादन के लिए CRISPR-Cas9 पद्धति के विकास के लिए 2020 में रसायन विज्ञान के नोबेल पुरस्कार से सम्मानित किया गया था।",
+      "fact": "💡 **Interesting Fact**\n\n- The CRISPR-Cas9 system was originally discovered as an adaptive immune system in bacteria that they use to \"remember\" and defend against invading viruses by slicing up their DNA.\n\n💡 **रोचक तथ्य**\n\n- CRISPR-Cas9 प्रणाली मूल रूप से बैक्टीरिया में एक अनुकूली प्रतिरक्षा प्रणाली के रूप में खोजी गई थी जिसका उपयोग वे आक्रमणकारी वायरस के डीएनए को काटकर 'याद रखने' और उनसे बचाव करने के लिए करते हैं।"
+    }
+  },
+  {
+    "id": "CUR608",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Awards & Honours",
+      "subTopic": "International Awards (Nobel, Booker etc.)"
+    },
+    "tags":[
+      "NobelPrize",
+      "Chemistry",
+      "Scientists"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Three scientists who got Nobel Prize Chemistry in 2025 are from -",
+    "question_hi": "2025 में रसायन विज्ञान का नोबेल पुरस्कार पाने वाले तीन वैज्ञानिक कहाँ के हैं?",
+    "options":[
+      "England, USA, France",
+      "Japan, Australia, USA",
+      "Germany, USA U.K.",
+      "Sweden, France, Japan"
+    ],
+    "options_hi":[
+      "इंग्लैंड, अमेरिका, फ्रांस",
+      "जापान, ऑस्ट्रेलिया, अमेरिका",
+      "जर्मनी, अमेरिका, यू.के.",
+      "स्वीडन, फ्रांस, जापान"
+    ],
+    "correct": "Germany, USA U.K.",
+    "explanation": {
+      "summary": "Correct Answer: Germany, USA U.K.\n\nसही उत्तर: जर्मनी, अमेरिका, यू.के.",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In the context of the recent Nobel awards tracked in the 2025-2026 exam cycle, the trio of scientists awarded the Chemistry prize hailed from institutions representing Germany, the USA, and the UK.\n\n✅ **यह सही क्यों है**\n\n- 2025-2026 परीक्षा चक्र में ट्रैक किए गए हालिया नोबेल पुरस्कारों के संदर्भ में, रसायन विज्ञान पुरस्कार से सम्मानित तीन वैज्ञानिक जर्मनी, अमेरिका और यूके का प्रतिनिधित्व करने वाले संस्थानों से थे।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Options including France, Japan, Australia, or Sweden do not align with the correct nationalities and affiliations of the specific Chemistry laureates for the queried year.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- फ्रांस, जापान, ऑस्ट्रेलिया या स्वीडन सहित विकल्प पूछे गए वर्ष के लिए विशिष्ट रसायन विज्ञान विजेताओं की सही राष्ट्रीयताओं और संबद्धताओं के साथ संरेखित नहीं हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Questions regarding Nobel laureates often ask for their fields of study or their native countries/affiliated research institutions.\n\n📝 **निष्कर्ष**\n\n- नोबेल पुरस्कार विजेताओं के संबंध में प्रश्न अक्सर उनके अध्ययन के क्षेत्र या उनके मूल देशों/संबद्ध अनुसंधान संस्थानों के बारे में पूछते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The Royal Swedish Academy of Sciences is responsible for the selection of the Nobel Laureates in Chemistry, as well as for Physics and Economic Sciences.\n\n💡 **रोचक तथ्य**\n\n- रॉयल स्वीडिश एकेडमी ऑफ साइंसेज रसायन विज्ञान के साथ-साथ भौतिकी और आर्थिक विज्ञान में नोबेल पुरस्कार विजेताओं के चयन के लिए जिम्मेदार है।"
+    }
+  },
+  {
+    "id": "PHY433",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subTopic": "Laws of Motion"
+    },
+    "tags":[
+      "FreeFall",
+      "Kinematics",
+      "Gravity"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Statement: An object of mass M is falling freely and its acceleration remains constant.\nChoose the correct conclusion of the given statement.\nConclusion I: The velocity of the object increases uniformly\nConclusion II: The acceleration of the object depends on its mass",
+    "question_hi": "कथन: M द्रव्यमान की एक वस्तु स्वतंत्र रूप से (मुक्त पतन) गिर रही है और इसका त्वरण स्थिर रहता है।\nदिए गए कथन का सही निष्कर्ष चुनें।\nनिष्कर्ष I: वस्तु का वेग एक समान रूप से बढ़ता है\nनिष्कर्ष II: वस्तु का त्वरण उसके द्रव्यमान पर निर्भर करता है",
+    "options":[
+      "Only I conclusion is correct",
+      "Only II conclusion is correct",
+      "Both conclusions are correct",
+      "Both conclusions are not correct"
+    ],
+    "options_hi":[
+      "केवल निष्कर्ष I सही है",
+      "केवल निष्कर्ष II सही है",
+      "दोनों निष्कर्ष सही हैं",
+      "दोनों निष्कर्ष सही नहीं हैं"
+    ],
+    "correct": "Only I conclusion is correct",
+    "explanation": {
+      "summary": "Correct Answer: Only I conclusion is correct\n\nसही उत्तर: केवल निष्कर्ष I सही है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In free fall, the acceleration is constant (due to gravity, 'g'). Since acceleration is the rate of change of velocity ($a = \\Delta v/\\Delta t$), a constant acceleration implies that the velocity increases at a steady, uniform rate (Conclusion I).\n\n✅ **यह सही क्यों है**\n\n- मुक्त पतन में, त्वरण स्थिर होता है (गुरुत्वाकर्षण के कारण, 'g')। चूँकि त्वरण वेग के परिवर्तन की दर है ($a = \\Delta v/\\Delta t$), एक स्थिर त्वरण का अर्थ है कि वेग एक स्थिर, एकसमान दर से बढ़ता है (निष्कर्ष I)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Conclusion II is physically incorrect. Galileo proved that in a vacuum, all objects fall at the same rate regardless of their mass. The acceleration due to gravity is completely independent of the falling object's mass $M$.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- निष्कर्ष II भौतिक रूप से गलत है। गैलीलियो ने साबित किया कि निर्वात में, सभी वस्तुएं अपने द्रव्यमान की परवाह किए बिना समान दर से गिरती हैं। गुरुत्वाकर्षण के कारण त्वरण गिरने वाली वस्तु के द्रव्यमान $M$ से पूरी तरह से स्वतंत्र है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The equations of uniformly accelerated motion ($v = u + at$) perfectly describe a body in free fall near the Earth's surface.\n\n📝 **निष्कर्ष**\n\n- एकसमान त्वरित गति ($v = u + at$) के समीकरण पृथ्वी की सतह के पास मुक्त पतन (फ्री फॉल) में किसी वस्तु का पूरी तरह से वर्णन करते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- In 1971, Apollo 15 astronaut David Scott dropped a feather and a hammer on the Moon simultaneously; without air resistance, they both hit the lunar surface at the exact same time, proving Galileo's theory.\n\n💡 **रोचक तथ्य**\n\n- 1971 में, अपोलो 15 के अंतरिक्ष यात्री डेविड स्कॉट ने एक ही समय में चंद्रमा पर एक पंख और एक हथौड़ा गिराया; वायु प्रतिरोध के बिना, वे दोनों एक ही समय में चंद्र सतह से टकराए, जिससे गैलीलियो का सिद्धांत साबित हुआ।"
+    }
+  },
+  {
+    "id": "PHY434",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Heat & Thermodynamics",
+      "subTopic": "Heat Transfer"
+    },
+    "tags":[
+      "BlackBody",
+      "Radiation",
+      "StefanBoltzmann"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Statement: A black body is an ideal absorber and emitter of radiation.\nChoose the correct conclusion of the given statement.\nConclusion I: Radiation is not reflected from a black body.\nConclusion II: A black body emits more energy at high temperature.",
+    "question_hi": "कथन: एक ब्लैक बॉडी विकिरण का एक आदर्श अवशोषक और उत्सर्जक है।\nदिए गए कथन का सही निष्कर्ष चुनें।\nनिष्कर्ष I: ब्लैक बॉडी से विकिरण परावर्तित नहीं होता है।\nनिष्कर्ष II: एक ब्लैक बॉडी उच्च तापमान पर अधिक ऊर्जा उत्सर्जित करती है।",
+    "options":[
+      "Only I conclusion is correct",
+      "Only II conclusion is correct",
+      "Both conclusions are correct",
+      "Both conclusions are not correct"
+    ],
+    "options_hi":[
+      "केवल निष्कर्ष I सही है",
+      "केवल निष्कर्ष II सही है",
+      "दोनों निष्कर्ष सही हैं",
+      "दोनों निष्कर्ष सही नहीं हैं"
+    ],
+    "correct": "Both conclusions are correct",
+    "explanation": {
+      "summary": "Correct Answer: Both conclusions are correct\n\nसही उत्तर: दोनों निष्कर्ष सही हैं",
+      "analysis_correct": "✅ **Why this is correct**\n\n- By definition, an ideal black body absorbs all incident electromagnetic radiation, meaning zero reflection occurs (Conclusion I). According to the Stefan-Boltzmann law ($E = \\sigma T^4$), the total energy emitted is directly proportional to the fourth power of its absolute temperature, so it emits more energy at higher temperatures (Conclusion II).\n\n✅ **यह सही क्यों है**\n\n- परिभाषा के अनुसार, एक आदर्श ब्लैक बॉडी सभी आपतित विद्युत चुम्बकीय विकिरण को अवशोषित करती है, जिसका अर्थ है कि शून्य परावर्तन होता है (निष्कर्ष I)। स्टीफन-बोल्ट्ज़मैन नियम ($E = \\sigma T^4$) के अनुसार, उत्सर्जित कुल ऊर्जा इसके पूर्ण तापमान की चौथी घात के सीधे आनुपातिक होती है, इसलिए यह उच्च तापमान पर अधिक ऊर्जा उत्सर्जित करती है (निष्कर्ष II)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Discarding either conclusion ignores the fundamental thermodynamic and optical properties that define theoretical black body radiation in physics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- किसी भी निष्कर्ष को खारिज करना मूलभूत थर्मोडायनामिक और ऑप्टिकल गुणों की अनदेखी करता है जो भौतिकी में सैद्धांतिक ब्लैक बॉडी विकिरण को परिभाषित करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- A black body is a theoretical physical concept. No perfectly ideal black body exists in nature, though objects like stars behave very similarly to them.\n\n📝 **निष्कर्ष**\n\n- ब्लैक बॉडी एक सैद्धांतिक भौतिक अवधारणा है। प्रकृति में कोई भी पूर्ण आदर्श ब्लैक बॉडी मौजूद नहीं है, हालांकि सितारों जैसी वस्तुएं उनके समान व्यवहार करती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Supermassive black holes are not black bodies. However, Stephen Hawking showed that black holes emit a faint thermal radiation (Hawking radiation) with a perfect black body spectrum.\n\n💡 **रोचक तथ्य**\n\n- सुपरमैसिव ब्लैक होल ब्लैक बॉडी नहीं हैं। हालाँकि, स्टीफन हॉकिंग ने दिखाया कि ब्लैक होल एक पूर्ण ब्लैक बॉडी स्पेक्ट्रम के साथ एक बेहोश थर्मल विकिरण (हॉकिंग विकिरण) उत्सर्जित करते हैं।"
+    }
+  },
+  {
+    "id": "PHY435",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Electrostatics"
+    },
+    "tags":[
+      "GaussLaw",
+      "ElectricField",
+      "Conductors"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Assertion (A): The electric field inside a charged metallic sphere is zero.\nReason (R): Charges reside only on the outer surface of a conductor.",
+    "question_hi": "अभिकथन (A): एक आवेशित धात्विक गोले के अंदर विद्युत क्षेत्र शून्य होता है।\nकारण (R): आवेश केवल एक चालक की बाहरी सतह पर रहता है।",
+    "options":[
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true, but R is not the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+    ],
+    "options_hi":[
+      "A और R दोनों सत्य हैं और R, A का सही स्पष्टीकरण है",
+      "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है",
+      "A सत्य है, लेकिन R असत्य है",
+      "A असत्य है, लेकिन R सत्य है"
+    ],
+    "correct": "Both A and R are true and R is the correct explanation of A",
+    "explanation": {
+      "summary": "Correct Answer: Both A and R are true and R is the correct explanation of A\n\nसही उत्तर: A और R दोनों सत्य हैं और R, A का सही स्पष्टीकरण है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Both statements are correct. In a conductor, free charges repel each other and rapidly move to the outer surface. Since there is no net charge enclosed within any volume entirely inside the metal sphere, Gauss's Law ($\\_ E \\cdot dA = Q_{enc} / \\varepsilon_0$) dictates that the internal electric field must be zero.\n\n✅ **यह सही क्यों है**\n\n- दोनों कथन सही हैं। एक चालक में, मुक्त आवेश एक दूसरे को पीछे हटाते हैं और तेजी से बाहरी सतह पर चले जाते हैं। चूँकि धातु के गोले के अंदर पूरी तरह से किसी भी आयतन के भीतर कोई शुद्ध आवेश संलग्न नहीं है, गॉस का नियम ($\\_ E \\cdot dA = Q_{enc} / \\varepsilon_0$) यह निर्धारित करता है कि आंतरिक विद्युत क्षेत्र शून्य होना चाहिए।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Selecting any other option denies the fundamental physical relationship between the equilibrium surface charge distribution and the complete absence of an internal electric field.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- किसी अन्य विकल्प का चयन संतुलन सतह आवेश वितरण और आंतरिक विद्युत क्षेत्र की पूर्ण अनुपस्थिति के बीच मूलभूत भौतिक संबंध को नकारता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- This principle is the basis of 'Electrostatic Shielding', where sensitive electronic equipment is protected from external electric fields by enclosing it in a hollow conductor.\n\n📝 **निष्कर्ष**\n\n- यह सिद्धांत 'इलेक्ट्रोस्टैटिक परिरक्षण' का आधार है, जहां संवेदनशील इलेक्ट्रॉनिक उपकरणों को बाहरी विद्युत क्षेत्रों से बचाने के लिए एक खोखले चालक में बंद किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- A Faraday Cage operates on this exact principle. It is why it is extremely safe to sit inside a metal car during a severe lightning storm.\n\n💡 **रोचक तथ्य**\n\n- एक फैराडे केज (Faraday Cage) इसी सटीक सिद्धांत पर काम करता है। यही कारण है कि गंभीर बिजली के तूफान के दौरान धातु की कार के अंदर बैठना बेहद सुरक्षित होता है।"
+    }
+  },
+  {
+    "id": "PHY436",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subTopic": "Dual Nature of Matter"
+    },
+    "tags": [
+      "PhotoelectricEffect",
+      "Einstein",
+      "QuantumPhysics"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "In photoelectric effect, photoelectric Einstein's equation is $E = h\\nu - \\Phi$\nWhich are correct?\nI. $\\Phi$ represents work function of metal.\nII. The electrons will not be emitted if $h\\nu < \\Phi$.\nIII. The increasing intensity of falling photon increases the kinetic energy of emitted electrons.",
+    "question_hi": "प्रकाश वैद्युत प्रभाव में, प्रकाश वैद्युत आइंस्टीन का समीकरण $E = h\\nu - \\Phi$ है।\nकौन से सही हैं?\nI. $\\Phi$ धातु के कार्य फलन को दर्शाता है।\nII. यदि $h\\nu < \\Phi$ है तो इलेक्ट्रॉन उत्सर्जित नहीं होंगे।\nIII. गिरने वाले फोटॉन की बढ़ती तीव्रता उत्सर्जित इलेक्ट्रॉनों की गतिज ऊर्जा को बढ़ाती है।",
+    "options":[
+      "I and III only",
+      "I and II only",
+      "II and III only",
+      "All"
+    ],
+    "options_hi":[
+      "केवल I और III",
+      "केवल I और II",
+      "केवल II और III",
+      "सभी"
+    ],
+    "correct": "I and II only",
+    "explanation": {
+      "summary": "Correct Answer: I and II only\n\nसही उत्तर: केवल I और II",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement I is true; $\\Phi$ (or W) is the work function (minimum energy required to eject an electron). Statement II is true; if the incident photon energy ($h\\nu$) is less than the work function, no emission occurs, regardless of intensity.\n\n✅ **यह सही क्यों है**\n\n- कथन I सत्य है; $\\Phi$ (या W) कार्य फलन (इलेक्ट्रॉन निकालने के लिए आवश्यक न्यूनतम ऊर्जा) है। कथन II सत्य है; यदि आपतित फोटॉन ऊर्जा ($h\\nu$) कार्य फलन से कम है, तो कोई उत्सर्जन नहीं होता है, चाहे तीव्रता कितनी भी हो।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement III is false. Increasing the *intensity* (amount of light) increases the *number* of emitted electrons, but does NOT increase their maximum kinetic energy. Kinetic energy is dependent solely on the *frequency* of the incident light.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन III गलत है। *तीव्रता* (प्रकाश की मात्रा) बढ़ाने से उत्सर्जित इलेक्ट्रॉनों की *संख्या* बढ़ जाती है, लेकिन उनकी अधिकतम गतिज ऊर्जा नहीं बढ़ती है। गतिज ऊर्जा केवल आपतित प्रकाश की *आवृत्ति* पर निर्भर करती है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The failure of classical wave theory to explain why kinetic energy depended on frequency, not intensity, is what led Einstein to propose the particle (photon) theory of light.\n\n📝 **निष्कर्ष**\n\n- शास्त्रीय तरंग सिद्धांत का यह समझाने में विफलता कि गतिज ऊर्जा तीव्रता पर नहीं, बल्कि आवृत्ति पर क्यों निर्भर करती है, इसी ने आइंस्टीन को प्रकाश के कण (फोटॉन) सिद्धांत का प्रस्ताव देने के लिए प्रेरित किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Albert Einstein was awarded the 1921 Nobel Prize in Physics not for his famous Theory of Relativity, but specifically for his discovery of the law of the photoelectric effect.\n\n💡 **रोचक तथ्य**\n\n- अल्बर्ट आइंस्टीन को 1921 में भौतिकी का नोबेल पुरस्कार उनके प्रसिद्ध सापेक्षता के सिद्धांत के लिए नहीं, बल्कि विशेष रूप से प्रकाश वैद्युत प्रभाव के नियम की खोज के लिए दिया गया था।"
+    }
+  },
+  {
+    "id": "PHY437",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Light (Reflection, Refraction, Interference, Diffraction)"
+    },
+    "tags":[
+      "ElectromagneticWaves",
+      "Vacuum",
+      "Physics"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "If Electromagnetic waves propagate in vacuum medium:\nI. Electric and magnetic fields oscillate perpendicular to each other.\nII. Electromagnetic waves require material medium to propagate.\nIII. Electromagnetic waves carry energy and momentum.",
+    "question_hi": "यदि विद्युत चुम्बकीय तरंगें निर्वात माध्यम में फैलती हैं:\nI. विद्युत और चुंबकीय क्षेत्र एक दूसरे के लंबवत दोलन करते हैं।\nII. विद्युत चुम्बकीय तरंगों को फैलने के लिए भौतिक माध्यम की आवश्यकता होती है।\nIII. विद्युत चुम्बकीय तरंगें ऊर्जा और संवेग वहन करती हैं।",
+    "options":[
+      "I and II",
+      "II and III",
+      "I and III",
+      "All"
+    ],
+    "options_hi":[
+      "I और II",
+      "II और III",
+      "I और III",
+      "सभी"
+    ],
+    "correct": "I and III",
+    "explanation": {
+      "summary": "Correct Answer: I and III\n\nसही उत्तर: I और III",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Statement I is correct; EM waves consist of oscillating electric and magnetic fields that are mutually perpendicular. Statement III is correct; EM waves transport both energy and momentum across space.\n\n✅ **यह सही क्यों है**\n\n- कथन I सही है; EM तरंगों में दोलन करने वाले विद्युत और चुंबकीय क्षेत्र होते हैं जो परस्पर लंबवत होते हैं। कथन III सही है; EM तरंगें अंतरिक्ष के माध्यम से ऊर्जा और संवेग दोनों का परिवहन करती हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Statement II is factually incorrect. Unlike mechanical waves (like sound), Electromagnetic waves do NOT require any material medium to propagate; they can travel perfectly through the vacuum of space.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कथन II तथ्यात्मक रूप से गलत है। यांत्रिक तरंगों (जैसे ध्वनि) के विपरीत, विद्युत चुम्बकीय तरंगों को फैलने के लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती है; वे अंतरिक्ष के निर्वात में पूरी तरह से यात्रा कर सकती हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- All electromagnetic waves (radio, light, X-rays) travel at the speed of light ($c = 3 \\times 10^8 \\text{ m/s}$) in a vacuum.\n\n📝 **निष्कर्ष**\n\n- सभी विद्युत चुम्बकीय तरंगें (रेडियो, प्रकाश, एक्स-रे) निर्वात में प्रकाश की गति ($c = 3 \\times 10^8 \\text{ m/s}$) से यात्रा करती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Because EM waves carry momentum, they can actually exert a physical 'radiation pressure' on objects. This is the underlying principle behind solar sails used in experimental spacecraft.\n\n💡 **रोचक तथ्य**\n\n- क्योंकि EM तरंगें संवेग वहन करती हैं, वे वास्तव में वस्तुओं पर एक भौतिक 'विकिरण दबाव (radiation pressure)' डाल सकती हैं। यह प्रयोगात्मक अंतरिक्ष यान में प्रयुक्त सौर पाल के पीछे का अंतर्निहित सिद्धांत है।"
+    }
+  },
+  {
+    "id": "PHY438",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Light (Reflection, Refraction, Interference, Diffraction)"
+    },
+    "tags":[
+      "HistoryOfOptics",
+      "Chronology",
+      "WaveTheory"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Arrange the following optical discoveries chronologically:\nI. Particle theory (Newton)\nII. Wave theory of light (Huygens)\nIII. Interference (Young)\nIV. Photoelectric effect (Einstein)",
+    "question_hi": "निम्नलिखित प्रकाशीय खोजों को कालानुक्रमिक रूप से व्यवस्थित करें:\nI. कण सिद्धांत (न्यूटन)\nII. प्रकाश का तरंग सिद्धांत (ह्यूजेंस)\nIII. व्यतिकरण (यंग)\nIV. प्रकाश वैद्युत प्रभाव (आइंस्टीन)",
+    "options":[
+      "I, II, III, IV",
+      "II, I, III, IV",
+      "I, III, II, IV",
+      "I, II, IV, III"
+    ],
+    "options_hi":[
+      "I, II, III, IV",
+      "II, I, III, IV",
+      "I, III, II, IV",
+      "I, II, IV, III"
+    ],
+    "correct": "II, I, III, IV",
+    "explanation": {
+      "summary": "Correct Answer: II, I, III, IV\n\nसही उत्तर: II, I, III, IV",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The correct timeline is: Wave theory of light was proposed by Christiaan Huygens in 1678 (II). Newton published his corpuscular (particle) theory in 1704 (I). Thomas Young demonstrated the interference of light in 1801 (III). Albert Einstein explained the photoelectric effect in 1905 (IV).\n\n✅ **यह सही क्यों है**\n\n- सही समयरेखा है: प्रकाश का तरंग सिद्धांत 1678 में क्रिश्चियन ह्यूजेंस द्वारा प्रस्तावित किया गया था (II)। न्यूटन ने 1704 में अपना कण सिद्धांत प्रकाशित किया (I)। थॉमस यंग ने 1801 में प्रकाश के व्यतिकरण का प्रदर्शन किया (III)। अल्बर्ट आइंस्टीन ने 1905 में प्रकाश वैद्युत प्रभाव की व्याख्या की (IV)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any sequence placing Newton's published theory (1704) before Huygens's wave theory (1678) or placing Einstein's quantum explanation before Young's classical wave interference is historically incorrect.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी क्रम जो न्यूटन के प्रकाशित सिद्धांत (1704) को ह्यूजेंस के तरंग सिद्धांत (1678) से पहले रखता है या आइंस्टीन के क्वांटम स्पष्टीकरण को यंग के शास्त्रीय तरंग व्यतिकरण से पहले रखता है, ऐतिहासिक रूप से गलत है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The journey of optics shows a swinging pendulum: from waves (Huygens) to particles (Newton) to waves again (Young/Maxwell) and finally settling on wave-particle duality (Einstein/De Broglie).\n\n📝 **निष्कर्ष**\n\n- प्रकाशिकी की यात्रा एक झूलते हुए पेंडुलम को दिखाती है: तरंगों (ह्यूजेंस) से कणों (न्यूटन) तक फिर तरंगों (यंग/मैक्सवेल) तक और अंततः तरंग-कण द्वंद्व (आइंस्टीन/डी ब्रोगली) पर बसना।",
+      "fact": "💡 **Interesting Fact**\n\n- Thomas Young's Double Slit Experiment is considered one of the most beautiful experiments in physics, as it conclusively proved the wave nature of light against the dominant Newtonian view of the time.\n\n💡 **रोचक तथ्य**\n\n- थॉमस यंग के डबल स्लिट प्रयोग को भौतिकी में सबसे सुंदर प्रयोगों में से एक माना जाता है, क्योंकि इसने उस समय के प्रमुख न्यूटन के दृष्टिकोण के खिलाफ प्रकाश की तरंग प्रकृति को निर्णायक रूप से साबित कर दिया था।"
+    }
+  },
+  {
+    "id": "PHY439",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subTopic": "Atoms & Nuclei"
+    },
+    "tags":[
+      "QuantumMechanics",
+      "DeBroglie",
+      "ZeemanEffect"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Match List - I (Modern Physics Concept) with List - II (Associated Term):\nList I:\nI. De Broglie Hypothesis\nII. Compton Effect\nIII. Zeeman Effect\nIV. Pair Production\nList II:\n1. $\\gamma \\rightarrow e^- + e^+$\n2. Splitting of Spectral Lines\n3. Matter Waves\n4. Photon Scattering",
+    "question_hi": "सूची-I (आधुनिक भौतिकी अवधारणा) को सूची-II (संबंधित शब्द) के साथ सुमेलित करें:\nसूची I:\nI. डी ब्रोगली परिकल्पना\nII. कॉम्पटन प्रभाव\nIII. ज़ीमान प्रभाव\nIV. युग्म उत्पादन\nसूची II:\n1. $\\gamma \\rightarrow e^- + e^+$\n2. वर्णक्रमीय रेखाओं का विभाजन\n3. पदार्थ तरंगें\n4. फोटॉन प्रकीर्णन",
+    "options":[
+      "I-1, II-2, III-3, IV-4",
+      "I-2, II-1, III-4, IV-3",
+      "I-3, II-4, III-2, IV-1",
+      "I-4, II-1, III-2, IV-3"
+    ],
+    "options_hi":[
+      "I-1, II-2, III-3, IV-4",
+      "I-2, II-1, III-4, IV-3",
+      "I-3, II-4, III-2, IV-1",
+      "I-4, II-1, III-2, IV-3"
+    ],
+    "correct": "I-3, II-4, III-2, IV-1",
+    "explanation": {
+      "summary": "Correct Answer: I-3, II-4, III-2, IV-1\n\nसही उत्तर: I-3, II-4, III-2, IV-1",
+      "analysis_correct": "✅ **Why this is correct**\n\n- De Broglie proposed Matter Waves (I-3). The Compton Effect is the inelastic Photon Scattering by a charged particle (II-4). The Zeeman Effect is the splitting of spectral lines in a magnetic field (III-2). Pair production is the creation of an electron-positron pair from a gamma photon (IV-1).\n\n✅ **यह सही क्यों है**\n\n- डी ब्रोगली ने पदार्थ तरंगों (Matter Waves) का प्रस्ताव दिया (I-3)। कॉम्पटन प्रभाव आवेशित कण द्वारा अप्रत्यास्थ फोटॉन प्रकीर्णन है (II-4)। ज़ीमान प्रभाव चुंबकीय क्षेत्र में वर्णक्रमीय रेखाओं का विभाजन है (III-2)। युग्म उत्पादन एक गामा फोटॉन से इलेक्ट्रॉन-पॉज़िट्रॉन युग्म का निर्माण है (IV-1)।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Confusing the Zeeman effect (magnetic splitting) with photon scattering, or attributing matter waves to pair production completely misrepresents the fundamental principles of quantum physics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- ज़ीमान प्रभाव (चुंबकीय विभाजन) को फोटॉन प्रकीर्णन के साथ भ्रमित करना, या पदार्थ तरंगों को युग्म उत्पादन के लिए जिम्मेदार ठहराना क्वांटम भौतिकी के मूलभूत सिद्धांतों को पूरी तरह से गलत तरीके से प्रस्तुत करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- These four phenomena represent the core experimental proofs that established Quantum Mechanics in the early 20th century.\n\n📝 **निष्कर्ष**\n\n- ये चार घटनाएँ उन मुख्य प्रायोगिक प्रमाणों का प्रतिनिधित्व करती हैं जिन्होंने 20वीं सदी की शुरुआत में क्वांटम यांत्रिकी की स्थापना की थी।",
+      "fact": "💡 **Interesting Fact**\n\n- The inverse of pair production is called 'annihilation', where an electron and a positron collide to destroy each other, releasing their entire mass as high-energy gamma-ray photons.\n\n💡 **रोचक तथ्य**\n\n- युग्म उत्पादन के व्युत्क्रम को 'विनाश (annihilation)' कहा जाता है, जहाँ एक इलेक्ट्रॉन और एक पॉज़िट्रॉन एक-दूसरे को नष्ट करने के लिए टकराते हैं, जिससे उनका पूरा द्रव्यमान उच्च-ऊर्जा गामा-किरण फोटॉन के रूप में जारी होता है।"
+    }
+  },
+  {
+    "id": "PHY440",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subTopic": "Current Electricity"
+    },
+    "tags":[
+      "Galvanometer",
+      "Ammeter",
+      "ElectricalInstruments"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "A moving coil galvanometer can be converted into an ammeter by -",
+    "question_hi": "एक चल कुण्डली धारामापी (गैल्वेनोमीटर) को एमीटर में किस प्रकार बदला जा सकता है?",
+    "options":[
+      "High resistance in series",
+      "Low resistance in parallel",
+      "High resistance in parallel",
+      "Low resistance in series"
+    ],
+    "options_hi":[
+      "श्रृंखला में उच्च प्रतिरोध जोड़कर",
+      "समानांतर में निम्न प्रतिरोध जोड़कर",
+      "समानांतर में उच्च प्रतिरोध जोड़कर",
+      "श्रृंखला में निम्न प्रतिरोध जोड़कर"
+    ],
+    "correct": "Low resistance in parallel",
+    "explanation": {
+      "summary": "Correct Answer: Low resistance in parallel\n\nसही उत्तर: समानांतर में निम्न प्रतिरोध जोड़कर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- To convert a galvanometer into an ammeter, a very low resistance called a 'shunt' is connected in parallel. This allows the maximum current to bypass the sensitive galvanometer coil, protecting it while measuring large currents.\n\n✅ **यह सही क्यों है**\n\n- गैल्वेनोमीटर को एमीटर में बदलने के लिए, 'शंट' नामक एक बहुत कम प्रतिरोध समानांतर में जोड़ा जाता है। यह अधिकतम धारा को संवेदनशील गैल्वेनोमीटर कॉइल को बायपास करने की अनुमति देता है, जिससे बड़ी धाराओं को मापते समय इसकी रक्षा होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Connecting a high resistance in series converts a galvanometer into a voltmeter. Connecting high resistance in parallel or low resistance in series fails to achieve the required current division safely.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- श्रृंखला में उच्च प्रतिरोध जोड़ने से गैल्वेनोमीटर वोल्टमीटर में बदल जाता है। समानांतर में उच्च प्रतिरोध या श्रृंखला में निम्न प्रतिरोध जोड़ने से आवश्यक धारा विभाजन सुरक्षित रूप से प्राप्त नहीं होता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Ammeters are always connected in series in a circuit to measure current, which is why their own overall resistance must be as low as possible to avoid affecting the circuit.\n\n📝 **निष्कर्ष**\n\n- एमीटर हमेशा करंट को मापने के लिए सर्किट में श्रृंखला में जुड़े होते हैं, यही कारण है कि सर्किट को प्रभावित करने से बचने के लिए उनका अपना समग्र प्रतिरोध जितना संभव हो उतना कम होना चाहिए।",
+      "fact": "💡 **Interesting Fact**\n\n- An ideal ammeter would have exactly zero resistance so that it does not drop any voltage across itself when placed in a circuit.\n\n💡 **रोचक तथ्य**\n\n- एक आदर्श एमीटर का प्रतिरोध बिल्कुल शून्य होगा ताकि सर्किट में रखे जाने पर यह अपने पार कोई वोल्टेज न गिराए।"
+    }
+  },
+  {
+    "id": "PHY441",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subTopic": "Atoms & Nuclei"
+    },
+    "tags":[
+      "Radioactivity",
+      "HalfLife",
+      "DecayConstant"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The relationship between decay constant ($\\lambda$) and half-life ($T_{1/2}$) is",
+    "question_hi": "क्षय नियतांक ($\\lambda$) और अर्ध-आयु ($T_{1/2}$) के बीच का संबंध है:",
+    "options":[
+      "$T_{1/2} = \\lambda$",
+      "$T_{1/2} = 1 / \\lambda$",
+      "$T_{1/2} = 0.693 / \\lambda$",
+      "$T_{1/2} = \\lambda / 0.693$"
+    ],
+    "options_hi":[
+      "$T_{1/2} = \\lambda$",
+      "$T_{1/2} = 1 / \\lambda$",
+      "$T_{1/2} = 0.693 / \\lambda$",
+      "$T_{1/2} = \\lambda / 0.693$"
+    ],
+    "correct": "$T_{1/2} = 0.693 / \\lambda$",
+    "explanation": {
+      "summary": "Correct Answer: $T_{1/2} = 0.693 / \\lambda$\n\nसही उत्तर: $T_{1/2} = 0.693 / \\lambda$",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In radioactive decay, the half-life ($T_{1/2}$) is mathematically related to the decay constant ($\\lambda$) by the equation $T_{1/2} = \\ln(2) / \\lambda$. Since the natural logarithm of 2 is approximately 0.693, the formula becomes $T_{1/2} = 0.693 / \\lambda$.\n\n✅ **यह सही क्यों है**\n\n- रेडियोधर्मी क्षय में, अर्ध-आयु ($T_{1/2}$) गणितीय रूप से समीकरण $T_{1/2} = \\ln(2) / \\lambda$ द्वारा क्षय नियतांक ($\\lambda$) से संबंधित है। चूंकि 2 का प्राकृतिक लघुगणक (natural logarithm) लगभग 0.693 है, इसलिए सूत्र $T_{1/2} = 0.693 / \\lambda$ बन जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The inverse formula ($\\lambda / 0.693$) or equating it directly to $1/\\lambda$ ignores the logarithmic derivation resulting from the integration of the first-order exponential decay rate law.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- व्युत्क्रम सूत्र ($\\lambda / 0.693$) या इसे सीधे $1/\\lambda$ के बराबर करना प्रथम-कोटि चरघातांकी क्षय दर नियम के एकीकरण के परिणामस्वरूप होने वाले लघुगणकीय व्युत्पत्ति को नज़रअंदाज़ करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- A higher decay constant means the substance decays more rapidly, which inversely results in a much shorter half-life.\n\n📝 **निष्कर्ष**\n\n- एक उच्च क्षय स्थिरांक का मतलब है कि पदार्थ अधिक तेज़ी से क्षय होता है, जिसके परिणामस्वरूप इसके विपरीत बहुत कम अर्ध-आयु होती है।",
+      "fact": "💡 **Interesting Fact**\n\n- Carbon-14, widely used for radiocarbon dating of archaeological artifacts, has a half-life of approximately 5,730 years.\n\n💡 **रोचक तथ्य**\n\n- पुरातात्विक कलाकृतियों की रेडियोकार्बन डेटिंग के लिए व्यापक रूप से उपयोग किए जाने वाले कार्बन-14 का आधा जीवन (half-life) लगभग 5,730 वर्ष है।"
+    }
+  },
+  {
+    "id": "PHY442",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subTopic": "Gravitation"
+    },
+    "tags":[
+      "Cosmology",
+      "BigBang",
+      "Universe"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The Big Bang theory explains which of the following observation?",
+    "question_hi": "बिग बैंग सिद्धांत निम्नलिखित में से किस अवलोकन की व्याख्या करता है?",
+    "options":[
+      "The internal structure of stars",
+      "The uniform expansion of the universe",
+      "There is no cosmic background radiation in the universe",
+      "The motion of planets"
+    ],
+    "options_hi":[
+      "तारों की आंतरिक संरचना",
+      "ब्रह्मांड का एकसमान विस्तार",
+      "ब्रह्मांड में कोई कॉस्मिक बैकग्राउंड रेडिएशन नहीं है",
+      "ग्रहों की गति"
+    ],
+    "correct": "The uniform expansion of the universe",
+    "explanation": {
+      "summary": "Correct Answer: The uniform expansion of the universe\n\nसही उत्तर: ब्रह्मांड का एकसमान विस्तार",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Big Bang theory is the prevailing cosmological model explaining the origin of the universe. It directly explains Edwin Hubble's 1929 observation of the uniform expansion of the universe (galaxies moving away from each other).\n\n✅ **यह सही क्यों है**\n\n- बिग बैंग सिद्धांत ब्रह्मांड की उत्पत्ति की व्याख्या करने वाला प्रचलित ब्रह्माण्ड संबंधी मॉडल है। यह सीधे तौर पर एडविन हबल के 1929 के ब्रह्मांड के एकसमान विस्तार (आकाशगंगाओं का एक-दूसरे से दूर जाना) के अवलोकन की व्याख्या करता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The theory explicitly predicts the *existence* of Cosmic Microwave Background (CMB) radiation, contradicting option C. Stellar structures and planetary motions are explained by astrophysics and Newton's laws, not the Big Bang.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यह सिद्धांत स्पष्ट रूप से कॉस्मिक माइक्रोवेव बैकग्राउंड (CMB) विकिरण के *अस्तित्व* की भविष्यवाणी करता है, जो विकल्प C का खंडन करता है। तारकीय संरचनाओं और ग्रहों की गति को बिग बैंग द्वारा नहीं, बल्कि खगोल भौतिकी और न्यूटन के नियमों द्वारा समझाया गया है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The two primary pieces of evidence for the Big Bang are the expansion of the universe (Hubble's Law) and the Cosmic Microwave Background (CMB) radiation.\n\n📝 **निष्कर्ष**\n\n- बिग बैंग के लिए दो प्राथमिक साक्ष्य ब्रह्मांड का विस्तार (हबल का नियम) और कॉस्मिक माइक्रोवेव बैकग्राउंड (CMB) विकिरण हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The term \"Big Bang\" was actually coined mockingly by astronomer Fred Hoyle, who was a staunch supporter of the competing \"Steady State\" model of the universe.\n\n💡 **रोचक तथ्य**\n\n- \"बिग बैंग\" शब्द वास्तव में खगोलशास्त्री फ्रेड हॉयल द्वारा मज़ाक के रूप में गढ़ा गया था, जो ब्रह्मांड के प्रतिस्पर्धी \"स्टेडी स्टेट\" मॉडल के कट्टर समर्थक थे।"
+    }
+  },
+  {
+    "id": "CHE333",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subTopic": "Matter & its States"
+    },
+    "tags":[
+      "Liquefaction",
+      "IntermolecularForces",
+      "Ammonia"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which gas is more easily liquified among following?",
+    "question_hi": "निम्नलिखित में से कौन सी गैस अधिक आसानी से तरलीकृत (liquified) हो जाती है?",
+    "options":[
+      "NH3",
+      "CH4",
+      "CO2",
+      "H2"
+    ],
+    "options_hi":[
+      "NH3",
+      "CH4",
+      "CO2",
+      "H2"
+    ],
+    "correct": "NH3",
+    "explanation": {
+      "summary": "Correct Answer: NH3\n\nसही उत्तर: NH3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Ammonia (NH3) is the most easily liquefied gas among the options because it exhibits strong intermolecular hydrogen bonding. This results in a much higher critical temperature (132.4°C), meaning it can be compressed into a liquid at room temperature easily.\n\n✅ **यह सही क्यों है**\n\n- अमोनिया (NH3) दिए गए विकल्पों में सबसे आसानी से तरलीकृत होने वाली गैस है क्योंकि इसमें मजबूत अंतर-आणविक हाइड्रोजन बांड होता है। इसके परिणामस्वरूप बहुत अधिक क्रांतिक तापमान (132.4°C) होता है, जिसका अर्थ है कि इसे कमरे के तापमान पर आसानी से तरल में संकुचित किया जा सकता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Hydrogen (H2) and Methane (CH4) are non-polar gases with very weak Van der Waals forces. CO2 is easily liquefied but lacks the exceptionally strong hydrogen bonding present in NH3.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हाइड्रोजन (H2) और मीथेन (CH4) बहुत कमजोर वैन डेर वाल्स बल वाले गैर-ध्रुवीय गैसें हैं। CO2 आसानी से तरलीकृत हो जाती है लेकिन इसमें NH3 में मौजूद असाधारण रूप से मजबूत हाइड्रोजन बांड का अभाव होता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The ease of liquefaction of a gas depends directly on its critical temperature. Higher critical temperature means stronger intermolecular forces and easier liquefaction.\n\n📝 **निष्कर्ष**\n\n- गैस के द्रवीकरण में आसानी सीधे उसके क्रांतिक तापमान (critical temperature) पर निर्भर करती है। उच्च क्रांतिक तापमान का अर्थ है मजबूत अंतर-आणविक बल और आसान द्रवीकरण।",
+      "fact": "💡 **Interesting Fact**\n\n- Liquid ammonia is widely used as an industrial refrigerant because it absorbs a massive amount of heat when it evaporates.\n\n💡 **रोचक तथ्य**\n\n- तरल अमोनिया का व्यापक रूप से एक औद्योगिक रेफ्रिजरेंट के रूप में उपयोग किया जाता है क्योंकि वाष्पित होने पर यह भारी मात्रा में गर्मी को अवशोषित करता है।"
+    }
+  },
+  {
+    "id": "CUR609",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Current Affairs",
+      "topic": "Science & Technology",
+      "subTopic": "Space & ISRO"
+    },
+    "tags": [
+      "Axiom4",
+      "ISRO",
+      "ISS"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Indian Astronaut visited the International space station in 2025 under which mission?",
+    "question_hi": "भारतीय अंतरिक्ष यात्री ने 2025 में किस मिशन के तहत अंतर्राष्ट्रीय अंतरिक्ष स्टेशन (ISS) का दौरा किया?",
+    "options":[
+      "Soyuz TM-3",
+      "Axiom-4",
+      "Gaganyaan - 1",
+      "Chandrayaan - 3"
+    ],
+    "options_hi":[
+      "सोयुज TM-3",
+      "एक्सिओम-4",
+      "गगनयान-1",
+      "चंद्रयान-3"
+    ],
+    "correct": "Axiom-4",
+    "explanation": {
+      "summary": "Correct Answer: Axiom-4\n\nसही उत्तर: एक्सिओम-4",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Group Captain Shubhanshu Shukla, an ISRO Gaganyaatri, was selected to travel to the International Space Station (ISS) as part of the commercial Axiom-4 (Ax-4) mission in a joint collaborative effort between ISRO, NASA, and Axiom Space.\n\n✅ **यह सही क्यों है**\n\n- इसरो के गगनयात्री, ग्रुप कैप्टन शुभांशु शुक्ला को इसरो, नासा और एक्सिओम स्पेस के बीच एक संयुक्त सहयोगी प्रयास में वाणिज्यिक एक्सिओम-4 (Ax-4) मिशन के हिस्से के रूप में अंतर्राष्ट्रीय अंतरिक्ष स्टेशन (ISS) की यात्रा के लिए चुना गया था।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Soyuz TM-3 was Rakesh Sharma's historic 1984 mission. Gaganyaan-1 is India's indigenous orbital test mission. Chandrayaan-3 is a lunar exploration mission.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- सोयुज टीएम-3 राकेश शर्मा का 1984 का ऐतिहासिक मिशन था। गगनयान-1 भारत का स्वदेशी कक्षीय परीक्षण मिशन है। चंद्रयान-3 एक चंद्र अन्वेषण मिशन है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Ax-4 mission is a crucial stepping stone for ISRO to gain practical orbital and ISS docking experience ahead of the independent Gaganyaan launches.\n\n📝 **निष्कर्ष**\n\n- Ax-4 मिशन इसरो के लिए स्वतंत्र गगनयान लॉन्च से पहले व्यावहारिक कक्षीय और आईएसएस डॉकिंग अनुभव प्राप्त करने के लिए एक महत्वपूर्ण कदम है।",
+      "fact": "💡 **Interesting Fact**\n\n- Shubhanshu Shukla became only the second Indian citizen to fly to space, achieving this milestone over four decades after Rakesh Sharma.\n\n💡 **रोचक तथ्य**\n\n- शुभांशु शुक्ला अंतरिक्ष में उड़ान भरने वाले केवल दूसरे भारतीय नागरिक बने, जिन्होंने राकेश शर्मा के चार दशक से अधिक समय बाद यह मुकाम हासिल किया।"
+    }
+  },
+  {
+    "id": "PHY443",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Physics",
+      "topic": "Waves & Optics",
+      "subTopic": "Optical Instruments"
+    },
+    "tags":[
+      "ConvexLens",
+      "RayOptics",
+      "ImageFormation"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In a convex lens, if the object is placed at 2F (twice of the focal length), the image formed will be -",
+    "question_hi": "एक उत्तल लेंस में, यदि वस्तु को 2F (फोकस दूरी से दोगुनी दूरी) पर रखा जाता है, तो बनने वाला प्रतिबिंब होगा -",
+    "options":[
+      "Real, at Position 2F and same size as the object",
+      "Virtual, at Position F and Magnified",
+      "Real, at Position 2F and Magnified",
+      "Virtual, beyond Position 2F and Diminished"
+    ],
+    "options_hi":[
+      "वास्तविक, 2F स्थिति पर और वस्तु के समान आकार का",
+      "आभासी, F स्थिति पर और आवर्धित (बड़ा)",
+      "वास्तविक, 2F स्थिति पर और आवर्धित (बड़ा)",
+      "आभासी, 2F स्थिति से परे और छोटा"
+    ],
+    "correct": "Real, at Position 2F and same size as the object",
+    "explanation": {
+      "summary": "Correct Answer: Real, at Position 2F and same size as the object\n\nसही उत्तर: वास्तविक, 2F स्थिति पर और वस्तु के समान आकार का",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to the rules of ray optics for a convex lens, when an object is placed exactly at $2F_1$ (center of curvature), the refracted rays converge exactly at $2F_2$ on the other side. The resulting image is real, inverted, and exactly the same size as the object.\n\n✅ **यह सही क्यों है**\n\n- उत्तल लेंस के लिए किरण प्रकाशिकी के नियमों के अनुसार, जब किसी वस्तु को $2F_1$ (वक्रता केंद्र) पर ठीक रखा जाता है, तो अपवर्तित किरणें दूसरी ओर $2F_2$ पर ठीक से अभिसरित होती हैं। परिणामी छवि वास्तविक, उल्टी और बिल्कुल वस्तु के समान आकार की होती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Magnified images are formed only when the object is closer to the lens than 2F. Virtual and diminished images are primary characteristics of concave lenses, not convex lenses in this position.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- आवर्धित छवियां तभी बनती हैं जब वस्तु लेंस के 2F के करीब होती है। आभासी और छोटी छवियां अवतल लेंस की प्राथमिक विशेषताएं हैं, न कि इस स्थिति में उत्तल लेंस की।",
+      "conclusion": "📝 **Concluding Note**\n\n- This specific symmetric case (Object at 2F -> Image at 2F) is a classic benchmark used to easily verify the focal length of a convex lens in laboratory experiments.\n\n📝 **निष्कर्ष**\n\n- यह विशिष्ट सममित मामला (2F पर वस्तु -> 2F पर छवि) एक क्लासिक बेंचमार्क है जिसका उपयोग प्रयोगशाला प्रयोगों में उत्तल लेंस की फोकल लंबाई को आसानी से सत्यापित करने के लिए किया जाता है।",
+      "fact": "💡 **Interesting Fact**\n\n- Photocopiers use this exact lens principle. To make a 1:1 identical copy of a document without magnifying or shrinking it, the lens must be placed such that the document is exactly at 2F.\n\n💡 **रोचक तथ्य**\n\n- फोटोकॉपियर इसी सटीक लेंस सिद्धांत का उपयोग करते हैं। किसी दस्तावेज़ को बिना बड़ा या छोटा किए उसकी 1:1 समान प्रति बनाने के लिए, लेंस को इस तरह रखा जाना चाहिए कि दस्तावेज़ ठीक 2F पर हो।"
+    }
+  },
+  {
+    "id": "GEO1240",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "subTopic": "Atmosphere"
+    },
+    "tags":[
+      "AtmosphereLayers",
+      "Troposphere",
+      "Stratosphere"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Consider the following statements -\n1. The Troposphere contains almost all weather phenomena\n2. The stratosphere is mostly free of clouds and has the ozone layer\n3. The Mesosphere protects Earth by burning meteoroids.",
+    "question_hi": "निम्नलिखित कथनों पर विचार करें -\n1. क्षोभमंडल (Troposphere) में लगभग सभी मौसम संबंधी घटनाएं होती हैं\n2. समताप मंडल (Stratosphere) ज्यादातर बादलों से मुक्त होता है और इसमें ओजोन परत होती है\n3. मध्यमंडल (Mesosphere) उल्कापिंडों को जलाकर पृथ्वी की रक्षा करता है।",
+    "options":[
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "options_hi":[
+      "केवल 1 और 2",
+      "केवल 2",
+      "केवल 1 और 3",
+      "1, 2 और 3"
+    ],
+    "correct": "1, 2 and 3",
+    "explanation": {
+      "summary": "Correct Answer: 1, 2 and 3\n\nसही उत्तर: 1, 2 और 3",
+      "analysis_correct": "✅ **Why this is correct**\n\n- All three statements are scientifically accurate. The troposphere contains water vapor where weather occurs. The stratosphere contains the UV-absorbing ozone layer. The mesosphere is dense enough to cause atmospheric friction, burning up most incoming meteoroids.\n\n✅ **यह सही क्यों है**\n\n- तीनों कथन वैज्ञानिक रूप से सटीक हैं। क्षोभमंडल में जलवाष्प होता है जहाँ मौसम होता है। समताप मंडल में यूवी-अवशोषित ओजोन परत होती है। मध्यमंडल वायुमंडलीय घर्षण पैदा करने के लिए पर्याप्त घना है, जिससे अधिकांश आने वाले उल्कापिंड जल जाते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Omitting any of these statements neglects fundamental facts about Earth's atmospheric layers that are universally taught in physical geography.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- इनमें से किसी भी कथन को छोड़ना पृथ्वी की वायुमंडलीय परतों के बारे में मूलभूत तथ्यों की उपेक्षा करता है जो सर्वत्र भौतिक भूगोल में पढ़ाए जाते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Understanding the distinct functional roles of atmospheric layers is essential for studying climate, aviation, and planetary defense.\n\n📝 **निष्कर्ष**\n\n- जलवायु, विमानन और ग्रहीय रक्षा का अध्ययन करने के लिए वायुमंडलीय परतों की अलग-अलग कार्यात्मक भूमिकाओं को समझना आवश्यक है।",
+      "fact": "💡 **Interesting Fact**\n\n- Because the stratosphere is extremely stable and lacks the turbulent weather of the troposphere, commercial jetliners cruise in the lower stratosphere to ensure a smooth flight.\n\n💡 **रोचक तथ्य**\n\n- चूँकि समताप मंडल अत्यंत स्थिर है और इसमें क्षोभमंडल के तूफानी मौसम का अभाव है, इसलिए वाणिज्यिक जेटलाइनर सुचारू उड़ान सुनिश्चित करने के लिए निचले समताप मंडल में क्रूज़ करते हैं।"
+    }
+  },
+  {
+    "id": "SGK657",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Static GK",
+      "topic": "National & International Insignia",
+      "subTopic": "Indian Government Organizations (ISRO, DRDO, BARC)"
+    },
+    "tags":[
+      "ISRO",
+      "SpaceTechnology",
+      "LaunchVehicles"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Match Column - I with Column - II:\nColumn I:\n1. First Generation\n2. Second Generation\n3. Third Generation\n4. Fourth Generation\nColumn II:\na. GSLV\nb. ASLV\nc. SLV\nd. PSLV",
+    "question_hi": "कॉलम - I को कॉलम - II के साथ सुमेलित करें:\nकॉलम I:\n1. पहली पीढ़ी\n2. दूसरी पीढ़ी\n3. तीसरी पीढ़ी\n4. चौथी पीढ़ी\nकॉलम II:\na. GSLV\nb. ASLV\nc. SLV\nd. PSLV",
+    "options":[
+      "1-c, 2-b, 3-d, 4-a",
+      "1-b, 2-c, 3-a, 4-d",
+      "1-d, 2-b, 3-c, 4-a",
+      "1-a, 2-b, 3-c, 4-d"
+    ],
+    "options_hi":[
+      "1-c, 2-b, 3-d, 4-a",
+      "1-b, 2-c, 3-a, 4-d",
+      "1-d, 2-b, 3-c, 4-a",
+      "1-a, 2-b, 3-c, 4-d"
+    ],
+    "correct": "1-c, 2-b, 3-d, 4-a",
+    "explanation": {
+      "summary": "Correct Answer: 1-c, 2-b, 3-d, 4-a\n\nसही उत्तर: 1-c, 2-b, 3-d, 4-a",
+      "analysis_correct": "✅ **Why this is correct**\n\n- ISRO's launch vehicles evolved sequentially: 1st Gen is SLV (Satellite Launch Vehicle). 2nd Gen is ASLV (Augmented SLV). 3rd Gen is the PSLV (Polar SLV). 4th Gen is the GSLV (Geosynchronous SLV).\n\n✅ **यह सही क्यों है**\n\n- इसरो के प्रक्षेपण यान क्रमिक रूप से विकसित हुए: पहली पीढ़ी SLV (सैटेलाइट लॉन्च व्हीकल) है। दूसरी पीढ़ी ASLV (ऑगमेंटेड SLV) है। तीसरी पीढ़ी PSLV (पोलर SLV) है। चौथी पीढ़ी GSLV (जियोसिंक्रोनस SLV) है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Any other sequence scrambles the chronological progression of ISRO's payload capabilities, incorrectly placing heavier cryogenic rockets (GSLV) before rudimentary solid-stage rockets (SLV).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- कोई भी अन्य क्रम इसरो की पेलोड क्षमताओं की कालानुक्रमिक प्रगति को अव्यवस्थित करता है, जो गलत तरीके से प्रारंभिक ठोस-चरण रॉकेट (SLV) से पहले भारी क्रायोजेनिक रॉकेट (GSLV) रखता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Tracking the generations of space launch vehicles shows India's journey from carrying mere 40 kg payloads (SLV-3) to lifting multi-ton heavy communication satellites (GSLV Mk-III).\n\n📝 **निष्कर्ष**\n\n- अंतरिक्ष प्रक्षेपण वाहनों की पीढ़ियों पर नज़र रखने से भारत की केवल 40 किलोग्राम पेलोड (SLV-3) ले जाने से लेकर कई टन भारी संचार उपग्रहों (GSLV Mk-III) को उठाने तक की यात्रा का पता चलता है।",
+      "fact": "💡 **Interesting Fact**\n\n- The PSLV is affectionately called the 'Workhorse of ISRO' due to its exceptionally high success rate, launching historic missions like Chandrayaan-1 and Mangalyaan.\n\n💡 **रोचक तथ्य**\n\n- पीएसएलवी को इसकी असाधारण रूप से उच्च सफलता दर के कारण प्यार से 'इसरो का वर्कहॉर्स' कहा जाता है, जिसने चंद्रयान-1 और मंगलयान जैसे ऐतिहासिक मिशन लॉन्च किए हैं।"
+    }
+  },
+  {
+    "id": "BIO407",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "The Cell and its Organelles"
+    },
+    "tags":[
+      "Lysosomes",
+      "Organelles",
+      "CellBiology"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The 'Suicidal Bags' of the cell are called -",
+    "question_hi": "कोशिका की 'आत्मघाती थैलियां' (Suicidal Bags) किसे कहा जाता है?",
+    "options":[
+      "Ribosomes",
+      "Lysosomes",
+      "Golgi Bodies",
+      "Mitochondria"
+    ],
+    "options_hi":[
+      "राइबोसोम",
+      "लाइसोसोम",
+      "गोल्गी बॉडीज़",
+      "माइटोकॉन्ड्रिया"
+    ],
+    "correct": "Lysosomes",
+    "explanation": {
+      "summary": "Correct Answer: Lysosomes\n\nसही उत्तर: लाइसोसोम",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Lysosomes are membrane-bound organelles that contain powerful hydrolytic digestive enzymes. If a cell is severely damaged or infected, the lysosomes burst, and these enzymes digest their own cell, hence the term 'suicide bags'.\n\n✅ **यह सही क्यों है**\n\n- लाइसोसोम झिल्ली से बंधे अंग हैं जिनमें शक्तिशाली हाइड्रोलाइटिक पाचन एंजाइम होते हैं। यदि कोई कोशिका गंभीर रूप से क्षतिग्रस्त या संक्रमित हो जाती है, तो लाइसोसोम फट जाते हैं, और ये एंजाइम अपनी ही कोशिका को पचा लेते हैं, इसलिए इसे 'आत्मघाती थैलियां' कहा जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Ribosomes are protein factories. Golgi bodies are involved in packaging and transport. Mitochondria are the powerhouses. None of these have autolytic (self-digesting) functions.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- राइबोसोम प्रोटीन कारखाने हैं। गोल्गी बॉडीज़ पैकेजिंग और परिवहन में शामिल हैं। माइटोकॉन्ड्रिया पावरहाउस हैं। इनमें से किसी का भी ऑटोलिटिक (स्व-पाचन) कार्य नहीं है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Nicknames of cell organelles (like Powerhouse, Suicide Bags, Post Office) are incredibly common and high-yield questions in basic general science tests.\n\n📝 **निष्कर्ष**\n\n- कोशिकांगों के उपनाम (जैसे पावरहाउस, सुसाइड बैग, पोस्ट ऑफिस) बुनियादी सामान्य विज्ञान परीक्षणों में अविश्वसनीय रूप से सामान्य और उच्च-उपज वाले प्रश्न हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The acidic environment inside a lysosome (pH ~4.5) is critical for its enzymes to function. If a single lysosome breaks and releases enzymes into the neutral cytosol, the enzymes safely deactivate, preventing accidental cell damage.\n\n💡 **रोचक तथ्य**\n\n- एक लाइसोसोम के अंदर का अम्लीय वातावरण (pH ~4.5) इसके एंजाइमों के कार्य करने के लिए महत्वपूर्ण है। यदि एक लाइसोसोम टूट जाता है और तटस्थ साइटोसोल में एंजाइम छोड़ता है, तो एंजाइम सुरक्षित रूप से निष्क्रिय हो जाते हैं, जिससे कोशिका को आकस्मिक क्षति से बचाया जा सकता है।"
+    }
+  },
+  {
+    "id": "CHE334",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subTopic": "Metallurgy"
+    },
+    "tags": [
+      "Metallurgy",
+      "PigIron",
+      "BlastFurnace"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "The iron obtained from the blast furnace is known as -",
+    "question_hi": "वात्या भट्ठी (Blast Furnace) से प्राप्त लोहे को किस रूप में जाना जाता है?",
+    "options":[
+      "Wrought Iron",
+      "Pig Iron",
+      "Steel Iron",
+      "Cast Iron"
+    ],
+    "options_hi":[
+      "पिटवाँ लोहा",
+      "कच्चा लोहा (पिग आयरन)",
+      "स्टील आयरन",
+      "ढलवाँ लोहा"
+    ],
+    "correct": "Pig Iron",
+    "explanation": {
+      "summary": "Correct Answer: Pig Iron\n\nसही उत्तर: कच्चा लोहा (पिग आयरन)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The crude, impure molten iron obtained directly from the reduction of iron ore in a blast furnace is called 'Pig Iron'. It contains a very high carbon content (around 4%), making it extremely brittle.\n\n✅ **यह सही क्यों है**\n\n- वात्या भट्टी (ब्लास्ट फर्नेस) में लौह अयस्क की कमी से सीधे प्राप्त कच्चे, अशुद्ध पिघले हुए लोहे को 'पिग आयरन' (कच्चा लोहा) कहा जाता है। इसमें कार्बन की मात्रा बहुत अधिक (लगभग 4%) होती है, जिससे यह अत्यंत भंगुर हो जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Cast iron is made by remelting pig iron. Wrought iron is the purest commercial form of iron. Steel is a refined alloy with strictly controlled carbon content.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- ढलवां लोहा (Cast iron) पिग आयरन को दोबारा पिघलाकर बनाया जाता है। पिटवाँ लोहा (Wrought iron) लोहे का सबसे शुद्ध व्यावसायिक रूप है। स्टील कड़ाई से नियंत्रित कार्बन सामग्री के साथ एक परिष्कृत मिश्र धातु है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The metallurgy of iron involves sequential purification: Iron Ore $\\rightarrow$ Pig Iron $\\rightarrow$ Cast Iron $\\rightarrow$ Steel $\\rightarrow$ Wrought Iron.\n\n📝 **निष्कर्ष**\n\n- लोहे के धातु विज्ञान में अनुक्रमिक शुद्धिकरण शामिल है: लौह अयस्क $\\rightarrow$ कच्चा लोहा $\\rightarrow$ ढलवां लोहा $\\rightarrow$ स्टील $\\rightarrow$ पिटवाँ लोहा।",
+      "fact": "💡 **Interesting Fact**\n\n- The term 'Pig Iron' originated historically because the molten metal was cast into branching molds in sand that resembled a litter of suckling piglets attached to a central channel (the 'sow').\n\n💡 **रोचक तथ्य**\n\n- 'पिग आयरन' शब्द की उत्पत्ति ऐतिहासिक रूप से हुई क्योंकि पिघली हुई धातु को रेत में शाखाओं वाले सांचों में डाला जाता था जो एक केंद्रीय चैनल ('sow') से जुड़े दूध पीते सूअर के बच्चों के समान दिखते थे।"
+    }
+  },
+  {
+    "id": "BIO408",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "DNAReplication",
+      "Enzymes",
+      "MolecularBiology"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following enzyme is primarily responsible for the removal of RNA Primers during DNA Replication in prokaryotes?",
+    "question_hi": "प्रोकैरियोट्स में डीएनए प्रतिकृति (DNA Replication) के दौरान आरएनए प्राइमर्स (RNA Primers) को हटाने के लिए मुख्य रूप से कौन सा एंजाइम जिम्मेदार है?",
+    "options":[
+      "DNA polymerase - I",
+      "DNA ligase",
+      "Helicase",
+      "Primase"
+    ],
+    "options_hi":[
+      "डीएनए पॉलीमरेज़ - I",
+      "डीएनए लिगेज",
+      "हेलिकेज",
+      "प्राइमेज"
+    ],
+    "correct": "DNA polymerase - I",
+    "explanation": {
+      "summary": "Correct Answer: DNA polymerase - I\n\nसही उत्तर: डीएनए पॉलीमरेज़ - I",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In prokaryotic cells (like E. coli), DNA Polymerase I plays a critical role in replication by using its unique 5' to 3' exonuclease activity to degrade and remove the RNA primers, subsequently filling the gap with DNA nucleotides.\n\n✅ **यह सही क्यों है**\n\n- प्रोकैरियोटिक कोशिकाओं (जैसे ई. कोलाई) में, डीएनए पॉलीमरेज़ I आरएनए प्राइमरों को नीचा दिखाने और हटाने के लिए अपनी अद्वितीय 5' से 3' एक्सोन्यूक्लिज़ गतिविधि का उपयोग करके प्रतिकृति में महत्वपूर्ण भूमिका निभाता है, और बाद में डीएनए न्यूक्लियोटाइड के साथ अंतर को भरता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Helicase unwinds the double helix. Primase initially synthesizes the RNA primers. DNA ligase seals the final nicks between the Okazaki fragments after the primers are replaced.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- हेलिकेज डबल हेलिक्स को खोलता है। प्राइमेज प्रारंभ में आरएनए प्राइमरों का संश्लेषण करता है। प्राइमरों को बदलने के बाद डीएनए लिगेज ओकाज़ाकी टुकड़ों के बीच अंतिम निक्स को सील कर देता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- DNA replication relies on an intricate, highly coordinated machine of specialized enzymes working sequentially to accurately copy the genome.\n\n📝 **निष्कर्ष**\n\n- डीएनए प्रतिकृति जीनोम की सटीक प्रतिलिपि बनाने के लिए क्रमिक रूप से काम करने वाले विशेष एंजाइमों की एक जटिल, अत्यधिक समन्वित मशीन पर निर्भर करती है।",
+      "fact": "💡 **Interesting Fact**\n\n- DNA Polymerase I was the very first DNA polymerase discovered (in 1956 by Arthur Kornberg), earning him the Nobel Prize in Physiology or Medicine in 1959.\n\n💡 **रोचक तथ्य**\n\n- डीएनए पॉलीमरेज़ I खोजा गया पहला डीएनए पॉलीमरेज़ था (1956 में आर्थर कोर्नबर्ग द्वारा), जिसके लिए उन्हें 1959 में फिजियोलॉजी या मेडिसिन में नोबेल पुरस्कार मिला।"
+    }
+  },
+  {
+    "id": "BIO409",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Morphology"
+    },
+    "tags":[
+      "TallestTree",
+      "Sequoia",
+      "Biodiversity"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is considered to be the tallest known living organism on the earth?",
+    "question_hi": "निम्नलिखित में से किसे पृथ्वी पर सबसे लंबा ज्ञात जीवित जीव माना जाता है?",
+    "options":[
+      "Sausage tree",
+      "Sequoia tree",
+      "Banyan tree",
+      "Jajoba tree"
+    ],
+    "options_hi":[
+      "सॉसेज का पेड़",
+      "सिकोइया का पेड़",
+      "बरगद का पेड़",
+      "जोजोबा का पेड़"
+    ],
+    "correct": "Sequoia tree",
+    "explanation": {
+      "summary": "Correct Answer: Sequoia tree\n\nसही उत्तर: सिकोइया का पेड़",
+      "analysis_correct": "✅ **Why this is correct**\n\n- The Coast Redwood (*Sequoia sempervirens*), a species of the Sequoia tree found in California, holds the world record for the tallest known living organism. A specific tree named 'Hyperion' measures over 115 meters (380 feet) tall.\n\n✅ **यह सही क्यों है**\n\n- कैलिफोर्निया में पाई जाने वाली सिकोइया पेड़ की एक प्रजाति कोस्ट रेडवुड (*सिकोइया सेम्परविरेंस*), सबसे लंबे ज्ञात जीवित जीव का विश्व रिकॉर्ड रखती है। 'हाइपरियन' नाम का एक विशिष्ट पेड़ 115 मीटर (380 फीट) से अधिक लंबा है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- The Banyan tree is famous for having the widest canopy spread, not height. Sausage and Jojoba trees are significantly shorter species belonging to entirely different families.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- बरगद का पेड़ अपने सबसे चौड़े कैनोपी फैलाव के लिए प्रसिद्ध है, ऊंचाई के लिए नहीं। सॉसेज और जोजोबा के पेड़ काफी छोटी प्रजातियां हैं जो पूरी तरह से अलग परिवारों से संबंधित हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Biological superlatives (tallest, oldest, largest, widest) are standard trivia questions in environmental science exams.\n\n📝 **निष्कर्ष**\n\n- जैविक अतिशयोक्ति (सबसे लंबा, सबसे पुराना, सबसे बड़ा, सबसे चौड़ा) पर्यावरण विज्ञान परीक्षाओं में मानक सामान्य ज्ञान के प्रश्न हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The exact location of the Hyperion tree is kept highly secret by authorities to prevent tourists from trampling its delicate root system and damaging the surrounding ecosystem.\n\n💡 **रोचक तथ्य**\n\n- हाइपरियन पेड़ के सटीक स्थान को अधिकारियों द्वारा अत्यधिक गुप्त रखा जाता है ताकि पर्यटकों को इसकी नाजुक जड़ प्रणाली को कुचलने और आसपास के पारिस्थितिक तंत्र को नुकसान पहुंचाने से रोका जा सके।"
+    }
+  },
+  {
+    "id": "BIO410",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Morphology"
+    },
+    "tags":[
+      "SeedDispersal",
+      "Botany",
+      "Impatiens"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Explosive seed pods that release seeds with very high velocity and send them off to large distances is observed in which of the following?",
+    "question_hi": "विस्फोटक बीज फली जो बहुत अधिक वेग के साथ बीज छोड़ती है और उन्हें बड़ी दूर तक भेजती है, निम्नलिखित में से किसमें देखी जाती है?",
+    "options":[
+      "Salvia",
+      "Coconut",
+      "Impatiens",
+      "Dandelions"
+    ],
+    "options_hi":[
+      "साल्विया",
+      "नारियल",
+      "इम्पेटेंस (गुलमेंहदी)",
+      "डेंडेलियन"
+    ],
+    "correct": "Impatiens",
+    "explanation": {
+      "summary": "Correct Answer: Impatiens\n\nसही उत्तर: इम्पेटेंस (गुलमेंहदी)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Plants in the genus *Impatiens* (commonly known as 'touch-me-nots' or jewelweeds) employ explosive dehiscence. When ripe, mechanical tension causes their seed pods to burst violently upon the slightest touch, catapulting seeds several meters away.\n\n✅ **यह सही क्यों है**\n\n- जीनस *इम्पेटेंस* (जिन्हें आमतौर पर 'टच-मी-नॉट' या ज्वेलवीड कहा जाता है) के पौधे विस्फोटक स्फुटन (dehiscence) का उपयोग करते हैं। पकने पर, यांत्रिक तनाव के कारण उनके बीज फली जरा से स्पर्श पर हिंसक रूप से फट जाते हैं, और बीजों को कई मीटर दूर फेंक देते हैं।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Coconuts are dispersed by water (hydrochory). Dandelions are dispersed gently by the wind using parachute-like structures (anemochory). Salvia relies mostly on gravity and insect disturbance.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- नारियल पानी (हाइड्रोचोरी) द्वारा बिखेरे जाते हैं। डेंडेलियन को पैराशूट जैसी संरचनाओं (एनीमोचोरी) का उपयोग करके हवा द्वारा धीरे से बिखेरा जाता है। साल्विया ज्यादातर गुरुत्वाकर्षण और कीट की गड़बड़ी पर निर्भर करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Seed dispersal mechanisms (wind, water, animal, explosive) are brilliant evolutionary adaptations to prevent seedling competition directly under the parent plant.\n\n📝 **निष्कर्ष**\n\n- बीज फैलाव तंत्र (हवा, पानी, जानवर, विस्फोटक) सीधे मूल पौधे के नीचे अंकुर प्रतियोगिता को रोकने के लिए शानदार विकासवादी अनुकूलन हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The explosive mechanism in *Impatiens* happens in milliseconds. The sudden coiling of the pod valves acts exactly like a loaded mechanical spring releasing its stored elastic energy.\n\n💡 **रोचक तथ्य**\n\n- *इम्पेटेंस* में विस्फोटक तंत्र मिलीसेकंड में होता है। फली वाल्व का अचानक कुंडलित होना ठीक एक लोडेड मैकेनिकल स्प्रिंग की तरह काम करता है जो अपनी संग्रहीत लोचदार ऊर्जा को छोड़ता है।"
+    }
+  },
+  {
+    "id": "HIS1848",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "History",
+      "topic": "Modern History",
+      "subTopic": "Tribal & Peasant Uprisings"
+    },
+    "tags":[
+      "IndigoRevolt",
+      "ChamparanSatyagraha",
+      "EconomicBotany"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Plants are also associated with the colonial/British rule in India and have been linked to some revolts on Indian soil. Choose the one that is also associated with one of the great freedom fighters.",
+    "question_hi": "पौधे भारत में औपनिवेशिक/ब्रिटिश शासन से भी जुड़े हुए हैं और भारतीय धरती पर कुछ विद्रोहों से भी जुड़े हुए हैं। उसे चुनें जो एक महान स्वतंत्रता सेनानी से भी जुड़ा है।",
+    "options":[
+      "Pyrus malus",
+      "Azadirachta indica",
+      "Indigofera tinctoria",
+      "Ficus indica"
+    ],
+    "options_hi":[
+      "Pyrus malus",
+      "Azadirachta indica",
+      "Indigofera tinctoria",
+      "Ficus indica"
+    ],
+    "correct": "Indigofera tinctoria",
+    "explanation": {
+      "summary": "Correct Answer: Indigofera tinctoria\n\nसही उत्तर: Indigofera tinctoria",
+      "analysis_correct": "✅ **Why this is correct**\n\n- *Indigofera tinctoria* is the scientific name for the Indigo plant. Forced cultivation of this cash crop by the British sparked the Indigo Revolt in Bengal (1859) and the famous Champaran Satyagraha (1917) led by Mahatma Gandhi against the oppressive 'Tinkathia' system.\n\n✅ **यह सही क्यों है**\n\n- *इंडिगोफेरा टिंक्टोरिया* इंडिगो (नील) के पौधे का वैज्ञानिक नाम है। अंग्रेजों द्वारा इस नकदी फसल की जबरन खेती ने बंगाल में नील विद्रोह (1859) और दमनकारी 'तिनकठिया' प्रणाली के खिलाफ महात्मा गांधी के नेतृत्व में प्रसिद्ध चंपारण सत्याग्रह (1917) को जन्म दिया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- *Pyrus malus* is the apple tree. *Azadirachta indica* is the neem tree. *Ficus indica* is the banyan tree. None of these triggered mass agrarian revolts spearheaded by national freedom fighters against forced colonial commercial farming.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- *पाइरस मालस* सेब का पेड़ है। *अज़ादिराक्टा इंडिका* नीम का पेड़ है। *फिकस इंडिका* बरगद का पेड़ है। इनमें से किसी ने भी जबरन औपनिवेशिक व्यावसायिक खेती के खिलाफ राष्ट्रीय स्वतंत्रता सेनानियों के नेतृत्व में बड़े पैमाने पर कृषि विद्रोह को जन्म नहीं दिया।",
+      "conclusion": "📝 **Concluding Note**\n\n- The integration of biological nomenclature with historical events makes this an excellent cross-disciplinary question, common in modern competitive exams.\n\n📝 **निष्कर्ष**\n\n- ऐतिहासिक घटनाओं के साथ जैविक नामकरण का एकीकरण इसे एक उत्कृष्ट अंतर-अनुशासनात्मक प्रश्न बनाता है, जो आधुनिक प्रतियोगी परीक्षाओं में आम है।",
+      "fact": "💡 **Interesting Fact**\n\n- The atrocities of the British Indigo planters in Bengal were powerfully documented by Dinabandhu Mitra in his highly controversial and influential 1860 play, 'Nil Darpan'.\n\n💡 **रोचक तथ्य**\n\n- बंगाल में ब्रिटिश नील बागान मालिकों के अत्याचारों को दीनबंधु मित्र ने 1860 के अपने अत्यधिक विवादास्पद और प्रभावशाली नाटक 'नील दर्पण' में शक्तिशाली ढंग से प्रलेखित किया था।"
+    }
+  },
+  {
+    "id": "BIO411",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "subTopic": "Plant Kingdom Classification"
+    },
+    "tags":[
+      "FatherOfIndianBotany",
+      "WilliamRoxburgh",
+      "Taxonomy"
+    ],
+    "properties": {
+      "difficulty": "Hard",
+      "questionType": "MCQ"
+    },
+    "question": "This person is known as the Father of Indian Botany for his enormous contributions to the field. Choose the correct option.",
+    "question_hi": "इस व्यक्ति को इस क्षेत्र में उनके भारी योगदान के लिए भारतीय वनस्पति विज्ञान के जनक (Father of Indian Botany) के रूप में जाना जाता है। सही विकल्प चुनें।",
+    "options":[
+      "Panchanan Maheshwari",
+      "Salim Ali",
+      "William Roxburgh",
+      "Robert Hooker"
+    ],
+    "options_hi":[
+      "पंचानन माहेश्वरी",
+      "सालिम अली",
+      "विलियम रॉक्सबर्ग",
+      "रॉबर्ट हुकर"
+    ],
+    "correct": "William Roxburgh",
+    "explanation": {
+      "summary": "Correct Answer: William Roxburgh\n\nसही उत्तर: विलियम रॉक्सबर्ग",
+      "analysis_correct": "✅ **Why this is correct**\n\n- William Roxburgh, a Scottish surgeon and botanist, is widely revered as the 'Father of Indian Botany'. He served as the superintendent of the Calcutta Botanic Garden and extensively documented Indian flora, publishing foundational texts like 'Flora Indica'.\n\n✅ **यह सही क्यों है**\n\n- एक स्कॉटिश सर्जन और वनस्पतिशास्त्री विलियम रॉक्सबर्ग को व्यापक रूप से 'भारतीय वनस्पति विज्ञान के जनक' के रूप में सम्मानित किया जाता है। उन्होंने कलकत्ता बॉटैनिकल गार्डन के अधीक्षक के रूप में कार्य किया और 'फ्लोरा इंडिका' जैसे संस्थापक ग्रंथ प्रकाशित करते हुए भारतीय वनस्पतियों का बड़े पैमाने पर दस्तावेजीकरण किया।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Panchanan Maheshwari is famed for plant embryology. Salim Ali was India's preeminent ornithologist (Birdman of India). Robert Hooker was a renowned British botanist, but Roxburgh specifically holds this title for India.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- पंचानन माहेश्वरी पादप भ्रूण विज्ञान के लिए प्रसिद्ध हैं। सालिम अली भारत के प्रख्यात पक्षीविज्ञानी (भारत के बर्डमैन) थे। रॉबर्ट हुकर एक प्रसिद्ध ब्रिटिश वनस्पतिशास्त्री थे, लेकिन विशेष रूप से रॉक्सबर्ग भारत के लिए यह उपाधि रखते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- Historical pioneers in taxonomy and natural sciences laid the groundwork for the modern cataloging of the rich biodiversity found on the Indian subcontinent.\n\n📝 **निष्कर्ष**\n\n- वर्गीकरण और प्राकृतिक विज्ञान में ऐतिहासिक अग्रदूतों ने भारतीय उपमहाद्वीप में पाई जाने वाली समृद्ध जैव विविधता की आधुनिक सूची तैयार करने के लिए आधार तैयार किया।",
+      "fact": "💡 **Interesting Fact**\n\n- During his time in India, Roxburgh commissioned Indian artists to paint detailed watercolor illustrations of over 2,500 local plant species, which are now historically invaluable.\n\n💡 **रोचक तथ्य**\n\n- भारत में अपने समय के दौरान, रॉक्सबर्ग ने भारतीय कलाकारों को 2,500 से अधिक स्थानीय पौधों की प्रजातियों के विस्तृत जलरंग चित्र (watercolor illustrations) बनाने के लिए नियुक्त किया, जो अब ऐतिहासिक रूप से अमूल्य हैं।"
+    }
+  },
+  {
+    "id": "BIO412",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Biotechnology & Applications",
+      "subTopic": "Biotechnology & Applications"
+    },
+    "tags":[
+      "Totipotency",
+      "TissueCulture",
+      "CellBiology"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "The phenomenon of production of whole organism from a cell by providing a suitable nutrient medium is called as",
+    "question_hi": "एक उपयुक्त पोषक माध्यम प्रदान करके एक कोशिका से पूरे जीव के निर्माण की घटना को कहा जाता है:",
+    "options":[
+      "Apospory",
+      "Totipotency",
+      "Vegetative propagation",
+      "Pluripotency"
+    ],
+    "options_hi":[
+      "एपोस्पोरी (अपबीजाणुता)",
+      "टोटीपोटेंसी (पूर्णशक्तता)",
+      "वानस्पतिक प्रसार",
+      "प्लुरिपोटेंसी (बहुशक्तता)"
+    ],
+    "correct": "Totipotency",
+    "explanation": {
+      "summary": "Correct Answer: Totipotency\n\nसही उत्तर: टोटीपोटेंसी (पूर्णशक्तता)",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Totipotency is the inherent genetic ability of a single isolated cell (most commonly seen in plant cells) to divide, differentiate, and regenerate into a completely new, mature organism when cultured in a proper artificial nutrient medium.\n\n✅ **यह सही क्यों है**\n\n- टोटीपोटेंसी एक एकल पृथक कोशिका (आमतौर पर पादप कोशिकाओं में देखी जाने वाली) की विभाजित होने, अंतर करने और उचित कृत्रिम पोषक माध्यम में संवर्धित होने पर पूरी तरह से नए, परिपक्व जीव में पुनर्जीवित होने की अंतर्निहित आनुवंशिक क्षमता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Pluripotency means the cell can form almost all cell types but not an entire organism. Vegetative propagation involves macroscopic plant parts (like cuttings), not solitary cells. Apospory is a specialized asexual reproduction form without meiosis.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- प्लुरिपोटेंसी का मतलब है कि कोशिका लगभग सभी कोशिका प्रकार बना सकती है लेकिन पूरा जीव नहीं। वानस्पतिक प्रसार में मैक्रोस्कोपिक पौधे के भाग (जैसे कटिंग) शामिल होते हैं, न कि अकेली कोशिकाएं। एपोस्पोरी अर्धसूत्रीविभाजन के बिना एक विशेष अलैंगिक प्रजनन रूप है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Cellular totipotency forms the foundational principle behind all modern plant tissue culture and micropropagation techniques used in agriculture.\n\n📝 **निष्कर्ष**\n\n- सेलुलर टोटीपोटेंसी कृषि में उपयोग की जाने वाली सभी आधुनिक पादप ऊतक संवर्धन और सूक्ष्मप्रसार (micropropagation) तकनीकों के पीछे का आधारभूत सिद्धांत बनाती है।",
+      "fact": "💡 **Interesting Fact**\n\n- In humans, only the zygote and the cells formed during the first few cell divisions (up to the 8-cell stage) are truly totipotent.\n\n💡 **रोचक तथ्य**\n\n- मनुष्यों में, केवल युग्मनज (zygote) और पहले कुछ कोशिका विभाजनों (8-कोशिका अवस्था तक) के दौरान बनने वाली कोशिकाएं ही वास्तव में पूर्णशक्त (totipotent) होती हैं।"
+    }
+  },
+  {
+    "id": "ENV225",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Ecology & Environment",
+      "topic": "Ecology & Ecosystem",
+      "subTopic": "Basic Concepts"
+    },
+    "tags":[
+      "GreenGold",
+      "Bamboo",
+      "SustainableResources"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Scientists have termed one of the following as Green Gold based on its economic and ecological importance:",
+    "question_hi": "वैज्ञानिकों ने इसके आर्थिक और पारिस्थितिक महत्व के आधार पर निम्नलिखित में से एक को 'हरा सोना (Green Gold)' कहा है:",
+    "options":[
+      "Sal",
+      "Coffee",
+      "Bamboo",
+      "Rice"
+    ],
+    "options_hi":[
+      "साल",
+      "कॉफी",
+      "बांस",
+      "चावल"
+    ],
+    "correct": "Bamboo",
+    "explanation": {
+      "summary": "Correct Answer: Bamboo\n\nसही उत्तर: बांस",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Bamboo is frequently referred to as 'Green Gold' by scientists and policymakers. It is a fast-growing, highly renewable grass that provides immense economic value (construction, textiles, paper) while being ecologically vital for carbon sequestration.\n\n✅ **यह सही क्यों है**\n\n- बांस को वैज्ञानिकों और नीति निर्माताओं द्वारा अक्सर 'हरा सोना' कहा जाता है। यह तेजी से बढ़ने वाली, अत्यधिक नवीकरणीय घास है जो कार्बन पृथक्करण के लिए पारिस्थितिक रूप से महत्वपूर्ण होने के साथ-साथ अपार आर्थिक मूल्य (निर्माण, कपड़ा, कागज) प्रदान करती है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- While Sal, Coffee, and Rice are crucial economic crops/trees, they do not possess the uniquely rapid regeneration cycle and multi-industry versatility that earned Bamboo the specific moniker of 'Green Gold'.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जबकि साल, कॉफी और चावल महत्वपूर्ण आर्थिक फसलें/पेड़ हैं, उनमें विशिष्ट रूप से तीव्र पुनर्जनन चक्र और बहु-उद्योग बहुमुखी प्रतिभा नहीं है, जिसने बांस को 'ग्रीन गोल्ड' का विशिष्ट उपनाम दिया।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Indian government removed bamboo grown outside forest areas from the definition of a 'tree' under the Indian Forest Act, classifying it as a grass to boost its commercial cultivation.\n\n📝 **निष्कर्ष**\n\n- भारत सरकार ने भारतीय वन अधिनियम के तहत वन क्षेत्रों के बाहर उगाए जाने वाले बांस को 'पेड़' की परिभाषा से हटा दिया, इसके व्यावसायिक खेती को बढ़ावा देने के लिए इसे घास के रूप में वर्गीकृत किया।",
+      "fact": "💡 **Interesting Fact**\n\n- Bamboo is the fastest-growing terrestrial plant in the world; certain species can grow up to 91 cm (35 inches) within a single 24-hour period!\n\n💡 **रोचक तथ्य**\n\n- बांस दुनिया में सबसे तेजी से बढ़ने वाला स्थलीय पौधा है; कुछ प्रजातियां 24 घंटे की अवधि के भीतर 91 सेमी (35 इंच) तक बढ़ सकती हैं!"
+    }
+  },
+  {
+    "id": "BIO413",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Health, Nutrition & Diseases",
+      "subTopic": "Human Diseases (Communicable & Non-communicable)"
+    },
+    "tags": [
+      "Zoonosis",
+      "Epidemiology",
+      "Pathogens"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "Which statement correctly describes a zoonotic disease?",
+    "question_hi": "कौन सा कथन जूनोटिक रोग (zoonotic disease) का सही वर्णन करता है?",
+    "options":[
+      "It spreads only through contaminated food",
+      "It is caused by plant pathogens",
+      "It is a disease shared between vertebrate animals and humans",
+      "It is a disease confined to wildlife species only"
+    ],
+    "options_hi":[
+      "यह केवल दूषित भोजन से फैलता है",
+      "यह पौधों के रोगजनकों के कारण होता है",
+      "यह एक बीमारी है जो कशेरुकी जानवरों और मनुष्यों के बीच साझा होती है",
+      "यह केवल वन्यजीव प्रजातियों तक ही सीमित बीमारी है"
+    ],
+    "correct": "It is a disease shared between vertebrate animals and humans",
+    "explanation": {
+      "summary": "Correct Answer: It is a disease shared between vertebrate animals and humans\n\nसही उत्तर: यह एक बीमारी है जो कशेरुकी जानवरों और मनुष्यों के बीच साझा होती है",
+      "analysis_correct": "✅ **Why this is correct**\n\n- A zoonotic disease (or zoonosis) is an infectious disease that has jumped from a non-human animal to humans. It is fundamentally defined as a disease transmitted between vertebrate animals (like bats, pigs, dogs) and humans.\n\n✅ **यह सही क्यों है**\n\n- जूनोटिक रोग (या जूनोसिस) एक संक्रामक रोग है जो गैर-मानव जानवर से मनुष्यों में कूद गया है। इसे मौलिक रूप से कशेरुकी जानवरों (जैसे चमगादड़, सूअर, कुत्ते) और मनुष्यों के बीच फैलने वाली बीमारी के रूप में परिभाषित किया गया है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Zoonoses are definitively not confined strictly to wildlife (pets and livestock are huge vectors). They are not caused by plant pathogens, and while some can spread via food, they are not *only* foodborne (they spread via air, vectors, or direct contact).\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- जूनोसिस निश्चित रूप से कड़ाई से वन्यजीवों तक सीमित नहीं हैं (पालतू जानवर और पशुधन विशाल वैक्टर हैं)। वे पौधों के रोगजनकों के कारण नहीं होते हैं, और हालांकि कुछ भोजन के माध्यम से फैल सकते हैं, वे *केवल* खाद्य-जनित नहीं हैं (वे हवा, वैक्टर या सीधे संपर्क के माध्यम से फैलते हैं)।",
+      "conclusion": "📝 **Concluding Note**\n\n- Modern global pandemics (like COVID-19, Ebola, and Swine Flu) are prominently zoonotic in nature, bringing the term heavily into public focus.\n\n📝 **निष्कर्ष**\n\n- आधुनिक वैश्विक महामारियां (जैसे कोविड-19, इबोला और स्वाइन फ्लू) प्रकृति में प्रमुख रूप से जूनोटिक हैं, जो इस शब्द को सार्वजनिक ध्यान में लाती हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- According to the CDC, scientists estimate that more than 6 out of every 10 known infectious diseases in people can be spread from animals, and 3 out of every 4 new or emerging infectious diseases in people come from animals.\n\n💡 **रोचक तथ्य**\n\n- सीडीसी के अनुसार, वैज्ञानिकों का अनुमान है कि लोगों में ज्ञात हर 10 संक्रामक रोगों में से 6 से अधिक जानवरों से फैल सकते हैं, और लोगों में हर 4 नए या उभरते संक्रामक रोगों में से 3 जानवरों से आते हैं।"
+    }
+  },
+  {
+    "id": "BIO414",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Health, Nutrition & Diseases",
+      "subTopic": "Vaccines & Immunology"
+    },
+    "tags": [
+      "Immunology",
+      "Allergy",
+      "Antibodies"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Type I (Immediate) hypersensitivity is mediated primarily by:",
+    "question_hi": "टाइप I (तत्काल) अतिसंवेदनशीलता मुख्य रूप से किसके द्वारा मध्यस्थता की जाती है:",
+    "options":[
+      "IgA",
+      "IgG",
+      "IgM",
+      "IgE"
+    ],
+    "options_hi":[
+      "IgA",
+      "IgG",
+      "IgM",
+      "IgE"
+    ],
+    "correct": "IgE",
+    "explanation": {
+      "summary": "Correct Answer: IgE\n\nसही उत्तर: IgE",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Type I hypersensitivity is an immediate allergic reaction (like asthma, anaphylaxis, or hay fever). This specific reaction is mediated by Immunoglobulin E (IgE) antibodies, which bind to mast cells and basophils, triggering the massive release of histamine.\n\n✅ **यह सही क्यों है**\n\n- टाइप I अतिसंवेदनशीलता एक तत्काल एलर्जी प्रतिक्रिया है (जैसे अस्थमा, एनाफिलेक्सिस, या हे फीवर)। इस विशिष्ट प्रतिक्रिया की मध्यस्थता इम्युनोग्लोबुलिन ई (IgE) एंटीबॉडी द्वारा की जाती है, जो मास्ट कोशिकाओं और बेसोफिल से जुड़ते हैं, जिससे भारी मात्रा में हिस्टामाइन निकलता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- IgG and IgM are primarily involved in Type II (cytotoxic) and Type III (immune complex) hypersensitivities. IgA is associated with mucosal immunity found in bodily secretions like saliva and tears.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- IgG और IgM मुख्य रूप से टाइप II (साइटोटॉक्सिक) और टाइप III (प्रतिरक्षा जटिल) अतिसंवेदनशीलता में शामिल हैं। IgA लार और आंसुओं जैसे शारीरिक स्रावों में पाई जाने वाली म्यूकोसल प्रतिरक्षा से जुड़ा है।",
+      "conclusion": "📝 **Concluding Note**\n\n- The rapid release of histamine by IgE-coated mast cells causes the classic allergy symptoms: vasodilation, swelling, itching, and mucous secretion.\n\n📝 **निष्कर्ष**\n\n- IgE-लेपित मास्ट कोशिकाओं द्वारा हिस्टामाइन के तेजी से जारी होने से क्लासिक एलर्जी के लक्षण पैदा होते हैं: वासोडिलेशन (रक्त वाहिकाओं का चौड़ा होना), सूजन, खुजली और श्लेष्म स्राव।",
+      "fact": "💡 **Interesting Fact**\n\n- Evolutionarily, IgE antibodies did not develop to cause annoying pollen allergies; their primary original biological purpose was to protect the body against parasitic worm infections in the gut.\n\n💡 **रोचक तथ्य**\n\n- विकासवादी रूप से, IgE एंटीबॉडी कष्टप्रद पराग एलर्जी पैदा करने के लिए विकसित नहीं हुए थे; उनका प्राथमिक मूल जैविक उद्देश्य शरीर को आंत में परजीवी कृमि संक्रमण से बचाना था।"
+    }
+  },
+  {
+    "id": "BIO415",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "Genetics",
+      "MendelLaws",
+      "Inheritance"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Which of the following is not a Mendelian law of inheritance?",
+    "question_hi": "निम्नलिखित में से कौन सा विरासत का मेंडेलियन नियम नहीं है?",
+    "options":[
+      "Law of Dominance",
+      "Law of Segregation",
+      "Law of Independent Assortment",
+      "Law of Purity of Gametes"
+    ],
+    "options_hi":[
+      "प्रभुत्व का नियम",
+      "अलगाव का नियम",
+      "स्वतंत्र वर्गीकरण का नियम",
+      "युग्मकों की शुद्धता का नियम"
+    ],
+    "correct": "Law of Purity of Gametes",
+    "explanation": {
+      "summary": "Correct Answer: Law of Purity of Gametes\n\nसही उत्तर: युग्मकों की शुद्धता का नियम",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Gregor Mendel explicitly formulated only three fundamental laws: Law of Dominance, Law of Segregation, and Law of Independent Assortment. The 'Law of Purity of Gametes' is not a separate fourth law; it is merely an alternative descriptive phrase used to explain the Law of Segregation.\n\n✅ **यह सही क्यों है**\n\n- ग्रेगर मेंडल ने स्पष्ट रूप से केवल तीन मूलभूत नियम तैयार किए: प्रभुत्व का नियम, अलगाव का नियम, और स्वतंत्र वर्गीकरण का नियम। 'युग्मकों की शुद्धता का नियम' कोई अलग चौथा नियम नहीं है; यह केवल अलगाव के नियम को समझाने के लिए इस्तेमाल किया जाने वाला एक वैकल्पिक वर्णनात्मक वाक्यांश है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Dismissing Dominance, Segregation, or Independent Assortment would be factually incorrect as they represent the universally acknowledged trinity of classical Mendelian genetics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- प्रभुत्व, अलगाव या स्वतंत्र वर्गीकरण को खारिज करना तथ्यात्मक रूप से गलत होगा क्योंकि वे शास्त्रीय मेंडेलियन आनुवंशिकी की सार्वभौमिक रूप से स्वीकृत त्रिमूर्ति का प्रतिनिधित्व करते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The Law of Segregation states that allele pairs separate during gamete formation, meaning each gamete purely carries only one allele for a trait—hence its nickname.\n\n📝 **निष्कर्ष**\n\n- अलगाव का नियम कहता है कि युग्मक निर्माण के दौरान एलील जोड़े अलग हो जाते हैं, जिसका अर्थ है कि प्रत्येक युग्मक विशुद्ध रूप से एक विशेषता के लिए केवल एक एलील ले जाता है-इसलिए इसका उपनाम 'युग्मकों की शुद्धता का नियम' है।",
+      "fact": "💡 **Interesting Fact**\n\n- Gregor Mendel's groundbreaking work on pea plants went completely unrecognized by the scientific community during his lifetime; it was independently rediscovered 16 years after his death in 1900.\n\n💡 **रोचक तथ्य**\n\n- मटर के पौधों पर ग्रेगर मेंडल का अभूतपूर्व काम उनके जीवनकाल के दौरान वैज्ञानिक समुदाय द्वारा पूरी तरह से अपरिचित रहा; 1900 में उनकी मृत्यु के 16 साल बाद इसे स्वतंत्र रूप से फिर से खोजा गया था।"
+    }
+  },
+  {
+    "id": "BIO416",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "DNA",
+      "MolecularBiology",
+      "WatsonAndCrick"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "In the DNA double helix model proposed by Watson and Crick, the two strands of DNA runs;",
+    "question_hi": "वाटसन और क्रिक द्वारा प्रस्तावित डीएनए डबल हेलिक्स मॉडल में, डीएनए के दो स्ट्रैंड चलते हैं:",
+    "options":[
+      "Parallel",
+      "Anti-Parallel",
+      "Circular",
+      "Perpendicular"
+    ],
+    "options_hi":[
+      "समानांतर",
+      "प्रति-समानांतर",
+      "वृत्ताकार",
+      "लंबवत"
+    ],
+    "correct": "Anti-Parallel",
+    "explanation": {
+      "summary": "Correct Answer: Anti-Parallel\n\nसही उत्तर: प्रति-समानांतर",
+      "analysis_correct": "✅ **Why this is correct**\n\n- According to the Watson and Crick structural model, the two polynucleotide chains of DNA run in opposite directions—one strand runs $5' \\rightarrow 3'$ while the complementary strand runs $3' \\rightarrow 5'$. This opposing orientation is termed 'anti-parallel'.\n\n✅ **यह सही क्यों है**\n\n- वाटसन और क्रिक संरचनात्मक मॉडल के अनुसार, डीएनए की दो पॉली न्यूक्लियोटाइड श्रृंखलाएं विपरीत दिशाओं में चलती हैं - एक स्ट्रैंड $5' \\rightarrow 3'$ चलता है जबकि पूरक स्ट्रैंड $3' \\rightarrow 5'$ चलता है। इस विपरीत अभिविन्यास को 'प्रति-समानांतर (Anti-Parallel)' कहा जाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- If they were parallel, the bulky nitrogenous bases would not physically align properly for hydrogen bonding. They are linear in eukaryotes (not circular like bacterial plasmids) and never perpendicular.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- यदि वे समानांतर होते, तो भारी नाइट्रोजनस बेस हाइड्रोजन बॉन्डिंग के लिए शारीरिक रूप से ठीक से संरेखित नहीं होते। वे यूकेरियोट्स में रैखिक हैं (बैक्टीरियल प्लास्मिड की तरह गोलाकार नहीं) और कभी भी लंबवत नहीं होते हैं।",
+      "conclusion": "📝 **Concluding Note**\n\n- The anti-parallel nature is chemically critical because DNA polymerases can only add new nucleotides to the $3'$ end, resulting in distinct 'leading' and 'lagging' strands during replication.\n\n📝 **निष्कर्ष**\n\n- प्रति-समानांतर प्रकृति रासायनिक रूप से महत्वपूर्ण है क्योंकि डीएनए पॉलीमरेज़ केवल $3'$ सिरे में नए न्यूक्लियोटाइड जोड़ सकते हैं, जिसके परिणामस्वरूप प्रतिकृति के दौरान अलग-अलग 'अग्रणी (leading)' और 'पिछड़ने (lagging)' स्ट्रैंड होते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Rosalind Franklin's famous 'Photo 51', taken using X-ray crystallography, was the crucial, unauthorized piece of evidence Watson and Crick used to deduce the double helix structure.\n\n💡 **रोचक तथ्य**\n\n- रोज़ालिंड फ्रैंकलिन की प्रसिद्ध 'फोटो 51', जिसे एक्स-रे क्रिस्टलोग्राफी का उपयोग करके लिया गया था, वह महत्वपूर्ण साक्ष्य था जिसका उपयोग वाटसन और क्रिक ने डबल हेलिक्स संरचना का अनुमान लगाने के लिए किया था।"
+    }
+  },
+  {
+    "id": "BIO417",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "Drosophila",
+      "Genetics",
+      "THMorgan"
+    ],
+    "properties": {
+      "difficulty": "Medium",
+      "questionType": "MCQ"
+    },
+    "question": "Who popularized Drosophila as a genetic model organism?",
+    "question_hi": "ड्रोसोफिला (Drosophila) को आनुवंशिक मॉडल जीव के रूप में किसने लोकप्रिय बनाया?",
+    "options":[
+      "Gregor Mendel",
+      "Rosalind Franklin",
+      "Thomas Hunt Morgan",
+      "James Watson"
+    ],
+    "options_hi":[
+      "ग्रेगर मेंडल",
+      "रोज़ालिंड फ्रैंकलिन",
+      "थॉमस हंट मॉर्गन",
+      "जेम्स वॉटसन"
+    ],
+    "correct": "Thomas Hunt Morgan",
+    "explanation": {
+      "summary": "Correct Answer: Thomas Hunt Morgan\n\nसही उत्तर: थॉमस हंट मॉर्गन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- Thomas Hunt Morgan pioneered the use of the common fruit fly (*Drosophila melanogaster*) in genetic research. His famous 'Fly Room' experiments proved that genes are physically located on chromosomes, establishing the chromosomal theory of inheritance.\n\n✅ **यह सही क्यों है**\n\n- थॉमस हंट मॉर्गन ने आनुवंशिक अनुसंधान में सामान्य फल मक्खी (*ड्रोसोफिला मेलानोगास्टर*) के उपयोग का बीड़ा उठाया। उनके प्रसिद्ध 'फ्लाई रूम' प्रयोगों ने साबित कर दिया कि जीन भौतिक रूप से गुणसूत्रों पर स्थित होते हैं, जिससे विरासत का गुणसूत्रीय सिद्धांत स्थापित हुआ।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- Mendel worked strictly with pea plants. Rosalind Franklin and James Watson are associated with discovering the molecular structure of DNA, not establishing fruit fly genetics.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- मेंडल ने कड़ाई से मटर के पौधों के साथ काम किया। रोज़ालिंड फ्रैंकलिन और जेम्स वॉटसन डीएनए की आणविक संरचना की खोज से जुड़े हैं, न कि फल मक्खी आनुवंशिकी की स्थापना से।",
+      "conclusion": "📝 **Concluding Note**\n\n- *Drosophila* remains a favorite model organism in biology today because they breed quickly, lay hundreds of eggs, and have easily observable traits (like eye color) tied to just four pairs of chromosomes.\n\n📝 **निष्कर्ष**\n\n- *ड्रोसोफिला* आज भी जीव विज्ञान में एक पसंदीदा मॉडल जीव बना हुआ है क्योंकि वे जल्दी प्रजनन करते हैं, सैकड़ों अंडे देते हैं, और उनमें आसानी से देखे जाने वाले लक्षण (जैसे आंखों का रंग) होते हैं जो गुणसूत्रों के केवल चार जोड़े से बंधे होते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- Morgan initially bred flies for years without finding any mutants until he finally spotted a single male fly with white eyes instead of the normal red, a discovery that changed biology forever.\n\n💡 **रोचक तथ्य**\n\n- मॉर्गन ने शुरुआत में बिना कोई म्यूटेंट खोजे सालों तक मक्खियों का प्रजनन कराया, जब तक कि उन्हें अंततः सामान्य लाल रंग के बजाय सफेद आंखों वाली एक नर मक्खी नहीं दिखाई दी, एक ऐसी खोज जिसने जीव विज्ञान को हमेशा के लिए बदल दिया।"
+    }
+  },
+  {
+    "id": "BIO418",
+    "sourceInfo": {
+      "examName": "BPSC AEDO",
+      "examYear": 2026,
+      "examDateShift": "20 April 2026, Shift 3"
+    },
+    "classification": {
+      "subject": "Biology",
+      "topic": "Cell Biology & Genetics",
+      "subTopic": "Genetics & Evolution"
+    },
+    "tags":[
+      "Evolution",
+      "Adaptation",
+      "NaturalSelection"
+    ],
+    "properties": {
+      "difficulty": "Easy",
+      "questionType": "MCQ"
+    },
+    "question": "A trait that increases an organism's chance of survival is called:",
+    "question_hi": "वह गुण जो किसी जीव के जीवित रहने की संभावना को बढ़ाता है, कहलाता है:",
+    "options":[
+      "Mutation",
+      "Adaptation",
+      "Variation",
+      "Hybrid"
+    ],
+    "options_hi":[
+      "उत्परिवर्तन",
+      "अनुकूलन",
+      "भिन्नता",
+      "संकर"
+    ],
+    "correct": "Adaptation",
+    "explanation": {
+      "summary": "Correct Answer: Adaptation\n\nसही उत्तर: अनुकूलन",
+      "analysis_correct": "✅ **Why this is correct**\n\n- In evolutionary biology, an adaptation is a physical or behavioral characteristic (trait) that has evolved through natural selection specifically because it increases the fitness and survival probability of an organism in its environment.\n\n✅ **यह सही क्यों है**\n\n- विकासवादी जीव विज्ञान में, एक अनुकूलन एक भौतिक या व्यवहारिक विशेषता (लक्षण) है जो प्राकृतिक चयन के माध्यम से विकसित हुआ है क्योंकि यह अपने पर्यावरण में जीव की फिटनेस और जीवित रहने की संभावना को बढ़ाता है।",
+      "analysis_incorrect": "❌ **Why other options are incorrect**\n\n- A mutation is a random change in DNA (which can be harmful, neutral, or beneficial). Variation is the general difference among individuals. A hybrid is an offspring of different species. None inherently define an *increased* survival chance like 'Adaptation' does.\n\n❌ **अन्य विकल्प गलत क्यों हैं**\n\n- उत्परिवर्तन डीएनए में एक यादृच्छिक परिवर्तन है (जो हानिकारक, तटस्थ या लाभकारी हो सकता है)। भिन्नता व्यक्तियों के बीच सामान्य अंतर है। संकर विभिन्न प्रजातियों की संतान है। कोई भी स्वाभाविक रूप से 'अनुकूलन' की तरह जीवित रहने की बढ़ी हुई संभावना को परिभाषित नहीं करता है।",
+      "conclusion": "📝 **Concluding Note**\n\n- Charles Darwin's Theory of Evolution by Natural Selection relies heavily on the concept that advantageous adaptations are passed down to future generations.\n\n📝 **निष्कर्ष**\n\n- चार्ल्स डार्विन का प्राकृतिक चयन द्वारा विकास का सिद्धांत इस अवधारणा पर बहुत अधिक निर्भर करता है कि लाभप्रद अनुकूलन भावी पीढ़ियों को दिए जाते हैं।",
+      "fact": "💡 **Interesting Fact**\n\n- The thick white fur of a polar bear is a classic physical adaptation for camouflage in snow, but its black skin underneath is an adaptation to absorb maximum heat from the sun.\n\n💡 **रोचक तथ्य**\n\n- ध्रुवीय भालू के घने सफेद बाल बर्फ में छलावरण (camouflage) के लिए एक उत्कृष्ट शारीरिक अनुकूलन हैं, लेकिन इसके नीचे की काली त्वचा सूरज से अधिकतम गर्मी को अवशोषित करने के लिए एक अनुकूलन है।"
+    }
+  }
+]
